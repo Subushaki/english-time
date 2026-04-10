@@ -223,13 +223,53 @@
 
   // ===== COMPARE ANSWERS =====
   function compareAnswers(userAnswer, correctAnswer) {
-    if (mode === 'en-tr') {
-      // Turkish comparison: use Turkish locale
-      return normalizeTurkish(userAnswer) === normalizeTurkish(correctAnswer);
-    } else {
-      // English comparison: standard lowercase
-      return userAnswer.toLowerCase().trim() === correctAnswer.toLowerCase().trim();
+    const normalize = mode === 'en-tr' ? normalizeTurkish : normalizeEnglish;
+    const userNorm = normalize(userAnswer);
+
+    // 1. Split by " / " to get alternatives
+    const alternatives = correctAnswer.split(/\s*\/\s*/);
+
+    for (const alt of alternatives) {
+      // 2. Generate variants for each alternative (handle parentheses)
+      const variants = generateVariants(alt);
+
+      for (const variant of variants) {
+        if (userNorm === normalize(variant)) {
+          return true;
+        }
+      }
     }
+
+    return false;
+  }
+
+  // Generate all valid answer variants from parenthesized text
+  function generateVariants(text) {
+    const variants = new Set();
+    const trimmed = text.trim();
+
+    // Original text (with parentheses)
+    variants.add(trimmed);
+
+    // Variant 1: Remove parentheses AND their content
+    // "Postacı (Kadın)" → "Postacı"
+    // "Büyü(t)mek" → "Büyümek"
+    const withoutParens = trimmed
+      .replace(/\s*\([^)]*\)/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    if (withoutParens) variants.add(withoutParens);
+
+    // Variant 2: Keep parenthesized content but remove the parens themselves
+    // "Postacı (Kadın)" → "Postacı Kadın"
+    // "Büyü(t)mek" → "Büyütmek"
+    const withContent = trimmed
+      .replace(/\(([^)]*)\)/g, '$1')
+      .replace(/\s+/g, ' ')
+      .trim();
+    variants.add(withContent);
+
+    return [...variants];
   }
 
   function normalizeTurkish(str) {
@@ -244,6 +284,10 @@
       .replace(/Ö/g, 'ö')
       .replace(/Ç/g, 'ç')
       .toLowerCase();
+  }
+
+  function normalizeEnglish(str) {
+    return str.trim().toLowerCase();
   }
 
   // ===== NEXT WORD (after wrong answer) =====
