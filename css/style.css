@@ -1171,6 +1171,43 @@ body {
   overflow: hidden;
 }
 
+.word-list-actions {
+  display: flex;
+  gap: 10px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+  border-top: 1px solid var(--glass-border);
+  justify-content: center;
+}
+
+.custom-quiz-btn {
+  font-size: 0.85rem;
+  padding: 10px 16px;
+}
+
+.star-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0 5px;
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.star-btn:hover {
+  transform: scale(1.1);
+  color: var(--accent-purple);
+}
+
+.star-btn.starred {
+  color: #fbbf24;
+  text-shadow: 0 0 10px rgba(251, 191, 36, 0.4);
+}
+
 .word-list-row {
   display: flex;
   align-items: center;

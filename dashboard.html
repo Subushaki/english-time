@@ -13,13 +13,11 @@
   <div class="bg-effects">
     <div class="orb orb-1"></div>
     <div class="orb orb-2"></div>
-    <div class="orb orb-3"></div>
   </div>
   <div class="stars"></div>
 
   <div class="container">
 
-    <!-- User Bar -->
     <div class="user-bar" id="user-bar"></div>
 
     <div class="brand" style="margin-bottom: 24px;">
@@ -28,10 +26,9 @@
       <p id="dash-subtitle">İlerleme durumun</p>
     </div>
 
-    <!-- Loading -->
     <div id="dash-loading" style="color: var(--text-muted); text-align: center;">Yükleniyor...</div>
 
-    <!-- Dashboard Content (hidden until loaded) -->
+    <!-- Dashboard Content -->
     <div id="dash-content" style="display: none; width: 100%; max-width: 700px;">
 
       <!-- Overall Stats -->
@@ -58,36 +55,65 @@
         </div>
       </div>
 
-      <!-- Study Words Section -->
-      <div class="word-list-section wl-unknown" id="study-section" style="margin-bottom: 24px; display: none;">
-        <div class="word-list-header" id="study-header">
+      <!-- ⭐ Starred Words + Custom Quiz -->
+      <div class="word-list-section wl-starred" id="starred-section" style="margin-bottom: 24px; display: none;">
+        <div class="word-list-header" id="starred-header">
           <div class="word-list-title">
-            <span class="word-list-icon">📖</span>
-            <span>Çalışılması Gereken Kelimeler</span>
-            <span class="word-list-count" id="study-count">0</span>
+            <span class="word-list-icon">⭐</span>
+            <span>Yıldızlı Kelimeler</span>
+            <span class="word-list-count" id="starred-count">0</span>
           </div>
           <span class="word-list-toggle">▼</span>
         </div>
-        <div class="word-list-body" id="study-body"></div>
+        <div class="word-list-body" id="starred-body"></div>
+        <div class="word-list-actions" id="starred-actions">
+          <button class="btn-primary custom-quiz-btn" id="btn-starred-quiz-entr" onclick="startCustomQuiz('en-tr', 'starred')">
+            ⭐ Özel Quiz (EN→TR)
+          </button>
+          <button class="btn-secondary custom-quiz-btn" id="btn-starred-quiz-tren" onclick="startCustomQuiz('tr-en', 'starred')">
+            ⭐ Özel Quiz (TR→EN)
+          </button>
+        </div>
+      </div>
+
+      <!-- 📋 All Words by Category -->
+      <div class="word-list-section wl-retry" id="wrong-section" style="margin-bottom: 24px; display: none;">
+        <div class="word-list-header" id="wrong-header">
+          <div class="word-list-title">
+            <span class="word-list-icon">📝</span>
+            <span>Hatalı Cevaplanan Kelimeler</span>
+            <span class="word-list-count" id="wrong-count">0</span>
+          </div>
+          <span class="word-list-toggle">▼</span>
+        </div>
+        <div class="word-list-body" id="wrong-body"></div>
+        <div class="word-list-actions" id="wrong-actions">
+          <button class="btn-primary custom-quiz-btn" onclick="startCustomQuiz('en-tr', 'wrong')">
+            📝 Hatalılarla Quiz (EN→TR)
+          </button>
+          <button class="btn-secondary custom-quiz-btn" onclick="startCustomQuiz('tr-en', 'wrong')">
+            📝 Hatalılarla Quiz (TR→EN)
+          </button>
+        </div>
       </div>
 
       <!-- Past Sessions -->
-      <div class="word-list-section wl-retry" id="sessions-section" style="margin-bottom: 24px; display: none;">
+      <div class="word-list-section wl-first" id="sessions-section" style="margin-bottom: 24px; display: none;">
         <div class="word-list-header" id="sessions-header">
           <div class="word-list-title">
             <span class="word-list-icon">📋</span>
             <span>Geçmiş Oturumlar</span>
             <span class="word-list-count" id="sessions-count">0</span>
           </div>
-          <span class="word-list-toggle">▼</span>
+          <span class="word-list-toggle">▶</span>
         </div>
-        <div class="word-list-body" id="sessions-body"></div>
+        <div class="word-list-body collapsed" id="sessions-body"></div>
       </div>
 
       <!-- Actions -->
       <div class="results-actions" style="margin-top: 16px;">
-        <a href="index.html" class="btn-primary">▶ Yeni Quiz Başlat</a>
-        <a href="study.html" class="btn-secondary" id="study-link" style="display: none;">📖 Kelime Çalış</a>
+        <a href="index.html" class="btn-primary">▶ Yeni Tam Quiz</a>
+        <a href="study.html" class="btn-secondary" id="study-link" style="display: none;">📖 Flashcard Çalış</a>
       </div>
 
     </div>
@@ -105,6 +131,78 @@
   <script src="js/auth.js"></script>
   <script src="js/words-a2.js"></script>
   <script>
+    let dashUser = null;
+    let starredWordIds = [];
+    let wrongWordIds = [];
+
+    // Toggle star from dashboard
+    async function toggleStarDash(wordId, btn) {
+      const sb = getSupabase();
+      const isStarred = btn.classList.contains('starred');
+
+      if (isStarred) {
+        await sb.from('study_words').update({ starred: false })
+          .eq('user_id', dashUser.id).eq('word_id', wordId);
+        btn.classList.remove('starred');
+        btn.textContent = '☆';
+        starredWordIds = starredWordIds.filter(id => id !== wordId);
+      } else {
+        await sb.from('study_words').upsert({
+          user_id: dashUser.id,
+          word_id: wordId,
+          starred: true,
+          mastered: false
+        }, { onConflict: 'user_id,word_id' });
+        btn.classList.add('starred');
+        btn.textContent = '★';
+        if (!starredWordIds.includes(wordId)) starredWordIds.push(wordId);
+      }
+
+      // Update count
+      document.getElementById('starred-count').textContent = starredWordIds.length;
+      // Hide section if empty
+      if (starredWordIds.length === 0) {
+        document.getElementById('starred-section').style.display = 'none';
+      }
+    }
+
+    // Start custom quiz
+    function startCustomQuiz(mode, type) {
+      const ids = type === 'starred' ? starredWordIds : wrongWordIds;
+      if (ids.length === 0) {
+        alert('Bu kategoride kelime yok!');
+        return;
+      }
+      localStorage.setItem('custom_quiz_ids', JSON.stringify(ids));
+      window.location.href = `quiz.html?level=a2&mode=${mode}&custom=true`;
+    }
+
+    // Render word row with star toggle
+    function createWordRow(word, isStarred) {
+      const row = document.createElement('div');
+      row.className = 'word-list-row';
+      row.innerHTML = `
+        <button class="star-btn ${isStarred ? 'starred' : ''}"
+                onclick="toggleStarDash(${word.id}, this)" title="Yıldızla">
+          ${isStarred ? '★' : '☆'}
+        </button>
+        <span class="word-en">${word.en}</span>
+        <span class="word-separator">—</span>
+        <span class="word-tr">${word.tr}</span>
+      `;
+      return row;
+    }
+
+    // Toggle section
+    function setupToggle(headerId, bodyId) {
+      document.getElementById(headerId).addEventListener('click', () => {
+        const body = document.getElementById(bodyId);
+        body.classList.toggle('collapsed');
+        const toggle = document.querySelector(`#${headerId} .word-list-toggle`);
+        toggle.textContent = body.classList.contains('collapsed') ? '▶' : '▼';
+      });
+    }
+
     document.addEventListener('DOMContentLoaded', async () => {
       const user = await getCurrentUser();
       document.getElementById('dash-loading').style.display = 'none';
@@ -114,72 +212,86 @@
         return;
       }
 
+      dashUser = user;
       document.getElementById('dash-subtitle').textContent = `Hoş geldin, ${user.username}!`;
       document.getElementById('dash-content').style.display = 'block';
 
       const sb = getSupabase();
 
-      // Fetch overall word results
+      // 1. Fetch all word results
       const { data: wordResults } = await sb
         .from('word_results').select('*').eq('user_id', user.id);
 
-      if (wordResults && wordResults.length > 0) {
-        // Count unique words by best result
-        const bestResults = {};
+      // 2. Fetch starred/study words
+      const { data: studyWords } = await sb
+        .from('study_words').select('*').eq('user_id', user.id);
+
+      // Build best results map
+      const bestResults = {};
+      if (wordResults) {
         wordResults.forEach(wr => {
-          const key = wr.word_id;
           const priority = { first_try: 1, retry: 2, hard: 3, unknown: 4 };
-          if (!bestResults[key] || priority[wr.result] < priority[bestResults[key]]) {
-            bestResults[key] = wr.result;
+          if (!bestResults[wr.word_id] || priority[wr.result] < priority[bestResults[wr.word_id]]) {
+            bestResults[wr.word_id] = wr.result;
           }
         });
-
-        let first = 0, retry = 0, hard = 0, unknown = 0;
-        Object.values(bestResults).forEach(r => {
-          if (r === 'first_try') first++;
-          else if (r === 'retry') retry++;
-          else if (r === 'hard') hard++;
-          else if (r === 'unknown') unknown++;
-        });
-
-        document.getElementById('dash-first').textContent = first;
-        document.getElementById('dash-retry').textContent = retry;
-        document.getElementById('dash-hard').textContent = hard;
-        document.getElementById('dash-unknown').textContent = unknown;
       }
 
-      // Fetch study words
-      const { data: studyWords } = await sb
-        .from('study_words').select('*').eq('user_id', user.id).eq('mastered', false);
+      // Count stats
+      let first = 0, retry = 0, hard = 0, unknown = 0;
+      Object.values(bestResults).forEach(r => {
+        if (r === 'first_try') first++;
+        else if (r === 'retry') retry++;
+        else if (r === 'hard') hard++;
+        else if (r === 'unknown') unknown++;
+      });
 
-      if (studyWords && studyWords.length > 0) {
-        document.getElementById('study-section').style.display = 'block';
-        document.getElementById('study-count').textContent = studyWords.length;
+      document.getElementById('dash-first').textContent = first;
+      document.getElementById('dash-retry').textContent = retry;
+      document.getElementById('dash-hard').textContent = hard;
+      document.getElementById('dash-unknown').textContent = unknown;
+
+      // Build starred word IDs
+      const starredSet = new Set();
+      if (studyWords) {
+        studyWords.forEach(sw => {
+          if (sw.starred) starredSet.add(sw.word_id);
+        });
+      }
+      starredWordIds = [...starredSet];
+
+      // Show starred words section
+      if (starredWordIds.length > 0) {
+        document.getElementById('starred-section').style.display = 'block';
+        document.getElementById('starred-count').textContent = starredWordIds.length;
         document.getElementById('study-link').style.display = 'inline-flex';
 
-        const body = document.getElementById('study-body');
-        studyWords.forEach(sw => {
-          const word = WORDS_A2.find(w => w.id === sw.word_id);
-          if (!word) return;
-          const row = document.createElement('div');
-          row.className = 'word-list-row';
-          row.innerHTML = `
-            <span class="word-en">${word.en}</span>
-            <span class="word-separator">—</span>
-            <span class="word-tr">${word.tr}</span>
-          `;
-          body.appendChild(row);
+        const body = document.getElementById('starred-body');
+        starredWordIds.forEach(wid => {
+          const word = WORDS_A2.find(w => w.id === wid);
+          if (word) body.appendChild(createWordRow(word, true));
         });
-
-        // Toggle
-        document.getElementById('study-header').addEventListener('click', () => {
-          body.classList.toggle('collapsed');
-          document.querySelector('#study-header .word-list-toggle').textContent =
-            body.classList.contains('collapsed') ? '▶' : '▼';
-        });
+        setupToggle('starred-header', 'starred-body');
       }
 
-      // Fetch sessions
+      // Show wrong words (not first_try)
+      wrongWordIds = Object.entries(bestResults)
+        .filter(([_, r]) => r !== 'first_try')
+        .map(([id, _]) => parseInt(id));
+
+      if (wrongWordIds.length > 0) {
+        document.getElementById('wrong-section').style.display = 'block';
+        document.getElementById('wrong-count').textContent = wrongWordIds.length;
+
+        const body = document.getElementById('wrong-body');
+        wrongWordIds.forEach(wid => {
+          const word = WORDS_A2.find(w => w.id === wid);
+          if (word) body.appendChild(createWordRow(word, starredSet.has(wid)));
+        });
+        setupToggle('wrong-header', 'wrong-body');
+      }
+
+      // Past sessions
       const { data: sessions } = await sb
         .from('quiz_sessions').select('*').eq('user_id', user.id)
         .eq('status', 'completed').order('completed_at', { ascending: false }).limit(10);
@@ -205,13 +317,7 @@
           `;
           body.appendChild(row);
         });
-
-        // Toggle
-        document.getElementById('sessions-header').addEventListener('click', () => {
-          body.classList.toggle('collapsed');
-          document.querySelector('#sessions-header .word-list-toggle').textContent =
-            body.classList.contains('collapsed') ? '▶' : '▼';
-        });
+        setupToggle('sessions-header', 'sessions-body');
       }
     });
   </script>
