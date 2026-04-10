@@ -101,8 +101,11 @@
       </div>
     </div>
 
-    <!-- Home Button -->
-    <a href="index.html" class="home-btn" id="home-btn">← Ana Sayfa</a>
+    <!-- Bottom Actions -->
+    <div class="quiz-bottom-actions" id="quiz-bottom-actions">
+      <a href="index.html" class="home-btn" id="home-btn">← Ana Sayfa</a>
+      <button class="finish-btn" id="finish-btn" onclick="finishQuiz()">🏁 Sonuçlandır</button>
+    </div>
 
     <!-- Results Screen (hidden by default) -->
     <div class="results-screen" id="results-screen">
@@ -132,6 +135,9 @@
           <span class="result-label">Bilinmiyor</span>
         </div>
       </div>
+
+      <!-- Word Lists by Category -->
+      <div class="results-word-lists" id="results-word-lists"></div>
 
       <div class="results-actions">
         <button class="btn-primary" onclick="restartQuiz()">🔄 Tekrar Oyna</button>

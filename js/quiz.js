@@ -1,5 +1,5 @@
 // ===== QUIZ ENGINE =====
-// 3-attempt system with retry queue
+// 3-attempt system with retry queue + word tracking
 
 (function () {
   'use strict';
@@ -20,6 +20,14 @@
     retry: 0,      // Correct on attempt 2
     hard: 0,       // Correct on attempt 3
     unknown: 0     // Failed all 3 attempts
+  };
+
+  // Word tracking: categorized lists for results screen
+  const wordLists = {
+    firstTry: [],  // { en, tr }
+    retry: [],
+    hard: [],
+    unknown: []
   };
 
   // ===== INIT =====
@@ -154,13 +162,16 @@
       feedback.className = 'feedback-message correct';
       feedback.innerHTML = '✅ Doğru!';
 
-      // Record stat based on attempt number
+      // Record stat and word based on attempt number
       if (currentItem.attempt === 1) {
         stats.firstTry++;
+        wordLists.firstTry.push(currentItem.word);
       } else if (currentItem.attempt === 2) {
         stats.retry++;
+        wordLists.retry.push(currentItem.word);
       } else if (currentItem.attempt === 3) {
         stats.hard++;
+        wordLists.hard.push(currentItem.word);
       }
 
       completedWords++;
@@ -197,6 +208,7 @@
       } else {
         // 3rd attempt failed — mark as unknown
         stats.unknown++;
+        wordLists.unknown.push(currentItem.word);
         completedWords++;
         updateProgress();
       }
@@ -240,6 +252,21 @@
     showNextWord();
   };
 
+  // ===== FINISH QUIZ EARLY =====
+  window.finishQuiz = function () {
+    if (completedWords === 0) {
+      // Nothing done yet, don't allow
+      return;
+    }
+    // Confirm
+    if (!confirm(`${completedWords} kelime çözüldü. Testi sonuçlandırmak istediğinize emin misiniz?`)) {
+      return;
+    }
+    // Clear remaining queue
+    queue = [];
+    showResults();
+  };
+
   // ===== UPDATE PROGRESS =====
   function updateProgress() {
     document.getElementById('progress-count').textContent = `${completedWords} / ${totalWords}`;
@@ -261,7 +288,7 @@
     document.getElementById('progress-section').style.display = 'none';
     document.getElementById('quiz-card').style.display = 'none';
     document.getElementById('stats-bar').style.display = 'none';
-    document.getElementById('home-btn').style.display = 'none';
+    document.getElementById('quiz-bottom-actions').style.display = 'none';
 
     // Populate results
     document.getElementById('result-first').textContent = stats.firstTry;
@@ -271,12 +298,104 @@
 
     // Subtitle
     const total = stats.firstTry + stats.retry + stats.hard + stats.unknown;
-    const successRate = Math.round(((stats.firstTry + stats.retry + stats.hard) / total) * 100);
+    const successRate = total > 0 ? Math.round(((stats.firstTry + stats.retry + stats.hard) / total) * 100) : 0;
     document.getElementById('results-subtitle').textContent =
-      `${total} kelime tamamlandı — %${successRate} başarı oranı`;
+      `${total} kelime çözüldü — %${successRate} başarı oranı`;
+
+    // Build word lists
+    buildWordLists();
 
     // Show results
     document.getElementById('results-screen').classList.add('visible');
+
+    // Scroll to top
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  // ===== BUILD WORD LISTS =====
+  function buildWordLists() {
+    const container = document.getElementById('results-word-lists');
+    container.innerHTML = '';
+
+    const categories = [
+      {
+        key: 'firstTry',
+        icon: '⚡',
+        title: 'İlk Seferde Bilinen',
+        colorClass: 'wl-first',
+        words: wordLists.firstTry
+      },
+      {
+        key: 'retry',
+        icon: '🔄',
+        title: 'Tekrarda Öğrenilen',
+        colorClass: 'wl-retry',
+        words: wordLists.retry
+      },
+      {
+        key: 'hard',
+        icon: '😓',
+        title: 'Yapılamayan',
+        colorClass: 'wl-hard',
+        words: wordLists.hard
+      },
+      {
+        key: 'unknown',
+        icon: '❌',
+        title: 'Bilinmiyor',
+        colorClass: 'wl-unknown',
+        words: wordLists.unknown
+      }
+    ];
+
+    categories.forEach(cat => {
+      if (cat.words.length === 0) return; // Skip empty categories
+
+      const section = document.createElement('div');
+      section.className = `word-list-section ${cat.colorClass}`;
+
+      // Header with toggle
+      const header = document.createElement('div');
+      header.className = 'word-list-header';
+      header.innerHTML = `
+        <div class="word-list-title">
+          <span class="word-list-icon">${cat.icon}</span>
+          <span>${escapeHtml(cat.title)}</span>
+          <span class="word-list-count">${cat.words.length}</span>
+        </div>
+        <span class="word-list-toggle">▼</span>
+      `;
+      header.addEventListener('click', () => {
+        const body = section.querySelector('.word-list-body');
+        const toggle = header.querySelector('.word-list-toggle');
+        if (body.classList.contains('collapsed')) {
+          body.classList.remove('collapsed');
+          toggle.textContent = '▼';
+        } else {
+          body.classList.add('collapsed');
+          toggle.textContent = '▶';
+        }
+      });
+
+      // Body (word table)
+      const body = document.createElement('div');
+      body.className = 'word-list-body';
+
+      cat.words.forEach(word => {
+        const row = document.createElement('div');
+        row.className = 'word-list-row';
+        row.innerHTML = `
+          <span class="word-en">${escapeHtml(word.en)}</span>
+          <span class="word-separator">—</span>
+          <span class="word-tr">${escapeHtml(word.tr)}</span>
+        `;
+        body.appendChild(row);
+      });
+
+      section.appendChild(header);
+      section.appendChild(body);
+      container.appendChild(section);
+    });
   }
 
   // ===== RESTART =====
@@ -287,6 +406,10 @@
     stats.retry = 0;
     stats.hard = 0;
     stats.unknown = 0;
+    wordLists.firstTry = [];
+    wordLists.retry = [];
+    wordLists.hard = [];
+    wordLists.unknown = [];
     currentItem = null;
     isWaiting = false;
 
@@ -294,7 +417,7 @@
     document.getElementById('progress-section').style.display = '';
     document.getElementById('quiz-card').style.display = '';
     document.getElementById('stats-bar').style.display = '';
-    document.getElementById('home-btn').style.display = '';
+    document.getElementById('quiz-bottom-actions').style.display = '';
     document.getElementById('results-screen').classList.remove('visible');
 
     // Re-shuffle and start

@@ -1,0 +1,415 @@
+ENGLISH TIME - LEVEL 2 KELİME LİSTESİ (410 Kelime)
+====================================================
+
+No   | English                              | Türkçe
+-----|--------------------------------------|-----------------------------------------------
+1    | Sky                                  | Gökyüzü
+2    | Wood                                 | Ağaçlık
+3    | Hill                                 | Tepe
+4    | Farmer                               | Çiftçi
+5    | Valley                               | Vadi
+6    | Tree                                 | Ağaç
+7    | Field                                | Alan / Tarla
+8    | Farm                                 | Çiftlik
+9    | Lake                                 | Göl
+10   | Horse                                | At
+11   | Boat                                 | Kayık
+12   | Grass                                | Çimen
+13   | Dog                                  | Köpek
+14   | Path                                 | Patika / Keçi Yolu
+15   | Grow                                 | Büyü(t)mek / Yetiş(tir)mek
+16   | Own                                  | Sahip Olmak
+17   | Crop                                 | Mahsul
+18   | Area                                 | Alan / Bölge
+19   | Countryside                          | Kırsal Bölge
+20   | Bird                                 | Kuş
+21   | Wonderful                            | Harika
+22   | Fresh Food                           | Taze Yiyecek
+23   | Healthy                              | Sağlıklı
+24   | Public Transport                     | Toplu Taşıma
+25   | Terrible                             | Korkunç
+26   | Ride a Bike                          | Bisiklete Binmek
+27   | Alone                                | Yalnız
+28   | Lonely                               | Yalnız Bir Şekilde
+29   | Look After                           | İlgilenmek
+30   | Market                               | Market
+31   | Outdoor                              | Açık Hava / Dış Mekan
+32   | Indoor                               | Kapalı / İç Mekan
+33   | Shopping Centre                      | Alışveriş Merkezi
+34   | Department Store                     | Büyük Mağaza
+35   | Hypermarket                          | Hipermarket
+36   | Butcher's                            | Kasap
+37   | Chemist's                            | Eczane
+38   | Paper Shop / Newsagent               | Gazete Bayii
+39   | Convenient                           | Uygun
+40   | Get                                  | Edinmek / Almak
+41   | Do The Shopping                      | Alışveriş Yapmak
+42   | Queue                                | Sıra / Kuyruk
+43   | Check Out                            | Kasa
+44   | Choose                               | Seçmek
+45   | Prefer                               | Tercih Etmek
+46   | Fill                                 | Doldurmak
+47   | Full                                 | Dolu
+48   | Trolley                              | Alışveriş Arabası
+49   | Deliver                              | İletmek / Ulaştırmak
+50   | (on) The Top Floor                   | Üst Katta
+51   | (on) The Second Floor                | İkinci Katta
+52   | (on) The First Floor                 | Birinci Katta
+53   | (on) The Ground Floor                | Zemin Katta
+54   | Garden                               | Bahçe
+55   | Steps                                | Merdivenler / Basamaklar
+56   | (in) The Basement                    | Bodrumda
+57   | Rubbish                              | Çöp
+58   | Front Door                           | Sokak Kapısı / Ön Kapı
+59   | Stairs                               | Merdivenler
+60   | Lift                                 | Asansör
+61   | Flat                                 | Daire
+62   | Balcony                              | Balkon
+63   | Modern                               | Modern
+64   | Old                                  | Eski
+65   | View                                 | Görüntü / Manzara
+66   | Upstairs                             | Üst Kat
+67   | Downstairs                           | Alt Kat
+68   | Outside                              | Dışarısı
+69   | Inside                               | İçerisi
+70   | Garage                               | Garaj
+71   | Parking                              | Park Yeri
+72   | Living Room                          | Oturma Odası
+73   | Dining Room                          | Yemek Odası
+74   | Study Room                           | Çalışma Odası
+75   | Kitchen                              | Mutfak
+76   | Home                                 | Ev
+77   | House                                | Bina
+78   | Shelf                                | Raf
+79   | Tap (turn the Tap on-off)            | Musluk
+80   | Cup                                  | Fincan
+81   | Microwave                            | Mikrodalga
+82   | Frying Pan                           | Kızartma Tavası
+83   | Freezer                              | Dondurucu
+84   | Sink                                 | Lavabo
+85   | Saucer                               | Çay Tabağı / Fincan Tabağı
+86   | Hob                                  | Set Üstü Ocak
+87   | Saucepan                             | Sos Tavası
+88   | (rubbish) Bin                        | Çöp Kovası
+89   | Full                                 | Dolu
+90   | Empty                                | Boş
+91   | Oven                                 | Fırın
+92   | Fridge                               | Buzdolabı
+93   | Washing Machine                      | Çamaşır Makinası
+94   | Cupboard                             | Dolap
+95   | Dishwasher                           | Bulaşık Makinası
+96   | Cooker                               | Ocak
+97   | Do The Shopping                      | Alışveriş Yapmak
+98   | Clean                                | Temizlemek
+99   | Take                                 | Almak
+100  | Make                                 | Yapmak
+101  | Do the Ironing                       | Ütü Yapmak
+102  | Do the Washing Up                    | Bulaşıkları Yıkamak
+103  | Housework                            | Ev İşi
+104  | Homework                             | Ev Ödevi
+105  | Bedroom                              | Yatak Odası
+106  | Single Bed                           | Tekli Yatak
+107  | Bedside Table                        | Komodin
+108  | Desk                                 | Sıra / Masa
+109  | Chest of Drawers                     | Çekmeceler
+110  | Wardrobe                             | Gardırop
+111  | Bath                                 | Banyo
+112  | Shower                               | Duş
+113  | Wash Basin                           | Lavabo
+114  | Mirror                               | Ayna
+115  | Blanket                              | Battaniye
+116  | Sheets                               | Çarşaflar
+117  | Towels                               | Havlular
+118  | Soap                                 | Sabun
+119  | Have a Wash                          | Yıkanmak
+120  | Clean Your Teeth                     | Dişlerini Temizlemek
+121  | Wash Your Hair                       | Saçlarını Yıkamak
+122  | Have a Shave                         | Tıraş Olmak
+123  | Put On Make Up                       | Makyaj Yapmak
+124  | Take Off Make Up                     | Makyajı Çıkarmak / Silmek
+125  | Tissue                               | Mendil
+126  | Put On Perfume                       | Parfüm Sıkmak
+127  | Wear Perfume                         | Parfüm Sıkmak
+128  | A Razor                              | Jilet
+129  | Toothpaste                           | Diş Macunu
+130  | Toothbrush                           | Diş Fırçası
+131  | Window                               | Pencere
+132  | Light                                | Işık
+133  | Ceiling                              | Tavan
+134  | Wall                                 | Duvar
+135  | Curtains                             | Perdeler
+136  | Cushion                              | Minder / Yastık
+137  | Lamp                                 | Lamba
+138  | Armchair                             | Tekli Koltuk
+139  | Coffee Table                         | Orta Sehpa
+140  | Floor                                | Yer / Kat
+141  | Sofa                                 | Çekyat
+142  | Rug                                  | Kilim
+143  | Carpet                               | Halı
+144  | Chemistry                            | Kimya
+145  | Physics                              | Fizik
+146  | Biology                              | Biyoloji
+147  | Maths                                | Matematik
+148  | Geography                            | Coğrafya
+149  | History                              | Tarih
+150  | Literature                           | Edebiyat
+151  | Art                                  | Resim / Sanat
+152  | Subjects                             | Konular / Dersler
+153  | Good at Something                    | Bir Şeyde İyi Olmak
+154  | Bad at Something                     | Bir Şeyde Kötü Olmak
+155  | Terrible At                          | Bir Şeyde Çok Kötü Olmak
+156  | Kindergarten                         | Anaokulu / Kreş
+157  | Primary School                       | İlkokul
+158  | Secondary School                     | Ortaokul
+159  | State School                         | Devlet Okulu
+160  | Private School                       | Özel Okul
+161  | Start at School                      | Okula Başlamak
+162  | Leave School                         | Okuldan Ayrılmak
+163  | Get a Job                            | İşe Girmek / İş Bulmak
+164  | Take Exam                            | Sınav Olmak
+165  | Pass an Exam                         | Bir Sınavı Geçmek
+166  | Fail an Exam                         | Bir Sınavdan Kalmak
+167  | Result                               | Sonuç
+168  | Grade                                | Not / Sınav Sonucu
+169  | Get a Grade                          | Sınav Sonucu Almak
+170  | Do Well                              | İyi Yapmak
+171  | Do Badly                             | Kötü Bir Şekilde Yapmak
+172  | Do a Degree                          | Derece Yapmak
+173  | Term                                 | Dönem
+174  | Library                              | Kütüphane
+175  | Undergraduate                        | Lisans Öğrencisi
+176  | Write an Essay                       | Bir Deneme Yazısı Yazmak
+177  | Again                                | Yeniden
+178  | Psychology                           | Psikoloji
+179  | A Psychologist                       | Psikolog
+180  | Economics                            | Ekonomi
+181  | Economist                            | Ekonomist
+182  | Law                                  | Hukuk
+183  | Lawyer                               | Avukat
+184  | Politics                             | Siyaset
+185  | A Politician                         | Siyasetçi
+186  | Engineering                          | Mühendislik
+187  | An Engineer                          | Mühendis
+188  | Architecture                         | Mimarlık
+189  | An Architect                         | Mimar
+190  | A Builder                            | İnşaatçı
+191  | A Teacher                            | Öğretmen
+192  | A Shop Assistant                     | Satıcı
+193  | A Nurse                              | Hemşire
+194  | A Secretary                          | Sekreter
+195  | A Hairdresser                        | Kuaför
+196  | A Chef                               | Şef
+197  | A Dentist                            | Dişçi
+198  | A Soldier                            | Asker
+199  | A Cleaner                            | Temizlikçi
+200  | A Vet                                | Veteriner
+201  | A Pilot                              | Pilot
+202  | A Lorry Driver                       | Kamyonet Sürücüsü
+203  | Self-Employed                        | Kendi İşinin Sahibi
+204  | Unemployed                           | İşsiz
+205  | Retired                              | Emekli
+206  | Housewife                            | Ev Hanımı
+207  | Boss                                 | Patron
+208  | An Office                            | Ofis
+209  | A Factory                            | Fabrika
+210  | Company                              | Şirket
+211  | Full-Time                            | Tam Zamanlı
+212  | Part-Time                            | Yarı Zamanlı
+213  | Long Hours                           | Uzun Saatler
+214  | Earn                                 | Kazanmak (Para)
+215  | Salary                               | Maaş
+216  | Wages                                | Günlük Ücret
+217  | Low                                  | Düşük
+218  | High                                 | Yüksek
+219  | Design Building                      | Bina Tasarlamak
+220  | Discuss Something                    | Bir Şeyi Tartışmak
+221  | To Go To Meeting                     | Bir Toplantıya Gitmek
+222  | Write a Report                       | Bir Rapor Yazmak
+223  | Organize Meeting                     | Toplantı Organize Etmek
+224  | Colleague                            | İş Arkadaşı / Meslektaş
+225  | Webcam                               | Video Kamera / İnternet Kamerası
+226  | Printer                              | Yazıcı
+227  | Laptop                               | Dizüstü Bilgisayar
+228  | Hard Drive                           | Sabit Disk
+229  | Monitor                              | Monitör
+230  | Disc                                 | Disk
+231  | Mouse                                | Fare
+232  | Memory Stick                         | Taşınabilir Bellek
+233  | Screen                               | Ekran
+234  | Cut                                  | Kesmek
+235  | Paste                                | Yapıştırmak
+236  | Save                                 | Kaydetmek
+237  | Print                                | Yazdırmak
+238  | Copy                                 | Kopyasını Almak / Kopyalamak
+239  | Check Your Email                     | E-Posta Kontrol Etmek
+240  | Get an Email                         | Bir E-Posta Almak
+241  | Reply To An Email                    | Bir E-Postaya Cevap Vermek
+242  | On The Internet                      | İnternette
+243  | Search                               | Araştırmak
+244  | Wonderful / Fantastic                | Harika / Büyüleyici
+245  | Favourite                            | Favori
+246  | Enjoy Doing Something                | Bir Şeyi Yapmaktan Keyif Almak
+247  | Boring                               | Sıkıcı
+248  | Be Keen On Something                 | Bir Şeye Çok İstekli Olmak
+249  | To Be Interested In                  | Bir Şeye İlgili Olmak
+250  | Prefer                               | Tercih Etmek
+251  | Camping                              | Kamp Yapma / Kamp
+252  | Travelling                           | Seyahat Etme / Seyahat
+253  | Collect Things                       | Bir Şeyler Toplamak
+254  | Skiing                               | Kayak Yapma / Kayak
+255  | Fishing                              | Balık Tutma
+256  | Spend Time                           | Zaman Geçirmek / Harcamak
+257  | Gym                                  | Spor / Spor Salonu
+258  | Drawing                              | Çizim Yapma / Çizim
+259  | Painting                             | Resim Yapma / Resim / Tablo
+260  | Gardening                            | Bahçecilik
+261  | Repair Cars                          | Arabaları Tamir Etmek
+262  | Listen to Something                  | Bir Şeyi Dinlemek
+263  | Shooting                             | Atış Yapma / Atış
+264  | Singing                              | Şarkı Söyleme
+265  | Band                                 | Müzik Grubu
+266  | Well-Known                           | İyi Bilinen
+267  | Lead Singer                          | Solist (Müzik Grubunun)
+268  | Concert                              | Konser
+269  | Conductor                            | Orkestra Şefi
+270  | Violinist                            | Kemancı
+271  | Violin                               | Keman
+272  | Composer                             | Bestekar
+273  | Perform                              | İcra Etmek
+274  | Thriller                             | Gerilim
+275  | Exciting                             | Heyecan Verici
+276  | Comedy                               | Komedi
+277  | Funny                                | Eğlenceli
+278  | Violent                              | Şiddetli / Şiddet İçerikli
+279  | Love Story                           | Aşk Hikayesi
+280  | Cinema                               | Sinema
+281  | Movie                                | Film
+282  | Review                               | İnceleme
+283  | Star                                 | Yıldız
+284  | Actor                                | Aktör
+285  | See a Film At the Cinema             | Sinemada Bir Film İzlemek
+286  | Media                                | Medya
+287  | Magazine                             | Dergi
+288  | Report                               | Rapor
+289  | Event                                | Olay
+290  | Die                                  | Ölmek
+291  | War                                  | Savaş
+292  | Peace                                | Barış / Huzur
+293  | Disaster                             | Felaket
+294  | Celebrity                            | Ünlü (Kişi)
+295  | Advert / Advertisement               | İlan / Reklam
+296  | Newspaper / Paper                    | Gazete
+297  | Find Out                             | Bulmak
+298  | Happen                               | Olmak / Meydana Gelmek
+299  | Article                              | Makale
+300  | On TV                                | Televizyonda
+301  | On the Radio                         | Radyoda
+302  | Nothing Much / Nothing Important     | Önemli Bir Şey Değil
+303  | Weather Forecast                     | Hava Durumu / Tahmini
+304  | Believe                              | İnanmak
+305  | To Go Abroad                         | Yurtdışına Gitmek
+306  | To Book a Flight                     | Bir Uçuş Rezervasyonu Yapmak
+307  | Find Your Passport                   | Pasaportunu Bulmak
+308  | To Get a Visa                        | Vize Almak
+309  | To Get Travel Insurance              | Seyahat Sigortası Almak
+310  | To Get Foreign Currency              | Yabancı Ülke Parası Almak
+311  | To Pack Your Suitcase                | Valizini Toplamak
+312  | To Hire a Car                        | Araba Kiralamak
+313  | To Arrange Something                 | Bir Şey Ayarlamak
+314  | On Holiday                           | Tatilde
+315  | Currency                             | Döviz
+316  | To Stay in a Hotel                   | Bir Otelde Kalmak
+317  | Facilities                           | Özellikler
+318  | Air Conditioning                     | Klima
+319  | Central Heating                      | Merkezi Isıtma
+320  | Staff                                | Personel / Kadro
+321  | Helpful                              | Yardımcı / Yardımsever
+322  | Tourist                              | Turist
+323  | Delicious                            | Lezzetli
+324  | Recommend                            | Önermek
+325  | To Book A Room                       | Bir Oda Rezervasyonu Yapmak
+326  | Included                             | İçeren
+327  | Never Mind                           | Dert Etme / Boşver
+328  | Details                              | Detaylar
+329  | Double Room                          | Çift Kişilik Oda
+330  | Single Room                          | Tek Kişilik Oda
+331  | Twin Room                            | Çift Yataklı Oda
+332  | That's a Shame                       | Bu Bir Utanç
+333  | What a Shame                         | Ne Utanç Verici
+334  | Passengers                           | Yolcular
+335  | Airport                              | Havaalanı
+336  | Luggage / Suitcase / Bag             | Bagaj / Valiz / Çanta
+337  | Ticket                               | Bilet
+338  | Hand Luggage                         | El Bagajı
+339  | Window Seat                          | Pencere Koltuğu
+340  | Aisle                                | Koridor
+341  | Have a Good Flight                   | İyi Uçuşlar
+342  | Departed                             | Ayrılmış
+343  | Departure                            | Havalanma / Kalkış
+344  | Gate                                 | Kapı
+345  | Delay                                | Gecikme
+346  | Fasten Seat Belt                     | Emniyet Kemeri Takmak
+347  | Plane Takes Off                      | Uçak Kalkar
+348  | Plane Lands                          | Uçak İner
+349  | Baggage Reclaim                      | Bagaj Teslim
+350  | To Go Through Customs                | Gümrükten Geçmek
+351  | Resort                               | Tatil Yeri
+352  | Fly                                  | Uçuş Yapmak
+353  | Rent an Apartment                    | Apartman Dairesi Kiralamak
+354  | Sunbathe                             | Güneşlenmek
+355  | Relax                                | Rahatlamak
+356  | An Hour or So                        | Bir Saate Kadar
+357  | To Go For a Walk                     | Yürüyüşe Çıkmak
+358  | Perfect                              | Mükemmel
+359  | Map                                  | Harita
+360  | Guide                                | Rehber
+361  | Guide Book                           | Rehber Kitap
+362  | To Go Sightseeing                    | Geziye Çıkmak / Bölge Turuna Çıkmak
+363  | Art Gallery                          | Sanat Galerisi
+364  | To Visit Museum                      | Müze Ziyaret Etmek
+365  | To Look Around                       | Bakınmak / Etrafı Seyretmek
+366  | To Get Lost                          | Kaybolmak
+367  | To Take Photos                       | Fotoğraf Çekmek
+368  | Cash Machine                         | Para Çekme Makinesi
+369  | Change Dollars into Euro             | Doları Avroya Çevirmek
+370  | Exchange Rate                        | Döviz Kuru
+371  | Commission                           | Komisyon
+372  | To Charge Someone                    | Birini Suçlamak
+373  | Envelope                             | Zarf
+374  | Put a Stamp                          | Posta Pulu Koymak
+375  | Postman                              | Postacı (Erkek)
+376  | Postwoman                            | Postacı (Kadın)
+377  | A Parcel                             | Posta / Parsel / Koli
+378  | Have a Nice Day                      | İyi Günler
+379  | Have a Good Day                      | İyi Günler
+380  | Well Done                            | Aferin
+381  | Congratulations                      | Tebrikler
+382  | Good Luck                            | İyi Şanslar
+383  | Cheers                               | Şerefe
+384  | To Go Out For                        | Dışarı Çıkmak
+385  | Come Around For (a Drink)            | İçmek İçin Dışarıda Buluşmak
+386  | Invite                               | Davet Etmek
+387  | Party                                | Parti
+388  | Great                                | Harika
+389  | I'd Love To                          | Çok İsterim
+390  | That Sounds Lovely                   | Kulağa Hoş Geliyor
+391  | I'm Afraid I Can't                   | Korkarım Yapamam
+392  | Suggest                              | Önermek
+393  | Offer                                | Ismarlamak
+394  | Accept                               | Kabul Etmek
+395  | Refuse                               | Geri Çevirmek
+396  | Let Me Pay                           | Bırak Ben Ödeyeyim
+397  | Let Me Give You a Lift               | Ben Seni Bırakayım
+398  | Apologize To Something               | Bir Şey İçin Özür Dilemek
+399  | Rude                                 | Kaba
+400  | Lose                                 | Kaybetmek
+401  | Excellent                            | Harika
+402  | Think                                | Düşünmek
+403  | Thought                              | Düşünce
+404  | Agree With Someone                   | Biriyle Aynı Fikirde Olmak
+405  | Personally                           | Kişisel Olarak
+406  | A Waste of Money / Time              | Para / Zaman Kaybı / İsrafı
+407  | Take a Message                       | Mesaj / Not Almak
+408  | Leave a Message                      | Mesaj Bırakmak
+409  | Line is Busy / Engaged               | Hat Meşgul
+410  | Wrong Number                         | Yanlış Numara
