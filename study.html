@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="English Time - Bilinmeyen kelimeleri çalış">
+  <title>English Time | Kelime Çalış</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+  <style>
+    .flashcard {
+      width: 100%;
+      max-width: 500px;
+      min-height: 220px;
+      perspective: 1000px;
+      cursor: pointer;
+      margin-bottom: 24px;
+    }
+    .flashcard-inner {
+      position: relative;
+      width: 100%;
+      min-height: 220px;
+      text-align: center;
+      transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+      transform-style: preserve-3d;
+    }
+    .flashcard.flipped .flashcard-inner {
+      transform: rotateY(180deg);
+    }
+    .flashcard-front, .flashcard-back {
+      position: absolute;
+      width: 100%;
+      min-height: 220px;
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+      background: var(--bg-card);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-xl);
+    }
+    .flashcard-back {
+      transform: rotateY(180deg);
+      border-color: var(--accent-purple);
+      box-shadow: var(--shadow-glow-purple);
+    }
+    .flashcard-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+    .flashcard-word {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+    .flashcard-hint {
+      margin-top: 20px;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+    .study-actions {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    .study-btn {
+      padding: 12px 28px;
+      border-radius: var(--radius-md);
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all var(--transition-fast);
+      border: none;
+    }
+    .study-btn.know {
+      background: rgba(16, 185, 129, 0.12);
+      color: var(--accent-green);
+      border: 1px solid rgba(16, 185, 129, 0.25);
+    }
+    .study-btn.know:hover {
+      background: rgba(16, 185, 129, 0.2);
+      transform: translateY(-2px);
+    }
+    .study-btn.dont-know {
+      background: rgba(239, 68, 68, 0.12);
+      color: var(--accent-red);
+      border: 1px solid rgba(239, 68, 68, 0.25);
+    }
+    .study-btn.dont-know:hover {
+      background: rgba(239, 68, 68, 0.2);
+      transform: translateY(-2px);
+    }
+    .study-progress {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 24px;
+    }
+    @media (max-width: 768px) {
+      .flashcard-word { font-size: 1.4rem; }
+      .flashcard-front, .flashcard-back { padding: 24px 16px; min-height: 180px; }
+      .study-btn { padding: 10px 20px; font-size: 0.82rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bg-effects">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+  <div class="stars"></div>
+
+  <div class="container">
+
+    <div class="user-bar" id="user-bar"></div>
+
+    <div class="brand" style="margin-bottom: 24px;">
+      <span class="brand-icon">📖</span>
+      <h1>Kelime Çalış</h1>
+      <p>Bilinmeyen kelimelerini tekrar et</p>
+    </div>
+
+    <div id="study-loading" style="color: var(--text-muted);">Yükleniyor...</div>
+
+    <!-- Study Content -->
+    <div id="study-content" style="display: none; text-align: center; width: 100%; display: none; flex-direction: column; align-items: center;">
+
+      <div class="study-progress" id="study-progress">0 / 0</div>
+
+      <!-- Flashcard -->
+      <div class="flashcard" id="flashcard" onclick="flipCard()">
+        <div class="flashcard-inner" id="flashcard-inner">
+          <div class="flashcard-front">
+            <span class="flashcard-label" id="fc-front-label">İngilizce</span>
+            <span class="flashcard-word" id="fc-front-word">Loading</span>
+            <span class="flashcard-hint">Kartı çevirmek için tıkla</span>
+          </div>
+          <div class="flashcard-back">
+            <span class="flashcard-label" id="fc-back-label">Türkçe</span>
+            <span class="flashcard-word" id="fc-back-word">Yükleniyor</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="study-actions" id="study-actions">
+        <button class="study-btn know" onclick="markKnown()">✅ Biliyorum</button>
+        <button class="study-btn dont-know" onclick="markUnknown()">❌ Bilmiyorum</button>
+      </div>
+    </div>
+
+    <!-- Empty State -->
+    <div id="study-empty" style="display: none; text-align: center;">
+      <p style="font-size: 3rem; margin-bottom: 12px;">🎉</p>
+      <p style="color: var(--text-secondary); margin-bottom: 20px;">Çalışılacak kelime yok! Tüm kelimelerini biliyorsun.</p>
+      <a href="index.html" class="btn-primary">🏠 Ana Sayfa</a>
+    </div>
+
+    <!-- Not Logged In -->
+    <div id="study-no-login" style="display: none; text-align: center;">
+      <p style="color: var(--text-secondary); margin-bottom: 20px;">Kelime çalışmak için giriş yapmalısınız.</p>
+      <a href="login.html" class="btn-primary">🔑 Giriş Yap</a>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/words-a2.js"></script>
+  <script>
+    let studyQueue = [];
+    let currentStudy = null;
+    let studyIndex = 0;
+    let currentUser = null;
+
+    function flipCard() {
+      document.getElementById('flashcard').classList.toggle('flipped');
+    }
+
+    async function markKnown() {
+      if (!currentStudy) return;
+      // Mark as mastered in Supabase
+      const sb = getSupabase();
+      await sb.from('study_words').update({ mastered: true })
+        .eq('user_id', currentUser.id).eq('word_id', currentStudy.id);
+      nextStudyCard();
+    }
+
+    function markUnknown() {
+      if (!currentStudy) return;
+      // Just move to next, keep in study list
+      nextStudyCard();
+    }
+
+    function nextStudyCard() {
+      studyIndex++;
+      if (studyIndex >= studyQueue.length) {
+        // All done
+        document.getElementById('study-content').style.display = 'none';
+        document.getElementById('study-empty').style.display = 'block';
+        return;
+      }
+      showStudyCard();
+    }
+
+    function showStudyCard() {
+      currentStudy = studyQueue[studyIndex];
+      document.getElementById('flashcard').classList.remove('flipped');
+      document.getElementById('fc-front-word').textContent = currentStudy.en;
+      document.getElementById('fc-back-word').textContent = currentStudy.tr;
+      document.getElementById('study-progress').textContent =
+        `${studyIndex + 1} / ${studyQueue.length}`;
+    }
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      const user = await getCurrentUser();
+      document.getElementById('study-loading').style.display = 'none';
+
+      if (!user || !user.id) {
+        document.getElementById('study-no-login').style.display = 'block';
+        return;
+      }
+
+      currentUser = user;
+      const sb = getSupabase();
+      const { data: studyWords } = await sb
+        .from('study_words').select('word_id')
+        .eq('user_id', user.id).eq('mastered', false);
+
+      if (!studyWords || studyWords.length === 0) {
+        document.getElementById('study-empty').style.display = 'block';
+        return;
+      }
+
+      // Build study queue from word IDs
+      studyWords.forEach(sw => {
+        const word = WORDS_A2.find(w => w.id === sw.word_id);
+        if (word) studyQueue.push(word);
+      });
+
+      // Shuffle
+      for (let i = studyQueue.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [studyQueue[i], studyQueue[j]] = [studyQueue[j], studyQueue[i]];
+      }
+
+      document.getElementById('study-content').style.display = 'flex';
+      showStudyCard();
+    });
+  </script>
+</body>
+</html>

@@ -30,6 +30,10 @@
     unknown: []
   };
 
+  // Supabase state (only for logged-in users)
+  let loggedInUser = null;
+  let sessionId = null;
+
   // ===== INIT =====
   function init() {
     // Parse URL params
@@ -82,6 +86,68 @@
         }
       }
     });
+
+    // Check if user is logged in & create session
+    initSupabaseSession();
+  }
+
+  // ===== SUPABASE SESSION =====
+  async function initSupabaseSession() {
+    try {
+      const user = await getCurrentUser();
+      if (user && user.id) {
+        loggedInUser = user;
+        const sb = getSupabase();
+        const params = new URLSearchParams(window.location.search);
+        const { data } = await sb.from('quiz_sessions').insert({
+          user_id: user.id,
+          level: params.get('level') || 'a2',
+          mode: params.get('mode') || 'en-tr',
+          status: 'in_progress'
+        }).select().single();
+        if (data) sessionId = data.id;
+      }
+    } catch (e) {
+      // Silently fail — quiz works without login
+    }
+  }
+
+  async function saveWordResult(wordId, result) {
+    if (!loggedInUser || !sessionId) return;
+    try {
+      const sb = getSupabase();
+      await sb.from('word_results').insert({
+        user_id: loggedInUser.id,
+        session_id: sessionId,
+        word_id: wordId,
+        result: result
+      });
+      // For unknown words, update study_words
+      if (result === 'unknown') {
+        await sb.from('study_words').upsert({
+          user_id: loggedInUser.id,
+          word_id: wordId,
+          times_failed: 1,
+          last_failed_at: new Date().toISOString(),
+          mastered: false
+        }, { onConflict: 'user_id,word_id' });
+      }
+    } catch (e) { /* silent */ }
+  }
+
+  async function saveSessionComplete() {
+    if (!loggedInUser || !sessionId) return;
+    try {
+      const sb = getSupabase();
+      await sb.from('quiz_sessions').update({
+        status: 'completed',
+        first_try_count: stats.firstTry,
+        retry_count: stats.retry,
+        hard_count: stats.hard,
+        unknown_count: stats.unknown,
+        completed_at: new Date().toISOString()
+      }).eq('id', sessionId);
+    } catch (e) { /* silent */ }
   }
 
   // ===== SHUFFLE (Fisher-Yates) =====
@@ -166,12 +232,15 @@
       if (currentItem.attempt === 1) {
         stats.firstTry++;
         wordLists.firstTry.push(currentItem.word);
+        saveWordResult(currentItem.word.id, 'first_try');
       } else if (currentItem.attempt === 2) {
         stats.retry++;
         wordLists.retry.push(currentItem.word);
+        saveWordResult(currentItem.word.id, 'retry');
       } else if (currentItem.attempt === 3) {
         stats.hard++;
         wordLists.hard.push(currentItem.word);
+        saveWordResult(currentItem.word.id, 'hard');
       }
 
       completedWords++;
@@ -209,6 +278,7 @@
         // 3rd attempt failed — mark as unknown
         stats.unknown++;
         wordLists.unknown.push(currentItem.word);
+        saveWordResult(currentItem.word.id, 'unknown');
         completedWords++;
         updateProgress();
       }
@@ -348,6 +418,9 @@
 
     // Build word lists
     buildWordLists();
+
+    // Save to Supabase
+    saveSessionComplete();
 
     // Show results
     document.getElementById('results-screen').classList.add('visible');
