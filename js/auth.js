@@ -1,23 +1,27 @@
 // ===== AUTH HELPER =====
-// Handles login, register, logout, and session state
+// Simple auth using profiles table directly (no Supabase Auth)
 
-const AUTH_EMAIL_DOMAIN = 'english-time.app';
+const SESSION_KEY = 'english_time_user';
 
-// Convert username to email format for Supabase Auth
-function usernameToEmail(username) {
-  return username.toLowerCase().trim().replace(/\s+/g, '_') + '@' + AUTH_EMAIL_DOMAIN;
+// Hash password with SHA-256
+async function hashPassword(password) {
+  const encoder = new TextEncoder();
+  const data = encoder.encode(password + '_english_time_salt');
+  const hash = await crypto.subtle.digest('SHA-256', data);
+  return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, '0')).join('');
 }
 
-// Get current logged-in user
+// Get current logged-in user from localStorage
 async function getCurrentUser() {
-  const sb = getSupabase();
-  if (!sb) return null;
   try {
-    const { data: { user } } = await sb.auth.getUser();
-    if (!user) return null;
-    // Fetch profile
-    const { data: profile } = await sb.from('profiles').select('*').eq('id', user.id).single();
-    return profile ? { ...user, username: profile.username } : user;
+    const stored = localStorage.getItem(SESSION_KEY);
+    if (!stored) return null;
+    const user = JSON.parse(stored);
+    // Verify user still exists in DB
+    const sb = getSupabase();
+    if (!sb) return user; // offline fallback
+    const { data } = await sb.from('profiles').select('*').eq('id', user.id).single();
+    return data || null;
   } catch (e) {
     return null;
   }
@@ -28,25 +32,31 @@ async function registerUser(username, password) {
   const sb = getSupabase();
   if (!sb) return { error: { message: 'Bağlantı hatası' } };
 
-  const email = usernameToEmail(username);
+  const trimmedUsername = username.trim();
 
-  // 1. Create auth user
-  const { data, error } = await sb.auth.signUp({ email, password });
+  // Check if username exists
+  const { data: existing } = await sb.from('profiles')
+    .select('id').eq('username', trimmedUsername).maybeSingle();
+
+  if (existing) {
+    return { error: { message: 'Bu kullanıcı adı zaten kullanılıyor' } };
+  }
+
+  // Hash password
+  const passHash = await hashPassword(password);
+
+  // Create profile
+  const { data, error } = await sb.from('profiles').insert({
+    username: trimmedUsername,
+    password_hash: passHash
+  }).select().single();
+
   if (error) {
-    if (error.message.includes('already registered')) {
-      return { error: { message: 'Bu kullanıcı adı zaten kullanılıyor' } };
-    }
-    return { error: { message: error.message } };
+    return { error: { message: 'Kayıt sırasında hata oluştu: ' + error.message } };
   }
 
-  // 2. Create profile
-  if (data.user) {
-    await sb.from('profiles').insert({
-      id: data.user.id,
-      username: username.trim()
-    });
-  }
-
+  // Save to localStorage
+  localStorage.setItem(SESSION_KEY, JSON.stringify(data));
   return { data, error: null };
 }
 
@@ -55,21 +65,27 @@ async function loginUser(username, password) {
   const sb = getSupabase();
   if (!sb) return { error: { message: 'Bağlantı hatası' } };
 
-  const email = usernameToEmail(username);
-  const { data, error } = await sb.auth.signInWithPassword({ email, password });
+  const trimmedUsername = username.trim();
+  const passHash = await hashPassword(password);
 
-  if (error) {
+  const { data, error } = await sb.from('profiles')
+    .select('*')
+    .eq('username', trimmedUsername)
+    .eq('password_hash', passHash)
+    .maybeSingle();
+
+  if (error || !data) {
     return { error: { message: 'Kullanıcı adı veya şifre yanlış' } };
   }
 
+  // Save to localStorage
+  localStorage.setItem(SESSION_KEY, JSON.stringify(data));
   return { data, error: null };
 }
 
 // Logout
 async function logoutUser() {
-  const sb = getSupabase();
-  if (!sb) return;
-  await sb.auth.signOut();
+  localStorage.removeItem(SESSION_KEY);
 }
 
 // Update user bar in navbar
