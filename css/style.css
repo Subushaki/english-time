@@ -76,6 +76,8 @@ body {
   border-radius: 50%;
   filter: blur(100px);
   animation: float 20s ease-in-out infinite;
+  will-change: transform;
+  transform: translateZ(0);
 }
 
 .bg-effects .orb-1 {
@@ -1303,6 +1305,46 @@ body {
 
   .word-list-body {
     max-height: 400px;
+  }
+
+  /* === MOBILE PERFORMANCE === */
+  .bg-effects .orb {
+    animation: none;
+    filter: blur(80px);
+  }
+
+  .bg-effects .orb-1 {
+    width: 350px;
+    height: 350px;
+  }
+
+  .bg-effects .orb-2 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .bg-effects .orb-3 {
+    display: none;
+  }
+
+  .stars::before,
+  .stars::after {
+    animation: none;
+    opacity: 0.7;
+  }
+
+  .level-card,
+  .mode-card,
+  .quiz-card,
+  .word-list-section,
+  .result-card,
+  .stat-item {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+
+  .brand-icon {
+    animation: none;
   }
 }
 
