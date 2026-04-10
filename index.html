@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="English Time - İngilizce kelime pratik uygulaması. A2, B1, B2 seviyelerinde kelime bilmecesi çöz ve öğren.">
+  <title>English Time | Kelime Pratik</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+
+  <!-- Animated Background -->
+  <div class="bg-effects">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+  <div class="stars"></div>
+
+  <!-- Main Content -->
+  <div class="container">
+
+    <!-- Branding -->
+    <div class="brand">
+      <span class="brand-icon">📚</span>
+      <h1>English Time</h1>
+      <p>Kelime pratik yaparak İngilizceni geliştir</p>
+    </div>
+
+    <!-- Level Selection -->
+    <div class="level-grid" id="level-grid">
+      <div class="level-card" id="level-a2" data-level="a2" onclick="selectLevel('a2')">
+        <div class="level-badge">A2</div>
+        <h3>Elementary</h3>
+        <span class="word-count">410 Kelime</span>
+      </div>
+      <div class="level-card disabled" id="level-b1" data-level="b1">
+        <div class="level-badge">B1</div>
+        <h3>Intermediate</h3>
+        <span class="coming-soon">Yakında Eklenecek</span>
+      </div>
+      <div class="level-card disabled" id="level-b2" data-level="b2">
+        <div class="level-badge">B2</div>
+        <h3>Upper-Intermediate</h3>
+        <span class="coming-soon">Yakında Eklenecek</span>
+      </div>
+    </div>
+
+    <!-- Mode Selection -->
+    <div class="mode-section" id="mode-section">
+      <h2 class="mode-title">Pratik Modunu Seç</h2>
+      <div class="mode-grid">
+        <a class="mode-card" id="mode-en-tr" href="quiz.html?level=a2&mode=en-tr">
+          <span class="mode-flags">🇬🇧 <span class="mode-arrow">→</span> 🇹🇷</span>
+          <h3>İngilizce → Türkçe</h3>
+          <p>İngilizce kelimeyi gör, Türkçe anlamını yaz</p>
+        </a>
+        <a class="mode-card" id="mode-tr-en" href="quiz.html?level=a2&mode=tr-en">
+          <span class="mode-flags">🇹🇷 <span class="mode-arrow">→</span> 🇬🇧</span>
+          <h3>Türkçe → İngilizce</h3>
+          <p>Türkçe kelimeyi gör, İngilizce karşılığını yaz</p>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="English Time - Kelime pratik quiz sayfası. Kelimeleri öğren ve test et.">
+  <title>English Time | Quiz</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+
+  <!-- Animated Background -->
+  <div class="bg-effects">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+  <div class="stars"></div>
+
+  <!-- Main Content -->
+  <div class="container" id="quiz-container">
+
+    <!-- Progress Section -->
+    <div class="progress-section" id="progress-section">
+      <div class="progress-header">
+        <span class="progress-label" id="progress-mode-label">İngilizce → Türkçe</span>
+        <span class="progress-count" id="progress-count">0 / 410</span>
+      </div>
+      <div class="progress-bar-track">
+        <div class="progress-bar-fill" id="progress-bar-fill"></div>
+      </div>
+    </div>
+
+    <!-- Quiz Card -->
+    <div class="quiz-card" id="quiz-card">
+      <div class="quiz-layout">
+        <!-- Question Side -->
+        <div class="quiz-question">
+          <span class="question-label" id="question-label">İngilizce</span>
+          <div class="question-word" id="question-word">Loading...</div>
+        </div>
+
+        <!-- Divider -->
+        <div class="quiz-divider"></div>
+
+        <!-- Answer Side -->
+        <div class="quiz-answer">
+          <span class="answer-label" id="answer-label">Türkçe Karşılığı</span>
+          <div class="answer-input-group">
+            <input
+              type="text"
+              class="answer-input"
+              id="answer-input"
+              placeholder="Cevabınızı yazın..."
+              autocomplete="off"
+              spellcheck="false"
+            >
+            <button class="submit-btn" id="submit-btn" onclick="checkAnswer()">
+              Kontrol Et <span>↵</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Attempt Badge -->
+      <div style="text-align: center;">
+        <span class="attempt-badge" id="attempt-badge"></span>
+      </div>
+
+      <!-- Feedback Area -->
+      <div class="feedback-area">
+        <div class="feedback-message" id="feedback-message"></div>
+        <button class="continue-btn" id="continue-btn" onclick="nextWord()">
+          Devam Et →
+        </button>
+      </div>
+    </div>
+
+    <!-- Stats Bar -->
+    <div class="stats-bar" id="stats-bar">
+      <div class="stat-item stat-first">
+        <span class="stat-icon">⚡</span>
+        <span class="stat-value" id="stat-first">0</span>
+        <span class="stat-label">İlk Seferde</span>
+      </div>
+      <div class="stat-item stat-retry">
+        <span class="stat-icon">🔄</span>
+        <span class="stat-value" id="stat-retry">0</span>
+        <span class="stat-label">Tekrarda</span>
+      </div>
+      <div class="stat-item stat-hard">
+        <span class="stat-icon">😓</span>
+        <span class="stat-value" id="stat-hard">0</span>
+        <span class="stat-label">Zor</span>
+      </div>
+      <div class="stat-item stat-unknown">
+        <span class="stat-icon">❌</span>
+        <span class="stat-value" id="stat-unknown">0</span>
+        <span class="stat-label">Bilinmiyor</span>
+      </div>
+    </div>
+
+    <!-- Home Button -->
+    <a href="index.html" class="home-btn" id="home-btn">← Ana Sayfa</a>
+
+    <!-- Results Screen (hidden by default) -->
+    <div class="results-screen" id="results-screen">
+      <span class="results-trophy">🏆</span>
+      <h2 class="results-title">Test Tamamlandı!</h2>
+      <p class="results-subtitle" id="results-subtitle">410 kelimelik pratik tamamlandı</p>
+
+      <div class="results-grid">
+        <div class="result-card card-first">
+          <span class="result-icon">⚡</span>
+          <span class="result-value" id="result-first">0</span>
+          <span class="result-label">İlk Seferde Bilinen</span>
+        </div>
+        <div class="result-card card-retry">
+          <span class="result-icon">🔄</span>
+          <span class="result-value" id="result-retry">0</span>
+          <span class="result-label">Tekrarda Öğrenilen</span>
+        </div>
+        <div class="result-card card-hard">
+          <span class="result-icon">😓</span>
+          <span class="result-value" id="result-hard">0</span>
+          <span class="result-label">Yapılamayan</span>
+        </div>
+        <div class="result-card card-unknown">
+          <span class="result-icon">❌</span>
+          <span class="result-value" id="result-unknown">0</span>
+          <span class="result-label">Bilinmiyor</span>
+        </div>
+      </div>
+
+      <div class="results-actions">
+        <button class="btn-primary" onclick="restartQuiz()">🔄 Tekrar Oyna</button>
+        <a href="index.html" class="btn-secondary">🏠 Ana Sayfa</a>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="js/words-a2.js"></script>
+  <script src="js/quiz.js"></script>
+</body>
+</html>
