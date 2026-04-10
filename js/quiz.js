@@ -53,7 +53,16 @@
       document.getElementById('progress-mode-label').textContent =
         (mode === 'en-tr' ? '🇬🇧→🇹🇷' : '🇹🇷→🇬🇧') + ' ⭐ Özel Quiz';
     } else if (level === 'a2') {
-      wordList = WORDS_A2;
+      wordList = [...WORDS_A2];
+      if (params.get('exclude') === 'true') {
+        const excludeIds = JSON.parse(localStorage.getItem('exclude_quiz_ids') || '[]');
+        wordList = wordList.filter(w => !excludeIds.includes(w.id));
+        if (wordList.length === 0) {
+           alert('Çalışacak kelime kalmadı! Tüm kelimeleri biliyorsunuz.');
+           window.location.href = 'dashboard.html';
+           return;
+        }
+      }
     } else {
       alert('Bu seviye henüz eklenmedi!');
       window.location.href = 'index.html';
@@ -500,7 +509,11 @@
       wordList = WORDS_A2.filter(w => customIds.includes(w.id));
     } else {
       const level = params.get('level') || 'a2';
-      wordList = level === 'a2' ? WORDS_A2 : [];
+      wordList = level === 'a2' ? [...WORDS_A2] : [];
+      if (params.get('exclude') === 'true') {
+        const excludeIds = JSON.parse(localStorage.getItem('exclude_quiz_ids') || '[]');
+        wordList = wordList.filter(w => !excludeIds.includes(w.id));
+      }
     }
 
     queue = wordList.map(w => ({ word: w, attempt: 1 }));

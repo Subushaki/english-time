@@ -97,6 +97,19 @@
         </div>
       </div>
 
+      <!-- ⚡ Known Words by Category -->
+      <div class="word-list-section wl-first" id="known-section" style="margin-bottom: 24px; display: none;">
+        <div class="word-list-header" id="known-header">
+          <div class="word-list-title">
+            <span class="word-list-icon">⚡</span>
+            <span>İlk Seferde Bilinen Kelimeler</span>
+            <span class="word-list-count" id="known-count">0</span>
+          </div>
+          <span class="word-list-toggle">▼</span>
+        </div>
+        <div class="word-list-body collapsed" id="known-body"></div>
+      </div>
+
       <!-- Past Sessions -->
       <div class="word-list-section wl-first" id="sessions-section" style="margin-bottom: 24px; display: none;">
         <div class="word-list-header" id="sessions-header">
@@ -134,6 +147,7 @@
     let dashUser = null;
     let starredWordIds = [];
     let wrongWordIds = [];
+    let knownWordIds = [];
 
     // Toggle star from dashboard
     async function toggleStarDash(wordId, btn) {
@@ -289,6 +303,23 @@
           if (word) body.appendChild(createWordRow(word, starredSet.has(wid)));
         });
         setupToggle('wrong-header', 'wrong-body');
+      }
+
+      // Show known words (first_try)
+      knownWordIds = Object.entries(bestResults)
+        .filter(([_, r]) => r === 'first_try')
+        .map(([id, _]) => parseInt(id));
+
+      if (knownWordIds.length > 0) {
+        document.getElementById('known-section').style.display = 'block';
+        document.getElementById('known-count').textContent = knownWordIds.length;
+
+        const body = document.getElementById('known-body');
+        knownWordIds.forEach(wid => {
+          const word = WORDS_A2.find(w => w.id === wid);
+          if (word) body.appendChild(createWordRow(word, starredSet.has(wid)));
+        });
+        setupToggle('known-header', 'known-body');
       }
 
       // Past sessions
