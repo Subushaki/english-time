@@ -1,27 +1,54 @@
 // Main page - Level & Mode selection logic
 
+let currentLevel = '';
+let currentDataset = '';
+
 function selectLevel(level) {
   if (level !== 'a2') return;
+  currentLevel = level;
 
   // Highlight selected level
   document.querySelectorAll('.level-card').forEach(card => card.classList.remove('active'));
   document.getElementById('level-' + level).classList.add('active');
 
-  // Show mode selection
-  const modeSection = document.getElementById('mode-section');
-  modeSection.classList.add('visible');
+  // Hide mode section if it was open
+  document.getElementById('mode-section').classList.remove('visible');
+  document.getElementById('mode-section').style.display = 'none';
 
-  // Smooth scroll to mode section
+  // Show dataset selection
+  const datasetSection = document.getElementById('dataset-section');
+  datasetSection.style.display = 'block';
   setTimeout(() => {
-    modeSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
-  }, 100);
+    datasetSection.classList.add('visible');
+    datasetSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }, 10);
 }
+
+function selectDataset(dataset) {
+  currentDataset = dataset;
+  
+  if (dataset === 'grammar') {
+    startQuiz('en-tr'); // Forced en-tr mapping where en=question tr=answer
+    return;
+  }
+
+  document.getElementById('dataset-section').style.display = 'none';
+  document.getElementById('dataset-section').classList.remove('visible');
+
+  const modeSection = document.getElementById('mode-section');
+  modeSection.style.display = 'block';
+  setTimeout(() => {
+    modeSection.classList.add('visible');
+    modeSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }, 10);
+}
+
 // Intercept quiz start
 async function startQuiz(mode) {
   // Check if user is logged in
   const user = await getCurrentUser();
   if (!user || !user.id) {
-    window.location.href = `quiz.html?level=a2&mode=${mode}`;
+    window.location.href = `quiz.html?level=${currentLevel}&dataset=${currentDataset}&mode=${mode}`;
     return;
   }
 
@@ -31,7 +58,7 @@ async function startQuiz(mode) {
     .from('word_results').select('word_id, result').eq('user_id', user.id);
 
   if (!wordResults || wordResults.length === 0) {
-    window.location.href = `quiz.html?level=a2&mode=${mode}`;
+    window.location.href = `quiz.html?level=${currentLevel}&dataset=${currentDataset}&mode=${mode}`;
     return;
   }
 
@@ -55,11 +82,11 @@ async function startQuiz(mode) {
     if (!includeKnown) {
       // Exclude logic
       localStorage.setItem('exclude_quiz_ids', JSON.stringify(knownWordIds));
-      window.location.href = `quiz.html?level=a2&mode=${mode}&exclude=true`;
+      window.location.href = `quiz.html?level=${currentLevel}&dataset=${currentDataset}&mode=${mode}&exclude=true`;
       return;
     }
   }
 
   // Regular start
-  window.location.href = `quiz.html?level=a2&mode=${mode}`;
+  window.location.href = `quiz.html?level=${currentLevel}&dataset=${currentDataset}&mode=${mode}`;
 }

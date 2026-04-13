@@ -98,7 +98,7 @@ async function updateUserBar() {
     userBar.innerHTML = `
       <span class="user-greeting">👋 ${escapeHtmlAuth(user.username)}</span>
       <a href="dashboard.html" class="user-bar-btn">📊 Panelim</a>
-      <button class="user-bar-btn logout-btn" onclick="handleLogout()">Çıkış</button>
+      <a href="settings.html" class="user-bar-btn">⚙️ Ayarlar</a>
     `;
     userBar.classList.add('logged-in');
   } else {
@@ -113,6 +113,93 @@ async function handleLogout() {
   await logoutUser();
   window.location.reload();
 }
+
+window.toggleSettingsDropdown = function(e) {
+  if (e) e.stopPropagation();
+  const dp = document.getElementById('settings-dropdown');
+  if (dp) {
+    dp.classList.toggle('show');
+  }
+};
+
+document.addEventListener('click', function(e) {
+  const dp = document.getElementById('settings-dropdown');
+  const btn = document.getElementById('settings-btn');
+  if (dp && dp.classList.contains('show') && e.target !== btn && !btn.contains(e.target)) {
+    dp.classList.remove('show');
+  }
+});
+
+window.promptChangeUsername = async function() {
+  const user = await getCurrentUser();
+  if (!user) return;
+  
+  const newName = prompt("Yeni kullanıcı adınızı girin:", user.username);
+  if (!newName || newName.trim() === "" || newName.trim() === user.username) {
+    return; // İptal edildi, boş bırakıldı veya aynı isim
+  }
+  const trimmedUsername = newName.trim();
+  
+  const sb = getSupabase();
+  if (!sb) { alert("Bağlantı hatası"); return; }
+  
+  // Kullanıcı adının başka biri tarafından kullanılıp kullanılmadığını kontrol et
+  const { data: existing } = await sb.from('profiles').select('id').eq('username', trimmedUsername).maybeSingle();
+  if (existing) {
+    alert("Bu kullanıcı adı başka biri tarafından kullanılıyor.");
+    return;
+  }
+  
+  // Kullanıcı adını güncelle
+  const { error } = await sb.from('profiles').update({ username: trimmedUsername }).eq('id', user.id);
+  if (error) {
+    alert("Kullanıcı adı güncellenirken hata oluştu: " + error.message);
+    return;
+  }
+  
+  // Yerel oturumu güncelle
+  user.username = trimmedUsername;
+  localStorage.setItem(SESSION_KEY, JSON.stringify(user));
+  
+  alert("Kullanıcı adınız başarıyla güncellendi.");
+  window.location.reload(); // Üst bardaki metnin güncellenmesi için sayfayı yenile
+};
+
+window.confirmResetData = async function() {
+  if (confirm("Tüm ilerlemenizi, yıldızlı kelimeleri ve geçmiş quiz oturumlarınızı silmek istediğinize emin misiniz? Bu işlem geri alınamaz!")) {
+    const user = await getCurrentUser();
+    if (!user) return;
+    const sb = getSupabase();
+    if (!sb) { alert("Bağlantı hatası"); return; }
+    
+    // Yükleniyor görselini vb. araya sokabilirsiniz ama basitçe işlemi başlatalım
+    await sb.from('word_results').delete().eq('user_id', user.id);
+    await sb.from('study_words').delete().eq('user_id', user.id);
+    await sb.from('quiz_sessions').delete().eq('user_id', user.id);
+    
+    alert('Verileriniz başarıyla sıfırlandı.');
+    window.location.reload();
+  }
+};
+
+window.confirmDeleteAccount = async function() {
+  if (confirm("Hesabınızı ve tüm verilerinizi KALICI olarak silmek istediğinize emin misiniz?")) {
+    const user = await getCurrentUser();
+    if (!user) return;
+    const sb = getSupabase();
+    if (!sb) { alert("Bağlantı hatası"); return; }
+    
+    await sb.from('word_results').delete().eq('user_id', user.id);
+    await sb.from('study_words').delete().eq('user_id', user.id);
+    await sb.from('quiz_sessions').delete().eq('user_id', user.id);
+    // Profili son olarak sil
+    await sb.from('profiles').delete().eq('id', user.id);
+    
+    await logoutUser();
+    alert('Hesabınız ve tüm verileriniz silindi.');
+    window.location.href = 'login.html';
+  }
+};
 
 function escapeHtmlAuth(str) {
   const div = document.createElement('div');

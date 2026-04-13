@@ -37,14 +37,17 @@
     const params = new URLSearchParams(window.location.search);
     mode = params.get('mode') || 'en-tr';
     const level = params.get('level') || 'a2';
+    const dataset = params.get('dataset') || 'kurs';
     isCustomQuiz = params.get('custom') === 'true';
 
     // Get word list
     let wordList;
+    let selectedData = dataset === 'genel' ? WORDS_A2_GENEL : (dataset === 'grammar' ? WORDS_A2_GRAMMAR : WORDS_A2);
+
     if (isCustomQuiz) {
       // Custom quiz: read word IDs from localStorage
       const customIds = JSON.parse(localStorage.getItem('custom_quiz_ids') || '[]');
-      wordList = WORDS_A2.filter(w => customIds.includes(w.id));
+      wordList = ALL_WORDS_A2.filter(w => customIds.includes(w.id));
       if (wordList.length === 0) {
         alert('Özel quiz için kelime bulunamadı!');
         window.location.href = 'dashboard.html';
@@ -53,7 +56,7 @@
       document.getElementById('progress-mode-label').textContent =
         (mode === 'en-tr' ? '🇬🇧→🇹🇷' : '🇹🇷→🇬🇧') + ' ⭐ Özel Quiz';
     } else if (level === 'a2') {
-      wordList = [...WORDS_A2];
+      wordList = [...selectedData];
       if (params.get('exclude') === 'true') {
         const excludeIds = JSON.parse(localStorage.getItem('exclude_quiz_ids') || '[]');
         wordList = wordList.filter(w => !excludeIds.includes(w.id));
@@ -72,7 +75,12 @@
     totalWords = wordList.length;
 
     // Set UI labels
-    if (mode === 'en-tr') {
+    if (dataset === 'grammar') {
+      if (!isCustomQuiz) document.getElementById('progress-mode-label').textContent = '📝 Grammar - Boşluk Doldurma';
+      document.getElementById('question-label').textContent = 'CÜMLE (Eksik Kısmı Bul)';
+      document.getElementById('answer-label').textContent = 'DOĞRU YAPI';
+      document.getElementById('answer-input').placeholder = 'Boşluğa gelmesi gereken kelimeyi yazın...';
+    } else if (mode === 'en-tr') {
       if (!isCustomQuiz) document.getElementById('progress-mode-label').textContent = '🇬🇧 İngilizce → Türkçe 🇹🇷';
       document.getElementById('question-label').textContent = 'İNGİLİZCE';
       document.getElementById('answer-label').textContent = 'TÜRKÇE KARŞILIĞI';
@@ -412,8 +420,11 @@
 
     const total = stats.firstTry + stats.retry + stats.hard + stats.unknown;
     const successRate = total > 0 ? Math.round(((stats.firstTry + stats.retry + stats.hard) / total) * 100) : 0;
+    
+    const ds = new URLSearchParams(window.location.search).get('dataset');
+    const labelSoru = ds === 'grammar' ? 'soru' : 'kelime';
     document.getElementById('results-subtitle').textContent =
-      `${total} kelime çözüldü — %${successRate} başarı oranı`;
+      `${total} ${labelSoru} çözüldü — %${successRate} başarı oranı`;
 
     buildWordLists();
     saveSessionComplete();
@@ -504,12 +515,15 @@
 
     const params = new URLSearchParams(window.location.search);
     let wordList;
+    const dataset = params.get('dataset') || 'kurs';
+    let selectedData = dataset === 'genel' ? WORDS_A2_GENEL : (dataset === 'grammar' ? WORDS_A2_GRAMMAR : WORDS_A2);
+
     if (isCustomQuiz) {
       const customIds = JSON.parse(localStorage.getItem('custom_quiz_ids') || '[]');
-      wordList = WORDS_A2.filter(w => customIds.includes(w.id));
+      wordList = ALL_WORDS_A2.filter(w => customIds.includes(w.id));
     } else {
       const level = params.get('level') || 'a2';
-      wordList = level === 'a2' ? [...WORDS_A2] : [];
+      wordList = level === 'a2' ? [...selectedData] : [];
       if (params.get('exclude') === 'true') {
         const excludeIds = JSON.parse(localStorage.getItem('exclude_quiz_ids') || '[]');
         wordList = wordList.filter(w => !excludeIds.includes(w.id));

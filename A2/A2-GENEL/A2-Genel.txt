@@ -1,0 +1,134 @@
+ENGLISH TIME - A2 GENEL KELİME LİSTESİ (129 Kelime)
+====================================================
+
+No   | English                              | Türkçe
+-----|--------------------------------------|-----------------------------------------------
+1    | Anniversaries                        | Yıl dönümleri
+2    | Architecture                         | Mimari
+3    | Beach                                | Plaj / Kumsal
+4    | Beautiful                            | Güzel
+5    | Believe                              | İnanmak
+6    | Border                               | Sınır
+7    | Both                                 | İkisi de / Her ikisi
+8    | Bowl                                 | Kase
+9    | Cheap                                | Ucuz
+10   | Cliffs                               | Uçurumlar / Kayalıklar
+11   | Climate                              | İklim
+12   | Coast                                | Sahil / Kıyı
+13   | Continent                            | Kıta
+14   | Cook Lunch                           | Öğle Yemeği Pişirmek
+15   | Customers                            | Müşteriler
+16   | Delicious                            | Lezzetli
+17   | Discuss                              | Tartışmak / Görüşmek
+18   | Domestic                             | Yerli / Evcil
+19   | Dozens                               | Düzinelerce
+20   | Driest                               | En kurak
+21   | Dystopic                             | Distopik
+22   | East                                 | Doğu
+23   | Excitement                           | Heyecan
+24   | Extensive                            | Kapsamlı / Geniş çaplı
+25   | Extremes                             | Uç noktalar / Aşırılıklar
+26   | Features                             | Özellikler
+27   | Fjords                               | Fiyortlar
+28   | Forest                               | Orman
+29   | Form                                 | Biçim / Şekillendirmek
+30   | Gaze                                 | Gözünü dikip bakmak / Bakış
+31   | Geysers                              | Gayzerler
+32   | Glad                                 | Memnun
+33   | Gold                                 | Altın
+34   | Gravy                                | Et suyu sosu
+35   | Guide                                | Rehber / Rehberlik etmek
+36   | Herb                                 | Bitki / Baharat otu
+37   | High                                 | Yüksek
+38   | Hill                                 | Tepe
+39   | Hospitality                          | Misafirperverlik
+40   | Idea                                 | Fikir
+41   | Impressive                           | Etkileyici
+42   | Include                              | İçermek / Dahil etmek
+43   | Incredible                           | İnanılmaz
+44   | Internship                           | Staj
+45   | Island                               | Ada
+46   | Jewelry                              | Mücevher / Takı
+47   | Lake                                 | Göl
+48   | Landscape                            | Manzara / Peyzaj
+49   | Long                                 | Uzun
+50   | Magnificent                          | Muhteşem / Görkemli
+51   | Manager                              | Yönetici / Müdür
+52   | Mash                                 | Püre / Ezmek
+53   | Mountains                            | Dağlar
+54   | Narrow                               | Dar
+55   | Neighbor                             | Komşu
+56   | North                                | Kuzey
+57   | Opportunity                          | Fırsat
+58   | Peak                                 | Zirve / Doruk
+59   | Prepare                              | Hazırlamak
+60   | Rise                                 | Yükselmek / Artış
+61   | Sensational                          | Sansasyonel / Çarpıcı
+62   | Shape                                | Şekil
+63   | Shares                               | Paylaşır / Paylar
+64   | Short                                | Kısa
+65   | Silver                               | Gümüş
+66   | Slang                                | Argo
+67   | Sophisticated                        | Sofistike / Çok yönlü
+68   | South                                | Güney
+69   | Special                              | Özel
+70   | Suggest                              | Önermek
+71   | Surrounding                          | Çevreleyen / Civar
+72   | Take-Away                            | Al-götür (Paket servis)
+73   | Think                                | Düşünmek
+74   | Topic                                | Konu / Başlık
+75   | Tourist Guide                        | Turist Rehberi
+76   | Trail                                | Patika / İz
+77   | Valley                               | Vadi
+78   | Vast                                 | Uçsuz bucaksız / Çok geniş
+79   | Very Beautiful                       | Çok Güzel
+80   | Vinegar                              | Sirke
+81   | Volcanoes                            | Volkanlar / Yanardağlar
+82   | Waterfalls                           | Şelaleler
+83   | Wave                                 | Dalga
+84   | West                                 | Batı
+85   | Western                              | Batılı / Batıya ait
+86   | Wide                                 | Geniş
+87   | Wonderful                            | Harika / Mükemmel
+88   | Woods                                | Ormanlık alan / Koruluk
+89   | Yelling                              | Bağırma / Haykırma
+90   | Beaches                              | Plajlar / Kumsallar
+91   | Borders                              | Sınırlar
+92   | Bowls                                | Kaseler
+93   | Climates                             | İklimler
+94   | Coasts                               | Sahiller / Kıyılar
+95   | Continents                           | Kıtalar
+96   | Forests                              | Ormanlar
+97   | Forms                                | Biçimler / Şekiller
+98   | Gazes                                | Bakışlar
+99   | Guides                               | Rehberler
+100  | Herbs                                | Bitkiler / Baharat otları
+101  | Hills                                | Tepeler
+102  | Ideas                                | Fikirler
+103  | Internships                          | Stajlar
+104  | Islands                              | Adalar
+105  | Lakes                                | Göller
+106  | Landscapes                           | Manzaralar / Peyzajlar
+107  | Managers                             | Yöneticiler / Müdürler
+108  | Neighbors                            | Komşular
+109  | Opportunities                        | Fırsatlar
+110  | Peaks                                | Zirveler / Doruklar
+111  | Shapes                               | Şekiller
+112  | Topics                               | Konular / Başlıklar
+113  | Tourist Guides                       | Turist Rehberleri
+114  | Trails                               | Patikalar / İzler
+115  | Valleys                              | Vadiler
+116  | Waves                                | Dalgalar
+117  | Anniversary                          | Yıl dönümü
+118  | Cliff                                | Uçurum / Kayalık
+119  | Customer                             | Müşteri
+120  | Dozen                                | Düzine
+121  | Extreme                              | Uç nokta / Aşırılık
+122  | Feature                              | Özellik
+123  | Fjord                                | Fiyort / Körfez
+124  | Geyser                               | Gayzer
+125  | Mountain                             | Dağ
+126  | Share                                | Pay / Hisse
+127  | Volcano                              | Volkan / Yanardağ
+128  | Waterfall                            | Şelale
+129  | Wood                                 | Ormanlık alan / Tahta

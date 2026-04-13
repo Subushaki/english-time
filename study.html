@@ -244,7 +244,7 @@
 
       // Build study queue from word IDs
       studyWords.forEach(sw => {
-        const word = WORDS_A2.find(w => w.id === sw.word_id);
+        const word = ALL_WORDS_A2.find(w => w.id === sw.word_id);
         if (word) studyQueue.push(word);
       });
 

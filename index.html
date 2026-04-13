@@ -36,7 +36,6 @@
       <div class="level-card" id="level-a2" data-level="a2" onclick="selectLevel('a2')">
         <div class="level-badge">A2</div>
         <h3>Elementary</h3>
-        <span class="word-count">410 Kelime</span>
       </div>
       <div class="level-card disabled" id="level-b1" data-level="b1">
         <div class="level-badge">B1</div>
@@ -50,8 +49,30 @@
       </div>
     </div>
 
+    <!-- Dataset Selection -->
+    <div class="mode-section" id="dataset-section" style="display: none;">
+      <h2 class="mode-title">Kelime Paketi Seç</h2>
+      <div class="mode-grid">
+        <a class="mode-card" id="dataset-kurs" href="#" onclick="selectDataset('kurs'); return false;">
+          <span class="mode-flags">📚</span>
+          <h3>A2 Kurs Kelimeleri</h3>
+          <p>410 Kelimelik ana liste</p>
+        </a>
+        <a class="mode-card" id="dataset-genel" href="#" onclick="selectDataset('genel'); return false;">
+          <span class="mode-flags">🌍</span>
+          <h3>A2 Genel Kelimeler</h3>
+          <p>129 Kelimelik özel liste</p>
+        </a>
+        <a class="mode-card" id="dataset-grammar" href="#" onclick="selectDataset('grammar'); return false;">
+          <span class="mode-flags">📝</span>
+          <h3>A2 Grammar</h3>
+          <p>50 Soruluk Pronouns Testi</p>
+        </a>
+      </div>
+    </div>
+
     <!-- Mode Selection -->
-    <div class="mode-section" id="mode-section">
+    <div class="mode-section" id="mode-section" style="display: none;">
       <h2 class="mode-title">Pratik Modunu Seç</h2>
       <div class="mode-grid">
         <a class="mode-card" id="mode-en-tr" href="#" onclick="startQuiz('en-tr'); return false;">

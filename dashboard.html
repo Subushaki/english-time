@@ -282,7 +282,7 @@
 
         const body = document.getElementById('starred-body');
         starredWordIds.forEach(wid => {
-          const word = WORDS_A2.find(w => w.id === wid);
+          const word = ALL_WORDS_A2.find(w => w.id === wid);
           if (word) body.appendChild(createWordRow(word, true));
         });
         setupToggle('starred-header', 'starred-body');
@@ -299,7 +299,7 @@
 
         const body = document.getElementById('wrong-body');
         wrongWordIds.forEach(wid => {
-          const word = WORDS_A2.find(w => w.id === wid);
+          const word = ALL_WORDS_A2.find(w => w.id === wid);
           if (word) body.appendChild(createWordRow(word, starredSet.has(wid)));
         });
         setupToggle('wrong-header', 'wrong-body');
@@ -316,7 +316,7 @@
 
         const body = document.getElementById('known-body');
         knownWordIds.forEach(wid => {
-          const word = WORDS_A2.find(w => w.id === wid);
+          const word = ALL_WORDS_A2.find(w => w.id === wid);
           if (word) body.appendChild(createWordRow(word, starredSet.has(wid)));
         });
         setupToggle('known-header', 'known-body');
