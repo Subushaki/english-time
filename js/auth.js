@@ -111,24 +111,8 @@ async function updateUserBar() {
 
 async function handleLogout() {
   await logoutUser();
-  window.location.reload();
+  window.location.href = 'index.html';
 }
-
-window.toggleSettingsDropdown = function(e) {
-  if (e) e.stopPropagation();
-  const dp = document.getElementById('settings-dropdown');
-  if (dp) {
-    dp.classList.toggle('show');
-  }
-};
-
-document.addEventListener('click', function(e) {
-  const dp = document.getElementById('settings-dropdown');
-  const btn = document.getElementById('settings-btn');
-  if (dp && dp.classList.contains('show') && e.target !== btn && !btn.contains(e.target)) {
-    dp.classList.remove('show');
-  }
-});
 
 window.promptChangeUsername = async function() {
   const user = await getCurrentUser();
@@ -151,9 +135,9 @@ window.promptChangeUsername = async function() {
   }
   
   // Kullanıcı adını güncelle
-  const { error } = await sb.from('profiles').update({ username: trimmedUsername }).eq('id', user.id);
-  if (error) {
-    alert("Kullanıcı adı güncellenirken hata oluştu: " + error.message);
+  const { data, error } = await sb.from('profiles').update({ username: trimmedUsername }).eq('id', user.id).select();
+  if (error || !data || data.length === 0) {
+    alert("Bağlantı başarılı fakat veritabanı ismi güncellemedi.\n\nSebep: Supabase 'profiles' tablosunda UPDATE izniniz (RLS Policy) yok. Lütfen Supabase'den profiles tablosuna UPDATE policy ekleyin.");
     return;
   }
   
