@@ -226,7 +226,11 @@
   }
 
   .user-greeting {
-    font-size: 0.78rem;
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 4px;
+    font-size: 0.85rem;
   }
 
   .user-bar-btn {
