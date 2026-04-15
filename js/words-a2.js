@@ -404,7 +404,7 @@ const WORDS_A2 = [
   { id: 403, en: "Thought", tr: "Düşünce" },
   { id: 404, en: "Agree With Someone", tr: "Biriyle Aynı Fikirde Olmak" },
   { id: 405, en: "Personally", tr: "Kişisel Olarak" },
-  { id: 406, en: "A Waste of Money / Time", tr: "Para / Zaman Kaybı / İsrafı" },
+  { id: 406, en: "A Waste of Money / Time", tr: "Para İsrafı / Zaman Kaybı" },
   { id: 407, en: "Take a Message", tr: "Mesaj / Not Almak" },
   { id: 408, en: "Leave a Message", tr: "Mesaj Bırakmak" },
   { id: 409, en: "Line is Busy / Engaged", tr: "Hat Meşgul" },
@@ -442,7 +442,7 @@ const WORDS_A2_GENEL = [
   { id: 1028, en: "Forest", tr: "Orman" },
   { id: 1029, en: "Form", tr: "Biçim / Şekillendirmek" },
   { id: 1030, en: "Gaze", tr: "Gözünü dikip bakmak / Bakış" },
-  { id: 1031, en: "Geysers", tr: "Gayzerler / Kaynarcalar" },
+  { id: 1031, en: "Geysers", tr: "Gayzerler" },
   { id: 1032, en: "Glad", tr: "Memnun" },
   { id: 1033, en: "Gold", tr: "Altın" },
   { id: 1034, en: "Gravy", tr: "Et suyu sosu" },
@@ -534,13 +534,14 @@ const WORDS_A2_GENEL = [
   { id: 1120, en: "Dozen", tr: "Düzine" },
   { id: 1121, en: "Extreme", tr: "Uç nokta / Aşırılık" },
   { id: 1122, en: "Feature", tr: "Özellik" },
-  { id: 1123, en: "Fjord", tr: "Fiyort / Körfez" },
+  { id: 1123, en: "Fjord", tr: "Fiyort" },
   { id: 1124, en: "Geyser", tr: "Gayzer" },
   { id: 1125, en: "Mountain", tr: "Dağ" },
-  { id: 1126, en: "Share", tr: "Pay / Hisse" },
+  { id: 1126, en: "Share", tr: "Paylaşmak / Pay" },
   { id: 1127, en: "Volcano", tr: "Volkan / Yanardağ" },
   { id: 1128, en: "Waterfall", tr: "Şelale" },
-  { id: 1129, en: "Wood", tr: "Ormanlık alan / Tahta" }
+  { id: 1129, en: "Wood", tr: "Ormanlık alan / Tahta" },
+  { id: 1130, en: "Architect", tr: "Mimar" }
 ];
 
 const WORDS_A2_GRAMMAR = [

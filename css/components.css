@@ -1,6 +1,6 @@
 /* ===== USER BAR ===== */
 .user-bar {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -10,7 +10,7 @@
   justify-content: flex-end;
   gap: 10px;
   padding: 12px 24px;
-  background: var(--bg-primary); /* Daha opak bir zemin */
+  background: transparent;
   border-bottom: 1px solid var(--glass-border);
   min-height: 60px;
 }
