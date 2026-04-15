@@ -141,6 +141,12 @@
         <!-- Font Picker Section -->
         <div style="margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--glass-border);">
           <h4 style="margin-bottom: 12px; font-size: 0.95rem; color: var(--text-secondary);">📝 İsim Yazı Tarzı (Font)</h4>
+          
+          <div style="text-align: center; margin-bottom: 16px; padding: 16px; background: rgba(0,0,0,0.2); border: 1px dashed rgba(255,255,255,0.2); border-radius: var(--radius-sm);">
+            <div style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: 6px; text-transform: uppercase; letter-spacing: 1px;">Canlı Önizleme</div>
+            <div id="font-preview" style="font-size: 1.4rem; color: var(--text-primary);">Test İsim</div>
+          </div>
+
           <div class="font-picker-grid" id="font-picker">
             <div class="font-option active" data-font="Inter" onclick="changeNameFont('Inter')" style="font-family: 'Inter', sans-serif;">Klasik</div>
             <div class="font-option" data-font="Caveat" onclick="changeNameFont('Caveat')" style="font-family: 'Caveat', cursive;">El Yazısı</div>
@@ -313,6 +319,9 @@
         if (!settingsUser) return;
         const sb = getSupabase();
         
+        // Update live preview IMMEDIATELY
+        document.getElementById('font-preview').style.fontFamily = fontName;
+
         // Update UI active state
         document.querySelectorAll('.font-option').forEach(el => {
           el.classList.remove('active');
@@ -337,13 +346,17 @@
         } else {
           settingsUser.name_style = fontName;
           localStorage.setItem('english_time_user', JSON.stringify(settingsUser));
+          if (typeof window.renderUserBar === 'function') window.renderUserBar(settingsUser);
           statusDiv.textContent = 'Tarzınız başarıyla güncellendi!';
           setTimeout(() => statusDiv.textContent = '', 2500);
         }
       };
 
       // Load initial font picker state
+      document.getElementById('font-preview').textContent = user.username;
+      
       if (user.name_style) {
+        document.getElementById('font-preview').style.fontFamily = user.name_style;
         document.querySelectorAll('.font-option').forEach(el => {
           el.classList.remove('active');
           if (el.getAttribute('data-font').includes(user.name_style.replace(/'/g, ''))) {
