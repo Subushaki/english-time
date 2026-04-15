@@ -596,4 +596,37 @@ const WORDS_A2_GRAMMAR = [
   { id: 5050, en: "The passengers must show ....... boarding passes at the gate before boarding.", tr: "their" }
 ];
 
-const ALL_WORDS_A2 = [...WORDS_A2, ...WORDS_A2_GENEL, ...WORDS_A2_GRAMMAR];
+const WORDS_A2_DEYIMLER = [
+  { id: 6001, en: "A piece of cake", tr: "Çok kolay, çocuk oyuncağı" },
+  { id: 6002, en: "Break a leg", tr: "İyi şanslar (Genelde bir sınav veya gösteri öncesi söylenir)" },
+  { id: 6003, en: "Under the weather", tr: "Hafif hasta hissetmek, keyifsiz olmak" },
+  { id: 6004, en: "Once in a blue moon", tr: "Ayda yılda bir, çok nadir" },
+  { id: 6005, en: "Call it a day", tr: "Bugünlük bu kadar yeter, paydos etmek" },
+  { id: 6006, en: "So far, so good", tr: "Şu ana kadar her şey yolunda" },
+  { id: 6007, en: "Time flies", tr: "Zaman su gibi akıp geçiyor" },
+  { id: 6008, en: "Better late than never", tr: "Geç olsun güç olmasın" },
+  { id: 6009, en: "Keep an eye on", tr: "Göz kulak olmak, dikkat etmek" },
+  { id: 6010, en: "Out of the blue", tr: "Durup dururken, aniden" },
+  { id: 6011, en: "Cost an arm and a leg", tr: "Çok pahalı olmak, ateş pahası" },
+  { id: 6012, en: "Bite the bullet", tr: "İstemediğin ama mecburi olan bir duruma katlanmak, dişini sıkmak" },
+  { id: 6013, en: "Spill the beans", tr: "Ağzındaki baklayı çıkarmak, sırrı vermek" },
+  { id: 6014, en: "Hit the sack / Hit the bed", tr: "Kafayı vurup yatmak, uyumaya gitmek" },
+  { id: 6015, en: "Raining cats and dogs", tr: "Bardaktan boşanırcasına yağmur yağması" },
+  { id: 6016, en: "Pull someone's leg", tr: "Biriyle kafa bulmak, işletmek" },
+  { id: 6017, en: "Miss the boat", tr: "Fırsatı kaçırmak" },
+  { id: 6018, en: "To be on the same page", tr: "Aynı fikirde olmak, aynı noktada buluşmak" },
+  { id: 6019, en: "Let the cat out of the bag", tr: "Sırrı yanlışlıkla ağzından kaçırmak" },
+  { id: 6020, en: "Beat around the bush", tr: "Lafı dolandırmak, sadede gelmemek" },
+  { id: 6021, en: "No pain, no gain", tr: "Emek olmadan yemek olmaz, zahmetsiz rahmet olmaz" },
+  { id: 6022, en: "Rule of thumb", tr: "Genel kural, deneyimlere dayanan pratik kural" },
+  { id: 6023, en: "Give a hand", tr: "Yardım eli uzatmak, yardım etmek" },
+  { id: 6024, en: "Hold your horses", tr: "Acele etme, sabırlı ol" },
+  { id: 6025, en: "In the same boat", tr: "Aynı gemide olmak, aynı zor durumu paylaşmak" },
+  { id: 6026, en: "Make up your mind", tr: "Karar vermek" },
+  { id: 6027, en: "Take it easy", tr: "Sakin ol, kafana takma" },
+  { id: 6028, en: "Catch someone red-handed", tr: "Birini suç işlerken suçüstü yakalamak" },
+  { id: 6029, en: "See eye to eye", tr: "Biriyle tamamen aynı görüşte olmak" },
+  { id: 6030, en: "Add fuel to the fire", tr: "Yangına körükle gitmek" }
+];
+
+const ALL_WORDS_A2 = [...WORDS_A2, ...WORDS_A2_GENEL, ...WORDS_A2_GRAMMAR, ...WORDS_A2_DEYIMLER];

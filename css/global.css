@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+
+/* ===== CSS VARIABLES ===== */
+:root {
+  --bg-primary: #0a0a1a;
+  --bg-secondary: #111128;
+  --bg-card: rgba(255, 255, 255, 0.04);
+  --bg-card-hover: rgba(255, 255, 255, 0.08);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-border-hover: rgba(255, 255, 255, 0.15);
+
+  --text-primary: #f0f0ff;
+  --text-secondary: #9898b8;
+  --text-muted: #5a5a7a;
+
+  --accent-purple: #8b5cf6;
+  --accent-blue: #3b82f6;
+  --accent-cyan: #06b6d4;
+  --accent-pink: #ec4899;
+  --accent-green: #10b981;
+  --accent-red: #ef4444;
+  --accent-orange: #f59e0b;
+  --accent-yellow: #fbbf24;
+
+  --gradient-primary: linear-gradient(135deg, #8b5cf6, #3b82f6, #06b6d4);
+  --gradient-warm: linear-gradient(135deg, #ec4899, #8b5cf6);
+  --gradient-success: linear-gradient(135deg, #10b981, #06b6d4);
+  --gradient-danger: linear-gradient(135deg, #ef4444, #ec4899);
+
+  --shadow-glow-purple: 0 0 40px rgba(139, 92, 246, 0.15);
+  --shadow-glow-blue: 0 0 40px rgba(59, 130, 246, 0.15);
+  --shadow-glow-green: 0 0 30px rgba(16, 185, 129, 0.2);
+  --shadow-glow-red: 0 0 30px rgba(239, 68, 68, 0.2);
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* ===== RESET & BASE ===== */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+/* ===== ANIMATED BACKGROUND ===== */
+.bg-effects {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.bg-effects .orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  will-change: auto;
+}
+
+.bg-effects .orb-1 {
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.12), transparent 70%);
+  top: -200px;
+  left: -200px;
+  animation-delay: 0s;
+}
+
+.bg-effects .orb-2 {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.1), transparent 70%);
+  bottom: -150px;
+  right: -150px;
+  animation-delay: -7s;
+}
+
+.bg-effects .orb-3 {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(236, 72, 153, 0.08), transparent 70%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-delay: -14s;
+}
+
+@keyframes float {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  25% { transform: translate(40px, -30px) scale(1.05); }
+  50% { transform: translate(-20px, 40px) scale(0.95); }
+  75% { transform: translate(30px, 20px) scale(1.02); }
+}
+
+/* ===== STARS BACKGROUND ===== */
+.stars {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.stars::before,
+.stars::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: white;
+  box-shadow:
+    80px 120px 0 rgba(255,255,255,0.3),
+    200px 50px 0 rgba(255,255,255,0.2),
+    350px 180px 0 rgba(255,255,255,0.15),
+    450px 80px 0 rgba(255,255,255,0.25),
+    100px 300px 0 rgba(255,255,255,0.1),
+    600px 200px 0 rgba(255,255,255,0.2),
+    750px 100px 0 rgba(255,255,255,0.15),
+    300px 400px 0 rgba(255,255,255,0.3),
+    900px 300px 0 rgba(255,255,255,0.1),
+    150px 500px 0 rgba(255,255,255,0.2),
+    500px 450px 0 rgba(255,255,255,0.15),
+    700px 350px 0 rgba(255,255,255,0.25),
+    850px 500px 0 rgba(255,255,255,0.1),
+    50px 650px 0 rgba(255,255,255,0.2),
+    400px 600px 0 rgba(255,255,255,0.15);
+  animation: none;
+  opacity: 0.8;
+}
+
+.stars::after {
+  animation: none;
+  box-shadow:
+    130px 80px 0 rgba(255,255,255,0.2),
+    250px 250px 0 rgba(255,255,255,0.15),
+    420px 130px 0 rgba(255,255,255,0.3),
+    550px 320px 0 rgba(255,255,255,0.1),
+    680px 50px 0 rgba(255,255,255,0.25),
+    320px 520px 0 rgba(255,255,255,0.15),
+    780px 420px 0 rgba(255,255,255,0.2),
+    950px 150px 0 rgba(255,255,255,0.1);
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+/* ===== LAYOUT ===== */
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 90px; /* Üst barda çakışmayı önleyecek yüksek padding */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== BRANDING ===== */
+.brand {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.brand-icon {
+  font-size: 56px;
+  margin-bottom: 12px;
+  display: block;
+  filter: drop-shadow(0 0 10px rgba(139, 92, 246, 0.4));
+}
+
+@keyframes pulse-glow {
+  0%, 100% { filter: drop-shadow(0 0 10px rgba(139, 92, 246, 0.4)); transform: scale(1); }
+  50% { filter: drop-shadow(0 0 25px rgba(139, 92, 246, 0.6)); transform: scale(1.05); }
+}
+
+.brand h1 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 3.2rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 8px;
+}
+
+.brand p {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  font-weight: 400;
+}
+
+/* ===== RESPONSIVE GLOBALS ===== */
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
+    justify-content: flex-start;
+    padding-top: 40px;
+  }
+
+  .brand {
+    margin-bottom: 30px;
+  }
+
+  .brand-icon {
+    font-size: 42px;
+    animation: none;
+  }
+
+  .brand h1 {
+    font-size: 2rem;
+  }
+
+  .brand p {
+    font-size: 0.9rem;
+  }
+  
+  .bg-effects .orb {
+    animation: none;
+    filter: blur(80px);
+  }
+
+  .bg-effects .orb-1 {
+    width: 350px;
+    height: 350px;
+  }
+
+  .bg-effects .orb-2 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .bg-effects .orb-3 {
+    display: none;
+  }
+
+  .stars::before,
+  .stars::after {
+    animation: none;
+    opacity: 0.7;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    padding: 10px;
+    padding-top: 24px;
+  }
+
+  .brand h1 {
+    font-size: 1.6rem;
+  }
+
+  .brand-icon {
+    font-size: 36px;
+  }
+}

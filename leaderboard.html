@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="English Time - Liderlik Tablosu. En yüksek puanlı kullanıcıları gör ve yarış!">
+  <title>English Time | Skor Tablosu</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/leaderboard.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+
+  <div class="bg-effects">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+  </div>
+  <div class="stars"></div>
+
+  <div class="container">
+
+    <div class="user-bar" id="user-bar"></div>
+
+    <div class="brand" style="margin-bottom: 24px;">
+      <span class="brand-icon">🏅</span>
+      <h1>Skor Tablosu</h1>
+      <p>En yüksek puanlı kullanıcılarla yarış!</p>
+    </div>
+
+    <!-- Puan Sistemi Bilgi -->
+    <div class="lb-stats-info">
+      <span>⚡ İlk Seferde = <strong style="color: var(--accent-green);">3 puan</strong></span>
+      <span class="divider">|</span>
+      <span>🔄 Tekrarda = <strong style="color: var(--accent-blue);">2 puan</strong></span>
+      <span class="divider">|</span>
+      <span>😓 Yapılamayan = <strong style="color: var(--accent-orange);">1 puan</strong></span>
+    </div>
+
+    <!-- Loading -->
+    <div id="lb-loading" style="color: var(--text-muted); text-align: center; margin-top: 20px;">Yükleniyor...</div>
+
+    <!-- Podium (Top 3) -->
+    <div class="podium" id="lb-podium" style="display: none;"></div>
+
+    <!-- Sıralama Listesi -->
+    <div class="lb-list" id="lb-list" style="display: none;"></div>
+
+    <!-- Pagination -->
+    <div class="pagination" id="lb-pagination" style="display: none;">
+      <button class="page-btn" id="page-prev" onclick="changePage(-1)">← Önceki</button>
+      <button class="page-indicator" id="page-indicator" onclick="openPageSelector()">1 / 1</button>
+      <button class="page-btn" id="page-next" onclick="changePage(1)">Sonraki →</button>
+    </div>
+
+    <!-- Page Selector Modal -->
+    <div class="page-selector-overlay" id="page-selector" style="display: none;" onclick="closePageSelector(event)">
+      <div class="page-selector-modal" onclick="event.stopPropagation()">
+        <div class="page-selector-title">📄 Sayfa Seç</div>
+        <div class="page-selector-list" id="page-selector-list"></div>
+      </div>
+    </div>
+
+    <!-- Kendi Sıran -->
+    <div class="lb-my-rank" id="lb-my-rank" style="display: none;"></div>
+
+    <!-- Empty State -->
+    <div class="lb-empty" id="lb-empty" style="display: none;">
+      <span class="lb-empty-icon">🏜️</span>
+      <p>Henüz skor tablosuna katılan kullanıcı yok.</p>
+      <p style="margin-top: 8px; font-size: 0.85rem;">İlk sen katıl!</p>
+      <a href="settings.html" class="lb-cta">⚙️ Ayarlardan Aktif Et</a>
+    </div>
+
+    <!-- Not participating CTA -->
+    <div id="lb-join-cta" style="display: none; margin-top: 12px; text-align: center;">
+      <a href="settings.html" class="lb-cta">⚙️ Skor Tablosuna Katıl</a>
+    </div>
+
+    <!-- Ana Sayfa Butonu -->
+    <div style="margin-top: 24px; text-align: center;">
+      <a href="index.html" class="btn-secondary" style="display: inline-flex; gap: 8px;">🏠 Ana Sayfa</a>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/avatars.js"></script>
+  <script>
+    const POINT_MAP = { first_try: 3, retry: 2, hard: 1, unknown: 0 };
+    const PER_PAGE = 20;
+
+    let scoreBoard = [];
+    let currentPage = 1;
+    let totalPages = 1;
+    let currentUser = null;
+
+    function escapeHtmlLb(str) {
+      const div = document.createElement('div');
+      div.textContent = str;
+      return div.innerHTML;
+    }
+
+    function renderAvatarHtml(user, size) {
+      const cls = size === 'podium' ? 'podium-avatar' : 'lb-avatar';
+      let content = '';
+      if (user.avatar && user.avatar !== 'null') {
+        content = `<img src="avatars/${escapeHtmlLb(user.avatar)}" alt="" onerror="this.parentElement.textContent='${escapeHtmlLb(user.username).charAt(0).toUpperCase()}'">`;
+      } else {
+        content = escapeHtmlLb(user.username).charAt(0).toUpperCase();
+      }
+      return `<a href="profile.html?id=${user.id}" class="${cls}" style="text-decoration: none;" title="${escapeHtmlLb(user.username)} Profiline Git">${content}</a>`;
+    }
+
+    function renderPodium() {
+      const podiumEl = document.getElementById('lb-podium');
+      podiumEl.innerHTML = '';
+
+      if (scoreBoard.length === 0) return;
+      podiumEl.style.display = 'flex';
+
+      const medals = ['🥇', '🥈', '🥉'];
+      const classes = ['gold', 'silver', 'bronze'];
+      const rankLabels = ['1. Sıra', '2. Sıra', '3. Sıra'];
+      const podiumOrder = [1, 0, 2]; // Visual: 2nd, 1st, 3rd
+
+      podiumOrder.forEach(idx => {
+        if (idx < scoreBoard.length) {
+          const user = scoreBoard[idx];
+          const isMe = currentUser && currentUser.id === user.id;
+          const card = document.createElement('div');
+          card.className = `podium-card ${classes[idx]}`;
+          if (isMe) card.style.boxShadow = '0 0 25px rgba(139, 92, 246, 0.2)';
+          card.innerHTML = `
+            ${renderAvatarHtml(user, 'podium')}
+            <span class="podium-medal">${medals[idx]}</span>
+            <span class="podium-rank">${rankLabels[idx]}</span>
+            <span class="podium-name">${escapeHtmlLb(user.username)}${isMe ? ' (Sen)' : ''}</span>
+            <span class="podium-score">${user.score} puan</span>
+          `;
+          podiumEl.appendChild(card);
+        }
+      });
+    }
+
+    function renderList() {
+      const listEl = document.getElementById('lb-list');
+      listEl.innerHTML = '';
+
+      const startIdx = (currentPage - 1) * PER_PAGE;
+      const endIdx = Math.min(startIdx + PER_PAGE, scoreBoard.length);
+
+      if (startIdx >= scoreBoard.length) {
+        listEl.style.display = 'none';
+        return;
+      }
+
+      listEl.style.display = 'flex';
+
+      for (let i = startIdx; i < endIdx; i++) {
+        const user = scoreBoard[i];
+        const isMe = currentUser && currentUser.id === user.id;
+        const row = document.createElement('div');
+        row.className = `lb-row${isMe ? ' highlight' : ''}`;
+        row.innerHTML = `
+          <span class="lb-rank">${i + 1}.</span>
+          ${renderAvatarHtml(user, 'list')}
+          <span class="lb-name">${escapeHtmlLb(user.username)}${isMe ? ' (Sen)' : ''}</span>
+          <span class="lb-score-badge">${user.score} puan</span>
+        `;
+        listEl.appendChild(row);
+      }
+    }
+
+    function renderPagination() {
+      const remaining = scoreBoard.length;
+      if (remaining <= 0) {
+        document.getElementById('lb-pagination').style.display = 'none';
+        return;
+      }
+
+      totalPages = Math.ceil(remaining / PER_PAGE);
+      if (totalPages <= 1) {
+        document.getElementById('lb-pagination').style.display = 'none';
+        return;
+      }
+
+      document.getElementById('lb-pagination').style.display = 'flex';
+      document.getElementById('page-indicator').textContent = `${currentPage} / ${totalPages}`;
+      document.getElementById('page-prev').disabled = currentPage <= 1;
+      document.getElementById('page-next').disabled = currentPage >= totalPages;
+    }
+
+    function changePage(delta) {
+      const newPage = currentPage + delta;
+      if (newPage < 1 || newPage > totalPages) return;
+      currentPage = newPage;
+      renderList();
+      renderPagination();
+      // Scroll to list
+      document.getElementById('lb-list').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    function openPageSelector() {
+      const overlay = document.getElementById('page-selector');
+      const list = document.getElementById('page-selector-list');
+      list.innerHTML = '';
+
+      for (let i = 1; i <= totalPages; i++) {
+        const item = document.createElement('button');
+        item.className = `page-selector-item${i === currentPage ? ' active' : ''}`;
+        item.textContent = i;
+        item.onclick = () => {
+          currentPage = i;
+          renderList();
+          renderPagination();
+          overlay.style.display = 'none';
+          document.getElementById('lb-list').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        };
+        list.appendChild(item);
+      }
+
+      overlay.style.display = 'flex';
+    }
+
+    function closePageSelector(e) {
+      if (e.target === e.currentTarget) {
+        document.getElementById('page-selector').style.display = 'none';
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      const sb = getSupabase();
+      currentUser = await getCurrentUser();
+
+      // 1. Fetch all visible profiles
+      const { data: profiles } = await sb
+        .from('profiles')
+        .select('id, username, avatar')
+        .eq('leaderboard_visible', true);
+
+      document.getElementById('lb-loading').style.display = 'none';
+
+      if (!profiles || profiles.length === 0) {
+        document.getElementById('lb-empty').style.display = 'block';
+        if (currentUser && currentUser.id) {
+          document.getElementById('lb-join-cta').style.display = 'block';
+        }
+        return;
+      }
+
+      // 2. Fetch word_results for all visible users
+      const visibleIds = profiles.map(p => p.id);
+      const { data: allResults } = await sb
+        .from('word_results')
+        .select('user_id, word_id, result')
+        .in('user_id', visibleIds);
+
+      // 3. Calculate scores
+      profiles.forEach(profile => {
+        const userResults = (allResults || []).filter(r => r.user_id === profile.id);
+        const bestResults = {};
+        userResults.forEach(wr => {
+          const priority = { first_try: 1, retry: 2, hard: 3, unknown: 4 };
+          if (!bestResults[wr.word_id] || priority[wr.result] < priority[bestResults[wr.word_id]]) {
+            bestResults[wr.word_id] = wr.result;
+          }
+        });
+
+        let totalScore = 0;
+        Object.values(bestResults).forEach(result => {
+          totalScore += (POINT_MAP[result] || 0);
+        });
+
+        scoreBoard.push({
+          id: profile.id,
+          username: profile.username,
+          avatar: profile.avatar,
+          score: totalScore
+        });
+      });
+
+      // 4. Sort by score descending
+      scoreBoard.sort((a, b) => b.score - a.score);
+
+      // 5. Render
+      document.getElementById('lb-podium').style.display = 'none';
+      renderList();
+      renderPagination();
+
+      // 6. Show user's rank
+      if (currentUser && currentUser.id) {
+        const myRankEl = document.getElementById('lb-my-rank');
+        const myIdx = scoreBoard.findIndex(u => u.id === currentUser.id);
+
+        if (myIdx !== -1) {
+          myRankEl.style.display = 'block';
+          myRankEl.innerHTML = `🏅 <strong>${myIdx + 1}.</strong> sıradasın — <strong>${scoreBoard[myIdx].score}</strong> puan`;
+        } else {
+          document.getElementById('lb-join-cta').style.display = 'block';
+        }
+      }
+    });
+  </script>
+</body>
+</html>

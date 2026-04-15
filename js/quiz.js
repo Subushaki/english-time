@@ -42,7 +42,9 @@
 
     // Get word list
     let wordList;
-    let selectedData = dataset === 'genel' ? WORDS_A2_GENEL : (dataset === 'grammar' ? WORDS_A2_GRAMMAR : WORDS_A2);
+    let selectedData = dataset === 'genel' ? WORDS_A2_GENEL : 
+                       (dataset === 'grammar' ? WORDS_A2_GRAMMAR : 
+                       (dataset === 'deyimler' ? WORDS_A2_DEYIMLER : WORDS_A2));
 
     if (isCustomQuiz) {
       // Custom quiz: read word IDs from localStorage

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="English Time - Profilim. İstatistiklerini ve puanını gör.">
+  <title>English Time | Profilim</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/profile.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+
+  <div class="bg-effects">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+  <div class="stars"></div>
+
+  <div class="container">
+
+    <div class="user-bar" id="user-bar"></div>
+
+    <!-- Loading -->
+    <div id="profile-loading" style="color: var(--text-muted); text-align: center; margin-top: 40px;">Yükleniyor...</div>
+
+    <!-- Not Logged In -->
+    <div id="profile-no-login" style="display: none; text-align: center; margin-top: 40px;">
+      <p style="color: var(--text-secondary); margin-bottom: 20px;">Profilinizi görmek için giriş yapmalısınız.</p>
+      <a href="login.html" class="btn-primary">🔑 Giriş Yap</a>
+    </div>
+
+    <!-- Profile Content -->
+    <div id="profile-content" style="display: none; width: 100%; display: none; flex-direction: column; align-items: center;">
+
+      <div class="profile-card">
+
+        <!-- Avatar -->
+        <div class="profile-avatar" id="profile-avatar">👤</div>
+
+        <!-- Username -->
+        <div class="profile-username" id="profile-username">Kullanıcı</div>
+        <div class="profile-joined" id="profile-joined">Katılım: —</div>
+
+        <!-- Total Score -->
+        <div class="profile-total-score">
+          <div class="profile-total-label">Toplam Puan</div>
+          <div class="profile-total-value" id="profile-score">0</div>
+        </div>
+
+        <!-- Stats Grid -->
+        <div class="profile-stats-grid">
+          <div class="profile-stat">
+            <span class="profile-stat-icon">⚡</span>
+            <span class="profile-stat-value" id="ps-first">0</span>
+            <span class="profile-stat-label">İlk Seferde</span>
+          </div>
+          <div class="profile-stat">
+            <span class="profile-stat-icon">🔄</span>
+            <span class="profile-stat-value" id="ps-retry">0</span>
+            <span class="profile-stat-label">Tekrarda</span>
+          </div>
+          <div class="profile-stat">
+            <span class="profile-stat-icon">😓</span>
+            <span class="profile-stat-value" id="ps-hard">0</span>
+            <span class="profile-stat-label">Yapılamayan</span>
+          </div>
+          <div class="profile-stat">
+            <span class="profile-stat-icon">❌</span>
+            <span class="profile-stat-value" id="ps-unknown">0</span>
+            <span class="profile-stat-label">Bilinmiyor</span>
+          </div>
+          <div class="profile-stat">
+            <span class="profile-stat-icon">⭐</span>
+            <span class="profile-stat-value" id="ps-starred">0</span>
+            <span class="profile-stat-label">Yıldızlı</span>
+          </div>
+          <div class="profile-stat">
+            <span class="profile-stat-icon">📝</span>
+            <span class="profile-stat-value" id="ps-quizzes">0</span>
+            <span class="profile-stat-label">Quiz</span>
+          </div>
+        </div>
+
+        <!-- Rank Bar -->
+        <div class="profile-rank-bar" id="profile-rank-bar" style="display: none;">
+          🏅 Skor tablosunda <strong id="profile-rank-num">—</strong>. sıradasın
+        </div>
+
+        <!-- Actions -->
+        <div class="profile-actions">
+          <a href="index.html" class="btn-primary" style="justify-content: center;">🏠 Ana Sayfa</a>
+          <a href="dashboard.html" class="btn-secondary" style="justify-content: center;">📊 Panelim</a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js"></script>
+  <script src="js/auth.js"></script>
+  <script>
+    const POINT_MAP = { first_try: 3, retry: 2, hard: 1, unknown: 0 };
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      const searchParams = new URLSearchParams(window.location.search);
+      const targetId = searchParams.get('id');
+
+      let currentUser = await getCurrentUser();
+      let isOwnProfile = (!targetId || (currentUser && targetId === currentUser.id));
+
+      if (isOwnProfile && (!currentUser || !currentUser.id)) {
+        document.getElementById('profile-loading').style.display = 'none';
+        document.getElementById('profile-no-login').style.display = 'block';
+        return;
+      }
+
+      const sb = getSupabase();
+      let targetUserId = targetId || currentUser.id;
+
+      // Fetch the profile we want to view
+      const { data: targetProfile, error: profileError } = await sb
+        .from('profiles').select('id, username, avatar, created_at, leaderboard_visible, is_private').eq('id', targetUserId).single();
+
+      if (profileError || !targetProfile) {
+        document.getElementById('profile-loading').style.display = 'none';
+        document.getElementById('profile-no-login').innerHTML = `
+          <p style="color: var(--text-secondary); margin-bottom: 20px;">Kullanıcı bulunamadı.</p>
+          <a href="leaderboard.html" class="btn-primary">← Skor Tablosuna Dön</a>
+        `;
+        document.getElementById('profile-no-login').style.display = 'block';
+        return;
+      }
+
+      document.getElementById('profile-loading').style.display = 'none';
+      const profileContent = document.getElementById('profile-content');
+      profileContent.style.display = 'flex';
+
+      // Set Header info
+      document.getElementById('profile-username').textContent = targetProfile.username;
+      
+      const avatarEl = document.getElementById('profile-avatar');
+      if (targetProfile.avatar && targetProfile.avatar !== 'null') {
+        avatarEl.innerHTML = `<img src="avatars/${targetProfile.avatar}" alt="" onerror="this.parentElement.textContent='${targetProfile.username.charAt(0).toUpperCase()}'">`;
+      } else {
+        avatarEl.textContent = targetProfile.username.charAt(0).toUpperCase();
+      }
+
+      if (targetProfile.created_at) {
+        const date = new Date(targetProfile.created_at);
+        const months = ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'];
+        document.getElementById('profile-joined').textContent = `Katılım: ${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()}`;
+      }
+
+      // Modify Actions if it's someone else's profile
+      if (!isOwnProfile) {
+        document.querySelector('.profile-actions').innerHTML = '<a href="leaderboard.html" class="btn-secondary" style="justify-content: center;">← Skor Tablosuna Dön</a>';
+      }
+
+      // Check Privacy
+      if (targetProfile.is_private && !isOwnProfile) {
+        document.getElementById('profile-score').innerHTML = '<span style="font-size: 1.5rem; color: var(--text-muted);"><span style="font-size:1.8rem; vertical-align: middle;">🔒</span> Gizli Hesap</span>';
+        document.getElementById('ps-first').innerHTML = '<i>Gizli</i>';
+        document.getElementById('ps-first').style.color = 'var(--text-muted)';
+        document.getElementById('ps-retry').innerHTML = '<i>Gizli</i>';
+        document.getElementById('ps-retry').style.color = 'var(--text-muted)';
+        document.getElementById('ps-hard').innerHTML = '<i>Gizli</i>';
+        document.getElementById('ps-hard').style.color = 'var(--text-muted)';
+        document.getElementById('ps-unknown').innerHTML = '<i>Gizli</i>';
+        document.getElementById('ps-unknown').style.color = 'var(--text-muted)';
+        document.getElementById('ps-starred').innerHTML = '<i>Gizli</i>';
+        document.getElementById('ps-starred').style.color = 'var(--text-muted)';
+        document.getElementById('ps-quizzes').innerHTML = '<i>Gizli</i>';
+        document.getElementById('ps-quizzes').style.color = 'var(--text-muted)';
+        return; // Stop fetching stats
+      }
+
+      // Fetch Stats
+      const { data: wordResults } = await sb.from('word_results').select('word_id, result').eq('user_id', targetUserId);
+      const { data: studyWords } = await sb.from('study_words').select('word_id, starred').eq('user_id', targetUserId);
+      const { data: quizSessions } = await sb.from('quiz_sessions').select('id, status').eq('user_id', targetUserId);
+
+      const bestResults = {};
+      if (wordResults && wordResults.length > 0) {
+        wordResults.forEach(wr => {
+          const priority = { first_try: 1, retry: 2, hard: 3, unknown: 4 };
+          if (!bestResults[wr.word_id] || priority[wr.result] < priority[bestResults[wr.word_id]]) {
+            bestResults[wr.word_id] = wr.result;
+          }
+        });
+      }
+
+      let first = 0, retry = 0, hard = 0, unknown = 0;
+      let totalScore = 0;
+      Object.values(bestResults).forEach(r => {
+        if (r === 'first_try') first++;
+        else if (r === 'retry') retry++;
+        else if (r === 'hard') hard++;
+        else if (r === 'unknown') unknown++;
+        totalScore += (POINT_MAP[r] || 0);
+      });
+
+      let starredCount = 0;
+      if (studyWords) studyWords.forEach(sw => { if (sw.starred) starredCount++; });
+
+      let quizCount = 0;
+      if (quizSessions) quizSessions.forEach(qs => { if (qs.status === 'completed') quizCount++; });
+
+      document.getElementById('profile-score').textContent = totalScore;
+      document.getElementById('ps-first').textContent = first;
+      document.getElementById('ps-retry').textContent = retry;
+      document.getElementById('ps-hard').textContent = hard;
+      document.getElementById('ps-unknown').textContent = unknown;
+      document.getElementById('ps-starred').textContent = starredCount;
+      document.getElementById('ps-quizzes').textContent = quizCount;
+
+      // Check leaderboard rank
+      if (targetProfile.leaderboard_visible) {
+        const { data: visibleProfiles } = await sb.from('profiles').select('id').eq('leaderboard_visible', true);
+
+        if (visibleProfiles && visibleProfiles.length > 0) {
+          const visibleIds = visibleProfiles.map(p => p.id);
+          const { data: allResults } = await sb.from('word_results').select('user_id, word_id, result').in('user_id', visibleIds);
+
+          const scores = [];
+          visibleProfiles.forEach(p => {
+            const userRes = (allResults || []).filter(r => r.user_id === p.id);
+            const best = {};
+            userRes.forEach(wr => {
+              const prio = { first_try: 1, retry: 2, hard: 3, unknown: 4 };
+              if (!best[wr.word_id] || prio[wr.result] < prio[best[wr.word_id]]) {
+                best[wr.word_id] = wr.result;
+              }
+            });
+            let sc = 0;
+            Object.values(best).forEach(r => { sc += (POINT_MAP[r] || 0); });
+            scores.push({ id: p.id, score: sc });
+          });
+
+          scores.sort((a, b) => b.score - a.score);
+          const myRank = scores.findIndex(s => s.id === targetUserId);
+
+          if (myRank !== -1) {
+            document.getElementById('profile-rank-bar').style.display = 'block';
+            document.getElementById('profile-rank-num').textContent = myRank + 1;
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>

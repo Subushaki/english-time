@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="English Time - Kategori Kelimeleri">
+  <title>English Time | Kelime Listesi</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="css/quiz.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+  <style>
+    .category-header {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .category-header h2 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-weight: 600;
+      margin-bottom: 20px;
+      transition: color var(--transition-fast);
+    }
+    .back-btn:hover {
+      color: var(--text-primary);
+    }
+    .word-list-card {
+      background: var(--bg-card);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    }
+    .word-list-body {
+      max-height: 70vh;
+      overflow-y: auto;
+    }
+    .empty-state {
+      padding: 40px 20px;
+      text-align: center;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bg-effects">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+  </div>
+  <div class="stars"></div>
+
+  <div class="container">
+
+    <div class="user-bar" id="user-bar"></div>
+
+    <div style="width: 100%; max-width: 700px; margin-bottom: 20px;">
+      <a href="dashboard.html" class="back-btn">← Panele Dön</a>
+    </div>
+
+    <div class="category-header" id="cat-header" style="display: none;">
+      <h2 id="cat-title"><span id="cat-icon"></span> <span id="cat-text">Liste</span> <span class="word-list-count" id="cat-count">0</span></h2>
+    </div>
+
+    <div id="loading" style="color: var(--text-muted); text-align: center; margin-top: 40px;">Yükleniyor...</div>
+
+    <div class="word-list-card" id="word-list-container" style="display: none; width: 100%; max-width: 700px;">
+      <div class="word-list-body" id="word-body"></div>
+      <div class="word-list-actions" id="word-actions" style="display: none;">
+        <button class="btn-primary custom-quiz-btn" id="quiz-en-tr">📝 Kelimelerle Quiz (EN→TR)</button>
+        <button class="btn-secondary custom-quiz-btn" id="quiz-tr-en">📝 Kelimelerle Quiz (TR→EN)</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/words-a2.js"></script>
+  <script>
+    let loggedUser = null;
+    let targetCategory = '';
+    let categoryWords = [];
+    let starredWordIds = new Set();
+    
+    // Config mappings
+    const typeConfig = {
+      'first_try': { icon: '⚡', text: 'İlk Seferde Bilinenler', colorClass: 'wl-first' },
+      'retry': { icon: '🔄', text: 'Tekrarda Öğrenilenler', colorClass: 'wl-retry' },
+      'hard': { icon: '😓', text: 'Yapılamayanlar', colorClass: 'wl-hard' },
+      'unknown': { icon: '❌', text: 'Bilinmeyenler', colorClass: 'wl-unknown' },
+      'starred': { icon: '⭐', text: 'Yıldızlanan Kelimeler', colorClass: 'wl-starred' }
+    };
+
+    // Toggle star function (frontend only visually, user said new sys later but lets keep exact DB logic to not break)
+    async function toggleStarInList(wordId, btn) {
+      const sb = getSupabase();
+      const isStarred = btn.classList.contains('starred');
+
+      if (isStarred) {
+        await sb.from('study_words').update({ starred: false })
+          .eq('user_id', loggedUser.id).eq('word_id', wordId);
+        btn.classList.remove('starred');
+        btn.textContent = '☆';
+        starredWordIds.delete(wordId);
+      } else {
+        await sb.from('study_words').upsert({
+          user_id: loggedUser.id,
+          word_id: wordId,
+          starred: true,
+          mastered: false
+        }, { onConflict: 'user_id,word_id' });
+        btn.classList.add('starred');
+        btn.textContent = '★';
+        starredWordIds.add(wordId);
+      }
+    }
+
+    function createWordRow(word, isStarred) {
+      const row = document.createElement('div');
+      row.className = 'word-list-row';
+      row.innerHTML = `
+        <button class="star-btn ${isStarred ? 'starred' : ''}"
+                onclick="toggleStarInList(${word.id}, this)" title="Yıldızla">
+          ${isStarred ? '★' : '☆'}
+        </button>
+        <span class="word-en">${word.en}</span>
+        <span class="word-separator">—</span>
+        <span class="word-tr">${word.tr}</span>
+      `;
+      return row;
+    }
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      targetCategory = new URLSearchParams(window.location.search).get('type');
+      if (!typeConfig[targetCategory]) {
+        window.location.href = 'dashboard.html';
+        return;
+      }
+
+      // Setup UI Headers
+      document.getElementById('cat-icon').textContent = typeConfig[targetCategory].icon;
+      document.getElementById('cat-text').textContent = typeConfig[targetCategory].text;
+      document.getElementById('cat-count').className = `word-list-count`;
+
+      loggedUser = await getCurrentUser();
+      if (!loggedUser || !loggedUser.id) {
+        window.location.href = 'login.html';
+        return;
+      }
+
+      const sb = getSupabase();
+
+      // Fetch Word Results
+      const { data: wordResults } = await sb
+        .from('word_results').select('word_id, result').eq('user_id', loggedUser.id);
+        
+      // Fetch Starred Words
+      const { data: studyWords } = await sb
+        .from('study_words').select('word_id, starred').eq('user_id', loggedUser.id);
+
+      if (studyWords) {
+        studyWords.forEach(sw => {
+          if (sw.starred) starredWordIds.add(sw.word_id);
+        });
+      }
+
+      // Calculate Best Results
+      const bestResults = {};
+      if (wordResults && wordResults.length > 0) {
+        wordResults.forEach(wr => {
+          const priority = { first_try: 1, retry: 2, hard: 3, unknown: 4 };
+          if (!bestResults[wr.word_id] || priority[wr.result] < priority[bestResults[wr.word_id]]) {
+            bestResults[wr.word_id] = wr.result;
+          }
+        });
+      }
+
+      // Filter for target category
+      let targetIds = [];
+      if (targetCategory === 'starred') {
+        targetIds = Array.from(starredWordIds);
+      } else {
+        targetIds = Object.entries(bestResults)
+          .filter(([_, r]) => r === targetCategory)
+          .map(([id, _]) => parseInt(id));
+      }
+
+      document.getElementById('loading').style.display = 'none';
+      document.getElementById('cat-header').style.display = 'block';
+      document.getElementById('cat-count').textContent = targetIds.length;
+      document.getElementById('word-list-container').style.display = 'block';
+      
+      const body = document.getElementById('word-body');
+      
+      if (targetIds.length === 0) {
+        body.innerHTML = `<div class="empty-state">Bu listede henüz kelime bulunmuyor.</div>`;
+      } else {
+        targetIds.forEach(wid => {
+          const word = ALL_WORDS_A2.find(w => w.id === wid);
+          if (word) {
+            categoryWords.push(word.id);
+            body.appendChild(createWordRow(word, starredWordIds.has(wid)));
+          }
+        });
+
+        // Setup custom quiz logic if there are words
+        const actionSection = document.getElementById('word-actions');
+        actionSection.style.display = 'flex';
+        
+        document.getElementById('quiz-en-tr').onclick = () => {
+          localStorage.setItem('custom_quiz_ids', JSON.stringify(categoryWords));
+          window.location.href = `quiz.html?level=a2&mode=en-tr&custom=true`;
+        };
+        document.getElementById('quiz-tr-en').onclick = () => {
+          localStorage.setItem('custom_quiz_ids', JSON.stringify(categoryWords));
+          window.location.href = `quiz.html?level=a2&mode=tr-en&custom=true`;
+        };
+      }
+
+    });
+  </script>
+</body>
+</html>

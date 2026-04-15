@@ -68,7 +68,7 @@ No   | English                              | Türkçe
 63   | Shares                               | Paylaşır / Paylar
 64   | Short                                | Kısa
 65   | Silver                               | Gümüş
-66   | Slang                                | Argo
+66   | Slang                                | Argo / Halk Ağızı 
 67   | Sophisticated                        | Sofistike / Çok yönlü
 68   | South                                | Güney
 69   | Special                              | Özel
@@ -125,10 +125,10 @@ No   | English                              | Türkçe
 120  | Dozen                                | Düzine
 121  | Extreme                              | Uç nokta / Aşırılık
 122  | Feature                              | Özellik
-123  | Fjord                                | Fiyort / Körfez
+123  | Fjord                                | Fiyort
 124  | Geyser                               | Gayzer
 125  | Mountain                             | Dağ
-126  | Share                                | Pay / Hisse
+126  | Share                                | Paylaşmak / Pay
 127  | Volcano                              | Volkan / Yanardağ
 128  | Waterfall                            | Şelale
 129  | Wood                                 | Ormanlık alan / Tahta

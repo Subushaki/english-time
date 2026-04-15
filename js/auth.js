@@ -95,14 +95,33 @@ async function updateUserBar() {
 
   const user = await getCurrentUser();
   if (user && user.username) {
+    const isDashboard = window.location.pathname.includes('dashboard.html');
+    const isLeaderboard = window.location.pathname.includes('leaderboard.html');
+    const isProfile = window.location.pathname.includes('profile.html');
+
+    const mainActionBtn = isDashboard
+      ? '<a href="index.html" class="user-bar-btn">🏠 Ana Sayfa</a>'
+      : '<a href="dashboard.html" class="user-bar-btn">📊 Panelim</a>';
+
+    const lbBtn = isLeaderboard
+      ? ''
+      : '<a href="leaderboard.html" class="user-bar-btn">🏅 Skor</a>';
+
+    const profileBtn = isProfile
+      ? ''
+      : '<a href="profile.html" class="user-bar-btn">👤 Profilim</a>';
+
     userBar.innerHTML = `
       <span class="user-greeting">👋 ${escapeHtmlAuth(user.username)}</span>
-      <a href="dashboard.html" class="user-bar-btn">📊 Panelim</a>
+      ${lbBtn}
+      ${profileBtn}
+      ${mainActionBtn}
       <a href="settings.html" class="user-bar-btn">⚙️ Ayarlar</a>
     `;
     userBar.classList.add('logged-in');
   } else {
     userBar.innerHTML = `
+      <a href="leaderboard.html" class="user-bar-btn">🏅 Skor</a>
       <a href="login.html" class="user-bar-btn login-link">🔑 Giriş Yap</a>
     `;
     userBar.classList.remove('logged-in');

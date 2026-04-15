@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="English Time - Ayarlar">
   <title>English Time | Ayarlar</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/settings.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
   <style>
     .settings-card {
@@ -90,6 +92,49 @@
       </a>
     </div>
 
+    <!-- Leaderboard Toggle Section -->
+    <div class="settings-card" style="margin-bottom: 16px;">
+      <div class="settings-header">
+        <h2>🏅 Liderlik Tablosu</h2>
+        <p>Skor tablosunda diğer kullanıcılarla yarış</p>
+      </div>
+
+      <div class="toggle-row" id="lb-toggle-row">
+        <div class="toggle-info">
+          <h4>Skor Tablosunda Görün</h4>
+          <p>Aktif edildiğinde kullanıcı adınız ve puanınız diğer kullanıcılara görünür olur.</p>
+        </div>
+        <label class="toggle-switch">
+          <input type="checkbox" id="lb-toggle" onchange="toggleLeaderboard(this.checked)">
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <div id="lb-toggle-status" style="text-align: center; margin-top: 10px; font-size: 0.82rem; color: var(--text-muted);"></div>
+    </div>
+
+    <!-- Privacy Toggle Section -->
+    <div class="settings-card" style="margin-bottom: 16px;">
+      <div class="settings-header">
+        <h2>🔒 Gizlilik</h2>
+        <p>Profilinizin diğer kullanıcılara nasıl görüneceğini ayarlayın</p>
+      </div>
+
+      <div class="toggle-row" id="privacy-toggle-row">
+        <div class="toggle-info">
+          <h4>Hesabı Gizle</h4>
+          <p>Aktif edildiğinde diğer kullanıcılar profilinizi detaylı göremez, istatistikleriniz gizlenir.</p>
+        </div>
+        <label class="toggle-switch">
+          <input type="checkbox" id="privacy-toggle" onchange="togglePrivacy(this.checked)">
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <div id="privacy-toggle-status" style="text-align: center; margin-top: 10px; font-size: 0.82rem; color: var(--text-muted);"></div>
+    </div>
+
+    <!-- Account Management -->
     <div class="settings-card">
       <div class="settings-header">
         <h2>Hesap Yönetimi</h2>
@@ -99,6 +144,16 @@
       <button class="settings-btn" onclick="promptChangeUsername()">
         <span class="settings-btn-icon">✏️</span> Kullanıcı Adı Değiştir
       </button>
+
+      <!-- Avatar Picker -->
+      <div class="avatar-picker-section" id="avatar-picker">
+        <div class="avatar-picker-header">
+          <h4>🖼️ Profil Resmi Seç</h4>
+          <div class="avatar-picker-current" id="current-avatar-preview">?</div>
+        </div>
+        <div class="avatar-grid" id="avatar-grid"></div>
+        <div id="avatar-status" style="text-align: center; margin-top: 10px; font-size: 0.82rem; color: var(--text-muted);"></div>
+      </div>
 
       <button class="settings-btn btn-danger" onclick="confirmResetData()">
         <span class="settings-btn-icon">🗑️</span> Verileri Sıfırla (İlerlemeni Sil)
@@ -112,8 +167,8 @@
         <span class="settings-btn-icon">🚪</span> Çıkış Yap
       </button>
       
-      <div style="text-align: center; margin-top: 10px;">
-        <a href="index.html" class="skip-login">← Ana Sayfaya Dön</a>
+      <div style="text-align: center; margin-top: 24px;">
+        <a href="index.html" class="btn-secondary" style="display: inline-flex; gap: 8px; justify-content: center;">🏠 Ana Sayfaya Dön</a>
       </div>
     </div>
   </div>
@@ -121,13 +176,147 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/supabase-config.js"></script>
   <script src="js/auth.js"></script>
+  <script src="js/avatars.js"></script>
   <script>
-    // Security check
+    let settingsUser = null;
+
+    // Toggle leaderboard visibility
+    async function toggleLeaderboard(checked) {
+      if (!settingsUser) return;
+      const sb = getSupabase();
+      const statusEl = document.getElementById('lb-toggle-status');
+
+      statusEl.textContent = 'Kaydediliyor...';
+      statusEl.style.color = 'var(--text-muted)';
+
+      const { error } = await sb.from('profiles')
+        .update({ leaderboard_visible: checked })
+        .eq('id', settingsUser.id);
+
+      if (error) {
+        statusEl.textContent = '❌ Hata: ' + error.message;
+        statusEl.style.color = 'var(--accent-red)';
+        // Revert toggle
+        document.getElementById('lb-toggle').checked = !checked;
+      } else {
+        statusEl.textContent = checked ? '✅ Skor tablosuna katıldınız!' : '⚪ Skor tablosundan çıktınız.';
+        statusEl.style.color = checked ? 'var(--accent-green)' : 'var(--text-muted)';
+        // Update local session
+        settingsUser.leaderboard_visible = checked;
+        localStorage.setItem('english_time_user', JSON.stringify(settingsUser));
+      }
+
+      setTimeout(() => { statusEl.textContent = ''; }, 3000);
+    }
+
+    // Toggle Privacy (is_private)
+    async function togglePrivacy(checked) {
+      if (!settingsUser) return;
+      const sb = getSupabase();
+      const statusEl = document.getElementById('privacy-toggle-status');
+
+      statusEl.textContent = 'Kaydediliyor...';
+      statusEl.style.color = 'var(--text-muted)';
+
+      const { error } = await sb.from('profiles')
+        .update({ is_private: checked })
+        .eq('id', settingsUser.id);
+
+      if (error) {
+        statusEl.textContent = '❌ Hata: (Bu ayar için gerekli SQL güncellemeleri tamamlanmamış olabilir) ' + error.message;
+        statusEl.style.color = 'var(--accent-red)';
+        document.getElementById('privacy-toggle').checked = !checked;
+      } else {
+        statusEl.textContent = checked ? '✅ Hesabınız gizlendi!' : '⚪ Hesabınız artık herkese açık.';
+        statusEl.style.color = checked ? 'var(--accent-green)' : 'var(--text-muted)';
+        // Update local session
+        settingsUser.is_private = checked;
+        localStorage.setItem('english_time_user', JSON.stringify(settingsUser));
+      }
+
+      setTimeout(() => { statusEl.textContent = ''; }, 3000);
+    }
+
+    // Select avatar
+    async function selectAvatar(filename) {
+      if (!settingsUser) return;
+      const sb = getSupabase();
+      const statusEl = document.getElementById('avatar-status');
+      statusEl.textContent = 'Kaydediliyor...';
+
+      const { error } = await sb.from('profiles')
+        .update({ avatar: filename })
+        .eq('id', settingsUser.id);
+
+      if (error) {
+        statusEl.textContent = '❌ Hata: ' + error.message;
+        statusEl.style.color = 'var(--accent-red)';
+      } else {
+        statusEl.textContent = '✅ Profil resmi güncellendi!';
+        statusEl.style.color = 'var(--accent-green)';
+        settingsUser.avatar = filename;
+        localStorage.setItem('english_time_user', JSON.stringify(settingsUser));
+        renderAvatarGrid();
+        updateCurrentAvatarPreview();
+      }
+      setTimeout(() => { statusEl.textContent = ''; }, 3000);
+    }
+
+    function updateCurrentAvatarPreview() {
+      const el = document.getElementById('current-avatar-preview');
+      if (settingsUser.avatar) {
+        el.innerHTML = `<img src="avatars/${settingsUser.avatar}" alt="" onerror="this.parentElement.textContent='${settingsUser.username.charAt(0).toUpperCase()}'">`;
+      } else {
+        el.textContent = settingsUser.username.charAt(0).toUpperCase();
+      }
+    }
+
+    function renderAvatarGrid() {
+      const grid = document.getElementById('avatar-grid');
+      grid.innerHTML = '';
+
+      // "Yok" option (remove avatar)
+      const noneOpt = document.createElement('div');
+      noneOpt.className = `avatar-option${!settingsUser.avatar ? ' selected' : ''}`;
+      noneOpt.style.fontSize = '1.4rem';
+      noneOpt.textContent = '🚫';
+      noneOpt.title = 'Varsayılan (Harf)';
+      noneOpt.onclick = () => selectAvatar(null);
+      grid.appendChild(noneOpt);
+
+      AVATAR_LIST.forEach(av => {
+        const opt = document.createElement('div');
+        opt.className = `avatar-option${settingsUser.avatar === av.file ? ' selected' : ''}`;
+        opt.title = av.name;
+        opt.innerHTML = `<img src="avatars/${av.file}" alt="${av.name}" onerror="this.parentElement.style.display='none'">`;
+        opt.onclick = () => selectAvatar(av.file);
+        grid.appendChild(opt);
+      });
+    }
+
+    // Init
     document.addEventListener('DOMContentLoaded', async () => {
       const user = await getCurrentUser();
       if (!user) {
         window.location.href = 'login.html';
+        return;
       }
+
+      settingsUser = user;
+
+      // Load current leaderboard status
+      const toggle = document.getElementById('lb-toggle');
+      toggle.checked = !!user.leaderboard_visible;
+
+      // Load current privacy status
+      const privacyToggle = document.getElementById('privacy-toggle');
+      if (privacyToggle) {
+        privacyToggle.checked = !!user.is_private;
+      }
+
+      // Render avatar picker
+      renderAvatarGrid();
+      updateCurrentAvatarPreview();
     });
   </script>
 </body>

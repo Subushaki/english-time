@@ -32,8 +32,16 @@ function selectDataset(dataset) {
     return;
   }
 
-  document.getElementById('dataset-section').style.display = 'none';
-  document.getElementById('dataset-section').classList.remove('visible');
+  // Highlight selected dataset card
+  document.querySelectorAll('#dataset-section .mode-card').forEach(card => {
+    card.classList.remove('active');
+    card.style.borderColor = 'var(--glass-border)';
+    card.style.background = 'var(--bg-card)';
+  });
+  const activeCard = document.getElementById('dataset-' + dataset);
+  activeCard.classList.add('active');
+  activeCard.style.borderColor = 'var(--accent-blue)';
+  activeCard.style.background = 'rgba(59, 130, 246, 0.05)';
 
   const modeSection = document.getElementById('mode-section');
   modeSection.style.display = 'block';
