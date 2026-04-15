@@ -125,7 +125,7 @@
 
       // Fetch the profile we want to view
       const { data: targetProfile, error: profileError } = await sb
-        .from('profiles').select('id, username, avatar, created_at, leaderboard_visible, is_private').eq('id', targetUserId).single();
+        .from('profiles').select('id, username, avatar, created_at, leaderboard_visible, is_private, name_style').eq('id', targetUserId).single();
 
       if (profileError || !targetProfile) {
         document.getElementById('profile-loading').style.display = 'none';
@@ -142,7 +142,8 @@
       profileContent.style.display = 'flex';
 
       // Set Header info
-      document.getElementById('profile-username').textContent = targetProfile.username;
+      const usernameEl = document.getElementById('profile-username');
+      usernameEl.textContent = targetProfile.username;
       
       const avatarEl = document.getElementById('profile-avatar');
       if (targetProfile.avatar && targetProfile.avatar !== 'null') {

@@ -137,7 +137,7 @@
             ${renderAvatarHtml(user, 'podium')}
             <span class="podium-medal">${medals[idx]}</span>
             <span class="podium-rank">${rankLabels[idx]}</span>
-            <span class="podium-name">${escapeHtmlLb(user.username)}${isMe ? ' (Sen)' : ''}</span>
+            <span class="podium-name" style="${user.name_style ? 'font-family: ' + user.name_style + ';' : ''}">${escapeHtmlLb(user.username)}${isMe ? ' (Sen)' : ''}</span>
             <span class="podium-score">${user.score} puan</span>
           `;
           podiumEl.appendChild(card);
@@ -167,7 +167,7 @@
         row.innerHTML = `
           <span class="lb-rank">${i + 1}.</span>
           ${renderAvatarHtml(user, 'list')}
-          <span class="lb-name">${escapeHtmlLb(user.username)}${isMe ? ' (Sen)' : ''}</span>
+          <span class="lb-name" style="${user.name_style ? 'font-family: ' + user.name_style + ';' : ''}">${escapeHtmlLb(user.username)}${isMe ? ' (Sen)' : ''}</span>
           <span class="lb-score-badge">${user.score} puan</span>
         `;
         listEl.appendChild(row);
@@ -238,7 +238,7 @@
       // 1. Fetch all visible profiles
       const { data: profiles } = await sb
         .from('profiles')
-        .select('id, username, avatar')
+        .select('id, username, avatar, name_style')
         .eq('leaderboard_visible', true);
 
       document.getElementById('lb-loading').style.display = 'none';
@@ -278,6 +278,7 @@
           id: profile.id,
           username: profile.username,
           avatar: profile.avatar,
+          name_style: profile.name_style,
           score: totalScore
         });
       });
