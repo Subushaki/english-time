@@ -95,28 +95,33 @@ async function updateUserBar() {
 
   const user = await getCurrentUser();
   if (user && user.username) {
-    const isDashboard = window.location.pathname.includes('dashboard.html');
+    const isDashboard = window.location.pathname.includes('dashboard.html') || window.location.pathname.includes('index.html') || window.location.pathname.endsWith('/');
     const isLeaderboard = window.location.pathname.includes('leaderboard.html');
     const isProfile = window.location.pathname.includes('profile.html');
 
     const mainActionBtn = isDashboard
-      ? '<a href="index.html" class="user-bar-btn">🏠 Ana Sayfa</a>'
-      : '<a href="dashboard.html" class="user-bar-btn">📊 Panelim</a>';
+      ? '<a href="index.html" class="user-bar-btn"><span class="settings-btn-icon">🏠</span> Ana Sayfa</a>'
+      : '<a href="dashboard.html" class="user-bar-btn"><span class="settings-btn-icon">📊</span> Panelim</a>';
 
     const lbBtn = isLeaderboard
       ? ''
-      : '<a href="leaderboard.html" class="user-bar-btn">🏅 Skor</a>';
+      : '<a href="leaderboard.html" class="user-bar-btn"><span class="settings-btn-icon">🥇</span> Skor</a>';
 
     const profileBtn = isProfile
       ? ''
-      : '<a href="profile.html" class="user-bar-btn">👤 Profilim</a>';
+      : '<a href="profile.html?id=' + user.id + '" class="user-bar-btn"><span class="settings-btn-icon">👤</span> Profilim</a>';
+
+    let displayName = user.username || 'Bilinmeyen Kullanıcı';
+    let styleStr = user.name_style ? `font-family: ${user.name_style};` : '';
 
     userBar.innerHTML = `
-      <span class="user-greeting">👋 ${escapeHtmlAuth(user.username)}</span>
+      <div class="user-greeting">
+         👋 <span style="${styleStr} font-size: 1.05rem;">${escapeHtmlAuth(displayName)}</span>
+      </div>
       ${lbBtn}
       ${profileBtn}
       ${mainActionBtn}
-      <a href="settings.html" class="user-bar-btn">⚙️ Ayarlar</a>
+      <a href="settings.html" class="user-bar-btn"><span class="settings-btn-icon">⚙️</span> Ayarlar</a>
     `;
     userBar.classList.add('logged-in');
   } else {

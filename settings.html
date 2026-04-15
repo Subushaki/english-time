@@ -138,6 +138,18 @@
         <span class="settings-btn-icon">✏️</span> Kullanıcı Adı Değiştir
       </button>
 
+        <!-- Font Picker Section -->
+        <div style="margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--glass-border);">
+          <h4 style="margin-bottom: 12px; font-size: 0.95rem; color: var(--text-secondary);">📝 İsim Yazı Tarzı (Font)</h4>
+          <div class="font-picker-grid" id="font-picker">
+            <div class="font-option active" data-font="Inter" onclick="changeNameFont('Inter')" style="font-family: 'Inter', sans-serif;">Klasik</div>
+            <div class="font-option" data-font="Caveat" onclick="changeNameFont('Caveat')" style="font-family: 'Caveat', cursive;">El Yazısı</div>
+            <div class="font-option" data-font="'Courier Prime'" onclick="changeNameFont('Courier Prime')" style="font-family: 'Courier Prime', monospace;">Daktilo</div>
+            <div class="font-option" data-font="Outfit" onclick="changeNameFont('Outfit')" style="font-family: 'Outfit', sans-serif; font-weight: 800;">Kalın</div>
+          </div>
+          <div id="font-picker-status" style="text-align: center; margin-top: 8px; font-size: 0.8rem; color: var(--accent-green); height: 16px;"></div>
+        </div>
+
       <!-- Avatar Picker -->
       <div class="avatar-picker-section" id="avatar-picker">
         <div class="avatar-picker-header">
@@ -297,9 +309,52 @@
 
       settingsUser = user;
 
+      window.changeNameFont = async function(fontName) {
+        if (!settingsUser) return;
+        const sb = getSupabase();
+        
+        // Update UI active state
+        document.querySelectorAll('.font-option').forEach(el => {
+          el.classList.remove('active');
+          if (el.getAttribute('data-font').includes(fontName.replace(/'/g, ''))) {
+            el.classList.add('active');
+          }
+        });
+
+        const statusDiv = document.getElementById('font-picker-status');
+        statusDiv.style.color = 'var(--accent-green)';
+        statusDiv.textContent = 'Kaydediliyor...';
+        
+        const { error } = await sb
+          .from('profiles')
+          .update({ name_style: fontName })
+          .eq('id', settingsUser.id);
+          
+        if (error) {
+          console.error('Font update error:', error);
+          statusDiv.textContent = 'Lütfen veritabanına name_style sütununu ekleyin.';
+          statusDiv.style.color = 'var(--accent-red)';
+        } else {
+          settingsUser.name_style = fontName;
+          localStorage.setItem('english_time_user', JSON.stringify(settingsUser));
+          statusDiv.textContent = 'Tarzınız başarıyla güncellendi!';
+          setTimeout(() => statusDiv.textContent = '', 2500);
+        }
+      };
+
+      // Load initial font picker state
+      if (user.name_style) {
+        document.querySelectorAll('.font-option').forEach(el => {
+          el.classList.remove('active');
+          if (el.getAttribute('data-font').includes(user.name_style.replace(/'/g, ''))) {
+            el.classList.add('active');
+          }
+        });
+      }
+
       // Load current leaderboard status
       const toggle = document.getElementById('lb-toggle');
-      toggle.checked = !!user.leaderboard_visible;
+      if (toggle) toggle.checked = !!user.leaderboard_visible;
 
       // Load current privacy status
       const privacyToggle = document.getElementById('privacy-toggle');
