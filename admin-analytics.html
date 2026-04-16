@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kral Dairesi | Analytics Console</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/admin.css">
+  <link rel="preconnect" href="https://oumhweoxhzziufhasxch.supabase.co" crossorigin>
+  <script src="js/optimize.js"></script>
+</head>
+<body>
+  <div class="bg-effects"><div class="orb orb-1"></div><div class="orb orb-2"></div></div>
+  <div class="stars"></div>
+
+  <div class="container" style="max-width: 1400px; padding: 40px 20px;">
+    <div class="admin-header">
+      <h1>👑 Kral Konsolu</h1>
+      <p>Sistem verileri, kullanıcı analizleri ve gerçek zamanlı izleme merkezi.</p>
+    </div>
+
+    <!-- Controls -->
+    <div class="admin-controls">
+      <div class="timestamp-filter">
+        <select id="time-filter" onchange="loadAnalytics()">
+          <option value="24h">Son 24 Saat</option>
+          <option value="1d">Son 1 Gün</option>
+          <option value="7d" selected>Son 1 Hafta</option>
+          <option value="30d">Son 1 Ay</option>
+          <option value="90d">Son 3 Ay</option>
+          <option value="180d">Son 6 Ay</option>
+          <option value="365d">Son 1 Yıl</option>
+          <option value="all">Tüm Zamanlar</option>
+        </select>
+      </div>
+      <button class="export-btn" onclick="exportDataToCSV()">📥 Ekrandaki Dataları İndir (.CSV)</button>
+    </div>
+
+    <!-- Tabs -->
+    <div class="admin-tabs">
+      <div class="admin-tab active" onclick="switchTab('general')">📊 Genel Analizler</div>
+      <div class="admin-tab" onclick="switchTab('users')">👥 Kullanıcı Listesi ve Takip</div>
+    </div>
+
+    <!-- TAB: GENERAL -->
+    <div id="tab-general" class="tab-content active">
+      <div class="admin-st-cards">
+        <div class="asc-card" style="border-color: var(--accent-blue)">
+          <div class="asc-title">Toplam Sayfa Görüntülemesi</div>
+          <div class="asc-value" id="tot-pageviews">0</div>
+          <div class="asc-icon">📄</div>
+        </div>
+        <div class="asc-card" style="border-color: var(--accent-purple)">
+          <div class="asc-title">Ortalama Yükleme</div>
+          <div class="asc-value" id="avg-load">0 ms</div>
+          <div class="asc-icon">⚡</div>
+        </div>
+        <div class="asc-card" style="border-color: var(--accent-pink)">
+          <div class="asc-title">Desktop / Mobil</div>
+          <div class="asc-value" id="dev-ratio">0% / 0%</div>
+          <div class="asc-icon">💻</div>
+        </div>
+        <div class="asc-card" style="border-color: var(--accent-yellow)">
+          <div class="asc-title">Giriş Yapmış Ziyaretçi</div>
+          <div class="asc-value" id="tot-users">0</div>
+          <div class="asc-icon">👤</div>
+        </div>
+      </div>
+
+      <div class="chart-grid">
+        <div class="chart-box">
+          <h3>Ziyaretçi Eğilimi</h3>
+          <div class="chart-wrapper"><canvas id="lineChart"></canvas></div>
+        </div>
+        <div class="chart-box">
+          <h3>Cihaz ve Tarayıcılar</h3>
+          <div class="chart-wrapper"><canvas id="doughnutChart"></canvas></div>
+        </div>
+        <div class="chart-box">
+          <h3>Sayfalara Göre Yoğunluk</h3>
+          <div class="chart-wrapper"><canvas id="barChart"></canvas></div>
+        </div>
+        <div class="chart-box">
+          <h3>İnternet ve Hız Oranı</h3>
+          <div class="chart-wrapper"><canvas id="speedChart"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB: USERS -->
+    <div id="tab-users" class="tab-content">
+      <div class="chart-box">
+        <h3>Kayıtlı Kullanıcılar</h3>
+        <p style="color: var(--text-muted); margin-bottom: 20px;">Bir kullanıcının üzerine tıklayarak tüm gizli öğrenme analizlerini ve hangi sayfalarda saniye saniye vakit geçirdiğini görüntüleyin.</p>
+        <div class="user-list" id="users-container">
+          <div style="color: var(--text-muted); text-align: center;">Yükleniyor...</div>
+        </div>
+      </div>
+    </div>
+    
+    <div style="margin-top: 40px; text-align: center;">
+      <a href="settings.html" class="btn-secondary" style="display: inline-flex; justify-content: center;">← Ayarlara Dön</a>
+    </div>
+
+  </div>
+
+  <!-- USER MODAL -->
+  <div class="admin-modal" id="user-modal">
+    <div class="am-content">
+      <span class="am-close" onclick="closeUserModal()">×</span>
+      <div class="am-header">
+        <h2 id="modal-username">Kullanıcı Analizi</h2>
+        <p style="color: var(--text-secondary); font-size: 0.9rem;" id="modal-joined"></p>
+      </div>
+      
+      <h3 style="margin-bottom: 10px;">Kelime Başarı Oranları</h3>
+      <div class="stat-grid-mini">
+        <div class="sgm-box" style="border: 1px solid var(--accent-green)"><div style="font-size: 1.5rem;" id="md-first">0</div><div style="font-size: 0.8rem; color: var(--text-muted)">İlk Seferde</div></div>
+        <div class="sgm-box" style="border: 1px solid var(--accent-orange)"><div style="font-size: 1.5rem;" id="md-retry">0</div><div style="font-size: 0.8rem; color: var(--text-muted)">Tekrarda</div></div>
+        <div class="sgm-box" style="border: 1px solid var(--accent-red)"><div style="font-size: 1.5rem;" id="md-hard">0</div><div style="font-size: 0.8rem; color: var(--text-muted)">Yapılamayan</div></div>
+        <div class="sgm-box" style="border: 1px solid var(--text-muted)"><div style="font-size: 1.5rem;" id="md-unknown">0</div><div style="font-size: 0.8rem; color: var(--text-muted)">Bilinmiyor</div></div>
+      </div>
+      
+      <div style="display: flex; gap: 15px; margin-bottom: 25px;">
+        <div class="sgm-box" style="flex: 1; border: 1px solid var(--accent-yellow)">
+          <div style="font-size: 1.5rem; color: var(--accent-yellow)" id="md-starred">0</div>
+          <div style="font-size: 0.8rem; color: var(--text-muted)">⭐ Favoriler / Yıldızlı</div>
+        </div>
+      </div>
+
+      <h3 style="margin-bottom: 10px;">Zaman Takibi (Sayfalarda Geçen Süre)</h3>
+      <div style="background: rgba(0,0,0,0.3); border: 1px solid var(--glass-border); border-radius: var(--radius-sm); padding: 15px; max-height: 200px; overflow-y: auto;" id="modal-time-list">
+        <!-- Rota Bazlı Süreler -->
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

@@ -76,16 +76,7 @@
   <link rel="preconnect" href="https://oumhweoxhzziufhasxch.supabase.co" crossorigin>
   <link rel="dns-prefetch" href="https://oumhweoxhzziufhasxch.supabase.co">
   <script src="js/optimize.js"></script>
-  <!-- Vercel Analytics -->
-  <script>
-    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-  </script>
-  <script defer src="/_vercel/insights/script.js"></script>
-  <!-- Vercel Speed Insights -->
-  <script>
-    window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
-  </script>
-  <script defer src="/_vercel/speed-insights/script.js"></script>
+
 </head>
 <body>
 
@@ -139,6 +130,17 @@
       </div>
 
       <div id="privacy-toggle-status" style="text-align: center; margin-top: 10px; font-size: 0.82rem; color: var(--text-muted);"></div>
+    </div>
+
+    <!-- Admin Panel / Kral Dairesi (Admins Only) -->
+    <div class="settings-card" id="admin-panel-card" style="display: none; border: 2px solid var(--accent-yellow); background: rgba(251, 191, 36, 0.05); margin-bottom: 16px;">
+      <div class="settings-header">
+        <h2 style="color: var(--accent-yellow);">👑 Admin Paneli</h2>
+        <p>Gelişmiş analitikler, ziyaretçi verileri ve sistem kontrolleri.</p>
+      </div>
+      <a href="admin-analytics.html" class="settings-btn" style="justify-content: center; background: rgba(251, 191, 36, 0.15); color: var(--accent-yellow);">
+        <span class="settings-btn-icon">⚡</span> Yönetici Konsoluna Gir
+      </a>
     </div>
 
     <!-- Network Optimizasyon Ayarları -->
@@ -340,6 +342,11 @@
       const privacyToggle = document.getElementById('privacy-toggle');
       if (privacyToggle) {
         privacyToggle.checked = !!user.is_private;
+      }
+      
+      // Reveal Admin Panel if authorized
+      if (user.is_admin) {
+        document.getElementById('admin-panel-card').style.display = 'block';
       }
     });
 
