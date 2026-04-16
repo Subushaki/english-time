@@ -61,9 +61,22 @@ async function startQuiz(mode) {
   }
 
   // Fetch word results to see if there are known words
-  const sb = getSupabase();
-  const { data: wordResults } = await sb
-    .from('word_results').select('word_id, result').eq('user_id', user.id);
+  // CHECK CACHE FOR INSTANT LOAD (1ST DEGREE PRIORITY)
+  let wordResults = null;
+  const cacheKey = 'cachedWordResults_' + user.id;
+  const cachedData = sessionStorage.getItem(cacheKey);
+
+  if (cachedData) {
+    wordResults = JSON.parse(cachedData);
+  } else {
+    const sb = getSupabase();
+    const res = await sb
+      .from('word_results').select('word_id, result').eq('user_id', user.id);
+    wordResults = res.data;
+    if (wordResults && wordResults.length > 0) {
+      sessionStorage.setItem(cacheKey, JSON.stringify(wordResults));
+    }
+  }
 
   if (!wordResults || wordResults.length === 0) {
     window.location.href = `quiz.html?level=${currentLevel}&dataset=${currentDataset}&mode=${mode}`;

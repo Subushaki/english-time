@@ -200,6 +200,9 @@
   async function saveSessionComplete() {
     if (!loggedInUser || !sessionId) return;
     try {
+      // CLEAR CACHE TO RE-SYNC WITH DB
+      sessionStorage.removeItem('cachedWordResults_' + loggedInUser.id);
+      
       const sb = getSupabase();
       await sb.from('quiz_sessions').update({
         status: 'completed',

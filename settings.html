@@ -72,6 +72,15 @@
       font-size: 1.2rem;
     }
   </style>
+  <!-- Preconnect & Network Observer -->
+  <link rel="preconnect" href="https://oumhweoxhzziufhasxch.supabase.co" crossorigin>
+  <link rel="dns-prefetch" href="https://oumhweoxhzziufhasxch.supabase.co">
+  <script src="js/optimize.js"></script>
+  <!-- Vercel Analytics -->
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 
@@ -125,6 +134,20 @@
       </div>
 
       <div id="privacy-toggle-status" style="text-align: center; margin-top: 10px; font-size: 0.82rem; color: var(--text-muted);"></div>
+    </div>
+
+    <!-- Network Optimizasyon Ayarları -->
+    <div class="settings-card" style="margin-bottom: 16px;">
+      <div class="settings-header">
+        <h2>📶 Ağ Durumu</h2>
+        <p>Bağlantı hızınıza göre gereksiz grafikler kapatılarak sistem hızlandırılır.</p>
+      </div>
+      <div style="text-align: center; margin-bottom: 16px; padding: 12px; background: rgba(255,255,255,0.05); border-radius: var(--radius-sm); font-weight: 600; font-size: 0.9rem;" id="network-status-text">
+        Durum Hesaplanıyor...
+      </div>
+      <button class="settings-btn" onclick="manualRefreshNetwork(this)" style="justify-content: center;">
+        <span class="settings-btn-icon">🔄</span> Bağlantıyı Yeniden Kontrol Et
+      </button>
     </div>
 
     <!-- Account Management -->
@@ -314,6 +337,25 @@
         privacyToggle.checked = !!user.is_private;
       }
     });
+
+    function manualRefreshNetwork(btn) {
+      if(typeof checkNetworkStatus === 'function') {
+        const icon = btn.querySelector('.settings-btn-icon');
+        const oldTrans = icon.style.transition;
+        icon.style.transition = 'transform 0.5s ease';
+        icon.style.transform = 'rotate(360deg)';
+        btn.disabled = true;
+        
+        setTimeout(() => {
+          checkNetworkStatus();
+          icon.style.transition = 'none';
+          icon.style.transform = 'rotate(0deg)';
+          // Restore
+          setTimeout(() => icon.style.transition = oldTrans, 50);
+          btn.disabled = false;
+        }, 500);
+      }
+    }
   </script>
 </body>
 </html>

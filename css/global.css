@@ -280,3 +280,13 @@ body {
     font-size: 36px;
   }
 }
+
+/* ===== NETWORK-AWARE OPTIMIZATIONS ===== */
+body.low-bandwidth .bg-effects .orb,
+body.low-bandwidth .stars,
+body.low-bandwidth .stars::before,
+body.low-bandwidth .stars::after {
+  display: none !important;
+  animation: none !important;
+  box-shadow: none !important;
+}

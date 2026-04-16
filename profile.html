@@ -8,7 +8,15 @@
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/components.css">
   <link rel="stylesheet" href="css/profile.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+  <!-- Preconnect & Network Observer -->
+  <link rel="preconnect" href="https://oumhweoxhzziufhasxch.supabase.co" crossorigin>
+  <link rel="dns-prefetch" href="https://oumhweoxhzziufhasxch.supabase.co">
+  <script src="js/optimize.js"></script>
+  <!-- Vercel Analytics -->
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 
@@ -193,10 +201,16 @@
         return; // Stop fetching stats
       }
 
-      // Fetch Stats
-      const { data: wordResults } = await sb.from('word_results').select('word_id, result').eq('user_id', targetUserId);
-      const { data: studyWords } = await sb.from('study_words').select('word_id, starred').eq('user_id', targetUserId);
-      const { data: quizSessions } = await sb.from('quiz_sessions').select('id, status').eq('user_id', targetUserId);
+      // FETCH STATS USING PROMISE.ALL FOR PERFORMANCE
+      const [
+        { data: wordResults },
+        { data: studyWords },
+        { data: quizSessions }
+      ] = await Promise.all([
+        sb.from('word_results').select('word_id, result').eq('user_id', targetUserId),
+        sb.from('study_words').select('word_id, starred').eq('user_id', targetUserId),
+        sb.from('quiz_sessions').select('id, status').eq('user_id', targetUserId)
+      ]);
 
       const bestResults = {};
       if (wordResults && wordResults.length > 0) {

@@ -27,6 +27,15 @@
       filter: brightness(1.1);
     }
   </style>
+  <!-- Preconnect & Network Observer -->
+  <link rel="preconnect" href="https://oumhweoxhzziufhasxch.supabase.co" crossorigin>
+  <link rel="dns-prefetch" href="https://oumhweoxhzziufhasxch.supabase.co">
+  <script src="js/optimize.js"></script>
+  <!-- Vercel Analytics -->
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 
@@ -109,13 +118,14 @@
 
       const sb = getSupabase();
 
-      // Fetch all word results
-      const { data: wordResults } = await sb
-        .from('word_results').select('word_id, result').eq('user_id', user.id);
-        
-      // Fetch starred words
-      const { data: studyWords } = await sb
-        .from('study_words').select('word_id, starred').eq('user_id', user.id);
+      // FETCH USING PROMISE.ALL FOR X2 NETWORK SPEED
+      const [
+        { data: wordResults },
+        { data: studyWords }
+      ] = await Promise.all([
+        sb.from('word_results').select('word_id, result').eq('user_id', user.id),
+        sb.from('study_words').select('word_id, starred').eq('user_id', user.id)
+      ]);
 
       let starredCount = 0;
       if (studyWords) {

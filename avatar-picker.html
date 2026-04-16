@@ -290,9 +290,17 @@
     .ap-border-black {
       background: rgba(0,0,0,0.3);
       border: 4px solid #000000;
-      color: var(--text-muted);
     }
   </style>
+  <!-- Preconnect & Network Observer -->
+  <link rel="preconnect" href="https://oumhweoxhzziufhasxch.supabase.co" crossorigin>
+  <link rel="dns-prefetch" href="https://oumhweoxhzziufhasxch.supabase.co">
+  <script src="js/optimize.js"></script>
+  <!-- Vercel Analytics -->
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 
@@ -468,7 +476,7 @@
     function createAvatarItem(file, isSelected) {
       const item = document.createElement('div');
       item.className = `ap-item${isSelected ? ' selected' : ''}`;
-      item.innerHTML = `<img src="avatars/${file}" alt="" onerror="this.parentElement.style.display='none'">`;
+      item.innerHTML = `<img src="avatars/${file}" loading="lazy" alt="" onerror="this.parentElement.style.display='none'">`;
       item.onclick = () => selectAvatar(file);
       return item;
     }
