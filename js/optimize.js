@@ -74,7 +74,10 @@ async function trackPageVisit() {
        }
        
        // Saniyeler icinde hemen ilk Analytics verisini veritabanina gonderelim ki sayfa hizli kapansa da kayip yasanmasin.
-       const { data } = await sb.from('site_analytics').insert(payload).select('id').single();
+       const { data, error } = await sb.from('site_analytics').insert(payload).select('id').single();
+       if (error) {
+           console.error("⛔ ANALYTICS RLS VEYA KAYIT HATASI:", error);
+       }
        if (data) {
            pageVisitId = data.id;
            
@@ -128,6 +131,15 @@ window.addEventListener('visibilitychange', () => {
 });
 window.addEventListener('beforeunload', () => updateTimeSpent());
 
+function initTracker() {
+  if (typeof getSupabase === 'function') {
+    trackPageVisit();
+  } else {
+    // Supabase kutuphanesi CDN'den henuz inmediyse her 300ms'de bir tekrar dene
+    setTimeout(initTracker, 300);
+  }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
-   setTimeout(trackPageVisit, 500);
+   initTracker();
 });
