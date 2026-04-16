@@ -106,9 +106,18 @@ function drawCharts(data) {
     options: { maintainAspectRatio: false }
   });
 
+  // Helper for tracking unique visitors instead of pageviews
+  const getIdentifier = (d) => d.user_id ? d.user_id : `anon_${d.os}_${d.browser}_${new Date(d.created_at).toLocaleDateString()}`;
+
   // OS Chart (Doughnut)
+  const osSet = {};
+  data.forEach(d => { 
+      if(!osSet[d.os]) osSet[d.os] = new Set();
+      osSet[d.os].add(getIdentifier(d));
+  });
   const osGroup = {};
-  data.forEach(d => { osGroup[d.os] = (osGroup[d.os] || 0) + 1; });
+  Object.keys(osSet).forEach(k => osGroup[k] = osSet[k].size);
+
   charts.os = new Chart(document.getElementById('osChart'), {
     type: 'doughnut',
     data: {
@@ -123,8 +132,14 @@ function drawCharts(data) {
   });
 
   // Browser Chart (Doughnut)
+  const browserSet = {};
+  data.forEach(d => { 
+      if(!browserSet[d.browser]) browserSet[d.browser] = new Set();
+      browserSet[d.browser].add(getIdentifier(d));
+  });
   const browserGroup = {};
-  data.forEach(d => { browserGroup[d.browser] = (browserGroup[d.browser] || 0) + 1; });
+  Object.keys(browserSet).forEach(k => browserGroup[k] = browserSet[k].size);
+
   charts.browser = new Chart(document.getElementById('browserChart'), {
     type: 'doughnut',
     data: {
@@ -139,18 +154,22 @@ function drawCharts(data) {
   });
 
   // Country Chart (Bar Horizontal)
-  const countryGroup = {};
+  const countrySet = {};
   data.forEach(d => { 
      let c = d.country || 'Bilinmiyor';
-     countryGroup[c] = (countryGroup[c] || 0) + 1; 
+     if(!countrySet[c]) countrySet[c] = new Set();
+     countrySet[c].add(getIdentifier(d));
   });
+  const countryGroup = {};
+  Object.keys(countrySet).forEach(k => countryGroup[k] = countrySet[k].size);
+  
   const sortedCountries = Object.entries(countryGroup).sort((a,b)=>b[1]-a[1]).slice(0, 7);
   charts.country = new Chart(document.getElementById('countryChart'), {
     type: 'bar',
     data: {
       labels: sortedCountries.map(x=>x[0]),
       datasets: [{
-        label: 'Ziyaretçi',
+        label: 'Tekil Ziyaretçi',
         data: sortedCountries.map(x=>x[1]),
         backgroundColor: '#ef4444'
       }]
