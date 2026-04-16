@@ -81,12 +81,13 @@ async function trackPageVisit() {
        if (data) {
            pageVisitId = data.id;
            
-           // Simdi vakit varken arka planda IP uzerinden ulkeyi asenkron denetleyip ekleyelim (Kayipsiz).
-           fetch('https://ipapi.co/json/')
+           // CORS ve kısıtlamalara (429 Hatası) takılmamak için sınırsız, açık kaynak IP servisi kullanıldı.
+           fetch('https://get.geojs.io/v1/ip/country.json')
              .then(res => res.json())
              .then(ipData => {
-                if (ipData && ipData.country_name) {
-                   sb.from('site_analytics').update({ country: ipData.country_name }).eq('id', pageVisitId).then();
+                if (ipData && ipData.name) {
+                   // geoJS "Turkey, United States, Germany vb." İngilizce formatta ülkeyi (ipData.name) yollar.
+                   sb.from('site_analytics').update({ country: ipData.name }).eq('id', pageVisitId).then();
                 }
              }).catch(() => {});
        }
