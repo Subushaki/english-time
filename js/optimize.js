@@ -68,18 +68,25 @@ async function trackPageVisit() {
   
   window.addEventListener('load', async () => {
     setTimeout(async () => {
-       try {
-         const ipRes = await fetch('https://ipapi.co/json/');
-         const ipData = await ipRes.json();
-         if (ipData && ipData.country_name) payload.country = ipData.country_name;
-       } catch (err) {}
-
        const [entry] = performance.getEntriesByType("navigation");
        if (entry) {
          payload.load_time_ms = Math.round(entry.duration);
        }
+       
+       // Saniyeler icinde hemen ilk Analytics verisini veritabanina gonderelim ki sayfa hizli kapansa da kayip yasanmasin.
        const { data } = await sb.from('site_analytics').insert(payload).select('id').single();
-       if (data) pageVisitId = data.id;
+       if (data) {
+           pageVisitId = data.id;
+           
+           // Simdi vakit varken arka planda IP uzerinden ulkeyi asenkron denetleyip ekleyelim (Kayipsiz).
+           fetch('https://ipapi.co/json/')
+             .then(res => res.json())
+             .then(ipData => {
+                if (ipData && ipData.country_name) {
+                   sb.from('site_analytics').update({ country: ipData.country_name }).eq('id', pageVisitId).then();
+                }
+             }).catch(() => {});
+       }
     }, 100);
   });
 }
