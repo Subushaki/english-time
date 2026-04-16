@@ -89,9 +89,7 @@
         </div>
 
         <!-- Rank Bar -->
-        <div class="profile-rank-bar" id="profile-rank-bar" style="display: none;">
-          🏅 Skor tablosunda <strong id="profile-rank-num">—</strong>. sıradasın
-        </div>
+        <div class="profile-rank-bar" id="profile-rank-bar" style="display: none;"></div>
 
         <!-- Actions -->
         <div class="profile-actions">
@@ -269,8 +267,13 @@
           const myRank = scores.findIndex(s => s.id === targetUserId);
 
           if (myRank !== -1) {
-            document.getElementById('profile-rank-bar').style.display = 'block';
-            document.getElementById('profile-rank-num').textContent = myRank + 1;
+            const rankBar = document.getElementById('profile-rank-bar');
+            rankBar.style.display = 'block';
+            if (isOwnProfile) {
+               rankBar.innerHTML = `🏅 Skor tablosunda <strong>${myRank + 1}</strong>. sıradasın`;
+            } else {
+               rankBar.innerHTML = `🏅 Skor tablosunda <strong>${myRank + 1}</strong>. sırada`;
+            }
           }
         }
       }
