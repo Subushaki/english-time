@@ -57,16 +57,23 @@ async function trackPageVisit() {
   const payload = {
     path: window.location.pathname.split('/').pop() || 'index.html',
     user_id: userId,
-    device_type: /Mobi|Android/i.test(navigator.userAgent) ? 'Mobil' : 'Bilgisayar',
+    device_type: /Mobi|Android/i.test(navigator.userAgent) ? 'Mobil' : 'Masaüstü',
     os: getOS(),
     browser: getBrowser(),
     connection_speed: conn.effectiveType || 'Bilinmiyor',
     load_time_ms: 0,
-    time_spent_ms: 0
+    time_spent_ms: 0,
+    country: 'Bilinmiyor'
   };
   
   window.addEventListener('load', async () => {
     setTimeout(async () => {
+       try {
+         const ipRes = await fetch('https://ipapi.co/json/');
+         const ipData = await ipRes.json();
+         if (ipData && ipData.country_name) payload.country = ipData.country_name;
+       } catch (err) {}
+
        const [entry] = performance.getEntriesByType("navigation");
        if (entry) {
          payload.load_time_ms = Math.round(entry.duration);

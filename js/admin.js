@@ -106,20 +106,56 @@ function drawCharts(data) {
     options: { maintainAspectRatio: false }
   });
 
-  // Doughnut Chart (Masaüstü Mobil Oranı)
-  const devGroup = { 'Masaüstü':0, 'Mobil':0 };
-  data.forEach(d => { if(d.device_type === 'Mobil') devGroup['Mobil']++; else devGroup['Masaüstü']++; });
-  charts.doughnut = new Chart(document.getElementById('doughnutChart'), {
+  // OS Chart (Doughnut)
+  const osGroup = {};
+  data.forEach(d => { osGroup[d.os] = (osGroup[d.os] || 0) + 1; });
+  charts.os = new Chart(document.getElementById('osChart'), {
     type: 'doughnut',
     data: {
-      labels: Object.keys(devGroup),
+      labels: Object.keys(osGroup),
       datasets: [{
-        data: Object.values(devGroup),
-        backgroundColor: ['#3b82f6', '#ec4899'],
+        data: Object.values(osGroup),
+        backgroundColor: ['#3b82f6', '#ec4899', '#8b5cf6', '#10b981', '#f59e0b', '#9898b8'],
         borderWidth: 0
       }]
     },
-    options: { maintainAspectRatio: false }
+    options: { maintainAspectRatio: false, plugins: { legend: { position: 'right' } } }
+  });
+
+  // Browser Chart (Doughnut)
+  const browserGroup = {};
+  data.forEach(d => { browserGroup[d.browser] = (browserGroup[d.browser] || 0) + 1; });
+  charts.browser = new Chart(document.getElementById('browserChart'), {
+    type: 'doughnut',
+    data: {
+      labels: Object.keys(browserGroup),
+      datasets: [{
+        data: Object.values(browserGroup),
+        backgroundColor: ['#f59e0b', '#10b981', '#3b82f6', '#ec4899', '#8b5cf6', '#9898b8'],
+        borderWidth: 0
+      }]
+    },
+    options: { maintainAspectRatio: false, plugins: { legend: { position: 'right' } } }
+  });
+
+  // Country Chart (Bar Horizontal)
+  const countryGroup = {};
+  data.forEach(d => { 
+     let c = d.country || 'Bilinmiyor';
+     countryGroup[c] = (countryGroup[c] || 0) + 1; 
+  });
+  const sortedCountries = Object.entries(countryGroup).sort((a,b)=>b[1]-a[1]).slice(0, 7);
+  charts.country = new Chart(document.getElementById('countryChart'), {
+    type: 'bar',
+    data: {
+      labels: sortedCountries.map(x=>x[0]),
+      datasets: [{
+        label: 'Ziyaretçi',
+        data: sortedCountries.map(x=>x[1]),
+        backgroundColor: '#ef4444'
+      }]
+    },
+    options: { indexAxis: 'y', maintainAspectRatio: false }
   });
 
   // Bar Chart (Sayfalar)
@@ -160,9 +196,9 @@ function drawCharts(data) {
 function exportDataToCSV() {
   if (currentData.length === 0) return alert('Dışa aktarılacak veri yok.');
   
-  const headers = ['ID', 'Path', 'Aygit', 'OS', 'Tarayici', 'Hiz_Sectipi', 'SayfaYuku_MS', 'SayfadaGecen_MS', 'Tarih', 'User_ID'];
+  const headers = ['ID', 'Ulke', 'Path', 'Aygit', 'OS', 'Tarayici', 'Hiz_Sectipi', 'SayfaYuku_MS', 'SayfadaGecen_MS', 'Tarih', 'User_ID'];
   const rows = currentData.map(d => [
-    d.id, d.path, d.device_type, d.os, d.browser, d.connection_speed, d.load_time_ms, d.time_spent_ms, d.created_at, (d.user_id || 'Anonim')
+    d.id, (d.country || 'Bilinmiyor'), d.path, d.device_type, d.os, d.browser, d.connection_speed, d.load_time_ms, d.time_spent_ms, d.created_at, (d.user_id || 'Anonim')
   ]);
   
   let csvContent = "data:text/csv;charset=utf-8," 
