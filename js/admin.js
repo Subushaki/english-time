@@ -312,6 +312,29 @@ function closeUserModal() {
 document.addEventListener('DOMContentLoaded', async () => {
   const allowed = await checkAdmin();
   if (allowed) {
+    const savedScale = localStorage.getItem('admin_view_scale') || 'md';
+    const scaleSelect = document.getElementById('view-scale');
+    if(scaleSelect) scaleSelect.value = savedScale;
+    changeViewScale();
+    
     loadAnalytics();
   }
 });
+
+function changeViewScale() {
+  const scaleSelect = document.getElementById('view-scale');
+  if (!scaleSelect) return;
+  const scale = scaleSelect.value;
+  const grid = document.querySelector('.chart-grid');
+  if(!grid) return;
+  
+  grid.classList.remove('scale-md', 'scale-sm');
+  if (scale !== 'lg') grid.classList.add('scale-' + scale);
+  localStorage.setItem('admin_view_scale', scale);
+  
+  setTimeout(() => {
+     Object.values(charts).forEach(c => {
+         if(c && typeof c.resize === 'function') c.resize();
+     });
+  }, 350);
+}
