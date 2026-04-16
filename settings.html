@@ -156,15 +156,11 @@
           <div id="font-picker-status" style="text-align: center; margin-top: 8px; font-size: 0.8rem; color: var(--accent-green); height: 16px;"></div>
         </div>
 
-      <!-- Avatar Picker -->
-      <div class="avatar-picker-section" id="avatar-picker">
-        <div class="avatar-picker-header">
-          <h4>🖼️ Profil Resmi Seç</h4>
-          <div class="avatar-picker-current" id="current-avatar-preview">?</div>
-        </div>
-        <div class="avatar-grid" id="avatar-grid"></div>
-        <div id="avatar-status" style="text-align: center; margin-top: 10px; font-size: 0.82rem; color: var(--text-muted);"></div>
-      </div>
+      <!-- Avatar Picker → Ayrı sayfa -->
+      <a href="avatar-picker.html" class="settings-btn" style="text-decoration: none; color: var(--text-primary);">
+        <span class="settings-btn-icon">🖼️</span> Profil Resmi Değiştir
+        <span style="margin-left: auto; color: var(--text-muted); font-size: 0.85rem;">→</span>
+      </a>
 
       <button class="settings-btn btn-danger" onclick="confirmResetData()">
         <span class="settings-btn-icon">🗑️</span> Verileri Sıfırla (İlerlemeni Sil)
@@ -248,63 +244,6 @@
       setTimeout(() => { statusEl.textContent = ''; }, 3000);
     }
 
-    // Select avatar
-    async function selectAvatar(filename) {
-      if (!settingsUser) return;
-      const sb = getSupabase();
-      const statusEl = document.getElementById('avatar-status');
-      statusEl.textContent = 'Kaydediliyor...';
-
-      const { error } = await sb.from('profiles')
-        .update({ avatar: filename })
-        .eq('id', settingsUser.id);
-
-      if (error) {
-        statusEl.textContent = '❌ Hata: ' + error.message;
-        statusEl.style.color = 'var(--accent-red)';
-      } else {
-        statusEl.textContent = '✅ Profil resmi güncellendi!';
-        statusEl.style.color = 'var(--accent-green)';
-        settingsUser.avatar = filename;
-        localStorage.setItem('english_time_user', JSON.stringify(settingsUser));
-        renderAvatarGrid();
-        updateCurrentAvatarPreview();
-      }
-      setTimeout(() => { statusEl.textContent = ''; }, 3000);
-    }
-
-    function updateCurrentAvatarPreview() {
-      const el = document.getElementById('current-avatar-preview');
-      if (settingsUser.avatar) {
-        el.innerHTML = `<img src="avatars/${settingsUser.avatar}" alt="" onerror="this.parentElement.textContent='${settingsUser.username.charAt(0).toUpperCase()}'">`;
-      } else {
-        el.textContent = settingsUser.username.charAt(0).toUpperCase();
-      }
-    }
-
-    function renderAvatarGrid() {
-      const grid = document.getElementById('avatar-grid');
-      grid.innerHTML = '';
-
-      // "Yok" option (remove avatar)
-      const noneOpt = document.createElement('div');
-      noneOpt.className = `avatar-option${!settingsUser.avatar ? ' selected' : ''}`;
-      noneOpt.style.fontSize = '1.4rem';
-      noneOpt.textContent = '🚫';
-      noneOpt.title = 'Varsayılan (Harf)';
-      noneOpt.onclick = () => selectAvatar(null);
-      grid.appendChild(noneOpt);
-
-      AVATAR_LIST.forEach(av => {
-        const opt = document.createElement('div');
-        opt.className = `avatar-option${settingsUser.avatar === av.file ? ' selected' : ''}`;
-        opt.title = av.name;
-        opt.innerHTML = `<img src="avatars/${av.file}" alt="${av.name}" onerror="this.parentElement.style.display='none'">`;
-        opt.onclick = () => selectAvatar(av.file);
-        grid.appendChild(opt);
-      });
-    }
-
     // Init
     document.addEventListener('DOMContentLoaded', async () => {
       const user = await getCurrentUser();
@@ -374,10 +313,6 @@
       if (privacyToggle) {
         privacyToggle.checked = !!user.is_private;
       }
-
-      // Render avatar picker
-      renderAvatarGrid();
-      updateCurrentAvatarPreview();
     });
   </script>
 </body>

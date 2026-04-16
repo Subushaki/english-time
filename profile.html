@@ -125,7 +125,7 @@
 
       // Fetch the profile we want to view
       const { data: targetProfile, error: profileError } = await sb
-        .from('profiles').select('id, username, avatar, created_at, leaderboard_visible, is_private, name_style').eq('id', targetUserId).single();
+        .from('profiles').select('id, username, avatar, avatar_bg, avatar_border, created_at, leaderboard_visible, is_private, name_style').eq('id', targetUserId).single();
 
       if (profileError || !targetProfile) {
         document.getElementById('profile-loading').style.display = 'none';
@@ -146,6 +146,18 @@
       usernameEl.textContent = targetProfile.username;
       
       const avatarEl = document.getElementById('profile-avatar');
+      // Apply custom background color
+      if (targetProfile.avatar_bg) {
+        avatarEl.style.background = targetProfile.avatar_bg;
+      }
+      // Apply custom border
+      if (targetProfile.avatar_border === 'white') {
+        avatarEl.style.border = '4px solid #ffffff';
+        avatarEl.style.boxShadow = '0 0 20px rgba(255,255,255,0.2)';
+      } else if (targetProfile.avatar_border === 'black') {
+        avatarEl.style.border = '4px solid #000000';
+        avatarEl.style.boxShadow = '0 0 20px rgba(0,0,0,0.4)';
+      }
       if (targetProfile.avatar && targetProfile.avatar !== 'null') {
         avatarEl.innerHTML = `<img src="avatars/${targetProfile.avatar}" alt="" onerror="this.parentElement.textContent='${targetProfile.username.charAt(0).toUpperCase()}'">`;
       } else {

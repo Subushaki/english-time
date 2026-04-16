@@ -105,13 +105,17 @@
 
     function renderAvatarHtml(user, size) {
       const cls = size === 'podium' ? 'podium-avatar' : 'lb-avatar';
+      const bgStyle = user.avatar_bg ? `background: ${user.avatar_bg};` : '';
+      let borderStyle = '';
+      if (user.avatar_border === 'white') borderStyle = 'border: 3px solid #ffffff;';
+      else if (user.avatar_border === 'black') borderStyle = 'border: 3px solid #000000;';
       let content = '';
       if (user.avatar && user.avatar !== 'null') {
         content = `<img src="avatars/${escapeHtmlLb(user.avatar)}" alt="" onerror="this.parentElement.textContent='${escapeHtmlLb(user.username).charAt(0).toUpperCase()}'">`;
       } else {
         content = escapeHtmlLb(user.username).charAt(0).toUpperCase();
       }
-      return `<a href="profile.html?id=${user.id}" class="${cls}" style="text-decoration: none;" title="${escapeHtmlLb(user.username)} Profiline Git">${content}</a>`;
+      return `<a href="profile.html?id=${user.id}" class="${cls}" style="text-decoration: none; ${bgStyle} ${borderStyle}" title="${escapeHtmlLb(user.username)} Profiline Git">${content}</a>`;
     }
 
     function renderPodium() {
@@ -238,7 +242,7 @@
       // 1. Fetch all visible profiles
       const { data: profiles } = await sb
         .from('profiles')
-        .select('id, username, avatar, name_style')
+        .select('id, username, avatar, avatar_bg, avatar_border, name_style')
         .eq('leaderboard_visible', true);
 
       document.getElementById('lb-loading').style.display = 'none';
@@ -278,6 +282,8 @@
           id: profile.id,
           username: profile.username,
           avatar: profile.avatar,
+          avatar_bg: profile.avatar_bg,
+          avatar_border: profile.avatar_border,
           name_style: profile.name_style,
           score: totalScore
         });

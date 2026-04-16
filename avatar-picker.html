@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="English Time - Profil Resmi Seç">
+  <title>English Time | Profil Resmi</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+  <style>
+    .ap-container {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .ap-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-weight: 600;
+      margin-bottom: 16px;
+      transition: color 0.2s;
+    }
+    .ap-back:hover { color: var(--text-primary); }
+
+    .ap-current {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+    .ap-current-avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.06);
+      border: 3px solid var(--accent-blue);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      overflow: hidden;
+      margin-bottom: 8px;
+    }
+    .ap-current-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .ap-current-label {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    /* Tab System */
+    .ap-tabs {
+      display: flex;
+      border-bottom: 2px solid var(--glass-border);
+      margin-bottom: 20px;
+    }
+    .ap-tab {
+      flex: 1;
+      padding: 14px;
+      text-align: center;
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      position: relative;
+      transition: color 0.2s;
+    }
+    .ap-tab.active {
+      color: var(--text-primary);
+    }
+    .ap-tab.active::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 15%;
+      right: 15%;
+      height: 3px;
+      background: var(--gradient-primary);
+      border-radius: 3px;
+    }
+    .ap-tab:hover:not(.active) {
+      color: var(--text-secondary);
+    }
+
+    /* Avatar Grid */
+    .ap-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    @media (max-width: 480px) {
+      .ap-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    .ap-item {
+      aspect-ratio: 1;
+      border-radius: var(--radius-md);
+      background: rgba(255,255,255,0.04);
+      border: 2px solid var(--glass-border);
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+    }
+    .ap-item img {
+      width: 80%;
+      height: 80%;
+      object-fit: contain;
+    }
+    .ap-item:hover {
+      border-color: var(--accent-blue);
+      transform: translateY(-3px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+    }
+    .ap-item.selected {
+      border-color: var(--accent-green);
+      background: rgba(34, 197, 94, 0.08);
+      box-shadow: 0 0 12px rgba(34, 197, 94, 0.2);
+    }
+    .ap-item.selected::after {
+      content: '✓';
+      position: absolute;
+      top: 4px;
+      right: 6px;
+      font-size: 0.75rem;
+      color: var(--accent-green);
+      font-weight: 700;
+    }
+    .ap-item-none {
+      font-size: 1.8rem;
+    }
+
+    .ap-name {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      text-align: center;
+      margin-top: 4px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .ap-section-title {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--glass-border);
+    }
+
+    .ap-status {
+      text-align: center;
+      font-size: 0.85rem;
+      min-height: 20px;
+      margin-top: 12px;
+    }
+
+    .ap-size-note {
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      opacity: 0.7;
+    }
+
+    /* Color Picker */
+    .ap-color-section {
+      margin-top: 32px;
+      padding-top: 24px;
+      border-top: 1px solid var(--glass-border);
+    }
+    .ap-color-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      text-align: center;
+      margin-bottom: 16px;
+    }
+    .ap-color-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    @media (max-width: 400px) {
+      .ap-color-grid { grid-template-columns: repeat(4, 1fr); }
+    }
+    .ap-color-item {
+      aspect-ratio: 1;
+      border-radius: 50%;
+      cursor: pointer;
+      border: 3px solid transparent;
+      transition: all 0.2s;
+      position: relative;
+    }
+    .ap-color-item:hover {
+      transform: scale(1.15);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+    .ap-color-item.selected {
+      border-color: #fff;
+      box-shadow: 0 0 14px rgba(255,255,255,0.3);
+    }
+    .ap-color-item.selected::after {
+      content: '✓';
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      font-weight: 700;
+      color: #fff;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    }
+    .ap-color-status {
+      text-align: center;
+      font-size: 0.85rem;
+      min-height: 20px;
+    }
+
+    /* Border Picker */
+    .ap-border-grid {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 12px;
+    }
+    .ap-border-item {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: all 0.2s;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.7rem;
+      font-weight: 600;
+    }
+    .ap-border-item:hover {
+      transform: scale(1.1);
+    }
+    .ap-border-item.selected {
+      box-shadow: 0 0 0 3px var(--accent-green);
+    }
+    .ap-border-item.selected::after {
+      content: '\2713';
+      position: absolute;
+      bottom: -2px;
+      right: -2px;
+      width: 18px;
+      height: 18px;
+      background: var(--accent-green);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.65rem;
+      color: #fff;
+      font-weight: 700;
+    }
+    .ap-border-none {
+      background: rgba(255,255,255,0.06);
+      border: 2px dashed var(--glass-border);
+      color: var(--text-muted);
+    }
+    .ap-border-white {
+      background: rgba(255,255,255,0.1);
+      border: 4px solid #ffffff;
+      color: var(--text-primary);
+    }
+    .ap-border-black {
+      background: rgba(0,0,0,0.3);
+      border: 4px solid #000000;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bg-effects">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+  </div>
+  <div class="stars"></div>
+
+  <div class="container">
+
+    <div class="user-bar" id="user-bar"></div>
+
+    <div class="ap-container">
+
+      <a href="settings.html" class="ap-back">← Ayarlara Dön</a>
+
+      <!-- Current Avatar Preview -->
+      <div class="ap-current">
+        <div class="ap-current-avatar" id="current-preview">?</div>
+        <div class="ap-current-label">Mevcut Profil Resmin</div>
+      </div>
+
+      <!-- Tabs -->
+      <div class="ap-tabs">
+        <button class="ap-tab active" id="tab-static" onclick="switchTab('static')">🖼️ Normal</button>
+        <button class="ap-tab" id="tab-animated" onclick="switchTab('animated')">✨ Hareketli</button>
+      </div>
+
+      <div class="ap-size-note" id="size-note">PNG / JPG — Maks. 500KB</div>
+
+      <!-- Static Grid -->
+      <div id="panel-static">
+        <div class="ap-grid" id="grid-static"></div>
+      </div>
+
+      <!-- Animated Grid -->
+      <div id="panel-animated" style="display: none;">
+        <div class="ap-grid" id="grid-animated"></div>
+      </div>
+
+      <div class="ap-status" id="ap-status"></div>
+
+      <!-- Background Color Picker -->
+      <div class="ap-color-section">
+        <div class="ap-color-title">🎨 Arka Plan Rengi</div>
+        <div class="ap-color-grid" id="color-grid"></div>
+        <div class="ap-color-status" id="color-status"></div>
+      </div>
+
+      <!-- Border Picker -->
+      <div class="ap-color-section">
+        <div class="ap-color-title">🖼️ Çerçeve Rengi</div>
+        <div class="ap-border-grid" id="border-grid"></div>
+        <div class="ap-color-status" id="border-status"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/avatars.js"></script>
+  <script>
+    let pickerUser = null;
+    let cachedPopularity = {};
+
+    const BG_COLORS = [
+      { name: 'Mor-Mavi', value: 'linear-gradient(135deg, #667eea, #764ba2)' },
+      { name: 'Okyanus',  value: 'linear-gradient(135deg, #2193b0, #6dd5ed)' },
+      { name: 'Gün Batımı', value: 'linear-gradient(135deg, #f093fb, #f5576c)' },
+      { name: 'Orman',    value: 'linear-gradient(135deg, #11998e, #38ef7d)' },
+      { name: 'Ateş',     value: 'linear-gradient(135deg, #f12711, #f5af19)' },
+      { name: 'Gece',     value: 'linear-gradient(135deg, #0f0c29, #302b63)' },
+      { name: 'Lavanta',  value: 'linear-gradient(135deg, #a18cd1, #fbc2eb)' },
+      { name: 'Altın',    value: 'linear-gradient(135deg, #f7971e, #ffd200)' },
+      { name: 'Buz',      value: 'linear-gradient(135deg, #e0eafc, #cfdef3)' },
+      { name: 'Kiraz',    value: 'linear-gradient(135deg, #eb3349, #f45c43)' },
+      { name: 'Koyu Yeşil', value: 'linear-gradient(135deg, #134e5e, #71b280)' },
+      { name: 'Siyah',    value: 'linear-gradient(135deg, #1a1a2e, #16213e)' }
+    ];
+
+    function switchTab(tab) {
+      document.getElementById('tab-static').classList.toggle('active', tab === 'static');
+      document.getElementById('tab-animated').classList.toggle('active', tab === 'animated');
+      document.getElementById('panel-static').style.display = tab === 'static' ? 'block' : 'none';
+      document.getElementById('panel-animated').style.display = tab === 'animated' ? 'block' : 'none';
+      document.getElementById('size-note').textContent = tab === 'static'
+        ? 'PNG / JPG — Maks. 500KB'
+        : 'GIF — Maks. 500KB';
+    }
+
+    async function selectAvatar(filename) {
+      if (!pickerUser) return;
+      const sb = getSupabase();
+      const statusEl = document.getElementById('ap-status');
+
+      statusEl.textContent = 'Kaydediliyor...';
+      statusEl.style.color = 'var(--text-muted)';
+
+      const { error } = await sb.from('profiles')
+        .update({ avatar: filename })
+        .eq('id', pickerUser.id);
+
+      if (error) {
+        statusEl.textContent = '❌ Hata: ' + error.message;
+        statusEl.style.color = 'var(--accent-red)';
+      } else {
+        statusEl.textContent = '✅ Profil resmi güncellendi!';
+        statusEl.style.color = 'var(--accent-green)';
+        pickerUser.avatar = filename;
+        localStorage.setItem('english_time_user', JSON.stringify(pickerUser));
+        renderGrids();
+        updatePreview();
+      }
+      setTimeout(() => { statusEl.textContent = ''; }, 3000);
+    }
+
+    async function selectBgColor(colorValue) {
+      if (!pickerUser) return;
+      const sb = getSupabase();
+      const statusEl = document.getElementById('color-status');
+
+      statusEl.textContent = 'Kaydediliyor...';
+      statusEl.style.color = 'var(--text-muted)';
+
+      const { error } = await sb.from('profiles')
+        .update({ avatar_bg: colorValue })
+        .eq('id', pickerUser.id);
+
+      if (error) {
+        statusEl.textContent = '❌ Hata: ' + error.message;
+        statusEl.style.color = 'var(--accent-red)';
+      } else {
+        statusEl.textContent = '✅ Arka plan güncellendi!';
+        statusEl.style.color = 'var(--accent-green)';
+        pickerUser.avatar_bg = colorValue;
+        localStorage.setItem('english_time_user', JSON.stringify(pickerUser));
+        renderColorGrid();
+        updatePreview();
+      }
+      setTimeout(() => { statusEl.textContent = ''; }, 3000);
+    }
+
+    function updatePreview() {
+      const el = document.getElementById('current-preview');
+      // Apply background color
+      const bg = pickerUser.avatar_bg || 'linear-gradient(135deg, #667eea, #764ba2)';
+      el.style.background = bg;
+
+      // Apply border
+      const border = pickerUser.avatar_border || 'none';
+      if (border === 'white') {
+        el.style.borderColor = '#ffffff';
+        el.style.borderWidth = '4px';
+      } else if (border === 'black') {
+        el.style.borderColor = '#000000';
+        el.style.borderWidth = '4px';
+      } else {
+        el.style.borderColor = 'var(--accent-blue)';
+        el.style.borderWidth = '3px';
+      }
+
+      if (pickerUser.avatar) {
+        el.innerHTML = `<img src="avatars/${pickerUser.avatar}" alt="" onerror="this.parentElement.textContent='${pickerUser.username.charAt(0).toUpperCase()}'">`;
+      } else {
+        el.textContent = pickerUser.username.charAt(0).toUpperCase();
+      }
+    }
+
+    function createAvatarItem(file, isSelected) {
+      const item = document.createElement('div');
+      item.className = `ap-item${isSelected ? ' selected' : ''}`;
+      item.innerHTML = `<img src="avatars/${file}" alt="" onerror="this.parentElement.style.display='none'">`;
+      item.onclick = () => selectAvatar(file);
+      return item;
+    }
+
+    function renderGrids() {
+      const popularityCounts = cachedPopularity;
+      // --- Static Grid ---
+      const staticGrid = document.getElementById('grid-static');
+      staticGrid.innerHTML = '';
+
+      // "Yok" option
+      const noneItem = document.createElement('div');
+      noneItem.className = `ap-item${!pickerUser.avatar ? ' selected' : ''}`;
+      noneItem.innerHTML = '<span class="ap-item-none">🚫</span>';
+      noneItem.onclick = () => selectAvatar(null);
+      staticGrid.appendChild(noneItem);
+
+      // Pinned originals first (sabit sıra)
+      PINNED_STATIC.forEach(file => {
+        staticGrid.appendChild(createAvatarItem(file, pickerUser.avatar === file));
+      });
+
+      // Remaining static sorted by popularity
+      const otherStatic = ALL_STATIC.filter(f => !PINNED_STATIC.includes(f));
+      otherStatic.sort((a, b) => (popularityCounts[b] || 0) - (popularityCounts[a] || 0));
+      otherStatic.forEach(file => {
+        staticGrid.appendChild(createAvatarItem(file, pickerUser.avatar === file));
+      });
+
+      // --- Animated Grid ---
+      const animGrid = document.getElementById('grid-animated');
+      animGrid.innerHTML = '';
+
+      // All animated sorted by popularity
+      const sortedAnimated = [...ALL_ANIMATED];
+      sortedAnimated.sort((a, b) => (popularityCounts[b] || 0) - (popularityCounts[a] || 0));
+      sortedAnimated.forEach(file => {
+        animGrid.appendChild(createAvatarItem(file, pickerUser.avatar === file));
+      });
+    }
+
+    function renderColorGrid() {
+      const grid = document.getElementById('color-grid');
+      grid.innerHTML = '';
+      const currentBg = pickerUser.avatar_bg || 'linear-gradient(135deg, #667eea, #764ba2)';
+
+      BG_COLORS.forEach(color => {
+        const item = document.createElement('div');
+        item.className = `ap-color-item${currentBg === color.value ? ' selected' : ''}`;
+        item.style.background = color.value;
+        item.title = color.name;
+        item.onclick = () => selectBgColor(color.value);
+        grid.appendChild(item);
+      });
+    }
+
+    async function selectBorder(borderValue) {
+      if (!pickerUser) return;
+      const sb = getSupabase();
+      const statusEl = document.getElementById('border-status');
+
+      statusEl.textContent = 'Kaydediliyor...';
+      statusEl.style.color = 'var(--text-muted)';
+
+      const { error } = await sb.from('profiles')
+        .update({ avatar_border: borderValue })
+        .eq('id', pickerUser.id);
+
+      if (error) {
+        statusEl.textContent = '❌ Hata: ' + error.message;
+        statusEl.style.color = 'var(--accent-red)';
+      } else {
+        statusEl.textContent = '✅ Çerçeve güncellendi!';
+        statusEl.style.color = 'var(--accent-green)';
+        pickerUser.avatar_border = borderValue;
+        localStorage.setItem('english_time_user', JSON.stringify(pickerUser));
+        renderBorderGrid();
+        updatePreview();
+      }
+      setTimeout(() => { statusEl.textContent = ''; }, 3000);
+    }
+
+    function renderBorderGrid() {
+      const grid = document.getElementById('border-grid');
+      grid.innerHTML = '';
+      const current = pickerUser.avatar_border || 'none';
+
+      const options = [
+        { value: 'none', label: 'Yok', cls: 'ap-border-none' },
+        { value: 'white', label: 'Beyaz', cls: 'ap-border-white' },
+        { value: 'black', label: 'Siyah', cls: 'ap-border-black' }
+      ];
+
+      options.forEach(opt => {
+        const item = document.createElement('div');
+        item.className = `ap-border-item ${opt.cls}${current === opt.value ? ' selected' : ''}`;
+        item.textContent = opt.label;
+        item.onclick = () => selectBorder(opt.value);
+        grid.appendChild(item);
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      const user = await getCurrentUser();
+      if (!user || !user.id) {
+        window.location.href = 'login.html';
+        return;
+      }
+      pickerUser = user;
+      updatePreview();
+
+      // Fetch avatar popularity counts from all profiles
+      const sb = getSupabase();
+      const { data: allProfiles } = await sb
+        .from('profiles').select('avatar');
+
+      const popularityCounts = {};
+      if (allProfiles) {
+        allProfiles.forEach(p => {
+          if (p.avatar) {
+            popularityCounts[p.avatar] = (popularityCounts[p.avatar] || 0) + 1;
+          }
+        });
+      }
+      cachedPopularity = popularityCounts;
+
+      renderGrids();
+      renderColorGrid();
+      renderBorderGrid();
+    });
+  </script>
+</body>
+</html>
