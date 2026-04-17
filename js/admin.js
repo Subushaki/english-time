@@ -32,68 +32,94 @@ function switchTab(tab) {
   }
 }
 
+let allPatchCommits = [];
+let patchCommitIndex = 0;
+const PATCH_BATCH_SIZE = 3;
+
 async function loadPatchNotes() {
   const container = document.getElementById('patch-timeline');
   if(!container) return;
   container.innerHTML = '<div style="color: var(--text-muted); text-align: center;">Yükleniyor...</div>';
   
   try {
-    // Github public API'den english-time commitleri çekilir. Rate limit: 60/hour per IP (without token).
     const res = await fetch('https://api.github.com/repos/Subushaki/english-time/commits');
     const commits = await res.json();
     
     if (!Array.isArray(commits)) throw new Error('API Hatası veya Rate Limit');
     
+    allPatchCommits = commits;
+    patchCommitIndex = 0;
     container.innerHTML = '';
-    
-    commits.forEach(item => {
-      const msgRaw = item.commit.message;
-      const dateRaw = new Date(item.commit.author.date);
-      
-      const parts = msgRaw.split('\n');
-      let title = parts[0];
-      let desc = parts.slice(1).join('<br>').trim();
-      
-      // Determine Tags
-      let tagClass = 'tag-other';
-      let tagText = 'UPDATE';
-      let accentCol = 'var(--accent-purple)';
-      
-      if (title.toLowerCase().startsWith('feat')) {
-        tagClass = 'tag-feat';
-        tagText = 'FEATURE';
-        accentCol = 'var(--accent-green)';
-      } else if (title.toLowerCase().startsWith('fix')) {
-        tagClass = 'tag-fix';
-        tagText = 'BUG FIX';
-        accentCol = 'var(--accent-red)';
-      } else if (title.toLowerCase().startsWith('docs') || title.toLowerCase().startsWith('chore')) {
-        tagText = 'SYSTEM';
-      }
-      
-      const day = dateRaw.getDate().toString().padStart(2, '0');
-      const month = (dateRaw.getMonth()+1).toString().padStart(2, '0');
-      const year = dateRaw.getFullYear();
-      const hours = dateRaw.getHours().toString().padStart(2, '0');
-      const minutes = dateRaw.getMinutes().toString().padStart(2, '0');
-      const formattedDate = `${day}.${month}.${year} ${hours}:${minutes}`;
-      
-      const div = document.createElement('div');
-      div.className = 'pt-item';
-      div.style.setProperty('--circle-col', accentCol);
-      div.innerHTML = `
-        <div class="pt-content" style="border-left: 3px solid ${accentCol}">
-          <span class="pt-date">📅 ${formattedDate}</span>
-          <span class="pt-tag ${tagClass}">${tagText}</span>
-          <div class="pt-title">${title}</div>
-          ${desc ? `<div class="pt-desc">${desc}</div>` : ''}
-        </div>
-      `;
-      container.appendChild(div);
-    });
+    renderNextPatches();
     
   } catch (err) {
     container.innerHTML = `<div style="color:var(--accent-red); text-align:center; padding: 20px;">Güncellemeler çekilemedi: ${err.message}</div>`;
+  }
+}
+
+function renderNextPatches() {
+  const container = document.getElementById('patch-timeline');
+  if(!container) return;
+  
+  const loadBtn = document.getElementById('pt-load-btn');
+  if (loadBtn) loadBtn.remove();
+
+  const slice = allPatchCommits.slice(patchCommitIndex, patchCommitIndex + PATCH_BATCH_SIZE);
+  
+  slice.forEach(item => {
+    const msgRaw = item.commit.message || 'İsimsiz Yükleme';
+    const dateRaw = new Date(item.commit.author.date);
+    
+    const parts = msgRaw.split('\n');
+    let title = parts[0];
+    let desc = parts.slice(1).join('<br>').trim();
+    
+    let tagClass = 'tag-other';
+    let tagText = 'UPDATE';
+    let accentCol = 'var(--accent-purple)';
+    
+    if (title.toLowerCase().startsWith('feat')) {
+      tagClass = 'tag-feat';
+      tagText = 'FEATURE';
+      accentCol = 'var(--accent-green)';
+    } else if (title.toLowerCase().startsWith('fix')) {
+      tagClass = 'tag-fix';
+      tagText = 'BUG FIX';
+      accentCol = 'var(--accent-red)';
+    } else if (title.toLowerCase().startsWith('docs') || title.toLowerCase().startsWith('chore')) {
+      tagText = 'SYSTEM';
+    }
+    
+    const day = dateRaw.getDate().toString().padStart(2, '0');
+    const month = (dateRaw.getMonth()+1).toString().padStart(2, '0');
+    const year = dateRaw.getFullYear();
+    const hours = dateRaw.getHours().toString().padStart(2, '0');
+    const minutes = dateRaw.getMinutes().toString().padStart(2, '0');
+    const formattedDate = `${day}.${month}.${year} ${hours}:${minutes}`;
+    
+    const div = document.createElement('div');
+    div.className = 'pt-item';
+    div.style.setProperty('--circle-col', accentCol);
+    div.innerHTML = `
+      <div class="pt-content" style="border-left: 3px solid ${accentCol}">
+        <span class="pt-date">📅 ${formattedDate}</span>
+        <span class="pt-tag ${tagClass}">${tagText}</span>
+        <div class="pt-title">${title}</div>
+        ${desc ? `<div class="pt-desc">${desc}</div>` : ''}
+      </div>
+    `;
+    container.appendChild(div);
+  });
+
+  patchCommitIndex += PATCH_BATCH_SIZE;
+
+  if (patchCommitIndex < allPatchCommits.length) {
+    const btnBox = document.createElement('div');
+    btnBox.id = 'pt-load-btn';
+    btnBox.style.textAlign = 'center';
+    btnBox.style.marginTop = '30px';
+    btnBox.innerHTML = `<button class="btn-secondary" style="display:inline-flex; border-color:var(--glass-border);" onclick="renderNextPatches()">↓ Daha Fazlasını Göster</button>`;
+    container.appendChild(btnBox);
   }
 }
 
