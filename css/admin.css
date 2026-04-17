@@ -139,6 +139,57 @@
 .tab-content { display: none; }
 .tab-content.active { display: block; }
 
+/* PATCH TIMELINE */
+.patch-timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.patch-timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: var(--glass-border);
+  top: 0; bottom: 0; left: 20px;
+  margin-left: -1px;
+}
+.pt-item {
+  padding: 10px 0 30px 50px;
+  position: relative;
+}
+.pt-item::after {
+  content: '';
+  position: absolute;
+  width: 16px; height: 16px;
+  right: auto; left: 12px;
+  background-color: var(--bg-card);
+  border: 3px solid var(--circle-col, var(--accent-green));
+  top: 15px; border-radius: 50%; z-index: 1;
+}
+.pt-content {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--glass-border);
+  padding: 20px;
+  border-radius: var(--radius-md);
+  position: relative;
+  transition: transform 0.2s;
+}
+.pt-content:hover { transform: translateX(5px); border-color: var(--circle-col, var(--accent-green)); }
+.pt-date { color: var(--text-muted); font-size: 0.85rem; font-weight: 600; margin-bottom: 10px; display: block; }
+.pt-title { font-family: 'Outfit'; font-size: 1.2rem; color: var(--text-primary); margin-bottom: 5px; font-weight: 600; }
+.pt-desc { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.5; margin-top: 10px; }
+.pt-tag {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.tag-feat { background: rgba(16, 185, 129, 0.2); color: var(--accent-green); }
+.tag-fix { background: rgba(239, 68, 68, 0.2); color: var(--accent-red); }
+.tag-other { background: rgba(139, 92, 246, 0.2); color: var(--accent-purple); }
+
 /* USER LIST */
 .user-list {
   display: grid;
