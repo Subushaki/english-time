@@ -100,50 +100,140 @@ async function updateUserBar() {
     const isLeaderboard = window.location.pathname.includes('leaderboard.html');
     const isProfile = window.location.pathname.includes('profile.html');
     const isSettings = window.location.pathname.includes('settings.html');
+    const isO2 = window.location.pathname.includes('o2.html');
 
-    // Ana Sayfa butonu: index hariç her yerde göster
-    const homeBtn = isIndex
-      ? ''
-      : '<a href="index.html" class="user-bar-btn"><span class="settings-btn-icon">🏠</span> Ana Sayfa</a>';
+    // Build nav items list (only pages user is NOT currently on)
+    let navItems = '';
+    if (!isIndex) navItems += '<a href="index.html" class="burger-nav-item"><span class="burger-nav-icon">🏠</span> Ana Sayfa</a>';
+    if (!isDashboard) navItems += '<a href="dashboard.html" class="burger-nav-item"><span class="burger-nav-icon">📊</span> Panelim</a>';
+    if (!isLeaderboard) navItems += '<a href="leaderboard.html" class="burger-nav-item"><span class="burger-nav-icon">🥇</span> Skor Tablosu</a>';
+    if (!isO2) navItems += '<a href="o2.html" class="burger-nav-item"><span class="burger-nav-icon">🔍</span> O₂ Oxygen</a>';
+    if (!isProfile) navItems += '<a href="profile.html?id=' + user.id + '" class="burger-nav-item"><span class="burger-nav-icon">👤</span> Profilim</a>';
+    if (!isSettings) navItems += '<a href="settings.html" class="burger-nav-item"><span class="burger-nav-icon">⚙️</span> Ayarlar</a>';
 
-    // Panelim butonu: dashboard hariç her yerde göster
-    const panelBtn = isDashboard
-      ? ''
-      : '<a href="dashboard.html" class="user-bar-btn"><span class="settings-btn-icon">📊</span> Panelim</a>';
+    // Desktop buttons (same as before)
+    const currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
+    const themeIcon = currentTheme === 'light' ? '🌙' : '☀️';
+    const themeText = currentTheme === 'light' ? 'Karanlık Mod' : 'Aydınlık Mod';
 
-    const lbBtn = isLeaderboard
-      ? ''
-      : '<a href="leaderboard.html" class="user-bar-btn"><span class="settings-btn-icon">🥇</span> Skor</a>';
+    navItems += `<a href="#" class="burger-nav-item theme-mobile-btn" onclick="toggleTheme(); return false;" id="theme-toggle-mobile"><span class="burger-nav-icon">${themeIcon}</span> <span class="theme-text-span">${themeText}</span></a>`;
 
-    const profileBtn = isProfile
-      ? ''
-      : '<a href="profile.html?id=' + user.id + '" class="user-bar-btn"><span class="settings-btn-icon">👤</span> Profilim</a>';
-
-    const settingsBtn = isSettings
-      ? ''
-      : '<a href="settings.html" class="user-bar-btn"><span class="settings-btn-icon">⚙️</span> Ayarlar</a>';
+    const homeBtn = isIndex ? '' : '<a href="index.html" class="user-bar-btn desktop-nav"><span class="settings-btn-icon">🏠</span> Ana Sayfa</a>';
+    const panelBtn = isDashboard ? '' : '<a href="dashboard.html" class="user-bar-btn desktop-nav"><span class="settings-btn-icon">📊</span> Panelim</a>';
+    const lbBtn = isLeaderboard ? '' : '<a href="leaderboard.html" class="user-bar-btn desktop-nav"><span class="settings-btn-icon">🥇</span> Skor</a>';
+    const o2Btn = isO2 ? '' : '<a href="o2.html" class="user-bar-btn desktop-nav" style="border-color: rgba(251,191,36,0.2); color: #fbbf24;"><span class="settings-btn-icon">🔍</span> O₂</a>';
+    const profileBtn = isProfile ? '' : '<a href="profile.html?id=' + user.id + '" class="user-bar-btn desktop-nav"><span class="settings-btn-icon">👤</span> Profilim</a>';
+    const settingsBtn = isSettings ? '' : '<a href="settings.html" class="user-bar-btn desktop-nav"><span class="settings-btn-icon">⚙️</span> Ayarlar</a>';
+    
+    const themeBtn = `<button class="user-bar-btn desktop-nav" onclick="toggleTheme()" id="theme-toggle-desktop" title="Temayı Değiştir">${themeIcon}</button>`;
 
     let displayName = user.username || 'Bilinmeyen Kullanıcı';
     let styleStr = user.name_style ? `font-family: ${user.name_style};` : '';
 
+    let avatarHtml = '';
+    if (user.avatar && user.avatar !== 'null') {
+      const bgStyle = user.avatar_bg ? `background: ${user.avatar_bg};` : '';
+      avatarHtml = `<div class="burger-avatar" style="${bgStyle}"><img src="avatars/${escapeHtmlAuth(user.avatar)}" alt="" onerror="this.parentElement.textContent='${escapeHtmlAuth(displayName).charAt(0).toUpperCase()}'"></div>`;
+    } else {
+      avatarHtml = `<div class="burger-avatar">${escapeHtmlAuth(displayName).charAt(0).toUpperCase()}</div>`;
+    }
+
     userBar.innerHTML = `
       <div class="user-greeting">
-         👋 <span style="${styleStr} font-size: 1.05rem;">${escapeHtmlAuth(displayName)}</span>
+         👋 <span style="${styleStr}">${escapeHtmlAuth(displayName)}</span>
       </div>
       ${homeBtn}
       ${panelBtn}
       ${lbBtn}
+      ${o2Btn}
+      <span class="nav-divider desktop-nav"></span>
       ${profileBtn}
       ${settingsBtn}
+      ${themeBtn}
+      <button class="burger-toggle" id="burger-toggle" onclick="toggleBurgerMenu()" aria-label="Menüyü aç">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+      </button>
+      <div class="burger-overlay" id="burger-overlay" onclick="closeBurgerMenu()"></div>
+      <div class="burger-panel" id="burger-panel">
+        <div class="burger-panel-header">
+          ${avatarHtml}
+          <div class="burger-user-info">
+            <span class="burger-display-name" style="${styleStr}">${escapeHtmlAuth(displayName)}</span>
+            <span class="burger-user-sub">Hoş geldin! 👋</span>
+          </div>
+          <button class="burger-close" onclick="closeBurgerMenu()" aria-label="Menüyü kapat">✕</button>
+        </div>
+        <div class="burger-nav-list">
+          ${navItems}
+        </div>
+        <div class="burger-panel-footer">
+          <span class="burger-footer-text">📚 English Time</span>
+        </div>
+      </div>
     `;
     userBar.classList.add('logged-in');
   } else {
     userBar.innerHTML = `
-      <a href="leaderboard.html" class="user-bar-btn">🏅 Skor</a>
-      <a href="login.html" class="user-bar-btn login-link">🔑 Giriş Yap</a>
+      <a href="leaderboard.html" class="user-bar-btn desktop-nav">🏅 Skor</a>
+      <a href="o2.html" class="user-bar-btn desktop-nav" style="border-color: rgba(251,191,36,0.2); color: #fbbf24;">🔍 O₂</a>
+      <a href="login.html" class="user-bar-btn login-link desktop-nav">🔑 Giriş Yap</a>
+      <button class="burger-toggle" id="burger-toggle" onclick="toggleBurgerMenu()" aria-label="Menüyü aç">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+      </button>
+      <div class="burger-overlay" id="burger-overlay" onclick="closeBurgerMenu()"></div>
+      <div class="burger-panel" id="burger-panel">
+        <div class="burger-panel-header">
+          <div class="burger-avatar">?</div>
+          <div class="burger-user-info">
+            <span class="burger-display-name">Misafir</span>
+            <span class="burger-user-sub">Giriş yapmadınız</span>
+          </div>
+          <button class="burger-close" onclick="closeBurgerMenu()" aria-label="Menüyü kapat">✕</button>
+        </div>
+        <div class="burger-nav-list">
+          <a href="leaderboard.html" class="burger-nav-item"><span class="burger-nav-icon">🏅</span> Skor Tablosu</a>
+          <a href="o2.html" class="burger-nav-item"><span class="burger-nav-icon">🔍</span> O₂ Oxygen</a>
+          <a href="login.html" class="burger-nav-item burger-nav-login"><span class="burger-nav-icon">🔑</span> Giriş Yap / Kayıt Ol</a>
+        </div>
+        <div class="burger-panel-footer">
+          <span class="burger-footer-text">📚 English Time</span>
+        </div>
+      </div>
     `;
     userBar.classList.remove('logged-in');
   }
+}
+
+// ===== BURGER MENU FUNCTIONS =====
+function toggleBurgerMenu() {
+  const panel = document.getElementById('burger-panel');
+  const overlay = document.getElementById('burger-overlay');
+  const toggle = document.getElementById('burger-toggle');
+  if (!panel || !overlay) return;
+
+  const isOpen = panel.classList.contains('open');
+  if (isOpen) {
+    closeBurgerMenu();
+  } else {
+    panel.classList.add('open');
+    overlay.classList.add('open');
+    if (toggle) toggle.style.display = 'none';
+    document.body.style.overflow = 'hidden';
+  }
+}
+
+function closeBurgerMenu() {
+  const panel = document.getElementById('burger-panel');
+  const overlay = document.getElementById('burger-overlay');
+  const toggle = document.getElementById('burger-toggle');
+  if (panel) panel.classList.remove('open');
+  if (overlay) overlay.classList.remove('open');
+  if (toggle) toggle.style.display = '';
+  document.body.style.overflow = '';
 }
 
 async function handleLogout() {

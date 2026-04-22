@@ -102,12 +102,17 @@
     showNextWord();
 
     document.getElementById('answer-input').addEventListener('keydown', function (e) {
-      if (e.key === 'Enter') {
-        if (isWaiting) {
-          nextWord();
-        } else {
-          checkAnswer();
-        }
+      if (e.key === 'Enter' && !isWaiting) {
+        e.stopPropagation(); // Bubbling'i önle
+        checkAnswer();
+      }
+    });
+
+    // Otomatik devam etme için klavye kısa yolları (Enter veya Space)
+    document.addEventListener('keydown', function (e) {
+      if (isWaiting && (e.key === 'Enter' || e.code === 'Space')) {
+        e.preventDefault(); // Sayfayı aşağı kaydırmayı engelle
+        nextWord();
       }
     });
 
@@ -285,7 +290,10 @@
       document.getElementById('submit-btn').disabled = true;
 
       feedback.className = 'feedback-message correct';
-      feedback.innerHTML = '✅ Doğru!';
+      feedback.innerHTML = `
+        ✅ Doğru!
+        <span class="correct-answer"><strong>${escapeHtml(currentItem.word.en)}</strong> — ${escapeHtml(currentItem.word.tr)}</span>
+      `;
 
       if (currentItem.attempt === 1) {
         stats.firstTry++;
@@ -305,9 +313,8 @@
       updateProgress();
       updateStats();
 
-      setTimeout(() => {
-        showNextWord();
-      }, 1000);
+      continueBtn.className = 'continue-btn visible';
+      isWaiting = true;
 
     } else {
       // ❌ WRONG — auto-star this word
@@ -549,6 +556,97 @@
     div.textContent = str;
     return div.innerHTML;
   }
+
+  // ===== O2 OXYGEN MODAL =====
+  window.openO2Info = function () {
+    const overlay = document.getElementById('o2-modal-overlay');
+    const searchInput = document.getElementById('o2-search-input');
+    const resultsContainer = document.getElementById('o2-results');
+
+    if (!overlay) return;
+
+    overlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+
+    // ÖZEL İPUCU KONTROLÜ (410 Kelime ve Quiz Moduna Duyarlı)
+    if (currentItem && currentItem.word && currentItem.word.hintEn && resultsContainer) {
+      const hintToShow = mode === 'en-tr' ? currentItem.word.hintEn : currentItem.word.hintTr;
+      const wordToShow = mode === 'en-tr' ? currentItem.word.en : currentItem.word.tr;
+      
+      const categoryColor = '#10b981';
+      resultsContainer.innerHTML = `
+        <div class="o2-result-card tip-card" style="border: 2px solid rgba(16, 185, 129, 0.3);">
+          <div class="o2-card-header">
+            <span class="o2-card-badge" style="background: ${categoryColor}20; color: ${categoryColor}; border-color: ${categoryColor}40">💡 Özel İpucu</span>
+            <h3 class="o2-card-title">${escapeHtml(wordToShow)}</h3>
+          </div>
+          <p class="o2-card-content" style="font-size: 1.1rem; line-height: 1.6; margin-top: 10px; color: var(--text-primary);">
+            ${escapeHtml(hintToShow)}
+          </p>
+        </div>
+      `;
+      if (searchInput) searchInput.value = '';
+      return; // O2 arama motorunu durdur, sadece bu özel kartı göster.
+    }
+
+    // Auto-search current word
+    if (currentItem && currentItem.word) {
+      const searchTerm = currentItem.word.en || '';
+      if (searchInput) searchInput.value = searchTerm;
+      performO2Search(searchTerm);
+    }
+
+    // Focus search input
+    setTimeout(() => { if (searchInput) searchInput.focus(); }, 300);
+  };
+
+  window.closeO2Modal = function () {
+    const overlay = document.getElementById('o2-modal-overlay');
+    if (overlay) overlay.classList.remove('open');
+    document.body.style.overflow = '';
+  };
+
+  function performO2Search(query) {
+    const resultsContainer = document.getElementById('o2-results');
+    if (!resultsContainer || !query || query.trim().length < 2) {
+      resultsContainer.innerHTML = '<div class="o2-empty-state"><span class="o2-empty-icon">🔍</span><p>Aramak istediğin kelimeyi veya kuralı yaz</p></div>';
+      return;
+    }
+
+    // Search using O2 Engine
+    let results = [];
+
+    // If we have a current word, try quiz-context search first
+    if (currentItem && currentItem.word && query === currentItem.word.en) {
+      results = O2Engine.searchForQuiz(currentItem.word);
+    }
+
+    // If no quiz-context results, do general search
+    if (results.length === 0) {
+      results = O2Engine.search(query);
+    }
+
+    if (results.length === 0) {
+      resultsContainer.innerHTML = '<div class="o2-empty-state"><span class="o2-empty-icon">🤷</span><p>"' + O2Engine.escapeHtml(query) + '" için sonuç bulunamadı</p></div>';
+      return;
+    }
+
+    resultsContainer.innerHTML = results.map(entry => O2Engine.renderCard(entry)).join('');
+  }
+
+  // O2 search input handler
+  document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.getElementById('o2-search-input');
+    if (searchInput) {
+      let debounce = null;
+      searchInput.addEventListener('input', () => {
+        clearTimeout(debounce);
+        debounce = setTimeout(() => {
+          performO2Search(searchInput.value);
+        }, 300);
+      });
+    }
+  });
 
   // ===== START =====
   document.addEventListener('DOMContentLoaded', init);

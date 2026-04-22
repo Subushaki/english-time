@@ -1,0 +1,130 @@
+No,English,Türkçe,English Hint (A2 Level),Türkçe İpucu
+1,Anniversaries,Yıl dönümleri,Special dates we remember every year.,Her yıl hatırladığımız özel tarihler.
+2,Architecture,Mimari,The art of planning and making buildings.,Bina planlama ve inşa etme sanatı.
+3,Beach,Plaj / Kumsal,A sandy place next to the sea.,Deniz kenarındaki kumlu yer.
+4,Beautiful,Güzel,Very nice to look at.,Bakması çok hoş olan.
+5,Believe,İnanmak,To think that something is true.,Bir şeyin doğru olduğunu düşünmek.
+6,Border,Sınır,The line between two countries.,İki ülke arasındaki çizgi.
+7,Both,İkisi de / Her ikisi,The two things together.,İki şeyin birden olması.
+8,Bowl,Kase,"A deep, round dish for food like soup.","Çorba gibi yiyecekler için derin, yuvarlak kap."
+9,Cheap,Ucuz,Not costing a lot of money.,Çok para gerektirmeyen.
+10,Cliffs,Uçurumlar / Kayalıklar,"High, steep rocks next to the sea.","Deniz kenarındaki yüksek, dik kayalar."
+11,Climate,İklim,The normal weather in a place.,Bir yerdeki normal hava durumu.
+12,Coast,Sahil / Kıyı,The land next to the sea.,Denizin yanındaki kara parçası.
+13,Continent,Kıta,One of the very large land areas on Earth.,Dünyadaki çok büyük kara parçalarından biri.
+14,Cook Lunch,Öğle Yemeği Pişirmek,To prepare the middle-of-the-day meal.,Gün ortası yemeğini hazırlamak.
+15,Customers,Müşteriler,People who buy things in a shop.,Bir dükkandan bir şeyler satın alan insanlar.
+16,Delicious,Lezzetli,Tasting really good.,Tadı gerçekten çok güzel olan.
+17,Discuss,Tartışmak / Görüşmek,To talk about something with someone.,Biriyle bir konu hakkında konuşmak.
+18,Domestic,Yerli / Evcil,About the home or the inside of a country.,Evle veya bir ülkenin içiyle ilgili.
+19,Dozens,Düzinelerce,"Groups of twelve things, or just many things.",On ikili gruplar veya çok sayıda olan şeyler.
+20,Driest,En kurak,Having the least rain or water.,En az yağmuru veya suyu olan.
+21,Dystopic,Distopik,About a very bad future world.,Gelecekteki çok kötü bir dünya ile ilgili.
+22,East,Doğu,The direction where the sun comes up.,Güneşin doğduğu yön.
+23,Excitement,Heyecan,A feeling of being very happy and active.,Çok mutlu ve aktif hissetme durumu.
+24,Extensive,Kapsamlı / Geniş çaplı,Very large and having many details.,Çok büyük ve birçok detayı olan.
+25,Extremes,Uç noktalar / Aşırılıklar,The highest and lowest levels of something.,Bir şeyin en yüksek ve en düşük seviyeleri.
+26,Features,Özellikler,Important or interesting parts of something.,Bir şeyin önemli veya ilginç kısımları.
+27,Fjords,Fiyortlar,"Long, narrow areas of sea between high rocks.","Yüksek kayalar arasındaki uzun, dar deniz alanları."
+28,Forest,Orman,A large place with many trees.,Çok sayıda ağacın olduğu büyük yer.
+29,Form,Biçim / Şekillendirmek,To make the shape of something.,Bir şeyin şeklini oluşturmak.
+30,Gaze,Gözünü dikip bakmak,To look at something for a long time.,Bir şeye uzun süre bakmak.
+31,Geysers,Gayzerler,Holes in the ground that shoot hot water.,Yerden sıcak su fırlatan delikler.
+32,Glad,Memnun,Happy and pleased.,Mutlu ve hoşnut olan.
+33,Gold,Altın,"A yellow, expensive metal.","Sarı, pahalı bir metal."
+34,Gravy,Et suyu sosu,A brown sauce made from meat juices.,Et suyundan yapılan kahverengi sos.
+35,Guide,Rehber / Rehberlik etmek,To show people the way.,İnsanlara yolu göstermek.
+36,Herb,Bitki / Baharat otu,A plant used to give food more flavor.,Yemeğe tat vermek için kullanılan bitki.
+37,High,Yüksek,Tall or far up.,Uzun veya çok yukarıda olan.
+38,Hill,Tepe,A small mountain.,Küçük bir dağ.
+39,Hospitality,Misafirperverlik,Being friendly and welcoming to guests.,Misafirlere karşı dost canlısı ve sıcakkanlı olmak.
+40,Idea,Fikir,A thought or a plan.,Bir düşünce veya plan.
+41,Impressive,Etkileyici,"Making you say ""wow"" because it is so good.","Çok iyi olduğu için sana ""vay canına"" dedirten."
+42,Include,İçermek / Dahil etmek,To have something as a part.,Bir şeyi kendi içinde parça olarak bulundurmak.
+43,Incredible,İnanılmaz,Hard to believe because it is so great.,Çok harika olduğu için inanması zor olan.
+44,Internship,Staj,A short job to learn how to work.,Nasıl çalışılacağını öğrenmek için kısa süreli iş.
+45,Island,Ada,Land with water all around it.,Etrafı tamamen suyla çevrili kara parçası.
+46,Jewelry,Mücevher / Takı,Rings and necklaces you wear to look nice.,Güzel görünmek için taktığın yüzükler ve kolyeler.
+47,Lake,Göl,A large body of water with land around it.,Etrafında kara olan büyük su birikintisi.
+48,Landscape,Manzara / Peyzaj,All the things you see when you look across an area.,Bir alana baktığında gördüğün her şey.
+49,Long,Uzun,Not short.,Kısa olmayan.
+50,Magnificent,Muhteşem / Görkemli,Extremely beautiful or great.,Son derece güzel veya harika.
+51,Manager,Yönetici / Müdür,The boss of a shop or an office.,Bir dükkanın veya ofisin yöneticisi/patronu.
+52,Mash,Püre / Ezmek,To crush food until it is soft.,Yiyecekleri yumuşayana kadar ezmek.
+53,Mountains,Dağlar,Very high and big hills.,Çok yüksek ve büyük tepeler.
+54,Narrow,Dar,Not wide.,Geniş olmayan.
+55,Neighbor,Komşu,A person who lives near you.,Senin yakınında/yanında yaşayan kişi.
+56,North,Kuzey,The direction at the top of a map.,Haritanın en üst tarafındaki yön.
+57,Opportunity,Fırsat,A chance to do something good.,İyi bir şey yapmak için bir şans.
+58,Peak,Zirve / Doruk,The top part of a mountain.,Bir dağın en üst kısmı.
+59,Prepare,Hazırlamak,To get something ready.,Bir şeyi hazır hale getirmek.
+60,Rise,Yükselmek / Artış,To go up.,Yukarı doğru çıkmak.
+61,Sensational,Sansasyonel / Çarpıcı,Very exciting or surprising.,Çok heyecan verici veya şaşırtıcı.
+62,Shape,Şekil,The outer form of something.,Bir şeyin dış görünüşü veya formu.
+63,Shares,Paylaşır / Paylar,Gives a part of something to others.,Bir şeyin bir kısmını başkalarına verir.
+64,Short,Kısa,Not long or not tall.,Uzun veya boylu olmayan.
+65,Silver,Gümüş,"A grey and white, expensive metal.","Gri ve beyaz renkli, pahalı bir metal."
+66,Slang,Argo / Halk Ağızı,Informal words used by people.,İnsanların kullandığı resmi olmayan günlük kelimeler.
+67,Sophisticated,Sofistike / Çok yönlü,Knowing a lot about culture and style.,Kültür ve stil hakkında çok şey bilen.
+68,South,Güney,The direction at the bottom of a map.,Haritanın en alt tarafındaki yön.
+69,Special,Özel,Different from what is normal; important.,Normalden farklı olan; önemli.
+70,Suggest,Önermek,To give an idea for someone to think about.,Birinin düşünmesi için ona bir fikir vermek.
+71,Surrounding,Çevreleyen / Civar,Being everywhere around something.,Bir şeyin her tarafında olan.
+72,Take-Away,Al-götür (Paket servis),Food you buy at a restaurant and eat at home.,Restorandan satın alıp evde yediğin yemek.
+73,Think,Düşünmek,To use your brain to have an idea.,Bir fikre sahip olmak için beynini kullanmak.
+74,Topic,Konu / Başlık,The subject you are talking or writing about.,Hakkında konuştuğun veya yazdığın şey.
+75,Tourist Guide,Turist Rehberi,A person who shows interesting places to visitors.,Ziyaretçilere ilginç yerleri gösteren kişi.
+76,Trail,Patika / İz,A path in the countryside.,Kırsal alandaki doğal yol.
+77,Valley,Vadi,The low land between mountains.,Dağların arasındaki alçak arazi.
+78,Vast,Uçsuz bucaksız / Geniş,"Very, very large.",Çok ama çok büyük.
+79,Very Beautiful,Çok Güzel,Looking extremely nice.,Son derece hoş/güzel görünen.
+80,Vinegar,Sirke,A sour liquid used with food.,Yiyeceklerle birlikte kullanılan ekşi sıvı.
+81,Volcanoes,Volkanlar / Yanardağlar,Mountains that can blow hot fire and rocks.,Sıcak ateş ve taşlar püskürtebilen dağlar.
+82,Waterfalls,Şelaleler,Places where water falls down from a high rock.,Suyun yüksek bir kayadan aşağı düştüğü yerler.
+83,Wave,Dalga,Water moving up and down in the sea.,Denizde aşağı yukarı hareket eden su.
+84,West,Batı,The direction where the sun goes down.,Güneşin battığı yön.
+85,Western,Batılı / Batıya ait,From the west part of the world.,Dünyanın batı kısmından olan.
+86,Wide,Geniş,Large from one side to the other.,Bir taraftan diğer tarafa büyük/açık olan.
+87,Wonderful,Harika / Mükemmel,"Making you feel very happy, great.","Seni çok mutlu hissettiren, harika."
+88,Woods,Ormanlık alan / Koruluk,A small forest with many trees.,Çok sayıda ağacın olduğu küçük orman.
+89,Yelling,Bağırma / Haykırma,Shouting very loudly.,Çok yüksek sesle bağırmak.
+90,Beaches,Plajlar / Kumsallar,Sandy places next to the sea.,Deniz kenarındaki kumlu yerler.
+91,Borders,Sınırlar,Lines between countries.,Ülkeler arasındaki çizgiler.
+92,Bowls,Kaseler,"Deep, round dishes for food.","Yemek için derin, yuvarlak kaplar."
+93,Climates,İklimler,The normal weather in different places.,Farklı yerlerdeki normal hava durumları.
+94,Coasts,Sahiller / Kıyılar,Lands next to the sea.,Deniz kenarındaki kara parçaları.
+95,Continents,Kıtalar,The large land areas on Earth.,Dünyadaki büyük kara parçaları.
+96,Forests,Ormanlar,Large places with many trees.,Çok ağacın olduğu büyük yerler.
+97,Forms,Biçimler / Şekiller,Different shapes of things.,Şeylerin farklı şekilleri.
+98,Gazes,Bakışlar,Long looks at something.,Bir şeye atılan uzun bakışlar.
+99,Guides,Rehberler,People who show you places.,Sana yerleri gösteren kişiler.
+100,Herbs,Bitkiler / Baharat otları,Plants used to give food more flavor.,Yemeğe tat vermek için kullanılan bitkiler.
+101,Hills,Tepeler,Small mountains.,Küçük dağlar.
+102,Ideas,Fikirler,Thoughts or plans.,Düşünceler veya planlar.
+103,Internships,Stajlar,Short jobs to learn how to work.,Nasıl çalışılacağını öğrenmek için kısa işler.
+104,Islands,Adalar,Lands with water all around them.,Etrafları tamamen suyla çevrili karalar.
+105,Lakes,Göller,Large areas of water with land around them.,Etraflarında kara olan büyük su alanları.
+106,Landscapes,Manzaralar / Peyzajlar,The looks of the lands.,Geniş arazilerin görünümleri.
+107,Managers,Yöneticiler / Müdürler,Bosses of shops or offices.,Dükkanların veya ofislerin patronları.
+108,Neighbors,Komşular,People who live near you.,Yakınında yaşayan insanlar.
+109,Opportunities,Fırsatlar,Chances to do something good.,İyi şeyler yapmak için eline geçen şanslar.
+110,Peaks,Zirveler / Doruklar,The top parts of mountains.,Dağların en üst kısımları.
+111,Shapes,Şekiller,The outer forms of things.,Nesnelerin dış formları.
+112,Topics,Konular / Başlıklar,Subjects you talk or write about.,Hakkında konuştuğun veya yazdığın şeyler.
+113,Tourist Guides,Turist Rehberleri,People who show places to visitors.,Ziyaretçilere ilginç yerleri gösteren kişiler.
+114,Trails,Patikalar / İzler,Paths in the countryside.,Kırsal alanlardaki doğal yollar.
+115,Valleys,Vadiler,Low lands between mountains.,Dağların arasındaki alçak araziler.
+116,Waves,Dalgalar,Moving waters in the sea.,Denizdeki hareketli sular.
+117,Anniversary,Yıl dönümü,A special date we remember every year.,Her yıl hatırladığımız özel gün.
+118,Cliff,Uçurum / Kayalık,"A high, steep rock next to the sea.","Deniz kenarındaki yüksek, dik kaya."
+119,Customer,Müşteri,A person who buys things in a shop.,Bir dükkandan bir şeyler satın alan kişi.
+120,Dozen,Düzine,A group of twelve things.,On iki şeyden oluşan grup.
+121,Extreme,Uç nokta / Aşırılık,The highest or lowest level of something.,Bir şeyin en yüksek veya en düşük seviyesi.
+122,Feature,Özellik,An important part of something.,Bir şeyin önemli bir kısmı.
+123,Fjord,Fiyort,"A long, narrow area of sea between high rocks.","Yüksek kayalar arasındaki uzun, dar deniz alanı."
+124,Geyser,Gayzer,A hole in the ground that shoots hot water.,Yerden sıcak su fırlatan delik.
+125,Mountain,Dağ,A very high and big hill.,Çok yüksek ve büyük tepe.
+126,Share,Paylaşmak / Pay,To give a part of something to someone.,Birine bir şeyin bir parçasını vermek.
+127,Volcano,Volkan / Yanardağ,A mountain that can blow hot fire and rocks.,Sıcak ateş ve taş fırlatan dağ.
+128,Waterfall,Şelale,A place where water falls down from high up.,Suyun yüksekten aşağı düştüğü yer.
+129,Wood,Ormanlık alan / Tahta,The material that comes from trees.,Ağaçlardan gelen malzeme (veya küçük orman).

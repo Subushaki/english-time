@@ -1,0 +1,412 @@
+No,English,Türkçe,English Hint (A2 Level),Türkçe İpucu
+1,Sky,Gökyüzü,The blue space above us.,Üstümüzdeki mavi boşluk.
+2,Wood,Ağaçlık,A small area with many trees.,Çok sayıda ağacın olduğu küçük alan.
+3,Hill,Tepe,A small mountain.,Küçük bir dağ.
+4,Farmer,Çiftçi,A person who works on a farm and grows food.,Çiftlikte çalışan ve yiyecek yetiştiren kişi.
+5,Valley,Vadi,The low place between two mountains.,İki dağ arasındaki alçak yer.
+6,Tree,Ağaç,A tall green plant with leaves.,Yaprakları olan uzun yeşil bitki.
+7,Field,Alan / Tarla,A large open land for plants or animals.,Bitkiler veya hayvanlar için büyük açık arazi.
+8,Farm,Çiftlik,A place where farmers work and keep animals.,Çiftçilerin çalıştığı ve hayvan beslediği yer.
+9,Lake,Göl,A large area of water.,Büyük bir su alanı.
+10,Horse,At,A big animal you can ride.,Üzerine binebileceğin büyük bir hayvan.
+11,Boat,Kayık,A small ship to travel on water.,Suda seyahat etmek için küçük gemi.
+12,Grass,Çimen,Short green plants on the ground.,Yerdeki kısa yeşil bitkiler.
+13,Dog,Köpek,A friendly pet animal that barks.,"Havlayan, arkadaş canlısı evcil hayvan."
+14,Path,Patika / Keçi Yolu,A small road for walking.,Yürümek için küçük bir yol.
+15,Grow,Büyü(t)mek / Yetiş(tir)mek,To get bigger over time.,Zamanla daha büyük hale gelmek.
+16,Own,Sahip Olmak,To have something that is yours.,Sana ait olan bir şeye sahip olmak.
+17,Crop,Mahsul,"Plants grown on a farm, like wheat or corn.","Çiftlikte yetiştirilen buğday, mısır gibi bitkiler."
+18,Area,Alan / Bölge,A part of a place.,Bir yerin bir kısmı veya bölümü.
+19,Countryside,Kırsal Bölge,Land outside towns and cities.,Şehirlerin ve kasabaların dışındaki arazi.
+20,Bird,Kuş,An animal with wings that can fly.,Kanatları olan ve uçabilen bir hayvan.
+21,Wonderful,Harika,Very good or beautiful.,Çok iyi veya çok güzel.
+22,Fresh Food,Taze Yiyecek,Food that is new and not in a can.,"Konservede olmayan, yeni yiyecek."
+23,Healthy,Sağlıklı,Good for your body.,Vücudun için iyi ve yararlı olan.
+24,Public Transport,Toplu Taşıma,Buses and trains for everyone to use.,Herkesin kullanması için olan otobüsler ve trenler.
+25,Terrible,Korkunç,Very bad.,Çok kötü.
+26,Ride a Bike,Bisiklete Binmek,To travel on a bicycle.,Bir bisikletin üzerinde gitmek.
+27,Alone,Yalnız,Without other people.,"Başka insanlar olmadan, tek başına."
+28,Lonely,Yalnız Bir Şekilde,Feeling sad because you are alone.,Tek başına olduğun için üzgün hissetmek.
+29,Look After,İlgilenmek,To take care of someone or something.,Birine veya bir şeye iyi bakmak.
+30,Market,Market,A place to buy fresh food and things.,Taze yiyecek ve eşyalar satın alınan yer.
+31,Outdoor,Açık Hava / Dış Mekan,Outside a building.,Bir binanın dışı.
+32,Indoor,Kapalı / İç Mekan,Inside a building.,Bir binanın içi.
+33,Shopping Centre,Alışveriş Merkezi,A big building with many shops.,İçinde çok sayıda mağaza olan büyük bina.
+34,Department Store,Büyük Mağaza,A large shop with different sections.,Farklı bölümleri olan büyük dükkan.
+35,Hypermarket,Hipermarket,A very big supermarket.,Çok büyük bir süpermarket.
+36,Butcher's,Kasap,A shop where you buy meat.,Et satın aldığın dükkan.
+37,Chemist's,Eczane,A shop where you buy medicine.,İlaç satın aldığın dükkan.
+38,Paper Shop / Newsagent,Gazete Bayii,A shop where you buy newspapers and magazines.,Gazete ve dergi satın aldığın dükkan.
+39,Convenient,Uygun,Easy to use or easy to do.,Kullanması veya yapması kolay olan.
+40,Get,Edinmek / Almak,To take or receive something.,Bir şeyi almak veya elde etmek.
+41,Do The Shopping,Alışveriş Yapmak,To go to shops to buy things.,Bir şeyler satın almak için dükkanlara gitmek.
+42,Queue,Sıra / Kuyruk,A line of people waiting for something.,Bir şey için bekleyen insan sırası.
+43,Check Out,Kasa,The place where you pay in a shop.,Bir mağazada aldıklarını ödediğin yer.
+44,Choose,Seçmek,To pick one thing from many.,Birçok şey arasından bir tanesini almak.
+45,Prefer,Tercih Etmek,To like one thing more than another.,Bir şeyi diğerinden daha çok sevmek.
+46,Fill,Doldurmak,To make something full.,Bir şeyi tam dolu hale getirmek.
+47,Full,Dolu,Having no empty space.,Hiç boş yeri olmayan.
+48,Trolley,Alışveriş Arabası,A big basket on wheels for shopping.,Alışveriş yapmak için tekerlekli büyük sepet.
+49,Deliver,İletmek / Ulaştırmak,To take things to a person's house.,Eşyaları bir kişinin evine götürmek.
+50,(on) The Top Floor,Üst Katta,The highest level of a building.,Bir binanın en yüksek katı.
+51,(on) The Second Floor,İkinci Katta,The level above the first floor.,Birinci katın üstündeki kat.
+52,(on) The First Floor,Birinci Katta,The level above the ground floor.,Zemin katın üstündeki kat.
+53,(on) The Ground Floor,Zemin Katta,The level of a building at street level.,Bir binanın sokak seviyesindeki giriş katı.
+54,Garden,Bahçe,The green area outside a house.,Bir evin dışındaki çiçekli yeşil alan.
+55,Steps,Merdivenler / Basamaklar,Things you walk up or down outside.,İnip çıkarken yürüdüğün basamaklar.
+56,(in) The Basement,Bodrumda,The room under a house.,Bir evin altındaki yeraltı odası.
+57,Rubbish,Çöp,Things you do not need and throw away.,İhtiyacın olmayan ve çöpe attığın şeyler.
+58,Front Door,Sokak Kapısı / Ön Kapı,The main door to enter a house.,Bir eve girmek için kullanılan ana kapı.
+59,Stairs,Merdivenler,A set of steps inside a building.,Bina içindeki basamaklar dizisi.
+60,Lift,Asansör,A machine that takes you up and down in a building.,Binada seni katlar arası aşağı yukarı taşıyan makine.
+61,Flat,Daire,A home that is part of a larger building.,Büyük bir binanın içinde yer alan ev.
+62,Balcony,Balkon,An open area outside an upstairs window.,Üst kat penceresinin dışındaki açık alan.
+63,Modern,Modern,New and completely different from old styles.,Yeni olan ve eski stillerden farklı olan.
+64,Old,Eski,Not new.,Yeni olmayan.
+65,View,Görüntü / Manzara,What you can see from a window or high place.,Bir pencereden veya yüksekten görebildiğin şey.
+66,Upstairs,Üst Kat,To or on a higher floor.,Daha yüksek bir kata veya katta.
+67,Downstairs,Alt Kat,To or on a lower floor.,Daha alt bir kata veya katta.
+68,Outside,Dışarısı,Not inside a building.,Binanın içi olmayan yer.
+69,Inside,İçerisi,In a building or room.,Bir binanın veya odanın içi.
+70,Garage,Garaj,A building to keep a car safe.,Arabayı güvende tutmak için yapılan kapalı yer.
+71,Parking,Park Yeri,A place to leave your car.,Arabanı bırakacağın yer.
+72,Living Room,Oturma Odası,A room where people sit and watch TV.,İnsanların oturup TV izlediği ana oda.
+73,Dining Room,Yemek Odası,A room where you eat meals with your family.,Ailenle birlikte yemek yediğin oda.
+74,Study Room,Çalışma Odası,A quiet room for reading and working.,Okumak ve çalışmak için sessiz oda.
+75,Kitchen,Mutfak,A room where you cook food.,Yemek pişirdiğin oda.
+76,Home,Ev,The place where you live and feel safe.,Yaşadığın ve güvende hissettiğin yer.
+77,House,Bina,A building for a family to live in.,Bir ailenin yaşaması için yapılmış bina.
+78,Shelf,Raf,A flat piece of wood on a wall to put books.,Kitap koymak için duvardaki düz tahta.
+79,Tap,Musluk,A thing you turn to get water.,Su almak için açıp kapattığın şey.
+80,Cup,Fincan,A small container with a handle to drink tea.,Çay içmek için kulplu küçük kap.
+81,Microwave,Mikrodalga,A machine that cooks food very fast.,Yiyecekleri çok hızlı ısıtan küçük makine.
+82,Frying Pan,Kızartma Tavası,A flat pan used for cooking food in oil.,Yağda yemek pişirmek için kullanılan düz tava.
+83,Freezer,Dondurucu,A very cold machine to make ice.,Buz yapmak için kullanılan çok soğuk makine.
+84,Sink,Lavabo,A place in the kitchen to wash dishes.,Mutfakta bulaşık yıkamak için olan yer.
+85,Saucer,Çay Tabağı,A small plate under a cup.,Fincanın altına konulan küçük tabak.
+86,Hob,Set Üstü Ocak,The top part of a cooker where you cook.,Ocağın üzerinde yemek pişirilen üst kısmı.
+87,Saucepan,Sos Tavası / Tencere,A deep pan for boiling food.,Yemek kaynatmak için kullanılan derin kap.
+88,Bin,Çöp Kovası,A container for things you throw away.,Çöpe atacağın şeyler için kullandığın kutu.
+89,Full,Dolu,Having no space for more things.,İçine daha fazla şey alacak yeri olmayan.
+90,Empty,Boş,Having nothing inside.,İçinde hiçbir şey olmayan.
+91,Oven,Fırın,A machine used for baking food like pizza.,Pizza veya kek pişirmek için kullanılan makine.
+92,Fridge,Buzdolabı,A cold machine to keep food fresh.,Yiyecekleri taze tutmak için kullanılan soğuk makine.
+93,Washing Machine,Çamaşır Makinası,A machine that cleans dirty clothes.,Kirli kıyafetleri temizleyen makine.
+94,Cupboard,Dolap,A place with doors to keep things inside.,İçinde eşyaları tutmak için kapakları olan yer.
+95,Dishwasher,Bulaşık Makinası,A machine that cleans cups and plates.,Fincan ve tabakları yıkayan makine.
+96,Cooker,Ocak,A machine used to cook hot food.,Sıcak yemek pişirmek için kullanılan ana makine.
+97,Do The Shopping,Alışveriş Yapmak,To buy food and things from shops.,Mağazalardan yiyecek ve eşya satın almak.
+98,Clean,Temizlemek,To wash something so it is not dirty.,Kirli olmaması için bir şeyi yıkamak/silmek.
+99,Take,Almak,To move something from one place to another.,Bir şeyi bir yerden başka bir yere götürmek.
+100,Make,Yapmak,To create or build something new.,Yeni bir şey yaratmak veya inşa etmek.
+No,English,Türkçe,English Hint (A2 Level),Türkçe İpucu
+101,Do the Ironing,Ütü Yapmak,To make clothes flat and smooth.,Kıyafetleri düz ve pürüzsüz yapmak.
+102,Do the Washing Up,Bulaşıkları Yıkamak,To clean plates and cups after eating.,Yemekten sonra tabak ve fincanları yıkamak.
+103,Housework,Ev İşi,The work you do to keep a house clean.,Evi temiz tutmak için yapılan işler.
+104,Homework,Ev Ödevi,School work you do at home.,Evde yaptığın okul işi.
+105,Bedroom,Yatak Odası,A room where you sleep.,Uyuduğun oda.
+106,Single Bed,Tekli Yatak,A bed for one person.,Bir kişi için olan yatak.
+107,Bedside Table,Komodin,A small table next to a bed.,Yatağın yanındaki küçük masa.
+108,Desk,Sıra / Masa,A table for studying or working.,Ders çalışmak veya çalışmak için masa.
+109,Chest of Drawers,Çekmeceler,A piece of furniture to keep clothes.,Kıyafetleri koymak için çekmeceli mobilya.
+110,Wardrobe,Gardırop,A tall cupboard for hanging clothes.,Kıyafetleri asmak için uzun dolap.
+111,Bath,Banyo,A large tub to wash your body in.,Vücudunu yıkamak için büyük küvet.
+112,Shower,Duş,Washing your body under falling water.,Akan suyun altında vücudunu yıkamak.
+113,Wash Basin,Lavabo,A place in the bathroom to wash hands.,Banyoda el yıkamak için olan yer.
+114,Mirror,Ayna,A glass where you can see yourself.,Kendini görebildiğin cam.
+115,Blanket,Battaniye,A warm cover for a bed.,Yatak için sıcak tutan örtü.
+116,Sheets,Çarşaflar,Thin cotton covers for a bed.,Yatak için ince pamuklu örtüler.
+117,Towels,Havlular,Soft pieces of cloth to dry your body.,Vücudunu kurulamak için yumuşak kumaşlar.
+118,Soap,Sabun,Something you use with water to wash.,Yıkanmak için suyla kullandığın şey.
+119,Have a Wash,Yıkanmak,To clean your body.,Vücudunu temizlemek.
+120,Clean Your Teeth,Dişlerini Temizlemek,To brush your teeth.,Dişlerini fırçalamak.
+121,Wash Your Hair,Saçlarını Yıkamak,To clean the hair on your head.,Başındaki saçları temizlemek.
+122,Have a Shave,Tıraş Olmak,To cut hair from the face.,Yüzdeki kılları kesmek.
+123,Put On Make Up,Makyaj Yapmak,To use color on your face to look nice.,Güzel görünmek için yüze renk sürmek.
+124,Take Off Make Up,Makyajı Çıkarmak / Silmek,To clean color from your face.,Yüzündeki boyayı temizlemek.
+125,Tissue,Mendil,Soft paper to clean your nose or face.,Burnunu veya yüzünü temizlemek için yumuşak kağıt.
+126,Put On Perfume,Parfüm Sıkmak,To put sweet-smelling liquid on yourself.,Üzerine güzel kokulu sıvı sıkmak.
+127,Wear Perfume,Parfüm Sıkmak,To have a nice smell on your body.,Vücudunda güzel bir koku olması.
+128,A Razor,Jilet,A sharp tool for shaving.,Tıraş olmak için keskin alet.
+129,Toothpaste,Diş Macunu,The paste you use to clean your teeth.,Dişlerini temizlemek için kullandığın macun.
+130,Toothbrush,Diş Fırçası,A small brush for your teeth.,Dişlerin için küçük fırça.
+131,Window,Pencere,A glass hole in a wall to look outside.,Dışarı bakmak için duvardaki camlı boşluk.
+132,Light,Işık,Something that helps you see in the dark.,Karanlıkta görmene yardım eden şey.
+133,Ceiling,Tavan,The top part of a room.,Bir odanın üst kısmı.
+134,Wall,Duvar,The side of a room or building.,Bir odanın veya binanın yanı.
+135,Curtains,Perdeler,Pieces of cloth to cover a window.,Bir pencereyi kapatmak için kumaş parçaları.
+136,Cushion,Minder / Yastık,A soft bag to sit on or put on a sofa.,Üzerine oturmak veya koltuğa koymak için yumuşak yastık.
+137,Lamp,Lamba,An object that makes light.,Işık veren nesne.
+138,Armchair,Tekli Koltuk,A comfortable chair for one person.,Bir kişi için rahat koltuk.
+139,Coffee Table,Orta Sehpa,A low table for the living room.,Oturma odası için alçak masa.
+140,Floor,Yer / Kat,The part of a room where you walk.,Odanın yürüdüğün kısmı.
+141,Sofa,Çekyat,A long comfortable seat for 2 or 3 people.,2 veya 3 kişi için uzun rahat koltuk.
+142,Rug,Kilim,A small carpet for the floor.,Yer için küçük halı.
+143,Carpet,Halı,A thick cover for the floor.,Yer için kalın örtü.
+144,Chemistry,Kimya,The science of what things are made of.,Şeylerin nelerden yapıldığını inceleyen bilim.
+145,Physics,Fizik,The science of energy and moving things.,Enerji ve hareket eden şeylerin bilimi.
+146,Biology,Biyoloji,The science of living things.,Canlıların bilimi.
+147,Maths,Matematik,The study of numbers.,Sayıların bilimi.
+148,Geography,Coğrafya,The study of the world and places.,Dünyanın ve yerlerin bilimi.
+149,History,Tarih,The study of things in the past.,Geçmişteki şeylerin incelenmesi.
+150,Literature,Edebiyat,The study of written books and poems.,Yazılmış kitapların ve şiirlerin incelenmesi.
+151,Art,Resim / Sanat,Making beautiful things like drawings.,Çizim gibi güzel şeyler yapma.
+152,Subjects,Konular / Dersler,The things you learn at school.,Okulda öğrendiğin şeyler.
+153,Good at Something,Bir Şeyde İyi Olmak,To do something very well.,Bir şeyi çok iyi yapmak.
+154,Bad at Something,Bir Şeyde Kötü Olmak,To not do something well.,Bir şeyi iyi yapamamak.
+155,Terrible At,Bir Şeyde Çok Kötü Olmak,"To do something very, very badly.",Bir şeyi çok ama çok kötü yapmak.
+156,Kindergarten,Anaokulu / Kreş,A school for very young children.,Çok küçük çocuklar için okul.
+157,Primary School,İlkokul,A school for young children.,Küçük çocuklar için okul.
+158,Secondary School,Ortaokul,A school for older children.,Daha büyük çocuklar için okul.
+159,State School,Devlet Okulu,A free school paid for by the government.,Hükümetin ödediği ücretsiz okul.
+160,Private School,Özel Okul,A school where parents pay money.,Ailelerin para ödediği okul.
+161,Start at School,Okula Başlamak,To begin going to school.,Okula gitmeye başlamak.
+162,Leave School,Okuldan Ayrılmak,To finish your time at school.,Okuldaki zamanını bitirmek.
+163,Get a Job,İşe Girmek / İş Bulmak,To find work to earn money.,Para kazanmak için iş bulmak.
+164,Take Exam,Sınav Olmak,To answer questions to show what you know.,Ne bildiğini göstermek için soruları cevaplamak.
+165,Pass an Exam,Bir Sınavı Geçmek,To get a good mark in a test.,Bir testte iyi bir not almak.
+166,Fail an Exam,Bir Sınavdan Kalmak,To get a bad mark in a test.,Bir testte kötü bir not almak.
+167,Result,Sonuç,The mark you get at the end of a test.,Bir testin sonunda aldığın not.
+168,Grade,Not / Sınav Sonucu,A letter or number showing how well you did.,Ne kadar iyi yaptığını gösteren harf veya sayı.
+169,Get a Grade,Sınav Sonucu Almak,To receive your mark for a test.,Bir test için notunu almak.
+170,Do Well,İyi Yapmak,To be successful at something.,Bir şeyde başarılı olmak.
+171,Do Badly,Kötü Bir Şekilde Yapmak,To not be successful at something.,Bir şeyde başarılı olamamak.
+172,Do a Degree,Derece Yapmak,To study at a university.,Üniversitede okumak.
+173,Term,Dönem,A part of the school year.,Okul yılının bir bölümü.
+174,Library,Kütüphane,A quiet place with many books to read.,Okumak için çok sayıda kitabın olduğu sessiz yer.
+175,Undergraduate,Lisans Öğrencisi,A university student studying for their first degree.,İlk derecesi için okuyan üniversite öğrencisi.
+176,Write an Essay,Bir Deneme Yazısı Yazmak,To write a short text on a subject.,Bir konu hakkında kısa bir metin yazmak.
+177,Again,Yeniden,One more time.,Bir kez daha.
+178,Psychology,Psikoloji,The study of the mind.,Zihin bilimi.
+179,A Psychologist,Psikolog,A doctor for the mind.,Zihin doktoru.
+180,Economics,Ekonomi,The study of money and business.,Para ve iş dünyasının bilimi.
+181,Economist,Ekonomist,An expert in money and business.,Para ve iş dünyasında uzman.
+182,Law,Hukuk,The rules of a country.,Bir ülkenin kuralları.
+183,Lawyer,Avukat,A person who helps people with the law.,İnsanlara hukuk konusunda yardım eden kişi.
+184,Politics,Siyaset,The work of running a country.,Bir ülkeyi yönetme işi.
+185,A Politician,Siyasetçi,A person who works in the government.,Hükümette çalışan kişi.
+186,Engineering,Mühendislik,The work of designing roads or machines.,Yollar veya makineler tasarlama işi.
+187,An Engineer,Mühendis,A person who designs machines or buildings.,Makineler veya binalar tasarlayan kişi.
+188,Architecture,Mimarlık,The art of designing buildings.,Binalar tasarlama sanatı.
+189,An Architect,Mimar,A person who draws plans for houses.,Evler için planlar çizen kişi.
+190,A Builder,İnşaatçı,A person who makes buildings.,Binalar yapan kişi.
+191,A Teacher,Öğretmen,A person who helps students learn.,Öğrencilerin öğrenmesine yardım eden kişi.
+192,A Shop Assistant,Satıcı,A person who works in a shop.,Bir dükkanda çalışan kişi.
+193,A Nurse,Hemşire,A person who helps doctors in a hospital.,Hastanede doktorlara yardım eden kişi.
+194,A Secretary,Sekreter,A person who works in an office and answers phones.,Ofiste çalışan ve telefonlara bakan kişi.
+195,A Hairdresser,Kuaför,A person who cuts and styles hair.,Saçları kesen ve şekil veren kişi.
+196,A Chef,Şef,A person who cooks food in a restaurant.,Restoranda yemek pişiren kişi.
+197,A Dentist,Dişçi,A doctor for your teeth.,Dişleriniz için doktor.
+198,A Soldier,Asker,A person in the army.,Ordudaki kişi.
+199,A Cleaner,Temizlikçi,A person whose job is to clean places.,İşi yerleri temizlemek olan kişi.
+200,A Vet,Veteriner,A doctor for animals.,Hayvanlar için doktor.
+201,A Pilot,Pilot,A person who flies planes.,Uçak uçuran kişi.
+202,A Lorry Driver,Kamyonet Sürücüsü,A person who drives big trucks.,Büyük kamyonları süren kişi.
+203,Self-Employed,Kendi İşinin Sahibi,"Working for yourself, not for a boss.","Bir patron için değil, kendi için çalışan."
+204,Unemployed,İşsiz,Not having a job.,Bir işi olmayan.
+205,Retired,Emekli,Stopped working because you are older.,Yaşlı olduğun için çalışmayı bırakmış.
+206,Housewife,Ev Hanımı,A woman who works at home looking after her family.,Evde çalışıp ailesine bakan kadın.
+207,Boss,Patron,The person you work for.,Kendisi için çalıştığın kişi.
+208,An Office,Ofis,A room where people work at desks.,İnsanların masalarda çalıştığı oda.
+209,A Factory,Fabrika,A big building where things are made.,Eşyaların yapıldığı büyük bina.
+210,Company,Şirket,A business that sells things or services.,Bir şeyler veya hizmetler satan işletme.
+211,Full-Time,Tam Zamanlı,Working all the days of a week.,Haftanın tüm günleri çalışmak.
+212,Part-Time,Yarı Zamanlı,Working only some days or hours.,Sadece bazı günler veya saatler çalışmak.
+213,Long Hours,Uzun Saatler,Working for a very long time every day.,Her gün çok uzun süre çalışmak.
+214,Earn,Kazanmak (Para),To get money for your work.,Yaptığın iş için para almak.
+215,Salary,Maaş,Money you get every month for your job.,İşin için her ay aldığın para.
+216,Wages,Günlük/Haftalık Ücret,Money you get every day or week for work.,İş için her gün veya her hafta aldığın para.
+217,Low,Düşük,Not high.,Yüksek değil.
+218,High,Yüksek,Not low.,Düşük değil.
+219,Design Building,Bina Tasarlamak,To draw plans for a new house.,Yeni bir ev için planlar çizmek.
+220,Discuss Something,Bir Şeyi Tartışmak,To talk about a subject with other people.,Başka insanlarla bir konu hakkında konuşmak.
+221,To Go To Meeting,Bir Toplantıya Gitmek,To go to a room to talk with people from work.,İş yerindeki insanlarla konuşmak için odaya gitmek.
+222,Write a Report,Bir Rapor Yazmak,To write information on paper for work.,İş için kağıda bilgi yazmak.
+223,Organize Meeting,Toplantı Organize Etmek,To plan a time for people to talk at work.,İş yerinde insanların konuşması için zaman planlamak.
+224,Colleague,İş Arkadaşı / Meslektaş,A person you work with.,Birlikte çalıştığın kişi.
+225,Webcam,Video Kamera / İnternet Kamerası,A small camera on a computer.,Bilgisayardaki küçük kamera.
+226,Printer,Yazıcı,A machine that prints words on paper.,Kelimeleri kağıda yazdıran makine.
+227,Laptop,Dizüstü Bilgisayar,A computer you can carry with you.,Yanında taşıyabileceğin bilgisayar.
+228,Hard Drive,Sabit Disk,The part of a computer that saves files.,Bilgisayarın dosyaları kaydeden kısmı.
+229,Monitor,Monitör,The screen of a computer.,Bilgisayarın ekranı.
+230,Disc,Disk,A round flat thing used to save music or files.,Müzik veya dosya kaydetmek için yuvarlak düz şey.
+231,Mouse,Fare,A small tool you move to use a computer.,Bilgisayarı kullanmak için hareket ettirdiğin küçük alet.
+232,Memory Stick,Taşınabilir Bellek,A very small thing to save computer files.,Bilgisayar dosyalarını kaydetmek için çok küçük şey.
+233,Screen,Ekran,The part of a TV or computer where you see pictures.,TV veya bilgisayarın resimleri gördüğün kısmı.
+234,Cut,Kesmek,To take a piece of text away.,Bir metin parçasını almak/çıkarmak.
+235,Paste,Yapıştırmak,To put a piece of text in a new place.,Bir metin parçasını yeni bir yere koymak.
+236,Save,Kaydetmek,To keep a document on a computer.,Bir belgeyi bilgisayarda tutmak/saklamak.
+237,Print,Yazdırmak,To put a document from a computer onto paper.,Bilgisayardaki bir belgeyi kağıda dökmek.
+238,Copy,Kopyasını Almak,To make the same text again.,Aynı metni tekrar oluşturmak.
+239,Check Your Email,E-Posta Kontrol Etmek,To look on your computer for new messages.,Yeni mesajlar için bilgisayarına bakmak.
+240,Get an Email,Bir E-Posta Almak,To receive a message on your computer.,Bilgisayarından bir mesaj almak.
+241,Reply To An Email,Bir E-Postaya Cevap Vermek,To send a message back.,Geriye mesaj göndermek.
+242,On The Internet,İnternette,Connected to the web.,Web'e bağlı olmak.
+243,Search,Araştırmak,To look for something online.,İnternette bir şey aramak.
+244,Wonderful / Fantastic,Harika / Büyüleyici,Really really good.,Gerçekten çok çok iyi.
+245,Favourite,Favori,The one you like the most.,En çok sevdiğin şey.
+246,Enjoy Doing Something,Bir Şeyi Yapmaktan Keyif Almak,To be happy doing an activity.,Bir aktiviteyi yaparken mutlu olmak.
+247,Boring,Sıkıcı,Not interesting.,İlgi çekici değil.
+248,Be Keen On Something,Bir Şeye Çok İstekli Olmak,To really like doing something.,Bir şeyi yapmayı gerçekten çok sevmek.
+249,To Be Interested In,Bir Şeye İlgili Olmak,Wanting to know more about a subject.,Bir konu hakkında daha çok şey bilmek istemek.
+250,Prefer,Tercih Etmek,To like something better.,Bir şeyi daha iyi/çok sevmek.
+251,Camping,Kamp Yapma / Kamp,Sleeping outside in a tent.,Dışarıda bir çadırda uyumak.
+252,Travelling,Seyahat Etme / Seyahat,Going to different places.,Farklı yerlere gitmek.
+253,Collect Things,Bir Şeyler Toplamak,To keep many things of the same kind.,Aynı türden birçok şeyi saklamak/toplamak.
+254,Skiing,Kayak Yapma / Kayak,Moving over snow on long flat boards.,Uzun düz tahtalar üzerinde karda hareket etmek.
+255,Fishing,Balık Tutma,Trying to catch fish.,Balık yakalamaya çalışmak.
+256,Spend Time,Zaman Geçirmek,To use your time doing something.,Zamanını bir şey yaparak kullanmak.
+257,Gym,Spor Salonu,A place to exercise and get strong.,Egzersiz yapmak ve güçlenmek için bir yer.
+258,Drawing,Çizim Yapma / Çizim,Making pictures with a pencil.,Bir kalemle resimler yapmak.
+259,Painting,Resim Yapma / Tablo,Making pictures with colors.,Renklerle resimler yapmak.
+260,Gardening,Bahçecilik,Growing plants and flowers outside.,Dışarıda bitki ve çiçek yetiştirmek.
+261,Repair Cars,Arabaları Tamir Etmek,To fix broken cars.,Bozuk arabaları düzeltmek.
+262,Listen to Something,Bir Şeyi Dinlemek,To hear music or words.,Müzik veya kelimeleri duymaya çalışmak.
+263,Shooting,Atış Yapma / Atış,Firing a gun for sport.,Spor için silah ateşlemek.
+264,Singing,Şarkı Söyleme,Making musical sounds with your voice.,Sesinle müzikal sesler çıkarmak.
+265,Band,Müzik Grubu,A group of people playing music together.,Birlikte müzik çalan bir grup insan.
+266,Well-Known,İyi Bilinen,"Famous, known by many people.","Ünlü, birçok insan tarafından bilinen."
+267,Lead Singer,Solist,The main person who sings in a band.,Müzik grubunda şarkı söyleyen ana kişi.
+268,Concert,Konser,A show where people play live music.,İnsanların canlı müzik çaldığı gösteri.
+269,Conductor,Orkestra Şefi,The person who leads an orchestra.,Bir orkestrayı yöneten kişi.
+270,Violinist,Kemancı,A person who plays the violin.,Keman çalan kişi.
+271,Violin,Keman,A wooden instrument you play under your chin.,Çeneni altında çaldığın ahşap enstrüman.
+272,Composer,Bestekar,A person who writes music.,Müzik yazan kişi.
+273,Perform,İcra Etmek,To sing or act in front of people.,İnsanların önünde şarkı söylemek veya oynamak.
+274,Thriller,Gerilim,An exciting and scary movie or book.,Heyecan verici ve korkutucu film veya kitap.
+275,Exciting,Heyecan Verici,Making you feel very happy and active.,Seni çok mutlu ve aktif hissettiren.
+276,Comedy,Komedi,A funny movie that makes you laugh.,Seni güldüren eğlenceli film.
+277,Funny,Eğlenceli,Making you smile and laugh.,Seni gülümseten ve güldüren.
+278,Violent,Şiddetli / Şiddet İçerikli,Having fighting and hurting people.,Dövüşme ve insanları incitme içeren.
+279,Love Story,Aşk Hikayesi,A movie about two people in love.,Aşık iki insan hakkında bir film.
+280,Cinema,Sinema,A place where you watch movies on a big screen.,Büyük ekranda film izlediğin yer.
+281,Movie,Film,A moving picture you watch on TV or at the cinema.,TV'de veya sinemada izlediğin hareketli resim.
+282,Review,İnceleme,Writing what you think about a book or movie.,Bir kitap veya film hakkında ne düşündüğünü yazmak.
+283,Star,Yıldız,A very famous actor or singer.,Çok ünlü bir aktör veya şarkıcı.
+284,Actor,Aktör,A person who plays a character in a movie.,Bir filmde bir karakteri oynayan kişi.
+285,See a Film At the Cinema,Sinemada Bir Film İzlemek,To go out and watch a movie.,Dışarı çıkıp bir film izlemek.
+286,Media,Medya,"TV, radio, and newspapers.","TV, radyo ve gazeteler."
+287,Magazine,Dergi,A thin book with pictures and stories you buy every week.,Her hafta aldığın resimli ve hikayeli ince kitap.
+288,Report,Rapor,A news story on TV or in a paper.,TV'de veya gazetede bir haber.
+289,Event,Olay,Something important that happens.,Gerçekleşen önemli bir şey.
+290,Die,Ölmek,To stop living.,Yaşamayı bırakmak.
+291,War,Savaş,Fighting between countries.,Ülkeler arasındaki savaş/çatışma.
+292,Peace,Barış / Huzur,No war; quiet and calm.,Savaş olmaması; sessiz ve sakin.
+293,Disaster,Felaket,A very bad event like a big fire.,Büyük bir yangın gibi çok kötü bir olay.
+294,Celebrity,Ünlü (Kişi),A famous person.,Ünlü bir insan.
+295,Advert / Advertisement,İlan / Reklam,A picture or video selling something.,Bir şey satan bir resim veya video.
+296,Newspaper / Paper,Gazete,Large paper with daily news.,Günlük haberleri olan büyük kağıt.
+297,Find Out,Bulmak,To learn information.,Bilgi öğrenmek.
+298,Happen,Olmak / Meydana Gelmek,To take place.,Gerçekleşmek.
+299,Article,Makale,A piece of writing in a newspaper.,Gazetedeki bir yazı parçası.
+300,On TV,Televizyonda,Showing on television.,Televizyonda gösterilen.
+301,On the Radio,Radyoda,Playing on the radio.,Radyoda çalan.
+302,Nothing Much,Önemli Bir Şey Değil,Not anything big or special.,Büyük veya özel bir şey değil.
+303,Weather Forecast,Hava Durumu / Tahmini,News about if it will rain or be sunny.,Yağmur yağıp güneşli olacağı hakkındaki haber.
+304,Believe,İnanmak,To think something is true.,Bir şeyin doğru olduğunu düşünmek.
+305,To Go Abroad,Yurtdışına Gitmek,To go to another country.,Başka bir ülkeye gitmek.
+306,To Book a Flight,Bir Uçuş Rezervasyonu Yapmak,To buy a ticket for a plane.,Bir uçak için bilet almak.
+307,Find Your Passport,Pasaportunu Bulmak,To look for your travel document.,Seyahat belgeni aramak/bulmak.
+308,To Get a Visa,Vize Almak,To get permission to enter a country.,Bir ülkeye girmek için izin almak.
+309,To Get Travel Insurance,Seyahat Sigortası Almak,To pay for help if you get sick on holiday.,Tatilde hastalanırsan yardım almak için para ödemek.
+310,To Get Foreign Currency,Yabancı Ülke Parası Almak,To buy the money used in another country.,Başka bir ülkede kullanılan parayı almak.
+311,To Pack Your Suitcase,Valizini Toplamak,To put clothes in your bag for a trip.,Bir gezi için kıyafetleri çantana koymak.
+312,To Hire a Car,Araba Kiralamak,To pay to use a car for a few days.,Bir arabayı birkaç gün kullanmak için para ödemek.
+313,To Arrange Something,Bir Şey Ayarlamak,To plan and prepare for something.,Bir şey için plan yapmak ve hazırlanmak.
+314,On Holiday,Tatilde,Away from work or school to rest.,Dinlenmek için işten veya okuldan uzakta olmak.
+315,Currency,Döviz,The money a country uses.,Bir ülkenin kullandığı para.
+316,To Stay in a Hotel,Bir Otelde Kalmak,To sleep in a hotel during a trip.,Bir gezi sırasında otelde uyumak.
+317,Facilities,Özellikler / Tesisler,"Things a hotel has, like a pool or gym.",Havuz veya spor salonu gibi otelin sahip olduğu şeyler.
+318,Air Conditioning,Klima,A machine that makes the air cold.,Havayı soğuk yapan makine.
+319,Central Heating,Merkezi Isıtma,A system that makes a building warm.,Bir binayı sıcak yapan sistem.
+320,Staff,Personel / Kadro,The people who work in a place.,Bir yerde çalışan insanlar.
+321,Helpful,Yardımcı / Yardımsever,Happy to help you.,Sana yardım etmekten mutlu olan.
+322,Tourist,Turist,A person visiting a place on holiday.,Tatilde bir yeri ziyaret eden kişi.
+323,Delicious,Lezzetli,Tasting very good.,Tadı çok güzel olan.
+324,Recommend,Önermek,To say something is good to try.,Bir şeyi denemenin iyi olduğunu söylemek.
+325,To Book A Room,Bir Oda Rezervasyonu Yapmak,To save a room in a hotel for yourself.,Kendin için bir otelde oda ayırtmak.
+326,Included,İçeren,Part of the price.,Fiyata dahil olan kısım.
+327,Never Mind,Dert Etme / Boşver,It is not a problem.,Bu bir problem değil.
+328,Details,Detaylar,The small pieces of information.,Küçük bilgi parçaları.
+329,Double Room,Çift Kişilik Oda,A room with one big bed for two people.,İki kişi için büyük bir yatağı olan oda.
+330,Single Room,Tek Kişilik Oda,A room for one person to sleep in.,Bir kişinin uyuması için olan oda.
+331,Twin Room,Çift Yataklı Oda,A room with two single beds.,İki tekli yatağı olan oda.
+332,That's a Shame,Bu Bir Utanç,That is sad or unlucky.,Bu üzücü veya şanssız bir durum.
+333,What a Shame,Ne Utanç Verici,Used when something is disappointing.,Bir şey hayal kırıklığı yarattığında söylenir.
+334,Passengers,Yolcular,"People travelling on a bus, train, or plane.","Otobüs, tren veya uçakta seyahat eden insanlar."
+335,Airport,Havaalanı,The place where planes fly from.,Uçakların kalktığı yer.
+336,Luggage / Bag,Bagaj / Valiz,Bags you carry when you travel.,Seyahat ederken taşıdığın çantalar.
+337,Ticket,Bilet,A piece of paper that lets you travel.,Seyahat etmeni sağlayan kağıt parçası.
+338,Hand Luggage,El Bagajı,A small bag you take on the plane with you.,"Yanına, uçağa aldığın küçük çanta."
+339,Window Seat,Pencere Koltuğu,A seat next to the window.,Pencerenin yanındaki koltuk.
+340,Aisle,Koridor,The walking space between seats.,Koltuklar arasındaki yürüme alanı.
+341,Have a Good Flight,İyi Uçuşlar,I hope your plane trip is nice.,Umarım uçak gezin güzel geçer.
+342,Departed,Ayrılmış / Kalkmış,Already left.,Çoktan ayrılmış.
+343,Departure,Havalanma / Kalkış,The time the plane leaves.,Uçağın ayrıldığı zaman.
+344,Gate,Kapı,The door you go through to get on the plane.,Uçağa binmek için geçtiğin kapı.
+345,Delay,Gecikme,Being late.,Geç kalmak / Gecikmek.
+346,Fasten Seat Belt,Emniyet Kemeri Takmak,To click your belt closed in a plane or car.,Uçakta veya arabada kemerini kapatmak.
+347,Plane Takes Off,Uçak Kalkar,The plane goes up into the air.,Uçak havaya yükselir.
+348,Plane Lands,Uçak İner,The plane comes down to the ground.,Uçak yere iner.
+349,Baggage Reclaim,Bagaj Teslim,Where you pick up your bags after a flight.,Uçuştan sonra çantalarını aldığın yer.
+350,To Go Through Customs,Gümrükten Geçmek,To have your bags checked at an airport.,Havaalanında çantalarını kontrol ettirmek.
+351,Resort,Tatil Yeri,A place with hotels where people go for holidays.,İnsanların tatil için gittiği otelleri olan yer.
+352,Fly,Uçuş Yapmak,To travel by plane.,Uçakla seyahat etmek.
+353,Rent an Apartment,Apartman Dairesi Kiralamak,To pay to live in a flat for a short time.,Kısa bir süre bir dairede yaşamak için para ödemek.
+354,Sunbathe,Güneşlenmek,To sit in the sun to get brown.,Esmerleşmek için güneşte oturmak.
+355,Relax,Rahatlamak,To rest and be calm.,Dinlenmek ve sakin olmak.
+356,An Hour or So,Bir Saate Kadar,Around 60 minutes.,Yaklaşık 60 dakika.
+357,To Go For a Walk,Yürüyüşe Çıkmak,To walk outside for fun.,Eğlence için dışarıda yürümek.
+358,Perfect,Mükemmel,"Very good, with no problems.","Çok iyi, hiçbir sorunu yok."
+359,Map,Harita,A paper showing roads and towns.,Yolları ve kasabaları gösteren kağıt.
+360,Guide,Rehber,A person who shows you places.,Sana yerleri gösteren kişi.
+361,Guide Book,Rehber Kitap,A book with information for tourists.,Turistler için bilgi içeren kitap.
+362,To Go Sightseeing,Geziye Çıkmak,To visit famous places in a city.,Bir şehirdeki ünlü yerleri ziyaret etmek.
+363,Art Gallery,Sanat Galerisi,A building to see beautiful paintings.,Güzel tabloları görmek için bir bina.
+364,To Visit Museum,Müze Ziyaret Etmek,To go see old and important things.,Eski ve önemli şeyleri görmeye gitmek.
+365,To Look Around,Bakınmak / Etrafı Seyretmek,To walk around and see what is there.,Etrafta yürümek ve ne olduğuna bakmak.
+366,To Get Lost,Kaybolmak,Not knowing where you are.,Nerede olduğunu bilmemek.
+367,To Take Photos,Fotoğraf Çekmek,To use a camera to make pictures.,Resim yapmak için bir kamera kullanmak.
+368,Cash Machine,Para Çekme Makinesi,A machine in the street that gives money.,Sokakta para veren makine (ATM).
+369,Change Dollars into Euro,Doları Avroya Çevirmek,To swap one money for another.,Bir parayı diğeriyle takas etmek.
+370,Exchange Rate,Döviz Kuru,How much one currency is worth in another.,Bir para biriminin diğerinde ne kadar ettiği.
+371,Commission,Komisyon,Extra money you pay for a service.,Bir hizmet için ödediğin ekstra para.
+372,To Charge Someone,Birini Suçlamak,To say someone did a bad thing.,Birinin kötü bir şey yaptığını söylemek.
+373,Envelope,Zarf,The paper cover for a letter.,Bir mektup için kağıt kılıf.
+374,Put a Stamp,Posta Pulu Koymak,To put a small sticker on a letter to send it.,Göndermek için mektuba küçük bir etiket yapıştırmak.
+375,Postman,Postacı (Erkek),A man who brings letters to your house.,Evinize mektupları getiren adam.
+376,Postwoman,Postacı (Kadın),A woman who brings letters to your house.,Evinize mektupları getiren kadın.
+377,A Parcel,Koli / Parsel,A box you send in the mail.,Postada gönderdiğin kutu.
+378,Have a Nice Day,İyi Günler,A nice way to say goodbye.,Hoşçakal demenin güzel bir yolu.
+379,Have a Good Day,İyi Günler,A friendly goodbye.,Arkadaşça bir veda.
+380,Well Done,Aferin,Good job.,İyi iş / Tebrikler.
+381,Congratulations,Tebrikler,What you say when someone does something great.,Biri harika bir şey yaptığında söylediğin şey.
+382,Good Luck,İyi Şanslar,Wishing good things for someone.,Biri için iyi şeyler dilemek.
+383,Cheers,Şerefe,Said before drinking with friends.,Arkadaşlarla içki içmeden önce söylenir.
+384,To Go Out For,Dışarı Çıkmak,To leave the house to do something fun.,Eğlenceli bir şey yapmak için evden çıkmak.
+385,Come Around For,Dışarıda Buluşmak,To visit someone at their house or outside.,Birini evinde veya dışarıda ziyaret etmek.
+386,Invite,Davet Etmek,To ask someone to come to your party.,Birinden partine gelmesini istemek.
+387,Party,Parti,"A fun meeting with friends, music, and food.","Arkadaşlarla, müzik ve yemek olan eğlenceli buluşma."
+388,Great,Harika,Very good.,Çok iyi.
+389,I'd Love To,Çok İsterim,"Saying ""yes"" to an invitation happily.","Bir davete mutlu bir şekilde ""evet"" demek."
+390,That Sounds Lovely,Kulağa Hoş Geliyor,That seems like a very nice idea.,Bu çok güzel bir fikir gibi görünüyor.
+391,I'm Afraid I Can't,Korkarım Yapamam,"A polite way to say ""no"".","""Hayır"" demenin kibar bir yolu."
+392,Suggest,Önermek,To give an idea.,Bir fikir vermek.
+393,Offer,Ismarlamak / Teklif Etmek,To ask if someone wants something.,Birinin bir şey isteyip istemediğini sormak.
+394,Accept,Kabul Etmek,"To say ""yes"".","""Evet"" demek."
+395,Refuse,Geri Çevirmek,"To say ""no"".","""Hayır"" demek."
+396,Let Me Pay,Bırak Ben Ödeyeyim,I will give the money for this.,Bunun için parayı ben vereceğim.
+397,Let Me Give You a Lift,Ben Seni Bırakayım,I will drive you in my car.,Seni arabamla götüreceğim.
+398,Apologize,Özür Dilemek,To say sorry for doing something wrong.,Yanlış bir şey yaptığın için üzgün olduğunu söylemek.
+399,Rude,Kaba,Not polite; speaking badly.,Kibar olmayan; kötü konuşan.
+400,Lose,Kaybetmek,Not knowing where your thing is.,Eşyanın nerede olduğunu bilmemek.
+401,Excellent,Harika,Really perfect.,Gerçekten mükemmel.
+402,Think,Düşünmek,To use your mind.,Zihnini kullanmak.
+403,Thought,Düşünce,An idea in your head.,Kafandaki bir fikir.
+404,Agree With Someone,Biriyle Aynı Fikirde Olmak,To have the same idea as another person.,Başka bir kişiyle aynı fikre sahip olmak.
+405,Personally,Kişisel Olarak,My own opinion is...,Benim kendi fikrim...
+406,A Waste of Time,Zaman Kaybı,Using time for no good reason.,Zamanı iyi bir neden olmadan kullanmak.
+407,Take a Message,Mesaj / Not Almak,To write down words from someone on the phone.,Telefondaki birinden gelen sözleri yazmak.
+408,Leave a Message,Mesaj Bırakmak,To say words for someone who is not there.,Orada olmayan biri için sözler söylemek.
+409,Line is Busy,Hat Meşgul,The person is already talking on the phone.,Kişi zaten telefonda konuşuyor.
+410,Wrong Number,Yanlış Numara,Calling a person you did not want to call.,Aramak istemediğin bir kişiyi aramak.

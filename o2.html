@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="O₂ Oxygen — English Time dahili arama motoru. İngilizce gramer kuralları, kelime açıklamaları ve deyim detayları ara.">
+  <title>O₂ Oxygen | English Time</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/o2.css">
+  <!-- Preconnect & Network Observer -->
+  <link rel="preconnect" href="https://oumhweoxhzziufhasxch.supabase.co" crossorigin>
+  <link rel="dns-prefetch" href="https://oumhweoxhzziufhasxch.supabase.co">
+  <script src="js/optimize.js"></script>
+  <script src="js/theme.js"></script>
+  <link rel="stylesheet" href="css/theme-light.css">
+</head>
+<body>
+
+  <!-- Animated Background -->
+  <div class="bg-effects">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+  <div class="stars"></div>
+
+  <div class="container">
+
+    <!-- User Bar -->
+    <div class="user-bar" id="user-bar"></div>
+
+    <!-- O2 Header -->
+    <div class="o2-page-header">
+      <span class="o2-page-logo">O<sub>2</sub></span>
+      <span class="o2-page-name">OXYGEN</span>
+      <p class="o2-page-subtitle">İngilizce kuralları, kelimeler ve deyimler hakkında her şey</p>
+    </div>
+
+    <!-- Search Box + Browse Button -->
+    <div class="o2-page-search">
+      <input type="text" id="o2-page-input" placeholder="🔍 Kelime, kural veya deyim ara..." autocomplete="off" autofocus>
+      <button class="o2-browse-btn" id="o2-browse-btn" onclick="toggleBrowseAll()" title="Tüm içeriklere göz at">＋</button>
+    </div>
+
+    <!-- Category Filters (hidden by default, shown when browsing) -->
+    <div class="o2-filters" id="o2-filters" style="display: none;">
+      <button class="o2-filter-btn active" data-category="" onclick="setFilter(this, '')">📋 Tümü</button>
+      <button class="o2-filter-btn" data-category="grammar" onclick="setFilter(this, 'grammar')">📐 Gramer</button>
+      <button class="o2-filter-btn" data-category="idiom" onclick="setFilter(this, 'idiom')">💬 Deyimler</button>
+      <button class="o2-filter-btn" data-category="tip" onclick="setFilter(this, 'tip')">💡 İpuçları</button>
+    </div>
+
+    <!-- Results Area -->
+    <div class="o2-page-results" id="o2-page-results">
+      <!-- Empty on load -->
+    </div>
+
+    <!-- Load More Button (hidden by default) -->
+    <div class="o2-load-more-wrap" id="o2-load-more-wrap" style="display: none;">
+      <button class="o2-load-more-btn" id="o2-load-more-btn" onclick="loadMore()">Daha fazla göster ↓</button>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/o2-data.js"></script>
+  <script src="js/o2-engine.js"></script>
+  <script>
+    // ===== O2 STANDALONE PAGE LOGIC =====
+    let currentFilter = '';
+    let isBrowsing = false;
+    let browseItems = [];
+    let browseShown = 0;
+    const BATCH_SIZE = 5;
+
+    // Toggle browse all mode
+    function toggleBrowseAll() {
+      const filtersEl = document.getElementById('o2-filters');
+      const browseBtn = document.getElementById('o2-browse-btn');
+      const input = document.getElementById('o2-page-input');
+
+      if (isBrowsing) {
+        // Close browsing mode
+        isBrowsing = false;
+        filtersEl.style.display = 'none';
+        browseBtn.textContent = '＋';
+        browseBtn.title = 'Tüm içeriklere göz at';
+        document.getElementById('o2-page-results').innerHTML = '';
+        document.getElementById('o2-load-more-wrap').style.display = 'none';
+        if (input.value.trim().length >= 2) {
+          performPageSearch();
+        }
+      } else {
+        // Open browsing mode
+        isBrowsing = true;
+        filtersEl.style.display = '';
+        browseBtn.textContent = '✕';
+        browseBtn.title = 'Göz atmayı kapat';
+        input.value = '';
+        currentFilter = '';
+        // Reset filter buttons
+        document.querySelectorAll('.o2-filter-btn').forEach(b => b.classList.remove('active'));
+        document.querySelector('.o2-filter-btn[data-category=""]').classList.add('active');
+        loadBrowseEntries();
+      }
+    }
+
+    // Load browse entries with lazy loading
+    function loadBrowseEntries() {
+      browseItems = O2_DATABASE.filter(entry => {
+        if (currentFilter && entry.category !== currentFilter) return false;
+        return true;
+      });
+      browseShown = 0;
+      document.getElementById('o2-page-results').innerHTML = '';
+      loadMore();
+    }
+
+    // Load next batch
+    function loadMore() {
+      const container = document.getElementById('o2-page-results');
+      const loadMoreWrap = document.getElementById('o2-load-more-wrap');
+      const nextBatch = browseItems.slice(browseShown, browseShown + BATCH_SIZE);
+
+      if (nextBatch.length === 0 && browseShown === 0) {
+        container.innerHTML = '<div class="o2-empty-state"><span class="o2-empty-icon">🤷</span><p>Bu kategoride henüz içerik yok</p></div>';
+        loadMoreWrap.style.display = 'none';
+        return;
+      }
+
+      // Add count on first batch
+      if (browseShown === 0) {
+        container.innerHTML = '<div class="o2-result-count">' + browseItems.length + ' içerik mevcut</div>';
+      }
+
+      // Render cards
+      nextBatch.forEach(entry => {
+        const cardDiv = document.createElement('div');
+        cardDiv.innerHTML = O2Engine.renderCard(entry);
+        const card = cardDiv.firstElementChild;
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(12px)';
+        container.appendChild(card);
+        // Animate in
+        requestAnimationFrame(() => {
+          card.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+          card.style.opacity = '1';
+          card.style.transform = 'translateY(0)';
+        });
+      });
+
+      browseShown += nextBatch.length;
+
+      // Show/hide load more
+      if (browseShown < browseItems.length) {
+        loadMoreWrap.style.display = '';
+        document.getElementById('o2-load-more-btn').textContent =
+          'Daha fazla göster ↓  (' + (browseItems.length - browseShown) + ' kaldı)';
+      } else {
+        loadMoreWrap.style.display = 'none';
+      }
+    }
+
+    function setFilter(btn, category) {
+      currentFilter = category;
+      document.querySelectorAll('.o2-filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      if (isBrowsing) {
+        loadBrowseEntries();
+      } else {
+        performPageSearch();
+      }
+    }
+
+    function performPageSearch() {
+      const input = document.getElementById('o2-page-input');
+      const container = document.getElementById('o2-page-results');
+      const loadMoreWrap = document.getElementById('o2-load-more-wrap');
+      const query = input ? input.value.trim() : '';
+
+      // Hide load more during search
+      loadMoreWrap.style.display = 'none';
+
+      if (query.length < 2) {
+        if (!isBrowsing) {
+          container.innerHTML = '';
+        }
+        return;
+      }
+
+      // If browsing, close it for search
+      if (isBrowsing) {
+        isBrowsing = false;
+        document.getElementById('o2-filters').style.display = 'none';
+        document.getElementById('o2-browse-btn').textContent = '＋';
+      }
+
+      const results = O2Engine.search(query, { category: currentFilter || null, maxResults: 20 });
+
+      if (results.length === 0) {
+        container.innerHTML = '<div class="o2-empty-state"><span class="o2-empty-icon">🤷</span><p>"' +
+          O2Engine.escapeHtml(query) + '" için sonuç bulunamadı</p></div>';
+        return;
+      }
+
+      const countHtml = '<div class="o2-result-count">' + results.length + ' sonuç bulundu</div>';
+      container.innerHTML = countHtml + results.map(entry => O2Engine.renderCard(entry)).join('');
+    }
+
+    // Initialize
+    document.addEventListener('DOMContentLoaded', () => {
+      // Empty on load — user searches or clicks +
+      const input = document.getElementById('o2-page-input');
+      if (input) {
+        let debounce = null;
+        input.addEventListener('input', () => {
+          clearTimeout(debounce);
+          debounce = setTimeout(performPageSearch, 250);
+        });
+      }
+    });
+  </script>
+</body>
+</html>
