@@ -379,14 +379,14 @@
   }
 
   function normalizeTurkish(str) {
-    return str.trim()
+    return str.normalize('NFC').trim()
       .replace(/İ/g, 'i').replace(/I/g, 'ı').replace(/Ğ/g, 'ğ')
       .replace(/Ü/g, 'ü').replace(/Ş/g, 'ş').replace(/Ö/g, 'ö').replace(/Ç/g, 'ç')
-      .toLowerCase();
+      .toLocaleLowerCase('tr-TR');
   }
 
   function normalizeEnglish(str) {
-    return str.trim().toLowerCase();
+    return str.normalize('NFC').trim().toLowerCase();
   }
 
   // ===== NEXT WORD =====
