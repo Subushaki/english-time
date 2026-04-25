@@ -201,9 +201,9 @@
 
     async function markKnown() {
       if (!currentStudy) return;
-      // Mark as mastered in Supabase
+      // Mark as mastered + unstar in Supabase
       const sb = getSupabase();
-      await sb.from('study_words').update({ mastered: true })
+      await sb.from('study_words').update({ mastered: true, starred: false })
         .eq('user_id', currentUser.id).eq('word_id', currentStudy.id);
       nextStudyCard();
     }

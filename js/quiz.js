@@ -148,7 +148,16 @@
         word_id: wordId,
         result: result
       });
-      // For unknown words, star them too
+
+      // İlk seferde doğru → yıldızı kaldır, mastered yap
+      if (result === 'first_try') {
+        await sb.from('study_words').update({
+          starred: false,
+          mastered: true
+        }).eq('user_id', loggedInUser.id).eq('word_id', wordId);
+      }
+
+      // Bilinmeyen kelime → yıldızla
       if (result === 'unknown') {
         await sb.from('study_words').upsert({
           user_id: loggedInUser.id,
