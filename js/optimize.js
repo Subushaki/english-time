@@ -51,7 +51,9 @@ function isBot() {
     /LinkedInBot/i, /WhatsApp/i, /Discordbot/i, /TelegramBot/i,
     /Vercel/i, /HeadlessChrome/i, /PhantomJS/i, /Lighthouse/i,
     /GTmetrix/i, /PageSpeed/i, /Pingdom/i, /UptimeRobot/i,
-    /curl/i, /wget/i, /python-requests/i, /node-fetch/i, /axios/i
+    /curl/i, /wget/i, /python-requests/i, /node-fetch/i, /axios/i,
+    /Prerender/i, /Renderer/i, /Snap/i, /Bytespider/i, /SemrushBot/i,
+    /AhrefsBot/i, /MJ12bot/i, /DotBot/i, /PetalBot/i
   ];
   if (botPatterns.some(p => p.test(ua))) return true;
 
@@ -60,6 +62,17 @@ function isBot() {
 
   // 4) User-agent tamamen boşsa
   if (ua.length < 20) return true;
+
+  // 5) Headless Chrome eklenti kontrolü (gerçek tarayıcılarda plugins > 0)
+  if (navigator.plugins && navigator.plugins.length === 0 && !/Mobi|Android|iPhone|iPad/i.test(ua)) return true;
+
+  // 6) Linux OS + giriş yapmamış = büyük ihtimalle Vercel CDN/edge crawlerı
+  if (/Linux/i.test(ua) && !/Android/i.test(ua)) {
+    try {
+      const stored = localStorage.getItem('english_time_user');
+      if (!stored) return true; // Linux + giriş yok = bot
+    } catch(e) { return true; }
+  }
 
   return false;
 }
