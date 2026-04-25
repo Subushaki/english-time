@@ -36,11 +36,38 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-// ===== ENGLISH TIME CUSTOM ANALYTICS TRACKER =====
-let pageVisitId = null;
-let pageStartTime = Date.now();
+// ===== BOT / CRAWLER TESPİTİ =====
+function isBot() {
+  // 1) Headless browser kontrolü (Vercel build, Puppeteer, Playwright vb.)
+  if (navigator.webdriver) return true;
+
+  const ua = navigator.userAgent || '';
+
+  // 2) Bilinen bot/crawler user-agent kalıpları
+  const botPatterns = [
+    /bot/i, /crawl/i, /spider/i, /slurp/i, /mediapartners/i,
+    /Googlebot/i, /Bingbot/i, /Yahoo/i, /Baidu/i, /DuckDuckBot/i,
+    /Yandex/i, /Sogou/i, /facebookexternalhit/i, /Twitterbot/i,
+    /LinkedInBot/i, /WhatsApp/i, /Discordbot/i, /TelegramBot/i,
+    /Vercel/i, /HeadlessChrome/i, /PhantomJS/i, /Lighthouse/i,
+    /GTmetrix/i, /PageSpeed/i, /Pingdom/i, /UptimeRobot/i,
+    /curl/i, /wget/i, /python-requests/i, /node-fetch/i, /axios/i
+  ];
+  if (botPatterns.some(p => p.test(ua))) return true;
+
+  // 3) Gerçek ekran yoksa bot olma ihtimali yüksek
+  if (!window.screen || window.screen.width === 0 || window.screen.height === 0) return true;
+
+  // 4) User-agent tamamen boşsa
+  if (ua.length < 20) return true;
+
+  return false;
+}
 
 async function trackPageVisit() {
+  // Bot ise izleme yapma
+  if (isBot()) return;
+
   const sb = typeof getSupabase === 'function' ? getSupabase() : null;
   if (!sb) return;
   
@@ -73,7 +100,6 @@ async function trackPageVisit() {
          payload.load_time_ms = Math.round(entry.duration);
        }
        
-       // Saniyeler icinde hemen ilk Analytics verisini veritabanina gonderelim ki sayfa hizli kapansa da kayip yasanmasin.
        const { data, error } = await sb.from('site_analytics').insert(payload).select('id').single();
        if (error) {
            console.error("⛔ ANALYTICS RLS VEYA KAYIT HATASI:", error);
@@ -86,7 +112,6 @@ async function trackPageVisit() {
              .then(res => res.json())
              .then(ipData => {
                 if (ipData && ipData.name) {
-                   // geoJS "Turkey, United States, Germany vb." İngilizce formatta ülkeyi (ipData.name) yollar.
                    sb.from('site_analytics').update({ country: ipData.name }).eq('id', pageVisitId).then();
                 }
              }).catch(() => {});

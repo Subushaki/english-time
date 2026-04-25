@@ -272,9 +272,14 @@ function drawCharts(data) {
     options: { indexAxis: 'y', maintainAspectRatio: false }
   });
 
-  // Bar Chart (Sayfalar)
+  // Bar Chart (Sayfalar - Tekil Ziyaretçi)
+  const pathSet = {};
+  data.forEach(d => {
+    if(!pathSet[d.path]) pathSet[d.path] = new Set();
+    pathSet[d.path].add(getIdentifier(d));
+  });
   const pathGroup = {};
-  data.forEach(d => { pathGroup[d.path] = (pathGroup[d.path] || 0) + 1; });
+  Object.keys(pathSet).forEach(k => pathGroup[k] = pathSet[k].size);
   // Sorting paths
   const sortedPaths = Object.entries(pathGroup).sort((a,b)=>b[1]-a[1]).slice(0, 7);
   charts.bar = new Chart(document.getElementById('barChart'), {
@@ -282,7 +287,7 @@ function drawCharts(data) {
     data: {
       labels: sortedPaths.map(x=>x[0]),
       datasets: [{
-        label: 'Görüntüleme',
+        label: 'Tekil Ziyaretçi',
         data: sortedPaths.map(x=>x[1]),
         backgroundColor: '#06b6d4'
       }]
