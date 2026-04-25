@@ -258,7 +258,7 @@ No   | English                              | Türkçe
 253  | Collect Things                       | Bir Şeyler Toplamak
 254  | Skiing                               | Kayak Yapma / Kayak
 255  | Fishing                              | Balık Tutma
-256  | Spend Time                           | Zaman Geçirmek / Harcamak
+256  | Spend Time                           | Zaman Geçirmek / Zaman Harcamak
 257  | Gym                                  | Spor / Spor Salonu
 258  | Drawing                              | Çizim Yapma / Çizim
 259  | Painting                             | Resim Yapma / Resim / Tablo

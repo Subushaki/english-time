@@ -255,7 +255,7 @@ No,English,Türkçe,English Hint (A2 Level),Türkçe İpucu
 253,Collect Things,Bir Şeyler Toplamak,To keep many things of the same kind.,Aynı türden birçok şeyi saklamak/toplamak.
 254,Skiing,Kayak Yapma / Kayak,Moving over snow on long flat boards.,Uzun düz tahtalar üzerinde karda hareket etmek.
 255,Fishing,Balık Tutma,Trying to catch fish.,Balık yakalamaya çalışmak.
-256,Spend Time,Zaman Geçirmek,To use your time doing something.,Zamanını bir şey yaparak kullanmak.
+256,Spend Time,Zaman Geçirmek / Zaman Harcamak,To use your time doing something.,Zamanını bir şey yaparak kullanmak.
 257,Gym,Spor Salonu,A place to exercise and get strong.,Egzersiz yapmak ve güçlenmek için bir yer.
 258,Drawing,Çizim Yapma / Çizim,Making pictures with a pencil.,Bir kalemle resimler yapmak.
 259,Painting,Resim Yapma / Tablo,Making pictures with colors.,Renklerle resimler yapmak.
