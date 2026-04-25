@@ -207,18 +207,25 @@ function drawCharts(data) {
   Chart.defaults.color = "#9898b8";
   Chart.defaults.font.family = "'Inter', sans-serif";
 
-  // Line Chart (Ziyaretçi Eğilimi)
-  const dayGroups = {};
+  // Helper for tracking unique visitors instead of pageviews
+  const getIdentifier = (d) => d.user_id ? d.user_id : `anon_${d.os}_${d.browser}_${new Date(d.created_at).toLocaleDateString()}`;
+
+  // Line Chart (Ziyaretçi Eğilimi - Tekil Ziyaretçi/Gün)
+  const dayUniqueVisitors = {};
   data.forEach(d => {
      const date = new Date(d.created_at).toLocaleDateString('tr-TR');
-     dayGroups[date] = (dayGroups[date] || 0) + 1;
+     if (!dayUniqueVisitors[date]) dayUniqueVisitors[date] = new Set();
+     dayUniqueVisitors[date].add(getIdentifier(d));
   });
+  const dayGroups = {};
+  Object.keys(dayUniqueVisitors).forEach(k => dayGroups[k] = dayUniqueVisitors[k].size);
+
   charts.line = new Chart(document.getElementById('lineChart'), {
     type: 'line',
     data: {
       labels: Object.keys(dayGroups),
       datasets: [{
-        label: 'Ziyaretler',
+        label: 'Tekil Ziyaretçi',
         data: Object.values(dayGroups),
         borderColor: '#8b5cf6',
         backgroundColor: 'rgba(139, 92, 246, 0.2)',
@@ -228,8 +235,8 @@ function drawCharts(data) {
     options: { maintainAspectRatio: false }
   });
 
-  // Helper for tracking unique visitors instead of pageviews
-  const getIdentifier = (d) => d.user_id ? d.user_id : `anon_${d.os}_${d.browser}_${new Date(d.created_at).toLocaleDateString()}`;
+
+
 
   // OS Chart (Doughnut)
   const osSet = {};

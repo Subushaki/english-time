@@ -77,7 +77,16 @@ function isBot() {
   return false;
 }
 
+// ===== ENGLISH TIME CUSTOM ANALYTICS TRACKER =====
+let pageVisitId = null;
+let pageStartTime = Date.now();
+let trackingInitiated = false; // Çift kayıt önleme kilidi
+
 async function trackPageVisit() {
+  // Çift kayıt önleme: zaten başlatıldıysa tekrar çalıştırma
+  if (trackingInitiated) return;
+  trackingInitiated = true;
+
   // Bot ise izleme yapma
   if (isBot()) return;
 
@@ -94,6 +103,14 @@ async function trackPageVisit() {
   } catch(e) {}
   
   const conn = navigator.connection || {};
+
+  // Sayfa yüklenme süresini al
+  let loadTime = 0;
+  const [entry] = performance.getEntriesByType("navigation");
+  if (entry) {
+    loadTime = Math.round(entry.duration);
+  }
+
   const payload = {
     path: window.location.pathname.split('/').pop() || 'index.html',
     user_id: userId,
@@ -101,45 +118,39 @@ async function trackPageVisit() {
     os: getOS(),
     browser: getBrowser(),
     connection_speed: conn.effectiveType || 'Bilinmiyor',
-    load_time_ms: 0,
+    load_time_ms: loadTime,
     time_spent_ms: 0,
     country: 'Bilinmiyor'
   };
   
-  window.addEventListener('load', async () => {
-    setTimeout(async () => {
-       const [entry] = performance.getEntriesByType("navigation");
-       if (entry) {
-         payload.load_time_ms = Math.round(entry.duration);
-       }
-       
-       const { data, error } = await sb.from('site_analytics').insert(payload).select('id').single();
-       if (error) {
-           console.error("⛔ ANALYTICS RLS VEYA KAYIT HATASI:", error);
-       }
-       if (data) {
-           pageVisitId = data.id;
-           
-           // CORS ve kısıtlamalara (429 Hatası) takılmamak için sınırsız, açık kaynak IP servisi kullanıldı.
-           fetch('https://get.geojs.io/v1/ip/country.json')
-             .then(res => res.json())
-             .then(ipData => {
-                if (ipData && ipData.name) {
-                   sb.from('site_analytics').update({ country: ipData.name }).eq('id', pageVisitId).then();
-                }
-             }).catch(() => {});
-       }
-    }, 100);
-  });
+  try {
+    const { data, error } = await sb.from('site_analytics').insert(payload).select('id').single();
+    if (error) {
+      console.error("⛔ ANALYTICS RLS VEYA KAYIT HATASI:", error);
+      return;
+    }
+    if (data) {
+      pageVisitId = data.id;
+      
+      // Ülke bilgisini arka planda güncelle
+      fetch('https://get.geojs.io/v1/ip/country.json')
+        .then(res => res.json())
+        .then(ipData => {
+           if (ipData && ipData.name) {
+              sb.from('site_analytics').update({ country: ipData.name }).eq('id', pageVisitId).then();
+           }
+        }).catch(() => {});
+    }
+  } catch(e) { /* silent */ }
 }
 
 function getOS() {
   const ua = navigator.userAgent;
   if (/Windows/i.test(ua)) return 'Windows';
   if (/Mac/i.test(ua)) return 'MacOS';
-  if (/Linux/i.test(ua)) return 'Linux';
   if (/Android/i.test(ua)) return 'Android';
   if (/iOS|iPhone|iPad/i.test(ua)) return 'iOS';
+  if (/Linux/i.test(ua)) return 'Linux';
   return 'Unknown';
 }
 
@@ -170,15 +181,11 @@ window.addEventListener('visibilitychange', () => {
 });
 window.addEventListener('beforeunload', () => updateTimeSpent());
 
-function initTracker() {
-  if (typeof getSupabase === 'function') {
-    trackPageVisit();
-  } else {
-    // Supabase kutuphanesi CDN'den henuz inmediyse her 300ms'de bir tekrar dene
-    setTimeout(initTracker, 300);
-  }
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-   initTracker();
+// Sayfa tamamen yüklendiğinde bir kez çalıştır
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    if (typeof getSupabase === 'function') {
+      trackPageVisit();
+    }
+  }, 200);
 });
