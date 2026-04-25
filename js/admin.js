@@ -3,6 +3,34 @@ const POINT_MAP = { first_try: 3, retry: 2, hard: 1, unknown: 0 };
 let currentData = [];
 let charts = {};
 
+// Akıllı süre formatlayıcı: ms → okunabilir metin
+function formatDuration(ms) {
+  const totalSec = Math.floor(ms / 1000);
+  if (totalSec < 60) return `${totalSec} saniye`;
+
+  const totalMin = Math.floor(totalSec / 60);
+  if (totalMin < 60) {
+    const remainSec = totalSec % 60;
+    return remainSec > 0 ? `${totalMin} dk ${remainSec} sn` : `${totalMin} dakika`;
+  }
+
+  const totalHours = Math.floor(totalMin / 60);
+  const remainMin = totalMin % 60;
+  if (totalHours < 24) {
+    return remainMin > 0 ? `${totalHours} saat ${remainMin} dk` : `${totalHours} saat`;
+  }
+
+  const totalDays = Math.floor(totalHours / 24);
+  const remainHours = totalHours % 24;
+  if (totalDays < 365) {
+    return remainHours > 0 ? `${totalDays} gün ${remainHours} saat` : `${totalDays} gün`;
+  }
+
+  const years = Math.floor(totalDays / 365);
+  const remainDays = totalDays % 365;
+  return remainDays > 0 ? `${years} yıl ${remainDays} gün` : `${years} yıl`;
+}
+
 async function checkAdmin() {
   const user = await getCurrentUser();
   if (!user || user.is_admin !== true) {
@@ -180,7 +208,6 @@ function drawCharts(data) {
   Chart.defaults.font.family = "'Inter', sans-serif";
 
   // Line Chart (Ziyaretçi Eğilimi)
-  // Gün gün gruplayalım
   const dayGroups = {};
   data.forEach(d => {
      const date = new Date(d.created_at).toLocaleDateString('tr-TR');
@@ -412,11 +439,7 @@ async function openUserModal(userObj) {
      const sortedList = Object.entries(pathTimes).sort((a,b) => b[1]-a[1]);
      let html = '';
      sortedList.forEach(([pathUrl, ms]) => {
-        let sec = Math.floor(ms / 1000);
-        let min = Math.floor(sec / 60);
-        let remainSec = sec % 60;
-        let displayStr = min > 0 ? `${min} dk ${remainSec} sn` : `${sec} saniye`;
-        html += `<div class="time-list-item"><span style="color:var(--accent-blue)">/${pathUrl}</span><span style="font-weight:600">${displayStr}</span></div>`;
+        html += `<div class="time-list-item"><span style="color:var(--accent-blue)">/${pathUrl}</span><span style="font-weight:600">${formatDuration(ms)}</span></div>`;
      });
      timeContainer.innerHTML = html || '<div style="color:var(--text-muted)">Sayfa verisi hesaba katılmıyor.</div>';
   } else {

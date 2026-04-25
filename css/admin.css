@@ -238,3 +238,102 @@
   .admin-controls { flex-direction: column; align-items: flex-start; }
   .admin-container { padding: 20px 5% !important; }
 }
+
+@media (max-width: 768px) {
+  .admin-container { padding: 16px 4% !important; }
+
+  .admin-header { margin-bottom: 24px; }
+  .admin-header h1 { font-size: 1.8rem; }
+  .admin-header p { font-size: 0.9rem; }
+
+  /* Stat cards: 2 columns on mobile */
+  .admin-st-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-bottom: 30px;
+  }
+  .asc-card { padding: 16px 12px; }
+  .asc-title { font-size: 0.82rem; margin-bottom: 8px; }
+  .asc-value { font-size: 1.6rem; }
+  .asc-icon { font-size: 3rem; right: -10px; bottom: -10px; }
+
+  /* Tabs: horizontal scroll */
+  .admin-tabs {
+    gap: 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+  }
+  .admin-tabs::-webkit-scrollbar { display: none; }
+  .admin-tab {
+    padding: 8px 14px;
+    font-size: 0.82rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  /* Controls */
+  .admin-controls { gap: 10px; }
+  .timestamp-filter select { padding: 10px 14px; font-size: 0.85rem; }
+  .export-btn { padding: 10px 16px; font-size: 0.85rem; width: 100%; justify-content: center; }
+
+  /* Charts */
+  .chart-grid { gap: 16px; margin-bottom: 30px; }
+  .chart-box { padding: 18px 14px; }
+  .chart-box h3 { font-size: 1.05rem; margin-bottom: 16px; }
+  .chart-wrapper { height: 260px; }
+  .chart-grid.scale-md .chart-wrapper { height: 240px; }
+  .chart-grid.scale-sm .chart-wrapper { height: 200px; }
+
+  /* User list */
+  .ul-row {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px 16px;
+    gap: 4px;
+  }
+  .ul-name { font-size: 1rem; }
+  .ul-meta { font-size: 0.78rem; }
+
+  /* Modal */
+  .am-content {
+    padding: 20px 16px;
+    max-width: 95vw;
+    max-height: 85vh;
+  }
+  .am-close { right: 14px; top: 14px; }
+  .am-header { margin-bottom: 18px; padding-bottom: 12px; }
+  .am-header h2 { font-size: 1.2rem; }
+  .stat-grid-mini { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .sgm-box { padding: 12px 8px; }
+
+  /* Patch Timeline */
+  .patch-timeline { max-width: 100%; }
+  .pt-item { padding: 8px 0 20px 40px; }
+  .pt-content { padding: 14px; }
+  .pt-title { font-size: 1rem; }
+  .pt-desc { font-size: 0.85rem; }
+  .pt-date { font-size: 0.78rem; }
+
+  /* Time list */
+  .time-list-item { font-size: 0.85rem; padding: 8px 0; }
+}
+
+@media (max-width: 400px) {
+  .admin-st-cards { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .asc-card { padding: 12px 8px; }
+  .asc-title { font-size: 0.75rem; }
+  .asc-value { font-size: 1.3rem; }
+
+  .admin-tab { padding: 6px 10px; font-size: 0.75rem; }
+
+  .chart-wrapper { height: 220px; }
+
+  .stat-grid-mini { gap: 8px; }
+  .sgm-box { padding: 10px 6px; }
+  .sgm-box div:first-child { font-size: 1.2rem !important; }
+  .sgm-box div:last-child { font-size: 0.7rem !important; }
+}
+
