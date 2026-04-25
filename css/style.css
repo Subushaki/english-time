@@ -1221,8 +1221,6 @@ body {
 
 .word-list-body {
   border-top: 1px solid var(--glass-border);
-  max-height: 600px;
-  overflow-y: auto;
   transition: max-height 0.4s ease, opacity 0.3s ease;
 }
 
@@ -1308,20 +1306,7 @@ body {
   text-align: left;
 }
 
-/* Scrollbar for word lists */
-.word-list-body::-webkit-scrollbar {
-  width: 6px;
-}
-.word-list-body::-webkit-scrollbar-track {
-  background: transparent;
-}
-.word-list-body::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 3px;
-}
-.word-list-body::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.2);
-}
+
 
 .results-actions {
   display: flex;
@@ -1614,9 +1599,7 @@ body {
     font-size: 0.8rem;
   }
 
-  .word-list-body {
-    max-height: 400px;
-  }
+
 
   /* === MOBILE PERFORMANCE === */
   .bg-effects .orb {

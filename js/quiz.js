@@ -480,7 +480,7 @@
           <span>${escapeHtml(cat.title)}</span>
           <span class="word-list-count">${cat.words.length}</span>
         </div>
-        <span class="word-list-toggle">▼</span>
+        <span class="word-list-toggle">▶</span>
       `;
       header.addEventListener('click', () => {
         const body = section.querySelector('.word-list-body');
@@ -490,7 +490,7 @@
       });
 
       const body = document.createElement('div');
-      body.className = 'word-list-body';
+      body.className = 'word-list-body collapsed';
 
       cat.words.forEach(word => {
         const row = document.createElement('div');
