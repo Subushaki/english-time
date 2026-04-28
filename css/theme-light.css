@@ -74,6 +74,12 @@ html[data-theme="light"] .o2-result-card {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.04);
 }
 
+html[data-theme="light"] .badge-modal {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
 /* Buton Yazı Renkleri Koruma (Gradyan butonlar beyaz yazılı kalmalı) */
 html[data-theme="light"] .btn-primary,
 html[data-theme="light"] .btn-danger,
