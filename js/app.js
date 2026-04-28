@@ -181,19 +181,50 @@ async function startQuiz(mode) {
     }
   });
 
-  const knownWordIds = Object.entries(bestResults)
+  const globalKnownWordIds = Object.entries(bestResults)
     .filter(([_, r]) => r === 'first_try')
     .map(([id, _]) => parseInt(id));
 
-  if (knownWordIds.length > 0) {
+  // Dataset'i belirle ve sadece o paketteki bildiklerini say
+  let selectedData = typeof WORDS_A2 !== 'undefined' ? WORDS_A2 : [];
+  if (currentDataset === 'genel' && typeof WORDS_A2_GENEL !== 'undefined') selectedData = WORDS_A2_GENEL;
+  else if (currentDataset === 'grammar' && typeof WORDS_A2_GRAMMAR !== 'undefined') selectedData = WORDS_A2_GRAMMAR;
+  else if (currentDataset === 'deyimler' && typeof WORDS_A2_DEYIMLER !== 'undefined') selectedData = WORDS_A2_DEYIMLER;
+  else if (currentDataset === 'times') {
+    if (typeof WORDS_A2_TIMES_FULL !== 'undefined' && currentTimesFilter) {
+      if (currentTimesFilter === 'am') {
+        selectedData = WORDS_A2_TIMES_FULL.filter(w => {
+          const match = w.hintEn ? w.hintEn.match(/It is (\d{2}):/) : null;
+          return match && parseInt(match[1], 10) < 12;
+        });
+      } else if (currentTimesFilter === 'pm') {
+        selectedData = WORDS_A2_TIMES_FULL.filter(w => {
+          const match = w.hintEn ? w.hintEn.match(/It is (\d{2}):/) : null;
+          return match && parseInt(match[1], 10) >= 12;
+        });
+      } else {
+        selectedData = WORDS_A2_TIMES_FULL.filter(w => w.hintEn && w.hintEn.includes(`It is ${currentTimesFilter}:`));
+      }
+    } else if (typeof WORDS_A2_TIMES !== 'undefined') {
+      selectedData = WORDS_A2_TIMES;
+    }
+  }
+
+  // Bu paketteki kelimelerin ID'leri
+  const selectedDataIds = new Set(selectedData.map(w => w.id));
+
+  // Sadece bu pakette olan ve bilinen kelimeleri filtrele
+  const relevantKnownWordIds = globalKnownWordIds.filter(id => selectedDataIds.has(id));
+
+  if (relevantKnownWordIds.length > 0) {
     const includeKnown = confirm(
-      `Daha önceki quizlerde "İlk Seferde" bildiğiniz ${knownWordIds.length} kelime var.\n\nDaha önceki bildikleriniz bu quize dahil edilsin mi?\n\n- Tamam: Tüm kelimelerle başlatır\n- İptal: Sadece bilmediğin kelimelerle başlatır`
+      `Seçtiğiniz pakette "İlk Seferde" bildiğiniz ${relevantKnownWordIds.length} kelime var.\n\nDaha önceki bildikleriniz bu quize dahil edilsin mi?\n\n- Tamam: Tüm kelimelerle başlatır\n- İptal: Sadece bilmediğin kelimelerle başlatır`
     );
 
     if (includeKnown) {
       window.location.href = url;
     } else {
-      localStorage.setItem('exclude_quiz_ids', JSON.stringify(knownWordIds));
+      localStorage.setItem('exclude_quiz_ids', JSON.stringify(relevantKnownWordIds));
       window.location.href = url + `&exclude=true`;
     }
   } else {
