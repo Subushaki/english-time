@@ -3,6 +3,8 @@
   max-width: 1800px !important; /* Çok geniş bilgisayar ekranları için */
   width: 100% !important;
   padding: 40px 4% !important;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .admin-header {
@@ -85,7 +87,7 @@
 
 .chart-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(600px, 100%), 1fr));
   gap: 40px;
   margin-bottom: 50px;
   transition: all 0.3s ease;
@@ -95,13 +97,15 @@
   border: 1px solid var(--glass-border);
   border-radius: var(--radius-lg);
   padding: 30px;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 .chart-box h3 { margin-bottom: 25px; font-size: 1.3rem; font-weight: 600; font-family: 'Outfit'; color: var(--text-primary); }
 .chart-wrapper { width: 100%; height: 450px; position: relative;}
 
 /* Scale Settings */
 .chart-grid.scale-md {
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
   gap: 25px;
 }
 .chart-grid.scale-md .chart-box { padding: 25px; }
@@ -109,7 +113,7 @@
 .chart-grid.scale-md .chart-wrapper { height: 320px; }
 
 .chart-grid.scale-sm {
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
   gap: 20px;
 }
 .chart-grid.scale-sm .chart-box { padding: 20px; }
@@ -173,11 +177,14 @@
   border-radius: var(--radius-md);
   position: relative;
   transition: transform 0.2s;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  box-sizing: border-box;
 }
 .pt-content:hover { transform: translateX(5px); border-color: var(--circle-col, var(--accent-green)); }
 .pt-date { color: var(--text-muted); font-size: 0.85rem; font-weight: 600; margin-bottom: 10px; display: block; }
-.pt-title { font-family: 'Outfit'; font-size: 1.2rem; color: var(--text-primary); margin-bottom: 5px; font-weight: 600; }
-.pt-desc { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.5; margin-top: 10px; }
+.pt-title { font-family: 'Outfit'; font-size: 1.2rem; color: var(--text-primary); margin-bottom: 5px; font-weight: 600; word-break: break-word; }
+.pt-desc { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.5; margin-top: 10px; word-break: break-word; }
 .pt-tag {
   display: inline-block;
   padding: 3px 8px;
@@ -257,21 +264,20 @@
   .asc-value { font-size: 1.6rem; }
   .asc-icon { font-size: 3rem; right: -10px; bottom: -10px; }
 
-  /* Tabs: horizontal scroll */
+  /* Tabs: vertical stack on mobile */
   .admin-tabs {
-    gap: 0;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
+    flex-direction: column;
+    gap: 6px;
     padding-bottom: 8px;
     margin-bottom: 20px;
   }
-  .admin-tabs::-webkit-scrollbar { display: none; }
   .admin-tab {
-    padding: 8px 14px;
-    font-size: 0.82rem;
+    padding: 10px 14px;
+    font-size: 0.85rem;
     white-space: nowrap;
     flex-shrink: 0;
+    text-align: center;
+    border-radius: var(--radius-sm);
   }
 
   /* Controls */

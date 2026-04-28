@@ -93,6 +93,15 @@
           </div>
         </div>
 
+        <!-- Badges Section -->
+        <div class="badge-section" id="badge-section" style="display: none;">
+          <div class="badge-section-title">🏆 Rozetler</div>
+          <div class="badge-grid" id="badge-grid"></div>
+          <div class="badge-footnote" id="badge-footnote" style="display: none;">
+            <span>ℹ️ Not:</span> Genel Kelimeler rozeti sürekli güncelleme almaktadır. Yeni kelimeler eklendikçe ilerleme yüzdeniz değişebilir.
+          </div>
+        </div>
+
         <!-- Rank Bar -->
         <div class="profile-rank-bar" id="profile-rank-bar" style="display: none;"></div>
 
@@ -108,9 +117,43 @@
 
   </div>
 
+  <!-- Badge Detail Modal -->
+  <div class="badge-modal-overlay" id="badge-modal-overlay">
+    <div class="badge-modal" style="position: relative;">
+      <button class="badge-modal-close" id="badge-modal-close">✕</button>
+      <span class="badge-modal-icon" id="bm-icon"></span>
+      <div class="badge-modal-name" id="bm-name"></div>
+      <div class="badge-modal-progress-container">
+        <div class="badge-modal-progress-label">İlerleme</div>
+        <div class="badge-modal-progress-bar">
+          <div class="badge-modal-progress-fill" id="bm-progress-fill"></div>
+        </div>
+        <div class="badge-modal-pct-text" id="bm-pct-text"></div>
+      </div>
+      <div class="badge-modal-stats">
+        <div class="badge-modal-stat solved">
+          <span class="badge-modal-stat-icon">✅</span>
+          <span class="badge-modal-stat-count" id="bm-solved-count"></span>
+          <span class="badge-modal-stat-pct" id="bm-solved-pct"></span>
+          <span class="badge-modal-stat-label">Çözülen</span>
+        </div>
+        <div class="badge-modal-stat unsolved">
+          <span class="badge-modal-stat-icon">❌</span>
+          <span class="badge-modal-stat-count" id="bm-unsolved-count"></span>
+          <span class="badge-modal-stat-pct" id="bm-unsolved-pct"></span>
+          <span class="badge-modal-stat-label">Çözülmeyen</span>
+        </div>
+      </div>
+      <div class="badge-modal-status" id="bm-status"></div>
+      <div class="badge-modal-footnote" id="bm-footnote" style="display: none;"></div>
+    </div>
+  </div>
+
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/supabase-config.js"></script>
   <script src="js/auth.js"></script>
+  <script src="js/words-a2.js"></script>
+  <script src="js/words-a2-saatler-full.js"></script>
   <script>
     const POINT_MAP = { first_try: 3, retry: 2, hard: 1, unknown: 0 };
 
@@ -244,6 +287,131 @@
       document.getElementById('ps-unknown').textContent = unknown;
       document.getElementById('ps-starred').textContent = starredCount;
       document.getElementById('ps-quizzes').textContent = quizCount;
+
+      // ===== BADGE SYSTEM =====
+      const BADGES = [
+        { id: 'kurs',    name: 'Kurs Ustası',             icon: '📚', minId: 1,    maxId: 410,  dynamic: false },
+        { id: 'genel',   name: 'Genel Bilgi Şampiyonu',   icon: '🌍', minId: 1001, maxId: null, dynamic: true, dataset: WORDS_A2_GENEL },
+        { id: 'grammar', name: 'Gramer Kralı',             icon: '📝', minId: 5001, maxId: 5050, dynamic: false },
+        { id: 'deyimler',name: 'Deyim Ustası',             icon: '💬', minId: 6001, maxId: 6030, dynamic: false },
+        { id: 'times_am',name: 'A.M. Zaman Lordu',         icon: '🌅', minId: 2000, maxId: 2719, dynamic: false },
+        { id: 'times_pm',name: 'P.M. Zaman Lordu',         icon: '🌙', minId: 2720, maxId: 3439, dynamic: false }
+      ];
+
+      function getBadgeIds(badge) {
+        if (badge.dynamic && badge.dataset) {
+          return badge.dataset.map(w => w.id);
+        }
+        const ids = [];
+        for (let i = badge.minId; i <= badge.maxId; i++) ids.push(i);
+        return ids;
+      }
+
+      const badgeData = BADGES.map(badge => {
+        const ids = getBadgeIds(badge);
+        const total = ids.length;
+        let solved = 0;
+        ids.forEach(id => {
+          if (bestResults[id] === 'first_try') solved++;
+        });
+        const pct = total > 0 ? Math.round((solved / total) * 100) : 0;
+        return { ...badge, total, solved, unsolved: total - solved, pct, completed: pct === 100 };
+      });
+
+      // Render badge grid
+      const badgeGrid = document.getElementById('badge-grid');
+      const badgeSection = document.getElementById('badge-section');
+      badgeSection.style.display = 'block';
+
+      badgeData.forEach((b, idx) => {
+        const card = document.createElement('div');
+        card.className = 'badge-card' + (b.completed ? ' completed' : '');
+        card.innerHTML = `
+          ${b.completed ? '<span class="badge-check">✓</span>' : ''}
+          <span class="badge-icon">${b.icon}</span>
+          <span class="badge-name">${b.name}</span>
+          <span class="badge-pct">${b.pct}%</span>
+          <div class="badge-progress-bar">
+            <div class="badge-progress-fill" style="width: ${b.pct}%"></div>
+          </div>
+        `;
+        card.addEventListener('click', () => openBadgeModal(b));
+        badgeGrid.appendChild(card);
+      });
+
+      // Show footnote if genel badge exists (always show since it's dynamic)
+      document.getElementById('badge-footnote').style.display = 'block';
+
+      // Badge modal logic
+      const modalOverlay = document.getElementById('badge-modal-overlay');
+      const modalClose = document.getElementById('badge-modal-close');
+
+      function openBadgeModal(b) {
+        document.getElementById('bm-icon').textContent = b.icon;
+        document.getElementById('bm-name').textContent = b.name;
+        
+        const pctText = document.getElementById('bm-pct-text');
+        pctText.textContent = b.pct + '%';
+        if (b.completed) {
+          pctText.style.background = 'linear-gradient(90deg, #f59e0b, #fbbf24)';
+          pctText.style.webkitBackgroundClip = 'text';
+          pctText.style.webkitTextFillColor = 'transparent';
+          pctText.style.backgroundClip = 'text';
+        } else {
+          pctText.style.background = 'var(--gradient-primary)';
+          pctText.style.webkitBackgroundClip = 'text';
+          pctText.style.webkitTextFillColor = 'transparent';
+          pctText.style.backgroundClip = 'text';
+        }
+
+        const progressFill = document.getElementById('bm-progress-fill');
+        progressFill.style.width = '0%';
+        progressFill.className = 'badge-modal-progress-fill' + (b.completed ? ' gold' : '');
+        setTimeout(() => { progressFill.style.width = b.pct + '%'; }, 100);
+
+        const solvedPct = b.total > 0 ? ((b.solved / b.total) * 100).toFixed(1) : '0.0';
+        const unsolvedPct = b.total > 0 ? ((b.unsolved / b.total) * 100).toFixed(1) : '0.0';
+
+        document.getElementById('bm-solved-count').textContent = b.solved + ' / ' + b.total;
+        document.getElementById('bm-solved-pct').textContent = solvedPct + '%';
+        document.getElementById('bm-unsolved-count').textContent = b.unsolved + ' / ' + b.total;
+        document.getElementById('bm-unsolved-pct').textContent = unsolvedPct + '%';
+
+        const statusEl = document.getElementById('bm-status');
+        if (b.completed) {
+          statusEl.className = 'badge-modal-status completed';
+          statusEl.innerHTML = '🎉 Tebrikler! Bu rozeti başarıyla kazandınız!';
+        } else if (b.solved === 0) {
+          statusEl.className = 'badge-modal-status in-progress';
+          statusEl.innerHTML = `📋 Henüz başlamadınız. ${b.total} kelimeyi ilk seferde bilmeniz gerekiyor.`;
+        } else {
+          statusEl.className = 'badge-modal-status in-progress';
+          statusEl.innerHTML = `📋 ${b.unsolved} kelimeyi daha ilk seferde bilmeniz gerekiyor.`;
+        }
+
+        // Footnote for dynamic badges
+        const footnoteEl = document.getElementById('bm-footnote');
+        if (b.dynamic) {
+          footnoteEl.style.display = 'block';
+          footnoteEl.innerHTML = 'ℹ️ Bu rozete ait kelimeler sürekli güncellenmektedir. Tamamlamanıza rağmen yeni kelimeler eklendiğinde ilerlemeniz değişebilir.';
+        } else {
+          footnoteEl.style.display = 'none';
+        }
+
+        modalOverlay.classList.add('active');
+      }
+
+      function closeBadgeModal() {
+        modalOverlay.classList.remove('active');
+      }
+
+      modalClose.addEventListener('click', closeBadgeModal);
+      modalOverlay.addEventListener('click', (e) => {
+        if (e.target === modalOverlay) closeBadgeModal();
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeBadgeModal();
+      });
 
       // Check leaderboard rank
       if (targetProfile.leaderboard_visible) {

@@ -45,17 +45,22 @@ function switchTab(tab) {
   document.querySelectorAll('.admin-tab').forEach(t => t.classList.remove('active'));
   document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
   
+  const controls = document.getElementById('admin-controls');
+  
   if (tab === 'general') {
     document.querySelectorAll('.admin-tab')[0].classList.add('active');
     document.getElementById('tab-general').classList.add('active');
+    if (controls) controls.style.display = '';
     loadAnalytics();
   } else if (tab === 'users') {
     document.querySelectorAll('.admin-tab')[1].classList.add('active');
     document.getElementById('tab-users').classList.add('active');
+    if (controls) controls.style.display = 'none';
     loadUsers();
   } else {
     document.querySelectorAll('.admin-tab')[2].classList.add('active');
     document.getElementById('tab-updates').classList.add('active');
+    if (controls) controls.style.display = 'none';
     loadPatchNotes();
   }
 }
@@ -432,6 +437,52 @@ async function openUserModal(userObj) {
   document.getElementById('md-hard').textContent = hard;
   document.getElementById('md-unknown').textContent = unknown;
   document.getElementById('md-starred').textContent = starredCount;
+
+  // ===== BADGE PROGRESS FOR ADMIN MODAL =====
+  const ADMIN_BADGES = [
+    { id: 'kurs',    name: 'Kurs Ustası',             icon: '📚', minId: 1,    maxId: 410,  dynamic: false },
+    { id: 'genel',   name: 'Genel Bilgi Şampiyonu',   icon: '🌍', minId: 1001, maxId: null, dynamic: true, dataset: (typeof WORDS_A2_GENEL !== 'undefined' ? WORDS_A2_GENEL : []) },
+    { id: 'grammar', name: 'Gramer Kralı',             icon: '📝', minId: 5001, maxId: 5050, dynamic: false },
+    { id: 'deyimler',name: 'Deyim Ustası',             icon: '💬', minId: 6001, maxId: 6030, dynamic: false },
+    { id: 'times_am',name: 'A.M. Zaman Lordu',         icon: '🌅', minId: 2000, maxId: 2719, dynamic: false },
+    { id: 'times_pm',name: 'P.M. Zaman Lordu',         icon: '🌙', minId: 2720, maxId: 3439, dynamic: false }
+  ];
+
+  function getAdminBadgeIds(badge) {
+    if (badge.dynamic && badge.dataset) return badge.dataset.map(w => w.id);
+    const ids = [];
+    for (let i = badge.minId; i <= badge.maxId; i++) ids.push(i);
+    return ids;
+  }
+
+  const badgeContainer = document.getElementById('md-badges');
+  badgeContainer.innerHTML = '';
+
+  ADMIN_BADGES.forEach(badge => {
+    const ids = getAdminBadgeIds(badge);
+    const total = ids.length;
+    let solved = 0;
+    ids.forEach(id => { if (bestResults[id] === 'first_try') solved++; });
+    const pct = total > 0 ? Math.round((solved / total) * 100) : 0;
+    const isComplete = pct === 100;
+    const barColor = isComplete ? 'linear-gradient(90deg, #f59e0b, #fbbf24)' : 'linear-gradient(90deg, var(--accent-purple), var(--accent-blue))';
+    const borderCol = isComplete ? 'var(--accent-yellow)' : 'var(--glass-border)';
+    const pctColor = isComplete ? 'var(--accent-yellow)' : 'var(--text-primary)';
+
+    const box = document.createElement('div');
+    box.className = 'sgm-box';
+    box.style.cssText = `border: 1px solid ${borderCol}; padding: 12px 8px; text-align: center;`;
+    box.innerHTML = `
+      <div style="font-size: 1.3rem; margin-bottom: 4px;">${badge.icon}</div>
+      <div style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: 4px;">${badge.name}</div>
+      <div style="font-size: 1.1rem; font-weight: 700; color: ${pctColor}; margin-bottom: 6px;">${pct}%</div>
+      <div style="width:100%; height:4px; background:rgba(255,255,255,0.06); border-radius:4px; overflow:hidden;">
+        <div style="width:${pct}%; height:100%; background:${barColor}; border-radius:4px; transition: width 0.8s ease;"></div>
+      </div>
+      <div style="font-size: 0.65rem; color: var(--text-muted); margin-top: 4px;">${solved} / ${total}</div>
+    `;
+    badgeContainer.appendChild(box);
+  });
 
   // TIME SPENT BY ROUTES
   const timeContainer = document.getElementById('modal-time-list');

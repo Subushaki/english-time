@@ -25,7 +25,7 @@
       <p>Sistem verileri, kullanıcı analizleri ve gerçek zamanlı izleme merkezi.</p>
     </div>
 
-    <div class="admin-controls">
+    <div class="admin-controls" id="admin-controls">
       <div style="display: flex; gap: 15px; flex-wrap: wrap;">
         <div class="timestamp-filter">
           <select id="time-filter" onchange="loadAnalytics()">
@@ -162,6 +162,11 @@
         </div>
       </div>
 
+      <h3 style="margin-bottom: 10px;">🏆 Rozet İlerleme</h3>
+      <div class="stat-grid-mini" id="md-badges" style="grid-template-columns: repeat(2, 1fr);">
+        <!-- Badges will be dynamically populated -->
+      </div>
+
       <h3 style="margin-bottom: 10px;">Zaman Takibi (Sayfalarda Geçen Süre)</h3>
       <div style="background: rgba(0,0,0,0.3); border: 1px solid var(--glass-border); border-radius: var(--radius-sm); padding: 15px; max-height: 200px; overflow-y: auto;" id="modal-time-list">
         <!-- Rota Bazlı Süreler -->
@@ -173,6 +178,8 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/supabase-config.js"></script>
   <script src="js/auth.js"></script>
+  <script src="js/words-a2.js"></script>
+  <script src="js/words-a2-saatler-full.js"></script>
   <script src="js/admin.js"></script>
 </body>
 </html>
