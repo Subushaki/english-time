@@ -193,7 +193,8 @@ async function startQuiz(mode) {
     if (includeKnown) {
       window.location.href = url;
     } else {
-      window.location.href = url + `&excludeKnown=true`;
+      localStorage.setItem('exclude_quiz_ids', JSON.stringify(knownWordIds));
+      window.location.href = url + `&exclude=true`;
     }
   } else {
     window.location.href = url;
