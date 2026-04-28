@@ -1,0 +1,1445 @@
+ENGLISH TIME - A2 ZAMAN & SAATLER (1441 Kelime)
+====================================================
+
+No   | Saat  | English                              | Türkçe
+-----|-------|--------------------------------------|-----------------------------------------------
+1    | 00:00 | twelve o'clock a.m.                  | gece on iki
+3    | 00:01 | one minute past twelve a.m.          | gece on ikiyi bir geçiyor
+4    | 00:02 | two minutes past twelve a.m.         | gece on ikiyi iki geçiyor
+5    | 00:03 | three minutes past twelve a.m.       | gece on ikiyi üç geçiyor
+6    | 00:04 | four minutes past twelve a.m.        | gece on ikiyi dört geçiyor
+7    | 00:05 | five past twelve a.m.                | gece on ikiyi beş geçiyor
+8    | 00:06 | six minutes past twelve a.m.         | gece on ikiyi altı geçiyor
+9    | 00:07 | seven minutes past twelve a.m.       | gece on ikiyi yedi geçiyor
+10   | 00:08 | eight minutes past twelve a.m.       | gece on ikiyi sekiz geçiyor
+11   | 00:09 | nine minutes past twelve a.m.        | gece on ikiyi dokuz geçiyor
+12   | 00:10 | ten past twelve a.m.                 | gece on ikiyi on geçiyor
+13   | 00:11 | eleven minutes past twelve a.m.      | gece on ikiyi on bir geçiyor
+14   | 00:12 | twelve minutes past twelve a.m.      | gece on ikiyi on iki geçiyor
+15   | 00:13 | thirteen minutes past twelve a.m.    | gece on ikiyi on üç geçiyor
+16   | 00:14 | fourteen minutes past twelve a.m.    | gece on ikiyi on dört geçiyor
+17   | 00:15 | a quarter past twelve a.m.           | gece on ikiyi çeyrek geçiyor
+18   | 00:16 | sixteen minutes past twelve a.m.     | gece on ikiyi on altı geçiyor
+19   | 00:17 | seventeen minutes past twelve a.m.   | gece on ikiyi on yedi geçiyor
+20   | 00:18 | eighteen minutes past twelve a.m.    | gece on ikiyi on sekiz geçiyor
+21   | 00:19 | nineteen minutes past twelve a.m.    | gece on ikiyi on dokuz geçiyor
+22   | 00:20 | twenty past twelve a.m.              | gece on ikiyi yirmi geçiyor
+23   | 00:21 | twenty-one minutes past twelve a.m.  | gece on ikiyi yirmi bir geçiyor
+24   | 00:22 | twenty-two minutes past twelve a.m.  | gece on ikiyi yirmi iki geçiyor
+25   | 00:23 | twenty-three minutes past twelve a.m. | gece on ikiyi yirmi üç geçiyor
+26   | 00:24 | twenty-four minutes past twelve a.m. | gece on ikiyi yirmi dört geçiyor
+27   | 00:25 | twenty-five past twelve a.m.         | gece on ikiyi yirmi beş geçiyor
+28   | 00:26 | twenty-six minutes past twelve a.m.  | gece on ikiyi yirmi altı geçiyor
+29   | 00:27 | twenty-seven minutes past twelve a.m. | gece on ikiyi yirmi yedi geçiyor
+30   | 00:28 | twenty-eight minutes past twelve a.m. | gece on ikiyi yirmi sekiz geçiyor
+31   | 00:29 | twenty-nine minutes past twelve a.m. | gece on ikiyi yirmi dokuz geçiyor
+32   | 00:30 | half past twelve a.m.                | gece on iki buçuk
+33   | 00:31 | twenty-nine minutes to one a.m.      | gece bire yirmi dokuz var
+34   | 00:32 | twenty-eight minutes to one a.m.     | gece bire yirmi sekiz var
+35   | 00:33 | twenty-seven minutes to one a.m.     | gece bire yirmi yedi var
+36   | 00:34 | twenty-six minutes to one a.m.       | gece bire yirmi altı var
+37   | 00:35 | twenty-five to one a.m.              | gece bire yirmi beş var
+38   | 00:36 | twenty-four minutes to one a.m.      | gece bire yirmi dört var
+39   | 00:37 | twenty-three minutes to one a.m.     | gece bire yirmi üç var
+40   | 00:38 | twenty-two minutes to one a.m.       | gece bire yirmi iki var
+41   | 00:39 | twenty-one minutes to one a.m.       | gece bire yirmi bir var
+42   | 00:40 | twenty to one a.m.                   | gece bire yirmi var
+43   | 00:41 | nineteen minutes to one a.m.         | gece bire on dokuz var
+44   | 00:42 | eighteen minutes to one a.m.         | gece bire on sekiz var
+45   | 00:43 | seventeen minutes to one a.m.        | gece bire on yedi var
+46   | 00:44 | sixteen minutes to one a.m.          | gece bire on altı var
+47   | 00:45 | a quarter to one a.m.                | gece bire çeyrek var
+48   | 00:46 | fourteen minutes to one a.m.         | gece bire on dört var
+49   | 00:47 | thirteen minutes to one a.m.         | gece bire on üç var
+50   | 00:48 | twelve minutes to one a.m.           | gece bire on iki var
+51   | 00:49 | eleven minutes to one a.m.           | gece bire on bir var
+52   | 00:50 | ten to one a.m.                      | gece bire on var
+53   | 00:51 | nine minutes to one a.m.             | gece bire dokuz var
+54   | 00:52 | eight minutes to one a.m.            | gece bire sekiz var
+55   | 00:53 | seven minutes to one a.m.            | gece bire yedi var
+56   | 00:54 | six minutes to one a.m.              | gece bire altı var
+57   | 00:55 | five to one a.m.                     | gece bire beş var
+58   | 00:56 | four minutes to one a.m.             | gece bire dört var
+59   | 00:57 | three minutes to one a.m.            | gece bire üç var
+60   | 00:58 | two minutes to one a.m.              | gece bire iki var
+61   | 00:59 | one minute to one a.m.               | gece bire bir var
+62   | 01:00 | one o'clock a.m.                     | gece bir
+63   | 01:01 | one minute past one a.m.             | gece biri bir geçiyor
+64   | 01:02 | two minutes past one a.m.            | gece biri iki geçiyor
+65   | 01:03 | three minutes past one a.m.          | gece biri üç geçiyor
+66   | 01:04 | four minutes past one a.m.           | gece biri dört geçiyor
+67   | 01:05 | five past one a.m.                   | gece biri beş geçiyor
+68   | 01:06 | six minutes past one a.m.            | gece biri altı geçiyor
+69   | 01:07 | seven minutes past one a.m.          | gece biri yedi geçiyor
+70   | 01:08 | eight minutes past one a.m.          | gece biri sekiz geçiyor
+71   | 01:09 | nine minutes past one a.m.           | gece biri dokuz geçiyor
+72   | 01:10 | ten past one a.m.                    | gece biri on geçiyor
+73   | 01:11 | eleven minutes past one a.m.         | gece biri on bir geçiyor
+74   | 01:12 | twelve minutes past one a.m.         | gece biri on iki geçiyor
+75   | 01:13 | thirteen minutes past one a.m.       | gece biri on üç geçiyor
+76   | 01:14 | fourteen minutes past one a.m.       | gece biri on dört geçiyor
+77   | 01:15 | a quarter past one a.m.              | gece biri çeyrek geçiyor
+78   | 01:16 | sixteen minutes past one a.m.        | gece biri on altı geçiyor
+79   | 01:17 | seventeen minutes past one a.m.      | gece biri on yedi geçiyor
+80   | 01:18 | eighteen minutes past one a.m.       | gece biri on sekiz geçiyor
+81   | 01:19 | nineteen minutes past one a.m.       | gece biri on dokuz geçiyor
+82   | 01:20 | twenty past one a.m.                 | gece biri yirmi geçiyor
+83   | 01:21 | twenty-one minutes past one a.m.     | gece biri yirmi bir geçiyor
+84   | 01:22 | twenty-two minutes past one a.m.     | gece biri yirmi iki geçiyor
+85   | 01:23 | twenty-three minutes past one a.m.   | gece biri yirmi üç geçiyor
+86   | 01:24 | twenty-four minutes past one a.m.    | gece biri yirmi dört geçiyor
+87   | 01:25 | twenty-five past one a.m.            | gece biri yirmi beş geçiyor
+88   | 01:26 | twenty-six minutes past one a.m.     | gece biri yirmi altı geçiyor
+89   | 01:27 | twenty-seven minutes past one a.m.   | gece biri yirmi yedi geçiyor
+90   | 01:28 | twenty-eight minutes past one a.m.   | gece biri yirmi sekiz geçiyor
+91   | 01:29 | twenty-nine minutes past one a.m.    | gece biri yirmi dokuz geçiyor
+92   | 01:30 | half past one a.m.                   | gece bir buçuk
+93   | 01:31 | twenty-nine minutes to two a.m.      | gece ikiye yirmi dokuz var
+94   | 01:32 | twenty-eight minutes to two a.m.     | gece ikiye yirmi sekiz var
+95   | 01:33 | twenty-seven minutes to two a.m.     | gece ikiye yirmi yedi var
+96   | 01:34 | twenty-six minutes to two a.m.       | gece ikiye yirmi altı var
+97   | 01:35 | twenty-five to two a.m.              | gece ikiye yirmi beş var
+98   | 01:36 | twenty-four minutes to two a.m.      | gece ikiye yirmi dört var
+99   | 01:37 | twenty-three minutes to two a.m.     | gece ikiye yirmi üç var
+100  | 01:38 | twenty-two minutes to two a.m.       | gece ikiye yirmi iki var
+101  | 01:39 | twenty-one minutes to two a.m.       | gece ikiye yirmi bir var
+102  | 01:40 | twenty to two a.m.                   | gece ikiye yirmi var
+103  | 01:41 | nineteen minutes to two a.m.         | gece ikiye on dokuz var
+104  | 01:42 | eighteen minutes to two a.m.         | gece ikiye on sekiz var
+105  | 01:43 | seventeen minutes to two a.m.        | gece ikiye on yedi var
+106  | 01:44 | sixteen minutes to two a.m.          | gece ikiye on altı var
+107  | 01:45 | a quarter to two a.m.                | gece ikiye çeyrek var
+108  | 01:46 | fourteen minutes to two a.m.         | gece ikiye on dört var
+109  | 01:47 | thirteen minutes to two a.m.         | gece ikiye on üç var
+110  | 01:48 | twelve minutes to two a.m.           | gece ikiye on iki var
+111  | 01:49 | eleven minutes to two a.m.           | gece ikiye on bir var
+112  | 01:50 | ten to two a.m.                      | gece ikiye on var
+113  | 01:51 | nine minutes to two a.m.             | gece ikiye dokuz var
+114  | 01:52 | eight minutes to two a.m.            | gece ikiye sekiz var
+115  | 01:53 | seven minutes to two a.m.            | gece ikiye yedi var
+116  | 01:54 | six minutes to two a.m.              | gece ikiye altı var
+117  | 01:55 | five to two a.m.                     | gece ikiye beş var
+118  | 01:56 | four minutes to two a.m.             | gece ikiye dört var
+119  | 01:57 | three minutes to two a.m.            | gece ikiye üç var
+120  | 01:58 | two minutes to two a.m.              | gece ikiye iki var
+121  | 01:59 | one minute to two a.m.               | gece ikiye bir var
+122  | 02:00 | two o'clock a.m.                     | gece iki
+123  | 02:01 | one minute past two a.m.             | gece ikiyi bir geçiyor
+124  | 02:02 | two minutes past two a.m.            | gece ikiyi iki geçiyor
+125  | 02:03 | three minutes past two a.m.          | gece ikiyi üç geçiyor
+126  | 02:04 | four minutes past two a.m.           | gece ikiyi dört geçiyor
+127  | 02:05 | five past two a.m.                   | gece ikiyi beş geçiyor
+128  | 02:06 | six minutes past two a.m.            | gece ikiyi altı geçiyor
+129  | 02:07 | seven minutes past two a.m.          | gece ikiyi yedi geçiyor
+130  | 02:08 | eight minutes past two a.m.          | gece ikiyi sekiz geçiyor
+131  | 02:09 | nine minutes past two a.m.           | gece ikiyi dokuz geçiyor
+132  | 02:10 | ten past two a.m.                    | gece ikiyi on geçiyor
+133  | 02:11 | eleven minutes past two a.m.         | gece ikiyi on bir geçiyor
+134  | 02:12 | twelve minutes past two a.m.         | gece ikiyi on iki geçiyor
+135  | 02:13 | thirteen minutes past two a.m.       | gece ikiyi on üç geçiyor
+136  | 02:14 | fourteen minutes past two a.m.       | gece ikiyi on dört geçiyor
+137  | 02:15 | a quarter past two a.m.              | gece ikiyi çeyrek geçiyor
+138  | 02:16 | sixteen minutes past two a.m.        | gece ikiyi on altı geçiyor
+139  | 02:17 | seventeen minutes past two a.m.      | gece ikiyi on yedi geçiyor
+140  | 02:18 | eighteen minutes past two a.m.       | gece ikiyi on sekiz geçiyor
+141  | 02:19 | nineteen minutes past two a.m.       | gece ikiyi on dokuz geçiyor
+142  | 02:20 | twenty past two a.m.                 | gece ikiyi yirmi geçiyor
+143  | 02:21 | twenty-one minutes past two a.m.     | gece ikiyi yirmi bir geçiyor
+144  | 02:22 | twenty-two minutes past two a.m.     | gece ikiyi yirmi iki geçiyor
+145  | 02:23 | twenty-three minutes past two a.m.   | gece ikiyi yirmi üç geçiyor
+146  | 02:24 | twenty-four minutes past two a.m.    | gece ikiyi yirmi dört geçiyor
+147  | 02:25 | twenty-five past two a.m.            | gece ikiyi yirmi beş geçiyor
+148  | 02:26 | twenty-six minutes past two a.m.     | gece ikiyi yirmi altı geçiyor
+149  | 02:27 | twenty-seven minutes past two a.m.   | gece ikiyi yirmi yedi geçiyor
+150  | 02:28 | twenty-eight minutes past two a.m.   | gece ikiyi yirmi sekiz geçiyor
+151  | 02:29 | twenty-nine minutes past two a.m.    | gece ikiyi yirmi dokuz geçiyor
+152  | 02:30 | half past two a.m.                   | gece iki buçuk
+153  | 02:31 | twenty-nine minutes to three a.m.    | gece üçe yirmi dokuz var
+154  | 02:32 | twenty-eight minutes to three a.m.   | gece üçe yirmi sekiz var
+155  | 02:33 | twenty-seven minutes to three a.m.   | gece üçe yirmi yedi var
+156  | 02:34 | twenty-six minutes to three a.m.     | gece üçe yirmi altı var
+157  | 02:35 | twenty-five to three a.m.            | gece üçe yirmi beş var
+158  | 02:36 | twenty-four minutes to three a.m.    | gece üçe yirmi dört var
+159  | 02:37 | twenty-three minutes to three a.m.   | gece üçe yirmi üç var
+160  | 02:38 | twenty-two minutes to three a.m.     | gece üçe yirmi iki var
+161  | 02:39 | twenty-one minutes to three a.m.     | gece üçe yirmi bir var
+162  | 02:40 | twenty to three a.m.                 | gece üçe yirmi var
+163  | 02:41 | nineteen minutes to three a.m.       | gece üçe on dokuz var
+164  | 02:42 | eighteen minutes to three a.m.       | gece üçe on sekiz var
+165  | 02:43 | seventeen minutes to three a.m.      | gece üçe on yedi var
+166  | 02:44 | sixteen minutes to three a.m.        | gece üçe on altı var
+167  | 02:45 | a quarter to three a.m.              | gece üçe çeyrek var
+168  | 02:46 | fourteen minutes to three a.m.       | gece üçe on dört var
+169  | 02:47 | thirteen minutes to three a.m.       | gece üçe on üç var
+170  | 02:48 | twelve minutes to three a.m.         | gece üçe on iki var
+171  | 02:49 | eleven minutes to three a.m.         | gece üçe on bir var
+172  | 02:50 | ten to three a.m.                    | gece üçe on var
+173  | 02:51 | nine minutes to three a.m.           | gece üçe dokuz var
+174  | 02:52 | eight minutes to three a.m.          | gece üçe sekiz var
+175  | 02:53 | seven minutes to three a.m.          | gece üçe yedi var
+176  | 02:54 | six minutes to three a.m.            | gece üçe altı var
+177  | 02:55 | five to three a.m.                   | gece üçe beş var
+178  | 02:56 | four minutes to three a.m.           | gece üçe dört var
+179  | 02:57 | three minutes to three a.m.          | gece üçe üç var
+180  | 02:58 | two minutes to three a.m.            | gece üçe iki var
+181  | 02:59 | one minute to three a.m.             | gece üçe bir var
+182  | 03:00 | three o'clock a.m.                   | gece üç
+183  | 03:01 | one minute past three a.m.           | gece üçü bir geçiyor
+184  | 03:02 | two minutes past three a.m.          | gece üçü iki geçiyor
+185  | 03:03 | three minutes past three a.m.        | gece üçü üç geçiyor
+186  | 03:04 | four minutes past three a.m.         | gece üçü dört geçiyor
+187  | 03:05 | five past three a.m.                 | gece üçü beş geçiyor
+188  | 03:06 | six minutes past three a.m.          | gece üçü altı geçiyor
+189  | 03:07 | seven minutes past three a.m.        | gece üçü yedi geçiyor
+190  | 03:08 | eight minutes past three a.m.        | gece üçü sekiz geçiyor
+191  | 03:09 | nine minutes past three a.m.         | gece üçü dokuz geçiyor
+192  | 03:10 | ten past three a.m.                  | gece üçü on geçiyor
+193  | 03:11 | eleven minutes past three a.m.       | gece üçü on bir geçiyor
+194  | 03:12 | twelve minutes past three a.m.       | gece üçü on iki geçiyor
+195  | 03:13 | thirteen minutes past three a.m.     | gece üçü on üç geçiyor
+196  | 03:14 | fourteen minutes past three a.m.     | gece üçü on dört geçiyor
+197  | 03:15 | a quarter past three a.m.            | gece üçü çeyrek geçiyor
+198  | 03:16 | sixteen minutes past three a.m.      | gece üçü on altı geçiyor
+199  | 03:17 | seventeen minutes past three a.m.    | gece üçü on yedi geçiyor
+200  | 03:18 | eighteen minutes past three a.m.     | gece üçü on sekiz geçiyor
+201  | 03:19 | nineteen minutes past three a.m.     | gece üçü on dokuz geçiyor
+202  | 03:20 | twenty past three a.m.               | gece üçü yirmi geçiyor
+203  | 03:21 | twenty-one minutes past three a.m.   | gece üçü yirmi bir geçiyor
+204  | 03:22 | twenty-two minutes past three a.m.   | gece üçü yirmi iki geçiyor
+205  | 03:23 | twenty-three minutes past three a.m. | gece üçü yirmi üç geçiyor
+206  | 03:24 | twenty-four minutes past three a.m.  | gece üçü yirmi dört geçiyor
+207  | 03:25 | twenty-five past three a.m.          | gece üçü yirmi beş geçiyor
+208  | 03:26 | twenty-six minutes past three a.m.   | gece üçü yirmi altı geçiyor
+209  | 03:27 | twenty-seven minutes past three a.m. | gece üçü yirmi yedi geçiyor
+210  | 03:28 | twenty-eight minutes past three a.m. | gece üçü yirmi sekiz geçiyor
+211  | 03:29 | twenty-nine minutes past three a.m.  | gece üçü yirmi dokuz geçiyor
+212  | 03:30 | half past three a.m.                 | gece üç buçuk
+213  | 03:31 | twenty-nine minutes to four a.m.     | gece dörde yirmi dokuz var
+214  | 03:32 | twenty-eight minutes to four a.m.    | gece dörde yirmi sekiz var
+215  | 03:33 | twenty-seven minutes to four a.m.    | gece dörde yirmi yedi var
+216  | 03:34 | twenty-six minutes to four a.m.      | gece dörde yirmi altı var
+217  | 03:35 | twenty-five to four a.m.             | gece dörde yirmi beş var
+218  | 03:36 | twenty-four minutes to four a.m.     | gece dörde yirmi dört var
+219  | 03:37 | twenty-three minutes to four a.m.    | gece dörde yirmi üç var
+220  | 03:38 | twenty-two minutes to four a.m.      | gece dörde yirmi iki var
+221  | 03:39 | twenty-one minutes to four a.m.      | gece dörde yirmi bir var
+222  | 03:40 | twenty to four a.m.                  | gece dörde yirmi var
+223  | 03:41 | nineteen minutes to four a.m.        | gece dörde on dokuz var
+224  | 03:42 | eighteen minutes to four a.m.        | gece dörde on sekiz var
+225  | 03:43 | seventeen minutes to four a.m.       | gece dörde on yedi var
+226  | 03:44 | sixteen minutes to four a.m.         | gece dörde on altı var
+227  | 03:45 | a quarter to four a.m.               | gece dörde çeyrek var
+228  | 03:46 | fourteen minutes to four a.m.        | gece dörde on dört var
+229  | 03:47 | thirteen minutes to four a.m.        | gece dörde on üç var
+230  | 03:48 | twelve minutes to four a.m.          | gece dörde on iki var
+231  | 03:49 | eleven minutes to four a.m.          | gece dörde on bir var
+232  | 03:50 | ten to four a.m.                     | gece dörde on var
+233  | 03:51 | nine minutes to four a.m.            | gece dörde dokuz var
+234  | 03:52 | eight minutes to four a.m.           | gece dörde sekiz var
+235  | 03:53 | seven minutes to four a.m.           | gece dörde yedi var
+236  | 03:54 | six minutes to four a.m.             | gece dörde altı var
+237  | 03:55 | five to four a.m.                    | gece dörde beş var
+238  | 03:56 | four minutes to four a.m.            | gece dörde dört var
+239  | 03:57 | three minutes to four a.m.           | gece dörde üç var
+240  | 03:58 | two minutes to four a.m.             | gece dörde iki var
+241  | 03:59 | one minute to four a.m.              | gece dörde bir var
+242  | 04:00 | four o'clock a.m.                    | gece dört
+243  | 04:01 | one minute past four a.m.            | gece dördü bir geçiyor
+244  | 04:02 | two minutes past four a.m.           | gece dördü iki geçiyor
+245  | 04:03 | three minutes past four a.m.         | gece dördü üç geçiyor
+246  | 04:04 | four minutes past four a.m.          | gece dördü dört geçiyor
+247  | 04:05 | five past four a.m.                  | gece dördü beş geçiyor
+248  | 04:06 | six minutes past four a.m.           | gece dördü altı geçiyor
+249  | 04:07 | seven minutes past four a.m.         | gece dördü yedi geçiyor
+250  | 04:08 | eight minutes past four a.m.         | gece dördü sekiz geçiyor
+251  | 04:09 | nine minutes past four a.m.          | gece dördü dokuz geçiyor
+252  | 04:10 | ten past four a.m.                   | gece dördü on geçiyor
+253  | 04:11 | eleven minutes past four a.m.        | gece dördü on bir geçiyor
+254  | 04:12 | twelve minutes past four a.m.        | gece dördü on iki geçiyor
+255  | 04:13 | thirteen minutes past four a.m.      | gece dördü on üç geçiyor
+256  | 04:14 | fourteen minutes past four a.m.      | gece dördü on dört geçiyor
+257  | 04:15 | a quarter past four a.m.             | gece dördü çeyrek geçiyor
+258  | 04:16 | sixteen minutes past four a.m.       | gece dördü on altı geçiyor
+259  | 04:17 | seventeen minutes past four a.m.     | gece dördü on yedi geçiyor
+260  | 04:18 | eighteen minutes past four a.m.      | gece dördü on sekiz geçiyor
+261  | 04:19 | nineteen minutes past four a.m.      | gece dördü on dokuz geçiyor
+262  | 04:20 | twenty past four a.m.                | gece dördü yirmi geçiyor
+263  | 04:21 | twenty-one minutes past four a.m.    | gece dördü yirmi bir geçiyor
+264  | 04:22 | twenty-two minutes past four a.m.    | gece dördü yirmi iki geçiyor
+265  | 04:23 | twenty-three minutes past four a.m.  | gece dördü yirmi üç geçiyor
+266  | 04:24 | twenty-four minutes past four a.m.   | gece dördü yirmi dört geçiyor
+267  | 04:25 | twenty-five past four a.m.           | gece dördü yirmi beş geçiyor
+268  | 04:26 | twenty-six minutes past four a.m.    | gece dördü yirmi altı geçiyor
+269  | 04:27 | twenty-seven minutes past four a.m.  | gece dördü yirmi yedi geçiyor
+270  | 04:28 | twenty-eight minutes past four a.m.  | gece dördü yirmi sekiz geçiyor
+271  | 04:29 | twenty-nine minutes past four a.m.   | gece dördü yirmi dokuz geçiyor
+272  | 04:30 | half past four a.m.                  | gece dört buçuk
+273  | 04:31 | twenty-nine minutes to five a.m.     | gece beşe yirmi dokuz var
+274  | 04:32 | twenty-eight minutes to five a.m.    | gece beşe yirmi sekiz var
+275  | 04:33 | twenty-seven minutes to five a.m.    | gece beşe yirmi yedi var
+276  | 04:34 | twenty-six minutes to five a.m.      | gece beşe yirmi altı var
+277  | 04:35 | twenty-five to five a.m.             | gece beşe yirmi beş var
+278  | 04:36 | twenty-four minutes to five a.m.     | gece beşe yirmi dört var
+279  | 04:37 | twenty-three minutes to five a.m.    | gece beşe yirmi üç var
+280  | 04:38 | twenty-two minutes to five a.m.      | gece beşe yirmi iki var
+281  | 04:39 | twenty-one minutes to five a.m.      | gece beşe yirmi bir var
+282  | 04:40 | twenty to five a.m.                  | gece beşe yirmi var
+283  | 04:41 | nineteen minutes to five a.m.        | gece beşe on dokuz var
+284  | 04:42 | eighteen minutes to five a.m.        | gece beşe on sekiz var
+285  | 04:43 | seventeen minutes to five a.m.       | gece beşe on yedi var
+286  | 04:44 | sixteen minutes to five a.m.         | gece beşe on altı var
+287  | 04:45 | a quarter to five a.m.               | gece beşe çeyrek var
+288  | 04:46 | fourteen minutes to five a.m.        | gece beşe on dört var
+289  | 04:47 | thirteen minutes to five a.m.        | gece beşe on üç var
+290  | 04:48 | twelve minutes to five a.m.          | gece beşe on iki var
+291  | 04:49 | eleven minutes to five a.m.          | gece beşe on bir var
+292  | 04:50 | ten to five a.m.                     | gece beşe on var
+293  | 04:51 | nine minutes to five a.m.            | gece beşe dokuz var
+294  | 04:52 | eight minutes to five a.m.           | gece beşe sekiz var
+295  | 04:53 | seven minutes to five a.m.           | gece beşe yedi var
+296  | 04:54 | six minutes to five a.m.             | gece beşe altı var
+297  | 04:55 | five to five a.m.                    | gece beşe beş var
+298  | 04:56 | four minutes to five a.m.            | gece beşe dört var
+299  | 04:57 | three minutes to five a.m.           | gece beşe üç var
+300  | 04:58 | two minutes to five a.m.             | gece beşe iki var
+301  | 04:59 | one minute to five a.m.              | gece beşe bir var
+302  | 05:00 | five o'clock a.m.                    | sabah beş
+303  | 05:01 | one minute past five a.m.            | sabah beşi bir geçiyor
+304  | 05:02 | two minutes past five a.m.           | sabah beşi iki geçiyor
+305  | 05:03 | three minutes past five a.m.         | sabah beşi üç geçiyor
+306  | 05:04 | four minutes past five a.m.          | sabah beşi dört geçiyor
+307  | 05:05 | five past five a.m.                  | sabah beşi beş geçiyor
+308  | 05:06 | six minutes past five a.m.           | sabah beşi altı geçiyor
+309  | 05:07 | seven minutes past five a.m.         | sabah beşi yedi geçiyor
+310  | 05:08 | eight minutes past five a.m.         | sabah beşi sekiz geçiyor
+311  | 05:09 | nine minutes past five a.m.          | sabah beşi dokuz geçiyor
+312  | 05:10 | ten past five a.m.                   | sabah beşi on geçiyor
+313  | 05:11 | eleven minutes past five a.m.        | sabah beşi on bir geçiyor
+314  | 05:12 | twelve minutes past five a.m.        | sabah beşi on iki geçiyor
+315  | 05:13 | thirteen minutes past five a.m.      | sabah beşi on üç geçiyor
+316  | 05:14 | fourteen minutes past five a.m.      | sabah beşi on dört geçiyor
+317  | 05:15 | a quarter past five a.m.             | sabah beşi çeyrek geçiyor
+318  | 05:16 | sixteen minutes past five a.m.       | sabah beşi on altı geçiyor
+319  | 05:17 | seventeen minutes past five a.m.     | sabah beşi on yedi geçiyor
+320  | 05:18 | eighteen minutes past five a.m.      | sabah beşi on sekiz geçiyor
+321  | 05:19 | nineteen minutes past five a.m.      | sabah beşi on dokuz geçiyor
+322  | 05:20 | twenty past five a.m.                | sabah beşi yirmi geçiyor
+323  | 05:21 | twenty-one minutes past five a.m.    | sabah beşi yirmi bir geçiyor
+324  | 05:22 | twenty-two minutes past five a.m.    | sabah beşi yirmi iki geçiyor
+325  | 05:23 | twenty-three minutes past five a.m.  | sabah beşi yirmi üç geçiyor
+326  | 05:24 | twenty-four minutes past five a.m.   | sabah beşi yirmi dört geçiyor
+327  | 05:25 | twenty-five past five a.m.           | sabah beşi yirmi beş geçiyor
+328  | 05:26 | twenty-six minutes past five a.m.    | sabah beşi yirmi altı geçiyor
+329  | 05:27 | twenty-seven minutes past five a.m.  | sabah beşi yirmi yedi geçiyor
+330  | 05:28 | twenty-eight minutes past five a.m.  | sabah beşi yirmi sekiz geçiyor
+331  | 05:29 | twenty-nine minutes past five a.m.   | sabah beşi yirmi dokuz geçiyor
+332  | 05:30 | half past five a.m.                  | sabah beş buçuk
+333  | 05:31 | twenty-nine minutes to six a.m.      | sabah altıya yirmi dokuz var
+334  | 05:32 | twenty-eight minutes to six a.m.     | sabah altıya yirmi sekiz var
+335  | 05:33 | twenty-seven minutes to six a.m.     | sabah altıya yirmi yedi var
+336  | 05:34 | twenty-six minutes to six a.m.       | sabah altıya yirmi altı var
+337  | 05:35 | twenty-five to six a.m.              | sabah altıya yirmi beş var
+338  | 05:36 | twenty-four minutes to six a.m.      | sabah altıya yirmi dört var
+339  | 05:37 | twenty-three minutes to six a.m.     | sabah altıya yirmi üç var
+340  | 05:38 | twenty-two minutes to six a.m.       | sabah altıya yirmi iki var
+341  | 05:39 | twenty-one minutes to six a.m.       | sabah altıya yirmi bir var
+342  | 05:40 | twenty to six a.m.                   | sabah altıya yirmi var
+343  | 05:41 | nineteen minutes to six a.m.         | sabah altıya on dokuz var
+344  | 05:42 | eighteen minutes to six a.m.         | sabah altıya on sekiz var
+345  | 05:43 | seventeen minutes to six a.m.        | sabah altıya on yedi var
+346  | 05:44 | sixteen minutes to six a.m.          | sabah altıya on altı var
+347  | 05:45 | a quarter to six a.m.                | sabah altıya çeyrek var
+348  | 05:46 | fourteen minutes to six a.m.         | sabah altıya on dört var
+349  | 05:47 | thirteen minutes to six a.m.         | sabah altıya on üç var
+350  | 05:48 | twelve minutes to six a.m.           | sabah altıya on iki var
+351  | 05:49 | eleven minutes to six a.m.           | sabah altıya on bir var
+352  | 05:50 | ten to six a.m.                      | sabah altıya on var
+353  | 05:51 | nine minutes to six a.m.             | sabah altıya dokuz var
+354  | 05:52 | eight minutes to six a.m.            | sabah altıya sekiz var
+355  | 05:53 | seven minutes to six a.m.            | sabah altıya yedi var
+356  | 05:54 | six minutes to six a.m.              | sabah altıya altı var
+357  | 05:55 | five to six a.m.                     | sabah altıya beş var
+358  | 05:56 | four minutes to six a.m.             | sabah altıya dört var
+359  | 05:57 | three minutes to six a.m.            | sabah altıya üç var
+360  | 05:58 | two minutes to six a.m.              | sabah altıya iki var
+361  | 05:59 | one minute to six a.m.               | sabah altıya bir var
+362  | 06:00 | six o'clock a.m.                     | sabah altı
+363  | 06:01 | one minute past six a.m.             | sabah altıyı bir geçiyor
+364  | 06:02 | two minutes past six a.m.            | sabah altıyı iki geçiyor
+365  | 06:03 | three minutes past six a.m.          | sabah altıyı üç geçiyor
+366  | 06:04 | four minutes past six a.m.           | sabah altıyı dört geçiyor
+367  | 06:05 | five past six a.m.                   | sabah altıyı beş geçiyor
+368  | 06:06 | six minutes past six a.m.            | sabah altıyı altı geçiyor
+369  | 06:07 | seven minutes past six a.m.          | sabah altıyı yedi geçiyor
+370  | 06:08 | eight minutes past six a.m.          | sabah altıyı sekiz geçiyor
+371  | 06:09 | nine minutes past six a.m.           | sabah altıyı dokuz geçiyor
+372  | 06:10 | ten past six a.m.                    | sabah altıyı on geçiyor
+373  | 06:11 | eleven minutes past six a.m.         | sabah altıyı on bir geçiyor
+374  | 06:12 | twelve minutes past six a.m.         | sabah altıyı on iki geçiyor
+375  | 06:13 | thirteen minutes past six a.m.       | sabah altıyı on üç geçiyor
+376  | 06:14 | fourteen minutes past six a.m.       | sabah altıyı on dört geçiyor
+377  | 06:15 | a quarter past six a.m.              | sabah altıyı çeyrek geçiyor
+378  | 06:16 | sixteen minutes past six a.m.        | sabah altıyı on altı geçiyor
+379  | 06:17 | seventeen minutes past six a.m.      | sabah altıyı on yedi geçiyor
+380  | 06:18 | eighteen minutes past six a.m.       | sabah altıyı on sekiz geçiyor
+381  | 06:19 | nineteen minutes past six a.m.       | sabah altıyı on dokuz geçiyor
+382  | 06:20 | twenty past six a.m.                 | sabah altıyı yirmi geçiyor
+383  | 06:21 | twenty-one minutes past six a.m.     | sabah altıyı yirmi bir geçiyor
+384  | 06:22 | twenty-two minutes past six a.m.     | sabah altıyı yirmi iki geçiyor
+385  | 06:23 | twenty-three minutes past six a.m.   | sabah altıyı yirmi üç geçiyor
+386  | 06:24 | twenty-four minutes past six a.m.    | sabah altıyı yirmi dört geçiyor
+387  | 06:25 | twenty-five past six a.m.            | sabah altıyı yirmi beş geçiyor
+388  | 06:26 | twenty-six minutes past six a.m.     | sabah altıyı yirmi altı geçiyor
+389  | 06:27 | twenty-seven minutes past six a.m.   | sabah altıyı yirmi yedi geçiyor
+390  | 06:28 | twenty-eight minutes past six a.m.   | sabah altıyı yirmi sekiz geçiyor
+391  | 06:29 | twenty-nine minutes past six a.m.    | sabah altıyı yirmi dokuz geçiyor
+392  | 06:30 | half past six a.m.                   | sabah altı buçuk
+393  | 06:31 | twenty-nine minutes to seven a.m.    | sabah yediye yirmi dokuz var
+394  | 06:32 | twenty-eight minutes to seven a.m.   | sabah yediye yirmi sekiz var
+395  | 06:33 | twenty-seven minutes to seven a.m.   | sabah yediye yirmi yedi var
+396  | 06:34 | twenty-six minutes to seven a.m.     | sabah yediye yirmi altı var
+397  | 06:35 | twenty-five to seven a.m.            | sabah yediye yirmi beş var
+398  | 06:36 | twenty-four minutes to seven a.m.    | sabah yediye yirmi dört var
+399  | 06:37 | twenty-three minutes to seven a.m.   | sabah yediye yirmi üç var
+400  | 06:38 | twenty-two minutes to seven a.m.     | sabah yediye yirmi iki var
+401  | 06:39 | twenty-one minutes to seven a.m.     | sabah yediye yirmi bir var
+402  | 06:40 | twenty to seven a.m.                 | sabah yediye yirmi var
+403  | 06:41 | nineteen minutes to seven a.m.       | sabah yediye on dokuz var
+404  | 06:42 | eighteen minutes to seven a.m.       | sabah yediye on sekiz var
+405  | 06:43 | seventeen minutes to seven a.m.      | sabah yediye on yedi var
+406  | 06:44 | sixteen minutes to seven a.m.        | sabah yediye on altı var
+407  | 06:45 | a quarter to seven a.m.              | sabah yediye çeyrek var
+408  | 06:46 | fourteen minutes to seven a.m.       | sabah yediye on dört var
+409  | 06:47 | thirteen minutes to seven a.m.       | sabah yediye on üç var
+410  | 06:48 | twelve minutes to seven a.m.         | sabah yediye on iki var
+411  | 06:49 | eleven minutes to seven a.m.         | sabah yediye on bir var
+412  | 06:50 | ten to seven a.m.                    | sabah yediye on var
+413  | 06:51 | nine minutes to seven a.m.           | sabah yediye dokuz var
+414  | 06:52 | eight minutes to seven a.m.          | sabah yediye sekiz var
+415  | 06:53 | seven minutes to seven a.m.          | sabah yediye yedi var
+416  | 06:54 | six minutes to seven a.m.            | sabah yediye altı var
+417  | 06:55 | five to seven a.m.                   | sabah yediye beş var
+418  | 06:56 | four minutes to seven a.m.           | sabah yediye dört var
+419  | 06:57 | three minutes to seven a.m.          | sabah yediye üç var
+420  | 06:58 | two minutes to seven a.m.            | sabah yediye iki var
+421  | 06:59 | one minute to seven a.m.             | sabah yediye bir var
+422  | 07:00 | seven o'clock a.m.                   | sabah yedi
+423  | 07:01 | one minute past seven a.m.           | sabah yediyi bir geçiyor
+424  | 07:02 | two minutes past seven a.m.          | sabah yediyi iki geçiyor
+425  | 07:03 | three minutes past seven a.m.        | sabah yediyi üç geçiyor
+426  | 07:04 | four minutes past seven a.m.         | sabah yediyi dört geçiyor
+427  | 07:05 | five past seven a.m.                 | sabah yediyi beş geçiyor
+428  | 07:06 | six minutes past seven a.m.          | sabah yediyi altı geçiyor
+429  | 07:07 | seven minutes past seven a.m.        | sabah yediyi yedi geçiyor
+430  | 07:08 | eight minutes past seven a.m.        | sabah yediyi sekiz geçiyor
+431  | 07:09 | nine minutes past seven a.m.         | sabah yediyi dokuz geçiyor
+432  | 07:10 | ten past seven a.m.                  | sabah yediyi on geçiyor
+433  | 07:11 | eleven minutes past seven a.m.       | sabah yediyi on bir geçiyor
+434  | 07:12 | twelve minutes past seven a.m.       | sabah yediyi on iki geçiyor
+435  | 07:13 | thirteen minutes past seven a.m.     | sabah yediyi on üç geçiyor
+436  | 07:14 | fourteen minutes past seven a.m.     | sabah yediyi on dört geçiyor
+437  | 07:15 | a quarter past seven a.m.            | sabah yediyi çeyrek geçiyor
+438  | 07:16 | sixteen minutes past seven a.m.      | sabah yediyi on altı geçiyor
+439  | 07:17 | seventeen minutes past seven a.m.    | sabah yediyi on yedi geçiyor
+440  | 07:18 | eighteen minutes past seven a.m.     | sabah yediyi on sekiz geçiyor
+441  | 07:19 | nineteen minutes past seven a.m.     | sabah yediyi on dokuz geçiyor
+442  | 07:20 | twenty past seven a.m.               | sabah yediyi yirmi geçiyor
+443  | 07:21 | twenty-one minutes past seven a.m.   | sabah yediyi yirmi bir geçiyor
+444  | 07:22 | twenty-two minutes past seven a.m.   | sabah yediyi yirmi iki geçiyor
+445  | 07:23 | twenty-three minutes past seven a.m. | sabah yediyi yirmi üç geçiyor
+446  | 07:24 | twenty-four minutes past seven a.m.  | sabah yediyi yirmi dört geçiyor
+447  | 07:25 | twenty-five past seven a.m.          | sabah yediyi yirmi beş geçiyor
+448  | 07:26 | twenty-six minutes past seven a.m.   | sabah yediyi yirmi altı geçiyor
+449  | 07:27 | twenty-seven minutes past seven a.m. | sabah yediyi yirmi yedi geçiyor
+450  | 07:28 | twenty-eight minutes past seven a.m. | sabah yediyi yirmi sekiz geçiyor
+451  | 07:29 | twenty-nine minutes past seven a.m.  | sabah yediyi yirmi dokuz geçiyor
+452  | 07:30 | half past seven a.m.                 | sabah yedi buçuk
+453  | 07:31 | twenty-nine minutes to eight a.m.    | sabah sekize yirmi dokuz var
+454  | 07:32 | twenty-eight minutes to eight a.m.   | sabah sekize yirmi sekiz var
+455  | 07:33 | twenty-seven minutes to eight a.m.   | sabah sekize yirmi yedi var
+456  | 07:34 | twenty-six minutes to eight a.m.     | sabah sekize yirmi altı var
+457  | 07:35 | twenty-five to eight a.m.            | sabah sekize yirmi beş var
+458  | 07:36 | twenty-four minutes to eight a.m.    | sabah sekize yirmi dört var
+459  | 07:37 | twenty-three minutes to eight a.m.   | sabah sekize yirmi üç var
+460  | 07:38 | twenty-two minutes to eight a.m.     | sabah sekize yirmi iki var
+461  | 07:39 | twenty-one minutes to eight a.m.     | sabah sekize yirmi bir var
+462  | 07:40 | twenty to eight a.m.                 | sabah sekize yirmi var
+463  | 07:41 | nineteen minutes to eight a.m.       | sabah sekize on dokuz var
+464  | 07:42 | eighteen minutes to eight a.m.       | sabah sekize on sekiz var
+465  | 07:43 | seventeen minutes to eight a.m.      | sabah sekize on yedi var
+466  | 07:44 | sixteen minutes to eight a.m.        | sabah sekize on altı var
+467  | 07:45 | a quarter to eight a.m.              | sabah sekize çeyrek var
+468  | 07:46 | fourteen minutes to eight a.m.       | sabah sekize on dört var
+469  | 07:47 | thirteen minutes to eight a.m.       | sabah sekize on üç var
+470  | 07:48 | twelve minutes to eight a.m.         | sabah sekize on iki var
+471  | 07:49 | eleven minutes to eight a.m.         | sabah sekize on bir var
+472  | 07:50 | ten to eight a.m.                    | sabah sekize on var
+473  | 07:51 | nine minutes to eight a.m.           | sabah sekize dokuz var
+474  | 07:52 | eight minutes to eight a.m.          | sabah sekize sekiz var
+475  | 07:53 | seven minutes to eight a.m.          | sabah sekize yedi var
+476  | 07:54 | six minutes to eight a.m.            | sabah sekize altı var
+477  | 07:55 | five to eight a.m.                   | sabah sekize beş var
+478  | 07:56 | four minutes to eight a.m.           | sabah sekize dört var
+479  | 07:57 | three minutes to eight a.m.          | sabah sekize üç var
+480  | 07:58 | two minutes to eight a.m.            | sabah sekize iki var
+481  | 07:59 | one minute to eight a.m.             | sabah sekize bir var
+482  | 08:00 | eight o'clock a.m.                   | sabah sekiz
+483  | 08:01 | one minute past eight a.m.           | sabah sekizi bir geçiyor
+484  | 08:02 | two minutes past eight a.m.          | sabah sekizi iki geçiyor
+485  | 08:03 | three minutes past eight a.m.        | sabah sekizi üç geçiyor
+486  | 08:04 | four minutes past eight a.m.         | sabah sekizi dört geçiyor
+487  | 08:05 | five past eight a.m.                 | sabah sekizi beş geçiyor
+488  | 08:06 | six minutes past eight a.m.          | sabah sekizi altı geçiyor
+489  | 08:07 | seven minutes past eight a.m.        | sabah sekizi yedi geçiyor
+490  | 08:08 | eight minutes past eight a.m.        | sabah sekizi sekiz geçiyor
+491  | 08:09 | nine minutes past eight a.m.         | sabah sekizi dokuz geçiyor
+492  | 08:10 | ten past eight a.m.                  | sabah sekizi on geçiyor
+493  | 08:11 | eleven minutes past eight a.m.       | sabah sekizi on bir geçiyor
+494  | 08:12 | twelve minutes past eight a.m.       | sabah sekizi on iki geçiyor
+495  | 08:13 | thirteen minutes past eight a.m.     | sabah sekizi on üç geçiyor
+496  | 08:14 | fourteen minutes past eight a.m.     | sabah sekizi on dört geçiyor
+497  | 08:15 | a quarter past eight a.m.            | sabah sekizi çeyrek geçiyor
+498  | 08:16 | sixteen minutes past eight a.m.      | sabah sekizi on altı geçiyor
+499  | 08:17 | seventeen minutes past eight a.m.    | sabah sekizi on yedi geçiyor
+500  | 08:18 | eighteen minutes past eight a.m.     | sabah sekizi on sekiz geçiyor
+501  | 08:19 | nineteen minutes past eight a.m.     | sabah sekizi on dokuz geçiyor
+502  | 08:20 | twenty past eight a.m.               | sabah sekizi yirmi geçiyor
+503  | 08:21 | twenty-one minutes past eight a.m.   | sabah sekizi yirmi bir geçiyor
+504  | 08:22 | twenty-two minutes past eight a.m.   | sabah sekizi yirmi iki geçiyor
+505  | 08:23 | twenty-three minutes past eight a.m. | sabah sekizi yirmi üç geçiyor
+506  | 08:24 | twenty-four minutes past eight a.m.  | sabah sekizi yirmi dört geçiyor
+507  | 08:25 | twenty-five past eight a.m.          | sabah sekizi yirmi beş geçiyor
+508  | 08:26 | twenty-six minutes past eight a.m.   | sabah sekizi yirmi altı geçiyor
+509  | 08:27 | twenty-seven minutes past eight a.m. | sabah sekizi yirmi yedi geçiyor
+510  | 08:28 | twenty-eight minutes past eight a.m. | sabah sekizi yirmi sekiz geçiyor
+511  | 08:29 | twenty-nine minutes past eight a.m.  | sabah sekizi yirmi dokuz geçiyor
+512  | 08:30 | half past eight a.m.                 | sabah sekiz buçuk
+513  | 08:31 | twenty-nine minutes to nine a.m.     | sabah dokuza yirmi dokuz var
+514  | 08:32 | twenty-eight minutes to nine a.m.    | sabah dokuza yirmi sekiz var
+515  | 08:33 | twenty-seven minutes to nine a.m.    | sabah dokuza yirmi yedi var
+516  | 08:34 | twenty-six minutes to nine a.m.      | sabah dokuza yirmi altı var
+517  | 08:35 | twenty-five to nine a.m.             | sabah dokuza yirmi beş var
+518  | 08:36 | twenty-four minutes to nine a.m.     | sabah dokuza yirmi dört var
+519  | 08:37 | twenty-three minutes to nine a.m.    | sabah dokuza yirmi üç var
+520  | 08:38 | twenty-two minutes to nine a.m.      | sabah dokuza yirmi iki var
+521  | 08:39 | twenty-one minutes to nine a.m.      | sabah dokuza yirmi bir var
+522  | 08:40 | twenty to nine a.m.                  | sabah dokuza yirmi var
+523  | 08:41 | nineteen minutes to nine a.m.        | sabah dokuza on dokuz var
+524  | 08:42 | eighteen minutes to nine a.m.        | sabah dokuza on sekiz var
+525  | 08:43 | seventeen minutes to nine a.m.       | sabah dokuza on yedi var
+526  | 08:44 | sixteen minutes to nine a.m.         | sabah dokuza on altı var
+527  | 08:45 | a quarter to nine a.m.               | sabah dokuza çeyrek var
+528  | 08:46 | fourteen minutes to nine a.m.        | sabah dokuza on dört var
+529  | 08:47 | thirteen minutes to nine a.m.        | sabah dokuza on üç var
+530  | 08:48 | twelve minutes to nine a.m.          | sabah dokuza on iki var
+531  | 08:49 | eleven minutes to nine a.m.          | sabah dokuza on bir var
+532  | 08:50 | ten to nine a.m.                     | sabah dokuza on var
+533  | 08:51 | nine minutes to nine a.m.            | sabah dokuza dokuz var
+534  | 08:52 | eight minutes to nine a.m.           | sabah dokuza sekiz var
+535  | 08:53 | seven minutes to nine a.m.           | sabah dokuza yedi var
+536  | 08:54 | six minutes to nine a.m.             | sabah dokuza altı var
+537  | 08:55 | five to nine a.m.                    | sabah dokuza beş var
+538  | 08:56 | four minutes to nine a.m.            | sabah dokuza dört var
+539  | 08:57 | three minutes to nine a.m.           | sabah dokuza üç var
+540  | 08:58 | two minutes to nine a.m.             | sabah dokuza iki var
+541  | 08:59 | one minute to nine a.m.              | sabah dokuza bir var
+542  | 09:00 | nine o'clock a.m.                    | sabah dokuz
+543  | 09:01 | one minute past nine a.m.            | sabah dokuzu bir geçiyor
+544  | 09:02 | two minutes past nine a.m.           | sabah dokuzu iki geçiyor
+545  | 09:03 | three minutes past nine a.m.         | sabah dokuzu üç geçiyor
+546  | 09:04 | four minutes past nine a.m.          | sabah dokuzu dört geçiyor
+547  | 09:05 | five past nine a.m.                  | sabah dokuzu beş geçiyor
+548  | 09:06 | six minutes past nine a.m.           | sabah dokuzu altı geçiyor
+549  | 09:07 | seven minutes past nine a.m.         | sabah dokuzu yedi geçiyor
+550  | 09:08 | eight minutes past nine a.m.         | sabah dokuzu sekiz geçiyor
+551  | 09:09 | nine minutes past nine a.m.          | sabah dokuzu dokuz geçiyor
+552  | 09:10 | ten past nine a.m.                   | sabah dokuzu on geçiyor
+553  | 09:11 | eleven minutes past nine a.m.        | sabah dokuzu on bir geçiyor
+554  | 09:12 | twelve minutes past nine a.m.        | sabah dokuzu on iki geçiyor
+555  | 09:13 | thirteen minutes past nine a.m.      | sabah dokuzu on üç geçiyor
+556  | 09:14 | fourteen minutes past nine a.m.      | sabah dokuzu on dört geçiyor
+557  | 09:15 | a quarter past nine a.m.             | sabah dokuzu çeyrek geçiyor
+558  | 09:16 | sixteen minutes past nine a.m.       | sabah dokuzu on altı geçiyor
+559  | 09:17 | seventeen minutes past nine a.m.     | sabah dokuzu on yedi geçiyor
+560  | 09:18 | eighteen minutes past nine a.m.      | sabah dokuzu on sekiz geçiyor
+561  | 09:19 | nineteen minutes past nine a.m.      | sabah dokuzu on dokuz geçiyor
+562  | 09:20 | twenty past nine a.m.                | sabah dokuzu yirmi geçiyor
+563  | 09:21 | twenty-one minutes past nine a.m.    | sabah dokuzu yirmi bir geçiyor
+564  | 09:22 | twenty-two minutes past nine a.m.    | sabah dokuzu yirmi iki geçiyor
+565  | 09:23 | twenty-three minutes past nine a.m.  | sabah dokuzu yirmi üç geçiyor
+566  | 09:24 | twenty-four minutes past nine a.m.   | sabah dokuzu yirmi dört geçiyor
+567  | 09:25 | twenty-five past nine a.m.           | sabah dokuzu yirmi beş geçiyor
+568  | 09:26 | twenty-six minutes past nine a.m.    | sabah dokuzu yirmi altı geçiyor
+569  | 09:27 | twenty-seven minutes past nine a.m.  | sabah dokuzu yirmi yedi geçiyor
+570  | 09:28 | twenty-eight minutes past nine a.m.  | sabah dokuzu yirmi sekiz geçiyor
+571  | 09:29 | twenty-nine minutes past nine a.m.   | sabah dokuzu yirmi dokuz geçiyor
+572  | 09:30 | half past nine a.m.                  | sabah dokuz buçuk
+573  | 09:31 | twenty-nine minutes to ten a.m.      | sabah ona yirmi dokuz var
+574  | 09:32 | twenty-eight minutes to ten a.m.     | sabah ona yirmi sekiz var
+575  | 09:33 | twenty-seven minutes to ten a.m.     | sabah ona yirmi yedi var
+576  | 09:34 | twenty-six minutes to ten a.m.       | sabah ona yirmi altı var
+577  | 09:35 | twenty-five to ten a.m.              | sabah ona yirmi beş var
+578  | 09:36 | twenty-four minutes to ten a.m.      | sabah ona yirmi dört var
+579  | 09:37 | twenty-three minutes to ten a.m.     | sabah ona yirmi üç var
+580  | 09:38 | twenty-two minutes to ten a.m.       | sabah ona yirmi iki var
+581  | 09:39 | twenty-one minutes to ten a.m.       | sabah ona yirmi bir var
+582  | 09:40 | twenty to ten a.m.                   | sabah ona yirmi var
+583  | 09:41 | nineteen minutes to ten a.m.         | sabah ona on dokuz var
+584  | 09:42 | eighteen minutes to ten a.m.         | sabah ona on sekiz var
+585  | 09:43 | seventeen minutes to ten a.m.        | sabah ona on yedi var
+586  | 09:44 | sixteen minutes to ten a.m.          | sabah ona on altı var
+587  | 09:45 | a quarter to ten a.m.                | sabah ona çeyrek var
+588  | 09:46 | fourteen minutes to ten a.m.         | sabah ona on dört var
+589  | 09:47 | thirteen minutes to ten a.m.         | sabah ona on üç var
+590  | 09:48 | twelve minutes to ten a.m.           | sabah ona on iki var
+591  | 09:49 | eleven minutes to ten a.m.           | sabah ona on bir var
+592  | 09:50 | ten to ten a.m.                      | sabah ona on var
+593  | 09:51 | nine minutes to ten a.m.             | sabah ona dokuz var
+594  | 09:52 | eight minutes to ten a.m.            | sabah ona sekiz var
+595  | 09:53 | seven minutes to ten a.m.            | sabah ona yedi var
+596  | 09:54 | six minutes to ten a.m.              | sabah ona altı var
+597  | 09:55 | five to ten a.m.                     | sabah ona beş var
+598  | 09:56 | four minutes to ten a.m.             | sabah ona dört var
+599  | 09:57 | three minutes to ten a.m.            | sabah ona üç var
+600  | 09:58 | two minutes to ten a.m.              | sabah ona iki var
+601  | 09:59 | one minute to ten a.m.               | sabah ona bir var
+602  | 10:00 | ten o'clock a.m.                     | sabah on
+603  | 10:01 | one minute past ten a.m.             | sabah onu bir geçiyor
+604  | 10:02 | two minutes past ten a.m.            | sabah onu iki geçiyor
+605  | 10:03 | three minutes past ten a.m.          | sabah onu üç geçiyor
+606  | 10:04 | four minutes past ten a.m.           | sabah onu dört geçiyor
+607  | 10:05 | five past ten a.m.                   | sabah onu beş geçiyor
+608  | 10:06 | six minutes past ten a.m.            | sabah onu altı geçiyor
+609  | 10:07 | seven minutes past ten a.m.          | sabah onu yedi geçiyor
+610  | 10:08 | eight minutes past ten a.m.          | sabah onu sekiz geçiyor
+611  | 10:09 | nine minutes past ten a.m.           | sabah onu dokuz geçiyor
+612  | 10:10 | ten past ten a.m.                    | sabah onu on geçiyor
+613  | 10:11 | eleven minutes past ten a.m.         | sabah onu on bir geçiyor
+614  | 10:12 | twelve minutes past ten a.m.         | sabah onu on iki geçiyor
+615  | 10:13 | thirteen minutes past ten a.m.       | sabah onu on üç geçiyor
+616  | 10:14 | fourteen minutes past ten a.m.       | sabah onu on dört geçiyor
+617  | 10:15 | a quarter past ten a.m.              | sabah onu çeyrek geçiyor
+618  | 10:16 | sixteen minutes past ten a.m.        | sabah onu on altı geçiyor
+619  | 10:17 | seventeen minutes past ten a.m.      | sabah onu on yedi geçiyor
+620  | 10:18 | eighteen minutes past ten a.m.       | sabah onu on sekiz geçiyor
+621  | 10:19 | nineteen minutes past ten a.m.       | sabah onu on dokuz geçiyor
+622  | 10:20 | twenty past ten a.m.                 | sabah onu yirmi geçiyor
+623  | 10:21 | twenty-one minutes past ten a.m.     | sabah onu yirmi bir geçiyor
+624  | 10:22 | twenty-two minutes past ten a.m.     | sabah onu yirmi iki geçiyor
+625  | 10:23 | twenty-three minutes past ten a.m.   | sabah onu yirmi üç geçiyor
+626  | 10:24 | twenty-four minutes past ten a.m.    | sabah onu yirmi dört geçiyor
+627  | 10:25 | twenty-five past ten a.m.            | sabah onu yirmi beş geçiyor
+628  | 10:26 | twenty-six minutes past ten a.m.     | sabah onu yirmi altı geçiyor
+629  | 10:27 | twenty-seven minutes past ten a.m.   | sabah onu yirmi yedi geçiyor
+630  | 10:28 | twenty-eight minutes past ten a.m.   | sabah onu yirmi sekiz geçiyor
+631  | 10:29 | twenty-nine minutes past ten a.m.    | sabah onu yirmi dokuz geçiyor
+632  | 10:30 | half past ten a.m.                   | sabah on buçuk
+633  | 10:31 | twenty-nine minutes to eleven a.m.   | sabah on bire yirmi dokuz var
+634  | 10:32 | twenty-eight minutes to eleven a.m.  | sabah on bire yirmi sekiz var
+635  | 10:33 | twenty-seven minutes to eleven a.m.  | sabah on bire yirmi yedi var
+636  | 10:34 | twenty-six minutes to eleven a.m.    | sabah on bire yirmi altı var
+637  | 10:35 | twenty-five to eleven a.m.           | sabah on bire yirmi beş var
+638  | 10:36 | twenty-four minutes to eleven a.m.   | sabah on bire yirmi dört var
+639  | 10:37 | twenty-three minutes to eleven a.m.  | sabah on bire yirmi üç var
+640  | 10:38 | twenty-two minutes to eleven a.m.    | sabah on bire yirmi iki var
+641  | 10:39 | twenty-one minutes to eleven a.m.    | sabah on bire yirmi bir var
+642  | 10:40 | twenty to eleven a.m.                | sabah on bire yirmi var
+643  | 10:41 | nineteen minutes to eleven a.m.      | sabah on bire on dokuz var
+644  | 10:42 | eighteen minutes to eleven a.m.      | sabah on bire on sekiz var
+645  | 10:43 | seventeen minutes to eleven a.m.     | sabah on bire on yedi var
+646  | 10:44 | sixteen minutes to eleven a.m.       | sabah on bire on altı var
+647  | 10:45 | a quarter to eleven a.m.             | sabah on bire çeyrek var
+648  | 10:46 | fourteen minutes to eleven a.m.      | sabah on bire on dört var
+649  | 10:47 | thirteen minutes to eleven a.m.      | sabah on bire on üç var
+650  | 10:48 | twelve minutes to eleven a.m.        | sabah on bire on iki var
+651  | 10:49 | eleven minutes to eleven a.m.        | sabah on bire on bir var
+652  | 10:50 | ten to eleven a.m.                   | sabah on bire on var
+653  | 10:51 | nine minutes to eleven a.m.          | sabah on bire dokuz var
+654  | 10:52 | eight minutes to eleven a.m.         | sabah on bire sekiz var
+655  | 10:53 | seven minutes to eleven a.m.         | sabah on bire yedi var
+656  | 10:54 | six minutes to eleven a.m.           | sabah on bire altı var
+657  | 10:55 | five to eleven a.m.                  | sabah on bire beş var
+658  | 10:56 | four minutes to eleven a.m.          | sabah on bire dört var
+659  | 10:57 | three minutes to eleven a.m.         | sabah on bire üç var
+660  | 10:58 | two minutes to eleven a.m.           | sabah on bire iki var
+661  | 10:59 | one minute to eleven a.m.            | sabah on bire bir var
+662  | 11:00 | eleven o'clock a.m.                  | sabah on bir
+663  | 11:01 | one minute past eleven a.m.          | sabah on biri bir geçiyor
+664  | 11:02 | two minutes past eleven a.m.         | sabah on biri iki geçiyor
+665  | 11:03 | three minutes past eleven a.m.       | sabah on biri üç geçiyor
+666  | 11:04 | four minutes past eleven a.m.        | sabah on biri dört geçiyor
+667  | 11:05 | five past eleven a.m.                | sabah on biri beş geçiyor
+668  | 11:06 | six minutes past eleven a.m.         | sabah on biri altı geçiyor
+669  | 11:07 | seven minutes past eleven a.m.       | sabah on biri yedi geçiyor
+670  | 11:08 | eight minutes past eleven a.m.       | sabah on biri sekiz geçiyor
+671  | 11:09 | nine minutes past eleven a.m.        | sabah on biri dokuz geçiyor
+672  | 11:10 | ten past eleven a.m.                 | sabah on biri on geçiyor
+673  | 11:11 | eleven minutes past eleven a.m.      | sabah on biri on bir geçiyor
+674  | 11:12 | twelve minutes past eleven a.m.      | sabah on biri on iki geçiyor
+675  | 11:13 | thirteen minutes past eleven a.m.    | sabah on biri on üç geçiyor
+676  | 11:14 | fourteen minutes past eleven a.m.    | sabah on biri on dört geçiyor
+677  | 11:15 | a quarter past eleven a.m.           | sabah on biri çeyrek geçiyor
+678  | 11:16 | sixteen minutes past eleven a.m.     | sabah on biri on altı geçiyor
+679  | 11:17 | seventeen minutes past eleven a.m.   | sabah on biri on yedi geçiyor
+680  | 11:18 | eighteen minutes past eleven a.m.    | sabah on biri on sekiz geçiyor
+681  | 11:19 | nineteen minutes past eleven a.m.    | sabah on biri on dokuz geçiyor
+682  | 11:20 | twenty past eleven a.m.              | sabah on biri yirmi geçiyor
+683  | 11:21 | twenty-one minutes past eleven a.m.  | sabah on biri yirmi bir geçiyor
+684  | 11:22 | twenty-two minutes past eleven a.m.  | sabah on biri yirmi iki geçiyor
+685  | 11:23 | twenty-three minutes past eleven a.m. | sabah on biri yirmi üç geçiyor
+686  | 11:24 | twenty-four minutes past eleven a.m. | sabah on biri yirmi dört geçiyor
+687  | 11:25 | twenty-five past eleven a.m.         | sabah on biri yirmi beş geçiyor
+688  | 11:26 | twenty-six minutes past eleven a.m.  | sabah on biri yirmi altı geçiyor
+689  | 11:27 | twenty-seven minutes past eleven a.m. | sabah on biri yirmi yedi geçiyor
+690  | 11:28 | twenty-eight minutes past eleven a.m. | sabah on biri yirmi sekiz geçiyor
+691  | 11:29 | twenty-nine minutes past eleven a.m. | sabah on biri yirmi dokuz geçiyor
+692  | 11:30 | half past eleven a.m.                | sabah on bir buçuk
+693  | 11:31 | twenty-nine minutes to twelve a.m.   | öğlen on ikiye yirmi dokuz var
+694  | 11:32 | twenty-eight minutes to twelve a.m.  | öğlen on ikiye yirmi sekiz var
+695  | 11:33 | twenty-seven minutes to twelve a.m.  | öğlen on ikiye yirmi yedi var
+696  | 11:34 | twenty-six minutes to twelve a.m.    | öğlen on ikiye yirmi altı var
+697  | 11:35 | twenty-five to twelve a.m.           | öğlen on ikiye yirmi beş var
+698  | 11:36 | twenty-four minutes to twelve a.m.   | öğlen on ikiye yirmi dört var
+699  | 11:37 | twenty-three minutes to twelve a.m.  | öğlen on ikiye yirmi üç var
+700  | 11:38 | twenty-two minutes to twelve a.m.    | öğlen on ikiye yirmi iki var
+701  | 11:39 | twenty-one minutes to twelve a.m.    | öğlen on ikiye yirmi bir var
+702  | 11:40 | twenty to twelve a.m.                | öğlen on ikiye yirmi var
+703  | 11:41 | nineteen minutes to twelve a.m.      | öğlen on ikiye on dokuz var
+704  | 11:42 | eighteen minutes to twelve a.m.      | öğlen on ikiye on sekiz var
+705  | 11:43 | seventeen minutes to twelve a.m.     | öğlen on ikiye on yedi var
+706  | 11:44 | sixteen minutes to twelve a.m.       | öğlen on ikiye on altı var
+707  | 11:45 | a quarter to twelve a.m.             | öğlen on ikiye çeyrek var
+708  | 11:46 | fourteen minutes to twelve a.m.      | öğlen on ikiye on dört var
+709  | 11:47 | thirteen minutes to twelve a.m.      | öğlen on ikiye on üç var
+710  | 11:48 | twelve minutes to twelve a.m.        | öğlen on ikiye on iki var
+711  | 11:49 | eleven minutes to twelve a.m.        | öğlen on ikiye on bir var
+712  | 11:50 | ten to twelve a.m.                   | öğlen on ikiye on var
+713  | 11:51 | nine minutes to twelve a.m.          | öğlen on ikiye dokuz var
+714  | 11:52 | eight minutes to twelve a.m.         | öğlen on ikiye sekiz var
+715  | 11:53 | seven minutes to twelve a.m.         | öğlen on ikiye yedi var
+716  | 11:54 | six minutes to twelve a.m.           | öğlen on ikiye altı var
+717  | 11:55 | five to twelve a.m.                  | öğlen on ikiye beş var
+718  | 11:56 | four minutes to twelve a.m.          | öğlen on ikiye dört var
+719  | 11:57 | three minutes to twelve a.m.         | öğlen on ikiye üç var
+720  | 11:58 | two minutes to twelve a.m.           | öğlen on ikiye iki var
+721  | 11:59 | one minute to twelve a.m.            | öğlen on ikiye bir var
+722  | 12:00 | twelve o'clock / noon p.m.           | öğlen on iki
+723  | 12:01 | one minute past twelve p.m.          | öğlen on ikiyi bir geçiyor
+724  | 12:02 | two minutes past twelve p.m.         | öğlen on ikiyi iki geçiyor
+725  | 12:03 | three minutes past twelve p.m.       | öğlen on ikiyi üç geçiyor
+726  | 12:04 | four minutes past twelve p.m.        | öğlen on ikiyi dört geçiyor
+727  | 12:05 | five past twelve p.m.                | öğlen on ikiyi beş geçiyor
+728  | 12:06 | six minutes past twelve p.m.         | öğlen on ikiyi altı geçiyor
+729  | 12:07 | seven minutes past twelve p.m.       | öğlen on ikiyi yedi geçiyor
+730  | 12:08 | eight minutes past twelve p.m.       | öğlen on ikiyi sekiz geçiyor
+731  | 12:09 | nine minutes past twelve p.m.        | öğlen on ikiyi dokuz geçiyor
+732  | 12:10 | ten past twelve p.m.                 | öğlen on ikiyi on geçiyor
+733  | 12:11 | eleven minutes past twelve p.m.      | öğlen on ikiyi on bir geçiyor
+734  | 12:12 | twelve minutes past twelve p.m.      | öğlen on ikiyi on iki geçiyor
+735  | 12:13 | thirteen minutes past twelve p.m.    | öğlen on ikiyi on üç geçiyor
+736  | 12:14 | fourteen minutes past twelve p.m.    | öğlen on ikiyi on dört geçiyor
+737  | 12:15 | a quarter past twelve p.m.           | öğlen on ikiyi çeyrek geçiyor
+738  | 12:16 | sixteen minutes past twelve p.m.     | öğlen on ikiyi on altı geçiyor
+739  | 12:17 | seventeen minutes past twelve p.m.   | öğlen on ikiyi on yedi geçiyor
+740  | 12:18 | eighteen minutes past twelve p.m.    | öğlen on ikiyi on sekiz geçiyor
+741  | 12:19 | nineteen minutes past twelve p.m.    | öğlen on ikiyi on dokuz geçiyor
+742  | 12:20 | twenty past twelve p.m.              | öğlen on ikiyi yirmi geçiyor
+743  | 12:21 | twenty-one minutes past twelve p.m.  | öğlen on ikiyi yirmi bir geçiyor
+744  | 12:22 | twenty-two minutes past twelve p.m.  | öğlen on ikiyi yirmi iki geçiyor
+745  | 12:23 | twenty-three minutes past twelve p.m. | öğlen on ikiyi yirmi üç geçiyor
+746  | 12:24 | twenty-four minutes past twelve p.m. | öğlen on ikiyi yirmi dört geçiyor
+747  | 12:25 | twenty-five past twelve p.m.         | öğlen on ikiyi yirmi beş geçiyor
+748  | 12:26 | twenty-six minutes past twelve p.m.  | öğlen on ikiyi yirmi altı geçiyor
+749  | 12:27 | twenty-seven minutes past twelve p.m. | öğlen on ikiyi yirmi yedi geçiyor
+750  | 12:28 | twenty-eight minutes past twelve p.m. | öğlen on ikiyi yirmi sekiz geçiyor
+751  | 12:29 | twenty-nine minutes past twelve p.m. | öğlen on ikiyi yirmi dokuz geçiyor
+752  | 12:30 | half past twelve p.m.                | öğlen on iki buçuk
+753  | 12:31 | twenty-nine minutes to one p.m.      | öğleden sonra bire yirmi dokuz var
+754  | 12:32 | twenty-eight minutes to one p.m.     | öğleden sonra bire yirmi sekiz var
+755  | 12:33 | twenty-seven minutes to one p.m.     | öğleden sonra bire yirmi yedi var
+756  | 12:34 | twenty-six minutes to one p.m.       | öğleden sonra bire yirmi altı var
+757  | 12:35 | twenty-five to one p.m.              | öğleden sonra bire yirmi beş var
+758  | 12:36 | twenty-four minutes to one p.m.      | öğleden sonra bire yirmi dört var
+759  | 12:37 | twenty-three minutes to one p.m.     | öğleden sonra bire yirmi üç var
+760  | 12:38 | twenty-two minutes to one p.m.       | öğleden sonra bire yirmi iki var
+761  | 12:39 | twenty-one minutes to one p.m.       | öğleden sonra bire yirmi bir var
+762  | 12:40 | twenty to one p.m.                   | öğleden sonra bire yirmi var
+763  | 12:41 | nineteen minutes to one p.m.         | öğleden sonra bire on dokuz var
+764  | 12:42 | eighteen minutes to one p.m.         | öğleden sonra bire on sekiz var
+765  | 12:43 | seventeen minutes to one p.m.        | öğleden sonra bire on yedi var
+766  | 12:44 | sixteen minutes to one p.m.          | öğleden sonra bire on altı var
+767  | 12:45 | a quarter to one p.m.                | öğleden sonra bire çeyrek var
+768  | 12:46 | fourteen minutes to one p.m.         | öğleden sonra bire on dört var
+769  | 12:47 | thirteen minutes to one p.m.         | öğleden sonra bire on üç var
+770  | 12:48 | twelve minutes to one p.m.           | öğleden sonra bire on iki var
+771  | 12:49 | eleven minutes to one p.m.           | öğleden sonra bire on bir var
+772  | 12:50 | ten to one p.m.                      | öğleden sonra bire on var
+773  | 12:51 | nine minutes to one p.m.             | öğleden sonra bire dokuz var
+774  | 12:52 | eight minutes to one p.m.            | öğleden sonra bire sekiz var
+775  | 12:53 | seven minutes to one p.m.            | öğleden sonra bire yedi var
+776  | 12:54 | six minutes to one p.m.              | öğleden sonra bire altı var
+777  | 12:55 | five to one p.m.                     | öğleden sonra bire beş var
+778  | 12:56 | four minutes to one p.m.             | öğleden sonra bire dört var
+779  | 12:57 | three minutes to one p.m.            | öğleden sonra bire üç var
+780  | 12:58 | two minutes to one p.m.              | öğleden sonra bire iki var
+781  | 12:59 | one minute to one p.m.               | öğleden sonra bire bir var
+782  | 13:00 | one o'clock p.m.                     | öğleden sonra bir
+783  | 13:01 | one minute past one p.m.             | öğleden sonra biri bir geçiyor
+784  | 13:02 | two minutes past one p.m.            | öğleden sonra biri iki geçiyor
+785  | 13:03 | three minutes past one p.m.          | öğleden sonra biri üç geçiyor
+786  | 13:04 | four minutes past one p.m.           | öğleden sonra biri dört geçiyor
+787  | 13:05 | five past one p.m.                   | öğleden sonra biri beş geçiyor
+788  | 13:06 | six minutes past one p.m.            | öğleden sonra biri altı geçiyor
+789  | 13:07 | seven minutes past one p.m.          | öğleden sonra biri yedi geçiyor
+790  | 13:08 | eight minutes past one p.m.          | öğleden sonra biri sekiz geçiyor
+791  | 13:09 | nine minutes past one p.m.           | öğleden sonra biri dokuz geçiyor
+792  | 13:10 | ten past one p.m.                    | öğleden sonra biri on geçiyor
+793  | 13:11 | eleven minutes past one p.m.         | öğleden sonra biri on bir geçiyor
+794  | 13:12 | twelve minutes past one p.m.         | öğleden sonra biri on iki geçiyor
+795  | 13:13 | thirteen minutes past one p.m.       | öğleden sonra biri on üç geçiyor
+796  | 13:14 | fourteen minutes past one p.m.       | öğleden sonra biri on dört geçiyor
+797  | 13:15 | a quarter past one p.m.              | öğleden sonra biri çeyrek geçiyor
+798  | 13:16 | sixteen minutes past one p.m.        | öğleden sonra biri on altı geçiyor
+799  | 13:17 | seventeen minutes past one p.m.      | öğleden sonra biri on yedi geçiyor
+800  | 13:18 | eighteen minutes past one p.m.       | öğleden sonra biri on sekiz geçiyor
+801  | 13:19 | nineteen minutes past one p.m.       | öğleden sonra biri on dokuz geçiyor
+802  | 13:20 | twenty past one p.m.                 | öğleden sonra biri yirmi geçiyor
+803  | 13:21 | twenty-one minutes past one p.m.     | öğleden sonra biri yirmi bir geçiyor
+804  | 13:22 | twenty-two minutes past one p.m.     | öğleden sonra biri yirmi iki geçiyor
+805  | 13:23 | twenty-three minutes past one p.m.   | öğleden sonra biri yirmi üç geçiyor
+806  | 13:24 | twenty-four minutes past one p.m.    | öğleden sonra biri yirmi dört geçiyor
+807  | 13:25 | twenty-five past one p.m.            | öğleden sonra biri yirmi beş geçiyor
+808  | 13:26 | twenty-six minutes past one p.m.     | öğleden sonra biri yirmi altı geçiyor
+809  | 13:27 | twenty-seven minutes past one p.m.   | öğleden sonra biri yirmi yedi geçiyor
+810  | 13:28 | twenty-eight minutes past one p.m.   | öğleden sonra biri yirmi sekiz geçiyor
+811  | 13:29 | twenty-nine minutes past one p.m.    | öğleden sonra biri yirmi dokuz geçiyor
+812  | 13:30 | half past one p.m.                   | öğleden sonra bir buçuk
+813  | 13:31 | twenty-nine minutes to two p.m.      | öğleden sonra ikiye yirmi dokuz var
+814  | 13:32 | twenty-eight minutes to two p.m.     | öğleden sonra ikiye yirmi sekiz var
+815  | 13:33 | twenty-seven minutes to two p.m.     | öğleden sonra ikiye yirmi yedi var
+816  | 13:34 | twenty-six minutes to two p.m.       | öğleden sonra ikiye yirmi altı var
+817  | 13:35 | twenty-five to two p.m.              | öğleden sonra ikiye yirmi beş var
+818  | 13:36 | twenty-four minutes to two p.m.      | öğleden sonra ikiye yirmi dört var
+819  | 13:37 | twenty-three minutes to two p.m.     | öğleden sonra ikiye yirmi üç var
+820  | 13:38 | twenty-two minutes to two p.m.       | öğleden sonra ikiye yirmi iki var
+821  | 13:39 | twenty-one minutes to two p.m.       | öğleden sonra ikiye yirmi bir var
+822  | 13:40 | twenty to two p.m.                   | öğleden sonra ikiye yirmi var
+823  | 13:41 | nineteen minutes to two p.m.         | öğleden sonra ikiye on dokuz var
+824  | 13:42 | eighteen minutes to two p.m.         | öğleden sonra ikiye on sekiz var
+825  | 13:43 | seventeen minutes to two p.m.        | öğleden sonra ikiye on yedi var
+826  | 13:44 | sixteen minutes to two p.m.          | öğleden sonra ikiye on altı var
+827  | 13:45 | a quarter to two p.m.                | öğleden sonra ikiye çeyrek var
+828  | 13:46 | fourteen minutes to two p.m.         | öğleden sonra ikiye on dört var
+829  | 13:47 | thirteen minutes to two p.m.         | öğleden sonra ikiye on üç var
+830  | 13:48 | twelve minutes to two p.m.           | öğleden sonra ikiye on iki var
+831  | 13:49 | eleven minutes to two p.m.           | öğleden sonra ikiye on bir var
+832  | 13:50 | ten to two p.m.                      | öğleden sonra ikiye on var
+833  | 13:51 | nine minutes to two p.m.             | öğleden sonra ikiye dokuz var
+834  | 13:52 | eight minutes to two p.m.            | öğleden sonra ikiye sekiz var
+835  | 13:53 | seven minutes to two p.m.            | öğleden sonra ikiye yedi var
+836  | 13:54 | six minutes to two p.m.              | öğleden sonra ikiye altı var
+837  | 13:55 | five to two p.m.                     | öğleden sonra ikiye beş var
+838  | 13:56 | four minutes to two p.m.             | öğleden sonra ikiye dört var
+839  | 13:57 | three minutes to two p.m.            | öğleden sonra ikiye üç var
+840  | 13:58 | two minutes to two p.m.              | öğleden sonra ikiye iki var
+841  | 13:59 | one minute to two p.m.               | öğleden sonra ikiye bir var
+842  | 14:00 | two o'clock p.m.                     | öğleden sonra iki
+843  | 14:01 | one minute past two p.m.             | öğleden sonra ikiyi bir geçiyor
+844  | 14:02 | two minutes past two p.m.            | öğleden sonra ikiyi iki geçiyor
+845  | 14:03 | three minutes past two p.m.          | öğleden sonra ikiyi üç geçiyor
+846  | 14:04 | four minutes past two p.m.           | öğleden sonra ikiyi dört geçiyor
+847  | 14:05 | five past two p.m.                   | öğleden sonra ikiyi beş geçiyor
+848  | 14:06 | six minutes past two p.m.            | öğleden sonra ikiyi altı geçiyor
+849  | 14:07 | seven minutes past two p.m.          | öğleden sonra ikiyi yedi geçiyor
+850  | 14:08 | eight minutes past two p.m.          | öğleden sonra ikiyi sekiz geçiyor
+851  | 14:09 | nine minutes past two p.m.           | öğleden sonra ikiyi dokuz geçiyor
+852  | 14:10 | ten past two p.m.                    | öğleden sonra ikiyi on geçiyor
+853  | 14:11 | eleven minutes past two p.m.         | öğleden sonra ikiyi on bir geçiyor
+854  | 14:12 | twelve minutes past two p.m.         | öğleden sonra ikiyi on iki geçiyor
+855  | 14:13 | thirteen minutes past two p.m.       | öğleden sonra ikiyi on üç geçiyor
+856  | 14:14 | fourteen minutes past two p.m.       | öğleden sonra ikiyi on dört geçiyor
+857  | 14:15 | a quarter past two p.m.              | öğleden sonra ikiyi çeyrek geçiyor
+858  | 14:16 | sixteen minutes past two p.m.        | öğleden sonra ikiyi on altı geçiyor
+859  | 14:17 | seventeen minutes past two p.m.      | öğleden sonra ikiyi on yedi geçiyor
+860  | 14:18 | eighteen minutes past two p.m.       | öğleden sonra ikiyi on sekiz geçiyor
+861  | 14:19 | nineteen minutes past two p.m.       | öğleden sonra ikiyi on dokuz geçiyor
+862  | 14:20 | twenty past two p.m.                 | öğleden sonra ikiyi yirmi geçiyor
+863  | 14:21 | twenty-one minutes past two p.m.     | öğleden sonra ikiyi yirmi bir geçiyor
+864  | 14:22 | twenty-two minutes past two p.m.     | öğleden sonra ikiyi yirmi iki geçiyor
+865  | 14:23 | twenty-three minutes past two p.m.   | öğleden sonra ikiyi yirmi üç geçiyor
+866  | 14:24 | twenty-four minutes past two p.m.    | öğleden sonra ikiyi yirmi dört geçiyor
+867  | 14:25 | twenty-five past two p.m.            | öğleden sonra ikiyi yirmi beş geçiyor
+868  | 14:26 | twenty-six minutes past two p.m.     | öğleden sonra ikiyi yirmi altı geçiyor
+869  | 14:27 | twenty-seven minutes past two p.m.   | öğleden sonra ikiyi yirmi yedi geçiyor
+870  | 14:28 | twenty-eight minutes past two p.m.   | öğleden sonra ikiyi yirmi sekiz geçiyor
+871  | 14:29 | twenty-nine minutes past two p.m.    | öğleden sonra ikiyi yirmi dokuz geçiyor
+872  | 14:30 | half past two p.m.                   | öğleden sonra iki buçuk
+873  | 14:31 | twenty-nine minutes to three p.m.    | öğleden sonra üçe yirmi dokuz var
+874  | 14:32 | twenty-eight minutes to three p.m.   | öğleden sonra üçe yirmi sekiz var
+875  | 14:33 | twenty-seven minutes to three p.m.   | öğleden sonra üçe yirmi yedi var
+876  | 14:34 | twenty-six minutes to three p.m.     | öğleden sonra üçe yirmi altı var
+877  | 14:35 | twenty-five to three p.m.            | öğleden sonra üçe yirmi beş var
+878  | 14:36 | twenty-four minutes to three p.m.    | öğleden sonra üçe yirmi dört var
+879  | 14:37 | twenty-three minutes to three p.m.   | öğleden sonra üçe yirmi üç var
+880  | 14:38 | twenty-two minutes to three p.m.     | öğleden sonra üçe yirmi iki var
+881  | 14:39 | twenty-one minutes to three p.m.     | öğleden sonra üçe yirmi bir var
+882  | 14:40 | twenty to three p.m.                 | öğleden sonra üçe yirmi var
+883  | 14:41 | nineteen minutes to three p.m.       | öğleden sonra üçe on dokuz var
+884  | 14:42 | eighteen minutes to three p.m.       | öğleden sonra üçe on sekiz var
+885  | 14:43 | seventeen minutes to three p.m.      | öğleden sonra üçe on yedi var
+886  | 14:44 | sixteen minutes to three p.m.        | öğleden sonra üçe on altı var
+887  | 14:45 | a quarter to three p.m.              | öğleden sonra üçe çeyrek var
+888  | 14:46 | fourteen minutes to three p.m.       | öğleden sonra üçe on dört var
+889  | 14:47 | thirteen minutes to three p.m.       | öğleden sonra üçe on üç var
+890  | 14:48 | twelve minutes to three p.m.         | öğleden sonra üçe on iki var
+891  | 14:49 | eleven minutes to three p.m.         | öğleden sonra üçe on bir var
+892  | 14:50 | ten to three p.m.                    | öğleden sonra üçe on var
+893  | 14:51 | nine minutes to three p.m.           | öğleden sonra üçe dokuz var
+894  | 14:52 | eight minutes to three p.m.          | öğleden sonra üçe sekiz var
+895  | 14:53 | seven minutes to three p.m.          | öğleden sonra üçe yedi var
+896  | 14:54 | six minutes to three p.m.            | öğleden sonra üçe altı var
+897  | 14:55 | five to three p.m.                   | öğleden sonra üçe beş var
+898  | 14:56 | four minutes to three p.m.           | öğleden sonra üçe dört var
+899  | 14:57 | three minutes to three p.m.          | öğleden sonra üçe üç var
+900  | 14:58 | two minutes to three p.m.            | öğleden sonra üçe iki var
+901  | 14:59 | one minute to three p.m.             | öğleden sonra üçe bir var
+902  | 15:00 | three o'clock p.m.                   | öğleden sonra üç
+903  | 15:01 | one minute past three p.m.           | öğleden sonra üçü bir geçiyor
+904  | 15:02 | two minutes past three p.m.          | öğleden sonra üçü iki geçiyor
+905  | 15:03 | three minutes past three p.m.        | öğleden sonra üçü üç geçiyor
+906  | 15:04 | four minutes past three p.m.         | öğleden sonra üçü dört geçiyor
+907  | 15:05 | five past three p.m.                 | öğleden sonra üçü beş geçiyor
+908  | 15:06 | six minutes past three p.m.          | öğleden sonra üçü altı geçiyor
+909  | 15:07 | seven minutes past three p.m.        | öğleden sonra üçü yedi geçiyor
+910  | 15:08 | eight minutes past three p.m.        | öğleden sonra üçü sekiz geçiyor
+911  | 15:09 | nine minutes past three p.m.         | öğleden sonra üçü dokuz geçiyor
+912  | 15:10 | ten past three p.m.                  | öğleden sonra üçü on geçiyor
+913  | 15:11 | eleven minutes past three p.m.       | öğleden sonra üçü on bir geçiyor
+914  | 15:12 | twelve minutes past three p.m.       | öğleden sonra üçü on iki geçiyor
+915  | 15:13 | thirteen minutes past three p.m.     | öğleden sonra üçü on üç geçiyor
+916  | 15:14 | fourteen minutes past three p.m.     | öğleden sonra üçü on dört geçiyor
+917  | 15:15 | a quarter past three p.m.            | öğleden sonra üçü çeyrek geçiyor
+918  | 15:16 | sixteen minutes past three p.m.      | öğleden sonra üçü on altı geçiyor
+919  | 15:17 | seventeen minutes past three p.m.    | öğleden sonra üçü on yedi geçiyor
+920  | 15:18 | eighteen minutes past three p.m.     | öğleden sonra üçü on sekiz geçiyor
+921  | 15:19 | nineteen minutes past three p.m.     | öğleden sonra üçü on dokuz geçiyor
+922  | 15:20 | twenty past three p.m.               | öğleden sonra üçü yirmi geçiyor
+923  | 15:21 | twenty-one minutes past three p.m.   | öğleden sonra üçü yirmi bir geçiyor
+924  | 15:22 | twenty-two minutes past three p.m.   | öğleden sonra üçü yirmi iki geçiyor
+925  | 15:23 | twenty-three minutes past three p.m. | öğleden sonra üçü yirmi üç geçiyor
+926  | 15:24 | twenty-four minutes past three p.m.  | öğleden sonra üçü yirmi dört geçiyor
+927  | 15:25 | twenty-five past three p.m.          | öğleden sonra üçü yirmi beş geçiyor
+928  | 15:26 | twenty-six minutes past three p.m.   | öğleden sonra üçü yirmi altı geçiyor
+929  | 15:27 | twenty-seven minutes past three p.m. | öğleden sonra üçü yirmi yedi geçiyor
+930  | 15:28 | twenty-eight minutes past three p.m. | öğleden sonra üçü yirmi sekiz geçiyor
+931  | 15:29 | twenty-nine minutes past three p.m.  | öğleden sonra üçü yirmi dokuz geçiyor
+932  | 15:30 | half past three p.m.                 | öğleden sonra üç buçuk
+933  | 15:31 | twenty-nine minutes to four p.m.     | öğleden sonra dörde yirmi dokuz var
+934  | 15:32 | twenty-eight minutes to four p.m.    | öğleden sonra dörde yirmi sekiz var
+935  | 15:33 | twenty-seven minutes to four p.m.    | öğleden sonra dörde yirmi yedi var
+936  | 15:34 | twenty-six minutes to four p.m.      | öğleden sonra dörde yirmi altı var
+937  | 15:35 | twenty-five to four p.m.             | öğleden sonra dörde yirmi beş var
+938  | 15:36 | twenty-four minutes to four p.m.     | öğleden sonra dörde yirmi dört var
+939  | 15:37 | twenty-three minutes to four p.m.    | öğleden sonra dörde yirmi üç var
+940  | 15:38 | twenty-two minutes to four p.m.      | öğleden sonra dörde yirmi iki var
+941  | 15:39 | twenty-one minutes to four p.m.      | öğleden sonra dörde yirmi bir var
+942  | 15:40 | twenty to four p.m.                  | öğleden sonra dörde yirmi var
+943  | 15:41 | nineteen minutes to four p.m.        | öğleden sonra dörde on dokuz var
+944  | 15:42 | eighteen minutes to four p.m.        | öğleden sonra dörde on sekiz var
+945  | 15:43 | seventeen minutes to four p.m.       | öğleden sonra dörde on yedi var
+946  | 15:44 | sixteen minutes to four p.m.         | öğleden sonra dörde on altı var
+947  | 15:45 | a quarter to four p.m.               | öğleden sonra dörde çeyrek var
+948  | 15:46 | fourteen minutes to four p.m.        | öğleden sonra dörde on dört var
+949  | 15:47 | thirteen minutes to four p.m.        | öğleden sonra dörde on üç var
+950  | 15:48 | twelve minutes to four p.m.          | öğleden sonra dörde on iki var
+951  | 15:49 | eleven minutes to four p.m.          | öğleden sonra dörde on bir var
+952  | 15:50 | ten to four p.m.                     | öğleden sonra dörde on var
+953  | 15:51 | nine minutes to four p.m.            | öğleden sonra dörde dokuz var
+954  | 15:52 | eight minutes to four p.m.           | öğleden sonra dörde sekiz var
+955  | 15:53 | seven minutes to four p.m.           | öğleden sonra dörde yedi var
+956  | 15:54 | six minutes to four p.m.             | öğleden sonra dörde altı var
+957  | 15:55 | five to four p.m.                    | öğleden sonra dörde beş var
+958  | 15:56 | four minutes to four p.m.            | öğleden sonra dörde dört var
+959  | 15:57 | three minutes to four p.m.           | öğleden sonra dörde üç var
+960  | 15:58 | two minutes to four p.m.             | öğleden sonra dörde iki var
+961  | 15:59 | one minute to four p.m.              | öğleden sonra dörde bir var
+962  | 16:00 | four o'clock p.m.                    | öğleden sonra dört
+963  | 16:01 | one minute past four p.m.            | öğleden sonra dördü bir geçiyor
+964  | 16:02 | two minutes past four p.m.           | öğleden sonra dördü iki geçiyor
+965  | 16:03 | three minutes past four p.m.         | öğleden sonra dördü üç geçiyor
+966  | 16:04 | four minutes past four p.m.          | öğleden sonra dördü dört geçiyor
+967  | 16:05 | five past four p.m.                  | öğleden sonra dördü beş geçiyor
+968  | 16:06 | six minutes past four p.m.           | öğleden sonra dördü altı geçiyor
+969  | 16:07 | seven minutes past four p.m.         | öğleden sonra dördü yedi geçiyor
+970  | 16:08 | eight minutes past four p.m.         | öğleden sonra dördü sekiz geçiyor
+971  | 16:09 | nine minutes past four p.m.          | öğleden sonra dördü dokuz geçiyor
+972  | 16:10 | ten past four p.m.                   | öğleden sonra dördü on geçiyor
+973  | 16:11 | eleven minutes past four p.m.        | öğleden sonra dördü on bir geçiyor
+974  | 16:12 | twelve minutes past four p.m.        | öğleden sonra dördü on iki geçiyor
+975  | 16:13 | thirteen minutes past four p.m.      | öğleden sonra dördü on üç geçiyor
+976  | 16:14 | fourteen minutes past four p.m.      | öğleden sonra dördü on dört geçiyor
+977  | 16:15 | a quarter past four p.m.             | öğleden sonra dördü çeyrek geçiyor
+978  | 16:16 | sixteen minutes past four p.m.       | öğleden sonra dördü on altı geçiyor
+979  | 16:17 | seventeen minutes past four p.m.     | öğleden sonra dördü on yedi geçiyor
+980  | 16:18 | eighteen minutes past four p.m.      | öğleden sonra dördü on sekiz geçiyor
+981  | 16:19 | nineteen minutes past four p.m.      | öğleden sonra dördü on dokuz geçiyor
+982  | 16:20 | twenty past four p.m.                | öğleden sonra dördü yirmi geçiyor
+983  | 16:21 | twenty-one minutes past four p.m.    | öğleden sonra dördü yirmi bir geçiyor
+984  | 16:22 | twenty-two minutes past four p.m.    | öğleden sonra dördü yirmi iki geçiyor
+985  | 16:23 | twenty-three minutes past four p.m.  | öğleden sonra dördü yirmi üç geçiyor
+986  | 16:24 | twenty-four minutes past four p.m.   | öğleden sonra dördü yirmi dört geçiyor
+987  | 16:25 | twenty-five past four p.m.           | öğleden sonra dördü yirmi beş geçiyor
+988  | 16:26 | twenty-six minutes past four p.m.    | öğleden sonra dördü yirmi altı geçiyor
+989  | 16:27 | twenty-seven minutes past four p.m.  | öğleden sonra dördü yirmi yedi geçiyor
+990  | 16:28 | twenty-eight minutes past four p.m.  | öğleden sonra dördü yirmi sekiz geçiyor
+991  | 16:29 | twenty-nine minutes past four p.m.   | öğleden sonra dördü yirmi dokuz geçiyor
+992  | 16:30 | half past four p.m.                  | öğleden sonra dört buçuk
+993  | 16:31 | twenty-nine minutes to five p.m.     | öğleden sonra beşe yirmi dokuz var
+994  | 16:32 | twenty-eight minutes to five p.m.    | öğleden sonra beşe yirmi sekiz var
+995  | 16:33 | twenty-seven minutes to five p.m.    | öğleden sonra beşe yirmi yedi var
+996  | 16:34 | twenty-six minutes to five p.m.      | öğleden sonra beşe yirmi altı var
+997  | 16:35 | twenty-five to five p.m.             | öğleden sonra beşe yirmi beş var
+998  | 16:36 | twenty-four minutes to five p.m.     | öğleden sonra beşe yirmi dört var
+999  | 16:37 | twenty-three minutes to five p.m.    | öğleden sonra beşe yirmi üç var
+1000 | 16:38 | twenty-two minutes to five p.m.      | öğleden sonra beşe yirmi iki var
+1001 | 16:39 | twenty-one minutes to five p.m.      | öğleden sonra beşe yirmi bir var
+1002 | 16:40 | twenty to five p.m.                  | öğleden sonra beşe yirmi var
+1003 | 16:41 | nineteen minutes to five p.m.        | öğleden sonra beşe on dokuz var
+1004 | 16:42 | eighteen minutes to five p.m.        | öğleden sonra beşe on sekiz var
+1005 | 16:43 | seventeen minutes to five p.m.       | öğleden sonra beşe on yedi var
+1006 | 16:44 | sixteen minutes to five p.m.         | öğleden sonra beşe on altı var
+1007 | 16:45 | a quarter to five p.m.               | öğleden sonra beşe çeyrek var
+1008 | 16:46 | fourteen minutes to five p.m.        | öğleden sonra beşe on dört var
+1009 | 16:47 | thirteen minutes to five p.m.        | öğleden sonra beşe on üç var
+1010 | 16:48 | twelve minutes to five p.m.          | öğleden sonra beşe on iki var
+1011 | 16:49 | eleven minutes to five p.m.          | öğleden sonra beşe on bir var
+1012 | 16:50 | ten to five p.m.                     | öğleden sonra beşe on var
+1013 | 16:51 | nine minutes to five p.m.            | öğleden sonra beşe dokuz var
+1014 | 16:52 | eight minutes to five p.m.           | öğleden sonra beşe sekiz var
+1015 | 16:53 | seven minutes to five p.m.           | öğleden sonra beşe yedi var
+1016 | 16:54 | six minutes to five p.m.             | öğleden sonra beşe altı var
+1017 | 16:55 | five to five p.m.                    | öğleden sonra beşe beş var
+1018 | 16:56 | four minutes to five p.m.            | öğleden sonra beşe dört var
+1019 | 16:57 | three minutes to five p.m.           | öğleden sonra beşe üç var
+1020 | 16:58 | two minutes to five p.m.             | öğleden sonra beşe iki var
+1021 | 16:59 | one minute to five p.m.              | öğleden sonra beşe bir var
+1022 | 17:00 | five o'clock p.m.                    | akşam beş
+1023 | 17:01 | one minute past five p.m.            | akşam beşi bir geçiyor
+1024 | 17:02 | two minutes past five p.m.           | akşam beşi iki geçiyor
+1025 | 17:03 | three minutes past five p.m.         | akşam beşi üç geçiyor
+1026 | 17:04 | four minutes past five p.m.          | akşam beşi dört geçiyor
+1027 | 17:05 | five past five p.m.                  | akşam beşi beş geçiyor
+1028 | 17:06 | six minutes past five p.m.           | akşam beşi altı geçiyor
+1029 | 17:07 | seven minutes past five p.m.         | akşam beşi yedi geçiyor
+1030 | 17:08 | eight minutes past five p.m.         | akşam beşi sekiz geçiyor
+1031 | 17:09 | nine minutes past five p.m.          | akşam beşi dokuz geçiyor
+1032 | 17:10 | ten past five p.m.                   | akşam beşi on geçiyor
+1033 | 17:11 | eleven minutes past five p.m.        | akşam beşi on bir geçiyor
+1034 | 17:12 | twelve minutes past five p.m.        | akşam beşi on iki geçiyor
+1035 | 17:13 | thirteen minutes past five p.m.      | akşam beşi on üç geçiyor
+1036 | 17:14 | fourteen minutes past five p.m.      | akşam beşi on dört geçiyor
+1037 | 17:15 | a quarter past five p.m.             | akşam beşi çeyrek geçiyor
+1038 | 17:16 | sixteen minutes past five p.m.       | akşam beşi on altı geçiyor
+1039 | 17:17 | seventeen minutes past five p.m.     | akşam beşi on yedi geçiyor
+1040 | 17:18 | eighteen minutes past five p.m.      | akşam beşi on sekiz geçiyor
+1041 | 17:19 | nineteen minutes past five p.m.      | akşam beşi on dokuz geçiyor
+1042 | 17:20 | twenty past five p.m.                | akşam beşi yirmi geçiyor
+1043 | 17:21 | twenty-one minutes past five p.m.    | akşam beşi yirmi bir geçiyor
+1044 | 17:22 | twenty-two minutes past five p.m.    | akşam beşi yirmi iki geçiyor
+1045 | 17:23 | twenty-three minutes past five p.m.  | akşam beşi yirmi üç geçiyor
+1046 | 17:24 | twenty-four minutes past five p.m.   | akşam beşi yirmi dört geçiyor
+1047 | 17:25 | twenty-five past five p.m.           | akşam beşi yirmi beş geçiyor
+1048 | 17:26 | twenty-six minutes past five p.m.    | akşam beşi yirmi altı geçiyor
+1049 | 17:27 | twenty-seven minutes past five p.m.  | akşam beşi yirmi yedi geçiyor
+1050 | 17:28 | twenty-eight minutes past five p.m.  | akşam beşi yirmi sekiz geçiyor
+1051 | 17:29 | twenty-nine minutes past five p.m.   | akşam beşi yirmi dokuz geçiyor
+1052 | 17:30 | half past five p.m.                  | akşam beş buçuk
+1053 | 17:31 | twenty-nine minutes to six p.m.      | akşam altıya yirmi dokuz var
+1054 | 17:32 | twenty-eight minutes to six p.m.     | akşam altıya yirmi sekiz var
+1055 | 17:33 | twenty-seven minutes to six p.m.     | akşam altıya yirmi yedi var
+1056 | 17:34 | twenty-six minutes to six p.m.       | akşam altıya yirmi altı var
+1057 | 17:35 | twenty-five to six p.m.              | akşam altıya yirmi beş var
+1058 | 17:36 | twenty-four minutes to six p.m.      | akşam altıya yirmi dört var
+1059 | 17:37 | twenty-three minutes to six p.m.     | akşam altıya yirmi üç var
+1060 | 17:38 | twenty-two minutes to six p.m.       | akşam altıya yirmi iki var
+1061 | 17:39 | twenty-one minutes to six p.m.       | akşam altıya yirmi bir var
+1062 | 17:40 | twenty to six p.m.                   | akşam altıya yirmi var
+1063 | 17:41 | nineteen minutes to six p.m.         | akşam altıya on dokuz var
+1064 | 17:42 | eighteen minutes to six p.m.         | akşam altıya on sekiz var
+1065 | 17:43 | seventeen minutes to six p.m.        | akşam altıya on yedi var
+1066 | 17:44 | sixteen minutes to six p.m.          | akşam altıya on altı var
+1067 | 17:45 | a quarter to six p.m.                | akşam altıya çeyrek var
+1068 | 17:46 | fourteen minutes to six p.m.         | akşam altıya on dört var
+1069 | 17:47 | thirteen minutes to six p.m.         | akşam altıya on üç var
+1070 | 17:48 | twelve minutes to six p.m.           | akşam altıya on iki var
+1071 | 17:49 | eleven minutes to six p.m.           | akşam altıya on bir var
+1072 | 17:50 | ten to six p.m.                      | akşam altıya on var
+1073 | 17:51 | nine minutes to six p.m.             | akşam altıya dokuz var
+1074 | 17:52 | eight minutes to six p.m.            | akşam altıya sekiz var
+1075 | 17:53 | seven minutes to six p.m.            | akşam altıya yedi var
+1076 | 17:54 | six minutes to six p.m.              | akşam altıya altı var
+1077 | 17:55 | five to six p.m.                     | akşam altıya beş var
+1078 | 17:56 | four minutes to six p.m.             | akşam altıya dört var
+1079 | 17:57 | three minutes to six p.m.            | akşam altıya üç var
+1080 | 17:58 | two minutes to six p.m.              | akşam altıya iki var
+1081 | 17:59 | one minute to six p.m.               | akşam altıya bir var
+1082 | 18:00 | six o'clock p.m.                     | akşam altı
+1083 | 18:01 | one minute past six p.m.             | akşam altıyı bir geçiyor
+1084 | 18:02 | two minutes past six p.m.            | akşam altıyı iki geçiyor
+1085 | 18:03 | three minutes past six p.m.          | akşam altıyı üç geçiyor
+1086 | 18:04 | four minutes past six p.m.           | akşam altıyı dört geçiyor
+1087 | 18:05 | five past six p.m.                   | akşam altıyı beş geçiyor
+1088 | 18:06 | six minutes past six p.m.            | akşam altıyı altı geçiyor
+1089 | 18:07 | seven minutes past six p.m.          | akşam altıyı yedi geçiyor
+1090 | 18:08 | eight minutes past six p.m.          | akşam altıyı sekiz geçiyor
+1091 | 18:09 | nine minutes past six p.m.           | akşam altıyı dokuz geçiyor
+1092 | 18:10 | ten past six p.m.                    | akşam altıyı on geçiyor
+1093 | 18:11 | eleven minutes past six p.m.         | akşam altıyı on bir geçiyor
+1094 | 18:12 | twelve minutes past six p.m.         | akşam altıyı on iki geçiyor
+1095 | 18:13 | thirteen minutes past six p.m.       | akşam altıyı on üç geçiyor
+1096 | 18:14 | fourteen minutes past six p.m.       | akşam altıyı on dört geçiyor
+1097 | 18:15 | a quarter past six p.m.              | akşam altıyı çeyrek geçiyor
+1098 | 18:16 | sixteen minutes past six p.m.        | akşam altıyı on altı geçiyor
+1099 | 18:17 | seventeen minutes past six p.m.      | akşam altıyı on yedi geçiyor
+1100 | 18:18 | eighteen minutes past six p.m.       | akşam altıyı on sekiz geçiyor
+1101 | 18:19 | nineteen minutes past six p.m.       | akşam altıyı on dokuz geçiyor
+1102 | 18:20 | twenty past six p.m.                 | akşam altıyı yirmi geçiyor
+1103 | 18:21 | twenty-one minutes past six p.m.     | akşam altıyı yirmi bir geçiyor
+1104 | 18:22 | twenty-two minutes past six p.m.     | akşam altıyı yirmi iki geçiyor
+1105 | 18:23 | twenty-three minutes past six p.m.   | akşam altıyı yirmi üç geçiyor
+1106 | 18:24 | twenty-four minutes past six p.m.    | akşam altıyı yirmi dört geçiyor
+1107 | 18:25 | twenty-five past six p.m.            | akşam altıyı yirmi beş geçiyor
+1108 | 18:26 | twenty-six minutes past six p.m.     | akşam altıyı yirmi altı geçiyor
+1109 | 18:27 | twenty-seven minutes past six p.m.   | akşam altıyı yirmi yedi geçiyor
+1110 | 18:28 | twenty-eight minutes past six p.m.   | akşam altıyı yirmi sekiz geçiyor
+1111 | 18:29 | twenty-nine minutes past six p.m.    | akşam altıyı yirmi dokuz geçiyor
+1112 | 18:30 | half past six p.m.                   | akşam altı buçuk
+1113 | 18:31 | twenty-nine minutes to seven p.m.    | akşam yediye yirmi dokuz var
+1114 | 18:32 | twenty-eight minutes to seven p.m.   | akşam yediye yirmi sekiz var
+1115 | 18:33 | twenty-seven minutes to seven p.m.   | akşam yediye yirmi yedi var
+1116 | 18:34 | twenty-six minutes to seven p.m.     | akşam yediye yirmi altı var
+1117 | 18:35 | twenty-five to seven p.m.            | akşam yediye yirmi beş var
+1118 | 18:36 | twenty-four minutes to seven p.m.    | akşam yediye yirmi dört var
+1119 | 18:37 | twenty-three minutes to seven p.m.   | akşam yediye yirmi üç var
+1120 | 18:38 | twenty-two minutes to seven p.m.     | akşam yediye yirmi iki var
+1121 | 18:39 | twenty-one minutes to seven p.m.     | akşam yediye yirmi bir var
+1122 | 18:40 | twenty to seven p.m.                 | akşam yediye yirmi var
+1123 | 18:41 | nineteen minutes to seven p.m.       | akşam yediye on dokuz var
+1124 | 18:42 | eighteen minutes to seven p.m.       | akşam yediye on sekiz var
+1125 | 18:43 | seventeen minutes to seven p.m.      | akşam yediye on yedi var
+1126 | 18:44 | sixteen minutes to seven p.m.        | akşam yediye on altı var
+1127 | 18:45 | a quarter to seven p.m.              | akşam yediye çeyrek var
+1128 | 18:46 | fourteen minutes to seven p.m.       | akşam yediye on dört var
+1129 | 18:47 | thirteen minutes to seven p.m.       | akşam yediye on üç var
+1130 | 18:48 | twelve minutes to seven p.m.         | akşam yediye on iki var
+1131 | 18:49 | eleven minutes to seven p.m.         | akşam yediye on bir var
+1132 | 18:50 | ten to seven p.m.                    | akşam yediye on var
+1133 | 18:51 | nine minutes to seven p.m.           | akşam yediye dokuz var
+1134 | 18:52 | eight minutes to seven p.m.          | akşam yediye sekiz var
+1135 | 18:53 | seven minutes to seven p.m.          | akşam yediye yedi var
+1136 | 18:54 | six minutes to seven p.m.            | akşam yediye altı var
+1137 | 18:55 | five to seven p.m.                   | akşam yediye beş var
+1138 | 18:56 | four minutes to seven p.m.           | akşam yediye dört var
+1139 | 18:57 | three minutes to seven p.m.          | akşam yediye üç var
+1140 | 18:58 | two minutes to seven p.m.            | akşam yediye iki var
+1141 | 18:59 | one minute to seven p.m.             | akşam yediye bir var
+1142 | 19:00 | seven o'clock p.m.                   | akşam yedi
+1143 | 19:01 | one minute past seven p.m.           | akşam yediyi bir geçiyor
+1144 | 19:02 | two minutes past seven p.m.          | akşam yediyi iki geçiyor
+1145 | 19:03 | three minutes past seven p.m.        | akşam yediyi üç geçiyor
+1146 | 19:04 | four minutes past seven p.m.         | akşam yediyi dört geçiyor
+1147 | 19:05 | five past seven p.m.                 | akşam yediyi beş geçiyor
+1148 | 19:06 | six minutes past seven p.m.          | akşam yediyi altı geçiyor
+1149 | 19:07 | seven minutes past seven p.m.        | akşam yediyi yedi geçiyor
+1150 | 19:08 | eight minutes past seven p.m.        | akşam yediyi sekiz geçiyor
+1151 | 19:09 | nine minutes past seven p.m.         | akşam yediyi dokuz geçiyor
+1152 | 19:10 | ten past seven p.m.                  | akşam yediyi on geçiyor
+1153 | 19:11 | eleven minutes past seven p.m.       | akşam yediyi on bir geçiyor
+1154 | 19:12 | twelve minutes past seven p.m.       | akşam yediyi on iki geçiyor
+1155 | 19:13 | thirteen minutes past seven p.m.     | akşam yediyi on üç geçiyor
+1156 | 19:14 | fourteen minutes past seven p.m.     | akşam yediyi on dört geçiyor
+1157 | 19:15 | a quarter past seven p.m.            | akşam yediyi çeyrek geçiyor
+1158 | 19:16 | sixteen minutes past seven p.m.      | akşam yediyi on altı geçiyor
+1159 | 19:17 | seventeen minutes past seven p.m.    | akşam yediyi on yedi geçiyor
+1160 | 19:18 | eighteen minutes past seven p.m.     | akşam yediyi on sekiz geçiyor
+1161 | 19:19 | nineteen minutes past seven p.m.     | akşam yediyi on dokuz geçiyor
+1162 | 19:20 | twenty past seven p.m.               | akşam yediyi yirmi geçiyor
+1163 | 19:21 | twenty-one minutes past seven p.m.   | akşam yediyi yirmi bir geçiyor
+1164 | 19:22 | twenty-two minutes past seven p.m.   | akşam yediyi yirmi iki geçiyor
+1165 | 19:23 | twenty-three minutes past seven p.m. | akşam yediyi yirmi üç geçiyor
+1166 | 19:24 | twenty-four minutes past seven p.m.  | akşam yediyi yirmi dört geçiyor
+1167 | 19:25 | twenty-five past seven p.m.          | akşam yediyi yirmi beş geçiyor
+1168 | 19:26 | twenty-six minutes past seven p.m.   | akşam yediyi yirmi altı geçiyor
+1169 | 19:27 | twenty-seven minutes past seven p.m. | akşam yediyi yirmi yedi geçiyor
+1170 | 19:28 | twenty-eight minutes past seven p.m. | akşam yediyi yirmi sekiz geçiyor
+1171 | 19:29 | twenty-nine minutes past seven p.m.  | akşam yediyi yirmi dokuz geçiyor
+1172 | 19:30 | half past seven p.m.                 | akşam yedi buçuk
+1173 | 19:31 | twenty-nine minutes to eight p.m.    | akşam sekize yirmi dokuz var
+1174 | 19:32 | twenty-eight minutes to eight p.m.   | akşam sekize yirmi sekiz var
+1175 | 19:33 | twenty-seven minutes to eight p.m.   | akşam sekize yirmi yedi var
+1176 | 19:34 | twenty-six minutes to eight p.m.     | akşam sekize yirmi altı var
+1177 | 19:35 | twenty-five to eight p.m.            | akşam sekize yirmi beş var
+1178 | 19:36 | twenty-four minutes to eight p.m.    | akşam sekize yirmi dört var
+1179 | 19:37 | twenty-three minutes to eight p.m.   | akşam sekize yirmi üç var
+1180 | 19:38 | twenty-two minutes to eight p.m.     | akşam sekize yirmi iki var
+1181 | 19:39 | twenty-one minutes to eight p.m.     | akşam sekize yirmi bir var
+1182 | 19:40 | twenty to eight p.m.                 | akşam sekize yirmi var
+1183 | 19:41 | nineteen minutes to eight p.m.       | akşam sekize on dokuz var
+1184 | 19:42 | eighteen minutes to eight p.m.       | akşam sekize on sekiz var
+1185 | 19:43 | seventeen minutes to eight p.m.      | akşam sekize on yedi var
+1186 | 19:44 | sixteen minutes to eight p.m.        | akşam sekize on altı var
+1187 | 19:45 | a quarter to eight p.m.              | akşam sekize çeyrek var
+1188 | 19:46 | fourteen minutes to eight p.m.       | akşam sekize on dört var
+1189 | 19:47 | thirteen minutes to eight p.m.       | akşam sekize on üç var
+1190 | 19:48 | twelve minutes to eight p.m.         | akşam sekize on iki var
+1191 | 19:49 | eleven minutes to eight p.m.         | akşam sekize on bir var
+1192 | 19:50 | ten to eight p.m.                    | akşam sekize on var
+1193 | 19:51 | nine minutes to eight p.m.           | akşam sekize dokuz var
+1194 | 19:52 | eight minutes to eight p.m.          | akşam sekize sekiz var
+1195 | 19:53 | seven minutes to eight p.m.          | akşam sekize yedi var
+1196 | 19:54 | six minutes to eight p.m.            | akşam sekize altı var
+1197 | 19:55 | five to eight p.m.                   | akşam sekize beş var
+1198 | 19:56 | four minutes to eight p.m.           | akşam sekize dört var
+1199 | 19:57 | three minutes to eight p.m.          | akşam sekize üç var
+1200 | 19:58 | two minutes to eight p.m.            | akşam sekize iki var
+1201 | 19:59 | one minute to eight p.m.             | akşam sekize bir var
+1202 | 20:00 | eight o'clock p.m.                   | akşam sekiz
+1203 | 20:01 | one minute past eight p.m.           | akşam sekizi bir geçiyor
+1204 | 20:02 | two minutes past eight p.m.          | akşam sekizi iki geçiyor
+1205 | 20:03 | three minutes past eight p.m.        | akşam sekizi üç geçiyor
+1206 | 20:04 | four minutes past eight p.m.         | akşam sekizi dört geçiyor
+1207 | 20:05 | five past eight p.m.                 | akşam sekizi beş geçiyor
+1208 | 20:06 | six minutes past eight p.m.          | akşam sekizi altı geçiyor
+1209 | 20:07 | seven minutes past eight p.m.        | akşam sekizi yedi geçiyor
+1210 | 20:08 | eight minutes past eight p.m.        | akşam sekizi sekiz geçiyor
+1211 | 20:09 | nine minutes past eight p.m.         | akşam sekizi dokuz geçiyor
+1212 | 20:10 | ten past eight p.m.                  | akşam sekizi on geçiyor
+1213 | 20:11 | eleven minutes past eight p.m.       | akşam sekizi on bir geçiyor
+1214 | 20:12 | twelve minutes past eight p.m.       | akşam sekizi on iki geçiyor
+1215 | 20:13 | thirteen minutes past eight p.m.     | akşam sekizi on üç geçiyor
+1216 | 20:14 | fourteen minutes past eight p.m.     | akşam sekizi on dört geçiyor
+1217 | 20:15 | a quarter past eight p.m.            | akşam sekizi çeyrek geçiyor
+1218 | 20:16 | sixteen minutes past eight p.m.      | akşam sekizi on altı geçiyor
+1219 | 20:17 | seventeen minutes past eight p.m.    | akşam sekizi on yedi geçiyor
+1220 | 20:18 | eighteen minutes past eight p.m.     | akşam sekizi on sekiz geçiyor
+1221 | 20:19 | nineteen minutes past eight p.m.     | akşam sekizi on dokuz geçiyor
+1222 | 20:20 | twenty past eight p.m.               | akşam sekizi yirmi geçiyor
+1223 | 20:21 | twenty-one minutes past eight p.m.   | akşam sekizi yirmi bir geçiyor
+1224 | 20:22 | twenty-two minutes past eight p.m.   | akşam sekizi yirmi iki geçiyor
+1225 | 20:23 | twenty-three minutes past eight p.m. | akşam sekizi yirmi üç geçiyor
+1226 | 20:24 | twenty-four minutes past eight p.m.  | akşam sekizi yirmi dört geçiyor
+1227 | 20:25 | twenty-five past eight p.m.          | akşam sekizi yirmi beş geçiyor
+1228 | 20:26 | twenty-six minutes past eight p.m.   | akşam sekizi yirmi altı geçiyor
+1229 | 20:27 | twenty-seven minutes past eight p.m. | akşam sekizi yirmi yedi geçiyor
+1230 | 20:28 | twenty-eight minutes past eight p.m. | akşam sekizi yirmi sekiz geçiyor
+1231 | 20:29 | twenty-nine minutes past eight p.m.  | akşam sekizi yirmi dokuz geçiyor
+1232 | 20:30 | half past eight p.m.                 | akşam sekiz buçuk
+1233 | 20:31 | twenty-nine minutes to nine p.m.     | akşam dokuza yirmi dokuz var
+1234 | 20:32 | twenty-eight minutes to nine p.m.    | akşam dokuza yirmi sekiz var
+1235 | 20:33 | twenty-seven minutes to nine p.m.    | akşam dokuza yirmi yedi var
+1236 | 20:34 | twenty-six minutes to nine p.m.      | akşam dokuza yirmi altı var
+1237 | 20:35 | twenty-five to nine p.m.             | akşam dokuza yirmi beş var
+1238 | 20:36 | twenty-four minutes to nine p.m.     | akşam dokuza yirmi dört var
+1239 | 20:37 | twenty-three minutes to nine p.m.    | akşam dokuza yirmi üç var
+1240 | 20:38 | twenty-two minutes to nine p.m.      | akşam dokuza yirmi iki var
+1241 | 20:39 | twenty-one minutes to nine p.m.      | akşam dokuza yirmi bir var
+1242 | 20:40 | twenty to nine p.m.                  | akşam dokuza yirmi var
+1243 | 20:41 | nineteen minutes to nine p.m.        | akşam dokuza on dokuz var
+1244 | 20:42 | eighteen minutes to nine p.m.        | akşam dokuza on sekiz var
+1245 | 20:43 | seventeen minutes to nine p.m.       | akşam dokuza on yedi var
+1246 | 20:44 | sixteen minutes to nine p.m.         | akşam dokuza on altı var
+1247 | 20:45 | a quarter to nine p.m.               | akşam dokuza çeyrek var
+1248 | 20:46 | fourteen minutes to nine p.m.        | akşam dokuza on dört var
+1249 | 20:47 | thirteen minutes to nine p.m.        | akşam dokuza on üç var
+1250 | 20:48 | twelve minutes to nine p.m.          | akşam dokuza on iki var
+1251 | 20:49 | eleven minutes to nine p.m.          | akşam dokuza on bir var
+1252 | 20:50 | ten to nine p.m.                     | akşam dokuza on var
+1253 | 20:51 | nine minutes to nine p.m.            | akşam dokuza dokuz var
+1254 | 20:52 | eight minutes to nine p.m.           | akşam dokuza sekiz var
+1255 | 20:53 | seven minutes to nine p.m.           | akşam dokuza yedi var
+1256 | 20:54 | six minutes to nine p.m.             | akşam dokuza altı var
+1257 | 20:55 | five to nine p.m.                    | akşam dokuza beş var
+1258 | 20:56 | four minutes to nine p.m.            | akşam dokuza dört var
+1259 | 20:57 | three minutes to nine p.m.           | akşam dokuza üç var
+1260 | 20:58 | two minutes to nine p.m.             | akşam dokuza iki var
+1261 | 20:59 | one minute to nine p.m.              | akşam dokuza bir var
+1262 | 21:00 | nine o'clock p.m.                    | gece dokuz
+1263 | 21:01 | one minute past nine p.m.            | gece dokuzu bir geçiyor
+1264 | 21:02 | two minutes past nine p.m.           | gece dokuzu iki geçiyor
+1265 | 21:03 | three minutes past nine p.m.         | gece dokuzu üç geçiyor
+1266 | 21:04 | four minutes past nine p.m.          | gece dokuzu dört geçiyor
+1267 | 21:05 | five past nine p.m.                  | gece dokuzu beş geçiyor
+1268 | 21:06 | six minutes past nine p.m.           | gece dokuzu altı geçiyor
+1269 | 21:07 | seven minutes past nine p.m.         | gece dokuzu yedi geçiyor
+1270 | 21:08 | eight minutes past nine p.m.         | gece dokuzu sekiz geçiyor
+1271 | 21:09 | nine minutes past nine p.m.          | gece dokuzu dokuz geçiyor
+1272 | 21:10 | ten past nine p.m.                   | gece dokuzu on geçiyor
+1273 | 21:11 | eleven minutes past nine p.m.        | gece dokuzu on bir geçiyor
+1274 | 21:12 | twelve minutes past nine p.m.        | gece dokuzu on iki geçiyor
+1275 | 21:13 | thirteen minutes past nine p.m.      | gece dokuzu on üç geçiyor
+1276 | 21:14 | fourteen minutes past nine p.m.      | gece dokuzu on dört geçiyor
+1277 | 21:15 | a quarter past nine p.m.             | gece dokuzu çeyrek geçiyor
+1278 | 21:16 | sixteen minutes past nine p.m.       | gece dokuzu on altı geçiyor
+1279 | 21:17 | seventeen minutes past nine p.m.     | gece dokuzu on yedi geçiyor
+1280 | 21:18 | eighteen minutes past nine p.m.      | gece dokuzu on sekiz geçiyor
+1281 | 21:19 | nineteen minutes past nine p.m.      | gece dokuzu on dokuz geçiyor
+1282 | 21:20 | twenty past nine p.m.                | gece dokuzu yirmi geçiyor
+1283 | 21:21 | twenty-one minutes past nine p.m.    | gece dokuzu yirmi bir geçiyor
+1284 | 21:22 | twenty-two minutes past nine p.m.    | gece dokuzu yirmi iki geçiyor
+1285 | 21:23 | twenty-three minutes past nine p.m.  | gece dokuzu yirmi üç geçiyor
+1286 | 21:24 | twenty-four minutes past nine p.m.   | gece dokuzu yirmi dört geçiyor
+1287 | 21:25 | twenty-five past nine p.m.           | gece dokuzu yirmi beş geçiyor
+1288 | 21:26 | twenty-six minutes past nine p.m.    | gece dokuzu yirmi altı geçiyor
+1289 | 21:27 | twenty-seven minutes past nine p.m.  | gece dokuzu yirmi yedi geçiyor
+1290 | 21:28 | twenty-eight minutes past nine p.m.  | gece dokuzu yirmi sekiz geçiyor
+1291 | 21:29 | twenty-nine minutes past nine p.m.   | gece dokuzu yirmi dokuz geçiyor
+1292 | 21:30 | half past nine p.m.                  | gece dokuz buçuk
+1293 | 21:31 | twenty-nine minutes to ten p.m.      | gece ona yirmi dokuz var
+1294 | 21:32 | twenty-eight minutes to ten p.m.     | gece ona yirmi sekiz var
+1295 | 21:33 | twenty-seven minutes to ten p.m.     | gece ona yirmi yedi var
+1296 | 21:34 | twenty-six minutes to ten p.m.       | gece ona yirmi altı var
+1297 | 21:35 | twenty-five to ten p.m.              | gece ona yirmi beş var
+1298 | 21:36 | twenty-four minutes to ten p.m.      | gece ona yirmi dört var
+1299 | 21:37 | twenty-three minutes to ten p.m.     | gece ona yirmi üç var
+1300 | 21:38 | twenty-two minutes to ten p.m.       | gece ona yirmi iki var
+1301 | 21:39 | twenty-one minutes to ten p.m.       | gece ona yirmi bir var
+1302 | 21:40 | twenty to ten p.m.                   | gece ona yirmi var
+1303 | 21:41 | nineteen minutes to ten p.m.         | gece ona on dokuz var
+1304 | 21:42 | eighteen minutes to ten p.m.         | gece ona on sekiz var
+1305 | 21:43 | seventeen minutes to ten p.m.        | gece ona on yedi var
+1306 | 21:44 | sixteen minutes to ten p.m.          | gece ona on altı var
+1307 | 21:45 | a quarter to ten p.m.                | gece ona çeyrek var
+1308 | 21:46 | fourteen minutes to ten p.m.         | gece ona on dört var
+1309 | 21:47 | thirteen minutes to ten p.m.         | gece ona on üç var
+1310 | 21:48 | twelve minutes to ten p.m.           | gece ona on iki var
+1311 | 21:49 | eleven minutes to ten p.m.           | gece ona on bir var
+1312 | 21:50 | ten to ten p.m.                      | gece ona on var
+1313 | 21:51 | nine minutes to ten p.m.             | gece ona dokuz var
+1314 | 21:52 | eight minutes to ten p.m.            | gece ona sekiz var
+1315 | 21:53 | seven minutes to ten p.m.            | gece ona yedi var
+1316 | 21:54 | six minutes to ten p.m.              | gece ona altı var
+1317 | 21:55 | five to ten p.m.                     | gece ona beş var
+1318 | 21:56 | four minutes to ten p.m.             | gece ona dört var
+1319 | 21:57 | three minutes to ten p.m.            | gece ona üç var
+1320 | 21:58 | two minutes to ten p.m.              | gece ona iki var
+1321 | 21:59 | one minute to ten p.m.               | gece ona bir var
+1322 | 22:00 | ten o'clock p.m.                     | gece on
+1323 | 22:01 | one minute past ten p.m.             | gece onu bir geçiyor
+1324 | 22:02 | two minutes past ten p.m.            | gece onu iki geçiyor
+1325 | 22:03 | three minutes past ten p.m.          | gece onu üç geçiyor
+1326 | 22:04 | four minutes past ten p.m.           | gece onu dört geçiyor
+1327 | 22:05 | five past ten p.m.                   | gece onu beş geçiyor
+1328 | 22:06 | six minutes past ten p.m.            | gece onu altı geçiyor
+1329 | 22:07 | seven minutes past ten p.m.          | gece onu yedi geçiyor
+1330 | 22:08 | eight minutes past ten p.m.          | gece onu sekiz geçiyor
+1331 | 22:09 | nine minutes past ten p.m.           | gece onu dokuz geçiyor
+1332 | 22:10 | ten past ten p.m.                    | gece onu on geçiyor
+1333 | 22:11 | eleven minutes past ten p.m.         | gece onu on bir geçiyor
+1334 | 22:12 | twelve minutes past ten p.m.         | gece onu on iki geçiyor
+1335 | 22:13 | thirteen minutes past ten p.m.       | gece onu on üç geçiyor
+1336 | 22:14 | fourteen minutes past ten p.m.       | gece onu on dört geçiyor
+1337 | 22:15 | a quarter past ten p.m.              | gece onu çeyrek geçiyor
+1338 | 22:16 | sixteen minutes past ten p.m.        | gece onu on altı geçiyor
+1339 | 22:17 | seventeen minutes past ten p.m.      | gece onu on yedi geçiyor
+1340 | 22:18 | eighteen minutes past ten p.m.       | gece onu on sekiz geçiyor
+1341 | 22:19 | nineteen minutes past ten p.m.       | gece onu on dokuz geçiyor
+1342 | 22:20 | twenty past ten p.m.                 | gece onu yirmi geçiyor
+1343 | 22:21 | twenty-one minutes past ten p.m.     | gece onu yirmi bir geçiyor
+1344 | 22:22 | twenty-two minutes past ten p.m.     | gece onu yirmi iki geçiyor
+1345 | 22:23 | twenty-three minutes past ten p.m.   | gece onu yirmi üç geçiyor
+1346 | 22:24 | twenty-four minutes past ten p.m.    | gece onu yirmi dört geçiyor
+1347 | 22:25 | twenty-five past ten p.m.            | gece onu yirmi beş geçiyor
+1348 | 22:26 | twenty-six minutes past ten p.m.     | gece onu yirmi altı geçiyor
+1349 | 22:27 | twenty-seven minutes past ten p.m.   | gece onu yirmi yedi geçiyor
+1350 | 22:28 | twenty-eight minutes past ten p.m.   | gece onu yirmi sekiz geçiyor
+1351 | 22:29 | twenty-nine minutes past ten p.m.    | gece onu yirmi dokuz geçiyor
+1352 | 22:30 | half past ten p.m.                   | gece on buçuk
+1353 | 22:31 | twenty-nine minutes to eleven p.m.   | gece on bire yirmi dokuz var
+1354 | 22:32 | twenty-eight minutes to eleven p.m.  | gece on bire yirmi sekiz var
+1355 | 22:33 | twenty-seven minutes to eleven p.m.  | gece on bire yirmi yedi var
+1356 | 22:34 | twenty-six minutes to eleven p.m.    | gece on bire yirmi altı var
+1357 | 22:35 | twenty-five to eleven p.m.           | gece on bire yirmi beş var
+1358 | 22:36 | twenty-four minutes to eleven p.m.   | gece on bire yirmi dört var
+1359 | 22:37 | twenty-three minutes to eleven p.m.  | gece on bire yirmi üç var
+1360 | 22:38 | twenty-two minutes to eleven p.m.    | gece on bire yirmi iki var
+1361 | 22:39 | twenty-one minutes to eleven p.m.    | gece on bire yirmi bir var
+1362 | 22:40 | twenty to eleven p.m.                | gece on bire yirmi var
+1363 | 22:41 | nineteen minutes to eleven p.m.      | gece on bire on dokuz var
+1364 | 22:42 | eighteen minutes to eleven p.m.      | gece on bire on sekiz var
+1365 | 22:43 | seventeen minutes to eleven p.m.     | gece on bire on yedi var
+1366 | 22:44 | sixteen minutes to eleven p.m.       | gece on bire on altı var
+1367 | 22:45 | a quarter to eleven p.m.             | gece on bire çeyrek var
+1368 | 22:46 | fourteen minutes to eleven p.m.      | gece on bire on dört var
+1369 | 22:47 | thirteen minutes to eleven p.m.      | gece on bire on üç var
+1370 | 22:48 | twelve minutes to eleven p.m.        | gece on bire on iki var
+1371 | 22:49 | eleven minutes to eleven p.m.        | gece on bire on bir var
+1372 | 22:50 | ten to eleven p.m.                   | gece on bire on var
+1373 | 22:51 | nine minutes to eleven p.m.          | gece on bire dokuz var
+1374 | 22:52 | eight minutes to eleven p.m.         | gece on bire sekiz var
+1375 | 22:53 | seven minutes to eleven p.m.         | gece on bire yedi var
+1376 | 22:54 | six minutes to eleven p.m.           | gece on bire altı var
+1377 | 22:55 | five to eleven p.m.                  | gece on bire beş var
+1378 | 22:56 | four minutes to eleven p.m.          | gece on bire dört var
+1379 | 22:57 | three minutes to eleven p.m.         | gece on bire üç var
+1380 | 22:58 | two minutes to eleven p.m.           | gece on bire iki var
+1381 | 22:59 | one minute to eleven p.m.            | gece on bire bir var
+1382 | 23:00 | eleven o'clock p.m.                  | gece on bir
+1383 | 23:01 | one minute past eleven p.m.          | gece on biri bir geçiyor
+1384 | 23:02 | two minutes past eleven p.m.         | gece on biri iki geçiyor
+1385 | 23:03 | three minutes past eleven p.m.       | gece on biri üç geçiyor
+1386 | 23:04 | four minutes past eleven p.m.        | gece on biri dört geçiyor
+1387 | 23:05 | five past eleven p.m.                | gece on biri beş geçiyor
+1388 | 23:06 | six minutes past eleven p.m.         | gece on biri altı geçiyor
+1389 | 23:07 | seven minutes past eleven p.m.       | gece on biri yedi geçiyor
+1390 | 23:08 | eight minutes past eleven p.m.       | gece on biri sekiz geçiyor
+1391 | 23:09 | nine minutes past eleven p.m.        | gece on biri dokuz geçiyor
+1392 | 23:10 | ten past eleven p.m.                 | gece on biri on geçiyor
+1393 | 23:11 | eleven minutes past eleven p.m.      | gece on biri on bir geçiyor
+1394 | 23:12 | twelve minutes past eleven p.m.      | gece on biri on iki geçiyor
+1395 | 23:13 | thirteen minutes past eleven p.m.    | gece on biri on üç geçiyor
+1396 | 23:14 | fourteen minutes past eleven p.m.    | gece on biri on dört geçiyor
+1397 | 23:15 | a quarter past eleven p.m.           | gece on biri çeyrek geçiyor
+1398 | 23:16 | sixteen minutes past eleven p.m.     | gece on biri on altı geçiyor
+1399 | 23:17 | seventeen minutes past eleven p.m.   | gece on biri on yedi geçiyor
+1400 | 23:18 | eighteen minutes past eleven p.m.    | gece on biri on sekiz geçiyor
+1401 | 23:19 | nineteen minutes past eleven p.m.    | gece on biri on dokuz geçiyor
+1402 | 23:20 | twenty past eleven p.m.              | gece on biri yirmi geçiyor
+1403 | 23:21 | twenty-one minutes past eleven p.m.  | gece on biri yirmi bir geçiyor
+1404 | 23:22 | twenty-two minutes past eleven p.m.  | gece on biri yirmi iki geçiyor
+1405 | 23:23 | twenty-three minutes past eleven p.m. | gece on biri yirmi üç geçiyor
+1406 | 23:24 | twenty-four minutes past eleven p.m. | gece on biri yirmi dört geçiyor
+1407 | 23:25 | twenty-five past eleven p.m.         | gece on biri yirmi beş geçiyor
+1408 | 23:26 | twenty-six minutes past eleven p.m.  | gece on biri yirmi altı geçiyor
+1409 | 23:27 | twenty-seven minutes past eleven p.m. | gece on biri yirmi yedi geçiyor
+1410 | 23:28 | twenty-eight minutes past eleven p.m. | gece on biri yirmi sekiz geçiyor
+1411 | 23:29 | twenty-nine minutes past eleven p.m. | gece on biri yirmi dokuz geçiyor
+1412 | 23:30 | half past eleven p.m.                | gece on bir buçuk
+1413 | 23:31 | twenty-nine minutes to twelve p.m.   | gece on ikiye yirmi dokuz var
+1414 | 23:32 | twenty-eight minutes to twelve p.m.  | gece on ikiye yirmi sekiz var
+1415 | 23:33 | twenty-seven minutes to twelve p.m.  | gece on ikiye yirmi yedi var
+1416 | 23:34 | twenty-six minutes to twelve p.m.    | gece on ikiye yirmi altı var
+1417 | 23:35 | twenty-five to twelve p.m.           | gece on ikiye yirmi beş var
+1418 | 23:36 | twenty-four minutes to twelve p.m.   | gece on ikiye yirmi dört var
+1419 | 23:37 | twenty-three minutes to twelve p.m.  | gece on ikiye yirmi üç var
+1420 | 23:38 | twenty-two minutes to twelve p.m.    | gece on ikiye yirmi iki var
+1421 | 23:39 | twenty-one minutes to twelve p.m.    | gece on ikiye yirmi bir var
+1422 | 23:40 | twenty to twelve p.m.                | gece on ikiye yirmi var
+1423 | 23:41 | nineteen minutes to twelve p.m.      | gece on ikiye on dokuz var
+1424 | 23:42 | eighteen minutes to twelve p.m.      | gece on ikiye on sekiz var
+1425 | 23:43 | seventeen minutes to twelve p.m.     | gece on ikiye on yedi var
+1426 | 23:44 | sixteen minutes to twelve p.m.       | gece on ikiye on altı var
+1427 | 23:45 | a quarter to twelve p.m.             | gece on ikiye çeyrek var
+1428 | 23:46 | fourteen minutes to twelve p.m.      | gece on ikiye on dört var
+1429 | 23:47 | thirteen minutes to twelve p.m.      | gece on ikiye on üç var
+1430 | 23:48 | twelve minutes to twelve p.m.        | gece on ikiye on iki var
+1431 | 23:49 | eleven minutes to twelve p.m.        | gece on ikiye on bir var
+1432 | 23:50 | ten to twelve p.m.                   | gece on ikiye on var
+1433 | 23:51 | nine minutes to twelve p.m.          | gece on ikiye dokuz var
+1434 | 23:52 | eight minutes to twelve p.m.         | gece on ikiye sekiz var
+1435 | 23:53 | seven minutes to twelve p.m.         | gece on ikiye yedi var
+1436 | 23:54 | six minutes to twelve p.m.           | gece on ikiye altı var
+1437 | 23:55 | five to twelve p.m.                  | gece on ikiye beş var
+1438 | 23:56 | four minutes to twelve p.m.          | gece on ikiye dört var
+1439 | 23:57 | three minutes to twelve p.m.         | gece on ikiye üç var
+1440 | 23:58 | two minutes to twelve p.m.           | gece on ikiye iki var
+1441 | 23:59 | one minute to twelve p.m.            | gece on ikiye bir var

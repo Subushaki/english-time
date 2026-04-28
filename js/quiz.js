@@ -42,9 +42,43 @@
 
     // Get word list
     let wordList;
-    let selectedData = dataset === 'genel' ? WORDS_A2_GENEL : 
-                       (dataset === 'grammar' ? WORDS_A2_GRAMMAR : 
-                       (dataset === 'deyimler' ? WORDS_A2_DEYIMLER : WORDS_A2));
+    const timesFilter = params.get('timesFilter');
+
+    let selectedData = WORDS_A2;
+    if (dataset === 'genel') selectedData = WORDS_A2_GENEL;
+    else if (dataset === 'grammar') selectedData = WORDS_A2_GRAMMAR;
+    else if (dataset === 'deyimler') selectedData = WORDS_A2_DEYIMLER;
+    else if (dataset === 'times') {
+      if (typeof WORDS_A2_TIMES_FULL !== 'undefined' && timesFilter) {
+        if (timesFilter === 'am') {
+          selectedData = WORDS_A2_TIMES_FULL.filter(w => parseInt(w.en.split(':')[0] || '0') < 12 && w.hintEn.includes('0') && w.en.includes('a.m.')); // We rely on hintEn "It is HH:MM"
+          // Better logic: use ID? IDs are generated starting from 2000 in order
+          // Or just string match on hintEn: '00:' to '11:'
+          selectedData = WORDS_A2_TIMES_FULL.filter(w => {
+            const match = w.hintEn.match(/It is (\d{2}):/);
+            if (match) {
+              const hour = parseInt(match[1], 10);
+              return hour < 12;
+            }
+            return false;
+          });
+        } else if (timesFilter === 'pm') {
+          selectedData = WORDS_A2_TIMES_FULL.filter(w => {
+            const match = w.hintEn.match(/It is (\d{2}):/);
+            if (match) {
+              const hour = parseInt(match[1], 10);
+              return hour >= 12;
+            }
+            return false;
+          });
+        } else {
+          // Specific hour filter e.g. "00", "14"
+          selectedData = WORDS_A2_TIMES_FULL.filter(w => w.hintEn.includes(`It is ${timesFilter}:`));
+        }
+      } else {
+        selectedData = WORDS_A2_TIMES;
+      }
+    }
 
     if (isCustomQuiz) {
       // Custom quiz: read word IDs from localStorage
@@ -537,7 +571,31 @@
     const params = new URLSearchParams(window.location.search);
     let wordList;
     const dataset = params.get('dataset') || 'kurs';
-    let selectedData = dataset === 'genel' ? WORDS_A2_GENEL : (dataset === 'grammar' ? WORDS_A2_GRAMMAR : WORDS_A2);
+    const timesFilter = params.get('timesFilter');
+
+    let selectedData = WORDS_A2;
+    if (dataset === 'genel') selectedData = WORDS_A2_GENEL;
+    else if (dataset === 'grammar') selectedData = WORDS_A2_GRAMMAR;
+    else if (dataset === 'deyimler') selectedData = WORDS_A2_DEYIMLER;
+    else if (dataset === 'times') {
+      if (typeof WORDS_A2_TIMES_FULL !== 'undefined' && timesFilter) {
+        if (timesFilter === 'am') {
+          selectedData = WORDS_A2_TIMES_FULL.filter(w => {
+            const match = w.hintEn.match(/It is (\d{2}):/);
+            return match && parseInt(match[1], 10) < 12;
+          });
+        } else if (timesFilter === 'pm') {
+          selectedData = WORDS_A2_TIMES_FULL.filter(w => {
+            const match = w.hintEn.match(/It is (\d{2}):/);
+            return match && parseInt(match[1], 10) >= 12;
+          });
+        } else {
+          selectedData = WORDS_A2_TIMES_FULL.filter(w => w.hintEn.includes(`It is ${timesFilter}:`));
+        }
+      } else {
+        selectedData = WORDS_A2_TIMES;
+      }
+    }
 
     if (isCustomQuiz) {
       const customIds = JSON.parse(localStorage.getItem('custom_quiz_ids') || '[]');

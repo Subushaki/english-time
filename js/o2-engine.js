@@ -40,19 +40,13 @@ const O2Engine = {
       if (word === n) return 0.8;
     }
 
-    // Partial match — check if all chars of needle appear in order
-    let ni = 0;
-    for (let hi = 0; hi < h.length && ni < n.length; hi++) {
-      if (h[hi] === n[ni]) ni++;
-    }
-    if (ni === n.length && n.length >= 3) return 0.4;
-
     // Levenshtein for short queries (typo tolerance)
-    if (n.length <= 12 && n.length >= 3) {
+    // En az 4 harfli aramalarda yazım hatası toleransı uygulayalım (3 harflilerde çok fazla yanlış eşleşme yapıyor)
+    if (n.length <= 12 && n.length >= 4) {
       for (const word of haystackWords) {
         const dist = this.levenshtein(n, word);
-        if (dist <= 1 && word.length >= 3) return 0.65;
-        if (dist <= 2 && word.length >= 5) return 0.45;
+        if (dist <= 1 && word.length >= 4) return 0.65;
+        if (dist <= 2 && word.length >= 6) return 0.45;
       }
     }
 
@@ -123,7 +117,8 @@ const O2Engine = {
         score += bestDetailScore * 5;
       }
 
-      if (score > 3) {
+      // Require a higher score so words that ONLY match in content/details are not shown
+      if (score >= 15) {
         results.push({ entry, score });
       }
     }

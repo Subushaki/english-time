@@ -75,9 +75,9 @@
     // ===== O2 STANDALONE PAGE LOGIC =====
     let currentFilter = '';
     let isBrowsing = false;
-    let browseItems = [];
-    let browseShown = 0;
-    const BATCH_SIZE = 5;
+    let currentItems = [];
+    let currentShown = 0;
+    const BATCH_SIZE = 10;
 
     // Toggle browse all mode
     function toggleBrowseAll() {
@@ -107,18 +107,24 @@
         // Reset filter buttons
         document.querySelectorAll('.o2-filter-btn').forEach(b => b.classList.remove('active'));
         document.querySelector('.o2-filter-btn[data-category=""]').classList.add('active');
-        loadBrowseEntries();
+        loadEntries(O2_DATABASE.filter(entry => {
+          if (currentFilter && entry.category !== currentFilter) return false;
+          return true;
+        }), true);
       }
     }
 
-    // Load browse entries with lazy loading
-    function loadBrowseEntries() {
-      browseItems = O2_DATABASE.filter(entry => {
-        if (currentFilter && entry.category !== currentFilter) return false;
-        return true;
-      });
-      browseShown = 0;
+    // Initialize a new list of items to display
+    function loadEntries(items, isBrowseAction = false) {
+      currentItems = items;
+      currentShown = 0;
       document.getElementById('o2-page-results').innerHTML = '';
+      
+      if (currentItems.length > 0) {
+        const countText = isBrowseAction ? currentItems.length + ' içerik mevcut' : currentItems.length + ' sonuç bulundu';
+        document.getElementById('o2-page-results').innerHTML = '<div class="o2-result-count">' + countText + '</div>';
+      }
+      
       loadMore();
     }
 
@@ -126,17 +132,12 @@
     function loadMore() {
       const container = document.getElementById('o2-page-results');
       const loadMoreWrap = document.getElementById('o2-load-more-wrap');
-      const nextBatch = browseItems.slice(browseShown, browseShown + BATCH_SIZE);
+      const nextBatch = currentItems.slice(currentShown, currentShown + BATCH_SIZE);
 
-      if (nextBatch.length === 0 && browseShown === 0) {
-        container.innerHTML = '<div class="o2-empty-state"><span class="o2-empty-icon">🤷</span><p>Bu kategoride henüz içerik yok</p></div>';
+      if (nextBatch.length === 0 && currentShown === 0) {
+        container.innerHTML = '<div class="o2-empty-state"><span class="o2-empty-icon">🤷</span><p>Bu arama için sonuç bulunamadı</p></div>';
         loadMoreWrap.style.display = 'none';
         return;
-      }
-
-      // Add count on first batch
-      if (browseShown === 0) {
-        container.innerHTML = '<div class="o2-result-count">' + browseItems.length + ' içerik mevcut</div>';
       }
 
       // Render cards
@@ -155,13 +156,12 @@
         });
       });
 
-      browseShown += nextBatch.length;
+      currentShown += nextBatch.length;
 
       // Show/hide load more
-      if (browseShown < browseItems.length) {
+      if (currentShown < currentItems.length) {
         loadMoreWrap.style.display = '';
-        document.getElementById('o2-load-more-btn').textContent =
-          'Daha fazla göster ↓  (' + (browseItems.length - browseShown) + ' kaldı)';
+        document.getElementById('o2-load-more-btn').textContent = 'Diğer Sonuçları Göster ↓';
       } else {
         loadMoreWrap.style.display = 'none';
       }
@@ -172,7 +172,10 @@
       document.querySelectorAll('.o2-filter-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       if (isBrowsing) {
-        loadBrowseEntries();
+        loadEntries(O2_DATABASE.filter(entry => {
+          if (currentFilter && entry.category !== currentFilter) return false;
+          return true;
+        }), true);
       } else {
         performPageSearch();
       }
@@ -201,16 +204,8 @@
         document.getElementById('o2-browse-btn').textContent = '＋';
       }
 
-      const results = O2Engine.search(query, { category: currentFilter || null, maxResults: 20 });
-
-      if (results.length === 0) {
-        container.innerHTML = '<div class="o2-empty-state"><span class="o2-empty-icon">🤷</span><p>"' +
-          O2Engine.escapeHtml(query) + '" için sonuç bulunamadı</p></div>';
-        return;
-      }
-
-      const countHtml = '<div class="o2-result-count">' + results.length + ' sonuç bulundu</div>';
-      container.innerHTML = countHtml + results.map(entry => O2Engine.renderCard(entry)).join('');
+      const results = O2Engine.search(query, { category: currentFilter || null, maxResults: 100 });
+      loadEntries(results, false);
     }
 
     // Initialize

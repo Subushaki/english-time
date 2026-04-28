@@ -13,6 +13,24 @@
   <link rel="dns-prefetch" href="https://oumhweoxhzziufhasxch.supabase.co">
   <script src="js/optimize.js"></script>
 
+  <style>
+    /* Hour Grid Symmetrical Layout (24 items divisible by 6, 4, 3) */
+    #hour-grid {
+      grid-template-columns: repeat(6, 1fr);
+      gap: 12px;
+    }
+    @media (max-width: 900px) {
+      #hour-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+    @media (max-width: 500px) {
+      #hour-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  </style>
+
   <script src="js/theme.js"></script>
   <link rel="stylesheet" href="css/theme-light.css">
   <!-- PWA & Favicon -->
@@ -85,9 +103,44 @@
           <h3>A2 Deyimler</h3>
           <p>30 İngilizce Deyim</p>
         </a>
+        <a class="mode-card" id="dataset-times" href="#" onclick="selectDataset('times'); return false;">
+          <span class="mode-flags">⏰</span>
+          <h3>A2 Zaman & Saatler</h3>
+          <p>34 Zaman Kalıbı</p>
+        </a>
       </div>
       <div style="margin-top: 24px; text-align: center;">
         <a href="study.html" class="btn-secondary" style="width: 100%; max-width: 300px; justify-content: center;">📖 Flashcard Olarak Çalış</a>
+      </div>
+    </div>
+
+    <!-- Times Filter Selection -->
+    <div class="mode-section" id="times-filter-section" style="display: none;">
+      <h2 class="mode-title">Saat Dilimi Seç (Kategori)</h2>
+      <div class="mode-grid">
+        <a class="mode-card" href="#" onclick="selectTimesFilter('am'); return false;">
+          <span class="mode-flags">🌅</span>
+          <h3>A.M. Saatleri</h3>
+          <p>00:00 - 11:59 Arası</p>
+        </a>
+        <a class="mode-card" href="#" onclick="selectTimesFilter('pm'); return false;">
+          <span class="mode-flags">🌃</span>
+          <h3>P.M. Saatleri</h3>
+          <p>12:00 - 23:59 Arası</p>
+        </a>
+        <a class="mode-card" href="#" onclick="showHourFilters(); return false;">
+          <span class="mode-flags">⏳</span>
+          <h3>Dilim Dilim</h3>
+          <p>Örn: 14:00 - 14:59</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- Hour Filter Selection -->
+    <div class="mode-section" id="hour-filter-section" style="display: none;">
+      <h2 class="mode-title">Saat Dilimi Seç (Özel)</h2>
+      <div class="mode-grid" id="hour-grid">
+        <!-- JS ile doldurulacak -->
       </div>
     </div>
 
