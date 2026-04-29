@@ -254,7 +254,7 @@ const WORDS_A2 = [
   { id: 253, en: "Collect Things", tr: "Bir Şeyler Toplamak", hintEn: "To keep many things of the same kind.", hintTr: "Aynı türden birçok şeyi saklamak/toplamak." },
   { id: 254, en: "Skiing", tr: "Kayak Yapma / Kayak", hintEn: "Moving over snow on long flat boards.", hintTr: "Uzun düz tahtalar üzerinde karda hareket etmek." },
   { id: 255, en: "Fishing", tr: "Balık Tutma", hintEn: "Trying to catch fish.", hintTr: "Balık yakalamaya çalışmak." },
-  { id: 256, en: "Spend Time", tr: "Zaman Geçirmek / Harcamak", hintEn: "To use your time doing something.", hintTr: "Zamanını bir şey yaparak kullanmak." },
+  { id: 256, en: "Spend Time", tr: "Zaman Geçirmek / Zaman Harcamak", hintEn: "To use your time doing something.", hintTr: "Zamanını bir şey yaparak kullanmak." },
   { id: 257, en: "Gym", tr: "Spor / Spor Salonu", hintEn: "A place to exercise and get strong.", hintTr: "Egzersiz yapmak ve güçlenmek için bir yer." },
   { id: 258, en: "Drawing", tr: "Çizim Yapma / Çizim", hintEn: "Making pictures with a pencil.", hintTr: "Bir kalemle resimler yapmak." },
   { id: 259, en: "Painting", tr: "Resim Yapma / Resim / Tablo", hintEn: "Making pictures with colors.", hintTr: "Renklerle resimler yapmak." },
