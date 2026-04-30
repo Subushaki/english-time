@@ -184,7 +184,7 @@
           let avatarHtml = `<div class="report-avatar">${profile.username.charAt(0).toUpperCase()}</div>`;
           if (profile.avatar && profile.avatar !== 'null') {
             const bgStyle = profile.avatar_bg ? `background: ${profile.avatar_bg};` : '';
-            avatarHtml = `<div class="report-avatar" style="${bgStyle}"><img src="avatars/${profile.avatar}" alt=""></div>`;
+            avatarHtml = `<div class="report-avatar" style="${bgStyle}">${getAvatarImgTag(profile.avatar, 'text', profile.username)}</div>`;
           }
 
           const styleStr = profile.name_style ? `font-family: ${profile.name_style};` : '';

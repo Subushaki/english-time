@@ -120,7 +120,7 @@
       else if (user.avatar_border === 'black') borderStyle = 'border: 3px solid #000000;';
       let content = '';
       if (user.avatar && user.avatar !== 'null') {
-        content = `<img src="avatars/${escapeHtmlLb(user.avatar)}" alt="" onerror="this.parentElement.textContent='${escapeHtmlLb(user.username).charAt(0).toUpperCase()}'">`;
+        content = getAvatarImgTag(user.avatar, 'text', user.username);
       } else {
         content = escapeHtmlLb(user.username).charAt(0).toUpperCase();
       }

@@ -468,7 +468,7 @@
       }
 
       if (pickerUser.avatar) {
-        el.innerHTML = `<img src="avatars/${pickerUser.avatar}" alt="" onerror="this.parentElement.textContent='${pickerUser.username.charAt(0).toUpperCase()}'">`;
+        el.innerHTML = getAvatarImgTag(pickerUser.avatar, 'text', pickerUser.username);
       } else {
         el.textContent = pickerUser.username.charAt(0).toUpperCase();
       }
@@ -477,7 +477,7 @@
     function createAvatarItem(file, isSelected) {
       const item = document.createElement('div');
       item.className = `ap-item${isSelected ? ' selected' : ''}`;
-      item.innerHTML = `<img src="avatars/${file}" loading="lazy" alt="" onerror="this.parentElement.style.display='none'">`;
+      item.innerHTML = getAvatarImgTag(file, 'hide');
       item.onclick = () => selectAvatar(file);
       return item;
     }

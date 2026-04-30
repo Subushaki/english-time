@@ -148,7 +148,7 @@ async function updateUserBar() {
     let avatarHtml = '';
     if (user.avatar && user.avatar !== 'null') {
       const bgStyle = user.avatar_bg ? `background: ${user.avatar_bg};` : '';
-      avatarHtml = `<div class="burger-avatar" style="${bgStyle}"><img src="avatars/${escapeHtmlAuth(user.avatar)}" alt="" onerror="this.parentElement.textContent='${escapeHtmlAuth(displayName).charAt(0).toUpperCase()}'"></div>`;
+      avatarHtml = `<div class="burger-avatar" style="${bgStyle}">${getAvatarImgTag(user.avatar, 'text', displayName)}</div>`;
     } else {
       avatarHtml = `<div class="burger-avatar">${escapeHtmlAuth(displayName).charAt(0).toUpperCase()}</div>`;
     }

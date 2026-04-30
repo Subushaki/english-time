@@ -209,7 +209,7 @@
         avatarEl.style.boxShadow = '0 0 20px rgba(0,0,0,0.4)';
       }
       if (targetProfile.avatar && targetProfile.avatar !== 'null') {
-        avatarEl.innerHTML = `<img src="avatars/${targetProfile.avatar}" alt="" onerror="this.parentElement.textContent='${targetProfile.username.charAt(0).toUpperCase()}'">`;
+        avatarEl.innerHTML = getAvatarImgTag(targetProfile.avatar, 'text', targetProfile.username);
       } else {
         avatarEl.textContent = targetProfile.username.charAt(0).toUpperCase();
       }
