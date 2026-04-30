@@ -264,17 +264,22 @@
         return;
       }
 
-      // 2. Fetch word_results for all visible users
+      // 2. Fetch word_results for all visible users individually to bypass the 1000-row limit
       const visibleIds = profiles.map(p => p.id);
-      const { data: allResults } = await sb
-        .from('word_results')
-        .select('user_id, word_id, result')
-        .in('user_id', visibleIds)
-        .limit(50000);
+      
+      const resultsPromises = visibleIds.map(uid => 
+        sb.from('word_results').select('word_id, result').eq('user_id', uid).limit(50000)
+      );
+      
+      const responses = await Promise.all(resultsPromises);
+      const userResultsMap = {};
+      visibleIds.forEach((uid, index) => {
+        userResultsMap[uid] = responses[index].data || [];
+      });
 
       // 3. Calculate scores
       profiles.forEach(profile => {
-        const userResults = (allResults || []).filter(r => r.user_id === profile.id);
+        const userResults = userResultsMap[profile.id];
         const bestResults = {};
         userResults.forEach(wr => {
           const priority = { first_try: 1, retry: 2, hard: 3, unknown: 4 };
