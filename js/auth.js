@@ -3,6 +3,20 @@
 
 const SESSION_KEY = 'english_time_user';
 
+window.getAvatarImgTag = function(filename, fallbackMode = 'text', username = '?') {
+  const safeFile = filename ? filename.replace(/'/g, "\\'").replace(/"/g, "&quot;") : '';
+  const safeName = username ? username.replace(/'/g, "\\'").replace(/"/g, "&quot;").charAt(0).toUpperCase() : '?';
+  const onerrorStr = fallbackMode === 'hide' 
+    ? `this.parentElement.style.display='none'`
+    : `this.parentElement.textContent='${safeName}'`;
+
+  if (safeFile.toLowerCase().endsWith('.mp4') || safeFile.toLowerCase().endsWith('.webm')) {
+    return `<video src="avatars/${safeFile}" autoplay loop muted playsinline style="width:100%; height:100%; object-fit:cover; pointer-events:none; border-radius:inherit; background:transparent;"></video>`;
+  } else {
+    return `<img src="avatars/${safeFile}" loading="lazy" alt="" onerror="${onerrorStr}">`;
+  }
+};
+
 // Hash password with SHA-256
 async function hashPassword(password) {
   const encoder = new TextEncoder();
