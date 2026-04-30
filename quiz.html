@@ -121,6 +121,7 @@
     <div class="quiz-bottom-actions" id="quiz-bottom-actions">
       <a href="index.html" class="home-btn" id="home-btn">← Ana Sayfa</a>
       <button class="o2-info-btn" id="o2-info-btn" onclick="openO2Info()">💡 Bilgi</button>
+      <button class="report-btn" id="report-btn" onclick="openReportModal()" style="display: none;">🚩 Raporla</button>
       <button class="finish-btn" id="finish-btn" onclick="finishQuiz()">🏁 Sonuçlandır</button>
     </div>
 
@@ -180,6 +181,42 @@
             <span class="o2-empty-icon">🔍</span>
             <p>Aramak istediğin kelimeyi veya kuralı yaz</p>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Report Modal -->
+    <div class="o2-modal-overlay" id="report-modal-overlay" onclick="closeReportModal()">
+      <div class="o2-modal" onclick="event.stopPropagation()" style="max-width: 500px; width: 90%; max-height: 90vh; display: flex; flex-direction: column;">
+        <div class="o2-modal-header" style="flex-shrink: 0;">
+          <div class="o2-logo-wrap">
+            <span class="o2-title">🚩 Kelime Raporla</span>
+          </div>
+          <button class="o2-close" onclick="closeReportModal()" aria-label="Kapat">✕</button>
+        </div>
+        <div style="padding: 20px; overflow-y: auto; -webkit-overflow-scrolling: touch;">
+          <p style="color: var(--text-secondary); margin-bottom: 15px; font-size: 0.95rem;">Hatalı olduğunu düşündüğünüz kelimeyi bize bildirin. Bildiriminiz incelendikten sonra size geri dönüş yapılacaktır.</p>
+          <div style="background: rgba(255,255,255,0.05); padding: 12px; border-radius: var(--radius-sm); margin-bottom: 15px;">
+            <strong style="color: var(--text-primary);">Kelime: </strong><span id="report-word-text" style="color: var(--text-secondary); font-weight: 500;"></span>
+          </div>
+          
+          <label style="display: block; margin-bottom: 8px; color: var(--text-primary); font-weight: 600;">Rapor Nedeni</label>
+          <select id="report-reason" onchange="toggleReportSubject()" style="width: 100%; padding: 12px; border-radius: var(--radius-sm); background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); color: var(--text-primary); margin-bottom: 16px; outline: none; font-family: inherit;">
+            <option value="Hatalı Çeviri">Hatalı Çeviri</option>
+            <option value="Eksik Anlam">Eksik Anlam</option>
+            <option value="Yazım Yanlışı">Yazım Yanlışı</option>
+            <option value="Diğer">Diğer</option>
+          </select>
+          
+          <div id="report-subject-container" style="display: none; margin-bottom: 16px;">
+            <label style="display: block; margin-bottom: 8px; color: var(--text-primary); font-weight: 600;">Konu Başlığı</label>
+            <input type="text" id="report-subject" placeholder="Lütfen konu başlığı yazın..." style="width: 100%; padding: 12px; border-radius: var(--radius-sm); background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); color: var(--text-primary); outline: none; font-family: inherit;">
+          </div>
+          
+          <label style="display: block; margin-bottom: 8px; color: var(--text-primary); font-weight: 600;">Açıklama</label>
+          <textarea id="report-details" rows="4" placeholder="Lütfen detayları belirtin... Neden hatalı olduğunu düşünüyorsunuz?" style="width: 100%; padding: 12px; border-radius: var(--radius-sm); background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); color: var(--text-primary); resize: vertical; margin-bottom: 20px; outline: none; font-family: inherit;"></textarea>
+          
+          <button class="btn-primary" onclick="submitReport()" style="width: 100%; justify-content: center;" id="submit-report-btn">Raporu Gönder</button>
         </div>
       </div>
     </div>

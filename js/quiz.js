@@ -251,12 +251,14 @@
   // ===== KEYBOARD LISTENERS =====
   function setupKeyListeners() {
     document.getElementById('answer-input').addEventListener('keydown', function (e) {
+      if (document.querySelector('.o2-modal-overlay.open')) return;
       if (e.key === 'Enter' && !isWaiting) {
         e.stopPropagation();
         checkAnswer();
       }
     });
     document.addEventListener('keydown', function (e) {
+      if (document.querySelector('.o2-modal-overlay.open')) return;
       if (isWaiting && (e.key === 'Enter' || e.code === 'Space')) {
         e.preventDefault();
         nextWord();
@@ -425,6 +427,9 @@
     document.getElementById('feedback-message').innerHTML = '';
     document.getElementById('continue-btn').className = 'continue-btn';
     document.getElementById('submit-btn').disabled = false;
+    
+    const repBtn = document.getElementById('report-btn');
+    if (repBtn) repBtn.style.display = 'none';
 
     const badge = document.getElementById('attempt-badge');
     if (currentItem.attempt === 2) {
@@ -490,6 +495,12 @@
       updateStats();
 
       continueBtn.className = 'continue-btn visible';
+      
+      if (loggedInUser) {
+        const repBtn = document.getElementById('report-btn');
+        if (repBtn) repBtn.style.display = 'inline-flex';
+      }
+      
       isWaiting = true;
 
     } else {
@@ -526,6 +537,12 @@
 
       updateStats();
       continueBtn.className = 'continue-btn visible';
+      
+      if (loggedInUser) {
+        const repBtn = document.getElementById('report-btn');
+        if (repBtn) repBtn.style.display = 'inline-flex';
+      }
+      
       isWaiting = true;
     }
   };
@@ -851,6 +868,90 @@
       });
     }
   });
+
+  // ===== REPORT MODAL =====
+  window.openReportModal = function() {
+    if (!loggedInUser) {
+      alert("Raporlamak için giriş yapmalısınız.");
+      return;
+    }
+    if (!currentItem || !currentItem.word) return;
+    
+    document.getElementById('report-modal-overlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+    
+    const wordText = mode === 'en-tr' 
+      ? `${currentItem.word.en} — ${currentItem.word.tr}` 
+      : `${currentItem.word.tr} — ${currentItem.word.en}`;
+      
+    document.getElementById('report-word-text').textContent = wordText;
+    document.getElementById('report-reason').value = "Hatalı Çeviri";
+    document.getElementById('report-subject-container').style.display = 'none';
+    document.getElementById('report-subject').value = "";
+    document.getElementById('report-details').value = "";
+    document.getElementById('submit-report-btn').disabled = false;
+    document.getElementById('submit-report-btn').textContent = "Raporu Gönder";
+  };
+
+  window.closeReportModal = function() {
+    const overlay = document.getElementById('report-modal-overlay');
+    if (overlay) overlay.classList.remove('open');
+    document.body.style.overflow = '';
+  };
+
+  window.toggleReportSubject = function() {
+    const reason = document.getElementById('report-reason').value;
+    if (reason === "Diğer") {
+      document.getElementById('report-subject-container').style.display = 'block';
+    } else {
+      document.getElementById('report-subject-container').style.display = 'none';
+    }
+  };
+
+  window.submitReport = async function() {
+    if (!loggedInUser || !currentItem || !currentItem.word) return;
+    
+    const reason = document.getElementById('report-reason').value;
+    const subject = reason === "Diğer" ? document.getElementById('report-subject').value.trim() : reason;
+    const details = document.getElementById('report-details').value.trim();
+    
+    if (reason === "Diğer" && !subject) {
+      alert("Lütfen konu başlığı yazınız.");
+      return;
+    }
+    
+    if (!details) {
+      alert("Lütfen açıklama yazınız.");
+      return;
+    }
+    
+    const btn = document.getElementById('submit-report-btn');
+    btn.disabled = true;
+    btn.textContent = "Gönderiliyor...";
+    
+    try {
+      const sb = getSupabase();
+      const { error } = await sb.from('reports').insert({
+        user_id: loggedInUser.id,
+        word_id: currentItem.word.id,
+        word_en: currentItem.word.en,
+        word_tr: currentItem.word.tr,
+        reason_type: reason,
+        subject: subject,
+        details: details,
+        status: 'pending'
+      });
+      
+      if (error) throw error;
+      
+      alert("Raporunuz başarıyla gönderildi. Teşekkür ederiz!");
+      closeReportModal();
+    } catch (e) {
+      alert("Rapor gönderilirken hata oluştu: " + e.message + "\\n\\nNot: Admin henüz 'reports' tablosunu oluşturmamış olabilir.");
+      btn.disabled = false;
+      btn.textContent = "Raporu Gönder";
+    }
+  };
 
   // ===== AUTO-SAVE ON PAGE LEAVE =====
   window.addEventListener('beforeunload', () => {

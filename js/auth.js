@@ -102,8 +102,22 @@ async function updateUserBar() {
     const isSettings = window.location.pathname.includes('settings.html');
     const isO2 = window.location.pathname.includes('o2.html');
 
+    let unreadCount = 0;
+    try {
+      const sb = getSupabase();
+      if (sb) {
+        const { count, error } = await sb.from('notifications')
+          .select('*', { count: 'exact', head: true })
+          .eq('user_id', user.id)
+          .eq('is_read', false);
+        if (!error && count) unreadCount = count;
+      }
+    } catch (e) { }
+
     // Build nav items list (only pages user is NOT currently on)
-    let navItems = '';
+    const mobileNotif = `<a href="#" class="burger-nav-item" onclick="openNotifications(); return false;"><span class="burger-nav-icon">🔔</span> Bildirimler ${unreadCount > 0 ? `<span style="background:var(--accent-red); color:white; font-size:0.75rem; padding:2px 8px; border-radius:10px; font-weight:700; margin-left:auto;">${unreadCount} Yeni</span>` : ''}</a>`;
+    let navItems = mobileNotif;
+
     if (!isIndex) navItems += '<a href="index.html" class="burger-nav-item"><span class="burger-nav-icon">🏠</span> Ana Sayfa</a>';
     if (!isDashboard) navItems += '<a href="dashboard.html" class="burger-nav-item"><span class="burger-nav-icon">📊</span> Panelim</a>';
     if (!isLeaderboard) navItems += '<a href="leaderboard.html" class="burger-nav-item"><span class="burger-nav-icon">🥇</span> Skor Tablosu</a>';
@@ -124,8 +138,9 @@ async function updateUserBar() {
     const o2Btn = isO2 ? '' : '<a href="o2.html" class="user-bar-btn desktop-nav" style="border-color: rgba(251,191,36,0.2); color: #fbbf24;"><span class="settings-btn-icon">🔍</span> O₂</a>';
     const profileBtn = isProfile ? '' : '<a href="profile.html?id=' + user.id + '" class="user-bar-btn desktop-nav"><span class="settings-btn-icon">👤</span> Profilim</a>';
     const settingsBtn = isSettings ? '' : '<a href="settings.html" class="user-bar-btn desktop-nav"><span class="settings-btn-icon">⚙️</span> Ayarlar</a>';
-    
+
     const themeBtn = `<button class="user-bar-btn desktop-nav" onclick="toggleTheme()" id="theme-toggle-desktop" title="Temayı Değiştir">${themeIcon}</button>`;
+    const notifBtn = `<button class="user-bar-btn desktop-nav" onclick="openNotifications()" title="Bildirimler" style="position:relative; font-size:1.1rem; padding: 6px 12px;">🔔${unreadCount > 0 ? `<span style="position:absolute; top:2px; right:2px; background:var(--accent-red); color:white; font-size:0.65rem; padding:2px 5px; border-radius:10px; font-weight:700; line-height:1;">${unreadCount}</span>` : ''}</button>`;
 
     let displayName = user.username || 'Bilinmeyen Kullanıcı';
     let styleStr = user.name_style ? `font-family: ${user.name_style};` : '';
@@ -142,6 +157,7 @@ async function updateUserBar() {
       <div class="user-greeting">
          👋 <span style="${styleStr}">${escapeHtmlAuth(displayName)}</span>
       </div>
+      ${notifBtn}
       ${homeBtn}
       ${panelBtn}
       ${lbBtn}
@@ -241,71 +257,71 @@ async function handleLogout() {
   window.location.href = 'index.html';
 }
 
-window.promptChangeUsername = async function() {
+window.promptChangeUsername = async function () {
   const user = await getCurrentUser();
   if (!user) return;
-  
+
   const newName = prompt("Yeni kullanıcı adınızı girin:", user.username);
   if (!newName || newName.trim() === "" || newName.trim() === user.username) {
     return; // İptal edildi, boş bırakıldı veya aynı isim
   }
   const trimmedUsername = newName.trim();
-  
+
   const sb = getSupabase();
   if (!sb) { alert("Bağlantı hatası"); return; }
-  
+
   // Kullanıcı adının başka biri tarafından kullanılıp kullanılmadığını kontrol et
   const { data: existing } = await sb.from('profiles').select('id').eq('username', trimmedUsername).maybeSingle();
   if (existing) {
     alert("Bu kullanıcı adı başka biri tarafından kullanılıyor.");
     return;
   }
-  
+
   // Kullanıcı adını güncelle
   const { data, error } = await sb.from('profiles').update({ username: trimmedUsername }).eq('id', user.id).select();
   if (error || !data || data.length === 0) {
     alert("Bağlantı başarılı fakat veritabanı ismi güncellemedi.\n\nSebep: Supabase 'profiles' tablosunda UPDATE izniniz (RLS Policy) yok. Lütfen Supabase'den profiles tablosuna UPDATE policy ekleyin.");
     return;
   }
-  
+
   // Yerel oturumu güncelle
   user.username = trimmedUsername;
   localStorage.setItem(SESSION_KEY, JSON.stringify(user));
-  
+
   alert("Kullanıcı adınız başarıyla güncellendi.");
   window.location.reload(); // Üst bardaki metnin güncellenmesi için sayfayı yenile
 };
 
-window.confirmResetData = async function() {
+window.confirmResetData = async function () {
   if (confirm("Tüm ilerlemenizi, yıldızlı kelimeleri ve geçmiş quiz oturumlarınızı silmek istediğinize emin misiniz? Bu işlem geri alınamaz!")) {
     const user = await getCurrentUser();
     if (!user) return;
     const sb = getSupabase();
     if (!sb) { alert("Bağlantı hatası"); return; }
-    
+
     // Yükleniyor görselini vb. araya sokabilirsiniz ama basitçe işlemi başlatalım
     await sb.from('word_results').delete().eq('user_id', user.id);
     await sb.from('study_words').delete().eq('user_id', user.id);
     await sb.from('quiz_sessions').delete().eq('user_id', user.id);
-    
+
     alert('Verileriniz başarıyla sıfırlandı.');
     window.location.reload();
   }
 };
 
-window.confirmDeleteAccount = async function() {
+window.confirmDeleteAccount = async function () {
   if (confirm("Hesabınızı ve tüm verilerinizi KALICI olarak silmek istediğinize emin misiniz?")) {
     const user = await getCurrentUser();
     if (!user) return;
     const sb = getSupabase();
     if (!sb) { alert("Bağlantı hatası"); return; }
-    
+
     await sb.from('word_results').delete().eq('user_id', user.id);
     await sb.from('study_words').delete().eq('user_id', user.id);
     await sb.from('quiz_sessions').delete().eq('user_id', user.id);
     // Profili son olarak sil
     await sb.from('profiles').delete().eq('id', user.id);
-    
+
     await logoutUser();
     alert('Hesabınız ve tüm verileriniz silindi.');
     window.location.href = 'login.html';
@@ -317,6 +333,151 @@ function escapeHtmlAuth(str) {
   div.textContent = str;
   return div.innerHTML;
 }
+
+window.openNotifications = async function () {
+  closeBurgerMenu();
+  let modal = document.getElementById('notifications-modal-overlay');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'notifications-modal-overlay';
+    modal.className = 'o2-modal-overlay';
+    modal.innerHTML = `
+      <div class="o2-modal" onclick="event.stopPropagation()" style="max-width: 500px; padding-bottom: 0;">
+        <div class="o2-modal-header" style="border-bottom: 1px solid var(--glass-border); padding-bottom: 15px;">
+          <div class="o2-logo-wrap">
+            <span class="o2-title" style="color: var(--accent-yellow);">🔔 Bildirimler</span>
+          </div>
+          <button class="o2-close" onclick="closeNotifications()" aria-label="Kapat">✕</button>
+        </div>
+        <div id="notifications-content" style="padding: 0; max-height: 60vh; overflow-y: auto;">
+          <div style="text-align:center; color: var(--text-muted); padding: 30px;">Yükleniyor...</div>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(modal);
+    modal.addEventListener('click', closeNotifications);
+  }
+
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+
+  const content = document.getElementById('notifications-content');
+  const user = await getCurrentUser();
+  if (!user) return;
+
+  try {
+    const sb = getSupabase();
+    const { data, error } = await sb.from('notifications')
+      .select('*')
+      .eq('user_id', user.id)
+      .order('created_at', { ascending: false })
+      .limit(30);
+
+    if (error) throw error;
+
+    if (!data || data.length === 0) {
+      content.innerHTML = '<div style="text-align:center; color: var(--text-muted); padding: 30px;">Henüz bildiriminiz yok.</div>';
+      return;
+    }
+
+    window.currentNotifications = data; // Store globally for details
+
+    let html = '';
+    data.forEach(n => {
+      // Strip HTML tags for preview and replace multiple spaces
+      const rawText = n.message.replace(/<[^>]+>/g, ' ').replace(/\\s+/g, ' ').trim();
+      const preview = rawText.substring(0, 60) + (rawText.length > 60 ? '...' : '');
+
+      html += `
+        <div style="padding: 20px; border-bottom: 1px solid var(--glass-border); background: ${n.is_read ? 'transparent' : 'rgba(251, 191, 36, 0.05)'}; display: flex; flex-direction: column; gap: 8px;">
+          <div style="font-weight: 600; color: var(--text-primary); display:flex; justify-content:space-between; align-items: flex-start; gap: 10px;">
+            <span>${escapeHtmlAuth(n.title)}</span>
+            <div style="display:flex; gap:8px; align-items:center;">
+              ${!n.is_read ? '<span style="color:var(--accent-yellow); font-size:0.7rem; padding:3px 8px; border-radius:12px; background:rgba(251,191,36,0.15); font-weight:700; flex-shrink:0;">YENİ</span>' : ''}
+              <button onclick="deleteNotification(${n.id})" style="background:transparent; border:none; color:var(--accent-red); cursor:pointer; font-size:1.1rem; padding:0;" title="Sil">🗑️</button>
+            </div>
+          </div>
+          <div style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.4;">${escapeHtmlAuth(preview)}</div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-top: 5px;">
+            <div style="font-size: 0.8rem; color: var(--text-muted);">${new Date(n.created_at).toLocaleString('tr-TR')}</div>
+            <button onclick="openNotificationDetail(${n.id})" style="background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); color: var(--text-primary); padding: 5px 12px; border-radius: 6px; font-size: 0.8rem; cursor: pointer; transition: all 0.2s;">Detaylar →</button>
+          </div>
+        </div>
+      `;
+    });
+    content.innerHTML = html;
+
+    // Mark as read
+    const unreadIds = data.filter(n => !n.is_read).map(n => n.id);
+    if (unreadIds.length > 0) {
+      await sb.from('notifications').update({ is_read: true }).in('id', unreadIds);
+      setTimeout(updateUserBar, 1000);
+    }
+
+  } catch (e) {
+    content.innerHTML = '<div style="text-align:center; color: var(--accent-red); padding: 30px;">Bildirimler yüklenemedi.<br><br><span style="font-size:0.8rem; color:var(--text-muted);">Not: Admin veritabanını güncellememiş olabilir.</span></div>';
+  }
+};
+
+window.closeNotifications = function () {
+  const modal = document.getElementById('notifications-modal-overlay');
+  if (modal) modal.classList.remove('open');
+  document.body.style.overflow = '';
+};
+
+// Detay Modalı ve Silme İşlemleri
+window.openNotificationDetail = function(id) {
+  if (!window.currentNotifications) return;
+  const n = window.currentNotifications.find(x => x.id === id);
+  if (!n) return;
+  
+  let modal = document.getElementById('notif-detail-overlay');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'notif-detail-overlay';
+    modal.className = 'o2-modal-overlay';
+    modal.style.zIndex = '10000'; // üstte kalsın
+    modal.innerHTML = `
+      <div class="o2-modal" onclick="event.stopPropagation()" style="max-width: 500px;">
+        <div class="o2-modal-header" style="border-bottom: 1px solid var(--glass-border); padding-bottom: 15px;">
+          <div class="o2-logo-wrap">
+            <span class="o2-title" id="notif-detail-title" style="color: var(--accent-yellow);">Detay</span>
+          </div>
+          <button class="o2-close" onclick="closeNotificationDetail()" aria-label="Kapat">✕</button>
+        </div>
+        <div id="notif-detail-content" style="padding: 25px; max-height: 60vh; overflow-y: auto; color: var(--text-primary); font-size: 0.95rem; line-height: 1.6; font-family: inherit;"></div>
+      </div>
+    `;
+    document.body.appendChild(modal);
+    modal.addEventListener('click', closeNotificationDetail);
+  }
+  
+  document.getElementById('notif-detail-title').textContent = n.title;
+  // Use innerHTML without escaping because the HTML format is generated securely by the admin panel
+  // User input is escaped inside the admin panel before inserting into DB
+  document.getElementById('notif-detail-content').innerHTML = n.message;
+  modal.classList.add('open');
+};
+
+window.closeNotificationDetail = function() {
+  const modal = document.getElementById('notif-detail-overlay');
+  if (modal) modal.classList.remove('open');
+};
+
+window.deleteNotification = async function(id) {
+  if (confirm("Bu bildirimi silmek istediğinize emin misiniz?")) {
+    if (confirm("Bu işlem kalıcıdır ve geri alınamaz. Kesinlikle silmek istiyor musunuz?")) {
+      try {
+        const sb = getSupabase();
+        await sb.from('notifications').delete().eq('id', id);
+        openNotifications(); // Listeyi yenile
+        updateUserBar(); // Varsa sayıyı güncelle
+      } catch (e) {
+        alert("Silinirken hata oluştu.");
+      }
+    }
+  }
+};
 
 // Auto-update user bar on page load
 document.addEventListener('DOMContentLoaded', () => {

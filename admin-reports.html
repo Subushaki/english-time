@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kral Dairesi | Raporlar</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/admin.css">
+  <link rel="preconnect" href="https://oumhweoxhzziufhasxch.supabase.co" crossorigin>
+  <script src="js/optimize.js"></script>
+  <script src="js/theme.js"></script>
+  <link rel="stylesheet" href="css/theme-light.css">
+  <!-- PWA & Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📚</text></svg>">
+  <link rel="apple-touch-icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📚</text></svg>">
+  <style>
+    .report-card {
+      background: var(--bg-card);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .report-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      border-bottom: 1px solid var(--glass-border);
+      padding-bottom: 10px;
+    }
+
+    .report-status {
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+
+    .status-pending {
+      background: rgba(245, 158, 11, 0.15);
+      color: var(--accent-orange);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+    }
+
+    .status-resolved {
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--accent-green);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+
+    .report-user-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .report-avatar {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--gradient-primary);
+      font-weight: bold;
+      color: white;
+      cursor: pointer;
+      overflow: hidden;
+    }
+
+    .report-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .reply-box {
+      margin-top: 15px;
+      padding: 15px;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--glass-border);
+    }
+
+    .reply-textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: var(--radius-sm);
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--glass-border);
+      color: var(--text-primary);
+      resize: vertical;
+      outline: none;
+      font-family: inherit;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bg-effects">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+  </div>
+  <div class="stars"></div>
+
+  <div class="container admin-container">
+    <div class="admin-header">
+      <h1>👑 Hata Raporları</h1>
+      <p>Kullanıcılardan gelen hatalı kelime bildirimlerini yönetin.</p>
+    </div>
+
+    <!-- Tabs -->
+    <div class="admin-tabs">
+      <a href="admin-analytics.html" class="admin-tab" style="text-decoration:none; color:inherit;">📊 Genel
+        Analizler</a>
+      <a href="admin-analytics.html" class="admin-tab" style="text-decoration:none; color:inherit;">👥 Kullanıcı
+        Listesi</a>
+      <a href="admin-analytics.html" class="admin-tab" style="text-decoration:none; color:inherit;">🚀 Güncellemeler</a>
+      <div class="admin-tab active">🚩 Hata Raporları</div>
+    </div>
+
+    <!-- Reports Content -->
+    <div id="reports-container" style="max-width: 800px; margin: 0 auto;">
+      <div style="text-align: center; color: var(--text-muted); padding: 50px;">Raporlar yükleniyor...</div>
+    </div>
+
+    <div style="margin-top: 40px; text-align: center;">
+      <a href="settings.html" class="btn-secondary" style="display: inline-flex; justify-content: center;">← Ayarlara
+        Dön</a>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js"></script>
+  <script src="js/auth.js"></script>
+  <script>
+    async function checkAdmin() {
+      const user = await getCurrentUser();
+      if (!user || user.is_admin !== true) {
+        document.body.innerHTML = '<h1 style="text-align: center; color: red; margin-top: 100px;">⛔ ERİŞİM REDDEDİLDİ.</h1>';
+        setTimeout(() => window.location.href = 'settings.html', 1500);
+        return null;
+      }
+      return user;
+    }
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      const admin = await checkAdmin();
+      if (!admin) return;
+      loadReports();
+    });
+
+    async function loadReports() {
+      const container = document.getElementById('reports-container');
+      const sb = getSupabase();
+
+      try {
+        const { data, error } = await sb.from('reports')
+          .select('*, profiles(username, avatar, avatar_bg, name_style)')
+          .order('created_at', { ascending: false });
+
+        if (error) throw error;
+
+        if (!data || data.length === 0) {
+          container.innerHTML = '<div style="text-align:center; padding: 40px; background: var(--bg-card); border-radius: var(--radius-md); border: 1px solid var(--glass-border);">Hiç rapor bulunmuyor. 🎉</div>';
+          return;
+        }
+
+        container.innerHTML = '';
+        data.forEach(report => {
+          const isResolved = report.status === 'resolved';
+          const statusClass = isResolved ? 'status-resolved' : 'status-pending';
+          const statusText = isResolved ? 'Çözüldü' : 'Bekliyor';
+
+          const profile = report.profiles || { username: 'Bilinmiyor', avatar: null };
+          let avatarHtml = `<div class="report-avatar">${profile.username.charAt(0).toUpperCase()}</div>`;
+          if (profile.avatar && profile.avatar !== 'null') {
+            const bgStyle = profile.avatar_bg ? `background: ${profile.avatar_bg};` : '';
+            avatarHtml = `<div class="report-avatar" style="${bgStyle}"><img src="avatars/${profile.avatar}" alt=""></div>`;
+          }
+
+          const styleStr = profile.name_style ? `font-family: ${profile.name_style};` : '';
+
+          const card = document.createElement('div');
+          card.className = 'report-card';
+          card.innerHTML = `
+            <div class="report-header">
+              <div class="report-user-info">
+                ${avatarHtml}
+                <div>
+                  <div style="font-weight: 600; color: var(--text-primary); ${styleStr}">${profile.username}</div>
+                  <div style="font-size: 0.75rem; color: var(--text-muted);">${new Date(report.created_at).toLocaleString('tr-TR')}</div>
+                </div>
+              </div>
+              <div style="display:flex; gap:10px; align-items:center;">
+                <div class="report-status ${statusClass}">${statusText}</div>
+                <button onclick="deleteReport(${report.id})" style="background:transparent; border:none; color:var(--accent-red); cursor:pointer; font-size:1.2rem; padding:4px; transition: transform 0.2s;" title="Raporu Sil" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">🗑️</button>
+              </div>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px;">
+              <div style="background: rgba(255,255,255,0.03); padding: 12px; border-radius: var(--radius-sm); border: 1px solid var(--glass-border);">
+                <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 5px;">Sorunlu Kelime</div>
+                <div style="font-weight: 600; color: var(--text-primary); font-size: 1.1rem;">${report.word_en} — ${report.word_tr}</div>
+                <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">Kelime ID: ${report.word_id}</div>
+              </div>
+              
+              <div style="background: rgba(255,255,255,0.03); padding: 12px; border-radius: var(--radius-sm); border: 1px solid var(--glass-border);">
+                <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 5px;">Rapor Nedeni</div>
+                <div style="font-weight: 600; color: var(--accent-yellow); font-size: 1rem;">${report.reason_type}</div>
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 4px;">${report.subject}</div>
+              </div>
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+              <div style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 5px; font-weight: 600;">Kullanıcı Açıklaması:</div>
+              <div style="color: var(--text-primary); line-height: 1.5; padding: 10px; background: rgba(0,0,0,0.2); border-radius: var(--radius-sm); border-left: 3px solid var(--accent-purple);">${report.details}</div>
+            </div>
+            
+            ${isResolved ? `
+              <div style="margin-top: 15px; padding: 15px; background: rgba(16, 185, 129, 0.05); border-radius: var(--radius-sm); border: 1px solid rgba(16, 185, 129, 0.2);">
+                <div style="font-size: 0.8rem; color: var(--accent-green); margin-bottom: 5px; font-weight: 600;">Admin Yanıtı:</div>
+                <div style="color: var(--text-primary);">${report.admin_reply || 'Sistem tarafından çözüldü.'}</div>
+              </div>
+            ` : `
+              <div class="reply-box">
+                <div style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 8px; font-weight: 600;">Kullanıcıya Yanıt Gönder ve Çözüldü İşaretle</div>
+                <textarea class="reply-textarea" id="reply-${report.id}" rows="3" placeholder="Yanıtınız (Kullanıcıya bildirim olarak gidecek)..."></textarea>
+                <button class="btn-primary" style="padding: 10px 20px; font-size: 0.9rem;" onclick="resolveReport(${report.id}, '${report.user_id}', '${escapeHtmlForAttr(report.word_en)}', '${escapeHtmlForAttr(report.word_tr)}', '${escapeHtmlForAttr(report.reason_type)}', '${escapeHtmlForAttr(report.details)}')">Yanıtla ve Çözüldü İşaretle</button>
+              </div>
+            `}
+          `;
+          container.appendChild(card);
+        });
+
+      } catch (e) {
+        container.innerHTML = '<div style="text-align:center; padding: 40px; color: var(--accent-red);">Tablo okunamadı. Veritabanında "reports" ve "notifications" tablolarını oluşturduğunuzdan emin olun.</div>';
+      }
+    }
+
+    function escapeHtmlForAttr(str) {
+      if (!str) return '';
+      return str.replace(/'/g, "\\'").replace(/"/g, "&quot;");
+    }
+
+    window.resolveReport = async function (reportId, userId, wordEn, wordTr, reason, details) {
+      const replyText = document.getElementById('reply-' + reportId).value.trim();
+      if (!replyText) {
+        alert('Lütfen bir yanıt yazın.');
+        return;
+      }
+
+      const sb = getSupabase();
+      try {
+        // Update report
+        const { error: repErr } = await sb.from('reports').update({
+          status: 'resolved',
+          admin_reply: replyText,
+          resolved_at: new Date().toISOString()
+        }).eq('id', reportId);
+
+        if (repErr) throw repErr;
+
+        // Detailed message construction
+        const safeReply = escapeHtmlForAttr(replyText);
+        const detailedMessage = `
+          <div style="margin-bottom: 15px; padding: 15px; background: rgba(255,255,255,0.03); border-radius: 8px; border: 1px solid var(--glass-border); border-left: 4px solid var(--accent-orange);">
+            <div style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: 5px; text-transform: uppercase;">Bildirdiğiniz Kelime (${escapeHtmlForAttr(reason)})</div>
+            <div style="font-weight: 600; color: var(--text-primary); font-size: 1.1rem; margin-bottom: 10px;">${escapeHtmlForAttr(wordEn)} — ${escapeHtmlForAttr(wordTr)}</div>
+            <div style="font-size: 0.85rem; color: var(--text-secondary); padding: 10px; background: rgba(0,0,0,0.2); border-radius: 6px; border-left: 2px solid rgba(255,255,255,0.1);">
+              <em style="color: var(--text-muted); font-size: 0.75rem; display: block; margin-bottom: 3px; font-style: normal; text-transform: uppercase;">Sizin Açıklamanız:</em>
+              ${escapeHtmlForAttr(details)}
+            </div>
+          </div>
+          <div style="margin-bottom: 10px; padding: 15px; background: rgba(16, 185, 129, 0.05); border-radius: 8px; border: 1px solid rgba(16, 185, 129, 0.2); border-left: 4px solid var(--accent-green);">
+            <div style="font-size: 0.8rem; color: var(--accent-green); margin-bottom: 5px; text-transform: uppercase; font-weight: 600;">Yönetici Yanıtı</div>
+            <div style="color: var(--text-primary); font-size: 0.95rem; line-height: 1.5; white-space: pre-wrap;">${safeReply}</div>
+          </div>
+        `;
+
+        // Send notification
+        const { error: notifErr } = await sb.from('notifications').insert({
+          user_id: userId,
+          title: 'Raporunuz Çözüldü ✅',
+          message: detailedMessage
+        });
+
+        if (notifErr) throw notifErr;
+
+        alert('Rapor çözüldü ve kullanıcıya bildirim gönderildi!');
+        loadReports(); // Refresh
+
+      } catch (e) {
+        alert('Hata: ' + e.message);
+      }
+    };
+
+    window.deleteReport = async function(reportId) {
+      if (confirm("Bu raporu silmek istediğinize emin misiniz?")) {
+        if (confirm("Bu işlem kalıcıdır ve geri alınamaz. Kesinlikle silmek istiyor musunuz?")) {
+          try {
+            const sb = getSupabase();
+            const { error } = await sb.from('reports').delete().eq('id', reportId);
+            if (error) throw error;
+            alert("Rapor başarıyla silindi.");
+            loadReports(); // Refresh
+          } catch (e) {
+            alert("Silinirken hata oluştu: " + e.message);
+          }
+        }
+      }
+    };
+  </script>
+</body>
+
+</html>
