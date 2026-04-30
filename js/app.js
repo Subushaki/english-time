@@ -231,3 +231,13 @@ async function startQuiz(mode) {
     window.location.href = url;
   }
 }
+
+// ===== DYNAMIC WORD COUNTS FOR INDEX UI =====
+document.addEventListener('DOMContentLoaded', () => {
+  if (document.getElementById('desc-genel') && typeof WORDS_A2_GENEL !== 'undefined') {
+    document.getElementById('desc-genel').textContent = `${WORDS_A2_GENEL.length} Kelimelik özel liste`;
+  }
+  if (document.getElementById('desc-grammar') && typeof WORDS_A2_GRAMMAR !== 'undefined') {
+    document.getElementById('desc-grammar').textContent = `${WORDS_A2_GRAMMAR.length} Soruluk Pronouns Testi`;
+  }
+});
