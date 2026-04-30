@@ -186,6 +186,44 @@ window.addEventListener('load', () => {
   setTimeout(() => {
     if (typeof getSupabase === 'function') {
       trackPageVisit();
+      initPresenceHeartbeat();
     }
   }, 200);
 });
+
+// ===== ONLINE STATUS HEARTBEAT =====
+let heartbeatInterval = null;
+
+function initPresenceHeartbeat() {
+  if (heartbeatInterval) return;
+  if (isBot()) return;
+
+  const sb = typeof getSupabase === 'function' ? getSupabase() : null;
+  if (!sb) return;
+
+  let userId = null;
+  try {
+    const stored = localStorage.getItem('english_time_user');
+    if (stored) userId = JSON.parse(stored).id;
+  } catch(e) {}
+  if (!userId) return;
+
+  // İlk heartbeat hemen
+  sendHeartbeat(sb, userId);
+
+  // Her 30 saniyede bir güncelle
+  heartbeatInterval = setInterval(() => {
+    if (document.visibilityState === 'visible') {
+      sendHeartbeat(sb, userId);
+    }
+  }, 30000);
+
+  // Sayfa kapanırken son heartbeat
+  window.addEventListener('beforeunload', () => sendHeartbeat(sb, userId));
+}
+
+function sendHeartbeat(sb, userId) {
+  try {
+    sb.from('profiles').update({ last_seen: new Date().toISOString() }).eq('id', userId).then();
+  } catch(e) { /* silent */ }
+}

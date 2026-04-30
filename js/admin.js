@@ -374,19 +374,36 @@ function exportDataToCSV() {
 async function loadUsers() {
   const container = document.getElementById('users-container');
   const sb = getSupabase();
-  const { data, error } = await sb.from('profiles').select('id, username, created_at, is_admin').order('created_at', { ascending: false });
+  const { data, error } = await sb.from('profiles').select('id, username, created_at, is_admin, last_seen').order('created_at', { ascending: false });
   
   if (error || !data) { container.innerHTML = 'Veri çekilemedi'; return; }
   
+  // Önce online kullanıcıları, sonra offline kullanıcıları göster
+  const now = new Date();
+  const sorted = [...data].sort((a, b) => {
+    const aOnline = a.last_seen && (now - new Date(a.last_seen)) < 120000;
+    const bOnline = b.last_seen && (now - new Date(b.last_seen)) < 120000;
+    if (aOnline && !bOnline) return -1;
+    if (!aOnline && bOnline) return 1;
+    return 0;
+  });
+
   container.innerHTML = '';
-  data.forEach(u => {
+  sorted.forEach(u => {
     const d = new Date(u.created_at).toLocaleDateString('tr-TR');
     const r = u.is_admin ? '<span style="color:var(--accent-yellow); font-size:0.8rem; margin-left:10px;">👑 ADMIN</span>' : '';
+    const isOnline = u.last_seen && (now - new Date(u.last_seen)) < 120000;
+    const statusDot = isOnline
+      ? '<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#10b981;margin-right:8px;box-shadow:0 0 6px #10b981;" title="Çevrimiçi"></span>'
+      : '<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#ef4444;margin-right:8px;opacity:0.5;" title="Çevrimdışı"></span>';
+    const lastSeenText = u.last_seen ? formatDuration(now - new Date(u.last_seen)) + ' önce' : 'Hiç giriş yapmadı';
+    const statusText = isOnline ? '<span style="color:#10b981;font-size:0.75rem;">● Aktif</span>' : '<span style="color:var(--text-muted);font-size:0.75rem;">Son görülme: ' + lastSeenText + '</span>';
+
     const row = document.createElement('div');
     row.className = 'ul-row';
     row.innerHTML = `
-      <div class="ul-name">${u.username} ${r}</div>
-      <div class="ul-meta">Kayıt: ${d} | ID: ${u.id.substring(0,8)}...</div>
+      <div class="ul-name">${statusDot}${u.username} ${r}</div>
+      <div class="ul-meta">Kayıt: ${d} | ${statusText}</div>
     `;
     row.onclick = () => openUserModal(u);
     container.appendChild(row);
@@ -396,7 +413,14 @@ async function loadUsers() {
 async function openUserModal(userObj) {
   document.getElementById('user-modal').style.display = 'flex';
   document.getElementById('modal-username').textContent = userObj.username;
-  document.getElementById('modal-joined').textContent = 'Kayıt Tarihi: ' + new Date(userObj.created_at).toLocaleDateString('tr-TR');
+
+  // Online status header
+  const now = new Date();
+  const isOnline = userObj.last_seen && (now - new Date(userObj.last_seen)) < 120000;
+  const statusHtml = isOnline
+    ? '<span style="color:#10b981;font-weight:600;">● Şu anda Aktif</span>'
+    : '<span style="color:var(--text-muted);">Son görülme: ' + (userObj.last_seen ? formatDuration(now - new Date(userObj.last_seen)) + ' önce' : 'Bilinmiyor') + '</span>';
+  document.getElementById('modal-joined').innerHTML = 'Kayıt Tarihi: ' + new Date(userObj.created_at).toLocaleDateString('tr-TR') + ' &nbsp;|&nbsp; ' + statusHtml;
   
   const sb = getSupabase();
   
@@ -495,7 +519,8 @@ async function openUserModal(userObj) {
      });
      
      const sortedList = Object.entries(pathTimes).sort((a,b) => b[1]-a[1]);
-     let html = '';
+     const totalActiveMs = Object.values(pathTimes).reduce((sum, ms) => sum + ms, 0);
+     let html = '<div style="display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--glass-border);margin-bottom:8px;"><span style="font-weight:700;color:var(--accent-green)">📊 Toplam Aktif Süre</span><span style="font-weight:700;color:var(--accent-green)">' + formatDuration(totalActiveMs) + '</span></div>';
      sortedList.forEach(([pathUrl, ms]) => {
         html += `<div class="time-list-item"><span style="color:var(--accent-blue)">/${pathUrl}</span><span style="font-weight:600">${formatDuration(ms)}</span></div>`;
      });

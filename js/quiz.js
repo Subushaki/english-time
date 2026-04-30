@@ -32,6 +32,85 @@
   let loggedInUser = null;
   let sessionId = null;
 
+  // ===== SESSION PERSISTENCE =====
+  const SESSION_TIMEOUT = 60 * 60 * 1000; // 1 saat
+  let expiredSessionData = null;
+
+  function getQuizStateKey() {
+    const p = new URLSearchParams(window.location.search);
+    let key = 'quiz_state_' + (p.get('dataset') || 'kurs') + '_' + (p.get('mode') || 'en-tr');
+    if (p.get('timesFilter')) key += '_' + p.get('timesFilter');
+    if (p.get('custom') === 'true') key += '_custom';
+    if (p.get('exclude') === 'true') key += '_excl';
+    return key;
+  }
+
+  function findWordById(id) {
+    if (typeof ALL_WORDS_A2 !== 'undefined') {
+      const f = ALL_WORDS_A2.find(w => w.id === id);
+      if (f) return f;
+    }
+    if (typeof WORDS_A2_TIMES_FULL !== 'undefined') {
+      const f = WORDS_A2_TIMES_FULL.find(w => w.id === id);
+      if (f) return f;
+    }
+    return null;
+  }
+
+  function saveQuizState() {
+    if (!loggedInUser) return;
+    try {
+      const state = {
+        queue: queue.map(i => ({ id: i.word.id, attempt: i.attempt })),
+        currentItem: currentItem ? { id: currentItem.word.id, attempt: currentItem.attempt } : null,
+        completedWords, totalWords, mode, isCustomQuiz, sessionId,
+        stats: { ...stats },
+        wordLists: {
+          firstTry: wordLists.firstTry.map(w => w.id),
+          retry: wordLists.retry.map(w => w.id),
+          hard: wordLists.hard.map(w => w.id),
+          unknown: wordLists.unknown.map(w => w.id)
+        },
+        lastActivity: Date.now()
+      };
+      localStorage.setItem(getQuizStateKey(), JSON.stringify(state));
+    } catch (e) { /* silent */ }
+  }
+
+  function clearQuizState() {
+    try { localStorage.removeItem(getQuizStateKey()); } catch (e) {}
+  }
+
+  function loadQuizState() {
+    try {
+      const raw = localStorage.getItem(getQuizStateKey());
+      return raw ? JSON.parse(raw) : null;
+    } catch (e) { return null; }
+  }
+
+  function restoreFromState(saved) {
+    queue = [];
+    if (saved.currentItem) {
+      const w = findWordById(saved.currentItem.id);
+      if (w) queue.push({ word: w, attempt: saved.currentItem.attempt });
+    }
+    saved.queue.forEach(item => {
+      const w = findWordById(item.id);
+      if (w) queue.push({ word: w, attempt: item.attempt });
+    });
+    totalWords = saved.totalWords;
+    completedWords = saved.completedWords;
+    stats.firstTry = saved.stats.firstTry;
+    stats.retry = saved.stats.retry;
+    stats.hard = saved.stats.hard;
+    stats.unknown = saved.stats.unknown;
+    wordLists.firstTry = saved.wordLists.firstTry.map(findWordById).filter(Boolean);
+    wordLists.retry = saved.wordLists.retry.map(findWordById).filter(Boolean);
+    wordLists.hard = saved.wordLists.hard.map(findWordById).filter(Boolean);
+    wordLists.unknown = saved.wordLists.unknown.map(findWordById).filter(Boolean);
+    sessionId = saved.sessionId;
+  }
+
   // ===== INIT =====
   function init() {
     const params = new URLSearchParams(window.location.search);
@@ -128,6 +207,36 @@
       document.getElementById('answer-input').placeholder = 'İngilizce karşılığını yazın...';
     }
 
+    // ===== CHECK FOR SAVED SESSION =====
+    const savedState = loadQuizState();
+    if (savedState && savedState.completedWords > 0) {
+      const elapsed = Date.now() - savedState.lastActivity;
+
+      if (elapsed > SESSION_TIMEOUT) {
+        // 1 saat geçmiş — otomatik bitir
+        expiredSessionData = { sessionId: savedState.sessionId, stats: savedState.stats };
+        clearQuizState();
+      } else {
+        // Geçerli oturum — devam etmek ister misiniz?
+        const mins = Math.round(elapsed / 60000);
+        const timeText = mins < 1 ? 'az önce' : mins + ' dk önce';
+        if (confirm(
+          'Kayıtlı ilerlemeniz var: ' + savedState.completedWords + '/' + savedState.totalWords +
+          ' kelime çözüldü (' + timeText + ').\n\nKaldığınız yerden devam etmek ister misiniz?\n\n• Tamam → Devam et\n• İptal → Sıfırdan başla'
+        )) {
+          restoreFromState(savedState);
+          updateProgress();
+          updateStats();
+          showNextWord();
+          setupKeyListeners();
+          initSupabaseSession();
+          return;
+        } else {
+          clearQuizState();
+        }
+      }
+    }
+
     // Build queue
     queue = wordList.map(w => ({ word: w, attempt: 1 }));
     shuffleArray(queue);
@@ -135,22 +244,24 @@
     updateProgress();
     showNextWord();
 
+    setupKeyListeners();
+    initSupabaseSession();
+  }
+
+  // ===== KEYBOARD LISTENERS =====
+  function setupKeyListeners() {
     document.getElementById('answer-input').addEventListener('keydown', function (e) {
       if (e.key === 'Enter' && !isWaiting) {
-        e.stopPropagation(); // Bubbling'i önle
+        e.stopPropagation();
         checkAnswer();
       }
     });
-
-    // Otomatik devam etme için klavye kısa yolları (Enter veya Space)
     document.addEventListener('keydown', function (e) {
       if (isWaiting && (e.key === 'Enter' || e.code === 'Space')) {
-        e.preventDefault(); // Sayfayı aşağı kaydırmayı engelle
+        e.preventDefault();
         nextWord();
       }
     });
-
-    initSupabaseSession();
   }
 
   // ===== SUPABASE SESSION =====
@@ -160,6 +271,27 @@
       if (user && user.id) {
         loggedInUser = user;
         const sb = getSupabase();
+
+        // Expired session auto-complete
+        if (expiredSessionData && expiredSessionData.sessionId) {
+          try {
+            const es = expiredSessionData;
+            await sb.from('quiz_sessions').update({
+              status: 'completed',
+              first_try_count: es.stats.firstTry,
+              retry_count: es.stats.retry,
+              hard_count: es.stats.hard,
+              unknown_count: es.stats.unknown,
+              completed_at: new Date().toISOString()
+            }).eq('id', es.sessionId);
+            sessionStorage.removeItem('cachedWordResults_' + user.id);
+          } catch (ex) { /* silent */ }
+          expiredSessionData = null;
+        }
+
+        // Reuse existing session if restored
+        if (sessionId) return;
+
         const params = new URLSearchParams(window.location.search);
         const { data } = await sb.from('quiz_sessions').insert({
           user_id: user.id,
@@ -354,6 +486,7 @@
 
       completedWords++;
       updateProgress();
+      saveQuizState();
       updateStats();
 
       continueBtn.className = 'continue-btn visible';
@@ -389,6 +522,7 @@
         completedWords++;
         updateProgress();
       }
+      saveQuizState();
 
       updateStats();
       continueBtn.className = 'continue-btn visible';
@@ -442,6 +576,7 @@
   window.finishQuiz = function () {
     if (completedWords === 0) return;
     if (!confirm(`${completedWords} kelime çözüldü. Testi sonuçlandırmak istediğinize emin misiniz?`)) return;
+    clearQuizState();
     queue = [];
     showResults();
   };
@@ -463,6 +598,7 @@
 
   // ===== SHOW RESULTS =====
   function showResults() {
+    clearQuizState();
     document.getElementById('progress-section').style.display = 'none';
     document.getElementById('quiz-card').style.display = 'none';
     document.getElementById('stats-bar').style.display = 'none';
@@ -550,6 +686,7 @@
 
   // ===== RESTART =====
   window.restartQuiz = function () {
+    clearQuizState();
     completedWords = 0;
     stats.firstTry = 0;
     stats.retry = 0;
@@ -713,6 +850,14 @@
         }, 300);
       });
     }
+  });
+
+  // ===== AUTO-SAVE ON PAGE LEAVE =====
+  window.addEventListener('beforeunload', () => {
+    if (completedWords > 0 && queue.length > 0) saveQuizState();
+  });
+  window.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden' && completedWords > 0 && queue.length > 0) saveQuizState();
   });
 
   // ===== START =====
