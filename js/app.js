@@ -161,7 +161,7 @@ async function startQuiz(mode) {
   } else {
     const sb = getSupabase();
     const res = await sb
-      .from('word_results').select('word_id, result').eq('user_id', user.id);
+      .from('word_results').select('word_id, result').eq('user_id', user.id).limit(50000);
     wordResults = res.data;
     if (wordResults && wordResults.length > 0) {
       sessionStorage.setItem(cacheKey, JSON.stringify(wordResults));

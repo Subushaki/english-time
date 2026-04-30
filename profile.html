@@ -249,7 +249,7 @@
         { data: studyWords },
         { data: quizSessions }
       ] = await Promise.all([
-        sb.from('word_results').select('word_id, result').eq('user_id', targetUserId),
+        sb.from('word_results').select('word_id, result').eq('user_id', targetUserId).limit(50000),
         sb.from('study_words').select('word_id, starred').eq('user_id', targetUserId),
         sb.from('quiz_sessions').select('id, status').eq('user_id', targetUserId)
       ]);
@@ -419,7 +419,7 @@
 
         if (visibleProfiles && visibleProfiles.length > 0) {
           const visibleIds = visibleProfiles.map(p => p.id);
-          const { data: allResults } = await sb.from('word_results').select('user_id, word_id, result').in('user_id', visibleIds);
+          const { data: allResults } = await sb.from('word_results').select('user_id, word_id, result').in('user_id', visibleIds).limit(50000);
 
           const scores = [];
           visibleProfiles.forEach(p => {

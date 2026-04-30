@@ -124,7 +124,7 @@
         { data: wordResults },
         { data: studyWords }
       ] = await Promise.all([
-        sb.from('word_results').select('word_id, result').eq('user_id', user.id),
+        sb.from('word_results').select('word_id, result').eq('user_id', user.id).limit(50000),
         sb.from('study_words').select('word_id, starred').eq('user_id', user.id)
       ]);
 

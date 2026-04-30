@@ -269,7 +269,8 @@
       const { data: allResults } = await sb
         .from('word_results')
         .select('user_id, word_id, result')
-        .in('user_id', visibleIds);
+        .in('user_id', visibleIds)
+        .limit(50000);
 
       // 3. Calculate scores
       profiles.forEach(profile => {

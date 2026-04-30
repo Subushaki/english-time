@@ -175,7 +175,7 @@
 
       // Fetch Word Results
       const { data: wordResults } = await sb
-        .from('word_results').select('word_id, result').eq('user_id', loggedUser.id);
+        .from('word_results').select('word_id, result').eq('user_id', loggedUser.id).limit(50000);
         
       // Fetch Starred Words
       const { data: studyWords } = await sb

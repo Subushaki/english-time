@@ -430,7 +430,7 @@ async function openUserModal(userObj) {
      { data: studyWords },
      { data: analyticsResults }
   ] = await Promise.all([
-     sb.from('word_results').select('word_id, result').eq('user_id', userObj.id),
+     sb.from('word_results').select('word_id, result').eq('user_id', userObj.id).limit(50000),
      sb.from('study_words').select('word_id, starred').eq('user_id', userObj.id),
      sb.from('site_analytics').select('path, time_spent_ms').eq('user_id', userObj.id)
   ]);
