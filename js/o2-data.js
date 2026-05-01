@@ -8997,4 +8997,18726 @@ const O2_DATABASE = [
     examples: [],
     related_word_ids: [1225]
   },
+
+  // A2 SAATLER OTO-EKLENEN KAVRAMLAR
+  {
+    id: "vocab-saat-2000",
+    category: "vocabulary",
+    title: "twelve o'clock a.m. — gece on iki",
+    keywords: ["twelve o'clock a.m.", "gece on iki", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:00.",
+      "🇹🇷 Saat 00:00."
+    ],
+    examples: [],
+    related_word_ids: [2000]
+  },
+  {
+    id: "vocab-saat-2001",
+    category: "vocabulary",
+    title: "one minute past twelve a.m. — gece on ikiyi bir geçiyor",
+    keywords: ["one minute past twelve a.m.", "gece on ikiyi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:01.",
+      "🇹🇷 Saat 00:01."
+    ],
+    examples: [],
+    related_word_ids: [2001]
+  },
+  {
+    id: "vocab-saat-2002",
+    category: "vocabulary",
+    title: "two minutes past twelve a.m. — gece on ikiyi iki geçiyor",
+    keywords: ["two minutes past twelve a.m.", "gece on ikiyi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:02.",
+      "🇹🇷 Saat 00:02."
+    ],
+    examples: [],
+    related_word_ids: [2002]
+  },
+  {
+    id: "vocab-saat-2003",
+    category: "vocabulary",
+    title: "three minutes past twelve a.m. — gece on ikiyi üç geçiyor",
+    keywords: ["three minutes past twelve a.m.", "gece on ikiyi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:03.",
+      "🇹🇷 Saat 00:03."
+    ],
+    examples: [],
+    related_word_ids: [2003]
+  },
+  {
+    id: "vocab-saat-2004",
+    category: "vocabulary",
+    title: "four minutes past twelve a.m. — gece on ikiyi dört geçiyor",
+    keywords: ["four minutes past twelve a.m.", "gece on ikiyi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:04.",
+      "🇹🇷 Saat 00:04."
+    ],
+    examples: [],
+    related_word_ids: [2004]
+  },
+  {
+    id: "vocab-saat-2005",
+    category: "vocabulary",
+    title: "five past twelve a.m. — gece on ikiyi beş geçiyor",
+    keywords: ["five past twelve a.m.", "gece on ikiyi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:05.",
+      "🇹🇷 Saat 00:05."
+    ],
+    examples: [],
+    related_word_ids: [2005]
+  },
+  {
+    id: "vocab-saat-2006",
+    category: "vocabulary",
+    title: "six minutes past twelve a.m. — gece on ikiyi altı geçiyor",
+    keywords: ["six minutes past twelve a.m.", "gece on ikiyi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:06.",
+      "🇹🇷 Saat 00:06."
+    ],
+    examples: [],
+    related_word_ids: [2006]
+  },
+  {
+    id: "vocab-saat-2007",
+    category: "vocabulary",
+    title: "seven minutes past twelve a.m. — gece on ikiyi yedi geçiyor",
+    keywords: ["seven minutes past twelve a.m.", "gece on ikiyi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:07.",
+      "🇹🇷 Saat 00:07."
+    ],
+    examples: [],
+    related_word_ids: [2007]
+  },
+  {
+    id: "vocab-saat-2008",
+    category: "vocabulary",
+    title: "eight minutes past twelve a.m. — gece on ikiyi sekiz geçiyor",
+    keywords: ["eight minutes past twelve a.m.", "gece on ikiyi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:08.",
+      "🇹🇷 Saat 00:08."
+    ],
+    examples: [],
+    related_word_ids: [2008]
+  },
+  {
+    id: "vocab-saat-2009",
+    category: "vocabulary",
+    title: "nine minutes past twelve a.m. — gece on ikiyi dokuz geçiyor",
+    keywords: ["nine minutes past twelve a.m.", "gece on ikiyi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:09.",
+      "🇹🇷 Saat 00:09."
+    ],
+    examples: [],
+    related_word_ids: [2009]
+  },
+  {
+    id: "vocab-saat-2010",
+    category: "vocabulary",
+    title: "ten past twelve a.m. — gece on ikiyi on geçiyor",
+    keywords: ["ten past twelve a.m.", "gece on ikiyi on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:10.",
+      "🇹🇷 Saat 00:10."
+    ],
+    examples: [],
+    related_word_ids: [2010]
+  },
+  {
+    id: "vocab-saat-2011",
+    category: "vocabulary",
+    title: "eleven minutes past twelve a.m. — gece on ikiyi on bir geçiyor",
+    keywords: ["eleven minutes past twelve a.m.", "gece on ikiyi on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:11.",
+      "🇹🇷 Saat 00:11."
+    ],
+    examples: [],
+    related_word_ids: [2011]
+  },
+  {
+    id: "vocab-saat-2012",
+    category: "vocabulary",
+    title: "twelve minutes past twelve a.m. — gece on ikiyi on iki geçiyor",
+    keywords: ["twelve minutes past twelve a.m.", "gece on ikiyi on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:12.",
+      "🇹🇷 Saat 00:12."
+    ],
+    examples: [],
+    related_word_ids: [2012]
+  },
+  {
+    id: "vocab-saat-2013",
+    category: "vocabulary",
+    title: "thirteen minutes past twelve a.m. — gece on ikiyi on üç geçiyor",
+    keywords: ["thirteen minutes past twelve a.m.", "gece on ikiyi on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:13.",
+      "🇹🇷 Saat 00:13."
+    ],
+    examples: [],
+    related_word_ids: [2013]
+  },
+  {
+    id: "vocab-saat-2014",
+    category: "vocabulary",
+    title: "fourteen minutes past twelve a.m. — gece on ikiyi on dört geçiyor",
+    keywords: ["fourteen minutes past twelve a.m.", "gece on ikiyi on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:14.",
+      "🇹🇷 Saat 00:14."
+    ],
+    examples: [],
+    related_word_ids: [2014]
+  },
+  {
+    id: "vocab-saat-2015",
+    category: "vocabulary",
+    title: "a quarter past twelve a.m. — gece on ikiyi çeyrek geçiyor",
+    keywords: ["a quarter past twelve a.m.", "gece on ikiyi çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:15.",
+      "🇹🇷 Saat 00:15."
+    ],
+    examples: [],
+    related_word_ids: [2015]
+  },
+  {
+    id: "vocab-saat-2016",
+    category: "vocabulary",
+    title: "sixteen minutes past twelve a.m. — gece on ikiyi on altı geçiyor",
+    keywords: ["sixteen minutes past twelve a.m.", "gece on ikiyi on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:16.",
+      "🇹🇷 Saat 00:16."
+    ],
+    examples: [],
+    related_word_ids: [2016]
+  },
+  {
+    id: "vocab-saat-2017",
+    category: "vocabulary",
+    title: "seventeen minutes past twelve a.m. — gece on ikiyi on yedi geçiyor",
+    keywords: ["seventeen minutes past twelve a.m.", "gece on ikiyi on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:17.",
+      "🇹🇷 Saat 00:17."
+    ],
+    examples: [],
+    related_word_ids: [2017]
+  },
+  {
+    id: "vocab-saat-2018",
+    category: "vocabulary",
+    title: "eighteen minutes past twelve a.m. — gece on ikiyi on sekiz geçiyor",
+    keywords: ["eighteen minutes past twelve a.m.", "gece on ikiyi on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:18.",
+      "🇹🇷 Saat 00:18."
+    ],
+    examples: [],
+    related_word_ids: [2018]
+  },
+  {
+    id: "vocab-saat-2019",
+    category: "vocabulary",
+    title: "nineteen minutes past twelve a.m. — gece on ikiyi on dokuz geçiyor",
+    keywords: ["nineteen minutes past twelve a.m.", "gece on ikiyi on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:19.",
+      "🇹🇷 Saat 00:19."
+    ],
+    examples: [],
+    related_word_ids: [2019]
+  },
+  {
+    id: "vocab-saat-2020",
+    category: "vocabulary",
+    title: "twenty past twelve a.m. — gece on ikiyi yirmi geçiyor",
+    keywords: ["twenty past twelve a.m.", "gece on ikiyi yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:20.",
+      "🇹🇷 Saat 00:20."
+    ],
+    examples: [],
+    related_word_ids: [2020]
+  },
+  {
+    id: "vocab-saat-2021",
+    category: "vocabulary",
+    title: "twenty-one minutes past twelve a.m. — gece on ikiyi yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past twelve a.m.", "gece on ikiyi yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:21.",
+      "🇹🇷 Saat 00:21."
+    ],
+    examples: [],
+    related_word_ids: [2021]
+  },
+  {
+    id: "vocab-saat-2022",
+    category: "vocabulary",
+    title: "twenty-two minutes past twelve a.m. — gece on ikiyi yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past twelve a.m.", "gece on ikiyi yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:22.",
+      "🇹🇷 Saat 00:22."
+    ],
+    examples: [],
+    related_word_ids: [2022]
+  },
+  {
+    id: "vocab-saat-2023",
+    category: "vocabulary",
+    title: "twenty-three minutes past twelve a.m. — gece on ikiyi yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past twelve a.m.", "gece on ikiyi yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:23.",
+      "🇹🇷 Saat 00:23."
+    ],
+    examples: [],
+    related_word_ids: [2023]
+  },
+  {
+    id: "vocab-saat-2024",
+    category: "vocabulary",
+    title: "twenty-four minutes past twelve a.m. — gece on ikiyi yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past twelve a.m.", "gece on ikiyi yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:24.",
+      "🇹🇷 Saat 00:24."
+    ],
+    examples: [],
+    related_word_ids: [2024]
+  },
+  {
+    id: "vocab-saat-2025",
+    category: "vocabulary",
+    title: "twenty-five past twelve a.m. — gece on ikiyi yirmi beş geçiyor",
+    keywords: ["twenty-five past twelve a.m.", "gece on ikiyi yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:25.",
+      "🇹🇷 Saat 00:25."
+    ],
+    examples: [],
+    related_word_ids: [2025]
+  },
+  {
+    id: "vocab-saat-2026",
+    category: "vocabulary",
+    title: "twenty-six minutes past twelve a.m. — gece on ikiyi yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past twelve a.m.", "gece on ikiyi yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:26.",
+      "🇹🇷 Saat 00:26."
+    ],
+    examples: [],
+    related_word_ids: [2026]
+  },
+  {
+    id: "vocab-saat-2027",
+    category: "vocabulary",
+    title: "twenty-seven minutes past twelve a.m. — gece on ikiyi yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past twelve a.m.", "gece on ikiyi yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:27.",
+      "🇹🇷 Saat 00:27."
+    ],
+    examples: [],
+    related_word_ids: [2027]
+  },
+  {
+    id: "vocab-saat-2028",
+    category: "vocabulary",
+    title: "twenty-eight minutes past twelve a.m. — gece on ikiyi yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past twelve a.m.", "gece on ikiyi yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:28.",
+      "🇹🇷 Saat 00:28."
+    ],
+    examples: [],
+    related_word_ids: [2028]
+  },
+  {
+    id: "vocab-saat-2029",
+    category: "vocabulary",
+    title: "twenty-nine minutes past twelve a.m. — gece on ikiyi yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past twelve a.m.", "gece on ikiyi yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:29.",
+      "🇹🇷 Saat 00:29."
+    ],
+    examples: [],
+    related_word_ids: [2029]
+  },
+  {
+    id: "vocab-saat-2030",
+    category: "vocabulary",
+    title: "half past twelve a.m. — gece on iki buçuk",
+    keywords: ["half past twelve a.m.", "gece on iki buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:30.",
+      "🇹🇷 Saat 00:30."
+    ],
+    examples: [],
+    related_word_ids: [2030]
+  },
+  {
+    id: "vocab-saat-2031",
+    category: "vocabulary",
+    title: "twenty-nine minutes to one a.m. — gece bire yirmi dokuz var",
+    keywords: ["twenty-nine minutes to one a.m.", "gece bire yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:31.",
+      "🇹🇷 Saat 00:31."
+    ],
+    examples: [],
+    related_word_ids: [2031]
+  },
+  {
+    id: "vocab-saat-2032",
+    category: "vocabulary",
+    title: "twenty-eight minutes to one a.m. — gece bire yirmi sekiz var",
+    keywords: ["twenty-eight minutes to one a.m.", "gece bire yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:32.",
+      "🇹🇷 Saat 00:32."
+    ],
+    examples: [],
+    related_word_ids: [2032]
+  },
+  {
+    id: "vocab-saat-2033",
+    category: "vocabulary",
+    title: "twenty-seven minutes to one a.m. — gece bire yirmi yedi var",
+    keywords: ["twenty-seven minutes to one a.m.", "gece bire yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:33.",
+      "🇹🇷 Saat 00:33."
+    ],
+    examples: [],
+    related_word_ids: [2033]
+  },
+  {
+    id: "vocab-saat-2034",
+    category: "vocabulary",
+    title: "twenty-six minutes to one a.m. — gece bire yirmi altı var",
+    keywords: ["twenty-six minutes to one a.m.", "gece bire yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:34.",
+      "🇹🇷 Saat 00:34."
+    ],
+    examples: [],
+    related_word_ids: [2034]
+  },
+  {
+    id: "vocab-saat-2035",
+    category: "vocabulary",
+    title: "twenty-five to one a.m. — gece bire yirmi beş var",
+    keywords: ["twenty-five to one a.m.", "gece bire yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:35.",
+      "🇹🇷 Saat 00:35."
+    ],
+    examples: [],
+    related_word_ids: [2035]
+  },
+  {
+    id: "vocab-saat-2036",
+    category: "vocabulary",
+    title: "twenty-four minutes to one a.m. — gece bire yirmi dört var",
+    keywords: ["twenty-four minutes to one a.m.", "gece bire yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:36.",
+      "🇹🇷 Saat 00:36."
+    ],
+    examples: [],
+    related_word_ids: [2036]
+  },
+  {
+    id: "vocab-saat-2037",
+    category: "vocabulary",
+    title: "twenty-three minutes to one a.m. — gece bire yirmi üç var",
+    keywords: ["twenty-three minutes to one a.m.", "gece bire yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:37.",
+      "🇹🇷 Saat 00:37."
+    ],
+    examples: [],
+    related_word_ids: [2037]
+  },
+  {
+    id: "vocab-saat-2038",
+    category: "vocabulary",
+    title: "twenty-two minutes to one a.m. — gece bire yirmi iki var",
+    keywords: ["twenty-two minutes to one a.m.", "gece bire yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:38.",
+      "🇹🇷 Saat 00:38."
+    ],
+    examples: [],
+    related_word_ids: [2038]
+  },
+  {
+    id: "vocab-saat-2039",
+    category: "vocabulary",
+    title: "twenty-one minutes to one a.m. — gece bire yirmi bir var",
+    keywords: ["twenty-one minutes to one a.m.", "gece bire yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:39.",
+      "🇹🇷 Saat 00:39."
+    ],
+    examples: [],
+    related_word_ids: [2039]
+  },
+  {
+    id: "vocab-saat-2040",
+    category: "vocabulary",
+    title: "twenty to one a.m. — gece bire yirmi var",
+    keywords: ["twenty to one a.m.", "gece bire yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:40.",
+      "🇹🇷 Saat 00:40."
+    ],
+    examples: [],
+    related_word_ids: [2040]
+  },
+  {
+    id: "vocab-saat-2041",
+    category: "vocabulary",
+    title: "nineteen minutes to one a.m. — gece bire on dokuz var",
+    keywords: ["nineteen minutes to one a.m.", "gece bire on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:41.",
+      "🇹🇷 Saat 00:41."
+    ],
+    examples: [],
+    related_word_ids: [2041]
+  },
+  {
+    id: "vocab-saat-2042",
+    category: "vocabulary",
+    title: "eighteen minutes to one a.m. — gece bire on sekiz var",
+    keywords: ["eighteen minutes to one a.m.", "gece bire on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:42.",
+      "🇹🇷 Saat 00:42."
+    ],
+    examples: [],
+    related_word_ids: [2042]
+  },
+  {
+    id: "vocab-saat-2043",
+    category: "vocabulary",
+    title: "seventeen minutes to one a.m. — gece bire on yedi var",
+    keywords: ["seventeen minutes to one a.m.", "gece bire on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:43.",
+      "🇹🇷 Saat 00:43."
+    ],
+    examples: [],
+    related_word_ids: [2043]
+  },
+  {
+    id: "vocab-saat-2044",
+    category: "vocabulary",
+    title: "sixteen minutes to one a.m. — gece bire on altı var",
+    keywords: ["sixteen minutes to one a.m.", "gece bire on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:44.",
+      "🇹🇷 Saat 00:44."
+    ],
+    examples: [],
+    related_word_ids: [2044]
+  },
+  {
+    id: "vocab-saat-2045",
+    category: "vocabulary",
+    title: "a quarter to one a.m. — gece bire çeyrek var",
+    keywords: ["a quarter to one a.m.", "gece bire çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:45.",
+      "🇹🇷 Saat 00:45."
+    ],
+    examples: [],
+    related_word_ids: [2045]
+  },
+  {
+    id: "vocab-saat-2046",
+    category: "vocabulary",
+    title: "fourteen minutes to one a.m. — gece bire on dört var",
+    keywords: ["fourteen minutes to one a.m.", "gece bire on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:46.",
+      "🇹🇷 Saat 00:46."
+    ],
+    examples: [],
+    related_word_ids: [2046]
+  },
+  {
+    id: "vocab-saat-2047",
+    category: "vocabulary",
+    title: "thirteen minutes to one a.m. — gece bire on üç var",
+    keywords: ["thirteen minutes to one a.m.", "gece bire on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:47.",
+      "🇹🇷 Saat 00:47."
+    ],
+    examples: [],
+    related_word_ids: [2047]
+  },
+  {
+    id: "vocab-saat-2048",
+    category: "vocabulary",
+    title: "twelve minutes to one a.m. — gece bire on iki var",
+    keywords: ["twelve minutes to one a.m.", "gece bire on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:48.",
+      "🇹🇷 Saat 00:48."
+    ],
+    examples: [],
+    related_word_ids: [2048]
+  },
+  {
+    id: "vocab-saat-2049",
+    category: "vocabulary",
+    title: "eleven minutes to one a.m. — gece bire on bir var",
+    keywords: ["eleven minutes to one a.m.", "gece bire on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:49.",
+      "🇹🇷 Saat 00:49."
+    ],
+    examples: [],
+    related_word_ids: [2049]
+  },
+  {
+    id: "vocab-saat-2050",
+    category: "vocabulary",
+    title: "ten to one a.m. — gece bire on var",
+    keywords: ["ten to one a.m.", "gece bire on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:50.",
+      "🇹🇷 Saat 00:50."
+    ],
+    examples: [],
+    related_word_ids: [2050]
+  },
+  {
+    id: "vocab-saat-2051",
+    category: "vocabulary",
+    title: "nine minutes to one a.m. — gece bire dokuz var",
+    keywords: ["nine minutes to one a.m.", "gece bire dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:51.",
+      "🇹🇷 Saat 00:51."
+    ],
+    examples: [],
+    related_word_ids: [2051]
+  },
+  {
+    id: "vocab-saat-2052",
+    category: "vocabulary",
+    title: "eight minutes to one a.m. — gece bire sekiz var",
+    keywords: ["eight minutes to one a.m.", "gece bire sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:52.",
+      "🇹🇷 Saat 00:52."
+    ],
+    examples: [],
+    related_word_ids: [2052]
+  },
+  {
+    id: "vocab-saat-2053",
+    category: "vocabulary",
+    title: "seven minutes to one a.m. — gece bire yedi var",
+    keywords: ["seven minutes to one a.m.", "gece bire yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:53.",
+      "🇹🇷 Saat 00:53."
+    ],
+    examples: [],
+    related_word_ids: [2053]
+  },
+  {
+    id: "vocab-saat-2054",
+    category: "vocabulary",
+    title: "six minutes to one a.m. — gece bire altı var",
+    keywords: ["six minutes to one a.m.", "gece bire altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:54.",
+      "🇹🇷 Saat 00:54."
+    ],
+    examples: [],
+    related_word_ids: [2054]
+  },
+  {
+    id: "vocab-saat-2055",
+    category: "vocabulary",
+    title: "five to one a.m. — gece bire beş var",
+    keywords: ["five to one a.m.", "gece bire beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:55.",
+      "🇹🇷 Saat 00:55."
+    ],
+    examples: [],
+    related_word_ids: [2055]
+  },
+  {
+    id: "vocab-saat-2056",
+    category: "vocabulary",
+    title: "four minutes to one a.m. — gece bire dört var",
+    keywords: ["four minutes to one a.m.", "gece bire dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:56.",
+      "🇹🇷 Saat 00:56."
+    ],
+    examples: [],
+    related_word_ids: [2056]
+  },
+  {
+    id: "vocab-saat-2057",
+    category: "vocabulary",
+    title: "three minutes to one a.m. — gece bire üç var",
+    keywords: ["three minutes to one a.m.", "gece bire üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:57.",
+      "🇹🇷 Saat 00:57."
+    ],
+    examples: [],
+    related_word_ids: [2057]
+  },
+  {
+    id: "vocab-saat-2058",
+    category: "vocabulary",
+    title: "two minutes to one a.m. — gece bire iki var",
+    keywords: ["two minutes to one a.m.", "gece bire iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:58.",
+      "🇹🇷 Saat 00:58."
+    ],
+    examples: [],
+    related_word_ids: [2058]
+  },
+  {
+    id: "vocab-saat-2059",
+    category: "vocabulary",
+    title: "one minute to one a.m. — gece bire bir var",
+    keywords: ["one minute to one a.m.", "gece bire bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 00:59.",
+      "🇹🇷 Saat 00:59."
+    ],
+    examples: [],
+    related_word_ids: [2059]
+  },
+  {
+    id: "vocab-saat-2060",
+    category: "vocabulary",
+    title: "one o'clock a.m. — gece bir",
+    keywords: ["one o'clock a.m.", "gece bir", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:00.",
+      "🇹🇷 Saat 01:00."
+    ],
+    examples: [],
+    related_word_ids: [2060]
+  },
+  {
+    id: "vocab-saat-2061",
+    category: "vocabulary",
+    title: "one minute past one a.m. — gece biri bir geçiyor",
+    keywords: ["one minute past one a.m.", "gece biri bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:01.",
+      "🇹🇷 Saat 01:01."
+    ],
+    examples: [],
+    related_word_ids: [2061]
+  },
+  {
+    id: "vocab-saat-2062",
+    category: "vocabulary",
+    title: "two minutes past one a.m. — gece biri iki geçiyor",
+    keywords: ["two minutes past one a.m.", "gece biri iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:02.",
+      "🇹🇷 Saat 01:02."
+    ],
+    examples: [],
+    related_word_ids: [2062]
+  },
+  {
+    id: "vocab-saat-2063",
+    category: "vocabulary",
+    title: "three minutes past one a.m. — gece biri üç geçiyor",
+    keywords: ["three minutes past one a.m.", "gece biri üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:03.",
+      "🇹🇷 Saat 01:03."
+    ],
+    examples: [],
+    related_word_ids: [2063]
+  },
+  {
+    id: "vocab-saat-2064",
+    category: "vocabulary",
+    title: "four minutes past one a.m. — gece biri dört geçiyor",
+    keywords: ["four minutes past one a.m.", "gece biri dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:04.",
+      "🇹🇷 Saat 01:04."
+    ],
+    examples: [],
+    related_word_ids: [2064]
+  },
+  {
+    id: "vocab-saat-2065",
+    category: "vocabulary",
+    title: "five past one a.m. — gece biri beş geçiyor",
+    keywords: ["five past one a.m.", "gece biri beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:05.",
+      "🇹🇷 Saat 01:05."
+    ],
+    examples: [],
+    related_word_ids: [2065]
+  },
+  {
+    id: "vocab-saat-2066",
+    category: "vocabulary",
+    title: "six minutes past one a.m. — gece biri altı geçiyor",
+    keywords: ["six minutes past one a.m.", "gece biri altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:06.",
+      "🇹🇷 Saat 01:06."
+    ],
+    examples: [],
+    related_word_ids: [2066]
+  },
+  {
+    id: "vocab-saat-2067",
+    category: "vocabulary",
+    title: "seven minutes past one a.m. — gece biri yedi geçiyor",
+    keywords: ["seven minutes past one a.m.", "gece biri yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:07.",
+      "🇹🇷 Saat 01:07."
+    ],
+    examples: [],
+    related_word_ids: [2067]
+  },
+  {
+    id: "vocab-saat-2068",
+    category: "vocabulary",
+    title: "eight minutes past one a.m. — gece biri sekiz geçiyor",
+    keywords: ["eight minutes past one a.m.", "gece biri sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:08.",
+      "🇹🇷 Saat 01:08."
+    ],
+    examples: [],
+    related_word_ids: [2068]
+  },
+  {
+    id: "vocab-saat-2069",
+    category: "vocabulary",
+    title: "nine minutes past one a.m. — gece biri dokuz geçiyor",
+    keywords: ["nine minutes past one a.m.", "gece biri dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:09.",
+      "🇹🇷 Saat 01:09."
+    ],
+    examples: [],
+    related_word_ids: [2069]
+  },
+  {
+    id: "vocab-saat-2070",
+    category: "vocabulary",
+    title: "ten past one a.m. — gece biri on geçiyor",
+    keywords: ["ten past one a.m.", "gece biri on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:10.",
+      "🇹🇷 Saat 01:10."
+    ],
+    examples: [],
+    related_word_ids: [2070]
+  },
+  {
+    id: "vocab-saat-2071",
+    category: "vocabulary",
+    title: "eleven minutes past one a.m. — gece biri on bir geçiyor",
+    keywords: ["eleven minutes past one a.m.", "gece biri on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:11.",
+      "🇹🇷 Saat 01:11."
+    ],
+    examples: [],
+    related_word_ids: [2071]
+  },
+  {
+    id: "vocab-saat-2072",
+    category: "vocabulary",
+    title: "twelve minutes past one a.m. — gece biri on iki geçiyor",
+    keywords: ["twelve minutes past one a.m.", "gece biri on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:12.",
+      "🇹🇷 Saat 01:12."
+    ],
+    examples: [],
+    related_word_ids: [2072]
+  },
+  {
+    id: "vocab-saat-2073",
+    category: "vocabulary",
+    title: "thirteen minutes past one a.m. — gece biri on üç geçiyor",
+    keywords: ["thirteen minutes past one a.m.", "gece biri on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:13.",
+      "🇹🇷 Saat 01:13."
+    ],
+    examples: [],
+    related_word_ids: [2073]
+  },
+  {
+    id: "vocab-saat-2074",
+    category: "vocabulary",
+    title: "fourteen minutes past one a.m. — gece biri on dört geçiyor",
+    keywords: ["fourteen minutes past one a.m.", "gece biri on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:14.",
+      "🇹🇷 Saat 01:14."
+    ],
+    examples: [],
+    related_word_ids: [2074]
+  },
+  {
+    id: "vocab-saat-2075",
+    category: "vocabulary",
+    title: "a quarter past one a.m. — gece biri çeyrek geçiyor",
+    keywords: ["a quarter past one a.m.", "gece biri çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:15.",
+      "🇹🇷 Saat 01:15."
+    ],
+    examples: [],
+    related_word_ids: [2075]
+  },
+  {
+    id: "vocab-saat-2076",
+    category: "vocabulary",
+    title: "sixteen minutes past one a.m. — gece biri on altı geçiyor",
+    keywords: ["sixteen minutes past one a.m.", "gece biri on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:16.",
+      "🇹🇷 Saat 01:16."
+    ],
+    examples: [],
+    related_word_ids: [2076]
+  },
+  {
+    id: "vocab-saat-2077",
+    category: "vocabulary",
+    title: "seventeen minutes past one a.m. — gece biri on yedi geçiyor",
+    keywords: ["seventeen minutes past one a.m.", "gece biri on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:17.",
+      "🇹🇷 Saat 01:17."
+    ],
+    examples: [],
+    related_word_ids: [2077]
+  },
+  {
+    id: "vocab-saat-2078",
+    category: "vocabulary",
+    title: "eighteen minutes past one a.m. — gece biri on sekiz geçiyor",
+    keywords: ["eighteen minutes past one a.m.", "gece biri on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:18.",
+      "🇹🇷 Saat 01:18."
+    ],
+    examples: [],
+    related_word_ids: [2078]
+  },
+  {
+    id: "vocab-saat-2079",
+    category: "vocabulary",
+    title: "nineteen minutes past one a.m. — gece biri on dokuz geçiyor",
+    keywords: ["nineteen minutes past one a.m.", "gece biri on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:19.",
+      "🇹🇷 Saat 01:19."
+    ],
+    examples: [],
+    related_word_ids: [2079]
+  },
+  {
+    id: "vocab-saat-2080",
+    category: "vocabulary",
+    title: "twenty past one a.m. — gece biri yirmi geçiyor",
+    keywords: ["twenty past one a.m.", "gece biri yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:20.",
+      "🇹🇷 Saat 01:20."
+    ],
+    examples: [],
+    related_word_ids: [2080]
+  },
+  {
+    id: "vocab-saat-2081",
+    category: "vocabulary",
+    title: "twenty-one minutes past one a.m. — gece biri yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past one a.m.", "gece biri yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:21.",
+      "🇹🇷 Saat 01:21."
+    ],
+    examples: [],
+    related_word_ids: [2081]
+  },
+  {
+    id: "vocab-saat-2082",
+    category: "vocabulary",
+    title: "twenty-two minutes past one a.m. — gece biri yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past one a.m.", "gece biri yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:22.",
+      "🇹🇷 Saat 01:22."
+    ],
+    examples: [],
+    related_word_ids: [2082]
+  },
+  {
+    id: "vocab-saat-2083",
+    category: "vocabulary",
+    title: "twenty-three minutes past one a.m. — gece biri yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past one a.m.", "gece biri yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:23.",
+      "🇹🇷 Saat 01:23."
+    ],
+    examples: [],
+    related_word_ids: [2083]
+  },
+  {
+    id: "vocab-saat-2084",
+    category: "vocabulary",
+    title: "twenty-four minutes past one a.m. — gece biri yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past one a.m.", "gece biri yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:24.",
+      "🇹🇷 Saat 01:24."
+    ],
+    examples: [],
+    related_word_ids: [2084]
+  },
+  {
+    id: "vocab-saat-2085",
+    category: "vocabulary",
+    title: "twenty-five past one a.m. — gece biri yirmi beş geçiyor",
+    keywords: ["twenty-five past one a.m.", "gece biri yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:25.",
+      "🇹🇷 Saat 01:25."
+    ],
+    examples: [],
+    related_word_ids: [2085]
+  },
+  {
+    id: "vocab-saat-2086",
+    category: "vocabulary",
+    title: "twenty-six minutes past one a.m. — gece biri yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past one a.m.", "gece biri yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:26.",
+      "🇹🇷 Saat 01:26."
+    ],
+    examples: [],
+    related_word_ids: [2086]
+  },
+  {
+    id: "vocab-saat-2087",
+    category: "vocabulary",
+    title: "twenty-seven minutes past one a.m. — gece biri yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past one a.m.", "gece biri yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:27.",
+      "🇹🇷 Saat 01:27."
+    ],
+    examples: [],
+    related_word_ids: [2087]
+  },
+  {
+    id: "vocab-saat-2088",
+    category: "vocabulary",
+    title: "twenty-eight minutes past one a.m. — gece biri yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past one a.m.", "gece biri yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:28.",
+      "🇹🇷 Saat 01:28."
+    ],
+    examples: [],
+    related_word_ids: [2088]
+  },
+  {
+    id: "vocab-saat-2089",
+    category: "vocabulary",
+    title: "twenty-nine minutes past one a.m. — gece biri yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past one a.m.", "gece biri yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:29.",
+      "🇹🇷 Saat 01:29."
+    ],
+    examples: [],
+    related_word_ids: [2089]
+  },
+  {
+    id: "vocab-saat-2090",
+    category: "vocabulary",
+    title: "half past one a.m. — gece bir buçuk",
+    keywords: ["half past one a.m.", "gece bir buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:30.",
+      "🇹🇷 Saat 01:30."
+    ],
+    examples: [],
+    related_word_ids: [2090]
+  },
+  {
+    id: "vocab-saat-2091",
+    category: "vocabulary",
+    title: "twenty-nine minutes to two a.m. — gece ikiye yirmi dokuz var",
+    keywords: ["twenty-nine minutes to two a.m.", "gece ikiye yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:31.",
+      "🇹🇷 Saat 01:31."
+    ],
+    examples: [],
+    related_word_ids: [2091]
+  },
+  {
+    id: "vocab-saat-2092",
+    category: "vocabulary",
+    title: "twenty-eight minutes to two a.m. — gece ikiye yirmi sekiz var",
+    keywords: ["twenty-eight minutes to two a.m.", "gece ikiye yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:32.",
+      "🇹🇷 Saat 01:32."
+    ],
+    examples: [],
+    related_word_ids: [2092]
+  },
+  {
+    id: "vocab-saat-2093",
+    category: "vocabulary",
+    title: "twenty-seven minutes to two a.m. — gece ikiye yirmi yedi var",
+    keywords: ["twenty-seven minutes to two a.m.", "gece ikiye yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:33.",
+      "🇹🇷 Saat 01:33."
+    ],
+    examples: [],
+    related_word_ids: [2093]
+  },
+  {
+    id: "vocab-saat-2094",
+    category: "vocabulary",
+    title: "twenty-six minutes to two a.m. — gece ikiye yirmi altı var",
+    keywords: ["twenty-six minutes to two a.m.", "gece ikiye yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:34.",
+      "🇹🇷 Saat 01:34."
+    ],
+    examples: [],
+    related_word_ids: [2094]
+  },
+  {
+    id: "vocab-saat-2095",
+    category: "vocabulary",
+    title: "twenty-five to two a.m. — gece ikiye yirmi beş var",
+    keywords: ["twenty-five to two a.m.", "gece ikiye yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:35.",
+      "🇹🇷 Saat 01:35."
+    ],
+    examples: [],
+    related_word_ids: [2095]
+  },
+  {
+    id: "vocab-saat-2096",
+    category: "vocabulary",
+    title: "twenty-four minutes to two a.m. — gece ikiye yirmi dört var",
+    keywords: ["twenty-four minutes to two a.m.", "gece ikiye yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:36.",
+      "🇹🇷 Saat 01:36."
+    ],
+    examples: [],
+    related_word_ids: [2096]
+  },
+  {
+    id: "vocab-saat-2097",
+    category: "vocabulary",
+    title: "twenty-three minutes to two a.m. — gece ikiye yirmi üç var",
+    keywords: ["twenty-three minutes to two a.m.", "gece ikiye yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:37.",
+      "🇹🇷 Saat 01:37."
+    ],
+    examples: [],
+    related_word_ids: [2097]
+  },
+  {
+    id: "vocab-saat-2098",
+    category: "vocabulary",
+    title: "twenty-two minutes to two a.m. — gece ikiye yirmi iki var",
+    keywords: ["twenty-two minutes to two a.m.", "gece ikiye yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:38.",
+      "🇹🇷 Saat 01:38."
+    ],
+    examples: [],
+    related_word_ids: [2098]
+  },
+  {
+    id: "vocab-saat-2099",
+    category: "vocabulary",
+    title: "twenty-one minutes to two a.m. — gece ikiye yirmi bir var",
+    keywords: ["twenty-one minutes to two a.m.", "gece ikiye yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:39.",
+      "🇹🇷 Saat 01:39."
+    ],
+    examples: [],
+    related_word_ids: [2099]
+  },
+  {
+    id: "vocab-saat-2100",
+    category: "vocabulary",
+    title: "twenty to two a.m. — gece ikiye yirmi var",
+    keywords: ["twenty to two a.m.", "gece ikiye yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:40.",
+      "🇹🇷 Saat 01:40."
+    ],
+    examples: [],
+    related_word_ids: [2100]
+  },
+  {
+    id: "vocab-saat-2101",
+    category: "vocabulary",
+    title: "nineteen minutes to two a.m. — gece ikiye on dokuz var",
+    keywords: ["nineteen minutes to two a.m.", "gece ikiye on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:41.",
+      "🇹🇷 Saat 01:41."
+    ],
+    examples: [],
+    related_word_ids: [2101]
+  },
+  {
+    id: "vocab-saat-2102",
+    category: "vocabulary",
+    title: "eighteen minutes to two a.m. — gece ikiye on sekiz var",
+    keywords: ["eighteen minutes to two a.m.", "gece ikiye on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:42.",
+      "🇹🇷 Saat 01:42."
+    ],
+    examples: [],
+    related_word_ids: [2102]
+  },
+  {
+    id: "vocab-saat-2103",
+    category: "vocabulary",
+    title: "seventeen minutes to two a.m. — gece ikiye on yedi var",
+    keywords: ["seventeen minutes to two a.m.", "gece ikiye on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:43.",
+      "🇹🇷 Saat 01:43."
+    ],
+    examples: [],
+    related_word_ids: [2103]
+  },
+  {
+    id: "vocab-saat-2104",
+    category: "vocabulary",
+    title: "sixteen minutes to two a.m. — gece ikiye on altı var",
+    keywords: ["sixteen minutes to two a.m.", "gece ikiye on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:44.",
+      "🇹🇷 Saat 01:44."
+    ],
+    examples: [],
+    related_word_ids: [2104]
+  },
+  {
+    id: "vocab-saat-2105",
+    category: "vocabulary",
+    title: "a quarter to two a.m. — gece ikiye çeyrek var",
+    keywords: ["a quarter to two a.m.", "gece ikiye çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:45.",
+      "🇹🇷 Saat 01:45."
+    ],
+    examples: [],
+    related_word_ids: [2105]
+  },
+  {
+    id: "vocab-saat-2106",
+    category: "vocabulary",
+    title: "fourteen minutes to two a.m. — gece ikiye on dört var",
+    keywords: ["fourteen minutes to two a.m.", "gece ikiye on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:46.",
+      "🇹🇷 Saat 01:46."
+    ],
+    examples: [],
+    related_word_ids: [2106]
+  },
+  {
+    id: "vocab-saat-2107",
+    category: "vocabulary",
+    title: "thirteen minutes to two a.m. — gece ikiye on üç var",
+    keywords: ["thirteen minutes to two a.m.", "gece ikiye on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:47.",
+      "🇹🇷 Saat 01:47."
+    ],
+    examples: [],
+    related_word_ids: [2107]
+  },
+  {
+    id: "vocab-saat-2108",
+    category: "vocabulary",
+    title: "twelve minutes to two a.m. — gece ikiye on iki var",
+    keywords: ["twelve minutes to two a.m.", "gece ikiye on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:48.",
+      "🇹🇷 Saat 01:48."
+    ],
+    examples: [],
+    related_word_ids: [2108]
+  },
+  {
+    id: "vocab-saat-2109",
+    category: "vocabulary",
+    title: "eleven minutes to two a.m. — gece ikiye on bir var",
+    keywords: ["eleven minutes to two a.m.", "gece ikiye on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:49.",
+      "🇹🇷 Saat 01:49."
+    ],
+    examples: [],
+    related_word_ids: [2109]
+  },
+  {
+    id: "vocab-saat-2110",
+    category: "vocabulary",
+    title: "ten to two a.m. — gece ikiye on var",
+    keywords: ["ten to two a.m.", "gece ikiye on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:50.",
+      "🇹🇷 Saat 01:50."
+    ],
+    examples: [],
+    related_word_ids: [2110]
+  },
+  {
+    id: "vocab-saat-2111",
+    category: "vocabulary",
+    title: "nine minutes to two a.m. — gece ikiye dokuz var",
+    keywords: ["nine minutes to two a.m.", "gece ikiye dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:51.",
+      "🇹🇷 Saat 01:51."
+    ],
+    examples: [],
+    related_word_ids: [2111]
+  },
+  {
+    id: "vocab-saat-2112",
+    category: "vocabulary",
+    title: "eight minutes to two a.m. — gece ikiye sekiz var",
+    keywords: ["eight minutes to two a.m.", "gece ikiye sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:52.",
+      "🇹🇷 Saat 01:52."
+    ],
+    examples: [],
+    related_word_ids: [2112]
+  },
+  {
+    id: "vocab-saat-2113",
+    category: "vocabulary",
+    title: "seven minutes to two a.m. — gece ikiye yedi var",
+    keywords: ["seven minutes to two a.m.", "gece ikiye yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:53.",
+      "🇹🇷 Saat 01:53."
+    ],
+    examples: [],
+    related_word_ids: [2113]
+  },
+  {
+    id: "vocab-saat-2114",
+    category: "vocabulary",
+    title: "six minutes to two a.m. — gece ikiye altı var",
+    keywords: ["six minutes to two a.m.", "gece ikiye altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:54.",
+      "🇹🇷 Saat 01:54."
+    ],
+    examples: [],
+    related_word_ids: [2114]
+  },
+  {
+    id: "vocab-saat-2115",
+    category: "vocabulary",
+    title: "five to two a.m. — gece ikiye beş var",
+    keywords: ["five to two a.m.", "gece ikiye beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:55.",
+      "🇹🇷 Saat 01:55."
+    ],
+    examples: [],
+    related_word_ids: [2115]
+  },
+  {
+    id: "vocab-saat-2116",
+    category: "vocabulary",
+    title: "four minutes to two a.m. — gece ikiye dört var",
+    keywords: ["four minutes to two a.m.", "gece ikiye dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:56.",
+      "🇹🇷 Saat 01:56."
+    ],
+    examples: [],
+    related_word_ids: [2116]
+  },
+  {
+    id: "vocab-saat-2117",
+    category: "vocabulary",
+    title: "three minutes to two a.m. — gece ikiye üç var",
+    keywords: ["three minutes to two a.m.", "gece ikiye üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:57.",
+      "🇹🇷 Saat 01:57."
+    ],
+    examples: [],
+    related_word_ids: [2117]
+  },
+  {
+    id: "vocab-saat-2118",
+    category: "vocabulary",
+    title: "two minutes to two a.m. — gece ikiye iki var",
+    keywords: ["two minutes to two a.m.", "gece ikiye iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:58.",
+      "🇹🇷 Saat 01:58."
+    ],
+    examples: [],
+    related_word_ids: [2118]
+  },
+  {
+    id: "vocab-saat-2119",
+    category: "vocabulary",
+    title: "one minute to two a.m. — gece ikiye bir var",
+    keywords: ["one minute to two a.m.", "gece ikiye bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 01:59.",
+      "🇹🇷 Saat 01:59."
+    ],
+    examples: [],
+    related_word_ids: [2119]
+  },
+  {
+    id: "vocab-saat-2120",
+    category: "vocabulary",
+    title: "two o'clock a.m. — gece iki",
+    keywords: ["two o'clock a.m.", "gece iki", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:00.",
+      "🇹🇷 Saat 02:00."
+    ],
+    examples: [],
+    related_word_ids: [2120]
+  },
+  {
+    id: "vocab-saat-2121",
+    category: "vocabulary",
+    title: "one minute past two a.m. — gece ikiyi bir geçiyor",
+    keywords: ["one minute past two a.m.", "gece ikiyi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:01.",
+      "🇹🇷 Saat 02:01."
+    ],
+    examples: [],
+    related_word_ids: [2121]
+  },
+  {
+    id: "vocab-saat-2122",
+    category: "vocabulary",
+    title: "two minutes past two a.m. — gece ikiyi iki geçiyor",
+    keywords: ["two minutes past two a.m.", "gece ikiyi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:02.",
+      "🇹🇷 Saat 02:02."
+    ],
+    examples: [],
+    related_word_ids: [2122]
+  },
+  {
+    id: "vocab-saat-2123",
+    category: "vocabulary",
+    title: "three minutes past two a.m. — gece ikiyi üç geçiyor",
+    keywords: ["three minutes past two a.m.", "gece ikiyi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:03.",
+      "🇹🇷 Saat 02:03."
+    ],
+    examples: [],
+    related_word_ids: [2123]
+  },
+  {
+    id: "vocab-saat-2124",
+    category: "vocabulary",
+    title: "four minutes past two a.m. — gece ikiyi dört geçiyor",
+    keywords: ["four minutes past two a.m.", "gece ikiyi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:04.",
+      "🇹🇷 Saat 02:04."
+    ],
+    examples: [],
+    related_word_ids: [2124]
+  },
+  {
+    id: "vocab-saat-2125",
+    category: "vocabulary",
+    title: "five past two a.m. — gece ikiyi beş geçiyor",
+    keywords: ["five past two a.m.", "gece ikiyi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:05.",
+      "🇹🇷 Saat 02:05."
+    ],
+    examples: [],
+    related_word_ids: [2125]
+  },
+  {
+    id: "vocab-saat-2126",
+    category: "vocabulary",
+    title: "six minutes past two a.m. — gece ikiyi altı geçiyor",
+    keywords: ["six minutes past two a.m.", "gece ikiyi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:06.",
+      "🇹🇷 Saat 02:06."
+    ],
+    examples: [],
+    related_word_ids: [2126]
+  },
+  {
+    id: "vocab-saat-2127",
+    category: "vocabulary",
+    title: "seven minutes past two a.m. — gece ikiyi yedi geçiyor",
+    keywords: ["seven minutes past two a.m.", "gece ikiyi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:07.",
+      "🇹🇷 Saat 02:07."
+    ],
+    examples: [],
+    related_word_ids: [2127]
+  },
+  {
+    id: "vocab-saat-2128",
+    category: "vocabulary",
+    title: "eight minutes past two a.m. — gece ikiyi sekiz geçiyor",
+    keywords: ["eight minutes past two a.m.", "gece ikiyi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:08.",
+      "🇹🇷 Saat 02:08."
+    ],
+    examples: [],
+    related_word_ids: [2128]
+  },
+  {
+    id: "vocab-saat-2129",
+    category: "vocabulary",
+    title: "nine minutes past two a.m. — gece ikiyi dokuz geçiyor",
+    keywords: ["nine minutes past two a.m.", "gece ikiyi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:09.",
+      "🇹🇷 Saat 02:09."
+    ],
+    examples: [],
+    related_word_ids: [2129]
+  },
+  {
+    id: "vocab-saat-2130",
+    category: "vocabulary",
+    title: "ten past two a.m. — gece ikiyi on geçiyor",
+    keywords: ["ten past two a.m.", "gece ikiyi on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:10.",
+      "🇹🇷 Saat 02:10."
+    ],
+    examples: [],
+    related_word_ids: [2130]
+  },
+  {
+    id: "vocab-saat-2131",
+    category: "vocabulary",
+    title: "eleven minutes past two a.m. — gece ikiyi on bir geçiyor",
+    keywords: ["eleven minutes past two a.m.", "gece ikiyi on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:11.",
+      "🇹🇷 Saat 02:11."
+    ],
+    examples: [],
+    related_word_ids: [2131]
+  },
+  {
+    id: "vocab-saat-2132",
+    category: "vocabulary",
+    title: "twelve minutes past two a.m. — gece ikiyi on iki geçiyor",
+    keywords: ["twelve minutes past two a.m.", "gece ikiyi on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:12.",
+      "🇹🇷 Saat 02:12."
+    ],
+    examples: [],
+    related_word_ids: [2132]
+  },
+  {
+    id: "vocab-saat-2133",
+    category: "vocabulary",
+    title: "thirteen minutes past two a.m. — gece ikiyi on üç geçiyor",
+    keywords: ["thirteen minutes past two a.m.", "gece ikiyi on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:13.",
+      "🇹🇷 Saat 02:13."
+    ],
+    examples: [],
+    related_word_ids: [2133]
+  },
+  {
+    id: "vocab-saat-2134",
+    category: "vocabulary",
+    title: "fourteen minutes past two a.m. — gece ikiyi on dört geçiyor",
+    keywords: ["fourteen minutes past two a.m.", "gece ikiyi on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:14.",
+      "🇹🇷 Saat 02:14."
+    ],
+    examples: [],
+    related_word_ids: [2134]
+  },
+  {
+    id: "vocab-saat-2135",
+    category: "vocabulary",
+    title: "a quarter past two a.m. — gece ikiyi çeyrek geçiyor",
+    keywords: ["a quarter past two a.m.", "gece ikiyi çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:15.",
+      "🇹🇷 Saat 02:15."
+    ],
+    examples: [],
+    related_word_ids: [2135]
+  },
+  {
+    id: "vocab-saat-2136",
+    category: "vocabulary",
+    title: "sixteen minutes past two a.m. — gece ikiyi on altı geçiyor",
+    keywords: ["sixteen minutes past two a.m.", "gece ikiyi on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:16.",
+      "🇹🇷 Saat 02:16."
+    ],
+    examples: [],
+    related_word_ids: [2136]
+  },
+  {
+    id: "vocab-saat-2137",
+    category: "vocabulary",
+    title: "seventeen minutes past two a.m. — gece ikiyi on yedi geçiyor",
+    keywords: ["seventeen minutes past two a.m.", "gece ikiyi on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:17.",
+      "🇹🇷 Saat 02:17."
+    ],
+    examples: [],
+    related_word_ids: [2137]
+  },
+  {
+    id: "vocab-saat-2138",
+    category: "vocabulary",
+    title: "eighteen minutes past two a.m. — gece ikiyi on sekiz geçiyor",
+    keywords: ["eighteen minutes past two a.m.", "gece ikiyi on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:18.",
+      "🇹🇷 Saat 02:18."
+    ],
+    examples: [],
+    related_word_ids: [2138]
+  },
+  {
+    id: "vocab-saat-2139",
+    category: "vocabulary",
+    title: "nineteen minutes past two a.m. — gece ikiyi on dokuz geçiyor",
+    keywords: ["nineteen minutes past two a.m.", "gece ikiyi on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:19.",
+      "🇹🇷 Saat 02:19."
+    ],
+    examples: [],
+    related_word_ids: [2139]
+  },
+  {
+    id: "vocab-saat-2140",
+    category: "vocabulary",
+    title: "twenty past two a.m. — gece ikiyi yirmi geçiyor",
+    keywords: ["twenty past two a.m.", "gece ikiyi yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:20.",
+      "🇹🇷 Saat 02:20."
+    ],
+    examples: [],
+    related_word_ids: [2140]
+  },
+  {
+    id: "vocab-saat-2141",
+    category: "vocabulary",
+    title: "twenty-one minutes past two a.m. — gece ikiyi yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past two a.m.", "gece ikiyi yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:21.",
+      "🇹🇷 Saat 02:21."
+    ],
+    examples: [],
+    related_word_ids: [2141]
+  },
+  {
+    id: "vocab-saat-2142",
+    category: "vocabulary",
+    title: "twenty-two minutes past two a.m. — gece ikiyi yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past two a.m.", "gece ikiyi yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:22.",
+      "🇹🇷 Saat 02:22."
+    ],
+    examples: [],
+    related_word_ids: [2142]
+  },
+  {
+    id: "vocab-saat-2143",
+    category: "vocabulary",
+    title: "twenty-three minutes past two a.m. — gece ikiyi yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past two a.m.", "gece ikiyi yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:23.",
+      "🇹🇷 Saat 02:23."
+    ],
+    examples: [],
+    related_word_ids: [2143]
+  },
+  {
+    id: "vocab-saat-2144",
+    category: "vocabulary",
+    title: "twenty-four minutes past two a.m. — gece ikiyi yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past two a.m.", "gece ikiyi yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:24.",
+      "🇹🇷 Saat 02:24."
+    ],
+    examples: [],
+    related_word_ids: [2144]
+  },
+  {
+    id: "vocab-saat-2145",
+    category: "vocabulary",
+    title: "twenty-five past two a.m. — gece ikiyi yirmi beş geçiyor",
+    keywords: ["twenty-five past two a.m.", "gece ikiyi yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:25.",
+      "🇹🇷 Saat 02:25."
+    ],
+    examples: [],
+    related_word_ids: [2145]
+  },
+  {
+    id: "vocab-saat-2146",
+    category: "vocabulary",
+    title: "twenty-six minutes past two a.m. — gece ikiyi yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past two a.m.", "gece ikiyi yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:26.",
+      "🇹🇷 Saat 02:26."
+    ],
+    examples: [],
+    related_word_ids: [2146]
+  },
+  {
+    id: "vocab-saat-2147",
+    category: "vocabulary",
+    title: "twenty-seven minutes past two a.m. — gece ikiyi yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past two a.m.", "gece ikiyi yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:27.",
+      "🇹🇷 Saat 02:27."
+    ],
+    examples: [],
+    related_word_ids: [2147]
+  },
+  {
+    id: "vocab-saat-2148",
+    category: "vocabulary",
+    title: "twenty-eight minutes past two a.m. — gece ikiyi yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past two a.m.", "gece ikiyi yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:28.",
+      "🇹🇷 Saat 02:28."
+    ],
+    examples: [],
+    related_word_ids: [2148]
+  },
+  {
+    id: "vocab-saat-2149",
+    category: "vocabulary",
+    title: "twenty-nine minutes past two a.m. — gece ikiyi yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past two a.m.", "gece ikiyi yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:29.",
+      "🇹🇷 Saat 02:29."
+    ],
+    examples: [],
+    related_word_ids: [2149]
+  },
+  {
+    id: "vocab-saat-2150",
+    category: "vocabulary",
+    title: "half past two a.m. — gece iki buçuk",
+    keywords: ["half past two a.m.", "gece iki buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:30.",
+      "🇹🇷 Saat 02:30."
+    ],
+    examples: [],
+    related_word_ids: [2150]
+  },
+  {
+    id: "vocab-saat-2151",
+    category: "vocabulary",
+    title: "twenty-nine minutes to three a.m. — gece üçe yirmi dokuz var",
+    keywords: ["twenty-nine minutes to three a.m.", "gece üçe yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:31.",
+      "🇹🇷 Saat 02:31."
+    ],
+    examples: [],
+    related_word_ids: [2151]
+  },
+  {
+    id: "vocab-saat-2152",
+    category: "vocabulary",
+    title: "twenty-eight minutes to three a.m. — gece üçe yirmi sekiz var",
+    keywords: ["twenty-eight minutes to three a.m.", "gece üçe yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:32.",
+      "🇹🇷 Saat 02:32."
+    ],
+    examples: [],
+    related_word_ids: [2152]
+  },
+  {
+    id: "vocab-saat-2153",
+    category: "vocabulary",
+    title: "twenty-seven minutes to three a.m. — gece üçe yirmi yedi var",
+    keywords: ["twenty-seven minutes to three a.m.", "gece üçe yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:33.",
+      "🇹🇷 Saat 02:33."
+    ],
+    examples: [],
+    related_word_ids: [2153]
+  },
+  {
+    id: "vocab-saat-2154",
+    category: "vocabulary",
+    title: "twenty-six minutes to three a.m. — gece üçe yirmi altı var",
+    keywords: ["twenty-six minutes to three a.m.", "gece üçe yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:34.",
+      "🇹🇷 Saat 02:34."
+    ],
+    examples: [],
+    related_word_ids: [2154]
+  },
+  {
+    id: "vocab-saat-2155",
+    category: "vocabulary",
+    title: "twenty-five to three a.m. — gece üçe yirmi beş var",
+    keywords: ["twenty-five to three a.m.", "gece üçe yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:35.",
+      "🇹🇷 Saat 02:35."
+    ],
+    examples: [],
+    related_word_ids: [2155]
+  },
+  {
+    id: "vocab-saat-2156",
+    category: "vocabulary",
+    title: "twenty-four minutes to three a.m. — gece üçe yirmi dört var",
+    keywords: ["twenty-four minutes to three a.m.", "gece üçe yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:36.",
+      "🇹🇷 Saat 02:36."
+    ],
+    examples: [],
+    related_word_ids: [2156]
+  },
+  {
+    id: "vocab-saat-2157",
+    category: "vocabulary",
+    title: "twenty-three minutes to three a.m. — gece üçe yirmi üç var",
+    keywords: ["twenty-three minutes to three a.m.", "gece üçe yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:37.",
+      "🇹🇷 Saat 02:37."
+    ],
+    examples: [],
+    related_word_ids: [2157]
+  },
+  {
+    id: "vocab-saat-2158",
+    category: "vocabulary",
+    title: "twenty-two minutes to three a.m. — gece üçe yirmi iki var",
+    keywords: ["twenty-two minutes to three a.m.", "gece üçe yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:38.",
+      "🇹🇷 Saat 02:38."
+    ],
+    examples: [],
+    related_word_ids: [2158]
+  },
+  {
+    id: "vocab-saat-2159",
+    category: "vocabulary",
+    title: "twenty-one minutes to three a.m. — gece üçe yirmi bir var",
+    keywords: ["twenty-one minutes to three a.m.", "gece üçe yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:39.",
+      "🇹🇷 Saat 02:39."
+    ],
+    examples: [],
+    related_word_ids: [2159]
+  },
+  {
+    id: "vocab-saat-2160",
+    category: "vocabulary",
+    title: "twenty to three a.m. — gece üçe yirmi var",
+    keywords: ["twenty to three a.m.", "gece üçe yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:40.",
+      "🇹🇷 Saat 02:40."
+    ],
+    examples: [],
+    related_word_ids: [2160]
+  },
+  {
+    id: "vocab-saat-2161",
+    category: "vocabulary",
+    title: "nineteen minutes to three a.m. — gece üçe on dokuz var",
+    keywords: ["nineteen minutes to three a.m.", "gece üçe on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:41.",
+      "🇹🇷 Saat 02:41."
+    ],
+    examples: [],
+    related_word_ids: [2161]
+  },
+  {
+    id: "vocab-saat-2162",
+    category: "vocabulary",
+    title: "eighteen minutes to three a.m. — gece üçe on sekiz var",
+    keywords: ["eighteen minutes to three a.m.", "gece üçe on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:42.",
+      "🇹🇷 Saat 02:42."
+    ],
+    examples: [],
+    related_word_ids: [2162]
+  },
+  {
+    id: "vocab-saat-2163",
+    category: "vocabulary",
+    title: "seventeen minutes to three a.m. — gece üçe on yedi var",
+    keywords: ["seventeen minutes to three a.m.", "gece üçe on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:43.",
+      "🇹🇷 Saat 02:43."
+    ],
+    examples: [],
+    related_word_ids: [2163]
+  },
+  {
+    id: "vocab-saat-2164",
+    category: "vocabulary",
+    title: "sixteen minutes to three a.m. — gece üçe on altı var",
+    keywords: ["sixteen minutes to three a.m.", "gece üçe on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:44.",
+      "🇹🇷 Saat 02:44."
+    ],
+    examples: [],
+    related_word_ids: [2164]
+  },
+  {
+    id: "vocab-saat-2165",
+    category: "vocabulary",
+    title: "a quarter to three a.m. — gece üçe çeyrek var",
+    keywords: ["a quarter to three a.m.", "gece üçe çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:45.",
+      "🇹🇷 Saat 02:45."
+    ],
+    examples: [],
+    related_word_ids: [2165]
+  },
+  {
+    id: "vocab-saat-2166",
+    category: "vocabulary",
+    title: "fourteen minutes to three a.m. — gece üçe on dört var",
+    keywords: ["fourteen minutes to three a.m.", "gece üçe on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:46.",
+      "🇹🇷 Saat 02:46."
+    ],
+    examples: [],
+    related_word_ids: [2166]
+  },
+  {
+    id: "vocab-saat-2167",
+    category: "vocabulary",
+    title: "thirteen minutes to three a.m. — gece üçe on üç var",
+    keywords: ["thirteen minutes to three a.m.", "gece üçe on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:47.",
+      "🇹🇷 Saat 02:47."
+    ],
+    examples: [],
+    related_word_ids: [2167]
+  },
+  {
+    id: "vocab-saat-2168",
+    category: "vocabulary",
+    title: "twelve minutes to three a.m. — gece üçe on iki var",
+    keywords: ["twelve minutes to three a.m.", "gece üçe on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:48.",
+      "🇹🇷 Saat 02:48."
+    ],
+    examples: [],
+    related_word_ids: [2168]
+  },
+  {
+    id: "vocab-saat-2169",
+    category: "vocabulary",
+    title: "eleven minutes to three a.m. — gece üçe on bir var",
+    keywords: ["eleven minutes to three a.m.", "gece üçe on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:49.",
+      "🇹🇷 Saat 02:49."
+    ],
+    examples: [],
+    related_word_ids: [2169]
+  },
+  {
+    id: "vocab-saat-2170",
+    category: "vocabulary",
+    title: "ten to three a.m. — gece üçe on var",
+    keywords: ["ten to three a.m.", "gece üçe on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:50.",
+      "🇹🇷 Saat 02:50."
+    ],
+    examples: [],
+    related_word_ids: [2170]
+  },
+  {
+    id: "vocab-saat-2171",
+    category: "vocabulary",
+    title: "nine minutes to three a.m. — gece üçe dokuz var",
+    keywords: ["nine minutes to three a.m.", "gece üçe dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:51.",
+      "🇹🇷 Saat 02:51."
+    ],
+    examples: [],
+    related_word_ids: [2171]
+  },
+  {
+    id: "vocab-saat-2172",
+    category: "vocabulary",
+    title: "eight minutes to three a.m. — gece üçe sekiz var",
+    keywords: ["eight minutes to three a.m.", "gece üçe sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:52.",
+      "🇹🇷 Saat 02:52."
+    ],
+    examples: [],
+    related_word_ids: [2172]
+  },
+  {
+    id: "vocab-saat-2173",
+    category: "vocabulary",
+    title: "seven minutes to three a.m. — gece üçe yedi var",
+    keywords: ["seven minutes to three a.m.", "gece üçe yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:53.",
+      "🇹🇷 Saat 02:53."
+    ],
+    examples: [],
+    related_word_ids: [2173]
+  },
+  {
+    id: "vocab-saat-2174",
+    category: "vocabulary",
+    title: "six minutes to three a.m. — gece üçe altı var",
+    keywords: ["six minutes to three a.m.", "gece üçe altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:54.",
+      "🇹🇷 Saat 02:54."
+    ],
+    examples: [],
+    related_word_ids: [2174]
+  },
+  {
+    id: "vocab-saat-2175",
+    category: "vocabulary",
+    title: "five to three a.m. — gece üçe beş var",
+    keywords: ["five to three a.m.", "gece üçe beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:55.",
+      "🇹🇷 Saat 02:55."
+    ],
+    examples: [],
+    related_word_ids: [2175]
+  },
+  {
+    id: "vocab-saat-2176",
+    category: "vocabulary",
+    title: "four minutes to three a.m. — gece üçe dört var",
+    keywords: ["four minutes to three a.m.", "gece üçe dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:56.",
+      "🇹🇷 Saat 02:56."
+    ],
+    examples: [],
+    related_word_ids: [2176]
+  },
+  {
+    id: "vocab-saat-2177",
+    category: "vocabulary",
+    title: "three minutes to three a.m. — gece üçe üç var",
+    keywords: ["three minutes to three a.m.", "gece üçe üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:57.",
+      "🇹🇷 Saat 02:57."
+    ],
+    examples: [],
+    related_word_ids: [2177]
+  },
+  {
+    id: "vocab-saat-2178",
+    category: "vocabulary",
+    title: "two minutes to three a.m. — gece üçe iki var",
+    keywords: ["two minutes to three a.m.", "gece üçe iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:58.",
+      "🇹🇷 Saat 02:58."
+    ],
+    examples: [],
+    related_word_ids: [2178]
+  },
+  {
+    id: "vocab-saat-2179",
+    category: "vocabulary",
+    title: "one minute to three a.m. — gece üçe bir var",
+    keywords: ["one minute to three a.m.", "gece üçe bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 02:59.",
+      "🇹🇷 Saat 02:59."
+    ],
+    examples: [],
+    related_word_ids: [2179]
+  },
+  {
+    id: "vocab-saat-2180",
+    category: "vocabulary",
+    title: "three o'clock a.m. — gece üç",
+    keywords: ["three o'clock a.m.", "gece üç", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:00.",
+      "🇹🇷 Saat 03:00."
+    ],
+    examples: [],
+    related_word_ids: [2180]
+  },
+  {
+    id: "vocab-saat-2181",
+    category: "vocabulary",
+    title: "one minute past three a.m. — gece üçü bir geçiyor",
+    keywords: ["one minute past three a.m.", "gece üçü bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:01.",
+      "🇹🇷 Saat 03:01."
+    ],
+    examples: [],
+    related_word_ids: [2181]
+  },
+  {
+    id: "vocab-saat-2182",
+    category: "vocabulary",
+    title: "two minutes past three a.m. — gece üçü iki geçiyor",
+    keywords: ["two minutes past three a.m.", "gece üçü iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:02.",
+      "🇹🇷 Saat 03:02."
+    ],
+    examples: [],
+    related_word_ids: [2182]
+  },
+  {
+    id: "vocab-saat-2183",
+    category: "vocabulary",
+    title: "three minutes past three a.m. — gece üçü üç geçiyor",
+    keywords: ["three minutes past three a.m.", "gece üçü üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:03.",
+      "🇹🇷 Saat 03:03."
+    ],
+    examples: [],
+    related_word_ids: [2183]
+  },
+  {
+    id: "vocab-saat-2184",
+    category: "vocabulary",
+    title: "four minutes past three a.m. — gece üçü dört geçiyor",
+    keywords: ["four minutes past three a.m.", "gece üçü dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:04.",
+      "🇹🇷 Saat 03:04."
+    ],
+    examples: [],
+    related_word_ids: [2184]
+  },
+  {
+    id: "vocab-saat-2185",
+    category: "vocabulary",
+    title: "five past three a.m. — gece üçü beş geçiyor",
+    keywords: ["five past three a.m.", "gece üçü beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:05.",
+      "🇹🇷 Saat 03:05."
+    ],
+    examples: [],
+    related_word_ids: [2185]
+  },
+  {
+    id: "vocab-saat-2186",
+    category: "vocabulary",
+    title: "six minutes past three a.m. — gece üçü altı geçiyor",
+    keywords: ["six minutes past three a.m.", "gece üçü altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:06.",
+      "🇹🇷 Saat 03:06."
+    ],
+    examples: [],
+    related_word_ids: [2186]
+  },
+  {
+    id: "vocab-saat-2187",
+    category: "vocabulary",
+    title: "seven minutes past three a.m. — gece üçü yedi geçiyor",
+    keywords: ["seven minutes past three a.m.", "gece üçü yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:07.",
+      "🇹🇷 Saat 03:07."
+    ],
+    examples: [],
+    related_word_ids: [2187]
+  },
+  {
+    id: "vocab-saat-2188",
+    category: "vocabulary",
+    title: "eight minutes past three a.m. — gece üçü sekiz geçiyor",
+    keywords: ["eight minutes past three a.m.", "gece üçü sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:08.",
+      "🇹🇷 Saat 03:08."
+    ],
+    examples: [],
+    related_word_ids: [2188]
+  },
+  {
+    id: "vocab-saat-2189",
+    category: "vocabulary",
+    title: "nine minutes past three a.m. — gece üçü dokuz geçiyor",
+    keywords: ["nine minutes past three a.m.", "gece üçü dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:09.",
+      "🇹🇷 Saat 03:09."
+    ],
+    examples: [],
+    related_word_ids: [2189]
+  },
+  {
+    id: "vocab-saat-2190",
+    category: "vocabulary",
+    title: "ten past three a.m. — gece üçü on geçiyor",
+    keywords: ["ten past three a.m.", "gece üçü on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:10.",
+      "🇹🇷 Saat 03:10."
+    ],
+    examples: [],
+    related_word_ids: [2190]
+  },
+  {
+    id: "vocab-saat-2191",
+    category: "vocabulary",
+    title: "eleven minutes past three a.m. — gece üçü on bir geçiyor",
+    keywords: ["eleven minutes past three a.m.", "gece üçü on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:11.",
+      "🇹🇷 Saat 03:11."
+    ],
+    examples: [],
+    related_word_ids: [2191]
+  },
+  {
+    id: "vocab-saat-2192",
+    category: "vocabulary",
+    title: "twelve minutes past three a.m. — gece üçü on iki geçiyor",
+    keywords: ["twelve minutes past three a.m.", "gece üçü on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:12.",
+      "🇹🇷 Saat 03:12."
+    ],
+    examples: [],
+    related_word_ids: [2192]
+  },
+  {
+    id: "vocab-saat-2193",
+    category: "vocabulary",
+    title: "thirteen minutes past three a.m. — gece üçü on üç geçiyor",
+    keywords: ["thirteen minutes past three a.m.", "gece üçü on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:13.",
+      "🇹🇷 Saat 03:13."
+    ],
+    examples: [],
+    related_word_ids: [2193]
+  },
+  {
+    id: "vocab-saat-2194",
+    category: "vocabulary",
+    title: "fourteen minutes past three a.m. — gece üçü on dört geçiyor",
+    keywords: ["fourteen minutes past three a.m.", "gece üçü on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:14.",
+      "🇹🇷 Saat 03:14."
+    ],
+    examples: [],
+    related_word_ids: [2194]
+  },
+  {
+    id: "vocab-saat-2195",
+    category: "vocabulary",
+    title: "a quarter past three a.m. — gece üçü çeyrek geçiyor",
+    keywords: ["a quarter past three a.m.", "gece üçü çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:15.",
+      "🇹🇷 Saat 03:15."
+    ],
+    examples: [],
+    related_word_ids: [2195]
+  },
+  {
+    id: "vocab-saat-2196",
+    category: "vocabulary",
+    title: "sixteen minutes past three a.m. — gece üçü on altı geçiyor",
+    keywords: ["sixteen minutes past three a.m.", "gece üçü on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:16.",
+      "🇹🇷 Saat 03:16."
+    ],
+    examples: [],
+    related_word_ids: [2196]
+  },
+  {
+    id: "vocab-saat-2197",
+    category: "vocabulary",
+    title: "seventeen minutes past three a.m. — gece üçü on yedi geçiyor",
+    keywords: ["seventeen minutes past three a.m.", "gece üçü on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:17.",
+      "🇹🇷 Saat 03:17."
+    ],
+    examples: [],
+    related_word_ids: [2197]
+  },
+  {
+    id: "vocab-saat-2198",
+    category: "vocabulary",
+    title: "eighteen minutes past three a.m. — gece üçü on sekiz geçiyor",
+    keywords: ["eighteen minutes past three a.m.", "gece üçü on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:18.",
+      "🇹🇷 Saat 03:18."
+    ],
+    examples: [],
+    related_word_ids: [2198]
+  },
+  {
+    id: "vocab-saat-2199",
+    category: "vocabulary",
+    title: "nineteen minutes past three a.m. — gece üçü on dokuz geçiyor",
+    keywords: ["nineteen minutes past three a.m.", "gece üçü on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:19.",
+      "🇹🇷 Saat 03:19."
+    ],
+    examples: [],
+    related_word_ids: [2199]
+  },
+  {
+    id: "vocab-saat-2200",
+    category: "vocabulary",
+    title: "twenty past three a.m. — gece üçü yirmi geçiyor",
+    keywords: ["twenty past three a.m.", "gece üçü yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:20.",
+      "🇹🇷 Saat 03:20."
+    ],
+    examples: [],
+    related_word_ids: [2200]
+  },
+  {
+    id: "vocab-saat-2201",
+    category: "vocabulary",
+    title: "twenty-one minutes past three a.m. — gece üçü yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past three a.m.", "gece üçü yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:21.",
+      "🇹🇷 Saat 03:21."
+    ],
+    examples: [],
+    related_word_ids: [2201]
+  },
+  {
+    id: "vocab-saat-2202",
+    category: "vocabulary",
+    title: "twenty-two minutes past three a.m. — gece üçü yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past three a.m.", "gece üçü yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:22.",
+      "🇹🇷 Saat 03:22."
+    ],
+    examples: [],
+    related_word_ids: [2202]
+  },
+  {
+    id: "vocab-saat-2203",
+    category: "vocabulary",
+    title: "twenty-three minutes past three a.m. — gece üçü yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past three a.m.", "gece üçü yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:23.",
+      "🇹🇷 Saat 03:23."
+    ],
+    examples: [],
+    related_word_ids: [2203]
+  },
+  {
+    id: "vocab-saat-2204",
+    category: "vocabulary",
+    title: "twenty-four minutes past three a.m. — gece üçü yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past three a.m.", "gece üçü yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:24.",
+      "🇹🇷 Saat 03:24."
+    ],
+    examples: [],
+    related_word_ids: [2204]
+  },
+  {
+    id: "vocab-saat-2205",
+    category: "vocabulary",
+    title: "twenty-five past three a.m. — gece üçü yirmi beş geçiyor",
+    keywords: ["twenty-five past three a.m.", "gece üçü yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:25.",
+      "🇹🇷 Saat 03:25."
+    ],
+    examples: [],
+    related_word_ids: [2205]
+  },
+  {
+    id: "vocab-saat-2206",
+    category: "vocabulary",
+    title: "twenty-six minutes past three a.m. — gece üçü yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past three a.m.", "gece üçü yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:26.",
+      "🇹🇷 Saat 03:26."
+    ],
+    examples: [],
+    related_word_ids: [2206]
+  },
+  {
+    id: "vocab-saat-2207",
+    category: "vocabulary",
+    title: "twenty-seven minutes past three a.m. — gece üçü yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past three a.m.", "gece üçü yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:27.",
+      "🇹🇷 Saat 03:27."
+    ],
+    examples: [],
+    related_word_ids: [2207]
+  },
+  {
+    id: "vocab-saat-2208",
+    category: "vocabulary",
+    title: "twenty-eight minutes past three a.m. — gece üçü yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past three a.m.", "gece üçü yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:28.",
+      "🇹🇷 Saat 03:28."
+    ],
+    examples: [],
+    related_word_ids: [2208]
+  },
+  {
+    id: "vocab-saat-2209",
+    category: "vocabulary",
+    title: "twenty-nine minutes past three a.m. — gece üçü yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past three a.m.", "gece üçü yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:29.",
+      "🇹🇷 Saat 03:29."
+    ],
+    examples: [],
+    related_word_ids: [2209]
+  },
+  {
+    id: "vocab-saat-2210",
+    category: "vocabulary",
+    title: "half past three a.m. — gece üç buçuk",
+    keywords: ["half past three a.m.", "gece üç buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:30.",
+      "🇹🇷 Saat 03:30."
+    ],
+    examples: [],
+    related_word_ids: [2210]
+  },
+  {
+    id: "vocab-saat-2211",
+    category: "vocabulary",
+    title: "twenty-nine minutes to four a.m. — gece dörde yirmi dokuz var",
+    keywords: ["twenty-nine minutes to four a.m.", "gece dörde yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:31.",
+      "🇹🇷 Saat 03:31."
+    ],
+    examples: [],
+    related_word_ids: [2211]
+  },
+  {
+    id: "vocab-saat-2212",
+    category: "vocabulary",
+    title: "twenty-eight minutes to four a.m. — gece dörde yirmi sekiz var",
+    keywords: ["twenty-eight minutes to four a.m.", "gece dörde yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:32.",
+      "🇹🇷 Saat 03:32."
+    ],
+    examples: [],
+    related_word_ids: [2212]
+  },
+  {
+    id: "vocab-saat-2213",
+    category: "vocabulary",
+    title: "twenty-seven minutes to four a.m. — gece dörde yirmi yedi var",
+    keywords: ["twenty-seven minutes to four a.m.", "gece dörde yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:33.",
+      "🇹🇷 Saat 03:33."
+    ],
+    examples: [],
+    related_word_ids: [2213]
+  },
+  {
+    id: "vocab-saat-2214",
+    category: "vocabulary",
+    title: "twenty-six minutes to four a.m. — gece dörde yirmi altı var",
+    keywords: ["twenty-six minutes to four a.m.", "gece dörde yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:34.",
+      "🇹🇷 Saat 03:34."
+    ],
+    examples: [],
+    related_word_ids: [2214]
+  },
+  {
+    id: "vocab-saat-2215",
+    category: "vocabulary",
+    title: "twenty-five to four a.m. — gece dörde yirmi beş var",
+    keywords: ["twenty-five to four a.m.", "gece dörde yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:35.",
+      "🇹🇷 Saat 03:35."
+    ],
+    examples: [],
+    related_word_ids: [2215]
+  },
+  {
+    id: "vocab-saat-2216",
+    category: "vocabulary",
+    title: "twenty-four minutes to four a.m. — gece dörde yirmi dört var",
+    keywords: ["twenty-four minutes to four a.m.", "gece dörde yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:36.",
+      "🇹🇷 Saat 03:36."
+    ],
+    examples: [],
+    related_word_ids: [2216]
+  },
+  {
+    id: "vocab-saat-2217",
+    category: "vocabulary",
+    title: "twenty-three minutes to four a.m. — gece dörde yirmi üç var",
+    keywords: ["twenty-three minutes to four a.m.", "gece dörde yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:37.",
+      "🇹🇷 Saat 03:37."
+    ],
+    examples: [],
+    related_word_ids: [2217]
+  },
+  {
+    id: "vocab-saat-2218",
+    category: "vocabulary",
+    title: "twenty-two minutes to four a.m. — gece dörde yirmi iki var",
+    keywords: ["twenty-two minutes to four a.m.", "gece dörde yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:38.",
+      "🇹🇷 Saat 03:38."
+    ],
+    examples: [],
+    related_word_ids: [2218]
+  },
+  {
+    id: "vocab-saat-2219",
+    category: "vocabulary",
+    title: "twenty-one minutes to four a.m. — gece dörde yirmi bir var",
+    keywords: ["twenty-one minutes to four a.m.", "gece dörde yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:39.",
+      "🇹🇷 Saat 03:39."
+    ],
+    examples: [],
+    related_word_ids: [2219]
+  },
+  {
+    id: "vocab-saat-2220",
+    category: "vocabulary",
+    title: "twenty to four a.m. — gece dörde yirmi var",
+    keywords: ["twenty to four a.m.", "gece dörde yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:40.",
+      "🇹🇷 Saat 03:40."
+    ],
+    examples: [],
+    related_word_ids: [2220]
+  },
+  {
+    id: "vocab-saat-2221",
+    category: "vocabulary",
+    title: "nineteen minutes to four a.m. — gece dörde on dokuz var",
+    keywords: ["nineteen minutes to four a.m.", "gece dörde on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:41.",
+      "🇹🇷 Saat 03:41."
+    ],
+    examples: [],
+    related_word_ids: [2221]
+  },
+  {
+    id: "vocab-saat-2222",
+    category: "vocabulary",
+    title: "eighteen minutes to four a.m. — gece dörde on sekiz var",
+    keywords: ["eighteen minutes to four a.m.", "gece dörde on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:42.",
+      "🇹🇷 Saat 03:42."
+    ],
+    examples: [],
+    related_word_ids: [2222]
+  },
+  {
+    id: "vocab-saat-2223",
+    category: "vocabulary",
+    title: "seventeen minutes to four a.m. — gece dörde on yedi var",
+    keywords: ["seventeen minutes to four a.m.", "gece dörde on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:43.",
+      "🇹🇷 Saat 03:43."
+    ],
+    examples: [],
+    related_word_ids: [2223]
+  },
+  {
+    id: "vocab-saat-2224",
+    category: "vocabulary",
+    title: "sixteen minutes to four a.m. — gece dörde on altı var",
+    keywords: ["sixteen minutes to four a.m.", "gece dörde on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:44.",
+      "🇹🇷 Saat 03:44."
+    ],
+    examples: [],
+    related_word_ids: [2224]
+  },
+  {
+    id: "vocab-saat-2225",
+    category: "vocabulary",
+    title: "a quarter to four a.m. — gece dörde çeyrek var",
+    keywords: ["a quarter to four a.m.", "gece dörde çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:45.",
+      "🇹🇷 Saat 03:45."
+    ],
+    examples: [],
+    related_word_ids: [2225]
+  },
+  {
+    id: "vocab-saat-2226",
+    category: "vocabulary",
+    title: "fourteen minutes to four a.m. — gece dörde on dört var",
+    keywords: ["fourteen minutes to four a.m.", "gece dörde on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:46.",
+      "🇹🇷 Saat 03:46."
+    ],
+    examples: [],
+    related_word_ids: [2226]
+  },
+  {
+    id: "vocab-saat-2227",
+    category: "vocabulary",
+    title: "thirteen minutes to four a.m. — gece dörde on üç var",
+    keywords: ["thirteen minutes to four a.m.", "gece dörde on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:47.",
+      "🇹🇷 Saat 03:47."
+    ],
+    examples: [],
+    related_word_ids: [2227]
+  },
+  {
+    id: "vocab-saat-2228",
+    category: "vocabulary",
+    title: "twelve minutes to four a.m. — gece dörde on iki var",
+    keywords: ["twelve minutes to four a.m.", "gece dörde on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:48.",
+      "🇹🇷 Saat 03:48."
+    ],
+    examples: [],
+    related_word_ids: [2228]
+  },
+  {
+    id: "vocab-saat-2229",
+    category: "vocabulary",
+    title: "eleven minutes to four a.m. — gece dörde on bir var",
+    keywords: ["eleven minutes to four a.m.", "gece dörde on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:49.",
+      "🇹🇷 Saat 03:49."
+    ],
+    examples: [],
+    related_word_ids: [2229]
+  },
+  {
+    id: "vocab-saat-2230",
+    category: "vocabulary",
+    title: "ten to four a.m. — gece dörde on var",
+    keywords: ["ten to four a.m.", "gece dörde on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:50.",
+      "🇹🇷 Saat 03:50."
+    ],
+    examples: [],
+    related_word_ids: [2230]
+  },
+  {
+    id: "vocab-saat-2231",
+    category: "vocabulary",
+    title: "nine minutes to four a.m. — gece dörde dokuz var",
+    keywords: ["nine minutes to four a.m.", "gece dörde dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:51.",
+      "🇹🇷 Saat 03:51."
+    ],
+    examples: [],
+    related_word_ids: [2231]
+  },
+  {
+    id: "vocab-saat-2232",
+    category: "vocabulary",
+    title: "eight minutes to four a.m. — gece dörde sekiz var",
+    keywords: ["eight minutes to four a.m.", "gece dörde sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:52.",
+      "🇹🇷 Saat 03:52."
+    ],
+    examples: [],
+    related_word_ids: [2232]
+  },
+  {
+    id: "vocab-saat-2233",
+    category: "vocabulary",
+    title: "seven minutes to four a.m. — gece dörde yedi var",
+    keywords: ["seven minutes to four a.m.", "gece dörde yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:53.",
+      "🇹🇷 Saat 03:53."
+    ],
+    examples: [],
+    related_word_ids: [2233]
+  },
+  {
+    id: "vocab-saat-2234",
+    category: "vocabulary",
+    title: "six minutes to four a.m. — gece dörde altı var",
+    keywords: ["six minutes to four a.m.", "gece dörde altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:54.",
+      "🇹🇷 Saat 03:54."
+    ],
+    examples: [],
+    related_word_ids: [2234]
+  },
+  {
+    id: "vocab-saat-2235",
+    category: "vocabulary",
+    title: "five to four a.m. — gece dörde beş var",
+    keywords: ["five to four a.m.", "gece dörde beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:55.",
+      "🇹🇷 Saat 03:55."
+    ],
+    examples: [],
+    related_word_ids: [2235]
+  },
+  {
+    id: "vocab-saat-2236",
+    category: "vocabulary",
+    title: "four minutes to four a.m. — gece dörde dört var",
+    keywords: ["four minutes to four a.m.", "gece dörde dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:56.",
+      "🇹🇷 Saat 03:56."
+    ],
+    examples: [],
+    related_word_ids: [2236]
+  },
+  {
+    id: "vocab-saat-2237",
+    category: "vocabulary",
+    title: "three minutes to four a.m. — gece dörde üç var",
+    keywords: ["three minutes to four a.m.", "gece dörde üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:57.",
+      "🇹🇷 Saat 03:57."
+    ],
+    examples: [],
+    related_word_ids: [2237]
+  },
+  {
+    id: "vocab-saat-2238",
+    category: "vocabulary",
+    title: "two minutes to four a.m. — gece dörde iki var",
+    keywords: ["two minutes to four a.m.", "gece dörde iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:58.",
+      "🇹🇷 Saat 03:58."
+    ],
+    examples: [],
+    related_word_ids: [2238]
+  },
+  {
+    id: "vocab-saat-2239",
+    category: "vocabulary",
+    title: "one minute to four a.m. — gece dörde bir var",
+    keywords: ["one minute to four a.m.", "gece dörde bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 03:59.",
+      "🇹🇷 Saat 03:59."
+    ],
+    examples: [],
+    related_word_ids: [2239]
+  },
+  {
+    id: "vocab-saat-2240",
+    category: "vocabulary",
+    title: "four o'clock a.m. — gece dört",
+    keywords: ["four o'clock a.m.", "gece dört", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:00.",
+      "🇹🇷 Saat 04:00."
+    ],
+    examples: [],
+    related_word_ids: [2240]
+  },
+  {
+    id: "vocab-saat-2241",
+    category: "vocabulary",
+    title: "one minute past four a.m. — gece dördü bir geçiyor",
+    keywords: ["one minute past four a.m.", "gece dördü bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:01.",
+      "🇹🇷 Saat 04:01."
+    ],
+    examples: [],
+    related_word_ids: [2241]
+  },
+  {
+    id: "vocab-saat-2242",
+    category: "vocabulary",
+    title: "two minutes past four a.m. — gece dördü iki geçiyor",
+    keywords: ["two minutes past four a.m.", "gece dördü iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:02.",
+      "🇹🇷 Saat 04:02."
+    ],
+    examples: [],
+    related_word_ids: [2242]
+  },
+  {
+    id: "vocab-saat-2243",
+    category: "vocabulary",
+    title: "three minutes past four a.m. — gece dördü üç geçiyor",
+    keywords: ["three minutes past four a.m.", "gece dördü üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:03.",
+      "🇹🇷 Saat 04:03."
+    ],
+    examples: [],
+    related_word_ids: [2243]
+  },
+  {
+    id: "vocab-saat-2244",
+    category: "vocabulary",
+    title: "four minutes past four a.m. — gece dördü dört geçiyor",
+    keywords: ["four minutes past four a.m.", "gece dördü dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:04.",
+      "🇹🇷 Saat 04:04."
+    ],
+    examples: [],
+    related_word_ids: [2244]
+  },
+  {
+    id: "vocab-saat-2245",
+    category: "vocabulary",
+    title: "five past four a.m. — gece dördü beş geçiyor",
+    keywords: ["five past four a.m.", "gece dördü beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:05.",
+      "🇹🇷 Saat 04:05."
+    ],
+    examples: [],
+    related_word_ids: [2245]
+  },
+  {
+    id: "vocab-saat-2246",
+    category: "vocabulary",
+    title: "six minutes past four a.m. — gece dördü altı geçiyor",
+    keywords: ["six minutes past four a.m.", "gece dördü altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:06.",
+      "🇹🇷 Saat 04:06."
+    ],
+    examples: [],
+    related_word_ids: [2246]
+  },
+  {
+    id: "vocab-saat-2247",
+    category: "vocabulary",
+    title: "seven minutes past four a.m. — gece dördü yedi geçiyor",
+    keywords: ["seven minutes past four a.m.", "gece dördü yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:07.",
+      "🇹🇷 Saat 04:07."
+    ],
+    examples: [],
+    related_word_ids: [2247]
+  },
+  {
+    id: "vocab-saat-2248",
+    category: "vocabulary",
+    title: "eight minutes past four a.m. — gece dördü sekiz geçiyor",
+    keywords: ["eight minutes past four a.m.", "gece dördü sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:08.",
+      "🇹🇷 Saat 04:08."
+    ],
+    examples: [],
+    related_word_ids: [2248]
+  },
+  {
+    id: "vocab-saat-2249",
+    category: "vocabulary",
+    title: "nine minutes past four a.m. — gece dördü dokuz geçiyor",
+    keywords: ["nine minutes past four a.m.", "gece dördü dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:09.",
+      "🇹🇷 Saat 04:09."
+    ],
+    examples: [],
+    related_word_ids: [2249]
+  },
+  {
+    id: "vocab-saat-2250",
+    category: "vocabulary",
+    title: "ten past four a.m. — gece dördü on geçiyor",
+    keywords: ["ten past four a.m.", "gece dördü on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:10.",
+      "🇹🇷 Saat 04:10."
+    ],
+    examples: [],
+    related_word_ids: [2250]
+  },
+  {
+    id: "vocab-saat-2251",
+    category: "vocabulary",
+    title: "eleven minutes past four a.m. — gece dördü on bir geçiyor",
+    keywords: ["eleven minutes past four a.m.", "gece dördü on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:11.",
+      "🇹🇷 Saat 04:11."
+    ],
+    examples: [],
+    related_word_ids: [2251]
+  },
+  {
+    id: "vocab-saat-2252",
+    category: "vocabulary",
+    title: "twelve minutes past four a.m. — gece dördü on iki geçiyor",
+    keywords: ["twelve minutes past four a.m.", "gece dördü on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:12.",
+      "🇹🇷 Saat 04:12."
+    ],
+    examples: [],
+    related_word_ids: [2252]
+  },
+  {
+    id: "vocab-saat-2253",
+    category: "vocabulary",
+    title: "thirteen minutes past four a.m. — gece dördü on üç geçiyor",
+    keywords: ["thirteen minutes past four a.m.", "gece dördü on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:13.",
+      "🇹🇷 Saat 04:13."
+    ],
+    examples: [],
+    related_word_ids: [2253]
+  },
+  {
+    id: "vocab-saat-2254",
+    category: "vocabulary",
+    title: "fourteen minutes past four a.m. — gece dördü on dört geçiyor",
+    keywords: ["fourteen minutes past four a.m.", "gece dördü on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:14.",
+      "🇹🇷 Saat 04:14."
+    ],
+    examples: [],
+    related_word_ids: [2254]
+  },
+  {
+    id: "vocab-saat-2255",
+    category: "vocabulary",
+    title: "a quarter past four a.m. — gece dördü çeyrek geçiyor",
+    keywords: ["a quarter past four a.m.", "gece dördü çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:15.",
+      "🇹🇷 Saat 04:15."
+    ],
+    examples: [],
+    related_word_ids: [2255]
+  },
+  {
+    id: "vocab-saat-2256",
+    category: "vocabulary",
+    title: "sixteen minutes past four a.m. — gece dördü on altı geçiyor",
+    keywords: ["sixteen minutes past four a.m.", "gece dördü on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:16.",
+      "🇹🇷 Saat 04:16."
+    ],
+    examples: [],
+    related_word_ids: [2256]
+  },
+  {
+    id: "vocab-saat-2257",
+    category: "vocabulary",
+    title: "seventeen minutes past four a.m. — gece dördü on yedi geçiyor",
+    keywords: ["seventeen minutes past four a.m.", "gece dördü on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:17.",
+      "🇹🇷 Saat 04:17."
+    ],
+    examples: [],
+    related_word_ids: [2257]
+  },
+  {
+    id: "vocab-saat-2258",
+    category: "vocabulary",
+    title: "eighteen minutes past four a.m. — gece dördü on sekiz geçiyor",
+    keywords: ["eighteen minutes past four a.m.", "gece dördü on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:18.",
+      "🇹🇷 Saat 04:18."
+    ],
+    examples: [],
+    related_word_ids: [2258]
+  },
+  {
+    id: "vocab-saat-2259",
+    category: "vocabulary",
+    title: "nineteen minutes past four a.m. — gece dördü on dokuz geçiyor",
+    keywords: ["nineteen minutes past four a.m.", "gece dördü on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:19.",
+      "🇹🇷 Saat 04:19."
+    ],
+    examples: [],
+    related_word_ids: [2259]
+  },
+  {
+    id: "vocab-saat-2260",
+    category: "vocabulary",
+    title: "twenty past four a.m. — gece dördü yirmi geçiyor",
+    keywords: ["twenty past four a.m.", "gece dördü yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:20.",
+      "🇹🇷 Saat 04:20."
+    ],
+    examples: [],
+    related_word_ids: [2260]
+  },
+  {
+    id: "vocab-saat-2261",
+    category: "vocabulary",
+    title: "twenty-one minutes past four a.m. — gece dördü yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past four a.m.", "gece dördü yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:21.",
+      "🇹🇷 Saat 04:21."
+    ],
+    examples: [],
+    related_word_ids: [2261]
+  },
+  {
+    id: "vocab-saat-2262",
+    category: "vocabulary",
+    title: "twenty-two minutes past four a.m. — gece dördü yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past four a.m.", "gece dördü yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:22.",
+      "🇹🇷 Saat 04:22."
+    ],
+    examples: [],
+    related_word_ids: [2262]
+  },
+  {
+    id: "vocab-saat-2263",
+    category: "vocabulary",
+    title: "twenty-three minutes past four a.m. — gece dördü yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past four a.m.", "gece dördü yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:23.",
+      "🇹🇷 Saat 04:23."
+    ],
+    examples: [],
+    related_word_ids: [2263]
+  },
+  {
+    id: "vocab-saat-2264",
+    category: "vocabulary",
+    title: "twenty-four minutes past four a.m. — gece dördü yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past four a.m.", "gece dördü yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:24.",
+      "🇹🇷 Saat 04:24."
+    ],
+    examples: [],
+    related_word_ids: [2264]
+  },
+  {
+    id: "vocab-saat-2265",
+    category: "vocabulary",
+    title: "twenty-five past four a.m. — gece dördü yirmi beş geçiyor",
+    keywords: ["twenty-five past four a.m.", "gece dördü yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:25.",
+      "🇹🇷 Saat 04:25."
+    ],
+    examples: [],
+    related_word_ids: [2265]
+  },
+  {
+    id: "vocab-saat-2266",
+    category: "vocabulary",
+    title: "twenty-six minutes past four a.m. — gece dördü yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past four a.m.", "gece dördü yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:26.",
+      "🇹🇷 Saat 04:26."
+    ],
+    examples: [],
+    related_word_ids: [2266]
+  },
+  {
+    id: "vocab-saat-2267",
+    category: "vocabulary",
+    title: "twenty-seven minutes past four a.m. — gece dördü yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past four a.m.", "gece dördü yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:27.",
+      "🇹🇷 Saat 04:27."
+    ],
+    examples: [],
+    related_word_ids: [2267]
+  },
+  {
+    id: "vocab-saat-2268",
+    category: "vocabulary",
+    title: "twenty-eight minutes past four a.m. — gece dördü yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past four a.m.", "gece dördü yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:28.",
+      "🇹🇷 Saat 04:28."
+    ],
+    examples: [],
+    related_word_ids: [2268]
+  },
+  {
+    id: "vocab-saat-2269",
+    category: "vocabulary",
+    title: "twenty-nine minutes past four a.m. — gece dördü yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past four a.m.", "gece dördü yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:29.",
+      "🇹🇷 Saat 04:29."
+    ],
+    examples: [],
+    related_word_ids: [2269]
+  },
+  {
+    id: "vocab-saat-2270",
+    category: "vocabulary",
+    title: "half past four a.m. — gece dört buçuk",
+    keywords: ["half past four a.m.", "gece dört buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:30.",
+      "🇹🇷 Saat 04:30."
+    ],
+    examples: [],
+    related_word_ids: [2270]
+  },
+  {
+    id: "vocab-saat-2271",
+    category: "vocabulary",
+    title: "twenty-nine minutes to five a.m. — gece beşe yirmi dokuz var",
+    keywords: ["twenty-nine minutes to five a.m.", "gece beşe yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:31.",
+      "🇹🇷 Saat 04:31."
+    ],
+    examples: [],
+    related_word_ids: [2271]
+  },
+  {
+    id: "vocab-saat-2272",
+    category: "vocabulary",
+    title: "twenty-eight minutes to five a.m. — gece beşe yirmi sekiz var",
+    keywords: ["twenty-eight minutes to five a.m.", "gece beşe yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:32.",
+      "🇹🇷 Saat 04:32."
+    ],
+    examples: [],
+    related_word_ids: [2272]
+  },
+  {
+    id: "vocab-saat-2273",
+    category: "vocabulary",
+    title: "twenty-seven minutes to five a.m. — gece beşe yirmi yedi var",
+    keywords: ["twenty-seven minutes to five a.m.", "gece beşe yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:33.",
+      "🇹🇷 Saat 04:33."
+    ],
+    examples: [],
+    related_word_ids: [2273]
+  },
+  {
+    id: "vocab-saat-2274",
+    category: "vocabulary",
+    title: "twenty-six minutes to five a.m. — gece beşe yirmi altı var",
+    keywords: ["twenty-six minutes to five a.m.", "gece beşe yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:34.",
+      "🇹🇷 Saat 04:34."
+    ],
+    examples: [],
+    related_word_ids: [2274]
+  },
+  {
+    id: "vocab-saat-2275",
+    category: "vocabulary",
+    title: "twenty-five to five a.m. — gece beşe yirmi beş var",
+    keywords: ["twenty-five to five a.m.", "gece beşe yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:35.",
+      "🇹🇷 Saat 04:35."
+    ],
+    examples: [],
+    related_word_ids: [2275]
+  },
+  {
+    id: "vocab-saat-2276",
+    category: "vocabulary",
+    title: "twenty-four minutes to five a.m. — gece beşe yirmi dört var",
+    keywords: ["twenty-four minutes to five a.m.", "gece beşe yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:36.",
+      "🇹🇷 Saat 04:36."
+    ],
+    examples: [],
+    related_word_ids: [2276]
+  },
+  {
+    id: "vocab-saat-2277",
+    category: "vocabulary",
+    title: "twenty-three minutes to five a.m. — gece beşe yirmi üç var",
+    keywords: ["twenty-three minutes to five a.m.", "gece beşe yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:37.",
+      "🇹🇷 Saat 04:37."
+    ],
+    examples: [],
+    related_word_ids: [2277]
+  },
+  {
+    id: "vocab-saat-2278",
+    category: "vocabulary",
+    title: "twenty-two minutes to five a.m. — gece beşe yirmi iki var",
+    keywords: ["twenty-two minutes to five a.m.", "gece beşe yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:38.",
+      "🇹🇷 Saat 04:38."
+    ],
+    examples: [],
+    related_word_ids: [2278]
+  },
+  {
+    id: "vocab-saat-2279",
+    category: "vocabulary",
+    title: "twenty-one minutes to five a.m. — gece beşe yirmi bir var",
+    keywords: ["twenty-one minutes to five a.m.", "gece beşe yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:39.",
+      "🇹🇷 Saat 04:39."
+    ],
+    examples: [],
+    related_word_ids: [2279]
+  },
+  {
+    id: "vocab-saat-2280",
+    category: "vocabulary",
+    title: "twenty to five a.m. — gece beşe yirmi var",
+    keywords: ["twenty to five a.m.", "gece beşe yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:40.",
+      "🇹🇷 Saat 04:40."
+    ],
+    examples: [],
+    related_word_ids: [2280]
+  },
+  {
+    id: "vocab-saat-2281",
+    category: "vocabulary",
+    title: "nineteen minutes to five a.m. — gece beşe on dokuz var",
+    keywords: ["nineteen minutes to five a.m.", "gece beşe on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:41.",
+      "🇹🇷 Saat 04:41."
+    ],
+    examples: [],
+    related_word_ids: [2281]
+  },
+  {
+    id: "vocab-saat-2282",
+    category: "vocabulary",
+    title: "eighteen minutes to five a.m. — gece beşe on sekiz var",
+    keywords: ["eighteen minutes to five a.m.", "gece beşe on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:42.",
+      "🇹🇷 Saat 04:42."
+    ],
+    examples: [],
+    related_word_ids: [2282]
+  },
+  {
+    id: "vocab-saat-2283",
+    category: "vocabulary",
+    title: "seventeen minutes to five a.m. — gece beşe on yedi var",
+    keywords: ["seventeen minutes to five a.m.", "gece beşe on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:43.",
+      "🇹🇷 Saat 04:43."
+    ],
+    examples: [],
+    related_word_ids: [2283]
+  },
+  {
+    id: "vocab-saat-2284",
+    category: "vocabulary",
+    title: "sixteen minutes to five a.m. — gece beşe on altı var",
+    keywords: ["sixteen minutes to five a.m.", "gece beşe on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:44.",
+      "🇹🇷 Saat 04:44."
+    ],
+    examples: [],
+    related_word_ids: [2284]
+  },
+  {
+    id: "vocab-saat-2285",
+    category: "vocabulary",
+    title: "a quarter to five a.m. — gece beşe çeyrek var",
+    keywords: ["a quarter to five a.m.", "gece beşe çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:45.",
+      "🇹🇷 Saat 04:45."
+    ],
+    examples: [],
+    related_word_ids: [2285]
+  },
+  {
+    id: "vocab-saat-2286",
+    category: "vocabulary",
+    title: "fourteen minutes to five a.m. — gece beşe on dört var",
+    keywords: ["fourteen minutes to five a.m.", "gece beşe on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:46.",
+      "🇹🇷 Saat 04:46."
+    ],
+    examples: [],
+    related_word_ids: [2286]
+  },
+  {
+    id: "vocab-saat-2287",
+    category: "vocabulary",
+    title: "thirteen minutes to five a.m. — gece beşe on üç var",
+    keywords: ["thirteen minutes to five a.m.", "gece beşe on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:47.",
+      "🇹🇷 Saat 04:47."
+    ],
+    examples: [],
+    related_word_ids: [2287]
+  },
+  {
+    id: "vocab-saat-2288",
+    category: "vocabulary",
+    title: "twelve minutes to five a.m. — gece beşe on iki var",
+    keywords: ["twelve minutes to five a.m.", "gece beşe on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:48.",
+      "🇹🇷 Saat 04:48."
+    ],
+    examples: [],
+    related_word_ids: [2288]
+  },
+  {
+    id: "vocab-saat-2289",
+    category: "vocabulary",
+    title: "eleven minutes to five a.m. — gece beşe on bir var",
+    keywords: ["eleven minutes to five a.m.", "gece beşe on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:49.",
+      "🇹🇷 Saat 04:49."
+    ],
+    examples: [],
+    related_word_ids: [2289]
+  },
+  {
+    id: "vocab-saat-2290",
+    category: "vocabulary",
+    title: "ten to five a.m. — gece beşe on var",
+    keywords: ["ten to five a.m.", "gece beşe on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:50.",
+      "🇹🇷 Saat 04:50."
+    ],
+    examples: [],
+    related_word_ids: [2290]
+  },
+  {
+    id: "vocab-saat-2291",
+    category: "vocabulary",
+    title: "nine minutes to five a.m. — gece beşe dokuz var",
+    keywords: ["nine minutes to five a.m.", "gece beşe dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:51.",
+      "🇹🇷 Saat 04:51."
+    ],
+    examples: [],
+    related_word_ids: [2291]
+  },
+  {
+    id: "vocab-saat-2292",
+    category: "vocabulary",
+    title: "eight minutes to five a.m. — gece beşe sekiz var",
+    keywords: ["eight minutes to five a.m.", "gece beşe sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:52.",
+      "🇹🇷 Saat 04:52."
+    ],
+    examples: [],
+    related_word_ids: [2292]
+  },
+  {
+    id: "vocab-saat-2293",
+    category: "vocabulary",
+    title: "seven minutes to five a.m. — gece beşe yedi var",
+    keywords: ["seven minutes to five a.m.", "gece beşe yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:53.",
+      "🇹🇷 Saat 04:53."
+    ],
+    examples: [],
+    related_word_ids: [2293]
+  },
+  {
+    id: "vocab-saat-2294",
+    category: "vocabulary",
+    title: "six minutes to five a.m. — gece beşe altı var",
+    keywords: ["six minutes to five a.m.", "gece beşe altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:54.",
+      "🇹🇷 Saat 04:54."
+    ],
+    examples: [],
+    related_word_ids: [2294]
+  },
+  {
+    id: "vocab-saat-2295",
+    category: "vocabulary",
+    title: "five to five a.m. — gece beşe beş var",
+    keywords: ["five to five a.m.", "gece beşe beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:55.",
+      "🇹🇷 Saat 04:55."
+    ],
+    examples: [],
+    related_word_ids: [2295]
+  },
+  {
+    id: "vocab-saat-2296",
+    category: "vocabulary",
+    title: "four minutes to five a.m. — gece beşe dört var",
+    keywords: ["four minutes to five a.m.", "gece beşe dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:56.",
+      "🇹🇷 Saat 04:56."
+    ],
+    examples: [],
+    related_word_ids: [2296]
+  },
+  {
+    id: "vocab-saat-2297",
+    category: "vocabulary",
+    title: "three minutes to five a.m. — gece beşe üç var",
+    keywords: ["three minutes to five a.m.", "gece beşe üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:57.",
+      "🇹🇷 Saat 04:57."
+    ],
+    examples: [],
+    related_word_ids: [2297]
+  },
+  {
+    id: "vocab-saat-2298",
+    category: "vocabulary",
+    title: "two minutes to five a.m. — gece beşe iki var",
+    keywords: ["two minutes to five a.m.", "gece beşe iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:58.",
+      "🇹🇷 Saat 04:58."
+    ],
+    examples: [],
+    related_word_ids: [2298]
+  },
+  {
+    id: "vocab-saat-2299",
+    category: "vocabulary",
+    title: "one minute to five a.m. — gece beşe bir var",
+    keywords: ["one minute to five a.m.", "gece beşe bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 04:59.",
+      "🇹🇷 Saat 04:59."
+    ],
+    examples: [],
+    related_word_ids: [2299]
+  },
+  {
+    id: "vocab-saat-2300",
+    category: "vocabulary",
+    title: "five o'clock a.m. — sabah beş",
+    keywords: ["five o'clock a.m.", "sabah beş", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:00.",
+      "🇹🇷 Saat 05:00."
+    ],
+    examples: [],
+    related_word_ids: [2300]
+  },
+  {
+    id: "vocab-saat-2301",
+    category: "vocabulary",
+    title: "one minute past five a.m. — sabah beşi bir geçiyor",
+    keywords: ["one minute past five a.m.", "sabah beşi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:01.",
+      "🇹🇷 Saat 05:01."
+    ],
+    examples: [],
+    related_word_ids: [2301]
+  },
+  {
+    id: "vocab-saat-2302",
+    category: "vocabulary",
+    title: "two minutes past five a.m. — sabah beşi iki geçiyor",
+    keywords: ["two minutes past five a.m.", "sabah beşi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:02.",
+      "🇹🇷 Saat 05:02."
+    ],
+    examples: [],
+    related_word_ids: [2302]
+  },
+  {
+    id: "vocab-saat-2303",
+    category: "vocabulary",
+    title: "three minutes past five a.m. — sabah beşi üç geçiyor",
+    keywords: ["three minutes past five a.m.", "sabah beşi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:03.",
+      "🇹🇷 Saat 05:03."
+    ],
+    examples: [],
+    related_word_ids: [2303]
+  },
+  {
+    id: "vocab-saat-2304",
+    category: "vocabulary",
+    title: "four minutes past five a.m. — sabah beşi dört geçiyor",
+    keywords: ["four minutes past five a.m.", "sabah beşi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:04.",
+      "🇹🇷 Saat 05:04."
+    ],
+    examples: [],
+    related_word_ids: [2304]
+  },
+  {
+    id: "vocab-saat-2305",
+    category: "vocabulary",
+    title: "five past five a.m. — sabah beşi beş geçiyor",
+    keywords: ["five past five a.m.", "sabah beşi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:05.",
+      "🇹🇷 Saat 05:05."
+    ],
+    examples: [],
+    related_word_ids: [2305]
+  },
+  {
+    id: "vocab-saat-2306",
+    category: "vocabulary",
+    title: "six minutes past five a.m. — sabah beşi altı geçiyor",
+    keywords: ["six minutes past five a.m.", "sabah beşi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:06.",
+      "🇹🇷 Saat 05:06."
+    ],
+    examples: [],
+    related_word_ids: [2306]
+  },
+  {
+    id: "vocab-saat-2307",
+    category: "vocabulary",
+    title: "seven minutes past five a.m. — sabah beşi yedi geçiyor",
+    keywords: ["seven minutes past five a.m.", "sabah beşi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:07.",
+      "🇹🇷 Saat 05:07."
+    ],
+    examples: [],
+    related_word_ids: [2307]
+  },
+  {
+    id: "vocab-saat-2308",
+    category: "vocabulary",
+    title: "eight minutes past five a.m. — sabah beşi sekiz geçiyor",
+    keywords: ["eight minutes past five a.m.", "sabah beşi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:08.",
+      "🇹🇷 Saat 05:08."
+    ],
+    examples: [],
+    related_word_ids: [2308]
+  },
+  {
+    id: "vocab-saat-2309",
+    category: "vocabulary",
+    title: "nine minutes past five a.m. — sabah beşi dokuz geçiyor",
+    keywords: ["nine minutes past five a.m.", "sabah beşi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:09.",
+      "🇹🇷 Saat 05:09."
+    ],
+    examples: [],
+    related_word_ids: [2309]
+  },
+  {
+    id: "vocab-saat-2310",
+    category: "vocabulary",
+    title: "ten past five a.m. — sabah beşi on geçiyor",
+    keywords: ["ten past five a.m.", "sabah beşi on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:10.",
+      "🇹🇷 Saat 05:10."
+    ],
+    examples: [],
+    related_word_ids: [2310]
+  },
+  {
+    id: "vocab-saat-2311",
+    category: "vocabulary",
+    title: "eleven minutes past five a.m. — sabah beşi on bir geçiyor",
+    keywords: ["eleven minutes past five a.m.", "sabah beşi on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:11.",
+      "🇹🇷 Saat 05:11."
+    ],
+    examples: [],
+    related_word_ids: [2311]
+  },
+  {
+    id: "vocab-saat-2312",
+    category: "vocabulary",
+    title: "twelve minutes past five a.m. — sabah beşi on iki geçiyor",
+    keywords: ["twelve minutes past five a.m.", "sabah beşi on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:12.",
+      "🇹🇷 Saat 05:12."
+    ],
+    examples: [],
+    related_word_ids: [2312]
+  },
+  {
+    id: "vocab-saat-2313",
+    category: "vocabulary",
+    title: "thirteen minutes past five a.m. — sabah beşi on üç geçiyor",
+    keywords: ["thirteen minutes past five a.m.", "sabah beşi on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:13.",
+      "🇹🇷 Saat 05:13."
+    ],
+    examples: [],
+    related_word_ids: [2313]
+  },
+  {
+    id: "vocab-saat-2314",
+    category: "vocabulary",
+    title: "fourteen minutes past five a.m. — sabah beşi on dört geçiyor",
+    keywords: ["fourteen minutes past five a.m.", "sabah beşi on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:14.",
+      "🇹🇷 Saat 05:14."
+    ],
+    examples: [],
+    related_word_ids: [2314]
+  },
+  {
+    id: "vocab-saat-2315",
+    category: "vocabulary",
+    title: "a quarter past five a.m. — sabah beşi çeyrek geçiyor",
+    keywords: ["a quarter past five a.m.", "sabah beşi çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:15.",
+      "🇹🇷 Saat 05:15."
+    ],
+    examples: [],
+    related_word_ids: [2315]
+  },
+  {
+    id: "vocab-saat-2316",
+    category: "vocabulary",
+    title: "sixteen minutes past five a.m. — sabah beşi on altı geçiyor",
+    keywords: ["sixteen minutes past five a.m.", "sabah beşi on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:16.",
+      "🇹🇷 Saat 05:16."
+    ],
+    examples: [],
+    related_word_ids: [2316]
+  },
+  {
+    id: "vocab-saat-2317",
+    category: "vocabulary",
+    title: "seventeen minutes past five a.m. — sabah beşi on yedi geçiyor",
+    keywords: ["seventeen minutes past five a.m.", "sabah beşi on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:17.",
+      "🇹🇷 Saat 05:17."
+    ],
+    examples: [],
+    related_word_ids: [2317]
+  },
+  {
+    id: "vocab-saat-2318",
+    category: "vocabulary",
+    title: "eighteen minutes past five a.m. — sabah beşi on sekiz geçiyor",
+    keywords: ["eighteen minutes past five a.m.", "sabah beşi on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:18.",
+      "🇹🇷 Saat 05:18."
+    ],
+    examples: [],
+    related_word_ids: [2318]
+  },
+  {
+    id: "vocab-saat-2319",
+    category: "vocabulary",
+    title: "nineteen minutes past five a.m. — sabah beşi on dokuz geçiyor",
+    keywords: ["nineteen minutes past five a.m.", "sabah beşi on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:19.",
+      "🇹🇷 Saat 05:19."
+    ],
+    examples: [],
+    related_word_ids: [2319]
+  },
+  {
+    id: "vocab-saat-2320",
+    category: "vocabulary",
+    title: "twenty past five a.m. — sabah beşi yirmi geçiyor",
+    keywords: ["twenty past five a.m.", "sabah beşi yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:20.",
+      "🇹🇷 Saat 05:20."
+    ],
+    examples: [],
+    related_word_ids: [2320]
+  },
+  {
+    id: "vocab-saat-2321",
+    category: "vocabulary",
+    title: "twenty-one minutes past five a.m. — sabah beşi yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past five a.m.", "sabah beşi yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:21.",
+      "🇹🇷 Saat 05:21."
+    ],
+    examples: [],
+    related_word_ids: [2321]
+  },
+  {
+    id: "vocab-saat-2322",
+    category: "vocabulary",
+    title: "twenty-two minutes past five a.m. — sabah beşi yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past five a.m.", "sabah beşi yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:22.",
+      "🇹🇷 Saat 05:22."
+    ],
+    examples: [],
+    related_word_ids: [2322]
+  },
+  {
+    id: "vocab-saat-2323",
+    category: "vocabulary",
+    title: "twenty-three minutes past five a.m. — sabah beşi yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past five a.m.", "sabah beşi yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:23.",
+      "🇹🇷 Saat 05:23."
+    ],
+    examples: [],
+    related_word_ids: [2323]
+  },
+  {
+    id: "vocab-saat-2324",
+    category: "vocabulary",
+    title: "twenty-four minutes past five a.m. — sabah beşi yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past five a.m.", "sabah beşi yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:24.",
+      "🇹🇷 Saat 05:24."
+    ],
+    examples: [],
+    related_word_ids: [2324]
+  },
+  {
+    id: "vocab-saat-2325",
+    category: "vocabulary",
+    title: "twenty-five past five a.m. — sabah beşi yirmi beş geçiyor",
+    keywords: ["twenty-five past five a.m.", "sabah beşi yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:25.",
+      "🇹🇷 Saat 05:25."
+    ],
+    examples: [],
+    related_word_ids: [2325]
+  },
+  {
+    id: "vocab-saat-2326",
+    category: "vocabulary",
+    title: "twenty-six minutes past five a.m. — sabah beşi yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past five a.m.", "sabah beşi yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:26.",
+      "🇹🇷 Saat 05:26."
+    ],
+    examples: [],
+    related_word_ids: [2326]
+  },
+  {
+    id: "vocab-saat-2327",
+    category: "vocabulary",
+    title: "twenty-seven minutes past five a.m. — sabah beşi yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past five a.m.", "sabah beşi yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:27.",
+      "🇹🇷 Saat 05:27."
+    ],
+    examples: [],
+    related_word_ids: [2327]
+  },
+  {
+    id: "vocab-saat-2328",
+    category: "vocabulary",
+    title: "twenty-eight minutes past five a.m. — sabah beşi yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past five a.m.", "sabah beşi yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:28.",
+      "🇹🇷 Saat 05:28."
+    ],
+    examples: [],
+    related_word_ids: [2328]
+  },
+  {
+    id: "vocab-saat-2329",
+    category: "vocabulary",
+    title: "twenty-nine minutes past five a.m. — sabah beşi yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past five a.m.", "sabah beşi yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:29.",
+      "🇹🇷 Saat 05:29."
+    ],
+    examples: [],
+    related_word_ids: [2329]
+  },
+  {
+    id: "vocab-saat-2330",
+    category: "vocabulary",
+    title: "half past five a.m. — sabah beş buçuk",
+    keywords: ["half past five a.m.", "sabah beş buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:30.",
+      "🇹🇷 Saat 05:30."
+    ],
+    examples: [],
+    related_word_ids: [2330]
+  },
+  {
+    id: "vocab-saat-2331",
+    category: "vocabulary",
+    title: "twenty-nine minutes to six a.m. — sabah altıya yirmi dokuz var",
+    keywords: ["twenty-nine minutes to six a.m.", "sabah altıya yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:31.",
+      "🇹🇷 Saat 05:31."
+    ],
+    examples: [],
+    related_word_ids: [2331]
+  },
+  {
+    id: "vocab-saat-2332",
+    category: "vocabulary",
+    title: "twenty-eight minutes to six a.m. — sabah altıya yirmi sekiz var",
+    keywords: ["twenty-eight minutes to six a.m.", "sabah altıya yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:32.",
+      "🇹🇷 Saat 05:32."
+    ],
+    examples: [],
+    related_word_ids: [2332]
+  },
+  {
+    id: "vocab-saat-2333",
+    category: "vocabulary",
+    title: "twenty-seven minutes to six a.m. — sabah altıya yirmi yedi var",
+    keywords: ["twenty-seven minutes to six a.m.", "sabah altıya yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:33.",
+      "🇹🇷 Saat 05:33."
+    ],
+    examples: [],
+    related_word_ids: [2333]
+  },
+  {
+    id: "vocab-saat-2334",
+    category: "vocabulary",
+    title: "twenty-six minutes to six a.m. — sabah altıya yirmi altı var",
+    keywords: ["twenty-six minutes to six a.m.", "sabah altıya yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:34.",
+      "🇹🇷 Saat 05:34."
+    ],
+    examples: [],
+    related_word_ids: [2334]
+  },
+  {
+    id: "vocab-saat-2335",
+    category: "vocabulary",
+    title: "twenty-five to six a.m. — sabah altıya yirmi beş var",
+    keywords: ["twenty-five to six a.m.", "sabah altıya yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:35.",
+      "🇹🇷 Saat 05:35."
+    ],
+    examples: [],
+    related_word_ids: [2335]
+  },
+  {
+    id: "vocab-saat-2336",
+    category: "vocabulary",
+    title: "twenty-four minutes to six a.m. — sabah altıya yirmi dört var",
+    keywords: ["twenty-four minutes to six a.m.", "sabah altıya yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:36.",
+      "🇹🇷 Saat 05:36."
+    ],
+    examples: [],
+    related_word_ids: [2336]
+  },
+  {
+    id: "vocab-saat-2337",
+    category: "vocabulary",
+    title: "twenty-three minutes to six a.m. — sabah altıya yirmi üç var",
+    keywords: ["twenty-three minutes to six a.m.", "sabah altıya yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:37.",
+      "🇹🇷 Saat 05:37."
+    ],
+    examples: [],
+    related_word_ids: [2337]
+  },
+  {
+    id: "vocab-saat-2338",
+    category: "vocabulary",
+    title: "twenty-two minutes to six a.m. — sabah altıya yirmi iki var",
+    keywords: ["twenty-two minutes to six a.m.", "sabah altıya yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:38.",
+      "🇹🇷 Saat 05:38."
+    ],
+    examples: [],
+    related_word_ids: [2338]
+  },
+  {
+    id: "vocab-saat-2339",
+    category: "vocabulary",
+    title: "twenty-one minutes to six a.m. — sabah altıya yirmi bir var",
+    keywords: ["twenty-one minutes to six a.m.", "sabah altıya yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:39.",
+      "🇹🇷 Saat 05:39."
+    ],
+    examples: [],
+    related_word_ids: [2339]
+  },
+  {
+    id: "vocab-saat-2340",
+    category: "vocabulary",
+    title: "twenty to six a.m. — sabah altıya yirmi var",
+    keywords: ["twenty to six a.m.", "sabah altıya yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:40.",
+      "🇹🇷 Saat 05:40."
+    ],
+    examples: [],
+    related_word_ids: [2340]
+  },
+  {
+    id: "vocab-saat-2341",
+    category: "vocabulary",
+    title: "nineteen minutes to six a.m. — sabah altıya on dokuz var",
+    keywords: ["nineteen minutes to six a.m.", "sabah altıya on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:41.",
+      "🇹🇷 Saat 05:41."
+    ],
+    examples: [],
+    related_word_ids: [2341]
+  },
+  {
+    id: "vocab-saat-2342",
+    category: "vocabulary",
+    title: "eighteen minutes to six a.m. — sabah altıya on sekiz var",
+    keywords: ["eighteen minutes to six a.m.", "sabah altıya on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:42.",
+      "🇹🇷 Saat 05:42."
+    ],
+    examples: [],
+    related_word_ids: [2342]
+  },
+  {
+    id: "vocab-saat-2343",
+    category: "vocabulary",
+    title: "seventeen minutes to six a.m. — sabah altıya on yedi var",
+    keywords: ["seventeen minutes to six a.m.", "sabah altıya on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:43.",
+      "🇹🇷 Saat 05:43."
+    ],
+    examples: [],
+    related_word_ids: [2343]
+  },
+  {
+    id: "vocab-saat-2344",
+    category: "vocabulary",
+    title: "sixteen minutes to six a.m. — sabah altıya on altı var",
+    keywords: ["sixteen minutes to six a.m.", "sabah altıya on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:44.",
+      "🇹🇷 Saat 05:44."
+    ],
+    examples: [],
+    related_word_ids: [2344]
+  },
+  {
+    id: "vocab-saat-2345",
+    category: "vocabulary",
+    title: "a quarter to six a.m. — sabah altıya çeyrek var",
+    keywords: ["a quarter to six a.m.", "sabah altıya çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:45.",
+      "🇹🇷 Saat 05:45."
+    ],
+    examples: [],
+    related_word_ids: [2345]
+  },
+  {
+    id: "vocab-saat-2346",
+    category: "vocabulary",
+    title: "fourteen minutes to six a.m. — sabah altıya on dört var",
+    keywords: ["fourteen minutes to six a.m.", "sabah altıya on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:46.",
+      "🇹🇷 Saat 05:46."
+    ],
+    examples: [],
+    related_word_ids: [2346]
+  },
+  {
+    id: "vocab-saat-2347",
+    category: "vocabulary",
+    title: "thirteen minutes to six a.m. — sabah altıya on üç var",
+    keywords: ["thirteen minutes to six a.m.", "sabah altıya on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:47.",
+      "🇹🇷 Saat 05:47."
+    ],
+    examples: [],
+    related_word_ids: [2347]
+  },
+  {
+    id: "vocab-saat-2348",
+    category: "vocabulary",
+    title: "twelve minutes to six a.m. — sabah altıya on iki var",
+    keywords: ["twelve minutes to six a.m.", "sabah altıya on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:48.",
+      "🇹🇷 Saat 05:48."
+    ],
+    examples: [],
+    related_word_ids: [2348]
+  },
+  {
+    id: "vocab-saat-2349",
+    category: "vocabulary",
+    title: "eleven minutes to six a.m. — sabah altıya on bir var",
+    keywords: ["eleven minutes to six a.m.", "sabah altıya on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:49.",
+      "🇹🇷 Saat 05:49."
+    ],
+    examples: [],
+    related_word_ids: [2349]
+  },
+  {
+    id: "vocab-saat-2350",
+    category: "vocabulary",
+    title: "ten to six a.m. — sabah altıya on var",
+    keywords: ["ten to six a.m.", "sabah altıya on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:50.",
+      "🇹🇷 Saat 05:50."
+    ],
+    examples: [],
+    related_word_ids: [2350]
+  },
+  {
+    id: "vocab-saat-2351",
+    category: "vocabulary",
+    title: "nine minutes to six a.m. — sabah altıya dokuz var",
+    keywords: ["nine minutes to six a.m.", "sabah altıya dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:51.",
+      "🇹🇷 Saat 05:51."
+    ],
+    examples: [],
+    related_word_ids: [2351]
+  },
+  {
+    id: "vocab-saat-2352",
+    category: "vocabulary",
+    title: "eight minutes to six a.m. — sabah altıya sekiz var",
+    keywords: ["eight minutes to six a.m.", "sabah altıya sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:52.",
+      "🇹🇷 Saat 05:52."
+    ],
+    examples: [],
+    related_word_ids: [2352]
+  },
+  {
+    id: "vocab-saat-2353",
+    category: "vocabulary",
+    title: "seven minutes to six a.m. — sabah altıya yedi var",
+    keywords: ["seven minutes to six a.m.", "sabah altıya yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:53.",
+      "🇹🇷 Saat 05:53."
+    ],
+    examples: [],
+    related_word_ids: [2353]
+  },
+  {
+    id: "vocab-saat-2354",
+    category: "vocabulary",
+    title: "six minutes to six a.m. — sabah altıya altı var",
+    keywords: ["six minutes to six a.m.", "sabah altıya altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:54.",
+      "🇹🇷 Saat 05:54."
+    ],
+    examples: [],
+    related_word_ids: [2354]
+  },
+  {
+    id: "vocab-saat-2355",
+    category: "vocabulary",
+    title: "five to six a.m. — sabah altıya beş var",
+    keywords: ["five to six a.m.", "sabah altıya beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:55.",
+      "🇹🇷 Saat 05:55."
+    ],
+    examples: [],
+    related_word_ids: [2355]
+  },
+  {
+    id: "vocab-saat-2356",
+    category: "vocabulary",
+    title: "four minutes to six a.m. — sabah altıya dört var",
+    keywords: ["four minutes to six a.m.", "sabah altıya dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:56.",
+      "🇹🇷 Saat 05:56."
+    ],
+    examples: [],
+    related_word_ids: [2356]
+  },
+  {
+    id: "vocab-saat-2357",
+    category: "vocabulary",
+    title: "three minutes to six a.m. — sabah altıya üç var",
+    keywords: ["three minutes to six a.m.", "sabah altıya üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:57.",
+      "🇹🇷 Saat 05:57."
+    ],
+    examples: [],
+    related_word_ids: [2357]
+  },
+  {
+    id: "vocab-saat-2358",
+    category: "vocabulary",
+    title: "two minutes to six a.m. — sabah altıya iki var",
+    keywords: ["two minutes to six a.m.", "sabah altıya iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:58.",
+      "🇹🇷 Saat 05:58."
+    ],
+    examples: [],
+    related_word_ids: [2358]
+  },
+  {
+    id: "vocab-saat-2359",
+    category: "vocabulary",
+    title: "one minute to six a.m. — sabah altıya bir var",
+    keywords: ["one minute to six a.m.", "sabah altıya bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 05:59.",
+      "🇹🇷 Saat 05:59."
+    ],
+    examples: [],
+    related_word_ids: [2359]
+  },
+  {
+    id: "vocab-saat-2360",
+    category: "vocabulary",
+    title: "six o'clock a.m. — sabah altı",
+    keywords: ["six o'clock a.m.", "sabah altı", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:00.",
+      "🇹🇷 Saat 06:00."
+    ],
+    examples: [],
+    related_word_ids: [2360]
+  },
+  {
+    id: "vocab-saat-2361",
+    category: "vocabulary",
+    title: "one minute past six a.m. — sabah altıyı bir geçiyor",
+    keywords: ["one minute past six a.m.", "sabah altıyı bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:01.",
+      "🇹🇷 Saat 06:01."
+    ],
+    examples: [],
+    related_word_ids: [2361]
+  },
+  {
+    id: "vocab-saat-2362",
+    category: "vocabulary",
+    title: "two minutes past six a.m. — sabah altıyı iki geçiyor",
+    keywords: ["two minutes past six a.m.", "sabah altıyı iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:02.",
+      "🇹🇷 Saat 06:02."
+    ],
+    examples: [],
+    related_word_ids: [2362]
+  },
+  {
+    id: "vocab-saat-2363",
+    category: "vocabulary",
+    title: "three minutes past six a.m. — sabah altıyı üç geçiyor",
+    keywords: ["three minutes past six a.m.", "sabah altıyı üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:03.",
+      "🇹🇷 Saat 06:03."
+    ],
+    examples: [],
+    related_word_ids: [2363]
+  },
+  {
+    id: "vocab-saat-2364",
+    category: "vocabulary",
+    title: "four minutes past six a.m. — sabah altıyı dört geçiyor",
+    keywords: ["four minutes past six a.m.", "sabah altıyı dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:04.",
+      "🇹🇷 Saat 06:04."
+    ],
+    examples: [],
+    related_word_ids: [2364]
+  },
+  {
+    id: "vocab-saat-2365",
+    category: "vocabulary",
+    title: "five past six a.m. — sabah altıyı beş geçiyor",
+    keywords: ["five past six a.m.", "sabah altıyı beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:05.",
+      "🇹🇷 Saat 06:05."
+    ],
+    examples: [],
+    related_word_ids: [2365]
+  },
+  {
+    id: "vocab-saat-2366",
+    category: "vocabulary",
+    title: "six minutes past six a.m. — sabah altıyı altı geçiyor",
+    keywords: ["six minutes past six a.m.", "sabah altıyı altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:06.",
+      "🇹🇷 Saat 06:06."
+    ],
+    examples: [],
+    related_word_ids: [2366]
+  },
+  {
+    id: "vocab-saat-2367",
+    category: "vocabulary",
+    title: "seven minutes past six a.m. — sabah altıyı yedi geçiyor",
+    keywords: ["seven minutes past six a.m.", "sabah altıyı yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:07.",
+      "🇹🇷 Saat 06:07."
+    ],
+    examples: [],
+    related_word_ids: [2367]
+  },
+  {
+    id: "vocab-saat-2368",
+    category: "vocabulary",
+    title: "eight minutes past six a.m. — sabah altıyı sekiz geçiyor",
+    keywords: ["eight minutes past six a.m.", "sabah altıyı sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:08.",
+      "🇹🇷 Saat 06:08."
+    ],
+    examples: [],
+    related_word_ids: [2368]
+  },
+  {
+    id: "vocab-saat-2369",
+    category: "vocabulary",
+    title: "nine minutes past six a.m. — sabah altıyı dokuz geçiyor",
+    keywords: ["nine minutes past six a.m.", "sabah altıyı dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:09.",
+      "🇹🇷 Saat 06:09."
+    ],
+    examples: [],
+    related_word_ids: [2369]
+  },
+  {
+    id: "vocab-saat-2370",
+    category: "vocabulary",
+    title: "ten past six a.m. — sabah altıyı on geçiyor",
+    keywords: ["ten past six a.m.", "sabah altıyı on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:10.",
+      "🇹🇷 Saat 06:10."
+    ],
+    examples: [],
+    related_word_ids: [2370]
+  },
+  {
+    id: "vocab-saat-2371",
+    category: "vocabulary",
+    title: "eleven minutes past six a.m. — sabah altıyı on bir geçiyor",
+    keywords: ["eleven minutes past six a.m.", "sabah altıyı on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:11.",
+      "🇹🇷 Saat 06:11."
+    ],
+    examples: [],
+    related_word_ids: [2371]
+  },
+  {
+    id: "vocab-saat-2372",
+    category: "vocabulary",
+    title: "twelve minutes past six a.m. — sabah altıyı on iki geçiyor",
+    keywords: ["twelve minutes past six a.m.", "sabah altıyı on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:12.",
+      "🇹🇷 Saat 06:12."
+    ],
+    examples: [],
+    related_word_ids: [2372]
+  },
+  {
+    id: "vocab-saat-2373",
+    category: "vocabulary",
+    title: "thirteen minutes past six a.m. — sabah altıyı on üç geçiyor",
+    keywords: ["thirteen minutes past six a.m.", "sabah altıyı on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:13.",
+      "🇹🇷 Saat 06:13."
+    ],
+    examples: [],
+    related_word_ids: [2373]
+  },
+  {
+    id: "vocab-saat-2374",
+    category: "vocabulary",
+    title: "fourteen minutes past six a.m. — sabah altıyı on dört geçiyor",
+    keywords: ["fourteen minutes past six a.m.", "sabah altıyı on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:14.",
+      "🇹🇷 Saat 06:14."
+    ],
+    examples: [],
+    related_word_ids: [2374]
+  },
+  {
+    id: "vocab-saat-2375",
+    category: "vocabulary",
+    title: "a quarter past six a.m. — sabah altıyı çeyrek geçiyor",
+    keywords: ["a quarter past six a.m.", "sabah altıyı çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:15.",
+      "🇹🇷 Saat 06:15."
+    ],
+    examples: [],
+    related_word_ids: [2375]
+  },
+  {
+    id: "vocab-saat-2376",
+    category: "vocabulary",
+    title: "sixteen minutes past six a.m. — sabah altıyı on altı geçiyor",
+    keywords: ["sixteen minutes past six a.m.", "sabah altıyı on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:16.",
+      "🇹🇷 Saat 06:16."
+    ],
+    examples: [],
+    related_word_ids: [2376]
+  },
+  {
+    id: "vocab-saat-2377",
+    category: "vocabulary",
+    title: "seventeen minutes past six a.m. — sabah altıyı on yedi geçiyor",
+    keywords: ["seventeen minutes past six a.m.", "sabah altıyı on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:17.",
+      "🇹🇷 Saat 06:17."
+    ],
+    examples: [],
+    related_word_ids: [2377]
+  },
+  {
+    id: "vocab-saat-2378",
+    category: "vocabulary",
+    title: "eighteen minutes past six a.m. — sabah altıyı on sekiz geçiyor",
+    keywords: ["eighteen minutes past six a.m.", "sabah altıyı on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:18.",
+      "🇹🇷 Saat 06:18."
+    ],
+    examples: [],
+    related_word_ids: [2378]
+  },
+  {
+    id: "vocab-saat-2379",
+    category: "vocabulary",
+    title: "nineteen minutes past six a.m. — sabah altıyı on dokuz geçiyor",
+    keywords: ["nineteen minutes past six a.m.", "sabah altıyı on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:19.",
+      "🇹🇷 Saat 06:19."
+    ],
+    examples: [],
+    related_word_ids: [2379]
+  },
+  {
+    id: "vocab-saat-2380",
+    category: "vocabulary",
+    title: "twenty past six a.m. — sabah altıyı yirmi geçiyor",
+    keywords: ["twenty past six a.m.", "sabah altıyı yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:20.",
+      "🇹🇷 Saat 06:20."
+    ],
+    examples: [],
+    related_word_ids: [2380]
+  },
+  {
+    id: "vocab-saat-2381",
+    category: "vocabulary",
+    title: "twenty-one minutes past six a.m. — sabah altıyı yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past six a.m.", "sabah altıyı yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:21.",
+      "🇹🇷 Saat 06:21."
+    ],
+    examples: [],
+    related_word_ids: [2381]
+  },
+  {
+    id: "vocab-saat-2382",
+    category: "vocabulary",
+    title: "twenty-two minutes past six a.m. — sabah altıyı yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past six a.m.", "sabah altıyı yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:22.",
+      "🇹🇷 Saat 06:22."
+    ],
+    examples: [],
+    related_word_ids: [2382]
+  },
+  {
+    id: "vocab-saat-2383",
+    category: "vocabulary",
+    title: "twenty-three minutes past six a.m. — sabah altıyı yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past six a.m.", "sabah altıyı yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:23.",
+      "🇹🇷 Saat 06:23."
+    ],
+    examples: [],
+    related_word_ids: [2383]
+  },
+  {
+    id: "vocab-saat-2384",
+    category: "vocabulary",
+    title: "twenty-four minutes past six a.m. — sabah altıyı yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past six a.m.", "sabah altıyı yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:24.",
+      "🇹🇷 Saat 06:24."
+    ],
+    examples: [],
+    related_word_ids: [2384]
+  },
+  {
+    id: "vocab-saat-2385",
+    category: "vocabulary",
+    title: "twenty-five past six a.m. — sabah altıyı yirmi beş geçiyor",
+    keywords: ["twenty-five past six a.m.", "sabah altıyı yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:25.",
+      "🇹🇷 Saat 06:25."
+    ],
+    examples: [],
+    related_word_ids: [2385]
+  },
+  {
+    id: "vocab-saat-2386",
+    category: "vocabulary",
+    title: "twenty-six minutes past six a.m. — sabah altıyı yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past six a.m.", "sabah altıyı yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:26.",
+      "🇹🇷 Saat 06:26."
+    ],
+    examples: [],
+    related_word_ids: [2386]
+  },
+  {
+    id: "vocab-saat-2387",
+    category: "vocabulary",
+    title: "twenty-seven minutes past six a.m. — sabah altıyı yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past six a.m.", "sabah altıyı yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:27.",
+      "🇹🇷 Saat 06:27."
+    ],
+    examples: [],
+    related_word_ids: [2387]
+  },
+  {
+    id: "vocab-saat-2388",
+    category: "vocabulary",
+    title: "twenty-eight minutes past six a.m. — sabah altıyı yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past six a.m.", "sabah altıyı yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:28.",
+      "🇹🇷 Saat 06:28."
+    ],
+    examples: [],
+    related_word_ids: [2388]
+  },
+  {
+    id: "vocab-saat-2389",
+    category: "vocabulary",
+    title: "twenty-nine minutes past six a.m. — sabah altıyı yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past six a.m.", "sabah altıyı yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:29.",
+      "🇹🇷 Saat 06:29."
+    ],
+    examples: [],
+    related_word_ids: [2389]
+  },
+  {
+    id: "vocab-saat-2390",
+    category: "vocabulary",
+    title: "half past six a.m. — sabah altı buçuk",
+    keywords: ["half past six a.m.", "sabah altı buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:30.",
+      "🇹🇷 Saat 06:30."
+    ],
+    examples: [],
+    related_word_ids: [2390]
+  },
+  {
+    id: "vocab-saat-2391",
+    category: "vocabulary",
+    title: "twenty-nine minutes to seven a.m. — sabah yediye yirmi dokuz var",
+    keywords: ["twenty-nine minutes to seven a.m.", "sabah yediye yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:31.",
+      "🇹🇷 Saat 06:31."
+    ],
+    examples: [],
+    related_word_ids: [2391]
+  },
+  {
+    id: "vocab-saat-2392",
+    category: "vocabulary",
+    title: "twenty-eight minutes to seven a.m. — sabah yediye yirmi sekiz var",
+    keywords: ["twenty-eight minutes to seven a.m.", "sabah yediye yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:32.",
+      "🇹🇷 Saat 06:32."
+    ],
+    examples: [],
+    related_word_ids: [2392]
+  },
+  {
+    id: "vocab-saat-2393",
+    category: "vocabulary",
+    title: "twenty-seven minutes to seven a.m. — sabah yediye yirmi yedi var",
+    keywords: ["twenty-seven minutes to seven a.m.", "sabah yediye yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:33.",
+      "🇹🇷 Saat 06:33."
+    ],
+    examples: [],
+    related_word_ids: [2393]
+  },
+  {
+    id: "vocab-saat-2394",
+    category: "vocabulary",
+    title: "twenty-six minutes to seven a.m. — sabah yediye yirmi altı var",
+    keywords: ["twenty-six minutes to seven a.m.", "sabah yediye yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:34.",
+      "🇹🇷 Saat 06:34."
+    ],
+    examples: [],
+    related_word_ids: [2394]
+  },
+  {
+    id: "vocab-saat-2395",
+    category: "vocabulary",
+    title: "twenty-five to seven a.m. — sabah yediye yirmi beş var",
+    keywords: ["twenty-five to seven a.m.", "sabah yediye yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:35.",
+      "🇹🇷 Saat 06:35."
+    ],
+    examples: [],
+    related_word_ids: [2395]
+  },
+  {
+    id: "vocab-saat-2396",
+    category: "vocabulary",
+    title: "twenty-four minutes to seven a.m. — sabah yediye yirmi dört var",
+    keywords: ["twenty-four minutes to seven a.m.", "sabah yediye yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:36.",
+      "🇹🇷 Saat 06:36."
+    ],
+    examples: [],
+    related_word_ids: [2396]
+  },
+  {
+    id: "vocab-saat-2397",
+    category: "vocabulary",
+    title: "twenty-three minutes to seven a.m. — sabah yediye yirmi üç var",
+    keywords: ["twenty-three minutes to seven a.m.", "sabah yediye yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:37.",
+      "🇹🇷 Saat 06:37."
+    ],
+    examples: [],
+    related_word_ids: [2397]
+  },
+  {
+    id: "vocab-saat-2398",
+    category: "vocabulary",
+    title: "twenty-two minutes to seven a.m. — sabah yediye yirmi iki var",
+    keywords: ["twenty-two minutes to seven a.m.", "sabah yediye yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:38.",
+      "🇹🇷 Saat 06:38."
+    ],
+    examples: [],
+    related_word_ids: [2398]
+  },
+  {
+    id: "vocab-saat-2399",
+    category: "vocabulary",
+    title: "twenty-one minutes to seven a.m. — sabah yediye yirmi bir var",
+    keywords: ["twenty-one minutes to seven a.m.", "sabah yediye yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:39.",
+      "🇹🇷 Saat 06:39."
+    ],
+    examples: [],
+    related_word_ids: [2399]
+  },
+  {
+    id: "vocab-saat-2400",
+    category: "vocabulary",
+    title: "twenty to seven a.m. — sabah yediye yirmi var",
+    keywords: ["twenty to seven a.m.", "sabah yediye yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:40.",
+      "🇹🇷 Saat 06:40."
+    ],
+    examples: [],
+    related_word_ids: [2400]
+  },
+  {
+    id: "vocab-saat-2401",
+    category: "vocabulary",
+    title: "nineteen minutes to seven a.m. — sabah yediye on dokuz var",
+    keywords: ["nineteen minutes to seven a.m.", "sabah yediye on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:41.",
+      "🇹🇷 Saat 06:41."
+    ],
+    examples: [],
+    related_word_ids: [2401]
+  },
+  {
+    id: "vocab-saat-2402",
+    category: "vocabulary",
+    title: "eighteen minutes to seven a.m. — sabah yediye on sekiz var",
+    keywords: ["eighteen minutes to seven a.m.", "sabah yediye on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:42.",
+      "🇹🇷 Saat 06:42."
+    ],
+    examples: [],
+    related_word_ids: [2402]
+  },
+  {
+    id: "vocab-saat-2403",
+    category: "vocabulary",
+    title: "seventeen minutes to seven a.m. — sabah yediye on yedi var",
+    keywords: ["seventeen minutes to seven a.m.", "sabah yediye on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:43.",
+      "🇹🇷 Saat 06:43."
+    ],
+    examples: [],
+    related_word_ids: [2403]
+  },
+  {
+    id: "vocab-saat-2404",
+    category: "vocabulary",
+    title: "sixteen minutes to seven a.m. — sabah yediye on altı var",
+    keywords: ["sixteen minutes to seven a.m.", "sabah yediye on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:44.",
+      "🇹🇷 Saat 06:44."
+    ],
+    examples: [],
+    related_word_ids: [2404]
+  },
+  {
+    id: "vocab-saat-2405",
+    category: "vocabulary",
+    title: "a quarter to seven a.m. — sabah yediye çeyrek var",
+    keywords: ["a quarter to seven a.m.", "sabah yediye çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:45.",
+      "🇹🇷 Saat 06:45."
+    ],
+    examples: [],
+    related_word_ids: [2405]
+  },
+  {
+    id: "vocab-saat-2406",
+    category: "vocabulary",
+    title: "fourteen minutes to seven a.m. — sabah yediye on dört var",
+    keywords: ["fourteen minutes to seven a.m.", "sabah yediye on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:46.",
+      "🇹🇷 Saat 06:46."
+    ],
+    examples: [],
+    related_word_ids: [2406]
+  },
+  {
+    id: "vocab-saat-2407",
+    category: "vocabulary",
+    title: "thirteen minutes to seven a.m. — sabah yediye on üç var",
+    keywords: ["thirteen minutes to seven a.m.", "sabah yediye on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:47.",
+      "🇹🇷 Saat 06:47."
+    ],
+    examples: [],
+    related_word_ids: [2407]
+  },
+  {
+    id: "vocab-saat-2408",
+    category: "vocabulary",
+    title: "twelve minutes to seven a.m. — sabah yediye on iki var",
+    keywords: ["twelve minutes to seven a.m.", "sabah yediye on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:48.",
+      "🇹🇷 Saat 06:48."
+    ],
+    examples: [],
+    related_word_ids: [2408]
+  },
+  {
+    id: "vocab-saat-2409",
+    category: "vocabulary",
+    title: "eleven minutes to seven a.m. — sabah yediye on bir var",
+    keywords: ["eleven minutes to seven a.m.", "sabah yediye on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:49.",
+      "🇹🇷 Saat 06:49."
+    ],
+    examples: [],
+    related_word_ids: [2409]
+  },
+  {
+    id: "vocab-saat-2410",
+    category: "vocabulary",
+    title: "ten to seven a.m. — sabah yediye on var",
+    keywords: ["ten to seven a.m.", "sabah yediye on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:50.",
+      "🇹🇷 Saat 06:50."
+    ],
+    examples: [],
+    related_word_ids: [2410]
+  },
+  {
+    id: "vocab-saat-2411",
+    category: "vocabulary",
+    title: "nine minutes to seven a.m. — sabah yediye dokuz var",
+    keywords: ["nine minutes to seven a.m.", "sabah yediye dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:51.",
+      "🇹🇷 Saat 06:51."
+    ],
+    examples: [],
+    related_word_ids: [2411]
+  },
+  {
+    id: "vocab-saat-2412",
+    category: "vocabulary",
+    title: "eight minutes to seven a.m. — sabah yediye sekiz var",
+    keywords: ["eight minutes to seven a.m.", "sabah yediye sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:52.",
+      "🇹🇷 Saat 06:52."
+    ],
+    examples: [],
+    related_word_ids: [2412]
+  },
+  {
+    id: "vocab-saat-2413",
+    category: "vocabulary",
+    title: "seven minutes to seven a.m. — sabah yediye yedi var",
+    keywords: ["seven minutes to seven a.m.", "sabah yediye yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:53.",
+      "🇹🇷 Saat 06:53."
+    ],
+    examples: [],
+    related_word_ids: [2413]
+  },
+  {
+    id: "vocab-saat-2414",
+    category: "vocabulary",
+    title: "six minutes to seven a.m. — sabah yediye altı var",
+    keywords: ["six minutes to seven a.m.", "sabah yediye altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:54.",
+      "🇹🇷 Saat 06:54."
+    ],
+    examples: [],
+    related_word_ids: [2414]
+  },
+  {
+    id: "vocab-saat-2415",
+    category: "vocabulary",
+    title: "five to seven a.m. — sabah yediye beş var",
+    keywords: ["five to seven a.m.", "sabah yediye beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:55.",
+      "🇹🇷 Saat 06:55."
+    ],
+    examples: [],
+    related_word_ids: [2415]
+  },
+  {
+    id: "vocab-saat-2416",
+    category: "vocabulary",
+    title: "four minutes to seven a.m. — sabah yediye dört var",
+    keywords: ["four minutes to seven a.m.", "sabah yediye dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:56.",
+      "🇹🇷 Saat 06:56."
+    ],
+    examples: [],
+    related_word_ids: [2416]
+  },
+  {
+    id: "vocab-saat-2417",
+    category: "vocabulary",
+    title: "three minutes to seven a.m. — sabah yediye üç var",
+    keywords: ["three minutes to seven a.m.", "sabah yediye üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:57.",
+      "🇹🇷 Saat 06:57."
+    ],
+    examples: [],
+    related_word_ids: [2417]
+  },
+  {
+    id: "vocab-saat-2418",
+    category: "vocabulary",
+    title: "two minutes to seven a.m. — sabah yediye iki var",
+    keywords: ["two minutes to seven a.m.", "sabah yediye iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:58.",
+      "🇹🇷 Saat 06:58."
+    ],
+    examples: [],
+    related_word_ids: [2418]
+  },
+  {
+    id: "vocab-saat-2419",
+    category: "vocabulary",
+    title: "one minute to seven a.m. — sabah yediye bir var",
+    keywords: ["one minute to seven a.m.", "sabah yediye bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 06:59.",
+      "🇹🇷 Saat 06:59."
+    ],
+    examples: [],
+    related_word_ids: [2419]
+  },
+  {
+    id: "vocab-saat-2420",
+    category: "vocabulary",
+    title: "seven o'clock a.m. — sabah yedi",
+    keywords: ["seven o'clock a.m.", "sabah yedi", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:00.",
+      "🇹🇷 Saat 07:00."
+    ],
+    examples: [],
+    related_word_ids: [2420]
+  },
+  {
+    id: "vocab-saat-2421",
+    category: "vocabulary",
+    title: "one minute past seven a.m. — sabah yediyi bir geçiyor",
+    keywords: ["one minute past seven a.m.", "sabah yediyi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:01.",
+      "🇹🇷 Saat 07:01."
+    ],
+    examples: [],
+    related_word_ids: [2421]
+  },
+  {
+    id: "vocab-saat-2422",
+    category: "vocabulary",
+    title: "two minutes past seven a.m. — sabah yediyi iki geçiyor",
+    keywords: ["two minutes past seven a.m.", "sabah yediyi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:02.",
+      "🇹🇷 Saat 07:02."
+    ],
+    examples: [],
+    related_word_ids: [2422]
+  },
+  {
+    id: "vocab-saat-2423",
+    category: "vocabulary",
+    title: "three minutes past seven a.m. — sabah yediyi üç geçiyor",
+    keywords: ["three minutes past seven a.m.", "sabah yediyi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:03.",
+      "🇹🇷 Saat 07:03."
+    ],
+    examples: [],
+    related_word_ids: [2423]
+  },
+  {
+    id: "vocab-saat-2424",
+    category: "vocabulary",
+    title: "four minutes past seven a.m. — sabah yediyi dört geçiyor",
+    keywords: ["four minutes past seven a.m.", "sabah yediyi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:04.",
+      "🇹🇷 Saat 07:04."
+    ],
+    examples: [],
+    related_word_ids: [2424]
+  },
+  {
+    id: "vocab-saat-2425",
+    category: "vocabulary",
+    title: "five past seven a.m. — sabah yediyi beş geçiyor",
+    keywords: ["five past seven a.m.", "sabah yediyi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:05.",
+      "🇹🇷 Saat 07:05."
+    ],
+    examples: [],
+    related_word_ids: [2425]
+  },
+  {
+    id: "vocab-saat-2426",
+    category: "vocabulary",
+    title: "six minutes past seven a.m. — sabah yediyi altı geçiyor",
+    keywords: ["six minutes past seven a.m.", "sabah yediyi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:06.",
+      "🇹🇷 Saat 07:06."
+    ],
+    examples: [],
+    related_word_ids: [2426]
+  },
+  {
+    id: "vocab-saat-2427",
+    category: "vocabulary",
+    title: "seven minutes past seven a.m. — sabah yediyi yedi geçiyor",
+    keywords: ["seven minutes past seven a.m.", "sabah yediyi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:07.",
+      "🇹🇷 Saat 07:07."
+    ],
+    examples: [],
+    related_word_ids: [2427]
+  },
+  {
+    id: "vocab-saat-2428",
+    category: "vocabulary",
+    title: "eight minutes past seven a.m. — sabah yediyi sekiz geçiyor",
+    keywords: ["eight minutes past seven a.m.", "sabah yediyi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:08.",
+      "🇹🇷 Saat 07:08."
+    ],
+    examples: [],
+    related_word_ids: [2428]
+  },
+  {
+    id: "vocab-saat-2429",
+    category: "vocabulary",
+    title: "nine minutes past seven a.m. — sabah yediyi dokuz geçiyor",
+    keywords: ["nine minutes past seven a.m.", "sabah yediyi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:09.",
+      "🇹🇷 Saat 07:09."
+    ],
+    examples: [],
+    related_word_ids: [2429]
+  },
+  {
+    id: "vocab-saat-2430",
+    category: "vocabulary",
+    title: "ten past seven a.m. — sabah yediyi on geçiyor",
+    keywords: ["ten past seven a.m.", "sabah yediyi on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:10.",
+      "🇹🇷 Saat 07:10."
+    ],
+    examples: [],
+    related_word_ids: [2430]
+  },
+  {
+    id: "vocab-saat-2431",
+    category: "vocabulary",
+    title: "eleven minutes past seven a.m. — sabah yediyi on bir geçiyor",
+    keywords: ["eleven minutes past seven a.m.", "sabah yediyi on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:11.",
+      "🇹🇷 Saat 07:11."
+    ],
+    examples: [],
+    related_word_ids: [2431]
+  },
+  {
+    id: "vocab-saat-2432",
+    category: "vocabulary",
+    title: "twelve minutes past seven a.m. — sabah yediyi on iki geçiyor",
+    keywords: ["twelve minutes past seven a.m.", "sabah yediyi on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:12.",
+      "🇹🇷 Saat 07:12."
+    ],
+    examples: [],
+    related_word_ids: [2432]
+  },
+  {
+    id: "vocab-saat-2433",
+    category: "vocabulary",
+    title: "thirteen minutes past seven a.m. — sabah yediyi on üç geçiyor",
+    keywords: ["thirteen minutes past seven a.m.", "sabah yediyi on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:13.",
+      "🇹🇷 Saat 07:13."
+    ],
+    examples: [],
+    related_word_ids: [2433]
+  },
+  {
+    id: "vocab-saat-2434",
+    category: "vocabulary",
+    title: "fourteen minutes past seven a.m. — sabah yediyi on dört geçiyor",
+    keywords: ["fourteen minutes past seven a.m.", "sabah yediyi on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:14.",
+      "🇹🇷 Saat 07:14."
+    ],
+    examples: [],
+    related_word_ids: [2434]
+  },
+  {
+    id: "vocab-saat-2435",
+    category: "vocabulary",
+    title: "a quarter past seven a.m. — sabah yediyi çeyrek geçiyor",
+    keywords: ["a quarter past seven a.m.", "sabah yediyi çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:15.",
+      "🇹🇷 Saat 07:15."
+    ],
+    examples: [],
+    related_word_ids: [2435]
+  },
+  {
+    id: "vocab-saat-2436",
+    category: "vocabulary",
+    title: "sixteen minutes past seven a.m. — sabah yediyi on altı geçiyor",
+    keywords: ["sixteen minutes past seven a.m.", "sabah yediyi on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:16.",
+      "🇹🇷 Saat 07:16."
+    ],
+    examples: [],
+    related_word_ids: [2436]
+  },
+  {
+    id: "vocab-saat-2437",
+    category: "vocabulary",
+    title: "seventeen minutes past seven a.m. — sabah yediyi on yedi geçiyor",
+    keywords: ["seventeen minutes past seven a.m.", "sabah yediyi on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:17.",
+      "🇹🇷 Saat 07:17."
+    ],
+    examples: [],
+    related_word_ids: [2437]
+  },
+  {
+    id: "vocab-saat-2438",
+    category: "vocabulary",
+    title: "eighteen minutes past seven a.m. — sabah yediyi on sekiz geçiyor",
+    keywords: ["eighteen minutes past seven a.m.", "sabah yediyi on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:18.",
+      "🇹🇷 Saat 07:18."
+    ],
+    examples: [],
+    related_word_ids: [2438]
+  },
+  {
+    id: "vocab-saat-2439",
+    category: "vocabulary",
+    title: "nineteen minutes past seven a.m. — sabah yediyi on dokuz geçiyor",
+    keywords: ["nineteen minutes past seven a.m.", "sabah yediyi on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:19.",
+      "🇹🇷 Saat 07:19."
+    ],
+    examples: [],
+    related_word_ids: [2439]
+  },
+  {
+    id: "vocab-saat-2440",
+    category: "vocabulary",
+    title: "twenty past seven a.m. — sabah yediyi yirmi geçiyor",
+    keywords: ["twenty past seven a.m.", "sabah yediyi yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:20.",
+      "🇹🇷 Saat 07:20."
+    ],
+    examples: [],
+    related_word_ids: [2440]
+  },
+  {
+    id: "vocab-saat-2441",
+    category: "vocabulary",
+    title: "twenty-one minutes past seven a.m. — sabah yediyi yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past seven a.m.", "sabah yediyi yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:21.",
+      "🇹🇷 Saat 07:21."
+    ],
+    examples: [],
+    related_word_ids: [2441]
+  },
+  {
+    id: "vocab-saat-2442",
+    category: "vocabulary",
+    title: "twenty-two minutes past seven a.m. — sabah yediyi yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past seven a.m.", "sabah yediyi yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:22.",
+      "🇹🇷 Saat 07:22."
+    ],
+    examples: [],
+    related_word_ids: [2442]
+  },
+  {
+    id: "vocab-saat-2443",
+    category: "vocabulary",
+    title: "twenty-three minutes past seven a.m. — sabah yediyi yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past seven a.m.", "sabah yediyi yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:23.",
+      "🇹🇷 Saat 07:23."
+    ],
+    examples: [],
+    related_word_ids: [2443]
+  },
+  {
+    id: "vocab-saat-2444",
+    category: "vocabulary",
+    title: "twenty-four minutes past seven a.m. — sabah yediyi yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past seven a.m.", "sabah yediyi yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:24.",
+      "🇹🇷 Saat 07:24."
+    ],
+    examples: [],
+    related_word_ids: [2444]
+  },
+  {
+    id: "vocab-saat-2445",
+    category: "vocabulary",
+    title: "twenty-five past seven a.m. — sabah yediyi yirmi beş geçiyor",
+    keywords: ["twenty-five past seven a.m.", "sabah yediyi yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:25.",
+      "🇹🇷 Saat 07:25."
+    ],
+    examples: [],
+    related_word_ids: [2445]
+  },
+  {
+    id: "vocab-saat-2446",
+    category: "vocabulary",
+    title: "twenty-six minutes past seven a.m. — sabah yediyi yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past seven a.m.", "sabah yediyi yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:26.",
+      "🇹🇷 Saat 07:26."
+    ],
+    examples: [],
+    related_word_ids: [2446]
+  },
+  {
+    id: "vocab-saat-2447",
+    category: "vocabulary",
+    title: "twenty-seven minutes past seven a.m. — sabah yediyi yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past seven a.m.", "sabah yediyi yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:27.",
+      "🇹🇷 Saat 07:27."
+    ],
+    examples: [],
+    related_word_ids: [2447]
+  },
+  {
+    id: "vocab-saat-2448",
+    category: "vocabulary",
+    title: "twenty-eight minutes past seven a.m. — sabah yediyi yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past seven a.m.", "sabah yediyi yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:28.",
+      "🇹🇷 Saat 07:28."
+    ],
+    examples: [],
+    related_word_ids: [2448]
+  },
+  {
+    id: "vocab-saat-2449",
+    category: "vocabulary",
+    title: "twenty-nine minutes past seven a.m. — sabah yediyi yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past seven a.m.", "sabah yediyi yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:29.",
+      "🇹🇷 Saat 07:29."
+    ],
+    examples: [],
+    related_word_ids: [2449]
+  },
+  {
+    id: "vocab-saat-2450",
+    category: "vocabulary",
+    title: "half past seven a.m. — sabah yedi buçuk",
+    keywords: ["half past seven a.m.", "sabah yedi buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:30.",
+      "🇹🇷 Saat 07:30."
+    ],
+    examples: [],
+    related_word_ids: [2450]
+  },
+  {
+    id: "vocab-saat-2451",
+    category: "vocabulary",
+    title: "twenty-nine minutes to eight a.m. — sabah sekize yirmi dokuz var",
+    keywords: ["twenty-nine minutes to eight a.m.", "sabah sekize yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:31.",
+      "🇹🇷 Saat 07:31."
+    ],
+    examples: [],
+    related_word_ids: [2451]
+  },
+  {
+    id: "vocab-saat-2452",
+    category: "vocabulary",
+    title: "twenty-eight minutes to eight a.m. — sabah sekize yirmi sekiz var",
+    keywords: ["twenty-eight minutes to eight a.m.", "sabah sekize yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:32.",
+      "🇹🇷 Saat 07:32."
+    ],
+    examples: [],
+    related_word_ids: [2452]
+  },
+  {
+    id: "vocab-saat-2453",
+    category: "vocabulary",
+    title: "twenty-seven minutes to eight a.m. — sabah sekize yirmi yedi var",
+    keywords: ["twenty-seven minutes to eight a.m.", "sabah sekize yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:33.",
+      "🇹🇷 Saat 07:33."
+    ],
+    examples: [],
+    related_word_ids: [2453]
+  },
+  {
+    id: "vocab-saat-2454",
+    category: "vocabulary",
+    title: "twenty-six minutes to eight a.m. — sabah sekize yirmi altı var",
+    keywords: ["twenty-six minutes to eight a.m.", "sabah sekize yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:34.",
+      "🇹🇷 Saat 07:34."
+    ],
+    examples: [],
+    related_word_ids: [2454]
+  },
+  {
+    id: "vocab-saat-2455",
+    category: "vocabulary",
+    title: "twenty-five to eight a.m. — sabah sekize yirmi beş var",
+    keywords: ["twenty-five to eight a.m.", "sabah sekize yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:35.",
+      "🇹🇷 Saat 07:35."
+    ],
+    examples: [],
+    related_word_ids: [2455]
+  },
+  {
+    id: "vocab-saat-2456",
+    category: "vocabulary",
+    title: "twenty-four minutes to eight a.m. — sabah sekize yirmi dört var",
+    keywords: ["twenty-four minutes to eight a.m.", "sabah sekize yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:36.",
+      "🇹🇷 Saat 07:36."
+    ],
+    examples: [],
+    related_word_ids: [2456]
+  },
+  {
+    id: "vocab-saat-2457",
+    category: "vocabulary",
+    title: "twenty-three minutes to eight a.m. — sabah sekize yirmi üç var",
+    keywords: ["twenty-three minutes to eight a.m.", "sabah sekize yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:37.",
+      "🇹🇷 Saat 07:37."
+    ],
+    examples: [],
+    related_word_ids: [2457]
+  },
+  {
+    id: "vocab-saat-2458",
+    category: "vocabulary",
+    title: "twenty-two minutes to eight a.m. — sabah sekize yirmi iki var",
+    keywords: ["twenty-two minutes to eight a.m.", "sabah sekize yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:38.",
+      "🇹🇷 Saat 07:38."
+    ],
+    examples: [],
+    related_word_ids: [2458]
+  },
+  {
+    id: "vocab-saat-2459",
+    category: "vocabulary",
+    title: "twenty-one minutes to eight a.m. — sabah sekize yirmi bir var",
+    keywords: ["twenty-one minutes to eight a.m.", "sabah sekize yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:39.",
+      "🇹🇷 Saat 07:39."
+    ],
+    examples: [],
+    related_word_ids: [2459]
+  },
+  {
+    id: "vocab-saat-2460",
+    category: "vocabulary",
+    title: "twenty to eight a.m. — sabah sekize yirmi var",
+    keywords: ["twenty to eight a.m.", "sabah sekize yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:40.",
+      "🇹🇷 Saat 07:40."
+    ],
+    examples: [],
+    related_word_ids: [2460]
+  },
+  {
+    id: "vocab-saat-2461",
+    category: "vocabulary",
+    title: "nineteen minutes to eight a.m. — sabah sekize on dokuz var",
+    keywords: ["nineteen minutes to eight a.m.", "sabah sekize on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:41.",
+      "🇹🇷 Saat 07:41."
+    ],
+    examples: [],
+    related_word_ids: [2461]
+  },
+  {
+    id: "vocab-saat-2462",
+    category: "vocabulary",
+    title: "eighteen minutes to eight a.m. — sabah sekize on sekiz var",
+    keywords: ["eighteen minutes to eight a.m.", "sabah sekize on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:42.",
+      "🇹🇷 Saat 07:42."
+    ],
+    examples: [],
+    related_word_ids: [2462]
+  },
+  {
+    id: "vocab-saat-2463",
+    category: "vocabulary",
+    title: "seventeen minutes to eight a.m. — sabah sekize on yedi var",
+    keywords: ["seventeen minutes to eight a.m.", "sabah sekize on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:43.",
+      "🇹🇷 Saat 07:43."
+    ],
+    examples: [],
+    related_word_ids: [2463]
+  },
+  {
+    id: "vocab-saat-2464",
+    category: "vocabulary",
+    title: "sixteen minutes to eight a.m. — sabah sekize on altı var",
+    keywords: ["sixteen minutes to eight a.m.", "sabah sekize on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:44.",
+      "🇹🇷 Saat 07:44."
+    ],
+    examples: [],
+    related_word_ids: [2464]
+  },
+  {
+    id: "vocab-saat-2465",
+    category: "vocabulary",
+    title: "a quarter to eight a.m. — sabah sekize çeyrek var",
+    keywords: ["a quarter to eight a.m.", "sabah sekize çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:45.",
+      "🇹🇷 Saat 07:45."
+    ],
+    examples: [],
+    related_word_ids: [2465]
+  },
+  {
+    id: "vocab-saat-2466",
+    category: "vocabulary",
+    title: "fourteen minutes to eight a.m. — sabah sekize on dört var",
+    keywords: ["fourteen minutes to eight a.m.", "sabah sekize on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:46.",
+      "🇹🇷 Saat 07:46."
+    ],
+    examples: [],
+    related_word_ids: [2466]
+  },
+  {
+    id: "vocab-saat-2467",
+    category: "vocabulary",
+    title: "thirteen minutes to eight a.m. — sabah sekize on üç var",
+    keywords: ["thirteen minutes to eight a.m.", "sabah sekize on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:47.",
+      "🇹🇷 Saat 07:47."
+    ],
+    examples: [],
+    related_word_ids: [2467]
+  },
+  {
+    id: "vocab-saat-2468",
+    category: "vocabulary",
+    title: "twelve minutes to eight a.m. — sabah sekize on iki var",
+    keywords: ["twelve minutes to eight a.m.", "sabah sekize on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:48.",
+      "🇹🇷 Saat 07:48."
+    ],
+    examples: [],
+    related_word_ids: [2468]
+  },
+  {
+    id: "vocab-saat-2469",
+    category: "vocabulary",
+    title: "eleven minutes to eight a.m. — sabah sekize on bir var",
+    keywords: ["eleven minutes to eight a.m.", "sabah sekize on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:49.",
+      "🇹🇷 Saat 07:49."
+    ],
+    examples: [],
+    related_word_ids: [2469]
+  },
+  {
+    id: "vocab-saat-2470",
+    category: "vocabulary",
+    title: "ten to eight a.m. — sabah sekize on var",
+    keywords: ["ten to eight a.m.", "sabah sekize on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:50.",
+      "🇹🇷 Saat 07:50."
+    ],
+    examples: [],
+    related_word_ids: [2470]
+  },
+  {
+    id: "vocab-saat-2471",
+    category: "vocabulary",
+    title: "nine minutes to eight a.m. — sabah sekize dokuz var",
+    keywords: ["nine minutes to eight a.m.", "sabah sekize dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:51.",
+      "🇹🇷 Saat 07:51."
+    ],
+    examples: [],
+    related_word_ids: [2471]
+  },
+  {
+    id: "vocab-saat-2472",
+    category: "vocabulary",
+    title: "eight minutes to eight a.m. — sabah sekize sekiz var",
+    keywords: ["eight minutes to eight a.m.", "sabah sekize sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:52.",
+      "🇹🇷 Saat 07:52."
+    ],
+    examples: [],
+    related_word_ids: [2472]
+  },
+  {
+    id: "vocab-saat-2473",
+    category: "vocabulary",
+    title: "seven minutes to eight a.m. — sabah sekize yedi var",
+    keywords: ["seven minutes to eight a.m.", "sabah sekize yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:53.",
+      "🇹🇷 Saat 07:53."
+    ],
+    examples: [],
+    related_word_ids: [2473]
+  },
+  {
+    id: "vocab-saat-2474",
+    category: "vocabulary",
+    title: "six minutes to eight a.m. — sabah sekize altı var",
+    keywords: ["six minutes to eight a.m.", "sabah sekize altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:54.",
+      "🇹🇷 Saat 07:54."
+    ],
+    examples: [],
+    related_word_ids: [2474]
+  },
+  {
+    id: "vocab-saat-2475",
+    category: "vocabulary",
+    title: "five to eight a.m. — sabah sekize beş var",
+    keywords: ["five to eight a.m.", "sabah sekize beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:55.",
+      "🇹🇷 Saat 07:55."
+    ],
+    examples: [],
+    related_word_ids: [2475]
+  },
+  {
+    id: "vocab-saat-2476",
+    category: "vocabulary",
+    title: "four minutes to eight a.m. — sabah sekize dört var",
+    keywords: ["four minutes to eight a.m.", "sabah sekize dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:56.",
+      "🇹🇷 Saat 07:56."
+    ],
+    examples: [],
+    related_word_ids: [2476]
+  },
+  {
+    id: "vocab-saat-2477",
+    category: "vocabulary",
+    title: "three minutes to eight a.m. — sabah sekize üç var",
+    keywords: ["three minutes to eight a.m.", "sabah sekize üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:57.",
+      "🇹🇷 Saat 07:57."
+    ],
+    examples: [],
+    related_word_ids: [2477]
+  },
+  {
+    id: "vocab-saat-2478",
+    category: "vocabulary",
+    title: "two minutes to eight a.m. — sabah sekize iki var",
+    keywords: ["two minutes to eight a.m.", "sabah sekize iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:58.",
+      "🇹🇷 Saat 07:58."
+    ],
+    examples: [],
+    related_word_ids: [2478]
+  },
+  {
+    id: "vocab-saat-2479",
+    category: "vocabulary",
+    title: "one minute to eight a.m. — sabah sekize bir var",
+    keywords: ["one minute to eight a.m.", "sabah sekize bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 07:59.",
+      "🇹🇷 Saat 07:59."
+    ],
+    examples: [],
+    related_word_ids: [2479]
+  },
+  {
+    id: "vocab-saat-2480",
+    category: "vocabulary",
+    title: "eight o'clock a.m. — sabah sekiz",
+    keywords: ["eight o'clock a.m.", "sabah sekiz", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:00.",
+      "🇹🇷 Saat 08:00."
+    ],
+    examples: [],
+    related_word_ids: [2480]
+  },
+  {
+    id: "vocab-saat-2481",
+    category: "vocabulary",
+    title: "one minute past eight a.m. — sabah sekizi bir geçiyor",
+    keywords: ["one minute past eight a.m.", "sabah sekizi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:01.",
+      "🇹🇷 Saat 08:01."
+    ],
+    examples: [],
+    related_word_ids: [2481]
+  },
+  {
+    id: "vocab-saat-2482",
+    category: "vocabulary",
+    title: "two minutes past eight a.m. — sabah sekizi iki geçiyor",
+    keywords: ["two minutes past eight a.m.", "sabah sekizi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:02.",
+      "🇹🇷 Saat 08:02."
+    ],
+    examples: [],
+    related_word_ids: [2482]
+  },
+  {
+    id: "vocab-saat-2483",
+    category: "vocabulary",
+    title: "three minutes past eight a.m. — sabah sekizi üç geçiyor",
+    keywords: ["three minutes past eight a.m.", "sabah sekizi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:03.",
+      "🇹🇷 Saat 08:03."
+    ],
+    examples: [],
+    related_word_ids: [2483]
+  },
+  {
+    id: "vocab-saat-2484",
+    category: "vocabulary",
+    title: "four minutes past eight a.m. — sabah sekizi dört geçiyor",
+    keywords: ["four minutes past eight a.m.", "sabah sekizi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:04.",
+      "🇹🇷 Saat 08:04."
+    ],
+    examples: [],
+    related_word_ids: [2484]
+  },
+  {
+    id: "vocab-saat-2485",
+    category: "vocabulary",
+    title: "five past eight a.m. — sabah sekizi beş geçiyor",
+    keywords: ["five past eight a.m.", "sabah sekizi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:05.",
+      "🇹🇷 Saat 08:05."
+    ],
+    examples: [],
+    related_word_ids: [2485]
+  },
+  {
+    id: "vocab-saat-2486",
+    category: "vocabulary",
+    title: "six minutes past eight a.m. — sabah sekizi altı geçiyor",
+    keywords: ["six minutes past eight a.m.", "sabah sekizi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:06.",
+      "🇹🇷 Saat 08:06."
+    ],
+    examples: [],
+    related_word_ids: [2486]
+  },
+  {
+    id: "vocab-saat-2487",
+    category: "vocabulary",
+    title: "seven minutes past eight a.m. — sabah sekizi yedi geçiyor",
+    keywords: ["seven minutes past eight a.m.", "sabah sekizi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:07.",
+      "🇹🇷 Saat 08:07."
+    ],
+    examples: [],
+    related_word_ids: [2487]
+  },
+  {
+    id: "vocab-saat-2488",
+    category: "vocabulary",
+    title: "eight minutes past eight a.m. — sabah sekizi sekiz geçiyor",
+    keywords: ["eight minutes past eight a.m.", "sabah sekizi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:08.",
+      "🇹🇷 Saat 08:08."
+    ],
+    examples: [],
+    related_word_ids: [2488]
+  },
+  {
+    id: "vocab-saat-2489",
+    category: "vocabulary",
+    title: "nine minutes past eight a.m. — sabah sekizi dokuz geçiyor",
+    keywords: ["nine minutes past eight a.m.", "sabah sekizi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:09.",
+      "🇹🇷 Saat 08:09."
+    ],
+    examples: [],
+    related_word_ids: [2489]
+  },
+  {
+    id: "vocab-saat-2490",
+    category: "vocabulary",
+    title: "ten past eight a.m. — sabah sekizi on geçiyor",
+    keywords: ["ten past eight a.m.", "sabah sekizi on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:10.",
+      "🇹🇷 Saat 08:10."
+    ],
+    examples: [],
+    related_word_ids: [2490]
+  },
+  {
+    id: "vocab-saat-2491",
+    category: "vocabulary",
+    title: "eleven minutes past eight a.m. — sabah sekizi on bir geçiyor",
+    keywords: ["eleven minutes past eight a.m.", "sabah sekizi on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:11.",
+      "🇹🇷 Saat 08:11."
+    ],
+    examples: [],
+    related_word_ids: [2491]
+  },
+  {
+    id: "vocab-saat-2492",
+    category: "vocabulary",
+    title: "twelve minutes past eight a.m. — sabah sekizi on iki geçiyor",
+    keywords: ["twelve minutes past eight a.m.", "sabah sekizi on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:12.",
+      "🇹🇷 Saat 08:12."
+    ],
+    examples: [],
+    related_word_ids: [2492]
+  },
+  {
+    id: "vocab-saat-2493",
+    category: "vocabulary",
+    title: "thirteen minutes past eight a.m. — sabah sekizi on üç geçiyor",
+    keywords: ["thirteen minutes past eight a.m.", "sabah sekizi on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:13.",
+      "🇹🇷 Saat 08:13."
+    ],
+    examples: [],
+    related_word_ids: [2493]
+  },
+  {
+    id: "vocab-saat-2494",
+    category: "vocabulary",
+    title: "fourteen minutes past eight a.m. — sabah sekizi on dört geçiyor",
+    keywords: ["fourteen minutes past eight a.m.", "sabah sekizi on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:14.",
+      "🇹🇷 Saat 08:14."
+    ],
+    examples: [],
+    related_word_ids: [2494]
+  },
+  {
+    id: "vocab-saat-2495",
+    category: "vocabulary",
+    title: "a quarter past eight a.m. — sabah sekizi çeyrek geçiyor",
+    keywords: ["a quarter past eight a.m.", "sabah sekizi çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:15.",
+      "🇹🇷 Saat 08:15."
+    ],
+    examples: [],
+    related_word_ids: [2495]
+  },
+  {
+    id: "vocab-saat-2496",
+    category: "vocabulary",
+    title: "sixteen minutes past eight a.m. — sabah sekizi on altı geçiyor",
+    keywords: ["sixteen minutes past eight a.m.", "sabah sekizi on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:16.",
+      "🇹🇷 Saat 08:16."
+    ],
+    examples: [],
+    related_word_ids: [2496]
+  },
+  {
+    id: "vocab-saat-2497",
+    category: "vocabulary",
+    title: "seventeen minutes past eight a.m. — sabah sekizi on yedi geçiyor",
+    keywords: ["seventeen minutes past eight a.m.", "sabah sekizi on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:17.",
+      "🇹🇷 Saat 08:17."
+    ],
+    examples: [],
+    related_word_ids: [2497]
+  },
+  {
+    id: "vocab-saat-2498",
+    category: "vocabulary",
+    title: "eighteen minutes past eight a.m. — sabah sekizi on sekiz geçiyor",
+    keywords: ["eighteen minutes past eight a.m.", "sabah sekizi on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:18.",
+      "🇹🇷 Saat 08:18."
+    ],
+    examples: [],
+    related_word_ids: [2498]
+  },
+  {
+    id: "vocab-saat-2499",
+    category: "vocabulary",
+    title: "nineteen minutes past eight a.m. — sabah sekizi on dokuz geçiyor",
+    keywords: ["nineteen minutes past eight a.m.", "sabah sekizi on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:19.",
+      "🇹🇷 Saat 08:19."
+    ],
+    examples: [],
+    related_word_ids: [2499]
+  },
+  {
+    id: "vocab-saat-2500",
+    category: "vocabulary",
+    title: "twenty past eight a.m. — sabah sekizi yirmi geçiyor",
+    keywords: ["twenty past eight a.m.", "sabah sekizi yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:20.",
+      "🇹🇷 Saat 08:20."
+    ],
+    examples: [],
+    related_word_ids: [2500]
+  },
+  {
+    id: "vocab-saat-2501",
+    category: "vocabulary",
+    title: "twenty-one minutes past eight a.m. — sabah sekizi yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past eight a.m.", "sabah sekizi yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:21.",
+      "🇹🇷 Saat 08:21."
+    ],
+    examples: [],
+    related_word_ids: [2501]
+  },
+  {
+    id: "vocab-saat-2502",
+    category: "vocabulary",
+    title: "twenty-two minutes past eight a.m. — sabah sekizi yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past eight a.m.", "sabah sekizi yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:22.",
+      "🇹🇷 Saat 08:22."
+    ],
+    examples: [],
+    related_word_ids: [2502]
+  },
+  {
+    id: "vocab-saat-2503",
+    category: "vocabulary",
+    title: "twenty-three minutes past eight a.m. — sabah sekizi yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past eight a.m.", "sabah sekizi yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:23.",
+      "🇹🇷 Saat 08:23."
+    ],
+    examples: [],
+    related_word_ids: [2503]
+  },
+  {
+    id: "vocab-saat-2504",
+    category: "vocabulary",
+    title: "twenty-four minutes past eight a.m. — sabah sekizi yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past eight a.m.", "sabah sekizi yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:24.",
+      "🇹🇷 Saat 08:24."
+    ],
+    examples: [],
+    related_word_ids: [2504]
+  },
+  {
+    id: "vocab-saat-2505",
+    category: "vocabulary",
+    title: "twenty-five past eight a.m. — sabah sekizi yirmi beş geçiyor",
+    keywords: ["twenty-five past eight a.m.", "sabah sekizi yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:25.",
+      "🇹🇷 Saat 08:25."
+    ],
+    examples: [],
+    related_word_ids: [2505]
+  },
+  {
+    id: "vocab-saat-2506",
+    category: "vocabulary",
+    title: "twenty-six minutes past eight a.m. — sabah sekizi yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past eight a.m.", "sabah sekizi yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:26.",
+      "🇹🇷 Saat 08:26."
+    ],
+    examples: [],
+    related_word_ids: [2506]
+  },
+  {
+    id: "vocab-saat-2507",
+    category: "vocabulary",
+    title: "twenty-seven minutes past eight a.m. — sabah sekizi yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past eight a.m.", "sabah sekizi yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:27.",
+      "🇹🇷 Saat 08:27."
+    ],
+    examples: [],
+    related_word_ids: [2507]
+  },
+  {
+    id: "vocab-saat-2508",
+    category: "vocabulary",
+    title: "twenty-eight minutes past eight a.m. — sabah sekizi yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past eight a.m.", "sabah sekizi yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:28.",
+      "🇹🇷 Saat 08:28."
+    ],
+    examples: [],
+    related_word_ids: [2508]
+  },
+  {
+    id: "vocab-saat-2509",
+    category: "vocabulary",
+    title: "twenty-nine minutes past eight a.m. — sabah sekizi yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past eight a.m.", "sabah sekizi yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:29.",
+      "🇹🇷 Saat 08:29."
+    ],
+    examples: [],
+    related_word_ids: [2509]
+  },
+  {
+    id: "vocab-saat-2510",
+    category: "vocabulary",
+    title: "half past eight a.m. — sabah sekiz buçuk",
+    keywords: ["half past eight a.m.", "sabah sekiz buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:30.",
+      "🇹🇷 Saat 08:30."
+    ],
+    examples: [],
+    related_word_ids: [2510]
+  },
+  {
+    id: "vocab-saat-2511",
+    category: "vocabulary",
+    title: "twenty-nine minutes to nine a.m. — sabah dokuza yirmi dokuz var",
+    keywords: ["twenty-nine minutes to nine a.m.", "sabah dokuza yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:31.",
+      "🇹🇷 Saat 08:31."
+    ],
+    examples: [],
+    related_word_ids: [2511]
+  },
+  {
+    id: "vocab-saat-2512",
+    category: "vocabulary",
+    title: "twenty-eight minutes to nine a.m. — sabah dokuza yirmi sekiz var",
+    keywords: ["twenty-eight minutes to nine a.m.", "sabah dokuza yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:32.",
+      "🇹🇷 Saat 08:32."
+    ],
+    examples: [],
+    related_word_ids: [2512]
+  },
+  {
+    id: "vocab-saat-2513",
+    category: "vocabulary",
+    title: "twenty-seven minutes to nine a.m. — sabah dokuza yirmi yedi var",
+    keywords: ["twenty-seven minutes to nine a.m.", "sabah dokuza yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:33.",
+      "🇹🇷 Saat 08:33."
+    ],
+    examples: [],
+    related_word_ids: [2513]
+  },
+  {
+    id: "vocab-saat-2514",
+    category: "vocabulary",
+    title: "twenty-six minutes to nine a.m. — sabah dokuza yirmi altı var",
+    keywords: ["twenty-six minutes to nine a.m.", "sabah dokuza yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:34.",
+      "🇹🇷 Saat 08:34."
+    ],
+    examples: [],
+    related_word_ids: [2514]
+  },
+  {
+    id: "vocab-saat-2515",
+    category: "vocabulary",
+    title: "twenty-five to nine a.m. — sabah dokuza yirmi beş var",
+    keywords: ["twenty-five to nine a.m.", "sabah dokuza yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:35.",
+      "🇹🇷 Saat 08:35."
+    ],
+    examples: [],
+    related_word_ids: [2515]
+  },
+  {
+    id: "vocab-saat-2516",
+    category: "vocabulary",
+    title: "twenty-four minutes to nine a.m. — sabah dokuza yirmi dört var",
+    keywords: ["twenty-four minutes to nine a.m.", "sabah dokuza yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:36.",
+      "🇹🇷 Saat 08:36."
+    ],
+    examples: [],
+    related_word_ids: [2516]
+  },
+  {
+    id: "vocab-saat-2517",
+    category: "vocabulary",
+    title: "twenty-three minutes to nine a.m. — sabah dokuza yirmi üç var",
+    keywords: ["twenty-three minutes to nine a.m.", "sabah dokuza yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:37.",
+      "🇹🇷 Saat 08:37."
+    ],
+    examples: [],
+    related_word_ids: [2517]
+  },
+  {
+    id: "vocab-saat-2518",
+    category: "vocabulary",
+    title: "twenty-two minutes to nine a.m. — sabah dokuza yirmi iki var",
+    keywords: ["twenty-two minutes to nine a.m.", "sabah dokuza yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:38.",
+      "🇹🇷 Saat 08:38."
+    ],
+    examples: [],
+    related_word_ids: [2518]
+  },
+  {
+    id: "vocab-saat-2519",
+    category: "vocabulary",
+    title: "twenty-one minutes to nine a.m. — sabah dokuza yirmi bir var",
+    keywords: ["twenty-one minutes to nine a.m.", "sabah dokuza yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:39.",
+      "🇹🇷 Saat 08:39."
+    ],
+    examples: [],
+    related_word_ids: [2519]
+  },
+  {
+    id: "vocab-saat-2520",
+    category: "vocabulary",
+    title: "twenty to nine a.m. — sabah dokuza yirmi var",
+    keywords: ["twenty to nine a.m.", "sabah dokuza yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:40.",
+      "🇹🇷 Saat 08:40."
+    ],
+    examples: [],
+    related_word_ids: [2520]
+  },
+  {
+    id: "vocab-saat-2521",
+    category: "vocabulary",
+    title: "nineteen minutes to nine a.m. — sabah dokuza on dokuz var",
+    keywords: ["nineteen minutes to nine a.m.", "sabah dokuza on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:41.",
+      "🇹🇷 Saat 08:41."
+    ],
+    examples: [],
+    related_word_ids: [2521]
+  },
+  {
+    id: "vocab-saat-2522",
+    category: "vocabulary",
+    title: "eighteen minutes to nine a.m. — sabah dokuza on sekiz var",
+    keywords: ["eighteen minutes to nine a.m.", "sabah dokuza on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:42.",
+      "🇹🇷 Saat 08:42."
+    ],
+    examples: [],
+    related_word_ids: [2522]
+  },
+  {
+    id: "vocab-saat-2523",
+    category: "vocabulary",
+    title: "seventeen minutes to nine a.m. — sabah dokuza on yedi var",
+    keywords: ["seventeen minutes to nine a.m.", "sabah dokuza on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:43.",
+      "🇹🇷 Saat 08:43."
+    ],
+    examples: [],
+    related_word_ids: [2523]
+  },
+  {
+    id: "vocab-saat-2524",
+    category: "vocabulary",
+    title: "sixteen minutes to nine a.m. — sabah dokuza on altı var",
+    keywords: ["sixteen minutes to nine a.m.", "sabah dokuza on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:44.",
+      "🇹🇷 Saat 08:44."
+    ],
+    examples: [],
+    related_word_ids: [2524]
+  },
+  {
+    id: "vocab-saat-2525",
+    category: "vocabulary",
+    title: "a quarter to nine a.m. — sabah dokuza çeyrek var",
+    keywords: ["a quarter to nine a.m.", "sabah dokuza çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:45.",
+      "🇹🇷 Saat 08:45."
+    ],
+    examples: [],
+    related_word_ids: [2525]
+  },
+  {
+    id: "vocab-saat-2526",
+    category: "vocabulary",
+    title: "fourteen minutes to nine a.m. — sabah dokuza on dört var",
+    keywords: ["fourteen minutes to nine a.m.", "sabah dokuza on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:46.",
+      "🇹🇷 Saat 08:46."
+    ],
+    examples: [],
+    related_word_ids: [2526]
+  },
+  {
+    id: "vocab-saat-2527",
+    category: "vocabulary",
+    title: "thirteen minutes to nine a.m. — sabah dokuza on üç var",
+    keywords: ["thirteen minutes to nine a.m.", "sabah dokuza on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:47.",
+      "🇹🇷 Saat 08:47."
+    ],
+    examples: [],
+    related_word_ids: [2527]
+  },
+  {
+    id: "vocab-saat-2528",
+    category: "vocabulary",
+    title: "twelve minutes to nine a.m. — sabah dokuza on iki var",
+    keywords: ["twelve minutes to nine a.m.", "sabah dokuza on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:48.",
+      "🇹🇷 Saat 08:48."
+    ],
+    examples: [],
+    related_word_ids: [2528]
+  },
+  {
+    id: "vocab-saat-2529",
+    category: "vocabulary",
+    title: "eleven minutes to nine a.m. — sabah dokuza on bir var",
+    keywords: ["eleven minutes to nine a.m.", "sabah dokuza on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:49.",
+      "🇹🇷 Saat 08:49."
+    ],
+    examples: [],
+    related_word_ids: [2529]
+  },
+  {
+    id: "vocab-saat-2530",
+    category: "vocabulary",
+    title: "ten to nine a.m. — sabah dokuza on var",
+    keywords: ["ten to nine a.m.", "sabah dokuza on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:50.",
+      "🇹🇷 Saat 08:50."
+    ],
+    examples: [],
+    related_word_ids: [2530]
+  },
+  {
+    id: "vocab-saat-2531",
+    category: "vocabulary",
+    title: "nine minutes to nine a.m. — sabah dokuza dokuz var",
+    keywords: ["nine minutes to nine a.m.", "sabah dokuza dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:51.",
+      "🇹🇷 Saat 08:51."
+    ],
+    examples: [],
+    related_word_ids: [2531]
+  },
+  {
+    id: "vocab-saat-2532",
+    category: "vocabulary",
+    title: "eight minutes to nine a.m. — sabah dokuza sekiz var",
+    keywords: ["eight minutes to nine a.m.", "sabah dokuza sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:52.",
+      "🇹🇷 Saat 08:52."
+    ],
+    examples: [],
+    related_word_ids: [2532]
+  },
+  {
+    id: "vocab-saat-2533",
+    category: "vocabulary",
+    title: "seven minutes to nine a.m. — sabah dokuza yedi var",
+    keywords: ["seven minutes to nine a.m.", "sabah dokuza yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:53.",
+      "🇹🇷 Saat 08:53."
+    ],
+    examples: [],
+    related_word_ids: [2533]
+  },
+  {
+    id: "vocab-saat-2534",
+    category: "vocabulary",
+    title: "six minutes to nine a.m. — sabah dokuza altı var",
+    keywords: ["six minutes to nine a.m.", "sabah dokuza altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:54.",
+      "🇹🇷 Saat 08:54."
+    ],
+    examples: [],
+    related_word_ids: [2534]
+  },
+  {
+    id: "vocab-saat-2535",
+    category: "vocabulary",
+    title: "five to nine a.m. — sabah dokuza beş var",
+    keywords: ["five to nine a.m.", "sabah dokuza beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:55.",
+      "🇹🇷 Saat 08:55."
+    ],
+    examples: [],
+    related_word_ids: [2535]
+  },
+  {
+    id: "vocab-saat-2536",
+    category: "vocabulary",
+    title: "four minutes to nine a.m. — sabah dokuza dört var",
+    keywords: ["four minutes to nine a.m.", "sabah dokuza dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:56.",
+      "🇹🇷 Saat 08:56."
+    ],
+    examples: [],
+    related_word_ids: [2536]
+  },
+  {
+    id: "vocab-saat-2537",
+    category: "vocabulary",
+    title: "three minutes to nine a.m. — sabah dokuza üç var",
+    keywords: ["three minutes to nine a.m.", "sabah dokuza üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:57.",
+      "🇹🇷 Saat 08:57."
+    ],
+    examples: [],
+    related_word_ids: [2537]
+  },
+  {
+    id: "vocab-saat-2538",
+    category: "vocabulary",
+    title: "two minutes to nine a.m. — sabah dokuza iki var",
+    keywords: ["two minutes to nine a.m.", "sabah dokuza iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:58.",
+      "🇹🇷 Saat 08:58."
+    ],
+    examples: [],
+    related_word_ids: [2538]
+  },
+  {
+    id: "vocab-saat-2539",
+    category: "vocabulary",
+    title: "one minute to nine a.m. — sabah dokuza bir var",
+    keywords: ["one minute to nine a.m.", "sabah dokuza bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 08:59.",
+      "🇹🇷 Saat 08:59."
+    ],
+    examples: [],
+    related_word_ids: [2539]
+  },
+  {
+    id: "vocab-saat-2540",
+    category: "vocabulary",
+    title: "nine o'clock a.m. — sabah dokuz",
+    keywords: ["nine o'clock a.m.", "sabah dokuz", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:00.",
+      "🇹🇷 Saat 09:00."
+    ],
+    examples: [],
+    related_word_ids: [2540]
+  },
+  {
+    id: "vocab-saat-2541",
+    category: "vocabulary",
+    title: "one minute past nine a.m. — sabah dokuzu bir geçiyor",
+    keywords: ["one minute past nine a.m.", "sabah dokuzu bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:01.",
+      "🇹🇷 Saat 09:01."
+    ],
+    examples: [],
+    related_word_ids: [2541]
+  },
+  {
+    id: "vocab-saat-2542",
+    category: "vocabulary",
+    title: "two minutes past nine a.m. — sabah dokuzu iki geçiyor",
+    keywords: ["two minutes past nine a.m.", "sabah dokuzu iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:02.",
+      "🇹🇷 Saat 09:02."
+    ],
+    examples: [],
+    related_word_ids: [2542]
+  },
+  {
+    id: "vocab-saat-2543",
+    category: "vocabulary",
+    title: "three minutes past nine a.m. — sabah dokuzu üç geçiyor",
+    keywords: ["three minutes past nine a.m.", "sabah dokuzu üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:03.",
+      "🇹🇷 Saat 09:03."
+    ],
+    examples: [],
+    related_word_ids: [2543]
+  },
+  {
+    id: "vocab-saat-2544",
+    category: "vocabulary",
+    title: "four minutes past nine a.m. — sabah dokuzu dört geçiyor",
+    keywords: ["four minutes past nine a.m.", "sabah dokuzu dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:04.",
+      "🇹🇷 Saat 09:04."
+    ],
+    examples: [],
+    related_word_ids: [2544]
+  },
+  {
+    id: "vocab-saat-2545",
+    category: "vocabulary",
+    title: "five past nine a.m. — sabah dokuzu beş geçiyor",
+    keywords: ["five past nine a.m.", "sabah dokuzu beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:05.",
+      "🇹🇷 Saat 09:05."
+    ],
+    examples: [],
+    related_word_ids: [2545]
+  },
+  {
+    id: "vocab-saat-2546",
+    category: "vocabulary",
+    title: "six minutes past nine a.m. — sabah dokuzu altı geçiyor",
+    keywords: ["six minutes past nine a.m.", "sabah dokuzu altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:06.",
+      "🇹🇷 Saat 09:06."
+    ],
+    examples: [],
+    related_word_ids: [2546]
+  },
+  {
+    id: "vocab-saat-2547",
+    category: "vocabulary",
+    title: "seven minutes past nine a.m. — sabah dokuzu yedi geçiyor",
+    keywords: ["seven minutes past nine a.m.", "sabah dokuzu yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:07.",
+      "🇹🇷 Saat 09:07."
+    ],
+    examples: [],
+    related_word_ids: [2547]
+  },
+  {
+    id: "vocab-saat-2548",
+    category: "vocabulary",
+    title: "eight minutes past nine a.m. — sabah dokuzu sekiz geçiyor",
+    keywords: ["eight minutes past nine a.m.", "sabah dokuzu sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:08.",
+      "🇹🇷 Saat 09:08."
+    ],
+    examples: [],
+    related_word_ids: [2548]
+  },
+  {
+    id: "vocab-saat-2549",
+    category: "vocabulary",
+    title: "nine minutes past nine a.m. — sabah dokuzu dokuz geçiyor",
+    keywords: ["nine minutes past nine a.m.", "sabah dokuzu dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:09.",
+      "🇹🇷 Saat 09:09."
+    ],
+    examples: [],
+    related_word_ids: [2549]
+  },
+  {
+    id: "vocab-saat-2550",
+    category: "vocabulary",
+    title: "ten past nine a.m. — sabah dokuzu on geçiyor",
+    keywords: ["ten past nine a.m.", "sabah dokuzu on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:10.",
+      "🇹🇷 Saat 09:10."
+    ],
+    examples: [],
+    related_word_ids: [2550]
+  },
+  {
+    id: "vocab-saat-2551",
+    category: "vocabulary",
+    title: "eleven minutes past nine a.m. — sabah dokuzu on bir geçiyor",
+    keywords: ["eleven minutes past nine a.m.", "sabah dokuzu on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:11.",
+      "🇹🇷 Saat 09:11."
+    ],
+    examples: [],
+    related_word_ids: [2551]
+  },
+  {
+    id: "vocab-saat-2552",
+    category: "vocabulary",
+    title: "twelve minutes past nine a.m. — sabah dokuzu on iki geçiyor",
+    keywords: ["twelve minutes past nine a.m.", "sabah dokuzu on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:12.",
+      "🇹🇷 Saat 09:12."
+    ],
+    examples: [],
+    related_word_ids: [2552]
+  },
+  {
+    id: "vocab-saat-2553",
+    category: "vocabulary",
+    title: "thirteen minutes past nine a.m. — sabah dokuzu on üç geçiyor",
+    keywords: ["thirteen minutes past nine a.m.", "sabah dokuzu on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:13.",
+      "🇹🇷 Saat 09:13."
+    ],
+    examples: [],
+    related_word_ids: [2553]
+  },
+  {
+    id: "vocab-saat-2554",
+    category: "vocabulary",
+    title: "fourteen minutes past nine a.m. — sabah dokuzu on dört geçiyor",
+    keywords: ["fourteen minutes past nine a.m.", "sabah dokuzu on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:14.",
+      "🇹🇷 Saat 09:14."
+    ],
+    examples: [],
+    related_word_ids: [2554]
+  },
+  {
+    id: "vocab-saat-2555",
+    category: "vocabulary",
+    title: "a quarter past nine a.m. — sabah dokuzu çeyrek geçiyor",
+    keywords: ["a quarter past nine a.m.", "sabah dokuzu çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:15.",
+      "🇹🇷 Saat 09:15."
+    ],
+    examples: [],
+    related_word_ids: [2555]
+  },
+  {
+    id: "vocab-saat-2556",
+    category: "vocabulary",
+    title: "sixteen minutes past nine a.m. — sabah dokuzu on altı geçiyor",
+    keywords: ["sixteen minutes past nine a.m.", "sabah dokuzu on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:16.",
+      "🇹🇷 Saat 09:16."
+    ],
+    examples: [],
+    related_word_ids: [2556]
+  },
+  {
+    id: "vocab-saat-2557",
+    category: "vocabulary",
+    title: "seventeen minutes past nine a.m. — sabah dokuzu on yedi geçiyor",
+    keywords: ["seventeen minutes past nine a.m.", "sabah dokuzu on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:17.",
+      "🇹🇷 Saat 09:17."
+    ],
+    examples: [],
+    related_word_ids: [2557]
+  },
+  {
+    id: "vocab-saat-2558",
+    category: "vocabulary",
+    title: "eighteen minutes past nine a.m. — sabah dokuzu on sekiz geçiyor",
+    keywords: ["eighteen minutes past nine a.m.", "sabah dokuzu on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:18.",
+      "🇹🇷 Saat 09:18."
+    ],
+    examples: [],
+    related_word_ids: [2558]
+  },
+  {
+    id: "vocab-saat-2559",
+    category: "vocabulary",
+    title: "nineteen minutes past nine a.m. — sabah dokuzu on dokuz geçiyor",
+    keywords: ["nineteen minutes past nine a.m.", "sabah dokuzu on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:19.",
+      "🇹🇷 Saat 09:19."
+    ],
+    examples: [],
+    related_word_ids: [2559]
+  },
+  {
+    id: "vocab-saat-2560",
+    category: "vocabulary",
+    title: "twenty past nine a.m. — sabah dokuzu yirmi geçiyor",
+    keywords: ["twenty past nine a.m.", "sabah dokuzu yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:20.",
+      "🇹🇷 Saat 09:20."
+    ],
+    examples: [],
+    related_word_ids: [2560]
+  },
+  {
+    id: "vocab-saat-2561",
+    category: "vocabulary",
+    title: "twenty-one minutes past nine a.m. — sabah dokuzu yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past nine a.m.", "sabah dokuzu yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:21.",
+      "🇹🇷 Saat 09:21."
+    ],
+    examples: [],
+    related_word_ids: [2561]
+  },
+  {
+    id: "vocab-saat-2562",
+    category: "vocabulary",
+    title: "twenty-two minutes past nine a.m. — sabah dokuzu yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past nine a.m.", "sabah dokuzu yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:22.",
+      "🇹🇷 Saat 09:22."
+    ],
+    examples: [],
+    related_word_ids: [2562]
+  },
+  {
+    id: "vocab-saat-2563",
+    category: "vocabulary",
+    title: "twenty-three minutes past nine a.m. — sabah dokuzu yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past nine a.m.", "sabah dokuzu yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:23.",
+      "🇹🇷 Saat 09:23."
+    ],
+    examples: [],
+    related_word_ids: [2563]
+  },
+  {
+    id: "vocab-saat-2564",
+    category: "vocabulary",
+    title: "twenty-four minutes past nine a.m. — sabah dokuzu yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past nine a.m.", "sabah dokuzu yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:24.",
+      "🇹🇷 Saat 09:24."
+    ],
+    examples: [],
+    related_word_ids: [2564]
+  },
+  {
+    id: "vocab-saat-2565",
+    category: "vocabulary",
+    title: "twenty-five past nine a.m. — sabah dokuzu yirmi beş geçiyor",
+    keywords: ["twenty-five past nine a.m.", "sabah dokuzu yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:25.",
+      "🇹🇷 Saat 09:25."
+    ],
+    examples: [],
+    related_word_ids: [2565]
+  },
+  {
+    id: "vocab-saat-2566",
+    category: "vocabulary",
+    title: "twenty-six minutes past nine a.m. — sabah dokuzu yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past nine a.m.", "sabah dokuzu yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:26.",
+      "🇹🇷 Saat 09:26."
+    ],
+    examples: [],
+    related_word_ids: [2566]
+  },
+  {
+    id: "vocab-saat-2567",
+    category: "vocabulary",
+    title: "twenty-seven minutes past nine a.m. — sabah dokuzu yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past nine a.m.", "sabah dokuzu yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:27.",
+      "🇹🇷 Saat 09:27."
+    ],
+    examples: [],
+    related_word_ids: [2567]
+  },
+  {
+    id: "vocab-saat-2568",
+    category: "vocabulary",
+    title: "twenty-eight minutes past nine a.m. — sabah dokuzu yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past nine a.m.", "sabah dokuzu yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:28.",
+      "🇹🇷 Saat 09:28."
+    ],
+    examples: [],
+    related_word_ids: [2568]
+  },
+  {
+    id: "vocab-saat-2569",
+    category: "vocabulary",
+    title: "twenty-nine minutes past nine a.m. — sabah dokuzu yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past nine a.m.", "sabah dokuzu yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:29.",
+      "🇹🇷 Saat 09:29."
+    ],
+    examples: [],
+    related_word_ids: [2569]
+  },
+  {
+    id: "vocab-saat-2570",
+    category: "vocabulary",
+    title: "half past nine a.m. — sabah dokuz buçuk",
+    keywords: ["half past nine a.m.", "sabah dokuz buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:30.",
+      "🇹🇷 Saat 09:30."
+    ],
+    examples: [],
+    related_word_ids: [2570]
+  },
+  {
+    id: "vocab-saat-2571",
+    category: "vocabulary",
+    title: "twenty-nine minutes to ten a.m. — sabah ona yirmi dokuz var",
+    keywords: ["twenty-nine minutes to ten a.m.", "sabah ona yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:31.",
+      "🇹🇷 Saat 09:31."
+    ],
+    examples: [],
+    related_word_ids: [2571]
+  },
+  {
+    id: "vocab-saat-2572",
+    category: "vocabulary",
+    title: "twenty-eight minutes to ten a.m. — sabah ona yirmi sekiz var",
+    keywords: ["twenty-eight minutes to ten a.m.", "sabah ona yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:32.",
+      "🇹🇷 Saat 09:32."
+    ],
+    examples: [],
+    related_word_ids: [2572]
+  },
+  {
+    id: "vocab-saat-2573",
+    category: "vocabulary",
+    title: "twenty-seven minutes to ten a.m. — sabah ona yirmi yedi var",
+    keywords: ["twenty-seven minutes to ten a.m.", "sabah ona yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:33.",
+      "🇹🇷 Saat 09:33."
+    ],
+    examples: [],
+    related_word_ids: [2573]
+  },
+  {
+    id: "vocab-saat-2574",
+    category: "vocabulary",
+    title: "twenty-six minutes to ten a.m. — sabah ona yirmi altı var",
+    keywords: ["twenty-six minutes to ten a.m.", "sabah ona yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:34.",
+      "🇹🇷 Saat 09:34."
+    ],
+    examples: [],
+    related_word_ids: [2574]
+  },
+  {
+    id: "vocab-saat-2575",
+    category: "vocabulary",
+    title: "twenty-five to ten a.m. — sabah ona yirmi beş var",
+    keywords: ["twenty-five to ten a.m.", "sabah ona yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:35.",
+      "🇹🇷 Saat 09:35."
+    ],
+    examples: [],
+    related_word_ids: [2575]
+  },
+  {
+    id: "vocab-saat-2576",
+    category: "vocabulary",
+    title: "twenty-four minutes to ten a.m. — sabah ona yirmi dört var",
+    keywords: ["twenty-four minutes to ten a.m.", "sabah ona yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:36.",
+      "🇹🇷 Saat 09:36."
+    ],
+    examples: [],
+    related_word_ids: [2576]
+  },
+  {
+    id: "vocab-saat-2577",
+    category: "vocabulary",
+    title: "twenty-three minutes to ten a.m. — sabah ona yirmi üç var",
+    keywords: ["twenty-three minutes to ten a.m.", "sabah ona yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:37.",
+      "🇹🇷 Saat 09:37."
+    ],
+    examples: [],
+    related_word_ids: [2577]
+  },
+  {
+    id: "vocab-saat-2578",
+    category: "vocabulary",
+    title: "twenty-two minutes to ten a.m. — sabah ona yirmi iki var",
+    keywords: ["twenty-two minutes to ten a.m.", "sabah ona yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:38.",
+      "🇹🇷 Saat 09:38."
+    ],
+    examples: [],
+    related_word_ids: [2578]
+  },
+  {
+    id: "vocab-saat-2579",
+    category: "vocabulary",
+    title: "twenty-one minutes to ten a.m. — sabah ona yirmi bir var",
+    keywords: ["twenty-one minutes to ten a.m.", "sabah ona yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:39.",
+      "🇹🇷 Saat 09:39."
+    ],
+    examples: [],
+    related_word_ids: [2579]
+  },
+  {
+    id: "vocab-saat-2580",
+    category: "vocabulary",
+    title: "twenty to ten a.m. — sabah ona yirmi var",
+    keywords: ["twenty to ten a.m.", "sabah ona yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:40.",
+      "🇹🇷 Saat 09:40."
+    ],
+    examples: [],
+    related_word_ids: [2580]
+  },
+  {
+    id: "vocab-saat-2581",
+    category: "vocabulary",
+    title: "nineteen minutes to ten a.m. — sabah ona on dokuz var",
+    keywords: ["nineteen minutes to ten a.m.", "sabah ona on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:41.",
+      "🇹🇷 Saat 09:41."
+    ],
+    examples: [],
+    related_word_ids: [2581]
+  },
+  {
+    id: "vocab-saat-2582",
+    category: "vocabulary",
+    title: "eighteen minutes to ten a.m. — sabah ona on sekiz var",
+    keywords: ["eighteen minutes to ten a.m.", "sabah ona on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:42.",
+      "🇹🇷 Saat 09:42."
+    ],
+    examples: [],
+    related_word_ids: [2582]
+  },
+  {
+    id: "vocab-saat-2583",
+    category: "vocabulary",
+    title: "seventeen minutes to ten a.m. — sabah ona on yedi var",
+    keywords: ["seventeen minutes to ten a.m.", "sabah ona on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:43.",
+      "🇹🇷 Saat 09:43."
+    ],
+    examples: [],
+    related_word_ids: [2583]
+  },
+  {
+    id: "vocab-saat-2584",
+    category: "vocabulary",
+    title: "sixteen minutes to ten a.m. — sabah ona on altı var",
+    keywords: ["sixteen minutes to ten a.m.", "sabah ona on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:44.",
+      "🇹🇷 Saat 09:44."
+    ],
+    examples: [],
+    related_word_ids: [2584]
+  },
+  {
+    id: "vocab-saat-2585",
+    category: "vocabulary",
+    title: "a quarter to ten a.m. — sabah ona çeyrek var",
+    keywords: ["a quarter to ten a.m.", "sabah ona çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:45.",
+      "🇹🇷 Saat 09:45."
+    ],
+    examples: [],
+    related_word_ids: [2585]
+  },
+  {
+    id: "vocab-saat-2586",
+    category: "vocabulary",
+    title: "fourteen minutes to ten a.m. — sabah ona on dört var",
+    keywords: ["fourteen minutes to ten a.m.", "sabah ona on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:46.",
+      "🇹🇷 Saat 09:46."
+    ],
+    examples: [],
+    related_word_ids: [2586]
+  },
+  {
+    id: "vocab-saat-2587",
+    category: "vocabulary",
+    title: "thirteen minutes to ten a.m. — sabah ona on üç var",
+    keywords: ["thirteen minutes to ten a.m.", "sabah ona on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:47.",
+      "🇹🇷 Saat 09:47."
+    ],
+    examples: [],
+    related_word_ids: [2587]
+  },
+  {
+    id: "vocab-saat-2588",
+    category: "vocabulary",
+    title: "twelve minutes to ten a.m. — sabah ona on iki var",
+    keywords: ["twelve minutes to ten a.m.", "sabah ona on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:48.",
+      "🇹🇷 Saat 09:48."
+    ],
+    examples: [],
+    related_word_ids: [2588]
+  },
+  {
+    id: "vocab-saat-2589",
+    category: "vocabulary",
+    title: "eleven minutes to ten a.m. — sabah ona on bir var",
+    keywords: ["eleven minutes to ten a.m.", "sabah ona on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:49.",
+      "🇹🇷 Saat 09:49."
+    ],
+    examples: [],
+    related_word_ids: [2589]
+  },
+  {
+    id: "vocab-saat-2590",
+    category: "vocabulary",
+    title: "ten to ten a.m. — sabah ona on var",
+    keywords: ["ten to ten a.m.", "sabah ona on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:50.",
+      "🇹🇷 Saat 09:50."
+    ],
+    examples: [],
+    related_word_ids: [2590]
+  },
+  {
+    id: "vocab-saat-2591",
+    category: "vocabulary",
+    title: "nine minutes to ten a.m. — sabah ona dokuz var",
+    keywords: ["nine minutes to ten a.m.", "sabah ona dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:51.",
+      "🇹🇷 Saat 09:51."
+    ],
+    examples: [],
+    related_word_ids: [2591]
+  },
+  {
+    id: "vocab-saat-2592",
+    category: "vocabulary",
+    title: "eight minutes to ten a.m. — sabah ona sekiz var",
+    keywords: ["eight minutes to ten a.m.", "sabah ona sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:52.",
+      "🇹🇷 Saat 09:52."
+    ],
+    examples: [],
+    related_word_ids: [2592]
+  },
+  {
+    id: "vocab-saat-2593",
+    category: "vocabulary",
+    title: "seven minutes to ten a.m. — sabah ona yedi var",
+    keywords: ["seven minutes to ten a.m.", "sabah ona yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:53.",
+      "🇹🇷 Saat 09:53."
+    ],
+    examples: [],
+    related_word_ids: [2593]
+  },
+  {
+    id: "vocab-saat-2594",
+    category: "vocabulary",
+    title: "six minutes to ten a.m. — sabah ona altı var",
+    keywords: ["six minutes to ten a.m.", "sabah ona altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:54.",
+      "🇹🇷 Saat 09:54."
+    ],
+    examples: [],
+    related_word_ids: [2594]
+  },
+  {
+    id: "vocab-saat-2595",
+    category: "vocabulary",
+    title: "five to ten a.m. — sabah ona beş var",
+    keywords: ["five to ten a.m.", "sabah ona beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:55.",
+      "🇹🇷 Saat 09:55."
+    ],
+    examples: [],
+    related_word_ids: [2595]
+  },
+  {
+    id: "vocab-saat-2596",
+    category: "vocabulary",
+    title: "four minutes to ten a.m. — sabah ona dört var",
+    keywords: ["four minutes to ten a.m.", "sabah ona dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:56.",
+      "🇹🇷 Saat 09:56."
+    ],
+    examples: [],
+    related_word_ids: [2596]
+  },
+  {
+    id: "vocab-saat-2597",
+    category: "vocabulary",
+    title: "three minutes to ten a.m. — sabah ona üç var",
+    keywords: ["three minutes to ten a.m.", "sabah ona üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:57.",
+      "🇹🇷 Saat 09:57."
+    ],
+    examples: [],
+    related_word_ids: [2597]
+  },
+  {
+    id: "vocab-saat-2598",
+    category: "vocabulary",
+    title: "two minutes to ten a.m. — sabah ona iki var",
+    keywords: ["two minutes to ten a.m.", "sabah ona iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:58.",
+      "🇹🇷 Saat 09:58."
+    ],
+    examples: [],
+    related_word_ids: [2598]
+  },
+  {
+    id: "vocab-saat-2599",
+    category: "vocabulary",
+    title: "one minute to ten a.m. — sabah ona bir var",
+    keywords: ["one minute to ten a.m.", "sabah ona bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 09:59.",
+      "🇹🇷 Saat 09:59."
+    ],
+    examples: [],
+    related_word_ids: [2599]
+  },
+  {
+    id: "vocab-saat-2600",
+    category: "vocabulary",
+    title: "ten o'clock a.m. — sabah on",
+    keywords: ["ten o'clock a.m.", "sabah on", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:00.",
+      "🇹🇷 Saat 10:00."
+    ],
+    examples: [],
+    related_word_ids: [2600]
+  },
+  {
+    id: "vocab-saat-2601",
+    category: "vocabulary",
+    title: "one minute past ten a.m. — sabah onu bir geçiyor",
+    keywords: ["one minute past ten a.m.", "sabah onu bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:01.",
+      "🇹🇷 Saat 10:01."
+    ],
+    examples: [],
+    related_word_ids: [2601]
+  },
+  {
+    id: "vocab-saat-2602",
+    category: "vocabulary",
+    title: "two minutes past ten a.m. — sabah onu iki geçiyor",
+    keywords: ["two minutes past ten a.m.", "sabah onu iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:02.",
+      "🇹🇷 Saat 10:02."
+    ],
+    examples: [],
+    related_word_ids: [2602]
+  },
+  {
+    id: "vocab-saat-2603",
+    category: "vocabulary",
+    title: "three minutes past ten a.m. — sabah onu üç geçiyor",
+    keywords: ["three minutes past ten a.m.", "sabah onu üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:03.",
+      "🇹🇷 Saat 10:03."
+    ],
+    examples: [],
+    related_word_ids: [2603]
+  },
+  {
+    id: "vocab-saat-2604",
+    category: "vocabulary",
+    title: "four minutes past ten a.m. — sabah onu dört geçiyor",
+    keywords: ["four minutes past ten a.m.", "sabah onu dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:04.",
+      "🇹🇷 Saat 10:04."
+    ],
+    examples: [],
+    related_word_ids: [2604]
+  },
+  {
+    id: "vocab-saat-2605",
+    category: "vocabulary",
+    title: "five past ten a.m. — sabah onu beş geçiyor",
+    keywords: ["five past ten a.m.", "sabah onu beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:05.",
+      "🇹🇷 Saat 10:05."
+    ],
+    examples: [],
+    related_word_ids: [2605]
+  },
+  {
+    id: "vocab-saat-2606",
+    category: "vocabulary",
+    title: "six minutes past ten a.m. — sabah onu altı geçiyor",
+    keywords: ["six minutes past ten a.m.", "sabah onu altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:06.",
+      "🇹🇷 Saat 10:06."
+    ],
+    examples: [],
+    related_word_ids: [2606]
+  },
+  {
+    id: "vocab-saat-2607",
+    category: "vocabulary",
+    title: "seven minutes past ten a.m. — sabah onu yedi geçiyor",
+    keywords: ["seven minutes past ten a.m.", "sabah onu yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:07.",
+      "🇹🇷 Saat 10:07."
+    ],
+    examples: [],
+    related_word_ids: [2607]
+  },
+  {
+    id: "vocab-saat-2608",
+    category: "vocabulary",
+    title: "eight minutes past ten a.m. — sabah onu sekiz geçiyor",
+    keywords: ["eight minutes past ten a.m.", "sabah onu sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:08.",
+      "🇹🇷 Saat 10:08."
+    ],
+    examples: [],
+    related_word_ids: [2608]
+  },
+  {
+    id: "vocab-saat-2609",
+    category: "vocabulary",
+    title: "nine minutes past ten a.m. — sabah onu dokuz geçiyor",
+    keywords: ["nine minutes past ten a.m.", "sabah onu dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:09.",
+      "🇹🇷 Saat 10:09."
+    ],
+    examples: [],
+    related_word_ids: [2609]
+  },
+  {
+    id: "vocab-saat-2610",
+    category: "vocabulary",
+    title: "ten past ten a.m. — sabah onu on geçiyor",
+    keywords: ["ten past ten a.m.", "sabah onu on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:10.",
+      "🇹🇷 Saat 10:10."
+    ],
+    examples: [],
+    related_word_ids: [2610]
+  },
+  {
+    id: "vocab-saat-2611",
+    category: "vocabulary",
+    title: "eleven minutes past ten a.m. — sabah onu on bir geçiyor",
+    keywords: ["eleven minutes past ten a.m.", "sabah onu on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:11.",
+      "🇹🇷 Saat 10:11."
+    ],
+    examples: [],
+    related_word_ids: [2611]
+  },
+  {
+    id: "vocab-saat-2612",
+    category: "vocabulary",
+    title: "twelve minutes past ten a.m. — sabah onu on iki geçiyor",
+    keywords: ["twelve minutes past ten a.m.", "sabah onu on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:12.",
+      "🇹🇷 Saat 10:12."
+    ],
+    examples: [],
+    related_word_ids: [2612]
+  },
+  {
+    id: "vocab-saat-2613",
+    category: "vocabulary",
+    title: "thirteen minutes past ten a.m. — sabah onu on üç geçiyor",
+    keywords: ["thirteen minutes past ten a.m.", "sabah onu on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:13.",
+      "🇹🇷 Saat 10:13."
+    ],
+    examples: [],
+    related_word_ids: [2613]
+  },
+  {
+    id: "vocab-saat-2614",
+    category: "vocabulary",
+    title: "fourteen minutes past ten a.m. — sabah onu on dört geçiyor",
+    keywords: ["fourteen minutes past ten a.m.", "sabah onu on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:14.",
+      "🇹🇷 Saat 10:14."
+    ],
+    examples: [],
+    related_word_ids: [2614]
+  },
+  {
+    id: "vocab-saat-2615",
+    category: "vocabulary",
+    title: "a quarter past ten a.m. — sabah onu çeyrek geçiyor",
+    keywords: ["a quarter past ten a.m.", "sabah onu çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:15.",
+      "🇹🇷 Saat 10:15."
+    ],
+    examples: [],
+    related_word_ids: [2615]
+  },
+  {
+    id: "vocab-saat-2616",
+    category: "vocabulary",
+    title: "sixteen minutes past ten a.m. — sabah onu on altı geçiyor",
+    keywords: ["sixteen minutes past ten a.m.", "sabah onu on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:16.",
+      "🇹🇷 Saat 10:16."
+    ],
+    examples: [],
+    related_word_ids: [2616]
+  },
+  {
+    id: "vocab-saat-2617",
+    category: "vocabulary",
+    title: "seventeen minutes past ten a.m. — sabah onu on yedi geçiyor",
+    keywords: ["seventeen minutes past ten a.m.", "sabah onu on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:17.",
+      "🇹🇷 Saat 10:17."
+    ],
+    examples: [],
+    related_word_ids: [2617]
+  },
+  {
+    id: "vocab-saat-2618",
+    category: "vocabulary",
+    title: "eighteen minutes past ten a.m. — sabah onu on sekiz geçiyor",
+    keywords: ["eighteen minutes past ten a.m.", "sabah onu on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:18.",
+      "🇹🇷 Saat 10:18."
+    ],
+    examples: [],
+    related_word_ids: [2618]
+  },
+  {
+    id: "vocab-saat-2619",
+    category: "vocabulary",
+    title: "nineteen minutes past ten a.m. — sabah onu on dokuz geçiyor",
+    keywords: ["nineteen minutes past ten a.m.", "sabah onu on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:19.",
+      "🇹🇷 Saat 10:19."
+    ],
+    examples: [],
+    related_word_ids: [2619]
+  },
+  {
+    id: "vocab-saat-2620",
+    category: "vocabulary",
+    title: "twenty past ten a.m. — sabah onu yirmi geçiyor",
+    keywords: ["twenty past ten a.m.", "sabah onu yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:20.",
+      "🇹🇷 Saat 10:20."
+    ],
+    examples: [],
+    related_word_ids: [2620]
+  },
+  {
+    id: "vocab-saat-2621",
+    category: "vocabulary",
+    title: "twenty-one minutes past ten a.m. — sabah onu yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past ten a.m.", "sabah onu yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:21.",
+      "🇹🇷 Saat 10:21."
+    ],
+    examples: [],
+    related_word_ids: [2621]
+  },
+  {
+    id: "vocab-saat-2622",
+    category: "vocabulary",
+    title: "twenty-two minutes past ten a.m. — sabah onu yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past ten a.m.", "sabah onu yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:22.",
+      "🇹🇷 Saat 10:22."
+    ],
+    examples: [],
+    related_word_ids: [2622]
+  },
+  {
+    id: "vocab-saat-2623",
+    category: "vocabulary",
+    title: "twenty-three minutes past ten a.m. — sabah onu yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past ten a.m.", "sabah onu yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:23.",
+      "🇹🇷 Saat 10:23."
+    ],
+    examples: [],
+    related_word_ids: [2623]
+  },
+  {
+    id: "vocab-saat-2624",
+    category: "vocabulary",
+    title: "twenty-four minutes past ten a.m. — sabah onu yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past ten a.m.", "sabah onu yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:24.",
+      "🇹🇷 Saat 10:24."
+    ],
+    examples: [],
+    related_word_ids: [2624]
+  },
+  {
+    id: "vocab-saat-2625",
+    category: "vocabulary",
+    title: "twenty-five past ten a.m. — sabah onu yirmi beş geçiyor",
+    keywords: ["twenty-five past ten a.m.", "sabah onu yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:25.",
+      "🇹🇷 Saat 10:25."
+    ],
+    examples: [],
+    related_word_ids: [2625]
+  },
+  {
+    id: "vocab-saat-2626",
+    category: "vocabulary",
+    title: "twenty-six minutes past ten a.m. — sabah onu yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past ten a.m.", "sabah onu yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:26.",
+      "🇹🇷 Saat 10:26."
+    ],
+    examples: [],
+    related_word_ids: [2626]
+  },
+  {
+    id: "vocab-saat-2627",
+    category: "vocabulary",
+    title: "twenty-seven minutes past ten a.m. — sabah onu yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past ten a.m.", "sabah onu yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:27.",
+      "🇹🇷 Saat 10:27."
+    ],
+    examples: [],
+    related_word_ids: [2627]
+  },
+  {
+    id: "vocab-saat-2628",
+    category: "vocabulary",
+    title: "twenty-eight minutes past ten a.m. — sabah onu yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past ten a.m.", "sabah onu yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:28.",
+      "🇹🇷 Saat 10:28."
+    ],
+    examples: [],
+    related_word_ids: [2628]
+  },
+  {
+    id: "vocab-saat-2629",
+    category: "vocabulary",
+    title: "twenty-nine minutes past ten a.m. — sabah onu yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past ten a.m.", "sabah onu yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:29.",
+      "🇹🇷 Saat 10:29."
+    ],
+    examples: [],
+    related_word_ids: [2629]
+  },
+  {
+    id: "vocab-saat-2630",
+    category: "vocabulary",
+    title: "half past ten a.m. — sabah on buçuk",
+    keywords: ["half past ten a.m.", "sabah on buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:30.",
+      "🇹🇷 Saat 10:30."
+    ],
+    examples: [],
+    related_word_ids: [2630]
+  },
+  {
+    id: "vocab-saat-2631",
+    category: "vocabulary",
+    title: "twenty-nine minutes to eleven a.m. — sabah on bire yirmi dokuz var",
+    keywords: ["twenty-nine minutes to eleven a.m.", "sabah on bire yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:31.",
+      "🇹🇷 Saat 10:31."
+    ],
+    examples: [],
+    related_word_ids: [2631]
+  },
+  {
+    id: "vocab-saat-2632",
+    category: "vocabulary",
+    title: "twenty-eight minutes to eleven a.m. — sabah on bire yirmi sekiz var",
+    keywords: ["twenty-eight minutes to eleven a.m.", "sabah on bire yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:32.",
+      "🇹🇷 Saat 10:32."
+    ],
+    examples: [],
+    related_word_ids: [2632]
+  },
+  {
+    id: "vocab-saat-2633",
+    category: "vocabulary",
+    title: "twenty-seven minutes to eleven a.m. — sabah on bire yirmi yedi var",
+    keywords: ["twenty-seven minutes to eleven a.m.", "sabah on bire yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:33.",
+      "🇹🇷 Saat 10:33."
+    ],
+    examples: [],
+    related_word_ids: [2633]
+  },
+  {
+    id: "vocab-saat-2634",
+    category: "vocabulary",
+    title: "twenty-six minutes to eleven a.m. — sabah on bire yirmi altı var",
+    keywords: ["twenty-six minutes to eleven a.m.", "sabah on bire yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:34.",
+      "🇹🇷 Saat 10:34."
+    ],
+    examples: [],
+    related_word_ids: [2634]
+  },
+  {
+    id: "vocab-saat-2635",
+    category: "vocabulary",
+    title: "twenty-five to eleven a.m. — sabah on bire yirmi beş var",
+    keywords: ["twenty-five to eleven a.m.", "sabah on bire yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:35.",
+      "🇹🇷 Saat 10:35."
+    ],
+    examples: [],
+    related_word_ids: [2635]
+  },
+  {
+    id: "vocab-saat-2636",
+    category: "vocabulary",
+    title: "twenty-four minutes to eleven a.m. — sabah on bire yirmi dört var",
+    keywords: ["twenty-four minutes to eleven a.m.", "sabah on bire yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:36.",
+      "🇹🇷 Saat 10:36."
+    ],
+    examples: [],
+    related_word_ids: [2636]
+  },
+  {
+    id: "vocab-saat-2637",
+    category: "vocabulary",
+    title: "twenty-three minutes to eleven a.m. — sabah on bire yirmi üç var",
+    keywords: ["twenty-three minutes to eleven a.m.", "sabah on bire yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:37.",
+      "🇹🇷 Saat 10:37."
+    ],
+    examples: [],
+    related_word_ids: [2637]
+  },
+  {
+    id: "vocab-saat-2638",
+    category: "vocabulary",
+    title: "twenty-two minutes to eleven a.m. — sabah on bire yirmi iki var",
+    keywords: ["twenty-two minutes to eleven a.m.", "sabah on bire yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:38.",
+      "🇹🇷 Saat 10:38."
+    ],
+    examples: [],
+    related_word_ids: [2638]
+  },
+  {
+    id: "vocab-saat-2639",
+    category: "vocabulary",
+    title: "twenty-one minutes to eleven a.m. — sabah on bire yirmi bir var",
+    keywords: ["twenty-one minutes to eleven a.m.", "sabah on bire yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:39.",
+      "🇹🇷 Saat 10:39."
+    ],
+    examples: [],
+    related_word_ids: [2639]
+  },
+  {
+    id: "vocab-saat-2640",
+    category: "vocabulary",
+    title: "twenty to eleven a.m. — sabah on bire yirmi var",
+    keywords: ["twenty to eleven a.m.", "sabah on bire yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:40.",
+      "🇹🇷 Saat 10:40."
+    ],
+    examples: [],
+    related_word_ids: [2640]
+  },
+  {
+    id: "vocab-saat-2641",
+    category: "vocabulary",
+    title: "nineteen minutes to eleven a.m. — sabah on bire on dokuz var",
+    keywords: ["nineteen minutes to eleven a.m.", "sabah on bire on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:41.",
+      "🇹🇷 Saat 10:41."
+    ],
+    examples: [],
+    related_word_ids: [2641]
+  },
+  {
+    id: "vocab-saat-2642",
+    category: "vocabulary",
+    title: "eighteen minutes to eleven a.m. — sabah on bire on sekiz var",
+    keywords: ["eighteen minutes to eleven a.m.", "sabah on bire on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:42.",
+      "🇹🇷 Saat 10:42."
+    ],
+    examples: [],
+    related_word_ids: [2642]
+  },
+  {
+    id: "vocab-saat-2643",
+    category: "vocabulary",
+    title: "seventeen minutes to eleven a.m. — sabah on bire on yedi var",
+    keywords: ["seventeen minutes to eleven a.m.", "sabah on bire on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:43.",
+      "🇹🇷 Saat 10:43."
+    ],
+    examples: [],
+    related_word_ids: [2643]
+  },
+  {
+    id: "vocab-saat-2644",
+    category: "vocabulary",
+    title: "sixteen minutes to eleven a.m. — sabah on bire on altı var",
+    keywords: ["sixteen minutes to eleven a.m.", "sabah on bire on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:44.",
+      "🇹🇷 Saat 10:44."
+    ],
+    examples: [],
+    related_word_ids: [2644]
+  },
+  {
+    id: "vocab-saat-2645",
+    category: "vocabulary",
+    title: "a quarter to eleven a.m. — sabah on bire çeyrek var",
+    keywords: ["a quarter to eleven a.m.", "sabah on bire çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:45.",
+      "🇹🇷 Saat 10:45."
+    ],
+    examples: [],
+    related_word_ids: [2645]
+  },
+  {
+    id: "vocab-saat-2646",
+    category: "vocabulary",
+    title: "fourteen minutes to eleven a.m. — sabah on bire on dört var",
+    keywords: ["fourteen minutes to eleven a.m.", "sabah on bire on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:46.",
+      "🇹🇷 Saat 10:46."
+    ],
+    examples: [],
+    related_word_ids: [2646]
+  },
+  {
+    id: "vocab-saat-2647",
+    category: "vocabulary",
+    title: "thirteen minutes to eleven a.m. — sabah on bire on üç var",
+    keywords: ["thirteen minutes to eleven a.m.", "sabah on bire on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:47.",
+      "🇹🇷 Saat 10:47."
+    ],
+    examples: [],
+    related_word_ids: [2647]
+  },
+  {
+    id: "vocab-saat-2648",
+    category: "vocabulary",
+    title: "twelve minutes to eleven a.m. — sabah on bire on iki var",
+    keywords: ["twelve minutes to eleven a.m.", "sabah on bire on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:48.",
+      "🇹🇷 Saat 10:48."
+    ],
+    examples: [],
+    related_word_ids: [2648]
+  },
+  {
+    id: "vocab-saat-2649",
+    category: "vocabulary",
+    title: "eleven minutes to eleven a.m. — sabah on bire on bir var",
+    keywords: ["eleven minutes to eleven a.m.", "sabah on bire on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:49.",
+      "🇹🇷 Saat 10:49."
+    ],
+    examples: [],
+    related_word_ids: [2649]
+  },
+  {
+    id: "vocab-saat-2650",
+    category: "vocabulary",
+    title: "ten to eleven a.m. — sabah on bire on var",
+    keywords: ["ten to eleven a.m.", "sabah on bire on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:50.",
+      "🇹🇷 Saat 10:50."
+    ],
+    examples: [],
+    related_word_ids: [2650]
+  },
+  {
+    id: "vocab-saat-2651",
+    category: "vocabulary",
+    title: "nine minutes to eleven a.m. — sabah on bire dokuz var",
+    keywords: ["nine minutes to eleven a.m.", "sabah on bire dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:51.",
+      "🇹🇷 Saat 10:51."
+    ],
+    examples: [],
+    related_word_ids: [2651]
+  },
+  {
+    id: "vocab-saat-2652",
+    category: "vocabulary",
+    title: "eight minutes to eleven a.m. — sabah on bire sekiz var",
+    keywords: ["eight minutes to eleven a.m.", "sabah on bire sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:52.",
+      "🇹🇷 Saat 10:52."
+    ],
+    examples: [],
+    related_word_ids: [2652]
+  },
+  {
+    id: "vocab-saat-2653",
+    category: "vocabulary",
+    title: "seven minutes to eleven a.m. — sabah on bire yedi var",
+    keywords: ["seven minutes to eleven a.m.", "sabah on bire yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:53.",
+      "🇹🇷 Saat 10:53."
+    ],
+    examples: [],
+    related_word_ids: [2653]
+  },
+  {
+    id: "vocab-saat-2654",
+    category: "vocabulary",
+    title: "six minutes to eleven a.m. — sabah on bire altı var",
+    keywords: ["six minutes to eleven a.m.", "sabah on bire altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:54.",
+      "🇹🇷 Saat 10:54."
+    ],
+    examples: [],
+    related_word_ids: [2654]
+  },
+  {
+    id: "vocab-saat-2655",
+    category: "vocabulary",
+    title: "five to eleven a.m. — sabah on bire beş var",
+    keywords: ["five to eleven a.m.", "sabah on bire beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:55.",
+      "🇹🇷 Saat 10:55."
+    ],
+    examples: [],
+    related_word_ids: [2655]
+  },
+  {
+    id: "vocab-saat-2656",
+    category: "vocabulary",
+    title: "four minutes to eleven a.m. — sabah on bire dört var",
+    keywords: ["four minutes to eleven a.m.", "sabah on bire dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:56.",
+      "🇹🇷 Saat 10:56."
+    ],
+    examples: [],
+    related_word_ids: [2656]
+  },
+  {
+    id: "vocab-saat-2657",
+    category: "vocabulary",
+    title: "three minutes to eleven a.m. — sabah on bire üç var",
+    keywords: ["three minutes to eleven a.m.", "sabah on bire üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:57.",
+      "🇹🇷 Saat 10:57."
+    ],
+    examples: [],
+    related_word_ids: [2657]
+  },
+  {
+    id: "vocab-saat-2658",
+    category: "vocabulary",
+    title: "two minutes to eleven a.m. — sabah on bire iki var",
+    keywords: ["two minutes to eleven a.m.", "sabah on bire iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:58.",
+      "🇹🇷 Saat 10:58."
+    ],
+    examples: [],
+    related_word_ids: [2658]
+  },
+  {
+    id: "vocab-saat-2659",
+    category: "vocabulary",
+    title: "one minute to eleven a.m. — sabah on bire bir var",
+    keywords: ["one minute to eleven a.m.", "sabah on bire bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 10:59.",
+      "🇹🇷 Saat 10:59."
+    ],
+    examples: [],
+    related_word_ids: [2659]
+  },
+  {
+    id: "vocab-saat-2660",
+    category: "vocabulary",
+    title: "eleven o'clock a.m. — sabah on bir",
+    keywords: ["eleven o'clock a.m.", "sabah on bir", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:00.",
+      "🇹🇷 Saat 11:00."
+    ],
+    examples: [],
+    related_word_ids: [2660]
+  },
+  {
+    id: "vocab-saat-2661",
+    category: "vocabulary",
+    title: "one minute past eleven a.m. — sabah on biri bir geçiyor",
+    keywords: ["one minute past eleven a.m.", "sabah on biri bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:01.",
+      "🇹🇷 Saat 11:01."
+    ],
+    examples: [],
+    related_word_ids: [2661]
+  },
+  {
+    id: "vocab-saat-2662",
+    category: "vocabulary",
+    title: "two minutes past eleven a.m. — sabah on biri iki geçiyor",
+    keywords: ["two minutes past eleven a.m.", "sabah on biri iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:02.",
+      "🇹🇷 Saat 11:02."
+    ],
+    examples: [],
+    related_word_ids: [2662]
+  },
+  {
+    id: "vocab-saat-2663",
+    category: "vocabulary",
+    title: "three minutes past eleven a.m. — sabah on biri üç geçiyor",
+    keywords: ["three minutes past eleven a.m.", "sabah on biri üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:03.",
+      "🇹🇷 Saat 11:03."
+    ],
+    examples: [],
+    related_word_ids: [2663]
+  },
+  {
+    id: "vocab-saat-2664",
+    category: "vocabulary",
+    title: "four minutes past eleven a.m. — sabah on biri dört geçiyor",
+    keywords: ["four minutes past eleven a.m.", "sabah on biri dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:04.",
+      "🇹🇷 Saat 11:04."
+    ],
+    examples: [],
+    related_word_ids: [2664]
+  },
+  {
+    id: "vocab-saat-2665",
+    category: "vocabulary",
+    title: "five past eleven a.m. — sabah on biri beş geçiyor",
+    keywords: ["five past eleven a.m.", "sabah on biri beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:05.",
+      "🇹🇷 Saat 11:05."
+    ],
+    examples: [],
+    related_word_ids: [2665]
+  },
+  {
+    id: "vocab-saat-2666",
+    category: "vocabulary",
+    title: "six minutes past eleven a.m. — sabah on biri altı geçiyor",
+    keywords: ["six minutes past eleven a.m.", "sabah on biri altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:06.",
+      "🇹🇷 Saat 11:06."
+    ],
+    examples: [],
+    related_word_ids: [2666]
+  },
+  {
+    id: "vocab-saat-2667",
+    category: "vocabulary",
+    title: "seven minutes past eleven a.m. — sabah on biri yedi geçiyor",
+    keywords: ["seven minutes past eleven a.m.", "sabah on biri yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:07.",
+      "🇹🇷 Saat 11:07."
+    ],
+    examples: [],
+    related_word_ids: [2667]
+  },
+  {
+    id: "vocab-saat-2668",
+    category: "vocabulary",
+    title: "eight minutes past eleven a.m. — sabah on biri sekiz geçiyor",
+    keywords: ["eight minutes past eleven a.m.", "sabah on biri sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:08.",
+      "🇹🇷 Saat 11:08."
+    ],
+    examples: [],
+    related_word_ids: [2668]
+  },
+  {
+    id: "vocab-saat-2669",
+    category: "vocabulary",
+    title: "nine minutes past eleven a.m. — sabah on biri dokuz geçiyor",
+    keywords: ["nine minutes past eleven a.m.", "sabah on biri dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:09.",
+      "🇹🇷 Saat 11:09."
+    ],
+    examples: [],
+    related_word_ids: [2669]
+  },
+  {
+    id: "vocab-saat-2670",
+    category: "vocabulary",
+    title: "ten past eleven a.m. — sabah on biri on geçiyor",
+    keywords: ["ten past eleven a.m.", "sabah on biri on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:10.",
+      "🇹🇷 Saat 11:10."
+    ],
+    examples: [],
+    related_word_ids: [2670]
+  },
+  {
+    id: "vocab-saat-2671",
+    category: "vocabulary",
+    title: "eleven minutes past eleven a.m. — sabah on biri on bir geçiyor",
+    keywords: ["eleven minutes past eleven a.m.", "sabah on biri on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:11.",
+      "🇹🇷 Saat 11:11."
+    ],
+    examples: [],
+    related_word_ids: [2671]
+  },
+  {
+    id: "vocab-saat-2672",
+    category: "vocabulary",
+    title: "twelve minutes past eleven a.m. — sabah on biri on iki geçiyor",
+    keywords: ["twelve minutes past eleven a.m.", "sabah on biri on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:12.",
+      "🇹🇷 Saat 11:12."
+    ],
+    examples: [],
+    related_word_ids: [2672]
+  },
+  {
+    id: "vocab-saat-2673",
+    category: "vocabulary",
+    title: "thirteen minutes past eleven a.m. — sabah on biri on üç geçiyor",
+    keywords: ["thirteen minutes past eleven a.m.", "sabah on biri on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:13.",
+      "🇹🇷 Saat 11:13."
+    ],
+    examples: [],
+    related_word_ids: [2673]
+  },
+  {
+    id: "vocab-saat-2674",
+    category: "vocabulary",
+    title: "fourteen minutes past eleven a.m. — sabah on biri on dört geçiyor",
+    keywords: ["fourteen minutes past eleven a.m.", "sabah on biri on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:14.",
+      "🇹🇷 Saat 11:14."
+    ],
+    examples: [],
+    related_word_ids: [2674]
+  },
+  {
+    id: "vocab-saat-2675",
+    category: "vocabulary",
+    title: "a quarter past eleven a.m. — sabah on biri çeyrek geçiyor",
+    keywords: ["a quarter past eleven a.m.", "sabah on biri çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:15.",
+      "🇹🇷 Saat 11:15."
+    ],
+    examples: [],
+    related_word_ids: [2675]
+  },
+  {
+    id: "vocab-saat-2676",
+    category: "vocabulary",
+    title: "sixteen minutes past eleven a.m. — sabah on biri on altı geçiyor",
+    keywords: ["sixteen minutes past eleven a.m.", "sabah on biri on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:16.",
+      "🇹🇷 Saat 11:16."
+    ],
+    examples: [],
+    related_word_ids: [2676]
+  },
+  {
+    id: "vocab-saat-2677",
+    category: "vocabulary",
+    title: "seventeen minutes past eleven a.m. — sabah on biri on yedi geçiyor",
+    keywords: ["seventeen minutes past eleven a.m.", "sabah on biri on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:17.",
+      "🇹🇷 Saat 11:17."
+    ],
+    examples: [],
+    related_word_ids: [2677]
+  },
+  {
+    id: "vocab-saat-2678",
+    category: "vocabulary",
+    title: "eighteen minutes past eleven a.m. — sabah on biri on sekiz geçiyor",
+    keywords: ["eighteen minutes past eleven a.m.", "sabah on biri on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:18.",
+      "🇹🇷 Saat 11:18."
+    ],
+    examples: [],
+    related_word_ids: [2678]
+  },
+  {
+    id: "vocab-saat-2679",
+    category: "vocabulary",
+    title: "nineteen minutes past eleven a.m. — sabah on biri on dokuz geçiyor",
+    keywords: ["nineteen minutes past eleven a.m.", "sabah on biri on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:19.",
+      "🇹🇷 Saat 11:19."
+    ],
+    examples: [],
+    related_word_ids: [2679]
+  },
+  {
+    id: "vocab-saat-2680",
+    category: "vocabulary",
+    title: "twenty past eleven a.m. — sabah on biri yirmi geçiyor",
+    keywords: ["twenty past eleven a.m.", "sabah on biri yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:20.",
+      "🇹🇷 Saat 11:20."
+    ],
+    examples: [],
+    related_word_ids: [2680]
+  },
+  {
+    id: "vocab-saat-2681",
+    category: "vocabulary",
+    title: "twenty-one minutes past eleven a.m. — sabah on biri yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past eleven a.m.", "sabah on biri yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:21.",
+      "🇹🇷 Saat 11:21."
+    ],
+    examples: [],
+    related_word_ids: [2681]
+  },
+  {
+    id: "vocab-saat-2682",
+    category: "vocabulary",
+    title: "twenty-two minutes past eleven a.m. — sabah on biri yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past eleven a.m.", "sabah on biri yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:22.",
+      "🇹🇷 Saat 11:22."
+    ],
+    examples: [],
+    related_word_ids: [2682]
+  },
+  {
+    id: "vocab-saat-2683",
+    category: "vocabulary",
+    title: "twenty-three minutes past eleven a.m. — sabah on biri yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past eleven a.m.", "sabah on biri yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:23.",
+      "🇹🇷 Saat 11:23."
+    ],
+    examples: [],
+    related_word_ids: [2683]
+  },
+  {
+    id: "vocab-saat-2684",
+    category: "vocabulary",
+    title: "twenty-four minutes past eleven a.m. — sabah on biri yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past eleven a.m.", "sabah on biri yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:24.",
+      "🇹🇷 Saat 11:24."
+    ],
+    examples: [],
+    related_word_ids: [2684]
+  },
+  {
+    id: "vocab-saat-2685",
+    category: "vocabulary",
+    title: "twenty-five past eleven a.m. — sabah on biri yirmi beş geçiyor",
+    keywords: ["twenty-five past eleven a.m.", "sabah on biri yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:25.",
+      "🇹🇷 Saat 11:25."
+    ],
+    examples: [],
+    related_word_ids: [2685]
+  },
+  {
+    id: "vocab-saat-2686",
+    category: "vocabulary",
+    title: "twenty-six minutes past eleven a.m. — sabah on biri yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past eleven a.m.", "sabah on biri yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:26.",
+      "🇹🇷 Saat 11:26."
+    ],
+    examples: [],
+    related_word_ids: [2686]
+  },
+  {
+    id: "vocab-saat-2687",
+    category: "vocabulary",
+    title: "twenty-seven minutes past eleven a.m. — sabah on biri yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past eleven a.m.", "sabah on biri yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:27.",
+      "🇹🇷 Saat 11:27."
+    ],
+    examples: [],
+    related_word_ids: [2687]
+  },
+  {
+    id: "vocab-saat-2688",
+    category: "vocabulary",
+    title: "twenty-eight minutes past eleven a.m. — sabah on biri yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past eleven a.m.", "sabah on biri yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:28.",
+      "🇹🇷 Saat 11:28."
+    ],
+    examples: [],
+    related_word_ids: [2688]
+  },
+  {
+    id: "vocab-saat-2689",
+    category: "vocabulary",
+    title: "twenty-nine minutes past eleven a.m. — sabah on biri yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past eleven a.m.", "sabah on biri yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:29.",
+      "🇹🇷 Saat 11:29."
+    ],
+    examples: [],
+    related_word_ids: [2689]
+  },
+  {
+    id: "vocab-saat-2690",
+    category: "vocabulary",
+    title: "half past eleven a.m. — sabah on bir buçuk",
+    keywords: ["half past eleven a.m.", "sabah on bir buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:30.",
+      "🇹🇷 Saat 11:30."
+    ],
+    examples: [],
+    related_word_ids: [2690]
+  },
+  {
+    id: "vocab-saat-2691",
+    category: "vocabulary",
+    title: "twenty-nine minutes to twelve a.m. — öğlen on ikiye yirmi dokuz var",
+    keywords: ["twenty-nine minutes to twelve a.m.", "öğlen on ikiye yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:31.",
+      "🇹🇷 Saat 11:31."
+    ],
+    examples: [],
+    related_word_ids: [2691]
+  },
+  {
+    id: "vocab-saat-2692",
+    category: "vocabulary",
+    title: "twenty-eight minutes to twelve a.m. — öğlen on ikiye yirmi sekiz var",
+    keywords: ["twenty-eight minutes to twelve a.m.", "öğlen on ikiye yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:32.",
+      "🇹🇷 Saat 11:32."
+    ],
+    examples: [],
+    related_word_ids: [2692]
+  },
+  {
+    id: "vocab-saat-2693",
+    category: "vocabulary",
+    title: "twenty-seven minutes to twelve a.m. — öğlen on ikiye yirmi yedi var",
+    keywords: ["twenty-seven minutes to twelve a.m.", "öğlen on ikiye yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:33.",
+      "🇹🇷 Saat 11:33."
+    ],
+    examples: [],
+    related_word_ids: [2693]
+  },
+  {
+    id: "vocab-saat-2694",
+    category: "vocabulary",
+    title: "twenty-six minutes to twelve a.m. — öğlen on ikiye yirmi altı var",
+    keywords: ["twenty-six minutes to twelve a.m.", "öğlen on ikiye yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:34.",
+      "🇹🇷 Saat 11:34."
+    ],
+    examples: [],
+    related_word_ids: [2694]
+  },
+  {
+    id: "vocab-saat-2695",
+    category: "vocabulary",
+    title: "twenty-five to twelve a.m. — öğlen on ikiye yirmi beş var",
+    keywords: ["twenty-five to twelve a.m.", "öğlen on ikiye yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:35.",
+      "🇹🇷 Saat 11:35."
+    ],
+    examples: [],
+    related_word_ids: [2695]
+  },
+  {
+    id: "vocab-saat-2696",
+    category: "vocabulary",
+    title: "twenty-four minutes to twelve a.m. — öğlen on ikiye yirmi dört var",
+    keywords: ["twenty-four minutes to twelve a.m.", "öğlen on ikiye yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:36.",
+      "🇹🇷 Saat 11:36."
+    ],
+    examples: [],
+    related_word_ids: [2696]
+  },
+  {
+    id: "vocab-saat-2697",
+    category: "vocabulary",
+    title: "twenty-three minutes to twelve a.m. — öğlen on ikiye yirmi üç var",
+    keywords: ["twenty-three minutes to twelve a.m.", "öğlen on ikiye yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:37.",
+      "🇹🇷 Saat 11:37."
+    ],
+    examples: [],
+    related_word_ids: [2697]
+  },
+  {
+    id: "vocab-saat-2698",
+    category: "vocabulary",
+    title: "twenty-two minutes to twelve a.m. — öğlen on ikiye yirmi iki var",
+    keywords: ["twenty-two minutes to twelve a.m.", "öğlen on ikiye yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:38.",
+      "🇹🇷 Saat 11:38."
+    ],
+    examples: [],
+    related_word_ids: [2698]
+  },
+  {
+    id: "vocab-saat-2699",
+    category: "vocabulary",
+    title: "twenty-one minutes to twelve a.m. — öğlen on ikiye yirmi bir var",
+    keywords: ["twenty-one minutes to twelve a.m.", "öğlen on ikiye yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:39.",
+      "🇹🇷 Saat 11:39."
+    ],
+    examples: [],
+    related_word_ids: [2699]
+  },
+  {
+    id: "vocab-saat-2700",
+    category: "vocabulary",
+    title: "twenty to twelve a.m. — öğlen on ikiye yirmi var",
+    keywords: ["twenty to twelve a.m.", "öğlen on ikiye yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:40.",
+      "🇹🇷 Saat 11:40."
+    ],
+    examples: [],
+    related_word_ids: [2700]
+  },
+  {
+    id: "vocab-saat-2701",
+    category: "vocabulary",
+    title: "nineteen minutes to twelve a.m. — öğlen on ikiye on dokuz var",
+    keywords: ["nineteen minutes to twelve a.m.", "öğlen on ikiye on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:41.",
+      "🇹🇷 Saat 11:41."
+    ],
+    examples: [],
+    related_word_ids: [2701]
+  },
+  {
+    id: "vocab-saat-2702",
+    category: "vocabulary",
+    title: "eighteen minutes to twelve a.m. — öğlen on ikiye on sekiz var",
+    keywords: ["eighteen minutes to twelve a.m.", "öğlen on ikiye on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:42.",
+      "🇹🇷 Saat 11:42."
+    ],
+    examples: [],
+    related_word_ids: [2702]
+  },
+  {
+    id: "vocab-saat-2703",
+    category: "vocabulary",
+    title: "seventeen minutes to twelve a.m. — öğlen on ikiye on yedi var",
+    keywords: ["seventeen minutes to twelve a.m.", "öğlen on ikiye on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:43.",
+      "🇹🇷 Saat 11:43."
+    ],
+    examples: [],
+    related_word_ids: [2703]
+  },
+  {
+    id: "vocab-saat-2704",
+    category: "vocabulary",
+    title: "sixteen minutes to twelve a.m. — öğlen on ikiye on altı var",
+    keywords: ["sixteen minutes to twelve a.m.", "öğlen on ikiye on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:44.",
+      "🇹🇷 Saat 11:44."
+    ],
+    examples: [],
+    related_word_ids: [2704]
+  },
+  {
+    id: "vocab-saat-2705",
+    category: "vocabulary",
+    title: "a quarter to twelve a.m. — öğlen on ikiye çeyrek var",
+    keywords: ["a quarter to twelve a.m.", "öğlen on ikiye çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:45.",
+      "🇹🇷 Saat 11:45."
+    ],
+    examples: [],
+    related_word_ids: [2705]
+  },
+  {
+    id: "vocab-saat-2706",
+    category: "vocabulary",
+    title: "fourteen minutes to twelve a.m. — öğlen on ikiye on dört var",
+    keywords: ["fourteen minutes to twelve a.m.", "öğlen on ikiye on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:46.",
+      "🇹🇷 Saat 11:46."
+    ],
+    examples: [],
+    related_word_ids: [2706]
+  },
+  {
+    id: "vocab-saat-2707",
+    category: "vocabulary",
+    title: "thirteen minutes to twelve a.m. — öğlen on ikiye on üç var",
+    keywords: ["thirteen minutes to twelve a.m.", "öğlen on ikiye on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:47.",
+      "🇹🇷 Saat 11:47."
+    ],
+    examples: [],
+    related_word_ids: [2707]
+  },
+  {
+    id: "vocab-saat-2708",
+    category: "vocabulary",
+    title: "twelve minutes to twelve a.m. — öğlen on ikiye on iki var",
+    keywords: ["twelve minutes to twelve a.m.", "öğlen on ikiye on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:48.",
+      "🇹🇷 Saat 11:48."
+    ],
+    examples: [],
+    related_word_ids: [2708]
+  },
+  {
+    id: "vocab-saat-2709",
+    category: "vocabulary",
+    title: "eleven minutes to twelve a.m. — öğlen on ikiye on bir var",
+    keywords: ["eleven minutes to twelve a.m.", "öğlen on ikiye on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:49.",
+      "🇹🇷 Saat 11:49."
+    ],
+    examples: [],
+    related_word_ids: [2709]
+  },
+  {
+    id: "vocab-saat-2710",
+    category: "vocabulary",
+    title: "ten to twelve a.m. — öğlen on ikiye on var",
+    keywords: ["ten to twelve a.m.", "öğlen on ikiye on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:50.",
+      "🇹🇷 Saat 11:50."
+    ],
+    examples: [],
+    related_word_ids: [2710]
+  },
+  {
+    id: "vocab-saat-2711",
+    category: "vocabulary",
+    title: "nine minutes to twelve a.m. — öğlen on ikiye dokuz var",
+    keywords: ["nine minutes to twelve a.m.", "öğlen on ikiye dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:51.",
+      "🇹🇷 Saat 11:51."
+    ],
+    examples: [],
+    related_word_ids: [2711]
+  },
+  {
+    id: "vocab-saat-2712",
+    category: "vocabulary",
+    title: "eight minutes to twelve a.m. — öğlen on ikiye sekiz var",
+    keywords: ["eight minutes to twelve a.m.", "öğlen on ikiye sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:52.",
+      "🇹🇷 Saat 11:52."
+    ],
+    examples: [],
+    related_word_ids: [2712]
+  },
+  {
+    id: "vocab-saat-2713",
+    category: "vocabulary",
+    title: "seven minutes to twelve a.m. — öğlen on ikiye yedi var",
+    keywords: ["seven minutes to twelve a.m.", "öğlen on ikiye yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:53.",
+      "🇹🇷 Saat 11:53."
+    ],
+    examples: [],
+    related_word_ids: [2713]
+  },
+  {
+    id: "vocab-saat-2714",
+    category: "vocabulary",
+    title: "six minutes to twelve a.m. — öğlen on ikiye altı var",
+    keywords: ["six minutes to twelve a.m.", "öğlen on ikiye altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:54.",
+      "🇹🇷 Saat 11:54."
+    ],
+    examples: [],
+    related_word_ids: [2714]
+  },
+  {
+    id: "vocab-saat-2715",
+    category: "vocabulary",
+    title: "five to twelve a.m. — öğlen on ikiye beş var",
+    keywords: ["five to twelve a.m.", "öğlen on ikiye beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:55.",
+      "🇹🇷 Saat 11:55."
+    ],
+    examples: [],
+    related_word_ids: [2715]
+  },
+  {
+    id: "vocab-saat-2716",
+    category: "vocabulary",
+    title: "four minutes to twelve a.m. — öğlen on ikiye dört var",
+    keywords: ["four minutes to twelve a.m.", "öğlen on ikiye dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:56.",
+      "🇹🇷 Saat 11:56."
+    ],
+    examples: [],
+    related_word_ids: [2716]
+  },
+  {
+    id: "vocab-saat-2717",
+    category: "vocabulary",
+    title: "three minutes to twelve a.m. — öğlen on ikiye üç var",
+    keywords: ["three minutes to twelve a.m.", "öğlen on ikiye üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:57.",
+      "🇹🇷 Saat 11:57."
+    ],
+    examples: [],
+    related_word_ids: [2717]
+  },
+  {
+    id: "vocab-saat-2718",
+    category: "vocabulary",
+    title: "two minutes to twelve a.m. — öğlen on ikiye iki var",
+    keywords: ["two minutes to twelve a.m.", "öğlen on ikiye iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:58.",
+      "🇹🇷 Saat 11:58."
+    ],
+    examples: [],
+    related_word_ids: [2718]
+  },
+  {
+    id: "vocab-saat-2719",
+    category: "vocabulary",
+    title: "one minute to twelve a.m. — öğlen on ikiye bir var",
+    keywords: ["one minute to twelve a.m.", "öğlen on ikiye bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 11:59.",
+      "🇹🇷 Saat 11:59."
+    ],
+    examples: [],
+    related_word_ids: [2719]
+  },
+  {
+    id: "vocab-saat-2720",
+    category: "vocabulary",
+    title: "twelve o'clock / noon p.m. — öğlen on iki",
+    keywords: ["twelve o'clock / noon p.m.", "öğlen on iki", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:00.",
+      "🇹🇷 Saat 12:00."
+    ],
+    examples: [],
+    related_word_ids: [2720]
+  },
+  {
+    id: "vocab-saat-2721",
+    category: "vocabulary",
+    title: "one minute past twelve p.m. — öğlen on ikiyi bir geçiyor",
+    keywords: ["one minute past twelve p.m.", "öğlen on ikiyi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:01.",
+      "🇹🇷 Saat 12:01."
+    ],
+    examples: [],
+    related_word_ids: [2721]
+  },
+  {
+    id: "vocab-saat-2722",
+    category: "vocabulary",
+    title: "two minutes past twelve p.m. — öğlen on ikiyi iki geçiyor",
+    keywords: ["two minutes past twelve p.m.", "öğlen on ikiyi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:02.",
+      "🇹🇷 Saat 12:02."
+    ],
+    examples: [],
+    related_word_ids: [2722]
+  },
+  {
+    id: "vocab-saat-2723",
+    category: "vocabulary",
+    title: "three minutes past twelve p.m. — öğlen on ikiyi üç geçiyor",
+    keywords: ["three minutes past twelve p.m.", "öğlen on ikiyi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:03.",
+      "🇹🇷 Saat 12:03."
+    ],
+    examples: [],
+    related_word_ids: [2723]
+  },
+  {
+    id: "vocab-saat-2724",
+    category: "vocabulary",
+    title: "four minutes past twelve p.m. — öğlen on ikiyi dört geçiyor",
+    keywords: ["four minutes past twelve p.m.", "öğlen on ikiyi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:04.",
+      "🇹🇷 Saat 12:04."
+    ],
+    examples: [],
+    related_word_ids: [2724]
+  },
+  {
+    id: "vocab-saat-2725",
+    category: "vocabulary",
+    title: "five past twelve p.m. — öğlen on ikiyi beş geçiyor",
+    keywords: ["five past twelve p.m.", "öğlen on ikiyi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:05.",
+      "🇹🇷 Saat 12:05."
+    ],
+    examples: [],
+    related_word_ids: [2725]
+  },
+  {
+    id: "vocab-saat-2726",
+    category: "vocabulary",
+    title: "six minutes past twelve p.m. — öğlen on ikiyi altı geçiyor",
+    keywords: ["six minutes past twelve p.m.", "öğlen on ikiyi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:06.",
+      "🇹🇷 Saat 12:06."
+    ],
+    examples: [],
+    related_word_ids: [2726]
+  },
+  {
+    id: "vocab-saat-2727",
+    category: "vocabulary",
+    title: "seven minutes past twelve p.m. — öğlen on ikiyi yedi geçiyor",
+    keywords: ["seven minutes past twelve p.m.", "öğlen on ikiyi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:07.",
+      "🇹🇷 Saat 12:07."
+    ],
+    examples: [],
+    related_word_ids: [2727]
+  },
+  {
+    id: "vocab-saat-2728",
+    category: "vocabulary",
+    title: "eight minutes past twelve p.m. — öğlen on ikiyi sekiz geçiyor",
+    keywords: ["eight minutes past twelve p.m.", "öğlen on ikiyi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:08.",
+      "🇹🇷 Saat 12:08."
+    ],
+    examples: [],
+    related_word_ids: [2728]
+  },
+  {
+    id: "vocab-saat-2729",
+    category: "vocabulary",
+    title: "nine minutes past twelve p.m. — öğlen on ikiyi dokuz geçiyor",
+    keywords: ["nine minutes past twelve p.m.", "öğlen on ikiyi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:09.",
+      "🇹🇷 Saat 12:09."
+    ],
+    examples: [],
+    related_word_ids: [2729]
+  },
+  {
+    id: "vocab-saat-2730",
+    category: "vocabulary",
+    title: "ten past twelve p.m. — öğlen on ikiyi on geçiyor",
+    keywords: ["ten past twelve p.m.", "öğlen on ikiyi on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:10.",
+      "🇹🇷 Saat 12:10."
+    ],
+    examples: [],
+    related_word_ids: [2730]
+  },
+  {
+    id: "vocab-saat-2731",
+    category: "vocabulary",
+    title: "eleven minutes past twelve p.m. — öğlen on ikiyi on bir geçiyor",
+    keywords: ["eleven minutes past twelve p.m.", "öğlen on ikiyi on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:11.",
+      "🇹🇷 Saat 12:11."
+    ],
+    examples: [],
+    related_word_ids: [2731]
+  },
+  {
+    id: "vocab-saat-2732",
+    category: "vocabulary",
+    title: "twelve minutes past twelve p.m. — öğlen on ikiyi on iki geçiyor",
+    keywords: ["twelve minutes past twelve p.m.", "öğlen on ikiyi on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:12.",
+      "🇹🇷 Saat 12:12."
+    ],
+    examples: [],
+    related_word_ids: [2732]
+  },
+  {
+    id: "vocab-saat-2733",
+    category: "vocabulary",
+    title: "thirteen minutes past twelve p.m. — öğlen on ikiyi on üç geçiyor",
+    keywords: ["thirteen minutes past twelve p.m.", "öğlen on ikiyi on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:13.",
+      "🇹🇷 Saat 12:13."
+    ],
+    examples: [],
+    related_word_ids: [2733]
+  },
+  {
+    id: "vocab-saat-2734",
+    category: "vocabulary",
+    title: "fourteen minutes past twelve p.m. — öğlen on ikiyi on dört geçiyor",
+    keywords: ["fourteen minutes past twelve p.m.", "öğlen on ikiyi on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:14.",
+      "🇹🇷 Saat 12:14."
+    ],
+    examples: [],
+    related_word_ids: [2734]
+  },
+  {
+    id: "vocab-saat-2735",
+    category: "vocabulary",
+    title: "a quarter past twelve p.m. — öğlen on ikiyi çeyrek geçiyor",
+    keywords: ["a quarter past twelve p.m.", "öğlen on ikiyi çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:15.",
+      "🇹🇷 Saat 12:15."
+    ],
+    examples: [],
+    related_word_ids: [2735]
+  },
+  {
+    id: "vocab-saat-2736",
+    category: "vocabulary",
+    title: "sixteen minutes past twelve p.m. — öğlen on ikiyi on altı geçiyor",
+    keywords: ["sixteen minutes past twelve p.m.", "öğlen on ikiyi on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:16.",
+      "🇹🇷 Saat 12:16."
+    ],
+    examples: [],
+    related_word_ids: [2736]
+  },
+  {
+    id: "vocab-saat-2737",
+    category: "vocabulary",
+    title: "seventeen minutes past twelve p.m. — öğlen on ikiyi on yedi geçiyor",
+    keywords: ["seventeen minutes past twelve p.m.", "öğlen on ikiyi on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:17.",
+      "🇹🇷 Saat 12:17."
+    ],
+    examples: [],
+    related_word_ids: [2737]
+  },
+  {
+    id: "vocab-saat-2738",
+    category: "vocabulary",
+    title: "eighteen minutes past twelve p.m. — öğlen on ikiyi on sekiz geçiyor",
+    keywords: ["eighteen minutes past twelve p.m.", "öğlen on ikiyi on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:18.",
+      "🇹🇷 Saat 12:18."
+    ],
+    examples: [],
+    related_word_ids: [2738]
+  },
+  {
+    id: "vocab-saat-2739",
+    category: "vocabulary",
+    title: "nineteen minutes past twelve p.m. — öğlen on ikiyi on dokuz geçiyor",
+    keywords: ["nineteen minutes past twelve p.m.", "öğlen on ikiyi on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:19.",
+      "🇹🇷 Saat 12:19."
+    ],
+    examples: [],
+    related_word_ids: [2739]
+  },
+  {
+    id: "vocab-saat-2740",
+    category: "vocabulary",
+    title: "twenty past twelve p.m. — öğlen on ikiyi yirmi geçiyor",
+    keywords: ["twenty past twelve p.m.", "öğlen on ikiyi yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:20.",
+      "🇹🇷 Saat 12:20."
+    ],
+    examples: [],
+    related_word_ids: [2740]
+  },
+  {
+    id: "vocab-saat-2741",
+    category: "vocabulary",
+    title: "twenty-one minutes past twelve p.m. — öğlen on ikiyi yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past twelve p.m.", "öğlen on ikiyi yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:21.",
+      "🇹🇷 Saat 12:21."
+    ],
+    examples: [],
+    related_word_ids: [2741]
+  },
+  {
+    id: "vocab-saat-2742",
+    category: "vocabulary",
+    title: "twenty-two minutes past twelve p.m. — öğlen on ikiyi yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past twelve p.m.", "öğlen on ikiyi yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:22.",
+      "🇹🇷 Saat 12:22."
+    ],
+    examples: [],
+    related_word_ids: [2742]
+  },
+  {
+    id: "vocab-saat-2743",
+    category: "vocabulary",
+    title: "twenty-three minutes past twelve p.m. — öğlen on ikiyi yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past twelve p.m.", "öğlen on ikiyi yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:23.",
+      "🇹🇷 Saat 12:23."
+    ],
+    examples: [],
+    related_word_ids: [2743]
+  },
+  {
+    id: "vocab-saat-2744",
+    category: "vocabulary",
+    title: "twenty-four minutes past twelve p.m. — öğlen on ikiyi yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past twelve p.m.", "öğlen on ikiyi yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:24.",
+      "🇹🇷 Saat 12:24."
+    ],
+    examples: [],
+    related_word_ids: [2744]
+  },
+  {
+    id: "vocab-saat-2745",
+    category: "vocabulary",
+    title: "twenty-five past twelve p.m. — öğlen on ikiyi yirmi beş geçiyor",
+    keywords: ["twenty-five past twelve p.m.", "öğlen on ikiyi yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:25.",
+      "🇹🇷 Saat 12:25."
+    ],
+    examples: [],
+    related_word_ids: [2745]
+  },
+  {
+    id: "vocab-saat-2746",
+    category: "vocabulary",
+    title: "twenty-six minutes past twelve p.m. — öğlen on ikiyi yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past twelve p.m.", "öğlen on ikiyi yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:26.",
+      "🇹🇷 Saat 12:26."
+    ],
+    examples: [],
+    related_word_ids: [2746]
+  },
+  {
+    id: "vocab-saat-2747",
+    category: "vocabulary",
+    title: "twenty-seven minutes past twelve p.m. — öğlen on ikiyi yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past twelve p.m.", "öğlen on ikiyi yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:27.",
+      "🇹🇷 Saat 12:27."
+    ],
+    examples: [],
+    related_word_ids: [2747]
+  },
+  {
+    id: "vocab-saat-2748",
+    category: "vocabulary",
+    title: "twenty-eight minutes past twelve p.m. — öğlen on ikiyi yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past twelve p.m.", "öğlen on ikiyi yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:28.",
+      "🇹🇷 Saat 12:28."
+    ],
+    examples: [],
+    related_word_ids: [2748]
+  },
+  {
+    id: "vocab-saat-2749",
+    category: "vocabulary",
+    title: "twenty-nine minutes past twelve p.m. — öğlen on ikiyi yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past twelve p.m.", "öğlen on ikiyi yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:29.",
+      "🇹🇷 Saat 12:29."
+    ],
+    examples: [],
+    related_word_ids: [2749]
+  },
+  {
+    id: "vocab-saat-2750",
+    category: "vocabulary",
+    title: "half past twelve p.m. — öğlen on iki buçuk",
+    keywords: ["half past twelve p.m.", "öğlen on iki buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:30.",
+      "🇹🇷 Saat 12:30."
+    ],
+    examples: [],
+    related_word_ids: [2750]
+  },
+  {
+    id: "vocab-saat-2751",
+    category: "vocabulary",
+    title: "twenty-nine minutes to one p.m. — öğleden sonra bire yirmi dokuz var",
+    keywords: ["twenty-nine minutes to one p.m.", "öğleden sonra bire yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:31.",
+      "🇹🇷 Saat 12:31."
+    ],
+    examples: [],
+    related_word_ids: [2751]
+  },
+  {
+    id: "vocab-saat-2752",
+    category: "vocabulary",
+    title: "twenty-eight minutes to one p.m. — öğleden sonra bire yirmi sekiz var",
+    keywords: ["twenty-eight minutes to one p.m.", "öğleden sonra bire yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:32.",
+      "🇹🇷 Saat 12:32."
+    ],
+    examples: [],
+    related_word_ids: [2752]
+  },
+  {
+    id: "vocab-saat-2753",
+    category: "vocabulary",
+    title: "twenty-seven minutes to one p.m. — öğleden sonra bire yirmi yedi var",
+    keywords: ["twenty-seven minutes to one p.m.", "öğleden sonra bire yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:33.",
+      "🇹🇷 Saat 12:33."
+    ],
+    examples: [],
+    related_word_ids: [2753]
+  },
+  {
+    id: "vocab-saat-2754",
+    category: "vocabulary",
+    title: "twenty-six minutes to one p.m. — öğleden sonra bire yirmi altı var",
+    keywords: ["twenty-six minutes to one p.m.", "öğleden sonra bire yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:34.",
+      "🇹🇷 Saat 12:34."
+    ],
+    examples: [],
+    related_word_ids: [2754]
+  },
+  {
+    id: "vocab-saat-2755",
+    category: "vocabulary",
+    title: "twenty-five to one p.m. — öğleden sonra bire yirmi beş var",
+    keywords: ["twenty-five to one p.m.", "öğleden sonra bire yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:35.",
+      "🇹🇷 Saat 12:35."
+    ],
+    examples: [],
+    related_word_ids: [2755]
+  },
+  {
+    id: "vocab-saat-2756",
+    category: "vocabulary",
+    title: "twenty-four minutes to one p.m. — öğleden sonra bire yirmi dört var",
+    keywords: ["twenty-four minutes to one p.m.", "öğleden sonra bire yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:36.",
+      "🇹🇷 Saat 12:36."
+    ],
+    examples: [],
+    related_word_ids: [2756]
+  },
+  {
+    id: "vocab-saat-2757",
+    category: "vocabulary",
+    title: "twenty-three minutes to one p.m. — öğleden sonra bire yirmi üç var",
+    keywords: ["twenty-three minutes to one p.m.", "öğleden sonra bire yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:37.",
+      "🇹🇷 Saat 12:37."
+    ],
+    examples: [],
+    related_word_ids: [2757]
+  },
+  {
+    id: "vocab-saat-2758",
+    category: "vocabulary",
+    title: "twenty-two minutes to one p.m. — öğleden sonra bire yirmi iki var",
+    keywords: ["twenty-two minutes to one p.m.", "öğleden sonra bire yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:38.",
+      "🇹🇷 Saat 12:38."
+    ],
+    examples: [],
+    related_word_ids: [2758]
+  },
+  {
+    id: "vocab-saat-2759",
+    category: "vocabulary",
+    title: "twenty-one minutes to one p.m. — öğleden sonra bire yirmi bir var",
+    keywords: ["twenty-one minutes to one p.m.", "öğleden sonra bire yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:39.",
+      "🇹🇷 Saat 12:39."
+    ],
+    examples: [],
+    related_word_ids: [2759]
+  },
+  {
+    id: "vocab-saat-2760",
+    category: "vocabulary",
+    title: "twenty to one p.m. — öğleden sonra bire yirmi var",
+    keywords: ["twenty to one p.m.", "öğleden sonra bire yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:40.",
+      "🇹🇷 Saat 12:40."
+    ],
+    examples: [],
+    related_word_ids: [2760]
+  },
+  {
+    id: "vocab-saat-2761",
+    category: "vocabulary",
+    title: "nineteen minutes to one p.m. — öğleden sonra bire on dokuz var",
+    keywords: ["nineteen minutes to one p.m.", "öğleden sonra bire on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:41.",
+      "🇹🇷 Saat 12:41."
+    ],
+    examples: [],
+    related_word_ids: [2761]
+  },
+  {
+    id: "vocab-saat-2762",
+    category: "vocabulary",
+    title: "eighteen minutes to one p.m. — öğleden sonra bire on sekiz var",
+    keywords: ["eighteen minutes to one p.m.", "öğleden sonra bire on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:42.",
+      "🇹🇷 Saat 12:42."
+    ],
+    examples: [],
+    related_word_ids: [2762]
+  },
+  {
+    id: "vocab-saat-2763",
+    category: "vocabulary",
+    title: "seventeen minutes to one p.m. — öğleden sonra bire on yedi var",
+    keywords: ["seventeen minutes to one p.m.", "öğleden sonra bire on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:43.",
+      "🇹🇷 Saat 12:43."
+    ],
+    examples: [],
+    related_word_ids: [2763]
+  },
+  {
+    id: "vocab-saat-2764",
+    category: "vocabulary",
+    title: "sixteen minutes to one p.m. — öğleden sonra bire on altı var",
+    keywords: ["sixteen minutes to one p.m.", "öğleden sonra bire on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:44.",
+      "🇹🇷 Saat 12:44."
+    ],
+    examples: [],
+    related_word_ids: [2764]
+  },
+  {
+    id: "vocab-saat-2765",
+    category: "vocabulary",
+    title: "a quarter to one p.m. — öğleden sonra bire çeyrek var",
+    keywords: ["a quarter to one p.m.", "öğleden sonra bire çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:45.",
+      "🇹🇷 Saat 12:45."
+    ],
+    examples: [],
+    related_word_ids: [2765]
+  },
+  {
+    id: "vocab-saat-2766",
+    category: "vocabulary",
+    title: "fourteen minutes to one p.m. — öğleden sonra bire on dört var",
+    keywords: ["fourteen minutes to one p.m.", "öğleden sonra bire on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:46.",
+      "🇹🇷 Saat 12:46."
+    ],
+    examples: [],
+    related_word_ids: [2766]
+  },
+  {
+    id: "vocab-saat-2767",
+    category: "vocabulary",
+    title: "thirteen minutes to one p.m. — öğleden sonra bire on üç var",
+    keywords: ["thirteen minutes to one p.m.", "öğleden sonra bire on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:47.",
+      "🇹🇷 Saat 12:47."
+    ],
+    examples: [],
+    related_word_ids: [2767]
+  },
+  {
+    id: "vocab-saat-2768",
+    category: "vocabulary",
+    title: "twelve minutes to one p.m. — öğleden sonra bire on iki var",
+    keywords: ["twelve minutes to one p.m.", "öğleden sonra bire on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:48.",
+      "🇹🇷 Saat 12:48."
+    ],
+    examples: [],
+    related_word_ids: [2768]
+  },
+  {
+    id: "vocab-saat-2769",
+    category: "vocabulary",
+    title: "eleven minutes to one p.m. — öğleden sonra bire on bir var",
+    keywords: ["eleven minutes to one p.m.", "öğleden sonra bire on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:49.",
+      "🇹🇷 Saat 12:49."
+    ],
+    examples: [],
+    related_word_ids: [2769]
+  },
+  {
+    id: "vocab-saat-2770",
+    category: "vocabulary",
+    title: "ten to one p.m. — öğleden sonra bire on var",
+    keywords: ["ten to one p.m.", "öğleden sonra bire on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:50.",
+      "🇹🇷 Saat 12:50."
+    ],
+    examples: [],
+    related_word_ids: [2770]
+  },
+  {
+    id: "vocab-saat-2771",
+    category: "vocabulary",
+    title: "nine minutes to one p.m. — öğleden sonra bire dokuz var",
+    keywords: ["nine minutes to one p.m.", "öğleden sonra bire dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:51.",
+      "🇹🇷 Saat 12:51."
+    ],
+    examples: [],
+    related_word_ids: [2771]
+  },
+  {
+    id: "vocab-saat-2772",
+    category: "vocabulary",
+    title: "eight minutes to one p.m. — öğleden sonra bire sekiz var",
+    keywords: ["eight minutes to one p.m.", "öğleden sonra bire sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:52.",
+      "🇹🇷 Saat 12:52."
+    ],
+    examples: [],
+    related_word_ids: [2772]
+  },
+  {
+    id: "vocab-saat-2773",
+    category: "vocabulary",
+    title: "seven minutes to one p.m. — öğleden sonra bire yedi var",
+    keywords: ["seven minutes to one p.m.", "öğleden sonra bire yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:53.",
+      "🇹🇷 Saat 12:53."
+    ],
+    examples: [],
+    related_word_ids: [2773]
+  },
+  {
+    id: "vocab-saat-2774",
+    category: "vocabulary",
+    title: "six minutes to one p.m. — öğleden sonra bire altı var",
+    keywords: ["six minutes to one p.m.", "öğleden sonra bire altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:54.",
+      "🇹🇷 Saat 12:54."
+    ],
+    examples: [],
+    related_word_ids: [2774]
+  },
+  {
+    id: "vocab-saat-2775",
+    category: "vocabulary",
+    title: "five to one p.m. — öğleden sonra bire beş var",
+    keywords: ["five to one p.m.", "öğleden sonra bire beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:55.",
+      "🇹🇷 Saat 12:55."
+    ],
+    examples: [],
+    related_word_ids: [2775]
+  },
+  {
+    id: "vocab-saat-2776",
+    category: "vocabulary",
+    title: "four minutes to one p.m. — öğleden sonra bire dört var",
+    keywords: ["four minutes to one p.m.", "öğleden sonra bire dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:56.",
+      "🇹🇷 Saat 12:56."
+    ],
+    examples: [],
+    related_word_ids: [2776]
+  },
+  {
+    id: "vocab-saat-2777",
+    category: "vocabulary",
+    title: "three minutes to one p.m. — öğleden sonra bire üç var",
+    keywords: ["three minutes to one p.m.", "öğleden sonra bire üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:57.",
+      "🇹🇷 Saat 12:57."
+    ],
+    examples: [],
+    related_word_ids: [2777]
+  },
+  {
+    id: "vocab-saat-2778",
+    category: "vocabulary",
+    title: "two minutes to one p.m. — öğleden sonra bire iki var",
+    keywords: ["two minutes to one p.m.", "öğleden sonra bire iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:58.",
+      "🇹🇷 Saat 12:58."
+    ],
+    examples: [],
+    related_word_ids: [2778]
+  },
+  {
+    id: "vocab-saat-2779",
+    category: "vocabulary",
+    title: "one minute to one p.m. — öğleden sonra bire bir var",
+    keywords: ["one minute to one p.m.", "öğleden sonra bire bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 12:59.",
+      "🇹🇷 Saat 12:59."
+    ],
+    examples: [],
+    related_word_ids: [2779]
+  },
+  {
+    id: "vocab-saat-2780",
+    category: "vocabulary",
+    title: "one o'clock p.m. — öğleden sonra bir",
+    keywords: ["one o'clock p.m.", "öğleden sonra bir", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:00.",
+      "🇹🇷 Saat 13:00."
+    ],
+    examples: [],
+    related_word_ids: [2780]
+  },
+  {
+    id: "vocab-saat-2781",
+    category: "vocabulary",
+    title: "one minute past one p.m. — öğleden sonra biri bir geçiyor",
+    keywords: ["one minute past one p.m.", "öğleden sonra biri bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:01.",
+      "🇹🇷 Saat 13:01."
+    ],
+    examples: [],
+    related_word_ids: [2781]
+  },
+  {
+    id: "vocab-saat-2782",
+    category: "vocabulary",
+    title: "two minutes past one p.m. — öğleden sonra biri iki geçiyor",
+    keywords: ["two minutes past one p.m.", "öğleden sonra biri iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:02.",
+      "🇹🇷 Saat 13:02."
+    ],
+    examples: [],
+    related_word_ids: [2782]
+  },
+  {
+    id: "vocab-saat-2783",
+    category: "vocabulary",
+    title: "three minutes past one p.m. — öğleden sonra biri üç geçiyor",
+    keywords: ["three minutes past one p.m.", "öğleden sonra biri üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:03.",
+      "🇹🇷 Saat 13:03."
+    ],
+    examples: [],
+    related_word_ids: [2783]
+  },
+  {
+    id: "vocab-saat-2784",
+    category: "vocabulary",
+    title: "four minutes past one p.m. — öğleden sonra biri dört geçiyor",
+    keywords: ["four minutes past one p.m.", "öğleden sonra biri dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:04.",
+      "🇹🇷 Saat 13:04."
+    ],
+    examples: [],
+    related_word_ids: [2784]
+  },
+  {
+    id: "vocab-saat-2785",
+    category: "vocabulary",
+    title: "five past one p.m. — öğleden sonra biri beş geçiyor",
+    keywords: ["five past one p.m.", "öğleden sonra biri beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:05.",
+      "🇹🇷 Saat 13:05."
+    ],
+    examples: [],
+    related_word_ids: [2785]
+  },
+  {
+    id: "vocab-saat-2786",
+    category: "vocabulary",
+    title: "six minutes past one p.m. — öğleden sonra biri altı geçiyor",
+    keywords: ["six minutes past one p.m.", "öğleden sonra biri altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:06.",
+      "🇹🇷 Saat 13:06."
+    ],
+    examples: [],
+    related_word_ids: [2786]
+  },
+  {
+    id: "vocab-saat-2787",
+    category: "vocabulary",
+    title: "seven minutes past one p.m. — öğleden sonra biri yedi geçiyor",
+    keywords: ["seven minutes past one p.m.", "öğleden sonra biri yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:07.",
+      "🇹🇷 Saat 13:07."
+    ],
+    examples: [],
+    related_word_ids: [2787]
+  },
+  {
+    id: "vocab-saat-2788",
+    category: "vocabulary",
+    title: "eight minutes past one p.m. — öğleden sonra biri sekiz geçiyor",
+    keywords: ["eight minutes past one p.m.", "öğleden sonra biri sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:08.",
+      "🇹🇷 Saat 13:08."
+    ],
+    examples: [],
+    related_word_ids: [2788]
+  },
+  {
+    id: "vocab-saat-2789",
+    category: "vocabulary",
+    title: "nine minutes past one p.m. — öğleden sonra biri dokuz geçiyor",
+    keywords: ["nine minutes past one p.m.", "öğleden sonra biri dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:09.",
+      "🇹🇷 Saat 13:09."
+    ],
+    examples: [],
+    related_word_ids: [2789]
+  },
+  {
+    id: "vocab-saat-2790",
+    category: "vocabulary",
+    title: "ten past one p.m. — öğleden sonra biri on geçiyor",
+    keywords: ["ten past one p.m.", "öğleden sonra biri on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:10.",
+      "🇹🇷 Saat 13:10."
+    ],
+    examples: [],
+    related_word_ids: [2790]
+  },
+  {
+    id: "vocab-saat-2791",
+    category: "vocabulary",
+    title: "eleven minutes past one p.m. — öğleden sonra biri on bir geçiyor",
+    keywords: ["eleven minutes past one p.m.", "öğleden sonra biri on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:11.",
+      "🇹🇷 Saat 13:11."
+    ],
+    examples: [],
+    related_word_ids: [2791]
+  },
+  {
+    id: "vocab-saat-2792",
+    category: "vocabulary",
+    title: "twelve minutes past one p.m. — öğleden sonra biri on iki geçiyor",
+    keywords: ["twelve minutes past one p.m.", "öğleden sonra biri on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:12.",
+      "🇹🇷 Saat 13:12."
+    ],
+    examples: [],
+    related_word_ids: [2792]
+  },
+  {
+    id: "vocab-saat-2793",
+    category: "vocabulary",
+    title: "thirteen minutes past one p.m. — öğleden sonra biri on üç geçiyor",
+    keywords: ["thirteen minutes past one p.m.", "öğleden sonra biri on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:13.",
+      "🇹🇷 Saat 13:13."
+    ],
+    examples: [],
+    related_word_ids: [2793]
+  },
+  {
+    id: "vocab-saat-2794",
+    category: "vocabulary",
+    title: "fourteen minutes past one p.m. — öğleden sonra biri on dört geçiyor",
+    keywords: ["fourteen minutes past one p.m.", "öğleden sonra biri on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:14.",
+      "🇹🇷 Saat 13:14."
+    ],
+    examples: [],
+    related_word_ids: [2794]
+  },
+  {
+    id: "vocab-saat-2795",
+    category: "vocabulary",
+    title: "a quarter past one p.m. — öğleden sonra biri çeyrek geçiyor",
+    keywords: ["a quarter past one p.m.", "öğleden sonra biri çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:15.",
+      "🇹🇷 Saat 13:15."
+    ],
+    examples: [],
+    related_word_ids: [2795]
+  },
+  {
+    id: "vocab-saat-2796",
+    category: "vocabulary",
+    title: "sixteen minutes past one p.m. — öğleden sonra biri on altı geçiyor",
+    keywords: ["sixteen minutes past one p.m.", "öğleden sonra biri on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:16.",
+      "🇹🇷 Saat 13:16."
+    ],
+    examples: [],
+    related_word_ids: [2796]
+  },
+  {
+    id: "vocab-saat-2797",
+    category: "vocabulary",
+    title: "seventeen minutes past one p.m. — öğleden sonra biri on yedi geçiyor",
+    keywords: ["seventeen minutes past one p.m.", "öğleden sonra biri on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:17.",
+      "🇹🇷 Saat 13:17."
+    ],
+    examples: [],
+    related_word_ids: [2797]
+  },
+  {
+    id: "vocab-saat-2798",
+    category: "vocabulary",
+    title: "eighteen minutes past one p.m. — öğleden sonra biri on sekiz geçiyor",
+    keywords: ["eighteen minutes past one p.m.", "öğleden sonra biri on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:18.",
+      "🇹🇷 Saat 13:18."
+    ],
+    examples: [],
+    related_word_ids: [2798]
+  },
+  {
+    id: "vocab-saat-2799",
+    category: "vocabulary",
+    title: "nineteen minutes past one p.m. — öğleden sonra biri on dokuz geçiyor",
+    keywords: ["nineteen minutes past one p.m.", "öğleden sonra biri on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:19.",
+      "🇹🇷 Saat 13:19."
+    ],
+    examples: [],
+    related_word_ids: [2799]
+  },
+  {
+    id: "vocab-saat-2800",
+    category: "vocabulary",
+    title: "twenty past one p.m. — öğleden sonra biri yirmi geçiyor",
+    keywords: ["twenty past one p.m.", "öğleden sonra biri yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:20.",
+      "🇹🇷 Saat 13:20."
+    ],
+    examples: [],
+    related_word_ids: [2800]
+  },
+  {
+    id: "vocab-saat-2801",
+    category: "vocabulary",
+    title: "twenty-one minutes past one p.m. — öğleden sonra biri yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past one p.m.", "öğleden sonra biri yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:21.",
+      "🇹🇷 Saat 13:21."
+    ],
+    examples: [],
+    related_word_ids: [2801]
+  },
+  {
+    id: "vocab-saat-2802",
+    category: "vocabulary",
+    title: "twenty-two minutes past one p.m. — öğleden sonra biri yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past one p.m.", "öğleden sonra biri yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:22.",
+      "🇹🇷 Saat 13:22."
+    ],
+    examples: [],
+    related_word_ids: [2802]
+  },
+  {
+    id: "vocab-saat-2803",
+    category: "vocabulary",
+    title: "twenty-three minutes past one p.m. — öğleden sonra biri yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past one p.m.", "öğleden sonra biri yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:23.",
+      "🇹🇷 Saat 13:23."
+    ],
+    examples: [],
+    related_word_ids: [2803]
+  },
+  {
+    id: "vocab-saat-2804",
+    category: "vocabulary",
+    title: "twenty-four minutes past one p.m. — öğleden sonra biri yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past one p.m.", "öğleden sonra biri yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:24.",
+      "🇹🇷 Saat 13:24."
+    ],
+    examples: [],
+    related_word_ids: [2804]
+  },
+  {
+    id: "vocab-saat-2805",
+    category: "vocabulary",
+    title: "twenty-five past one p.m. — öğleden sonra biri yirmi beş geçiyor",
+    keywords: ["twenty-five past one p.m.", "öğleden sonra biri yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:25.",
+      "🇹🇷 Saat 13:25."
+    ],
+    examples: [],
+    related_word_ids: [2805]
+  },
+  {
+    id: "vocab-saat-2806",
+    category: "vocabulary",
+    title: "twenty-six minutes past one p.m. — öğleden sonra biri yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past one p.m.", "öğleden sonra biri yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:26.",
+      "🇹🇷 Saat 13:26."
+    ],
+    examples: [],
+    related_word_ids: [2806]
+  },
+  {
+    id: "vocab-saat-2807",
+    category: "vocabulary",
+    title: "twenty-seven minutes past one p.m. — öğleden sonra biri yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past one p.m.", "öğleden sonra biri yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:27.",
+      "🇹🇷 Saat 13:27."
+    ],
+    examples: [],
+    related_word_ids: [2807]
+  },
+  {
+    id: "vocab-saat-2808",
+    category: "vocabulary",
+    title: "twenty-eight minutes past one p.m. — öğleden sonra biri yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past one p.m.", "öğleden sonra biri yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:28.",
+      "🇹🇷 Saat 13:28."
+    ],
+    examples: [],
+    related_word_ids: [2808]
+  },
+  {
+    id: "vocab-saat-2809",
+    category: "vocabulary",
+    title: "twenty-nine minutes past one p.m. — öğleden sonra biri yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past one p.m.", "öğleden sonra biri yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:29.",
+      "🇹🇷 Saat 13:29."
+    ],
+    examples: [],
+    related_word_ids: [2809]
+  },
+  {
+    id: "vocab-saat-2810",
+    category: "vocabulary",
+    title: "half past one p.m. — öğleden sonra bir buçuk",
+    keywords: ["half past one p.m.", "öğleden sonra bir buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:30.",
+      "🇹🇷 Saat 13:30."
+    ],
+    examples: [],
+    related_word_ids: [2810]
+  },
+  {
+    id: "vocab-saat-2811",
+    category: "vocabulary",
+    title: "twenty-nine minutes to two p.m. — öğleden sonra ikiye yirmi dokuz var",
+    keywords: ["twenty-nine minutes to two p.m.", "öğleden sonra ikiye yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:31.",
+      "🇹🇷 Saat 13:31."
+    ],
+    examples: [],
+    related_word_ids: [2811]
+  },
+  {
+    id: "vocab-saat-2812",
+    category: "vocabulary",
+    title: "twenty-eight minutes to two p.m. — öğleden sonra ikiye yirmi sekiz var",
+    keywords: ["twenty-eight minutes to two p.m.", "öğleden sonra ikiye yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:32.",
+      "🇹🇷 Saat 13:32."
+    ],
+    examples: [],
+    related_word_ids: [2812]
+  },
+  {
+    id: "vocab-saat-2813",
+    category: "vocabulary",
+    title: "twenty-seven minutes to two p.m. — öğleden sonra ikiye yirmi yedi var",
+    keywords: ["twenty-seven minutes to two p.m.", "öğleden sonra ikiye yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:33.",
+      "🇹🇷 Saat 13:33."
+    ],
+    examples: [],
+    related_word_ids: [2813]
+  },
+  {
+    id: "vocab-saat-2814",
+    category: "vocabulary",
+    title: "twenty-six minutes to two p.m. — öğleden sonra ikiye yirmi altı var",
+    keywords: ["twenty-six minutes to two p.m.", "öğleden sonra ikiye yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:34.",
+      "🇹🇷 Saat 13:34."
+    ],
+    examples: [],
+    related_word_ids: [2814]
+  },
+  {
+    id: "vocab-saat-2815",
+    category: "vocabulary",
+    title: "twenty-five to two p.m. — öğleden sonra ikiye yirmi beş var",
+    keywords: ["twenty-five to two p.m.", "öğleden sonra ikiye yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:35.",
+      "🇹🇷 Saat 13:35."
+    ],
+    examples: [],
+    related_word_ids: [2815]
+  },
+  {
+    id: "vocab-saat-2816",
+    category: "vocabulary",
+    title: "twenty-four minutes to two p.m. — öğleden sonra ikiye yirmi dört var",
+    keywords: ["twenty-four minutes to two p.m.", "öğleden sonra ikiye yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:36.",
+      "🇹🇷 Saat 13:36."
+    ],
+    examples: [],
+    related_word_ids: [2816]
+  },
+  {
+    id: "vocab-saat-2817",
+    category: "vocabulary",
+    title: "twenty-three minutes to two p.m. — öğleden sonra ikiye yirmi üç var",
+    keywords: ["twenty-three minutes to two p.m.", "öğleden sonra ikiye yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:37.",
+      "🇹🇷 Saat 13:37."
+    ],
+    examples: [],
+    related_word_ids: [2817]
+  },
+  {
+    id: "vocab-saat-2818",
+    category: "vocabulary",
+    title: "twenty-two minutes to two p.m. — öğleden sonra ikiye yirmi iki var",
+    keywords: ["twenty-two minutes to two p.m.", "öğleden sonra ikiye yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:38.",
+      "🇹🇷 Saat 13:38."
+    ],
+    examples: [],
+    related_word_ids: [2818]
+  },
+  {
+    id: "vocab-saat-2819",
+    category: "vocabulary",
+    title: "twenty-one minutes to two p.m. — öğleden sonra ikiye yirmi bir var",
+    keywords: ["twenty-one minutes to two p.m.", "öğleden sonra ikiye yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:39.",
+      "🇹🇷 Saat 13:39."
+    ],
+    examples: [],
+    related_word_ids: [2819]
+  },
+  {
+    id: "vocab-saat-2820",
+    category: "vocabulary",
+    title: "twenty to two p.m. — öğleden sonra ikiye yirmi var",
+    keywords: ["twenty to two p.m.", "öğleden sonra ikiye yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:40.",
+      "🇹🇷 Saat 13:40."
+    ],
+    examples: [],
+    related_word_ids: [2820]
+  },
+  {
+    id: "vocab-saat-2821",
+    category: "vocabulary",
+    title: "nineteen minutes to two p.m. — öğleden sonra ikiye on dokuz var",
+    keywords: ["nineteen minutes to two p.m.", "öğleden sonra ikiye on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:41.",
+      "🇹🇷 Saat 13:41."
+    ],
+    examples: [],
+    related_word_ids: [2821]
+  },
+  {
+    id: "vocab-saat-2822",
+    category: "vocabulary",
+    title: "eighteen minutes to two p.m. — öğleden sonra ikiye on sekiz var",
+    keywords: ["eighteen minutes to two p.m.", "öğleden sonra ikiye on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:42.",
+      "🇹🇷 Saat 13:42."
+    ],
+    examples: [],
+    related_word_ids: [2822]
+  },
+  {
+    id: "vocab-saat-2823",
+    category: "vocabulary",
+    title: "seventeen minutes to two p.m. — öğleden sonra ikiye on yedi var",
+    keywords: ["seventeen minutes to two p.m.", "öğleden sonra ikiye on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:43.",
+      "🇹🇷 Saat 13:43."
+    ],
+    examples: [],
+    related_word_ids: [2823]
+  },
+  {
+    id: "vocab-saat-2824",
+    category: "vocabulary",
+    title: "sixteen minutes to two p.m. — öğleden sonra ikiye on altı var",
+    keywords: ["sixteen minutes to two p.m.", "öğleden sonra ikiye on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:44.",
+      "🇹🇷 Saat 13:44."
+    ],
+    examples: [],
+    related_word_ids: [2824]
+  },
+  {
+    id: "vocab-saat-2825",
+    category: "vocabulary",
+    title: "a quarter to two p.m. — öğleden sonra ikiye çeyrek var",
+    keywords: ["a quarter to two p.m.", "öğleden sonra ikiye çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:45.",
+      "🇹🇷 Saat 13:45."
+    ],
+    examples: [],
+    related_word_ids: [2825]
+  },
+  {
+    id: "vocab-saat-2826",
+    category: "vocabulary",
+    title: "fourteen minutes to two p.m. — öğleden sonra ikiye on dört var",
+    keywords: ["fourteen minutes to two p.m.", "öğleden sonra ikiye on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:46.",
+      "🇹🇷 Saat 13:46."
+    ],
+    examples: [],
+    related_word_ids: [2826]
+  },
+  {
+    id: "vocab-saat-2827",
+    category: "vocabulary",
+    title: "thirteen minutes to two p.m. — öğleden sonra ikiye on üç var",
+    keywords: ["thirteen minutes to two p.m.", "öğleden sonra ikiye on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:47.",
+      "🇹🇷 Saat 13:47."
+    ],
+    examples: [],
+    related_word_ids: [2827]
+  },
+  {
+    id: "vocab-saat-2828",
+    category: "vocabulary",
+    title: "twelve minutes to two p.m. — öğleden sonra ikiye on iki var",
+    keywords: ["twelve minutes to two p.m.", "öğleden sonra ikiye on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:48.",
+      "🇹🇷 Saat 13:48."
+    ],
+    examples: [],
+    related_word_ids: [2828]
+  },
+  {
+    id: "vocab-saat-2829",
+    category: "vocabulary",
+    title: "eleven minutes to two p.m. — öğleden sonra ikiye on bir var",
+    keywords: ["eleven minutes to two p.m.", "öğleden sonra ikiye on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:49.",
+      "🇹🇷 Saat 13:49."
+    ],
+    examples: [],
+    related_word_ids: [2829]
+  },
+  {
+    id: "vocab-saat-2830",
+    category: "vocabulary",
+    title: "ten to two p.m. — öğleden sonra ikiye on var",
+    keywords: ["ten to two p.m.", "öğleden sonra ikiye on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:50.",
+      "🇹🇷 Saat 13:50."
+    ],
+    examples: [],
+    related_word_ids: [2830]
+  },
+  {
+    id: "vocab-saat-2831",
+    category: "vocabulary",
+    title: "nine minutes to two p.m. — öğleden sonra ikiye dokuz var",
+    keywords: ["nine minutes to two p.m.", "öğleden sonra ikiye dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:51.",
+      "🇹🇷 Saat 13:51."
+    ],
+    examples: [],
+    related_word_ids: [2831]
+  },
+  {
+    id: "vocab-saat-2832",
+    category: "vocabulary",
+    title: "eight minutes to two p.m. — öğleden sonra ikiye sekiz var",
+    keywords: ["eight minutes to two p.m.", "öğleden sonra ikiye sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:52.",
+      "🇹🇷 Saat 13:52."
+    ],
+    examples: [],
+    related_word_ids: [2832]
+  },
+  {
+    id: "vocab-saat-2833",
+    category: "vocabulary",
+    title: "seven minutes to two p.m. — öğleden sonra ikiye yedi var",
+    keywords: ["seven minutes to two p.m.", "öğleden sonra ikiye yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:53.",
+      "🇹🇷 Saat 13:53."
+    ],
+    examples: [],
+    related_word_ids: [2833]
+  },
+  {
+    id: "vocab-saat-2834",
+    category: "vocabulary",
+    title: "six minutes to two p.m. — öğleden sonra ikiye altı var",
+    keywords: ["six minutes to two p.m.", "öğleden sonra ikiye altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:54.",
+      "🇹🇷 Saat 13:54."
+    ],
+    examples: [],
+    related_word_ids: [2834]
+  },
+  {
+    id: "vocab-saat-2835",
+    category: "vocabulary",
+    title: "five to two p.m. — öğleden sonra ikiye beş var",
+    keywords: ["five to two p.m.", "öğleden sonra ikiye beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:55.",
+      "🇹🇷 Saat 13:55."
+    ],
+    examples: [],
+    related_word_ids: [2835]
+  },
+  {
+    id: "vocab-saat-2836",
+    category: "vocabulary",
+    title: "four minutes to two p.m. — öğleden sonra ikiye dört var",
+    keywords: ["four minutes to two p.m.", "öğleden sonra ikiye dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:56.",
+      "🇹🇷 Saat 13:56."
+    ],
+    examples: [],
+    related_word_ids: [2836]
+  },
+  {
+    id: "vocab-saat-2837",
+    category: "vocabulary",
+    title: "three minutes to two p.m. — öğleden sonra ikiye üç var",
+    keywords: ["three minutes to two p.m.", "öğleden sonra ikiye üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:57.",
+      "🇹🇷 Saat 13:57."
+    ],
+    examples: [],
+    related_word_ids: [2837]
+  },
+  {
+    id: "vocab-saat-2838",
+    category: "vocabulary",
+    title: "two minutes to two p.m. — öğleden sonra ikiye iki var",
+    keywords: ["two minutes to two p.m.", "öğleden sonra ikiye iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:58.",
+      "🇹🇷 Saat 13:58."
+    ],
+    examples: [],
+    related_word_ids: [2838]
+  },
+  {
+    id: "vocab-saat-2839",
+    category: "vocabulary",
+    title: "one minute to two p.m. — öğleden sonra ikiye bir var",
+    keywords: ["one minute to two p.m.", "öğleden sonra ikiye bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 13:59.",
+      "🇹🇷 Saat 13:59."
+    ],
+    examples: [],
+    related_word_ids: [2839]
+  },
+  {
+    id: "vocab-saat-2840",
+    category: "vocabulary",
+    title: "two o'clock p.m. — öğleden sonra iki",
+    keywords: ["two o'clock p.m.", "öğleden sonra iki", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:00.",
+      "🇹🇷 Saat 14:00."
+    ],
+    examples: [],
+    related_word_ids: [2840]
+  },
+  {
+    id: "vocab-saat-2841",
+    category: "vocabulary",
+    title: "one minute past two p.m. — öğleden sonra ikiyi bir geçiyor",
+    keywords: ["one minute past two p.m.", "öğleden sonra ikiyi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:01.",
+      "🇹🇷 Saat 14:01."
+    ],
+    examples: [],
+    related_word_ids: [2841]
+  },
+  {
+    id: "vocab-saat-2842",
+    category: "vocabulary",
+    title: "two minutes past two p.m. — öğleden sonra ikiyi iki geçiyor",
+    keywords: ["two minutes past two p.m.", "öğleden sonra ikiyi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:02.",
+      "🇹🇷 Saat 14:02."
+    ],
+    examples: [],
+    related_word_ids: [2842]
+  },
+  {
+    id: "vocab-saat-2843",
+    category: "vocabulary",
+    title: "three minutes past two p.m. — öğleden sonra ikiyi üç geçiyor",
+    keywords: ["three minutes past two p.m.", "öğleden sonra ikiyi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:03.",
+      "🇹🇷 Saat 14:03."
+    ],
+    examples: [],
+    related_word_ids: [2843]
+  },
+  {
+    id: "vocab-saat-2844",
+    category: "vocabulary",
+    title: "four minutes past two p.m. — öğleden sonra ikiyi dört geçiyor",
+    keywords: ["four minutes past two p.m.", "öğleden sonra ikiyi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:04.",
+      "🇹🇷 Saat 14:04."
+    ],
+    examples: [],
+    related_word_ids: [2844]
+  },
+  {
+    id: "vocab-saat-2845",
+    category: "vocabulary",
+    title: "five past two p.m. — öğleden sonra ikiyi beş geçiyor",
+    keywords: ["five past two p.m.", "öğleden sonra ikiyi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:05.",
+      "🇹🇷 Saat 14:05."
+    ],
+    examples: [],
+    related_word_ids: [2845]
+  },
+  {
+    id: "vocab-saat-2846",
+    category: "vocabulary",
+    title: "six minutes past two p.m. — öğleden sonra ikiyi altı geçiyor",
+    keywords: ["six minutes past two p.m.", "öğleden sonra ikiyi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:06.",
+      "🇹🇷 Saat 14:06."
+    ],
+    examples: [],
+    related_word_ids: [2846]
+  },
+  {
+    id: "vocab-saat-2847",
+    category: "vocabulary",
+    title: "seven minutes past two p.m. — öğleden sonra ikiyi yedi geçiyor",
+    keywords: ["seven minutes past two p.m.", "öğleden sonra ikiyi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:07.",
+      "🇹🇷 Saat 14:07."
+    ],
+    examples: [],
+    related_word_ids: [2847]
+  },
+  {
+    id: "vocab-saat-2848",
+    category: "vocabulary",
+    title: "eight minutes past two p.m. — öğleden sonra ikiyi sekiz geçiyor",
+    keywords: ["eight minutes past two p.m.", "öğleden sonra ikiyi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:08.",
+      "🇹🇷 Saat 14:08."
+    ],
+    examples: [],
+    related_word_ids: [2848]
+  },
+  {
+    id: "vocab-saat-2849",
+    category: "vocabulary",
+    title: "nine minutes past two p.m. — öğleden sonra ikiyi dokuz geçiyor",
+    keywords: ["nine minutes past two p.m.", "öğleden sonra ikiyi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:09.",
+      "🇹🇷 Saat 14:09."
+    ],
+    examples: [],
+    related_word_ids: [2849]
+  },
+  {
+    id: "vocab-saat-2850",
+    category: "vocabulary",
+    title: "ten past two p.m. — öğleden sonra ikiyi on geçiyor",
+    keywords: ["ten past two p.m.", "öğleden sonra ikiyi on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:10.",
+      "🇹🇷 Saat 14:10."
+    ],
+    examples: [],
+    related_word_ids: [2850]
+  },
+  {
+    id: "vocab-saat-2851",
+    category: "vocabulary",
+    title: "eleven minutes past two p.m. — öğleden sonra ikiyi on bir geçiyor",
+    keywords: ["eleven minutes past two p.m.", "öğleden sonra ikiyi on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:11.",
+      "🇹🇷 Saat 14:11."
+    ],
+    examples: [],
+    related_word_ids: [2851]
+  },
+  {
+    id: "vocab-saat-2852",
+    category: "vocabulary",
+    title: "twelve minutes past two p.m. — öğleden sonra ikiyi on iki geçiyor",
+    keywords: ["twelve minutes past two p.m.", "öğleden sonra ikiyi on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:12.",
+      "🇹🇷 Saat 14:12."
+    ],
+    examples: [],
+    related_word_ids: [2852]
+  },
+  {
+    id: "vocab-saat-2853",
+    category: "vocabulary",
+    title: "thirteen minutes past two p.m. — öğleden sonra ikiyi on üç geçiyor",
+    keywords: ["thirteen minutes past two p.m.", "öğleden sonra ikiyi on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:13.",
+      "🇹🇷 Saat 14:13."
+    ],
+    examples: [],
+    related_word_ids: [2853]
+  },
+  {
+    id: "vocab-saat-2854",
+    category: "vocabulary",
+    title: "fourteen minutes past two p.m. — öğleden sonra ikiyi on dört geçiyor",
+    keywords: ["fourteen minutes past two p.m.", "öğleden sonra ikiyi on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:14.",
+      "🇹🇷 Saat 14:14."
+    ],
+    examples: [],
+    related_word_ids: [2854]
+  },
+  {
+    id: "vocab-saat-2855",
+    category: "vocabulary",
+    title: "a quarter past two p.m. — öğleden sonra ikiyi çeyrek geçiyor",
+    keywords: ["a quarter past two p.m.", "öğleden sonra ikiyi çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:15.",
+      "🇹🇷 Saat 14:15."
+    ],
+    examples: [],
+    related_word_ids: [2855]
+  },
+  {
+    id: "vocab-saat-2856",
+    category: "vocabulary",
+    title: "sixteen minutes past two p.m. — öğleden sonra ikiyi on altı geçiyor",
+    keywords: ["sixteen minutes past two p.m.", "öğleden sonra ikiyi on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:16.",
+      "🇹🇷 Saat 14:16."
+    ],
+    examples: [],
+    related_word_ids: [2856]
+  },
+  {
+    id: "vocab-saat-2857",
+    category: "vocabulary",
+    title: "seventeen minutes past two p.m. — öğleden sonra ikiyi on yedi geçiyor",
+    keywords: ["seventeen minutes past two p.m.", "öğleden sonra ikiyi on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:17.",
+      "🇹🇷 Saat 14:17."
+    ],
+    examples: [],
+    related_word_ids: [2857]
+  },
+  {
+    id: "vocab-saat-2858",
+    category: "vocabulary",
+    title: "eighteen minutes past two p.m. — öğleden sonra ikiyi on sekiz geçiyor",
+    keywords: ["eighteen minutes past two p.m.", "öğleden sonra ikiyi on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:18.",
+      "🇹🇷 Saat 14:18."
+    ],
+    examples: [],
+    related_word_ids: [2858]
+  },
+  {
+    id: "vocab-saat-2859",
+    category: "vocabulary",
+    title: "nineteen minutes past two p.m. — öğleden sonra ikiyi on dokuz geçiyor",
+    keywords: ["nineteen minutes past two p.m.", "öğleden sonra ikiyi on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:19.",
+      "🇹🇷 Saat 14:19."
+    ],
+    examples: [],
+    related_word_ids: [2859]
+  },
+  {
+    id: "vocab-saat-2860",
+    category: "vocabulary",
+    title: "twenty past two p.m. — öğleden sonra ikiyi yirmi geçiyor",
+    keywords: ["twenty past two p.m.", "öğleden sonra ikiyi yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:20.",
+      "🇹🇷 Saat 14:20."
+    ],
+    examples: [],
+    related_word_ids: [2860]
+  },
+  {
+    id: "vocab-saat-2861",
+    category: "vocabulary",
+    title: "twenty-one minutes past two p.m. — öğleden sonra ikiyi yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past two p.m.", "öğleden sonra ikiyi yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:21.",
+      "🇹🇷 Saat 14:21."
+    ],
+    examples: [],
+    related_word_ids: [2861]
+  },
+  {
+    id: "vocab-saat-2862",
+    category: "vocabulary",
+    title: "twenty-two minutes past two p.m. — öğleden sonra ikiyi yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past two p.m.", "öğleden sonra ikiyi yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:22.",
+      "🇹🇷 Saat 14:22."
+    ],
+    examples: [],
+    related_word_ids: [2862]
+  },
+  {
+    id: "vocab-saat-2863",
+    category: "vocabulary",
+    title: "twenty-three minutes past two p.m. — öğleden sonra ikiyi yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past two p.m.", "öğleden sonra ikiyi yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:23.",
+      "🇹🇷 Saat 14:23."
+    ],
+    examples: [],
+    related_word_ids: [2863]
+  },
+  {
+    id: "vocab-saat-2864",
+    category: "vocabulary",
+    title: "twenty-four minutes past two p.m. — öğleden sonra ikiyi yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past two p.m.", "öğleden sonra ikiyi yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:24.",
+      "🇹🇷 Saat 14:24."
+    ],
+    examples: [],
+    related_word_ids: [2864]
+  },
+  {
+    id: "vocab-saat-2865",
+    category: "vocabulary",
+    title: "twenty-five past two p.m. — öğleden sonra ikiyi yirmi beş geçiyor",
+    keywords: ["twenty-five past two p.m.", "öğleden sonra ikiyi yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:25.",
+      "🇹🇷 Saat 14:25."
+    ],
+    examples: [],
+    related_word_ids: [2865]
+  },
+  {
+    id: "vocab-saat-2866",
+    category: "vocabulary",
+    title: "twenty-six minutes past two p.m. — öğleden sonra ikiyi yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past two p.m.", "öğleden sonra ikiyi yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:26.",
+      "🇹🇷 Saat 14:26."
+    ],
+    examples: [],
+    related_word_ids: [2866]
+  },
+  {
+    id: "vocab-saat-2867",
+    category: "vocabulary",
+    title: "twenty-seven minutes past two p.m. — öğleden sonra ikiyi yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past two p.m.", "öğleden sonra ikiyi yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:27.",
+      "🇹🇷 Saat 14:27."
+    ],
+    examples: [],
+    related_word_ids: [2867]
+  },
+  {
+    id: "vocab-saat-2868",
+    category: "vocabulary",
+    title: "twenty-eight minutes past two p.m. — öğleden sonra ikiyi yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past two p.m.", "öğleden sonra ikiyi yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:28.",
+      "🇹🇷 Saat 14:28."
+    ],
+    examples: [],
+    related_word_ids: [2868]
+  },
+  {
+    id: "vocab-saat-2869",
+    category: "vocabulary",
+    title: "twenty-nine minutes past two p.m. — öğleden sonra ikiyi yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past two p.m.", "öğleden sonra ikiyi yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:29.",
+      "🇹🇷 Saat 14:29."
+    ],
+    examples: [],
+    related_word_ids: [2869]
+  },
+  {
+    id: "vocab-saat-2870",
+    category: "vocabulary",
+    title: "half past two p.m. — öğleden sonra iki buçuk",
+    keywords: ["half past two p.m.", "öğleden sonra iki buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:30.",
+      "🇹🇷 Saat 14:30."
+    ],
+    examples: [],
+    related_word_ids: [2870]
+  },
+  {
+    id: "vocab-saat-2871",
+    category: "vocabulary",
+    title: "twenty-nine minutes to three p.m. — öğleden sonra üçe yirmi dokuz var",
+    keywords: ["twenty-nine minutes to three p.m.", "öğleden sonra üçe yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:31.",
+      "🇹🇷 Saat 14:31."
+    ],
+    examples: [],
+    related_word_ids: [2871]
+  },
+  {
+    id: "vocab-saat-2872",
+    category: "vocabulary",
+    title: "twenty-eight minutes to three p.m. — öğleden sonra üçe yirmi sekiz var",
+    keywords: ["twenty-eight minutes to three p.m.", "öğleden sonra üçe yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:32.",
+      "🇹🇷 Saat 14:32."
+    ],
+    examples: [],
+    related_word_ids: [2872]
+  },
+  {
+    id: "vocab-saat-2873",
+    category: "vocabulary",
+    title: "twenty-seven minutes to three p.m. — öğleden sonra üçe yirmi yedi var",
+    keywords: ["twenty-seven minutes to three p.m.", "öğleden sonra üçe yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:33.",
+      "🇹🇷 Saat 14:33."
+    ],
+    examples: [],
+    related_word_ids: [2873]
+  },
+  {
+    id: "vocab-saat-2874",
+    category: "vocabulary",
+    title: "twenty-six minutes to three p.m. — öğleden sonra üçe yirmi altı var",
+    keywords: ["twenty-six minutes to three p.m.", "öğleden sonra üçe yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:34.",
+      "🇹🇷 Saat 14:34."
+    ],
+    examples: [],
+    related_word_ids: [2874]
+  },
+  {
+    id: "vocab-saat-2875",
+    category: "vocabulary",
+    title: "twenty-five to three p.m. — öğleden sonra üçe yirmi beş var",
+    keywords: ["twenty-five to three p.m.", "öğleden sonra üçe yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:35.",
+      "🇹🇷 Saat 14:35."
+    ],
+    examples: [],
+    related_word_ids: [2875]
+  },
+  {
+    id: "vocab-saat-2876",
+    category: "vocabulary",
+    title: "twenty-four minutes to three p.m. — öğleden sonra üçe yirmi dört var",
+    keywords: ["twenty-four minutes to three p.m.", "öğleden sonra üçe yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:36.",
+      "🇹🇷 Saat 14:36."
+    ],
+    examples: [],
+    related_word_ids: [2876]
+  },
+  {
+    id: "vocab-saat-2877",
+    category: "vocabulary",
+    title: "twenty-three minutes to three p.m. — öğleden sonra üçe yirmi üç var",
+    keywords: ["twenty-three minutes to three p.m.", "öğleden sonra üçe yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:37.",
+      "🇹🇷 Saat 14:37."
+    ],
+    examples: [],
+    related_word_ids: [2877]
+  },
+  {
+    id: "vocab-saat-2878",
+    category: "vocabulary",
+    title: "twenty-two minutes to three p.m. — öğleden sonra üçe yirmi iki var",
+    keywords: ["twenty-two minutes to three p.m.", "öğleden sonra üçe yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:38.",
+      "🇹🇷 Saat 14:38."
+    ],
+    examples: [],
+    related_word_ids: [2878]
+  },
+  {
+    id: "vocab-saat-2879",
+    category: "vocabulary",
+    title: "twenty-one minutes to three p.m. — öğleden sonra üçe yirmi bir var",
+    keywords: ["twenty-one minutes to three p.m.", "öğleden sonra üçe yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:39.",
+      "🇹🇷 Saat 14:39."
+    ],
+    examples: [],
+    related_word_ids: [2879]
+  },
+  {
+    id: "vocab-saat-2880",
+    category: "vocabulary",
+    title: "twenty to three p.m. — öğleden sonra üçe yirmi var",
+    keywords: ["twenty to three p.m.", "öğleden sonra üçe yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:40.",
+      "🇹🇷 Saat 14:40."
+    ],
+    examples: [],
+    related_word_ids: [2880]
+  },
+  {
+    id: "vocab-saat-2881",
+    category: "vocabulary",
+    title: "nineteen minutes to three p.m. — öğleden sonra üçe on dokuz var",
+    keywords: ["nineteen minutes to three p.m.", "öğleden sonra üçe on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:41.",
+      "🇹🇷 Saat 14:41."
+    ],
+    examples: [],
+    related_word_ids: [2881]
+  },
+  {
+    id: "vocab-saat-2882",
+    category: "vocabulary",
+    title: "eighteen minutes to three p.m. — öğleden sonra üçe on sekiz var",
+    keywords: ["eighteen minutes to three p.m.", "öğleden sonra üçe on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:42.",
+      "🇹🇷 Saat 14:42."
+    ],
+    examples: [],
+    related_word_ids: [2882]
+  },
+  {
+    id: "vocab-saat-2883",
+    category: "vocabulary",
+    title: "seventeen minutes to three p.m. — öğleden sonra üçe on yedi var",
+    keywords: ["seventeen minutes to three p.m.", "öğleden sonra üçe on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:43.",
+      "🇹🇷 Saat 14:43."
+    ],
+    examples: [],
+    related_word_ids: [2883]
+  },
+  {
+    id: "vocab-saat-2884",
+    category: "vocabulary",
+    title: "sixteen minutes to three p.m. — öğleden sonra üçe on altı var",
+    keywords: ["sixteen minutes to three p.m.", "öğleden sonra üçe on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:44.",
+      "🇹🇷 Saat 14:44."
+    ],
+    examples: [],
+    related_word_ids: [2884]
+  },
+  {
+    id: "vocab-saat-2885",
+    category: "vocabulary",
+    title: "a quarter to three p.m. — öğleden sonra üçe çeyrek var",
+    keywords: ["a quarter to three p.m.", "öğleden sonra üçe çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:45.",
+      "🇹🇷 Saat 14:45."
+    ],
+    examples: [],
+    related_word_ids: [2885]
+  },
+  {
+    id: "vocab-saat-2886",
+    category: "vocabulary",
+    title: "fourteen minutes to three p.m. — öğleden sonra üçe on dört var",
+    keywords: ["fourteen minutes to three p.m.", "öğleden sonra üçe on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:46.",
+      "🇹🇷 Saat 14:46."
+    ],
+    examples: [],
+    related_word_ids: [2886]
+  },
+  {
+    id: "vocab-saat-2887",
+    category: "vocabulary",
+    title: "thirteen minutes to three p.m. — öğleden sonra üçe on üç var",
+    keywords: ["thirteen minutes to three p.m.", "öğleden sonra üçe on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:47.",
+      "🇹🇷 Saat 14:47."
+    ],
+    examples: [],
+    related_word_ids: [2887]
+  },
+  {
+    id: "vocab-saat-2888",
+    category: "vocabulary",
+    title: "twelve minutes to three p.m. — öğleden sonra üçe on iki var",
+    keywords: ["twelve minutes to three p.m.", "öğleden sonra üçe on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:48.",
+      "🇹🇷 Saat 14:48."
+    ],
+    examples: [],
+    related_word_ids: [2888]
+  },
+  {
+    id: "vocab-saat-2889",
+    category: "vocabulary",
+    title: "eleven minutes to three p.m. — öğleden sonra üçe on bir var",
+    keywords: ["eleven minutes to three p.m.", "öğleden sonra üçe on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:49.",
+      "🇹🇷 Saat 14:49."
+    ],
+    examples: [],
+    related_word_ids: [2889]
+  },
+  {
+    id: "vocab-saat-2890",
+    category: "vocabulary",
+    title: "ten to three p.m. — öğleden sonra üçe on var",
+    keywords: ["ten to three p.m.", "öğleden sonra üçe on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:50.",
+      "🇹🇷 Saat 14:50."
+    ],
+    examples: [],
+    related_word_ids: [2890]
+  },
+  {
+    id: "vocab-saat-2891",
+    category: "vocabulary",
+    title: "nine minutes to three p.m. — öğleden sonra üçe dokuz var",
+    keywords: ["nine minutes to three p.m.", "öğleden sonra üçe dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:51.",
+      "🇹🇷 Saat 14:51."
+    ],
+    examples: [],
+    related_word_ids: [2891]
+  },
+  {
+    id: "vocab-saat-2892",
+    category: "vocabulary",
+    title: "eight minutes to three p.m. — öğleden sonra üçe sekiz var",
+    keywords: ["eight minutes to three p.m.", "öğleden sonra üçe sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:52.",
+      "🇹🇷 Saat 14:52."
+    ],
+    examples: [],
+    related_word_ids: [2892]
+  },
+  {
+    id: "vocab-saat-2893",
+    category: "vocabulary",
+    title: "seven minutes to three p.m. — öğleden sonra üçe yedi var",
+    keywords: ["seven minutes to three p.m.", "öğleden sonra üçe yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:53.",
+      "🇹🇷 Saat 14:53."
+    ],
+    examples: [],
+    related_word_ids: [2893]
+  },
+  {
+    id: "vocab-saat-2894",
+    category: "vocabulary",
+    title: "six minutes to three p.m. — öğleden sonra üçe altı var",
+    keywords: ["six minutes to three p.m.", "öğleden sonra üçe altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:54.",
+      "🇹🇷 Saat 14:54."
+    ],
+    examples: [],
+    related_word_ids: [2894]
+  },
+  {
+    id: "vocab-saat-2895",
+    category: "vocabulary",
+    title: "five to three p.m. — öğleden sonra üçe beş var",
+    keywords: ["five to three p.m.", "öğleden sonra üçe beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:55.",
+      "🇹🇷 Saat 14:55."
+    ],
+    examples: [],
+    related_word_ids: [2895]
+  },
+  {
+    id: "vocab-saat-2896",
+    category: "vocabulary",
+    title: "four minutes to three p.m. — öğleden sonra üçe dört var",
+    keywords: ["four minutes to three p.m.", "öğleden sonra üçe dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:56.",
+      "🇹🇷 Saat 14:56."
+    ],
+    examples: [],
+    related_word_ids: [2896]
+  },
+  {
+    id: "vocab-saat-2897",
+    category: "vocabulary",
+    title: "three minutes to three p.m. — öğleden sonra üçe üç var",
+    keywords: ["three minutes to three p.m.", "öğleden sonra üçe üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:57.",
+      "🇹🇷 Saat 14:57."
+    ],
+    examples: [],
+    related_word_ids: [2897]
+  },
+  {
+    id: "vocab-saat-2898",
+    category: "vocabulary",
+    title: "two minutes to three p.m. — öğleden sonra üçe iki var",
+    keywords: ["two minutes to three p.m.", "öğleden sonra üçe iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:58.",
+      "🇹🇷 Saat 14:58."
+    ],
+    examples: [],
+    related_word_ids: [2898]
+  },
+  {
+    id: "vocab-saat-2899",
+    category: "vocabulary",
+    title: "one minute to three p.m. — öğleden sonra üçe bir var",
+    keywords: ["one minute to three p.m.", "öğleden sonra üçe bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 14:59.",
+      "🇹🇷 Saat 14:59."
+    ],
+    examples: [],
+    related_word_ids: [2899]
+  },
+  {
+    id: "vocab-saat-2900",
+    category: "vocabulary",
+    title: "three o'clock p.m. — öğleden sonra üç",
+    keywords: ["three o'clock p.m.", "öğleden sonra üç", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:00.",
+      "🇹🇷 Saat 15:00."
+    ],
+    examples: [],
+    related_word_ids: [2900]
+  },
+  {
+    id: "vocab-saat-2901",
+    category: "vocabulary",
+    title: "one minute past three p.m. — öğleden sonra üçü bir geçiyor",
+    keywords: ["one minute past three p.m.", "öğleden sonra üçü bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:01.",
+      "🇹🇷 Saat 15:01."
+    ],
+    examples: [],
+    related_word_ids: [2901]
+  },
+  {
+    id: "vocab-saat-2902",
+    category: "vocabulary",
+    title: "two minutes past three p.m. — öğleden sonra üçü iki geçiyor",
+    keywords: ["two minutes past three p.m.", "öğleden sonra üçü iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:02.",
+      "🇹🇷 Saat 15:02."
+    ],
+    examples: [],
+    related_word_ids: [2902]
+  },
+  {
+    id: "vocab-saat-2903",
+    category: "vocabulary",
+    title: "three minutes past three p.m. — öğleden sonra üçü üç geçiyor",
+    keywords: ["three minutes past three p.m.", "öğleden sonra üçü üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:03.",
+      "🇹🇷 Saat 15:03."
+    ],
+    examples: [],
+    related_word_ids: [2903]
+  },
+  {
+    id: "vocab-saat-2904",
+    category: "vocabulary",
+    title: "four minutes past three p.m. — öğleden sonra üçü dört geçiyor",
+    keywords: ["four minutes past three p.m.", "öğleden sonra üçü dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:04.",
+      "🇹🇷 Saat 15:04."
+    ],
+    examples: [],
+    related_word_ids: [2904]
+  },
+  {
+    id: "vocab-saat-2905",
+    category: "vocabulary",
+    title: "five past three p.m. — öğleden sonra üçü beş geçiyor",
+    keywords: ["five past three p.m.", "öğleden sonra üçü beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:05.",
+      "🇹🇷 Saat 15:05."
+    ],
+    examples: [],
+    related_word_ids: [2905]
+  },
+  {
+    id: "vocab-saat-2906",
+    category: "vocabulary",
+    title: "six minutes past three p.m. — öğleden sonra üçü altı geçiyor",
+    keywords: ["six minutes past three p.m.", "öğleden sonra üçü altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:06.",
+      "🇹🇷 Saat 15:06."
+    ],
+    examples: [],
+    related_word_ids: [2906]
+  },
+  {
+    id: "vocab-saat-2907",
+    category: "vocabulary",
+    title: "seven minutes past three p.m. — öğleden sonra üçü yedi geçiyor",
+    keywords: ["seven minutes past three p.m.", "öğleden sonra üçü yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:07.",
+      "🇹🇷 Saat 15:07."
+    ],
+    examples: [],
+    related_word_ids: [2907]
+  },
+  {
+    id: "vocab-saat-2908",
+    category: "vocabulary",
+    title: "eight minutes past three p.m. — öğleden sonra üçü sekiz geçiyor",
+    keywords: ["eight minutes past three p.m.", "öğleden sonra üçü sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:08.",
+      "🇹🇷 Saat 15:08."
+    ],
+    examples: [],
+    related_word_ids: [2908]
+  },
+  {
+    id: "vocab-saat-2909",
+    category: "vocabulary",
+    title: "nine minutes past three p.m. — öğleden sonra üçü dokuz geçiyor",
+    keywords: ["nine minutes past three p.m.", "öğleden sonra üçü dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:09.",
+      "🇹🇷 Saat 15:09."
+    ],
+    examples: [],
+    related_word_ids: [2909]
+  },
+  {
+    id: "vocab-saat-2910",
+    category: "vocabulary",
+    title: "ten past three p.m. — öğleden sonra üçü on geçiyor",
+    keywords: ["ten past three p.m.", "öğleden sonra üçü on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:10.",
+      "🇹🇷 Saat 15:10."
+    ],
+    examples: [],
+    related_word_ids: [2910]
+  },
+  {
+    id: "vocab-saat-2911",
+    category: "vocabulary",
+    title: "eleven minutes past three p.m. — öğleden sonra üçü on bir geçiyor",
+    keywords: ["eleven minutes past three p.m.", "öğleden sonra üçü on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:11.",
+      "🇹🇷 Saat 15:11."
+    ],
+    examples: [],
+    related_word_ids: [2911]
+  },
+  {
+    id: "vocab-saat-2912",
+    category: "vocabulary",
+    title: "twelve minutes past three p.m. — öğleden sonra üçü on iki geçiyor",
+    keywords: ["twelve minutes past three p.m.", "öğleden sonra üçü on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:12.",
+      "🇹🇷 Saat 15:12."
+    ],
+    examples: [],
+    related_word_ids: [2912]
+  },
+  {
+    id: "vocab-saat-2913",
+    category: "vocabulary",
+    title: "thirteen minutes past three p.m. — öğleden sonra üçü on üç geçiyor",
+    keywords: ["thirteen minutes past three p.m.", "öğleden sonra üçü on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:13.",
+      "🇹🇷 Saat 15:13."
+    ],
+    examples: [],
+    related_word_ids: [2913]
+  },
+  {
+    id: "vocab-saat-2914",
+    category: "vocabulary",
+    title: "fourteen minutes past three p.m. — öğleden sonra üçü on dört geçiyor",
+    keywords: ["fourteen minutes past three p.m.", "öğleden sonra üçü on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:14.",
+      "🇹🇷 Saat 15:14."
+    ],
+    examples: [],
+    related_word_ids: [2914]
+  },
+  {
+    id: "vocab-saat-2915",
+    category: "vocabulary",
+    title: "a quarter past three p.m. — öğleden sonra üçü çeyrek geçiyor",
+    keywords: ["a quarter past three p.m.", "öğleden sonra üçü çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:15.",
+      "🇹🇷 Saat 15:15."
+    ],
+    examples: [],
+    related_word_ids: [2915]
+  },
+  {
+    id: "vocab-saat-2916",
+    category: "vocabulary",
+    title: "sixteen minutes past three p.m. — öğleden sonra üçü on altı geçiyor",
+    keywords: ["sixteen minutes past three p.m.", "öğleden sonra üçü on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:16.",
+      "🇹🇷 Saat 15:16."
+    ],
+    examples: [],
+    related_word_ids: [2916]
+  },
+  {
+    id: "vocab-saat-2917",
+    category: "vocabulary",
+    title: "seventeen minutes past three p.m. — öğleden sonra üçü on yedi geçiyor",
+    keywords: ["seventeen minutes past three p.m.", "öğleden sonra üçü on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:17.",
+      "🇹🇷 Saat 15:17."
+    ],
+    examples: [],
+    related_word_ids: [2917]
+  },
+  {
+    id: "vocab-saat-2918",
+    category: "vocabulary",
+    title: "eighteen minutes past three p.m. — öğleden sonra üçü on sekiz geçiyor",
+    keywords: ["eighteen minutes past three p.m.", "öğleden sonra üçü on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:18.",
+      "🇹🇷 Saat 15:18."
+    ],
+    examples: [],
+    related_word_ids: [2918]
+  },
+  {
+    id: "vocab-saat-2919",
+    category: "vocabulary",
+    title: "nineteen minutes past three p.m. — öğleden sonra üçü on dokuz geçiyor",
+    keywords: ["nineteen minutes past three p.m.", "öğleden sonra üçü on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:19.",
+      "🇹🇷 Saat 15:19."
+    ],
+    examples: [],
+    related_word_ids: [2919]
+  },
+  {
+    id: "vocab-saat-2920",
+    category: "vocabulary",
+    title: "twenty past three p.m. — öğleden sonra üçü yirmi geçiyor",
+    keywords: ["twenty past three p.m.", "öğleden sonra üçü yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:20.",
+      "🇹🇷 Saat 15:20."
+    ],
+    examples: [],
+    related_word_ids: [2920]
+  },
+  {
+    id: "vocab-saat-2921",
+    category: "vocabulary",
+    title: "twenty-one minutes past three p.m. — öğleden sonra üçü yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past three p.m.", "öğleden sonra üçü yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:21.",
+      "🇹🇷 Saat 15:21."
+    ],
+    examples: [],
+    related_word_ids: [2921]
+  },
+  {
+    id: "vocab-saat-2922",
+    category: "vocabulary",
+    title: "twenty-two minutes past three p.m. — öğleden sonra üçü yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past three p.m.", "öğleden sonra üçü yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:22.",
+      "🇹🇷 Saat 15:22."
+    ],
+    examples: [],
+    related_word_ids: [2922]
+  },
+  {
+    id: "vocab-saat-2923",
+    category: "vocabulary",
+    title: "twenty-three minutes past three p.m. — öğleden sonra üçü yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past three p.m.", "öğleden sonra üçü yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:23.",
+      "🇹🇷 Saat 15:23."
+    ],
+    examples: [],
+    related_word_ids: [2923]
+  },
+  {
+    id: "vocab-saat-2924",
+    category: "vocabulary",
+    title: "twenty-four minutes past three p.m. — öğleden sonra üçü yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past three p.m.", "öğleden sonra üçü yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:24.",
+      "🇹🇷 Saat 15:24."
+    ],
+    examples: [],
+    related_word_ids: [2924]
+  },
+  {
+    id: "vocab-saat-2925",
+    category: "vocabulary",
+    title: "twenty-five past three p.m. — öğleden sonra üçü yirmi beş geçiyor",
+    keywords: ["twenty-five past three p.m.", "öğleden sonra üçü yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:25.",
+      "🇹🇷 Saat 15:25."
+    ],
+    examples: [],
+    related_word_ids: [2925]
+  },
+  {
+    id: "vocab-saat-2926",
+    category: "vocabulary",
+    title: "twenty-six minutes past three p.m. — öğleden sonra üçü yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past three p.m.", "öğleden sonra üçü yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:26.",
+      "🇹🇷 Saat 15:26."
+    ],
+    examples: [],
+    related_word_ids: [2926]
+  },
+  {
+    id: "vocab-saat-2927",
+    category: "vocabulary",
+    title: "twenty-seven minutes past three p.m. — öğleden sonra üçü yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past three p.m.", "öğleden sonra üçü yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:27.",
+      "🇹🇷 Saat 15:27."
+    ],
+    examples: [],
+    related_word_ids: [2927]
+  },
+  {
+    id: "vocab-saat-2928",
+    category: "vocabulary",
+    title: "twenty-eight minutes past three p.m. — öğleden sonra üçü yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past three p.m.", "öğleden sonra üçü yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:28.",
+      "🇹🇷 Saat 15:28."
+    ],
+    examples: [],
+    related_word_ids: [2928]
+  },
+  {
+    id: "vocab-saat-2929",
+    category: "vocabulary",
+    title: "twenty-nine minutes past three p.m. — öğleden sonra üçü yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past three p.m.", "öğleden sonra üçü yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:29.",
+      "🇹🇷 Saat 15:29."
+    ],
+    examples: [],
+    related_word_ids: [2929]
+  },
+  {
+    id: "vocab-saat-2930",
+    category: "vocabulary",
+    title: "half past three p.m. — öğleden sonra üç buçuk",
+    keywords: ["half past three p.m.", "öğleden sonra üç buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:30.",
+      "🇹🇷 Saat 15:30."
+    ],
+    examples: [],
+    related_word_ids: [2930]
+  },
+  {
+    id: "vocab-saat-2931",
+    category: "vocabulary",
+    title: "twenty-nine minutes to four p.m. — öğleden sonra dörde yirmi dokuz var",
+    keywords: ["twenty-nine minutes to four p.m.", "öğleden sonra dörde yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:31.",
+      "🇹🇷 Saat 15:31."
+    ],
+    examples: [],
+    related_word_ids: [2931]
+  },
+  {
+    id: "vocab-saat-2932",
+    category: "vocabulary",
+    title: "twenty-eight minutes to four p.m. — öğleden sonra dörde yirmi sekiz var",
+    keywords: ["twenty-eight minutes to four p.m.", "öğleden sonra dörde yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:32.",
+      "🇹🇷 Saat 15:32."
+    ],
+    examples: [],
+    related_word_ids: [2932]
+  },
+  {
+    id: "vocab-saat-2933",
+    category: "vocabulary",
+    title: "twenty-seven minutes to four p.m. — öğleden sonra dörde yirmi yedi var",
+    keywords: ["twenty-seven minutes to four p.m.", "öğleden sonra dörde yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:33.",
+      "🇹🇷 Saat 15:33."
+    ],
+    examples: [],
+    related_word_ids: [2933]
+  },
+  {
+    id: "vocab-saat-2934",
+    category: "vocabulary",
+    title: "twenty-six minutes to four p.m. — öğleden sonra dörde yirmi altı var",
+    keywords: ["twenty-six minutes to four p.m.", "öğleden sonra dörde yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:34.",
+      "🇹🇷 Saat 15:34."
+    ],
+    examples: [],
+    related_word_ids: [2934]
+  },
+  {
+    id: "vocab-saat-2935",
+    category: "vocabulary",
+    title: "twenty-five to four p.m. — öğleden sonra dörde yirmi beş var",
+    keywords: ["twenty-five to four p.m.", "öğleden sonra dörde yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:35.",
+      "🇹🇷 Saat 15:35."
+    ],
+    examples: [],
+    related_word_ids: [2935]
+  },
+  {
+    id: "vocab-saat-2936",
+    category: "vocabulary",
+    title: "twenty-four minutes to four p.m. — öğleden sonra dörde yirmi dört var",
+    keywords: ["twenty-four minutes to four p.m.", "öğleden sonra dörde yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:36.",
+      "🇹🇷 Saat 15:36."
+    ],
+    examples: [],
+    related_word_ids: [2936]
+  },
+  {
+    id: "vocab-saat-2937",
+    category: "vocabulary",
+    title: "twenty-three minutes to four p.m. — öğleden sonra dörde yirmi üç var",
+    keywords: ["twenty-three minutes to four p.m.", "öğleden sonra dörde yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:37.",
+      "🇹🇷 Saat 15:37."
+    ],
+    examples: [],
+    related_word_ids: [2937]
+  },
+  {
+    id: "vocab-saat-2938",
+    category: "vocabulary",
+    title: "twenty-two minutes to four p.m. — öğleden sonra dörde yirmi iki var",
+    keywords: ["twenty-two minutes to four p.m.", "öğleden sonra dörde yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:38.",
+      "🇹🇷 Saat 15:38."
+    ],
+    examples: [],
+    related_word_ids: [2938]
+  },
+  {
+    id: "vocab-saat-2939",
+    category: "vocabulary",
+    title: "twenty-one minutes to four p.m. — öğleden sonra dörde yirmi bir var",
+    keywords: ["twenty-one minutes to four p.m.", "öğleden sonra dörde yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:39.",
+      "🇹🇷 Saat 15:39."
+    ],
+    examples: [],
+    related_word_ids: [2939]
+  },
+  {
+    id: "vocab-saat-2940",
+    category: "vocabulary",
+    title: "twenty to four p.m. — öğleden sonra dörde yirmi var",
+    keywords: ["twenty to four p.m.", "öğleden sonra dörde yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:40.",
+      "🇹🇷 Saat 15:40."
+    ],
+    examples: [],
+    related_word_ids: [2940]
+  },
+  {
+    id: "vocab-saat-2941",
+    category: "vocabulary",
+    title: "nineteen minutes to four p.m. — öğleden sonra dörde on dokuz var",
+    keywords: ["nineteen minutes to four p.m.", "öğleden sonra dörde on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:41.",
+      "🇹🇷 Saat 15:41."
+    ],
+    examples: [],
+    related_word_ids: [2941]
+  },
+  {
+    id: "vocab-saat-2942",
+    category: "vocabulary",
+    title: "eighteen minutes to four p.m. — öğleden sonra dörde on sekiz var",
+    keywords: ["eighteen minutes to four p.m.", "öğleden sonra dörde on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:42.",
+      "🇹🇷 Saat 15:42."
+    ],
+    examples: [],
+    related_word_ids: [2942]
+  },
+  {
+    id: "vocab-saat-2943",
+    category: "vocabulary",
+    title: "seventeen minutes to four p.m. — öğleden sonra dörde on yedi var",
+    keywords: ["seventeen minutes to four p.m.", "öğleden sonra dörde on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:43.",
+      "🇹🇷 Saat 15:43."
+    ],
+    examples: [],
+    related_word_ids: [2943]
+  },
+  {
+    id: "vocab-saat-2944",
+    category: "vocabulary",
+    title: "sixteen minutes to four p.m. — öğleden sonra dörde on altı var",
+    keywords: ["sixteen minutes to four p.m.", "öğleden sonra dörde on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:44.",
+      "🇹🇷 Saat 15:44."
+    ],
+    examples: [],
+    related_word_ids: [2944]
+  },
+  {
+    id: "vocab-saat-2945",
+    category: "vocabulary",
+    title: "a quarter to four p.m. — öğleden sonra dörde çeyrek var",
+    keywords: ["a quarter to four p.m.", "öğleden sonra dörde çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:45.",
+      "🇹🇷 Saat 15:45."
+    ],
+    examples: [],
+    related_word_ids: [2945]
+  },
+  {
+    id: "vocab-saat-2946",
+    category: "vocabulary",
+    title: "fourteen minutes to four p.m. — öğleden sonra dörde on dört var",
+    keywords: ["fourteen minutes to four p.m.", "öğleden sonra dörde on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:46.",
+      "🇹🇷 Saat 15:46."
+    ],
+    examples: [],
+    related_word_ids: [2946]
+  },
+  {
+    id: "vocab-saat-2947",
+    category: "vocabulary",
+    title: "thirteen minutes to four p.m. — öğleden sonra dörde on üç var",
+    keywords: ["thirteen minutes to four p.m.", "öğleden sonra dörde on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:47.",
+      "🇹🇷 Saat 15:47."
+    ],
+    examples: [],
+    related_word_ids: [2947]
+  },
+  {
+    id: "vocab-saat-2948",
+    category: "vocabulary",
+    title: "twelve minutes to four p.m. — öğleden sonra dörde on iki var",
+    keywords: ["twelve minutes to four p.m.", "öğleden sonra dörde on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:48.",
+      "🇹🇷 Saat 15:48."
+    ],
+    examples: [],
+    related_word_ids: [2948]
+  },
+  {
+    id: "vocab-saat-2949",
+    category: "vocabulary",
+    title: "eleven minutes to four p.m. — öğleden sonra dörde on bir var",
+    keywords: ["eleven minutes to four p.m.", "öğleden sonra dörde on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:49.",
+      "🇹🇷 Saat 15:49."
+    ],
+    examples: [],
+    related_word_ids: [2949]
+  },
+  {
+    id: "vocab-saat-2950",
+    category: "vocabulary",
+    title: "ten to four p.m. — öğleden sonra dörde on var",
+    keywords: ["ten to four p.m.", "öğleden sonra dörde on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:50.",
+      "🇹🇷 Saat 15:50."
+    ],
+    examples: [],
+    related_word_ids: [2950]
+  },
+  {
+    id: "vocab-saat-2951",
+    category: "vocabulary",
+    title: "nine minutes to four p.m. — öğleden sonra dörde dokuz var",
+    keywords: ["nine minutes to four p.m.", "öğleden sonra dörde dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:51.",
+      "🇹🇷 Saat 15:51."
+    ],
+    examples: [],
+    related_word_ids: [2951]
+  },
+  {
+    id: "vocab-saat-2952",
+    category: "vocabulary",
+    title: "eight minutes to four p.m. — öğleden sonra dörde sekiz var",
+    keywords: ["eight minutes to four p.m.", "öğleden sonra dörde sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:52.",
+      "🇹🇷 Saat 15:52."
+    ],
+    examples: [],
+    related_word_ids: [2952]
+  },
+  {
+    id: "vocab-saat-2953",
+    category: "vocabulary",
+    title: "seven minutes to four p.m. — öğleden sonra dörde yedi var",
+    keywords: ["seven minutes to four p.m.", "öğleden sonra dörde yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:53.",
+      "🇹🇷 Saat 15:53."
+    ],
+    examples: [],
+    related_word_ids: [2953]
+  },
+  {
+    id: "vocab-saat-2954",
+    category: "vocabulary",
+    title: "six minutes to four p.m. — öğleden sonra dörde altı var",
+    keywords: ["six minutes to four p.m.", "öğleden sonra dörde altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:54.",
+      "🇹🇷 Saat 15:54."
+    ],
+    examples: [],
+    related_word_ids: [2954]
+  },
+  {
+    id: "vocab-saat-2955",
+    category: "vocabulary",
+    title: "five to four p.m. — öğleden sonra dörde beş var",
+    keywords: ["five to four p.m.", "öğleden sonra dörde beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:55.",
+      "🇹🇷 Saat 15:55."
+    ],
+    examples: [],
+    related_word_ids: [2955]
+  },
+  {
+    id: "vocab-saat-2956",
+    category: "vocabulary",
+    title: "four minutes to four p.m. — öğleden sonra dörde dört var",
+    keywords: ["four minutes to four p.m.", "öğleden sonra dörde dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:56.",
+      "🇹🇷 Saat 15:56."
+    ],
+    examples: [],
+    related_word_ids: [2956]
+  },
+  {
+    id: "vocab-saat-2957",
+    category: "vocabulary",
+    title: "three minutes to four p.m. — öğleden sonra dörde üç var",
+    keywords: ["three minutes to four p.m.", "öğleden sonra dörde üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:57.",
+      "🇹🇷 Saat 15:57."
+    ],
+    examples: [],
+    related_word_ids: [2957]
+  },
+  {
+    id: "vocab-saat-2958",
+    category: "vocabulary",
+    title: "two minutes to four p.m. — öğleden sonra dörde iki var",
+    keywords: ["two minutes to four p.m.", "öğleden sonra dörde iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:58.",
+      "🇹🇷 Saat 15:58."
+    ],
+    examples: [],
+    related_word_ids: [2958]
+  },
+  {
+    id: "vocab-saat-2959",
+    category: "vocabulary",
+    title: "one minute to four p.m. — öğleden sonra dörde bir var",
+    keywords: ["one minute to four p.m.", "öğleden sonra dörde bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 15:59.",
+      "🇹🇷 Saat 15:59."
+    ],
+    examples: [],
+    related_word_ids: [2959]
+  },
+  {
+    id: "vocab-saat-2960",
+    category: "vocabulary",
+    title: "four o'clock p.m. — öğleden sonra dört",
+    keywords: ["four o'clock p.m.", "öğleden sonra dört", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:00.",
+      "🇹🇷 Saat 16:00."
+    ],
+    examples: [],
+    related_word_ids: [2960]
+  },
+  {
+    id: "vocab-saat-2961",
+    category: "vocabulary",
+    title: "one minute past four p.m. — öğleden sonra dördü bir geçiyor",
+    keywords: ["one minute past four p.m.", "öğleden sonra dördü bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:01.",
+      "🇹🇷 Saat 16:01."
+    ],
+    examples: [],
+    related_word_ids: [2961]
+  },
+  {
+    id: "vocab-saat-2962",
+    category: "vocabulary",
+    title: "two minutes past four p.m. — öğleden sonra dördü iki geçiyor",
+    keywords: ["two minutes past four p.m.", "öğleden sonra dördü iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:02.",
+      "🇹🇷 Saat 16:02."
+    ],
+    examples: [],
+    related_word_ids: [2962]
+  },
+  {
+    id: "vocab-saat-2963",
+    category: "vocabulary",
+    title: "three minutes past four p.m. — öğleden sonra dördü üç geçiyor",
+    keywords: ["three minutes past four p.m.", "öğleden sonra dördü üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:03.",
+      "🇹🇷 Saat 16:03."
+    ],
+    examples: [],
+    related_word_ids: [2963]
+  },
+  {
+    id: "vocab-saat-2964",
+    category: "vocabulary",
+    title: "four minutes past four p.m. — öğleden sonra dördü dört geçiyor",
+    keywords: ["four minutes past four p.m.", "öğleden sonra dördü dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:04.",
+      "🇹🇷 Saat 16:04."
+    ],
+    examples: [],
+    related_word_ids: [2964]
+  },
+  {
+    id: "vocab-saat-2965",
+    category: "vocabulary",
+    title: "five past four p.m. — öğleden sonra dördü beş geçiyor",
+    keywords: ["five past four p.m.", "öğleden sonra dördü beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:05.",
+      "🇹🇷 Saat 16:05."
+    ],
+    examples: [],
+    related_word_ids: [2965]
+  },
+  {
+    id: "vocab-saat-2966",
+    category: "vocabulary",
+    title: "six minutes past four p.m. — öğleden sonra dördü altı geçiyor",
+    keywords: ["six minutes past four p.m.", "öğleden sonra dördü altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:06.",
+      "🇹🇷 Saat 16:06."
+    ],
+    examples: [],
+    related_word_ids: [2966]
+  },
+  {
+    id: "vocab-saat-2967",
+    category: "vocabulary",
+    title: "seven minutes past four p.m. — öğleden sonra dördü yedi geçiyor",
+    keywords: ["seven minutes past four p.m.", "öğleden sonra dördü yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:07.",
+      "🇹🇷 Saat 16:07."
+    ],
+    examples: [],
+    related_word_ids: [2967]
+  },
+  {
+    id: "vocab-saat-2968",
+    category: "vocabulary",
+    title: "eight minutes past four p.m. — öğleden sonra dördü sekiz geçiyor",
+    keywords: ["eight minutes past four p.m.", "öğleden sonra dördü sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:08.",
+      "🇹🇷 Saat 16:08."
+    ],
+    examples: [],
+    related_word_ids: [2968]
+  },
+  {
+    id: "vocab-saat-2969",
+    category: "vocabulary",
+    title: "nine minutes past four p.m. — öğleden sonra dördü dokuz geçiyor",
+    keywords: ["nine minutes past four p.m.", "öğleden sonra dördü dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:09.",
+      "🇹🇷 Saat 16:09."
+    ],
+    examples: [],
+    related_word_ids: [2969]
+  },
+  {
+    id: "vocab-saat-2970",
+    category: "vocabulary",
+    title: "ten past four p.m. — öğleden sonra dördü on geçiyor",
+    keywords: ["ten past four p.m.", "öğleden sonra dördü on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:10.",
+      "🇹🇷 Saat 16:10."
+    ],
+    examples: [],
+    related_word_ids: [2970]
+  },
+  {
+    id: "vocab-saat-2971",
+    category: "vocabulary",
+    title: "eleven minutes past four p.m. — öğleden sonra dördü on bir geçiyor",
+    keywords: ["eleven minutes past four p.m.", "öğleden sonra dördü on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:11.",
+      "🇹🇷 Saat 16:11."
+    ],
+    examples: [],
+    related_word_ids: [2971]
+  },
+  {
+    id: "vocab-saat-2972",
+    category: "vocabulary",
+    title: "twelve minutes past four p.m. — öğleden sonra dördü on iki geçiyor",
+    keywords: ["twelve minutes past four p.m.", "öğleden sonra dördü on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:12.",
+      "🇹🇷 Saat 16:12."
+    ],
+    examples: [],
+    related_word_ids: [2972]
+  },
+  {
+    id: "vocab-saat-2973",
+    category: "vocabulary",
+    title: "thirteen minutes past four p.m. — öğleden sonra dördü on üç geçiyor",
+    keywords: ["thirteen minutes past four p.m.", "öğleden sonra dördü on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:13.",
+      "🇹🇷 Saat 16:13."
+    ],
+    examples: [],
+    related_word_ids: [2973]
+  },
+  {
+    id: "vocab-saat-2974",
+    category: "vocabulary",
+    title: "fourteen minutes past four p.m. — öğleden sonra dördü on dört geçiyor",
+    keywords: ["fourteen minutes past four p.m.", "öğleden sonra dördü on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:14.",
+      "🇹🇷 Saat 16:14."
+    ],
+    examples: [],
+    related_word_ids: [2974]
+  },
+  {
+    id: "vocab-saat-2975",
+    category: "vocabulary",
+    title: "a quarter past four p.m. — öğleden sonra dördü çeyrek geçiyor",
+    keywords: ["a quarter past four p.m.", "öğleden sonra dördü çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:15.",
+      "🇹🇷 Saat 16:15."
+    ],
+    examples: [],
+    related_word_ids: [2975]
+  },
+  {
+    id: "vocab-saat-2976",
+    category: "vocabulary",
+    title: "sixteen minutes past four p.m. — öğleden sonra dördü on altı geçiyor",
+    keywords: ["sixteen minutes past four p.m.", "öğleden sonra dördü on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:16.",
+      "🇹🇷 Saat 16:16."
+    ],
+    examples: [],
+    related_word_ids: [2976]
+  },
+  {
+    id: "vocab-saat-2977",
+    category: "vocabulary",
+    title: "seventeen minutes past four p.m. — öğleden sonra dördü on yedi geçiyor",
+    keywords: ["seventeen minutes past four p.m.", "öğleden sonra dördü on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:17.",
+      "🇹🇷 Saat 16:17."
+    ],
+    examples: [],
+    related_word_ids: [2977]
+  },
+  {
+    id: "vocab-saat-2978",
+    category: "vocabulary",
+    title: "eighteen minutes past four p.m. — öğleden sonra dördü on sekiz geçiyor",
+    keywords: ["eighteen minutes past four p.m.", "öğleden sonra dördü on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:18.",
+      "🇹🇷 Saat 16:18."
+    ],
+    examples: [],
+    related_word_ids: [2978]
+  },
+  {
+    id: "vocab-saat-2979",
+    category: "vocabulary",
+    title: "nineteen minutes past four p.m. — öğleden sonra dördü on dokuz geçiyor",
+    keywords: ["nineteen minutes past four p.m.", "öğleden sonra dördü on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:19.",
+      "🇹🇷 Saat 16:19."
+    ],
+    examples: [],
+    related_word_ids: [2979]
+  },
+  {
+    id: "vocab-saat-2980",
+    category: "vocabulary",
+    title: "twenty past four p.m. — öğleden sonra dördü yirmi geçiyor",
+    keywords: ["twenty past four p.m.", "öğleden sonra dördü yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:20.",
+      "🇹🇷 Saat 16:20."
+    ],
+    examples: [],
+    related_word_ids: [2980]
+  },
+  {
+    id: "vocab-saat-2981",
+    category: "vocabulary",
+    title: "twenty-one minutes past four p.m. — öğleden sonra dördü yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past four p.m.", "öğleden sonra dördü yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:21.",
+      "🇹🇷 Saat 16:21."
+    ],
+    examples: [],
+    related_word_ids: [2981]
+  },
+  {
+    id: "vocab-saat-2982",
+    category: "vocabulary",
+    title: "twenty-two minutes past four p.m. — öğleden sonra dördü yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past four p.m.", "öğleden sonra dördü yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:22.",
+      "🇹🇷 Saat 16:22."
+    ],
+    examples: [],
+    related_word_ids: [2982]
+  },
+  {
+    id: "vocab-saat-2983",
+    category: "vocabulary",
+    title: "twenty-three minutes past four p.m. — öğleden sonra dördü yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past four p.m.", "öğleden sonra dördü yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:23.",
+      "🇹🇷 Saat 16:23."
+    ],
+    examples: [],
+    related_word_ids: [2983]
+  },
+  {
+    id: "vocab-saat-2984",
+    category: "vocabulary",
+    title: "twenty-four minutes past four p.m. — öğleden sonra dördü yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past four p.m.", "öğleden sonra dördü yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:24.",
+      "🇹🇷 Saat 16:24."
+    ],
+    examples: [],
+    related_word_ids: [2984]
+  },
+  {
+    id: "vocab-saat-2985",
+    category: "vocabulary",
+    title: "twenty-five past four p.m. — öğleden sonra dördü yirmi beş geçiyor",
+    keywords: ["twenty-five past four p.m.", "öğleden sonra dördü yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:25.",
+      "🇹🇷 Saat 16:25."
+    ],
+    examples: [],
+    related_word_ids: [2985]
+  },
+  {
+    id: "vocab-saat-2986",
+    category: "vocabulary",
+    title: "twenty-six minutes past four p.m. — öğleden sonra dördü yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past four p.m.", "öğleden sonra dördü yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:26.",
+      "🇹🇷 Saat 16:26."
+    ],
+    examples: [],
+    related_word_ids: [2986]
+  },
+  {
+    id: "vocab-saat-2987",
+    category: "vocabulary",
+    title: "twenty-seven minutes past four p.m. — öğleden sonra dördü yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past four p.m.", "öğleden sonra dördü yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:27.",
+      "🇹🇷 Saat 16:27."
+    ],
+    examples: [],
+    related_word_ids: [2987]
+  },
+  {
+    id: "vocab-saat-2988",
+    category: "vocabulary",
+    title: "twenty-eight minutes past four p.m. — öğleden sonra dördü yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past four p.m.", "öğleden sonra dördü yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:28.",
+      "🇹🇷 Saat 16:28."
+    ],
+    examples: [],
+    related_word_ids: [2988]
+  },
+  {
+    id: "vocab-saat-2989",
+    category: "vocabulary",
+    title: "twenty-nine minutes past four p.m. — öğleden sonra dördü yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past four p.m.", "öğleden sonra dördü yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:29.",
+      "🇹🇷 Saat 16:29."
+    ],
+    examples: [],
+    related_word_ids: [2989]
+  },
+  {
+    id: "vocab-saat-2990",
+    category: "vocabulary",
+    title: "half past four p.m. — öğleden sonra dört buçuk",
+    keywords: ["half past four p.m.", "öğleden sonra dört buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:30.",
+      "🇹🇷 Saat 16:30."
+    ],
+    examples: [],
+    related_word_ids: [2990]
+  },
+  {
+    id: "vocab-saat-2991",
+    category: "vocabulary",
+    title: "twenty-nine minutes to five p.m. — öğleden sonra beşe yirmi dokuz var",
+    keywords: ["twenty-nine minutes to five p.m.", "öğleden sonra beşe yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:31.",
+      "🇹🇷 Saat 16:31."
+    ],
+    examples: [],
+    related_word_ids: [2991]
+  },
+  {
+    id: "vocab-saat-2992",
+    category: "vocabulary",
+    title: "twenty-eight minutes to five p.m. — öğleden sonra beşe yirmi sekiz var",
+    keywords: ["twenty-eight minutes to five p.m.", "öğleden sonra beşe yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:32.",
+      "🇹🇷 Saat 16:32."
+    ],
+    examples: [],
+    related_word_ids: [2992]
+  },
+  {
+    id: "vocab-saat-2993",
+    category: "vocabulary",
+    title: "twenty-seven minutes to five p.m. — öğleden sonra beşe yirmi yedi var",
+    keywords: ["twenty-seven minutes to five p.m.", "öğleden sonra beşe yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:33.",
+      "🇹🇷 Saat 16:33."
+    ],
+    examples: [],
+    related_word_ids: [2993]
+  },
+  {
+    id: "vocab-saat-2994",
+    category: "vocabulary",
+    title: "twenty-six minutes to five p.m. — öğleden sonra beşe yirmi altı var",
+    keywords: ["twenty-six minutes to five p.m.", "öğleden sonra beşe yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:34.",
+      "🇹🇷 Saat 16:34."
+    ],
+    examples: [],
+    related_word_ids: [2994]
+  },
+  {
+    id: "vocab-saat-2995",
+    category: "vocabulary",
+    title: "twenty-five to five p.m. — öğleden sonra beşe yirmi beş var",
+    keywords: ["twenty-five to five p.m.", "öğleden sonra beşe yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:35.",
+      "🇹🇷 Saat 16:35."
+    ],
+    examples: [],
+    related_word_ids: [2995]
+  },
+  {
+    id: "vocab-saat-2996",
+    category: "vocabulary",
+    title: "twenty-four minutes to five p.m. — öğleden sonra beşe yirmi dört var",
+    keywords: ["twenty-four minutes to five p.m.", "öğleden sonra beşe yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:36.",
+      "🇹🇷 Saat 16:36."
+    ],
+    examples: [],
+    related_word_ids: [2996]
+  },
+  {
+    id: "vocab-saat-2997",
+    category: "vocabulary",
+    title: "twenty-three minutes to five p.m. — öğleden sonra beşe yirmi üç var",
+    keywords: ["twenty-three minutes to five p.m.", "öğleden sonra beşe yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:37.",
+      "🇹🇷 Saat 16:37."
+    ],
+    examples: [],
+    related_word_ids: [2997]
+  },
+  {
+    id: "vocab-saat-2998",
+    category: "vocabulary",
+    title: "twenty-two minutes to five p.m. — öğleden sonra beşe yirmi iki var",
+    keywords: ["twenty-two minutes to five p.m.", "öğleden sonra beşe yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:38.",
+      "🇹🇷 Saat 16:38."
+    ],
+    examples: [],
+    related_word_ids: [2998]
+  },
+  {
+    id: "vocab-saat-2999",
+    category: "vocabulary",
+    title: "twenty-one minutes to five p.m. — öğleden sonra beşe yirmi bir var",
+    keywords: ["twenty-one minutes to five p.m.", "öğleden sonra beşe yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:39.",
+      "🇹🇷 Saat 16:39."
+    ],
+    examples: [],
+    related_word_ids: [2999]
+  },
+  {
+    id: "vocab-saat-3000",
+    category: "vocabulary",
+    title: "twenty to five p.m. — öğleden sonra beşe yirmi var",
+    keywords: ["twenty to five p.m.", "öğleden sonra beşe yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:40.",
+      "🇹🇷 Saat 16:40."
+    ],
+    examples: [],
+    related_word_ids: [3000]
+  },
+  {
+    id: "vocab-saat-3001",
+    category: "vocabulary",
+    title: "nineteen minutes to five p.m. — öğleden sonra beşe on dokuz var",
+    keywords: ["nineteen minutes to five p.m.", "öğleden sonra beşe on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:41.",
+      "🇹🇷 Saat 16:41."
+    ],
+    examples: [],
+    related_word_ids: [3001]
+  },
+  {
+    id: "vocab-saat-3002",
+    category: "vocabulary",
+    title: "eighteen minutes to five p.m. — öğleden sonra beşe on sekiz var",
+    keywords: ["eighteen minutes to five p.m.", "öğleden sonra beşe on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:42.",
+      "🇹🇷 Saat 16:42."
+    ],
+    examples: [],
+    related_word_ids: [3002]
+  },
+  {
+    id: "vocab-saat-3003",
+    category: "vocabulary",
+    title: "seventeen minutes to five p.m. — öğleden sonra beşe on yedi var",
+    keywords: ["seventeen minutes to five p.m.", "öğleden sonra beşe on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:43.",
+      "🇹🇷 Saat 16:43."
+    ],
+    examples: [],
+    related_word_ids: [3003]
+  },
+  {
+    id: "vocab-saat-3004",
+    category: "vocabulary",
+    title: "sixteen minutes to five p.m. — öğleden sonra beşe on altı var",
+    keywords: ["sixteen minutes to five p.m.", "öğleden sonra beşe on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:44.",
+      "🇹🇷 Saat 16:44."
+    ],
+    examples: [],
+    related_word_ids: [3004]
+  },
+  {
+    id: "vocab-saat-3005",
+    category: "vocabulary",
+    title: "a quarter to five p.m. — öğleden sonra beşe çeyrek var",
+    keywords: ["a quarter to five p.m.", "öğleden sonra beşe çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:45.",
+      "🇹🇷 Saat 16:45."
+    ],
+    examples: [],
+    related_word_ids: [3005]
+  },
+  {
+    id: "vocab-saat-3006",
+    category: "vocabulary",
+    title: "fourteen minutes to five p.m. — öğleden sonra beşe on dört var",
+    keywords: ["fourteen minutes to five p.m.", "öğleden sonra beşe on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:46.",
+      "🇹🇷 Saat 16:46."
+    ],
+    examples: [],
+    related_word_ids: [3006]
+  },
+  {
+    id: "vocab-saat-3007",
+    category: "vocabulary",
+    title: "thirteen minutes to five p.m. — öğleden sonra beşe on üç var",
+    keywords: ["thirteen minutes to five p.m.", "öğleden sonra beşe on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:47.",
+      "🇹🇷 Saat 16:47."
+    ],
+    examples: [],
+    related_word_ids: [3007]
+  },
+  {
+    id: "vocab-saat-3008",
+    category: "vocabulary",
+    title: "twelve minutes to five p.m. — öğleden sonra beşe on iki var",
+    keywords: ["twelve minutes to five p.m.", "öğleden sonra beşe on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:48.",
+      "🇹🇷 Saat 16:48."
+    ],
+    examples: [],
+    related_word_ids: [3008]
+  },
+  {
+    id: "vocab-saat-3009",
+    category: "vocabulary",
+    title: "eleven minutes to five p.m. — öğleden sonra beşe on bir var",
+    keywords: ["eleven minutes to five p.m.", "öğleden sonra beşe on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:49.",
+      "🇹🇷 Saat 16:49."
+    ],
+    examples: [],
+    related_word_ids: [3009]
+  },
+  {
+    id: "vocab-saat-3010",
+    category: "vocabulary",
+    title: "ten to five p.m. — öğleden sonra beşe on var",
+    keywords: ["ten to five p.m.", "öğleden sonra beşe on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:50.",
+      "🇹🇷 Saat 16:50."
+    ],
+    examples: [],
+    related_word_ids: [3010]
+  },
+  {
+    id: "vocab-saat-3011",
+    category: "vocabulary",
+    title: "nine minutes to five p.m. — öğleden sonra beşe dokuz var",
+    keywords: ["nine minutes to five p.m.", "öğleden sonra beşe dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:51.",
+      "🇹🇷 Saat 16:51."
+    ],
+    examples: [],
+    related_word_ids: [3011]
+  },
+  {
+    id: "vocab-saat-3012",
+    category: "vocabulary",
+    title: "eight minutes to five p.m. — öğleden sonra beşe sekiz var",
+    keywords: ["eight minutes to five p.m.", "öğleden sonra beşe sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:52.",
+      "🇹🇷 Saat 16:52."
+    ],
+    examples: [],
+    related_word_ids: [3012]
+  },
+  {
+    id: "vocab-saat-3013",
+    category: "vocabulary",
+    title: "seven minutes to five p.m. — öğleden sonra beşe yedi var",
+    keywords: ["seven minutes to five p.m.", "öğleden sonra beşe yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:53.",
+      "🇹🇷 Saat 16:53."
+    ],
+    examples: [],
+    related_word_ids: [3013]
+  },
+  {
+    id: "vocab-saat-3014",
+    category: "vocabulary",
+    title: "six minutes to five p.m. — öğleden sonra beşe altı var",
+    keywords: ["six minutes to five p.m.", "öğleden sonra beşe altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:54.",
+      "🇹🇷 Saat 16:54."
+    ],
+    examples: [],
+    related_word_ids: [3014]
+  },
+  {
+    id: "vocab-saat-3015",
+    category: "vocabulary",
+    title: "five to five p.m. — öğleden sonra beşe beş var",
+    keywords: ["five to five p.m.", "öğleden sonra beşe beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:55.",
+      "🇹🇷 Saat 16:55."
+    ],
+    examples: [],
+    related_word_ids: [3015]
+  },
+  {
+    id: "vocab-saat-3016",
+    category: "vocabulary",
+    title: "four minutes to five p.m. — öğleden sonra beşe dört var",
+    keywords: ["four minutes to five p.m.", "öğleden sonra beşe dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:56.",
+      "🇹🇷 Saat 16:56."
+    ],
+    examples: [],
+    related_word_ids: [3016]
+  },
+  {
+    id: "vocab-saat-3017",
+    category: "vocabulary",
+    title: "three minutes to five p.m. — öğleden sonra beşe üç var",
+    keywords: ["three minutes to five p.m.", "öğleden sonra beşe üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:57.",
+      "🇹🇷 Saat 16:57."
+    ],
+    examples: [],
+    related_word_ids: [3017]
+  },
+  {
+    id: "vocab-saat-3018",
+    category: "vocabulary",
+    title: "two minutes to five p.m. — öğleden sonra beşe iki var",
+    keywords: ["two minutes to five p.m.", "öğleden sonra beşe iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:58.",
+      "🇹🇷 Saat 16:58."
+    ],
+    examples: [],
+    related_word_ids: [3018]
+  },
+  {
+    id: "vocab-saat-3019",
+    category: "vocabulary",
+    title: "one minute to five p.m. — öğleden sonra beşe bir var",
+    keywords: ["one minute to five p.m.", "öğleden sonra beşe bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 16:59.",
+      "🇹🇷 Saat 16:59."
+    ],
+    examples: [],
+    related_word_ids: [3019]
+  },
+  {
+    id: "vocab-saat-3020",
+    category: "vocabulary",
+    title: "five o'clock p.m. — akşam beş",
+    keywords: ["five o'clock p.m.", "akşam beş", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:00.",
+      "🇹🇷 Saat 17:00."
+    ],
+    examples: [],
+    related_word_ids: [3020]
+  },
+  {
+    id: "vocab-saat-3021",
+    category: "vocabulary",
+    title: "one minute past five p.m. — akşam beşi bir geçiyor",
+    keywords: ["one minute past five p.m.", "akşam beşi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:01.",
+      "🇹🇷 Saat 17:01."
+    ],
+    examples: [],
+    related_word_ids: [3021]
+  },
+  {
+    id: "vocab-saat-3022",
+    category: "vocabulary",
+    title: "two minutes past five p.m. — akşam beşi iki geçiyor",
+    keywords: ["two minutes past five p.m.", "akşam beşi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:02.",
+      "🇹🇷 Saat 17:02."
+    ],
+    examples: [],
+    related_word_ids: [3022]
+  },
+  {
+    id: "vocab-saat-3023",
+    category: "vocabulary",
+    title: "three minutes past five p.m. — akşam beşi üç geçiyor",
+    keywords: ["three minutes past five p.m.", "akşam beşi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:03.",
+      "🇹🇷 Saat 17:03."
+    ],
+    examples: [],
+    related_word_ids: [3023]
+  },
+  {
+    id: "vocab-saat-3024",
+    category: "vocabulary",
+    title: "four minutes past five p.m. — akşam beşi dört geçiyor",
+    keywords: ["four minutes past five p.m.", "akşam beşi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:04.",
+      "🇹🇷 Saat 17:04."
+    ],
+    examples: [],
+    related_word_ids: [3024]
+  },
+  {
+    id: "vocab-saat-3025",
+    category: "vocabulary",
+    title: "five past five p.m. — akşam beşi beş geçiyor",
+    keywords: ["five past five p.m.", "akşam beşi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:05.",
+      "🇹🇷 Saat 17:05."
+    ],
+    examples: [],
+    related_word_ids: [3025]
+  },
+  {
+    id: "vocab-saat-3026",
+    category: "vocabulary",
+    title: "six minutes past five p.m. — akşam beşi altı geçiyor",
+    keywords: ["six minutes past five p.m.", "akşam beşi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:06.",
+      "🇹🇷 Saat 17:06."
+    ],
+    examples: [],
+    related_word_ids: [3026]
+  },
+  {
+    id: "vocab-saat-3027",
+    category: "vocabulary",
+    title: "seven minutes past five p.m. — akşam beşi yedi geçiyor",
+    keywords: ["seven minutes past five p.m.", "akşam beşi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:07.",
+      "🇹🇷 Saat 17:07."
+    ],
+    examples: [],
+    related_word_ids: [3027]
+  },
+  {
+    id: "vocab-saat-3028",
+    category: "vocabulary",
+    title: "eight minutes past five p.m. — akşam beşi sekiz geçiyor",
+    keywords: ["eight minutes past five p.m.", "akşam beşi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:08.",
+      "🇹🇷 Saat 17:08."
+    ],
+    examples: [],
+    related_word_ids: [3028]
+  },
+  {
+    id: "vocab-saat-3029",
+    category: "vocabulary",
+    title: "nine minutes past five p.m. — akşam beşi dokuz geçiyor",
+    keywords: ["nine minutes past five p.m.", "akşam beşi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:09.",
+      "🇹🇷 Saat 17:09."
+    ],
+    examples: [],
+    related_word_ids: [3029]
+  },
+  {
+    id: "vocab-saat-3030",
+    category: "vocabulary",
+    title: "ten past five p.m. — akşam beşi on geçiyor",
+    keywords: ["ten past five p.m.", "akşam beşi on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:10.",
+      "🇹🇷 Saat 17:10."
+    ],
+    examples: [],
+    related_word_ids: [3030]
+  },
+  {
+    id: "vocab-saat-3031",
+    category: "vocabulary",
+    title: "eleven minutes past five p.m. — akşam beşi on bir geçiyor",
+    keywords: ["eleven minutes past five p.m.", "akşam beşi on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:11.",
+      "🇹🇷 Saat 17:11."
+    ],
+    examples: [],
+    related_word_ids: [3031]
+  },
+  {
+    id: "vocab-saat-3032",
+    category: "vocabulary",
+    title: "twelve minutes past five p.m. — akşam beşi on iki geçiyor",
+    keywords: ["twelve minutes past five p.m.", "akşam beşi on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:12.",
+      "🇹🇷 Saat 17:12."
+    ],
+    examples: [],
+    related_word_ids: [3032]
+  },
+  {
+    id: "vocab-saat-3033",
+    category: "vocabulary",
+    title: "thirteen minutes past five p.m. — akşam beşi on üç geçiyor",
+    keywords: ["thirteen minutes past five p.m.", "akşam beşi on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:13.",
+      "🇹🇷 Saat 17:13."
+    ],
+    examples: [],
+    related_word_ids: [3033]
+  },
+  {
+    id: "vocab-saat-3034",
+    category: "vocabulary",
+    title: "fourteen minutes past five p.m. — akşam beşi on dört geçiyor",
+    keywords: ["fourteen minutes past five p.m.", "akşam beşi on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:14.",
+      "🇹🇷 Saat 17:14."
+    ],
+    examples: [],
+    related_word_ids: [3034]
+  },
+  {
+    id: "vocab-saat-3035",
+    category: "vocabulary",
+    title: "a quarter past five p.m. — akşam beşi çeyrek geçiyor",
+    keywords: ["a quarter past five p.m.", "akşam beşi çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:15.",
+      "🇹🇷 Saat 17:15."
+    ],
+    examples: [],
+    related_word_ids: [3035]
+  },
+  {
+    id: "vocab-saat-3036",
+    category: "vocabulary",
+    title: "sixteen minutes past five p.m. — akşam beşi on altı geçiyor",
+    keywords: ["sixteen minutes past five p.m.", "akşam beşi on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:16.",
+      "🇹🇷 Saat 17:16."
+    ],
+    examples: [],
+    related_word_ids: [3036]
+  },
+  {
+    id: "vocab-saat-3037",
+    category: "vocabulary",
+    title: "seventeen minutes past five p.m. — akşam beşi on yedi geçiyor",
+    keywords: ["seventeen minutes past five p.m.", "akşam beşi on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:17.",
+      "🇹🇷 Saat 17:17."
+    ],
+    examples: [],
+    related_word_ids: [3037]
+  },
+  {
+    id: "vocab-saat-3038",
+    category: "vocabulary",
+    title: "eighteen minutes past five p.m. — akşam beşi on sekiz geçiyor",
+    keywords: ["eighteen minutes past five p.m.", "akşam beşi on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:18.",
+      "🇹🇷 Saat 17:18."
+    ],
+    examples: [],
+    related_word_ids: [3038]
+  },
+  {
+    id: "vocab-saat-3039",
+    category: "vocabulary",
+    title: "nineteen minutes past five p.m. — akşam beşi on dokuz geçiyor",
+    keywords: ["nineteen minutes past five p.m.", "akşam beşi on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:19.",
+      "🇹🇷 Saat 17:19."
+    ],
+    examples: [],
+    related_word_ids: [3039]
+  },
+  {
+    id: "vocab-saat-3040",
+    category: "vocabulary",
+    title: "twenty past five p.m. — akşam beşi yirmi geçiyor",
+    keywords: ["twenty past five p.m.", "akşam beşi yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:20.",
+      "🇹🇷 Saat 17:20."
+    ],
+    examples: [],
+    related_word_ids: [3040]
+  },
+  {
+    id: "vocab-saat-3041",
+    category: "vocabulary",
+    title: "twenty-one minutes past five p.m. — akşam beşi yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past five p.m.", "akşam beşi yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:21.",
+      "🇹🇷 Saat 17:21."
+    ],
+    examples: [],
+    related_word_ids: [3041]
+  },
+  {
+    id: "vocab-saat-3042",
+    category: "vocabulary",
+    title: "twenty-two minutes past five p.m. — akşam beşi yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past five p.m.", "akşam beşi yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:22.",
+      "🇹🇷 Saat 17:22."
+    ],
+    examples: [],
+    related_word_ids: [3042]
+  },
+  {
+    id: "vocab-saat-3043",
+    category: "vocabulary",
+    title: "twenty-three minutes past five p.m. — akşam beşi yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past five p.m.", "akşam beşi yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:23.",
+      "🇹🇷 Saat 17:23."
+    ],
+    examples: [],
+    related_word_ids: [3043]
+  },
+  {
+    id: "vocab-saat-3044",
+    category: "vocabulary",
+    title: "twenty-four minutes past five p.m. — akşam beşi yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past five p.m.", "akşam beşi yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:24.",
+      "🇹🇷 Saat 17:24."
+    ],
+    examples: [],
+    related_word_ids: [3044]
+  },
+  {
+    id: "vocab-saat-3045",
+    category: "vocabulary",
+    title: "twenty-five past five p.m. — akşam beşi yirmi beş geçiyor",
+    keywords: ["twenty-five past five p.m.", "akşam beşi yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:25.",
+      "🇹🇷 Saat 17:25."
+    ],
+    examples: [],
+    related_word_ids: [3045]
+  },
+  {
+    id: "vocab-saat-3046",
+    category: "vocabulary",
+    title: "twenty-six minutes past five p.m. — akşam beşi yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past five p.m.", "akşam beşi yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:26.",
+      "🇹🇷 Saat 17:26."
+    ],
+    examples: [],
+    related_word_ids: [3046]
+  },
+  {
+    id: "vocab-saat-3047",
+    category: "vocabulary",
+    title: "twenty-seven minutes past five p.m. — akşam beşi yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past five p.m.", "akşam beşi yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:27.",
+      "🇹🇷 Saat 17:27."
+    ],
+    examples: [],
+    related_word_ids: [3047]
+  },
+  {
+    id: "vocab-saat-3048",
+    category: "vocabulary",
+    title: "twenty-eight minutes past five p.m. — akşam beşi yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past five p.m.", "akşam beşi yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:28.",
+      "🇹🇷 Saat 17:28."
+    ],
+    examples: [],
+    related_word_ids: [3048]
+  },
+  {
+    id: "vocab-saat-3049",
+    category: "vocabulary",
+    title: "twenty-nine minutes past five p.m. — akşam beşi yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past five p.m.", "akşam beşi yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:29.",
+      "🇹🇷 Saat 17:29."
+    ],
+    examples: [],
+    related_word_ids: [3049]
+  },
+  {
+    id: "vocab-saat-3050",
+    category: "vocabulary",
+    title: "half past five p.m. — akşam beş buçuk",
+    keywords: ["half past five p.m.", "akşam beş buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:30.",
+      "🇹🇷 Saat 17:30."
+    ],
+    examples: [],
+    related_word_ids: [3050]
+  },
+  {
+    id: "vocab-saat-3051",
+    category: "vocabulary",
+    title: "twenty-nine minutes to six p.m. — akşam altıya yirmi dokuz var",
+    keywords: ["twenty-nine minutes to six p.m.", "akşam altıya yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:31.",
+      "🇹🇷 Saat 17:31."
+    ],
+    examples: [],
+    related_word_ids: [3051]
+  },
+  {
+    id: "vocab-saat-3052",
+    category: "vocabulary",
+    title: "twenty-eight minutes to six p.m. — akşam altıya yirmi sekiz var",
+    keywords: ["twenty-eight minutes to six p.m.", "akşam altıya yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:32.",
+      "🇹🇷 Saat 17:32."
+    ],
+    examples: [],
+    related_word_ids: [3052]
+  },
+  {
+    id: "vocab-saat-3053",
+    category: "vocabulary",
+    title: "twenty-seven minutes to six p.m. — akşam altıya yirmi yedi var",
+    keywords: ["twenty-seven minutes to six p.m.", "akşam altıya yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:33.",
+      "🇹🇷 Saat 17:33."
+    ],
+    examples: [],
+    related_word_ids: [3053]
+  },
+  {
+    id: "vocab-saat-3054",
+    category: "vocabulary",
+    title: "twenty-six minutes to six p.m. — akşam altıya yirmi altı var",
+    keywords: ["twenty-six minutes to six p.m.", "akşam altıya yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:34.",
+      "🇹🇷 Saat 17:34."
+    ],
+    examples: [],
+    related_word_ids: [3054]
+  },
+  {
+    id: "vocab-saat-3055",
+    category: "vocabulary",
+    title: "twenty-five to six p.m. — akşam altıya yirmi beş var",
+    keywords: ["twenty-five to six p.m.", "akşam altıya yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:35.",
+      "🇹🇷 Saat 17:35."
+    ],
+    examples: [],
+    related_word_ids: [3055]
+  },
+  {
+    id: "vocab-saat-3056",
+    category: "vocabulary",
+    title: "twenty-four minutes to six p.m. — akşam altıya yirmi dört var",
+    keywords: ["twenty-four minutes to six p.m.", "akşam altıya yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:36.",
+      "🇹🇷 Saat 17:36."
+    ],
+    examples: [],
+    related_word_ids: [3056]
+  },
+  {
+    id: "vocab-saat-3057",
+    category: "vocabulary",
+    title: "twenty-three minutes to six p.m. — akşam altıya yirmi üç var",
+    keywords: ["twenty-three minutes to six p.m.", "akşam altıya yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:37.",
+      "🇹🇷 Saat 17:37."
+    ],
+    examples: [],
+    related_word_ids: [3057]
+  },
+  {
+    id: "vocab-saat-3058",
+    category: "vocabulary",
+    title: "twenty-two minutes to six p.m. — akşam altıya yirmi iki var",
+    keywords: ["twenty-two minutes to six p.m.", "akşam altıya yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:38.",
+      "🇹🇷 Saat 17:38."
+    ],
+    examples: [],
+    related_word_ids: [3058]
+  },
+  {
+    id: "vocab-saat-3059",
+    category: "vocabulary",
+    title: "twenty-one minutes to six p.m. — akşam altıya yirmi bir var",
+    keywords: ["twenty-one minutes to six p.m.", "akşam altıya yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:39.",
+      "🇹🇷 Saat 17:39."
+    ],
+    examples: [],
+    related_word_ids: [3059]
+  },
+  {
+    id: "vocab-saat-3060",
+    category: "vocabulary",
+    title: "twenty to six p.m. — akşam altıya yirmi var",
+    keywords: ["twenty to six p.m.", "akşam altıya yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:40.",
+      "🇹🇷 Saat 17:40."
+    ],
+    examples: [],
+    related_word_ids: [3060]
+  },
+  {
+    id: "vocab-saat-3061",
+    category: "vocabulary",
+    title: "nineteen minutes to six p.m. — akşam altıya on dokuz var",
+    keywords: ["nineteen minutes to six p.m.", "akşam altıya on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:41.",
+      "🇹🇷 Saat 17:41."
+    ],
+    examples: [],
+    related_word_ids: [3061]
+  },
+  {
+    id: "vocab-saat-3062",
+    category: "vocabulary",
+    title: "eighteen minutes to six p.m. — akşam altıya on sekiz var",
+    keywords: ["eighteen minutes to six p.m.", "akşam altıya on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:42.",
+      "🇹🇷 Saat 17:42."
+    ],
+    examples: [],
+    related_word_ids: [3062]
+  },
+  {
+    id: "vocab-saat-3063",
+    category: "vocabulary",
+    title: "seventeen minutes to six p.m. — akşam altıya on yedi var",
+    keywords: ["seventeen minutes to six p.m.", "akşam altıya on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:43.",
+      "🇹🇷 Saat 17:43."
+    ],
+    examples: [],
+    related_word_ids: [3063]
+  },
+  {
+    id: "vocab-saat-3064",
+    category: "vocabulary",
+    title: "sixteen minutes to six p.m. — akşam altıya on altı var",
+    keywords: ["sixteen minutes to six p.m.", "akşam altıya on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:44.",
+      "🇹🇷 Saat 17:44."
+    ],
+    examples: [],
+    related_word_ids: [3064]
+  },
+  {
+    id: "vocab-saat-3065",
+    category: "vocabulary",
+    title: "a quarter to six p.m. — akşam altıya çeyrek var",
+    keywords: ["a quarter to six p.m.", "akşam altıya çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:45.",
+      "🇹🇷 Saat 17:45."
+    ],
+    examples: [],
+    related_word_ids: [3065]
+  },
+  {
+    id: "vocab-saat-3066",
+    category: "vocabulary",
+    title: "fourteen minutes to six p.m. — akşam altıya on dört var",
+    keywords: ["fourteen minutes to six p.m.", "akşam altıya on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:46.",
+      "🇹🇷 Saat 17:46."
+    ],
+    examples: [],
+    related_word_ids: [3066]
+  },
+  {
+    id: "vocab-saat-3067",
+    category: "vocabulary",
+    title: "thirteen minutes to six p.m. — akşam altıya on üç var",
+    keywords: ["thirteen minutes to six p.m.", "akşam altıya on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:47.",
+      "🇹🇷 Saat 17:47."
+    ],
+    examples: [],
+    related_word_ids: [3067]
+  },
+  {
+    id: "vocab-saat-3068",
+    category: "vocabulary",
+    title: "twelve minutes to six p.m. — akşam altıya on iki var",
+    keywords: ["twelve minutes to six p.m.", "akşam altıya on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:48.",
+      "🇹🇷 Saat 17:48."
+    ],
+    examples: [],
+    related_word_ids: [3068]
+  },
+  {
+    id: "vocab-saat-3069",
+    category: "vocabulary",
+    title: "eleven minutes to six p.m. — akşam altıya on bir var",
+    keywords: ["eleven minutes to six p.m.", "akşam altıya on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:49.",
+      "🇹🇷 Saat 17:49."
+    ],
+    examples: [],
+    related_word_ids: [3069]
+  },
+  {
+    id: "vocab-saat-3070",
+    category: "vocabulary",
+    title: "ten to six p.m. — akşam altıya on var",
+    keywords: ["ten to six p.m.", "akşam altıya on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:50.",
+      "🇹🇷 Saat 17:50."
+    ],
+    examples: [],
+    related_word_ids: [3070]
+  },
+  {
+    id: "vocab-saat-3071",
+    category: "vocabulary",
+    title: "nine minutes to six p.m. — akşam altıya dokuz var",
+    keywords: ["nine minutes to six p.m.", "akşam altıya dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:51.",
+      "🇹🇷 Saat 17:51."
+    ],
+    examples: [],
+    related_word_ids: [3071]
+  },
+  {
+    id: "vocab-saat-3072",
+    category: "vocabulary",
+    title: "eight minutes to six p.m. — akşam altıya sekiz var",
+    keywords: ["eight minutes to six p.m.", "akşam altıya sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:52.",
+      "🇹🇷 Saat 17:52."
+    ],
+    examples: [],
+    related_word_ids: [3072]
+  },
+  {
+    id: "vocab-saat-3073",
+    category: "vocabulary",
+    title: "seven minutes to six p.m. — akşam altıya yedi var",
+    keywords: ["seven minutes to six p.m.", "akşam altıya yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:53.",
+      "🇹🇷 Saat 17:53."
+    ],
+    examples: [],
+    related_word_ids: [3073]
+  },
+  {
+    id: "vocab-saat-3074",
+    category: "vocabulary",
+    title: "six minutes to six p.m. — akşam altıya altı var",
+    keywords: ["six minutes to six p.m.", "akşam altıya altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:54.",
+      "🇹🇷 Saat 17:54."
+    ],
+    examples: [],
+    related_word_ids: [3074]
+  },
+  {
+    id: "vocab-saat-3075",
+    category: "vocabulary",
+    title: "five to six p.m. — akşam altıya beş var",
+    keywords: ["five to six p.m.", "akşam altıya beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:55.",
+      "🇹🇷 Saat 17:55."
+    ],
+    examples: [],
+    related_word_ids: [3075]
+  },
+  {
+    id: "vocab-saat-3076",
+    category: "vocabulary",
+    title: "four minutes to six p.m. — akşam altıya dört var",
+    keywords: ["four minutes to six p.m.", "akşam altıya dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:56.",
+      "🇹🇷 Saat 17:56."
+    ],
+    examples: [],
+    related_word_ids: [3076]
+  },
+  {
+    id: "vocab-saat-3077",
+    category: "vocabulary",
+    title: "three minutes to six p.m. — akşam altıya üç var",
+    keywords: ["three minutes to six p.m.", "akşam altıya üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:57.",
+      "🇹🇷 Saat 17:57."
+    ],
+    examples: [],
+    related_word_ids: [3077]
+  },
+  {
+    id: "vocab-saat-3078",
+    category: "vocabulary",
+    title: "two minutes to six p.m. — akşam altıya iki var",
+    keywords: ["two minutes to six p.m.", "akşam altıya iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:58.",
+      "🇹🇷 Saat 17:58."
+    ],
+    examples: [],
+    related_word_ids: [3078]
+  },
+  {
+    id: "vocab-saat-3079",
+    category: "vocabulary",
+    title: "one minute to six p.m. — akşam altıya bir var",
+    keywords: ["one minute to six p.m.", "akşam altıya bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 17:59.",
+      "🇹🇷 Saat 17:59."
+    ],
+    examples: [],
+    related_word_ids: [3079]
+  },
+  {
+    id: "vocab-saat-3080",
+    category: "vocabulary",
+    title: "six o'clock p.m. — akşam altı",
+    keywords: ["six o'clock p.m.", "akşam altı", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:00.",
+      "🇹🇷 Saat 18:00."
+    ],
+    examples: [],
+    related_word_ids: [3080]
+  },
+  {
+    id: "vocab-saat-3081",
+    category: "vocabulary",
+    title: "one minute past six p.m. — akşam altıyı bir geçiyor",
+    keywords: ["one minute past six p.m.", "akşam altıyı bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:01.",
+      "🇹🇷 Saat 18:01."
+    ],
+    examples: [],
+    related_word_ids: [3081]
+  },
+  {
+    id: "vocab-saat-3082",
+    category: "vocabulary",
+    title: "two minutes past six p.m. — akşam altıyı iki geçiyor",
+    keywords: ["two minutes past six p.m.", "akşam altıyı iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:02.",
+      "🇹🇷 Saat 18:02."
+    ],
+    examples: [],
+    related_word_ids: [3082]
+  },
+  {
+    id: "vocab-saat-3083",
+    category: "vocabulary",
+    title: "three minutes past six p.m. — akşam altıyı üç geçiyor",
+    keywords: ["three minutes past six p.m.", "akşam altıyı üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:03.",
+      "🇹🇷 Saat 18:03."
+    ],
+    examples: [],
+    related_word_ids: [3083]
+  },
+  {
+    id: "vocab-saat-3084",
+    category: "vocabulary",
+    title: "four minutes past six p.m. — akşam altıyı dört geçiyor",
+    keywords: ["four minutes past six p.m.", "akşam altıyı dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:04.",
+      "🇹🇷 Saat 18:04."
+    ],
+    examples: [],
+    related_word_ids: [3084]
+  },
+  {
+    id: "vocab-saat-3085",
+    category: "vocabulary",
+    title: "five past six p.m. — akşam altıyı beş geçiyor",
+    keywords: ["five past six p.m.", "akşam altıyı beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:05.",
+      "🇹🇷 Saat 18:05."
+    ],
+    examples: [],
+    related_word_ids: [3085]
+  },
+  {
+    id: "vocab-saat-3086",
+    category: "vocabulary",
+    title: "six minutes past six p.m. — akşam altıyı altı geçiyor",
+    keywords: ["six minutes past six p.m.", "akşam altıyı altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:06.",
+      "🇹🇷 Saat 18:06."
+    ],
+    examples: [],
+    related_word_ids: [3086]
+  },
+  {
+    id: "vocab-saat-3087",
+    category: "vocabulary",
+    title: "seven minutes past six p.m. — akşam altıyı yedi geçiyor",
+    keywords: ["seven minutes past six p.m.", "akşam altıyı yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:07.",
+      "🇹🇷 Saat 18:07."
+    ],
+    examples: [],
+    related_word_ids: [3087]
+  },
+  {
+    id: "vocab-saat-3088",
+    category: "vocabulary",
+    title: "eight minutes past six p.m. — akşam altıyı sekiz geçiyor",
+    keywords: ["eight minutes past six p.m.", "akşam altıyı sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:08.",
+      "🇹🇷 Saat 18:08."
+    ],
+    examples: [],
+    related_word_ids: [3088]
+  },
+  {
+    id: "vocab-saat-3089",
+    category: "vocabulary",
+    title: "nine minutes past six p.m. — akşam altıyı dokuz geçiyor",
+    keywords: ["nine minutes past six p.m.", "akşam altıyı dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:09.",
+      "🇹🇷 Saat 18:09."
+    ],
+    examples: [],
+    related_word_ids: [3089]
+  },
+  {
+    id: "vocab-saat-3090",
+    category: "vocabulary",
+    title: "ten past six p.m. — akşam altıyı on geçiyor",
+    keywords: ["ten past six p.m.", "akşam altıyı on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:10.",
+      "🇹🇷 Saat 18:10."
+    ],
+    examples: [],
+    related_word_ids: [3090]
+  },
+  {
+    id: "vocab-saat-3091",
+    category: "vocabulary",
+    title: "eleven minutes past six p.m. — akşam altıyı on bir geçiyor",
+    keywords: ["eleven minutes past six p.m.", "akşam altıyı on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:11.",
+      "🇹🇷 Saat 18:11."
+    ],
+    examples: [],
+    related_word_ids: [3091]
+  },
+  {
+    id: "vocab-saat-3092",
+    category: "vocabulary",
+    title: "twelve minutes past six p.m. — akşam altıyı on iki geçiyor",
+    keywords: ["twelve minutes past six p.m.", "akşam altıyı on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:12.",
+      "🇹🇷 Saat 18:12."
+    ],
+    examples: [],
+    related_word_ids: [3092]
+  },
+  {
+    id: "vocab-saat-3093",
+    category: "vocabulary",
+    title: "thirteen minutes past six p.m. — akşam altıyı on üç geçiyor",
+    keywords: ["thirteen minutes past six p.m.", "akşam altıyı on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:13.",
+      "🇹🇷 Saat 18:13."
+    ],
+    examples: [],
+    related_word_ids: [3093]
+  },
+  {
+    id: "vocab-saat-3094",
+    category: "vocabulary",
+    title: "fourteen minutes past six p.m. — akşam altıyı on dört geçiyor",
+    keywords: ["fourteen minutes past six p.m.", "akşam altıyı on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:14.",
+      "🇹🇷 Saat 18:14."
+    ],
+    examples: [],
+    related_word_ids: [3094]
+  },
+  {
+    id: "vocab-saat-3095",
+    category: "vocabulary",
+    title: "a quarter past six p.m. — akşam altıyı çeyrek geçiyor",
+    keywords: ["a quarter past six p.m.", "akşam altıyı çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:15.",
+      "🇹🇷 Saat 18:15."
+    ],
+    examples: [],
+    related_word_ids: [3095]
+  },
+  {
+    id: "vocab-saat-3096",
+    category: "vocabulary",
+    title: "sixteen minutes past six p.m. — akşam altıyı on altı geçiyor",
+    keywords: ["sixteen minutes past six p.m.", "akşam altıyı on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:16.",
+      "🇹🇷 Saat 18:16."
+    ],
+    examples: [],
+    related_word_ids: [3096]
+  },
+  {
+    id: "vocab-saat-3097",
+    category: "vocabulary",
+    title: "seventeen minutes past six p.m. — akşam altıyı on yedi geçiyor",
+    keywords: ["seventeen minutes past six p.m.", "akşam altıyı on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:17.",
+      "🇹🇷 Saat 18:17."
+    ],
+    examples: [],
+    related_word_ids: [3097]
+  },
+  {
+    id: "vocab-saat-3098",
+    category: "vocabulary",
+    title: "eighteen minutes past six p.m. — akşam altıyı on sekiz geçiyor",
+    keywords: ["eighteen minutes past six p.m.", "akşam altıyı on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:18.",
+      "🇹🇷 Saat 18:18."
+    ],
+    examples: [],
+    related_word_ids: [3098]
+  },
+  {
+    id: "vocab-saat-3099",
+    category: "vocabulary",
+    title: "nineteen minutes past six p.m. — akşam altıyı on dokuz geçiyor",
+    keywords: ["nineteen minutes past six p.m.", "akşam altıyı on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:19.",
+      "🇹🇷 Saat 18:19."
+    ],
+    examples: [],
+    related_word_ids: [3099]
+  },
+  {
+    id: "vocab-saat-3100",
+    category: "vocabulary",
+    title: "twenty past six p.m. — akşam altıyı yirmi geçiyor",
+    keywords: ["twenty past six p.m.", "akşam altıyı yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:20.",
+      "🇹🇷 Saat 18:20."
+    ],
+    examples: [],
+    related_word_ids: [3100]
+  },
+  {
+    id: "vocab-saat-3101",
+    category: "vocabulary",
+    title: "twenty-one minutes past six p.m. — akşam altıyı yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past six p.m.", "akşam altıyı yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:21.",
+      "🇹🇷 Saat 18:21."
+    ],
+    examples: [],
+    related_word_ids: [3101]
+  },
+  {
+    id: "vocab-saat-3102",
+    category: "vocabulary",
+    title: "twenty-two minutes past six p.m. — akşam altıyı yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past six p.m.", "akşam altıyı yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:22.",
+      "🇹🇷 Saat 18:22."
+    ],
+    examples: [],
+    related_word_ids: [3102]
+  },
+  {
+    id: "vocab-saat-3103",
+    category: "vocabulary",
+    title: "twenty-three minutes past six p.m. — akşam altıyı yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past six p.m.", "akşam altıyı yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:23.",
+      "🇹🇷 Saat 18:23."
+    ],
+    examples: [],
+    related_word_ids: [3103]
+  },
+  {
+    id: "vocab-saat-3104",
+    category: "vocabulary",
+    title: "twenty-four minutes past six p.m. — akşam altıyı yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past six p.m.", "akşam altıyı yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:24.",
+      "🇹🇷 Saat 18:24."
+    ],
+    examples: [],
+    related_word_ids: [3104]
+  },
+  {
+    id: "vocab-saat-3105",
+    category: "vocabulary",
+    title: "twenty-five past six p.m. — akşam altıyı yirmi beş geçiyor",
+    keywords: ["twenty-five past six p.m.", "akşam altıyı yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:25.",
+      "🇹🇷 Saat 18:25."
+    ],
+    examples: [],
+    related_word_ids: [3105]
+  },
+  {
+    id: "vocab-saat-3106",
+    category: "vocabulary",
+    title: "twenty-six minutes past six p.m. — akşam altıyı yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past six p.m.", "akşam altıyı yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:26.",
+      "🇹🇷 Saat 18:26."
+    ],
+    examples: [],
+    related_word_ids: [3106]
+  },
+  {
+    id: "vocab-saat-3107",
+    category: "vocabulary",
+    title: "twenty-seven minutes past six p.m. — akşam altıyı yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past six p.m.", "akşam altıyı yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:27.",
+      "🇹🇷 Saat 18:27."
+    ],
+    examples: [],
+    related_word_ids: [3107]
+  },
+  {
+    id: "vocab-saat-3108",
+    category: "vocabulary",
+    title: "twenty-eight minutes past six p.m. — akşam altıyı yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past six p.m.", "akşam altıyı yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:28.",
+      "🇹🇷 Saat 18:28."
+    ],
+    examples: [],
+    related_word_ids: [3108]
+  },
+  {
+    id: "vocab-saat-3109",
+    category: "vocabulary",
+    title: "twenty-nine minutes past six p.m. — akşam altıyı yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past six p.m.", "akşam altıyı yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:29.",
+      "🇹🇷 Saat 18:29."
+    ],
+    examples: [],
+    related_word_ids: [3109]
+  },
+  {
+    id: "vocab-saat-3110",
+    category: "vocabulary",
+    title: "half past six p.m. — akşam altı buçuk",
+    keywords: ["half past six p.m.", "akşam altı buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:30.",
+      "🇹🇷 Saat 18:30."
+    ],
+    examples: [],
+    related_word_ids: [3110]
+  },
+  {
+    id: "vocab-saat-3111",
+    category: "vocabulary",
+    title: "twenty-nine minutes to seven p.m. — akşam yediye yirmi dokuz var",
+    keywords: ["twenty-nine minutes to seven p.m.", "akşam yediye yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:31.",
+      "🇹🇷 Saat 18:31."
+    ],
+    examples: [],
+    related_word_ids: [3111]
+  },
+  {
+    id: "vocab-saat-3112",
+    category: "vocabulary",
+    title: "twenty-eight minutes to seven p.m. — akşam yediye yirmi sekiz var",
+    keywords: ["twenty-eight minutes to seven p.m.", "akşam yediye yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:32.",
+      "🇹🇷 Saat 18:32."
+    ],
+    examples: [],
+    related_word_ids: [3112]
+  },
+  {
+    id: "vocab-saat-3113",
+    category: "vocabulary",
+    title: "twenty-seven minutes to seven p.m. — akşam yediye yirmi yedi var",
+    keywords: ["twenty-seven minutes to seven p.m.", "akşam yediye yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:33.",
+      "🇹🇷 Saat 18:33."
+    ],
+    examples: [],
+    related_word_ids: [3113]
+  },
+  {
+    id: "vocab-saat-3114",
+    category: "vocabulary",
+    title: "twenty-six minutes to seven p.m. — akşam yediye yirmi altı var",
+    keywords: ["twenty-six minutes to seven p.m.", "akşam yediye yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:34.",
+      "🇹🇷 Saat 18:34."
+    ],
+    examples: [],
+    related_word_ids: [3114]
+  },
+  {
+    id: "vocab-saat-3115",
+    category: "vocabulary",
+    title: "twenty-five to seven p.m. — akşam yediye yirmi beş var",
+    keywords: ["twenty-five to seven p.m.", "akşam yediye yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:35.",
+      "🇹🇷 Saat 18:35."
+    ],
+    examples: [],
+    related_word_ids: [3115]
+  },
+  {
+    id: "vocab-saat-3116",
+    category: "vocabulary",
+    title: "twenty-four minutes to seven p.m. — akşam yediye yirmi dört var",
+    keywords: ["twenty-four minutes to seven p.m.", "akşam yediye yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:36.",
+      "🇹🇷 Saat 18:36."
+    ],
+    examples: [],
+    related_word_ids: [3116]
+  },
+  {
+    id: "vocab-saat-3117",
+    category: "vocabulary",
+    title: "twenty-three minutes to seven p.m. — akşam yediye yirmi üç var",
+    keywords: ["twenty-three minutes to seven p.m.", "akşam yediye yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:37.",
+      "🇹🇷 Saat 18:37."
+    ],
+    examples: [],
+    related_word_ids: [3117]
+  },
+  {
+    id: "vocab-saat-3118",
+    category: "vocabulary",
+    title: "twenty-two minutes to seven p.m. — akşam yediye yirmi iki var",
+    keywords: ["twenty-two minutes to seven p.m.", "akşam yediye yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:38.",
+      "🇹🇷 Saat 18:38."
+    ],
+    examples: [],
+    related_word_ids: [3118]
+  },
+  {
+    id: "vocab-saat-3119",
+    category: "vocabulary",
+    title: "twenty-one minutes to seven p.m. — akşam yediye yirmi bir var",
+    keywords: ["twenty-one minutes to seven p.m.", "akşam yediye yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:39.",
+      "🇹🇷 Saat 18:39."
+    ],
+    examples: [],
+    related_word_ids: [3119]
+  },
+  {
+    id: "vocab-saat-3120",
+    category: "vocabulary",
+    title: "twenty to seven p.m. — akşam yediye yirmi var",
+    keywords: ["twenty to seven p.m.", "akşam yediye yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:40.",
+      "🇹🇷 Saat 18:40."
+    ],
+    examples: [],
+    related_word_ids: [3120]
+  },
+  {
+    id: "vocab-saat-3121",
+    category: "vocabulary",
+    title: "nineteen minutes to seven p.m. — akşam yediye on dokuz var",
+    keywords: ["nineteen minutes to seven p.m.", "akşam yediye on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:41.",
+      "🇹🇷 Saat 18:41."
+    ],
+    examples: [],
+    related_word_ids: [3121]
+  },
+  {
+    id: "vocab-saat-3122",
+    category: "vocabulary",
+    title: "eighteen minutes to seven p.m. — akşam yediye on sekiz var",
+    keywords: ["eighteen minutes to seven p.m.", "akşam yediye on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:42.",
+      "🇹🇷 Saat 18:42."
+    ],
+    examples: [],
+    related_word_ids: [3122]
+  },
+  {
+    id: "vocab-saat-3123",
+    category: "vocabulary",
+    title: "seventeen minutes to seven p.m. — akşam yediye on yedi var",
+    keywords: ["seventeen minutes to seven p.m.", "akşam yediye on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:43.",
+      "🇹🇷 Saat 18:43."
+    ],
+    examples: [],
+    related_word_ids: [3123]
+  },
+  {
+    id: "vocab-saat-3124",
+    category: "vocabulary",
+    title: "sixteen minutes to seven p.m. — akşam yediye on altı var",
+    keywords: ["sixteen minutes to seven p.m.", "akşam yediye on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:44.",
+      "🇹🇷 Saat 18:44."
+    ],
+    examples: [],
+    related_word_ids: [3124]
+  },
+  {
+    id: "vocab-saat-3125",
+    category: "vocabulary",
+    title: "a quarter to seven p.m. — akşam yediye çeyrek var",
+    keywords: ["a quarter to seven p.m.", "akşam yediye çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:45.",
+      "🇹🇷 Saat 18:45."
+    ],
+    examples: [],
+    related_word_ids: [3125]
+  },
+  {
+    id: "vocab-saat-3126",
+    category: "vocabulary",
+    title: "fourteen minutes to seven p.m. — akşam yediye on dört var",
+    keywords: ["fourteen minutes to seven p.m.", "akşam yediye on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:46.",
+      "🇹🇷 Saat 18:46."
+    ],
+    examples: [],
+    related_word_ids: [3126]
+  },
+  {
+    id: "vocab-saat-3127",
+    category: "vocabulary",
+    title: "thirteen minutes to seven p.m. — akşam yediye on üç var",
+    keywords: ["thirteen minutes to seven p.m.", "akşam yediye on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:47.",
+      "🇹🇷 Saat 18:47."
+    ],
+    examples: [],
+    related_word_ids: [3127]
+  },
+  {
+    id: "vocab-saat-3128",
+    category: "vocabulary",
+    title: "twelve minutes to seven p.m. — akşam yediye on iki var",
+    keywords: ["twelve minutes to seven p.m.", "akşam yediye on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:48.",
+      "🇹🇷 Saat 18:48."
+    ],
+    examples: [],
+    related_word_ids: [3128]
+  },
+  {
+    id: "vocab-saat-3129",
+    category: "vocabulary",
+    title: "eleven minutes to seven p.m. — akşam yediye on bir var",
+    keywords: ["eleven minutes to seven p.m.", "akşam yediye on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:49.",
+      "🇹🇷 Saat 18:49."
+    ],
+    examples: [],
+    related_word_ids: [3129]
+  },
+  {
+    id: "vocab-saat-3130",
+    category: "vocabulary",
+    title: "ten to seven p.m. — akşam yediye on var",
+    keywords: ["ten to seven p.m.", "akşam yediye on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:50.",
+      "🇹🇷 Saat 18:50."
+    ],
+    examples: [],
+    related_word_ids: [3130]
+  },
+  {
+    id: "vocab-saat-3131",
+    category: "vocabulary",
+    title: "nine minutes to seven p.m. — akşam yediye dokuz var",
+    keywords: ["nine minutes to seven p.m.", "akşam yediye dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:51.",
+      "🇹🇷 Saat 18:51."
+    ],
+    examples: [],
+    related_word_ids: [3131]
+  },
+  {
+    id: "vocab-saat-3132",
+    category: "vocabulary",
+    title: "eight minutes to seven p.m. — akşam yediye sekiz var",
+    keywords: ["eight minutes to seven p.m.", "akşam yediye sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:52.",
+      "🇹🇷 Saat 18:52."
+    ],
+    examples: [],
+    related_word_ids: [3132]
+  },
+  {
+    id: "vocab-saat-3133",
+    category: "vocabulary",
+    title: "seven minutes to seven p.m. — akşam yediye yedi var",
+    keywords: ["seven minutes to seven p.m.", "akşam yediye yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:53.",
+      "🇹🇷 Saat 18:53."
+    ],
+    examples: [],
+    related_word_ids: [3133]
+  },
+  {
+    id: "vocab-saat-3134",
+    category: "vocabulary",
+    title: "six minutes to seven p.m. — akşam yediye altı var",
+    keywords: ["six minutes to seven p.m.", "akşam yediye altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:54.",
+      "🇹🇷 Saat 18:54."
+    ],
+    examples: [],
+    related_word_ids: [3134]
+  },
+  {
+    id: "vocab-saat-3135",
+    category: "vocabulary",
+    title: "five to seven p.m. — akşam yediye beş var",
+    keywords: ["five to seven p.m.", "akşam yediye beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:55.",
+      "🇹🇷 Saat 18:55."
+    ],
+    examples: [],
+    related_word_ids: [3135]
+  },
+  {
+    id: "vocab-saat-3136",
+    category: "vocabulary",
+    title: "four minutes to seven p.m. — akşam yediye dört var",
+    keywords: ["four minutes to seven p.m.", "akşam yediye dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:56.",
+      "🇹🇷 Saat 18:56."
+    ],
+    examples: [],
+    related_word_ids: [3136]
+  },
+  {
+    id: "vocab-saat-3137",
+    category: "vocabulary",
+    title: "three minutes to seven p.m. — akşam yediye üç var",
+    keywords: ["three minutes to seven p.m.", "akşam yediye üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:57.",
+      "🇹🇷 Saat 18:57."
+    ],
+    examples: [],
+    related_word_ids: [3137]
+  },
+  {
+    id: "vocab-saat-3138",
+    category: "vocabulary",
+    title: "two minutes to seven p.m. — akşam yediye iki var",
+    keywords: ["two minutes to seven p.m.", "akşam yediye iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:58.",
+      "🇹🇷 Saat 18:58."
+    ],
+    examples: [],
+    related_word_ids: [3138]
+  },
+  {
+    id: "vocab-saat-3139",
+    category: "vocabulary",
+    title: "one minute to seven p.m. — akşam yediye bir var",
+    keywords: ["one minute to seven p.m.", "akşam yediye bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 18:59.",
+      "🇹🇷 Saat 18:59."
+    ],
+    examples: [],
+    related_word_ids: [3139]
+  },
+  {
+    id: "vocab-saat-3140",
+    category: "vocabulary",
+    title: "seven o'clock p.m. — akşam yedi",
+    keywords: ["seven o'clock p.m.", "akşam yedi", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:00.",
+      "🇹🇷 Saat 19:00."
+    ],
+    examples: [],
+    related_word_ids: [3140]
+  },
+  {
+    id: "vocab-saat-3141",
+    category: "vocabulary",
+    title: "one minute past seven p.m. — akşam yediyi bir geçiyor",
+    keywords: ["one minute past seven p.m.", "akşam yediyi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:01.",
+      "🇹🇷 Saat 19:01."
+    ],
+    examples: [],
+    related_word_ids: [3141]
+  },
+  {
+    id: "vocab-saat-3142",
+    category: "vocabulary",
+    title: "two minutes past seven p.m. — akşam yediyi iki geçiyor",
+    keywords: ["two minutes past seven p.m.", "akşam yediyi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:02.",
+      "🇹🇷 Saat 19:02."
+    ],
+    examples: [],
+    related_word_ids: [3142]
+  },
+  {
+    id: "vocab-saat-3143",
+    category: "vocabulary",
+    title: "three minutes past seven p.m. — akşam yediyi üç geçiyor",
+    keywords: ["three minutes past seven p.m.", "akşam yediyi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:03.",
+      "🇹🇷 Saat 19:03."
+    ],
+    examples: [],
+    related_word_ids: [3143]
+  },
+  {
+    id: "vocab-saat-3144",
+    category: "vocabulary",
+    title: "four minutes past seven p.m. — akşam yediyi dört geçiyor",
+    keywords: ["four minutes past seven p.m.", "akşam yediyi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:04.",
+      "🇹🇷 Saat 19:04."
+    ],
+    examples: [],
+    related_word_ids: [3144]
+  },
+  {
+    id: "vocab-saat-3145",
+    category: "vocabulary",
+    title: "five past seven p.m. — akşam yediyi beş geçiyor",
+    keywords: ["five past seven p.m.", "akşam yediyi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:05.",
+      "🇹🇷 Saat 19:05."
+    ],
+    examples: [],
+    related_word_ids: [3145]
+  },
+  {
+    id: "vocab-saat-3146",
+    category: "vocabulary",
+    title: "six minutes past seven p.m. — akşam yediyi altı geçiyor",
+    keywords: ["six minutes past seven p.m.", "akşam yediyi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:06.",
+      "🇹🇷 Saat 19:06."
+    ],
+    examples: [],
+    related_word_ids: [3146]
+  },
+  {
+    id: "vocab-saat-3147",
+    category: "vocabulary",
+    title: "seven minutes past seven p.m. — akşam yediyi yedi geçiyor",
+    keywords: ["seven minutes past seven p.m.", "akşam yediyi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:07.",
+      "🇹🇷 Saat 19:07."
+    ],
+    examples: [],
+    related_word_ids: [3147]
+  },
+  {
+    id: "vocab-saat-3148",
+    category: "vocabulary",
+    title: "eight minutes past seven p.m. — akşam yediyi sekiz geçiyor",
+    keywords: ["eight minutes past seven p.m.", "akşam yediyi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:08.",
+      "🇹🇷 Saat 19:08."
+    ],
+    examples: [],
+    related_word_ids: [3148]
+  },
+  {
+    id: "vocab-saat-3149",
+    category: "vocabulary",
+    title: "nine minutes past seven p.m. — akşam yediyi dokuz geçiyor",
+    keywords: ["nine minutes past seven p.m.", "akşam yediyi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:09.",
+      "🇹🇷 Saat 19:09."
+    ],
+    examples: [],
+    related_word_ids: [3149]
+  },
+  {
+    id: "vocab-saat-3150",
+    category: "vocabulary",
+    title: "ten past seven p.m. — akşam yediyi on geçiyor",
+    keywords: ["ten past seven p.m.", "akşam yediyi on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:10.",
+      "🇹🇷 Saat 19:10."
+    ],
+    examples: [],
+    related_word_ids: [3150]
+  },
+  {
+    id: "vocab-saat-3151",
+    category: "vocabulary",
+    title: "eleven minutes past seven p.m. — akşam yediyi on bir geçiyor",
+    keywords: ["eleven minutes past seven p.m.", "akşam yediyi on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:11.",
+      "🇹🇷 Saat 19:11."
+    ],
+    examples: [],
+    related_word_ids: [3151]
+  },
+  {
+    id: "vocab-saat-3152",
+    category: "vocabulary",
+    title: "twelve minutes past seven p.m. — akşam yediyi on iki geçiyor",
+    keywords: ["twelve minutes past seven p.m.", "akşam yediyi on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:12.",
+      "🇹🇷 Saat 19:12."
+    ],
+    examples: [],
+    related_word_ids: [3152]
+  },
+  {
+    id: "vocab-saat-3153",
+    category: "vocabulary",
+    title: "thirteen minutes past seven p.m. — akşam yediyi on üç geçiyor",
+    keywords: ["thirteen minutes past seven p.m.", "akşam yediyi on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:13.",
+      "🇹🇷 Saat 19:13."
+    ],
+    examples: [],
+    related_word_ids: [3153]
+  },
+  {
+    id: "vocab-saat-3154",
+    category: "vocabulary",
+    title: "fourteen minutes past seven p.m. — akşam yediyi on dört geçiyor",
+    keywords: ["fourteen minutes past seven p.m.", "akşam yediyi on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:14.",
+      "🇹🇷 Saat 19:14."
+    ],
+    examples: [],
+    related_word_ids: [3154]
+  },
+  {
+    id: "vocab-saat-3155",
+    category: "vocabulary",
+    title: "a quarter past seven p.m. — akşam yediyi çeyrek geçiyor",
+    keywords: ["a quarter past seven p.m.", "akşam yediyi çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:15.",
+      "🇹🇷 Saat 19:15."
+    ],
+    examples: [],
+    related_word_ids: [3155]
+  },
+  {
+    id: "vocab-saat-3156",
+    category: "vocabulary",
+    title: "sixteen minutes past seven p.m. — akşam yediyi on altı geçiyor",
+    keywords: ["sixteen minutes past seven p.m.", "akşam yediyi on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:16.",
+      "🇹🇷 Saat 19:16."
+    ],
+    examples: [],
+    related_word_ids: [3156]
+  },
+  {
+    id: "vocab-saat-3157",
+    category: "vocabulary",
+    title: "seventeen minutes past seven p.m. — akşam yediyi on yedi geçiyor",
+    keywords: ["seventeen minutes past seven p.m.", "akşam yediyi on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:17.",
+      "🇹🇷 Saat 19:17."
+    ],
+    examples: [],
+    related_word_ids: [3157]
+  },
+  {
+    id: "vocab-saat-3158",
+    category: "vocabulary",
+    title: "eighteen minutes past seven p.m. — akşam yediyi on sekiz geçiyor",
+    keywords: ["eighteen minutes past seven p.m.", "akşam yediyi on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:18.",
+      "🇹🇷 Saat 19:18."
+    ],
+    examples: [],
+    related_word_ids: [3158]
+  },
+  {
+    id: "vocab-saat-3159",
+    category: "vocabulary",
+    title: "nineteen minutes past seven p.m. — akşam yediyi on dokuz geçiyor",
+    keywords: ["nineteen minutes past seven p.m.", "akşam yediyi on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:19.",
+      "🇹🇷 Saat 19:19."
+    ],
+    examples: [],
+    related_word_ids: [3159]
+  },
+  {
+    id: "vocab-saat-3160",
+    category: "vocabulary",
+    title: "twenty past seven p.m. — akşam yediyi yirmi geçiyor",
+    keywords: ["twenty past seven p.m.", "akşam yediyi yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:20.",
+      "🇹🇷 Saat 19:20."
+    ],
+    examples: [],
+    related_word_ids: [3160]
+  },
+  {
+    id: "vocab-saat-3161",
+    category: "vocabulary",
+    title: "twenty-one minutes past seven p.m. — akşam yediyi yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past seven p.m.", "akşam yediyi yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:21.",
+      "🇹🇷 Saat 19:21."
+    ],
+    examples: [],
+    related_word_ids: [3161]
+  },
+  {
+    id: "vocab-saat-3162",
+    category: "vocabulary",
+    title: "twenty-two minutes past seven p.m. — akşam yediyi yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past seven p.m.", "akşam yediyi yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:22.",
+      "🇹🇷 Saat 19:22."
+    ],
+    examples: [],
+    related_word_ids: [3162]
+  },
+  {
+    id: "vocab-saat-3163",
+    category: "vocabulary",
+    title: "twenty-three minutes past seven p.m. — akşam yediyi yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past seven p.m.", "akşam yediyi yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:23.",
+      "🇹🇷 Saat 19:23."
+    ],
+    examples: [],
+    related_word_ids: [3163]
+  },
+  {
+    id: "vocab-saat-3164",
+    category: "vocabulary",
+    title: "twenty-four minutes past seven p.m. — akşam yediyi yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past seven p.m.", "akşam yediyi yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:24.",
+      "🇹🇷 Saat 19:24."
+    ],
+    examples: [],
+    related_word_ids: [3164]
+  },
+  {
+    id: "vocab-saat-3165",
+    category: "vocabulary",
+    title: "twenty-five past seven p.m. — akşam yediyi yirmi beş geçiyor",
+    keywords: ["twenty-five past seven p.m.", "akşam yediyi yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:25.",
+      "🇹🇷 Saat 19:25."
+    ],
+    examples: [],
+    related_word_ids: [3165]
+  },
+  {
+    id: "vocab-saat-3166",
+    category: "vocabulary",
+    title: "twenty-six minutes past seven p.m. — akşam yediyi yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past seven p.m.", "akşam yediyi yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:26.",
+      "🇹🇷 Saat 19:26."
+    ],
+    examples: [],
+    related_word_ids: [3166]
+  },
+  {
+    id: "vocab-saat-3167",
+    category: "vocabulary",
+    title: "twenty-seven minutes past seven p.m. — akşam yediyi yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past seven p.m.", "akşam yediyi yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:27.",
+      "🇹🇷 Saat 19:27."
+    ],
+    examples: [],
+    related_word_ids: [3167]
+  },
+  {
+    id: "vocab-saat-3168",
+    category: "vocabulary",
+    title: "twenty-eight minutes past seven p.m. — akşam yediyi yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past seven p.m.", "akşam yediyi yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:28.",
+      "🇹🇷 Saat 19:28."
+    ],
+    examples: [],
+    related_word_ids: [3168]
+  },
+  {
+    id: "vocab-saat-3169",
+    category: "vocabulary",
+    title: "twenty-nine minutes past seven p.m. — akşam yediyi yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past seven p.m.", "akşam yediyi yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:29.",
+      "🇹🇷 Saat 19:29."
+    ],
+    examples: [],
+    related_word_ids: [3169]
+  },
+  {
+    id: "vocab-saat-3170",
+    category: "vocabulary",
+    title: "half past seven p.m. — akşam yedi buçuk",
+    keywords: ["half past seven p.m.", "akşam yedi buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:30.",
+      "🇹🇷 Saat 19:30."
+    ],
+    examples: [],
+    related_word_ids: [3170]
+  },
+  {
+    id: "vocab-saat-3171",
+    category: "vocabulary",
+    title: "twenty-nine minutes to eight p.m. — akşam sekize yirmi dokuz var",
+    keywords: ["twenty-nine minutes to eight p.m.", "akşam sekize yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:31.",
+      "🇹🇷 Saat 19:31."
+    ],
+    examples: [],
+    related_word_ids: [3171]
+  },
+  {
+    id: "vocab-saat-3172",
+    category: "vocabulary",
+    title: "twenty-eight minutes to eight p.m. — akşam sekize yirmi sekiz var",
+    keywords: ["twenty-eight minutes to eight p.m.", "akşam sekize yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:32.",
+      "🇹🇷 Saat 19:32."
+    ],
+    examples: [],
+    related_word_ids: [3172]
+  },
+  {
+    id: "vocab-saat-3173",
+    category: "vocabulary",
+    title: "twenty-seven minutes to eight p.m. — akşam sekize yirmi yedi var",
+    keywords: ["twenty-seven minutes to eight p.m.", "akşam sekize yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:33.",
+      "🇹🇷 Saat 19:33."
+    ],
+    examples: [],
+    related_word_ids: [3173]
+  },
+  {
+    id: "vocab-saat-3174",
+    category: "vocabulary",
+    title: "twenty-six minutes to eight p.m. — akşam sekize yirmi altı var",
+    keywords: ["twenty-six minutes to eight p.m.", "akşam sekize yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:34.",
+      "🇹🇷 Saat 19:34."
+    ],
+    examples: [],
+    related_word_ids: [3174]
+  },
+  {
+    id: "vocab-saat-3175",
+    category: "vocabulary",
+    title: "twenty-five to eight p.m. — akşam sekize yirmi beş var",
+    keywords: ["twenty-five to eight p.m.", "akşam sekize yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:35.",
+      "🇹🇷 Saat 19:35."
+    ],
+    examples: [],
+    related_word_ids: [3175]
+  },
+  {
+    id: "vocab-saat-3176",
+    category: "vocabulary",
+    title: "twenty-four minutes to eight p.m. — akşam sekize yirmi dört var",
+    keywords: ["twenty-four minutes to eight p.m.", "akşam sekize yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:36.",
+      "🇹🇷 Saat 19:36."
+    ],
+    examples: [],
+    related_word_ids: [3176]
+  },
+  {
+    id: "vocab-saat-3177",
+    category: "vocabulary",
+    title: "twenty-three minutes to eight p.m. — akşam sekize yirmi üç var",
+    keywords: ["twenty-three minutes to eight p.m.", "akşam sekize yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:37.",
+      "🇹🇷 Saat 19:37."
+    ],
+    examples: [],
+    related_word_ids: [3177]
+  },
+  {
+    id: "vocab-saat-3178",
+    category: "vocabulary",
+    title: "twenty-two minutes to eight p.m. — akşam sekize yirmi iki var",
+    keywords: ["twenty-two minutes to eight p.m.", "akşam sekize yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:38.",
+      "🇹🇷 Saat 19:38."
+    ],
+    examples: [],
+    related_word_ids: [3178]
+  },
+  {
+    id: "vocab-saat-3179",
+    category: "vocabulary",
+    title: "twenty-one minutes to eight p.m. — akşam sekize yirmi bir var",
+    keywords: ["twenty-one minutes to eight p.m.", "akşam sekize yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:39.",
+      "🇹🇷 Saat 19:39."
+    ],
+    examples: [],
+    related_word_ids: [3179]
+  },
+  {
+    id: "vocab-saat-3180",
+    category: "vocabulary",
+    title: "twenty to eight p.m. — akşam sekize yirmi var",
+    keywords: ["twenty to eight p.m.", "akşam sekize yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:40.",
+      "🇹🇷 Saat 19:40."
+    ],
+    examples: [],
+    related_word_ids: [3180]
+  },
+  {
+    id: "vocab-saat-3181",
+    category: "vocabulary",
+    title: "nineteen minutes to eight p.m. — akşam sekize on dokuz var",
+    keywords: ["nineteen minutes to eight p.m.", "akşam sekize on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:41.",
+      "🇹🇷 Saat 19:41."
+    ],
+    examples: [],
+    related_word_ids: [3181]
+  },
+  {
+    id: "vocab-saat-3182",
+    category: "vocabulary",
+    title: "eighteen minutes to eight p.m. — akşam sekize on sekiz var",
+    keywords: ["eighteen minutes to eight p.m.", "akşam sekize on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:42.",
+      "🇹🇷 Saat 19:42."
+    ],
+    examples: [],
+    related_word_ids: [3182]
+  },
+  {
+    id: "vocab-saat-3183",
+    category: "vocabulary",
+    title: "seventeen minutes to eight p.m. — akşam sekize on yedi var",
+    keywords: ["seventeen minutes to eight p.m.", "akşam sekize on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:43.",
+      "🇹🇷 Saat 19:43."
+    ],
+    examples: [],
+    related_word_ids: [3183]
+  },
+  {
+    id: "vocab-saat-3184",
+    category: "vocabulary",
+    title: "sixteen minutes to eight p.m. — akşam sekize on altı var",
+    keywords: ["sixteen minutes to eight p.m.", "akşam sekize on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:44.",
+      "🇹🇷 Saat 19:44."
+    ],
+    examples: [],
+    related_word_ids: [3184]
+  },
+  {
+    id: "vocab-saat-3185",
+    category: "vocabulary",
+    title: "a quarter to eight p.m. — akşam sekize çeyrek var",
+    keywords: ["a quarter to eight p.m.", "akşam sekize çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:45.",
+      "🇹🇷 Saat 19:45."
+    ],
+    examples: [],
+    related_word_ids: [3185]
+  },
+  {
+    id: "vocab-saat-3186",
+    category: "vocabulary",
+    title: "fourteen minutes to eight p.m. — akşam sekize on dört var",
+    keywords: ["fourteen minutes to eight p.m.", "akşam sekize on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:46.",
+      "🇹🇷 Saat 19:46."
+    ],
+    examples: [],
+    related_word_ids: [3186]
+  },
+  {
+    id: "vocab-saat-3187",
+    category: "vocabulary",
+    title: "thirteen minutes to eight p.m. — akşam sekize on üç var",
+    keywords: ["thirteen minutes to eight p.m.", "akşam sekize on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:47.",
+      "🇹🇷 Saat 19:47."
+    ],
+    examples: [],
+    related_word_ids: [3187]
+  },
+  {
+    id: "vocab-saat-3188",
+    category: "vocabulary",
+    title: "twelve minutes to eight p.m. — akşam sekize on iki var",
+    keywords: ["twelve minutes to eight p.m.", "akşam sekize on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:48.",
+      "🇹🇷 Saat 19:48."
+    ],
+    examples: [],
+    related_word_ids: [3188]
+  },
+  {
+    id: "vocab-saat-3189",
+    category: "vocabulary",
+    title: "eleven minutes to eight p.m. — akşam sekize on bir var",
+    keywords: ["eleven minutes to eight p.m.", "akşam sekize on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:49.",
+      "🇹🇷 Saat 19:49."
+    ],
+    examples: [],
+    related_word_ids: [3189]
+  },
+  {
+    id: "vocab-saat-3190",
+    category: "vocabulary",
+    title: "ten to eight p.m. — akşam sekize on var",
+    keywords: ["ten to eight p.m.", "akşam sekize on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:50.",
+      "🇹🇷 Saat 19:50."
+    ],
+    examples: [],
+    related_word_ids: [3190]
+  },
+  {
+    id: "vocab-saat-3191",
+    category: "vocabulary",
+    title: "nine minutes to eight p.m. — akşam sekize dokuz var",
+    keywords: ["nine minutes to eight p.m.", "akşam sekize dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:51.",
+      "🇹🇷 Saat 19:51."
+    ],
+    examples: [],
+    related_word_ids: [3191]
+  },
+  {
+    id: "vocab-saat-3192",
+    category: "vocabulary",
+    title: "eight minutes to eight p.m. — akşam sekize sekiz var",
+    keywords: ["eight minutes to eight p.m.", "akşam sekize sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:52.",
+      "🇹🇷 Saat 19:52."
+    ],
+    examples: [],
+    related_word_ids: [3192]
+  },
+  {
+    id: "vocab-saat-3193",
+    category: "vocabulary",
+    title: "seven minutes to eight p.m. — akşam sekize yedi var",
+    keywords: ["seven minutes to eight p.m.", "akşam sekize yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:53.",
+      "🇹🇷 Saat 19:53."
+    ],
+    examples: [],
+    related_word_ids: [3193]
+  },
+  {
+    id: "vocab-saat-3194",
+    category: "vocabulary",
+    title: "six minutes to eight p.m. — akşam sekize altı var",
+    keywords: ["six minutes to eight p.m.", "akşam sekize altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:54.",
+      "🇹🇷 Saat 19:54."
+    ],
+    examples: [],
+    related_word_ids: [3194]
+  },
+  {
+    id: "vocab-saat-3195",
+    category: "vocabulary",
+    title: "five to eight p.m. — akşam sekize beş var",
+    keywords: ["five to eight p.m.", "akşam sekize beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:55.",
+      "🇹🇷 Saat 19:55."
+    ],
+    examples: [],
+    related_word_ids: [3195]
+  },
+  {
+    id: "vocab-saat-3196",
+    category: "vocabulary",
+    title: "four minutes to eight p.m. — akşam sekize dört var",
+    keywords: ["four minutes to eight p.m.", "akşam sekize dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:56.",
+      "🇹🇷 Saat 19:56."
+    ],
+    examples: [],
+    related_word_ids: [3196]
+  },
+  {
+    id: "vocab-saat-3197",
+    category: "vocabulary",
+    title: "three minutes to eight p.m. — akşam sekize üç var",
+    keywords: ["three minutes to eight p.m.", "akşam sekize üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:57.",
+      "🇹🇷 Saat 19:57."
+    ],
+    examples: [],
+    related_word_ids: [3197]
+  },
+  {
+    id: "vocab-saat-3198",
+    category: "vocabulary",
+    title: "two minutes to eight p.m. — akşam sekize iki var",
+    keywords: ["two minutes to eight p.m.", "akşam sekize iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:58.",
+      "🇹🇷 Saat 19:58."
+    ],
+    examples: [],
+    related_word_ids: [3198]
+  },
+  {
+    id: "vocab-saat-3199",
+    category: "vocabulary",
+    title: "one minute to eight p.m. — akşam sekize bir var",
+    keywords: ["one minute to eight p.m.", "akşam sekize bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 19:59.",
+      "🇹🇷 Saat 19:59."
+    ],
+    examples: [],
+    related_word_ids: [3199]
+  },
+  {
+    id: "vocab-saat-3200",
+    category: "vocabulary",
+    title: "eight o'clock p.m. — akşam sekiz",
+    keywords: ["eight o'clock p.m.", "akşam sekiz", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:00.",
+      "🇹🇷 Saat 20:00."
+    ],
+    examples: [],
+    related_word_ids: [3200]
+  },
+  {
+    id: "vocab-saat-3201",
+    category: "vocabulary",
+    title: "one minute past eight p.m. — akşam sekizi bir geçiyor",
+    keywords: ["one minute past eight p.m.", "akşam sekizi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:01.",
+      "🇹🇷 Saat 20:01."
+    ],
+    examples: [],
+    related_word_ids: [3201]
+  },
+  {
+    id: "vocab-saat-3202",
+    category: "vocabulary",
+    title: "two minutes past eight p.m. — akşam sekizi iki geçiyor",
+    keywords: ["two minutes past eight p.m.", "akşam sekizi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:02.",
+      "🇹🇷 Saat 20:02."
+    ],
+    examples: [],
+    related_word_ids: [3202]
+  },
+  {
+    id: "vocab-saat-3203",
+    category: "vocabulary",
+    title: "three minutes past eight p.m. — akşam sekizi üç geçiyor",
+    keywords: ["three minutes past eight p.m.", "akşam sekizi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:03.",
+      "🇹🇷 Saat 20:03."
+    ],
+    examples: [],
+    related_word_ids: [3203]
+  },
+  {
+    id: "vocab-saat-3204",
+    category: "vocabulary",
+    title: "four minutes past eight p.m. — akşam sekizi dört geçiyor",
+    keywords: ["four minutes past eight p.m.", "akşam sekizi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:04.",
+      "🇹🇷 Saat 20:04."
+    ],
+    examples: [],
+    related_word_ids: [3204]
+  },
+  {
+    id: "vocab-saat-3205",
+    category: "vocabulary",
+    title: "five past eight p.m. — akşam sekizi beş geçiyor",
+    keywords: ["five past eight p.m.", "akşam sekizi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:05.",
+      "🇹🇷 Saat 20:05."
+    ],
+    examples: [],
+    related_word_ids: [3205]
+  },
+  {
+    id: "vocab-saat-3206",
+    category: "vocabulary",
+    title: "six minutes past eight p.m. — akşam sekizi altı geçiyor",
+    keywords: ["six minutes past eight p.m.", "akşam sekizi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:06.",
+      "🇹🇷 Saat 20:06."
+    ],
+    examples: [],
+    related_word_ids: [3206]
+  },
+  {
+    id: "vocab-saat-3207",
+    category: "vocabulary",
+    title: "seven minutes past eight p.m. — akşam sekizi yedi geçiyor",
+    keywords: ["seven minutes past eight p.m.", "akşam sekizi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:07.",
+      "🇹🇷 Saat 20:07."
+    ],
+    examples: [],
+    related_word_ids: [3207]
+  },
+  {
+    id: "vocab-saat-3208",
+    category: "vocabulary",
+    title: "eight minutes past eight p.m. — akşam sekizi sekiz geçiyor",
+    keywords: ["eight minutes past eight p.m.", "akşam sekizi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:08.",
+      "🇹🇷 Saat 20:08."
+    ],
+    examples: [],
+    related_word_ids: [3208]
+  },
+  {
+    id: "vocab-saat-3209",
+    category: "vocabulary",
+    title: "nine minutes past eight p.m. — akşam sekizi dokuz geçiyor",
+    keywords: ["nine minutes past eight p.m.", "akşam sekizi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:09.",
+      "🇹🇷 Saat 20:09."
+    ],
+    examples: [],
+    related_word_ids: [3209]
+  },
+  {
+    id: "vocab-saat-3210",
+    category: "vocabulary",
+    title: "ten past eight p.m. — akşam sekizi on geçiyor",
+    keywords: ["ten past eight p.m.", "akşam sekizi on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:10.",
+      "🇹🇷 Saat 20:10."
+    ],
+    examples: [],
+    related_word_ids: [3210]
+  },
+  {
+    id: "vocab-saat-3211",
+    category: "vocabulary",
+    title: "eleven minutes past eight p.m. — akşam sekizi on bir geçiyor",
+    keywords: ["eleven minutes past eight p.m.", "akşam sekizi on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:11.",
+      "🇹🇷 Saat 20:11."
+    ],
+    examples: [],
+    related_word_ids: [3211]
+  },
+  {
+    id: "vocab-saat-3212",
+    category: "vocabulary",
+    title: "twelve minutes past eight p.m. — akşam sekizi on iki geçiyor",
+    keywords: ["twelve minutes past eight p.m.", "akşam sekizi on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:12.",
+      "🇹🇷 Saat 20:12."
+    ],
+    examples: [],
+    related_word_ids: [3212]
+  },
+  {
+    id: "vocab-saat-3213",
+    category: "vocabulary",
+    title: "thirteen minutes past eight p.m. — akşam sekizi on üç geçiyor",
+    keywords: ["thirteen minutes past eight p.m.", "akşam sekizi on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:13.",
+      "🇹🇷 Saat 20:13."
+    ],
+    examples: [],
+    related_word_ids: [3213]
+  },
+  {
+    id: "vocab-saat-3214",
+    category: "vocabulary",
+    title: "fourteen minutes past eight p.m. — akşam sekizi on dört geçiyor",
+    keywords: ["fourteen minutes past eight p.m.", "akşam sekizi on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:14.",
+      "🇹🇷 Saat 20:14."
+    ],
+    examples: [],
+    related_word_ids: [3214]
+  },
+  {
+    id: "vocab-saat-3215",
+    category: "vocabulary",
+    title: "a quarter past eight p.m. — akşam sekizi çeyrek geçiyor",
+    keywords: ["a quarter past eight p.m.", "akşam sekizi çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:15.",
+      "🇹🇷 Saat 20:15."
+    ],
+    examples: [],
+    related_word_ids: [3215]
+  },
+  {
+    id: "vocab-saat-3216",
+    category: "vocabulary",
+    title: "sixteen minutes past eight p.m. — akşam sekizi on altı geçiyor",
+    keywords: ["sixteen minutes past eight p.m.", "akşam sekizi on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:16.",
+      "🇹🇷 Saat 20:16."
+    ],
+    examples: [],
+    related_word_ids: [3216]
+  },
+  {
+    id: "vocab-saat-3217",
+    category: "vocabulary",
+    title: "seventeen minutes past eight p.m. — akşam sekizi on yedi geçiyor",
+    keywords: ["seventeen minutes past eight p.m.", "akşam sekizi on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:17.",
+      "🇹🇷 Saat 20:17."
+    ],
+    examples: [],
+    related_word_ids: [3217]
+  },
+  {
+    id: "vocab-saat-3218",
+    category: "vocabulary",
+    title: "eighteen minutes past eight p.m. — akşam sekizi on sekiz geçiyor",
+    keywords: ["eighteen minutes past eight p.m.", "akşam sekizi on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:18.",
+      "🇹🇷 Saat 20:18."
+    ],
+    examples: [],
+    related_word_ids: [3218]
+  },
+  {
+    id: "vocab-saat-3219",
+    category: "vocabulary",
+    title: "nineteen minutes past eight p.m. — akşam sekizi on dokuz geçiyor",
+    keywords: ["nineteen minutes past eight p.m.", "akşam sekizi on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:19.",
+      "🇹🇷 Saat 20:19."
+    ],
+    examples: [],
+    related_word_ids: [3219]
+  },
+  {
+    id: "vocab-saat-3220",
+    category: "vocabulary",
+    title: "twenty past eight p.m. — akşam sekizi yirmi geçiyor",
+    keywords: ["twenty past eight p.m.", "akşam sekizi yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:20.",
+      "🇹🇷 Saat 20:20."
+    ],
+    examples: [],
+    related_word_ids: [3220]
+  },
+  {
+    id: "vocab-saat-3221",
+    category: "vocabulary",
+    title: "twenty-one minutes past eight p.m. — akşam sekizi yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past eight p.m.", "akşam sekizi yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:21.",
+      "🇹🇷 Saat 20:21."
+    ],
+    examples: [],
+    related_word_ids: [3221]
+  },
+  {
+    id: "vocab-saat-3222",
+    category: "vocabulary",
+    title: "twenty-two minutes past eight p.m. — akşam sekizi yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past eight p.m.", "akşam sekizi yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:22.",
+      "🇹🇷 Saat 20:22."
+    ],
+    examples: [],
+    related_word_ids: [3222]
+  },
+  {
+    id: "vocab-saat-3223",
+    category: "vocabulary",
+    title: "twenty-three minutes past eight p.m. — akşam sekizi yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past eight p.m.", "akşam sekizi yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:23.",
+      "🇹🇷 Saat 20:23."
+    ],
+    examples: [],
+    related_word_ids: [3223]
+  },
+  {
+    id: "vocab-saat-3224",
+    category: "vocabulary",
+    title: "twenty-four minutes past eight p.m. — akşam sekizi yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past eight p.m.", "akşam sekizi yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:24.",
+      "🇹🇷 Saat 20:24."
+    ],
+    examples: [],
+    related_word_ids: [3224]
+  },
+  {
+    id: "vocab-saat-3225",
+    category: "vocabulary",
+    title: "twenty-five past eight p.m. — akşam sekizi yirmi beş geçiyor",
+    keywords: ["twenty-five past eight p.m.", "akşam sekizi yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:25.",
+      "🇹🇷 Saat 20:25."
+    ],
+    examples: [],
+    related_word_ids: [3225]
+  },
+  {
+    id: "vocab-saat-3226",
+    category: "vocabulary",
+    title: "twenty-six minutes past eight p.m. — akşam sekizi yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past eight p.m.", "akşam sekizi yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:26.",
+      "🇹🇷 Saat 20:26."
+    ],
+    examples: [],
+    related_word_ids: [3226]
+  },
+  {
+    id: "vocab-saat-3227",
+    category: "vocabulary",
+    title: "twenty-seven minutes past eight p.m. — akşam sekizi yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past eight p.m.", "akşam sekizi yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:27.",
+      "🇹🇷 Saat 20:27."
+    ],
+    examples: [],
+    related_word_ids: [3227]
+  },
+  {
+    id: "vocab-saat-3228",
+    category: "vocabulary",
+    title: "twenty-eight minutes past eight p.m. — akşam sekizi yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past eight p.m.", "akşam sekizi yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:28.",
+      "🇹🇷 Saat 20:28."
+    ],
+    examples: [],
+    related_word_ids: [3228]
+  },
+  {
+    id: "vocab-saat-3229",
+    category: "vocabulary",
+    title: "twenty-nine minutes past eight p.m. — akşam sekizi yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past eight p.m.", "akşam sekizi yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:29.",
+      "🇹🇷 Saat 20:29."
+    ],
+    examples: [],
+    related_word_ids: [3229]
+  },
+  {
+    id: "vocab-saat-3230",
+    category: "vocabulary",
+    title: "half past eight p.m. — akşam sekiz buçuk",
+    keywords: ["half past eight p.m.", "akşam sekiz buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:30.",
+      "🇹🇷 Saat 20:30."
+    ],
+    examples: [],
+    related_word_ids: [3230]
+  },
+  {
+    id: "vocab-saat-3231",
+    category: "vocabulary",
+    title: "twenty-nine minutes to nine p.m. — akşam dokuza yirmi dokuz var",
+    keywords: ["twenty-nine minutes to nine p.m.", "akşam dokuza yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:31.",
+      "🇹🇷 Saat 20:31."
+    ],
+    examples: [],
+    related_word_ids: [3231]
+  },
+  {
+    id: "vocab-saat-3232",
+    category: "vocabulary",
+    title: "twenty-eight minutes to nine p.m. — akşam dokuza yirmi sekiz var",
+    keywords: ["twenty-eight minutes to nine p.m.", "akşam dokuza yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:32.",
+      "🇹🇷 Saat 20:32."
+    ],
+    examples: [],
+    related_word_ids: [3232]
+  },
+  {
+    id: "vocab-saat-3233",
+    category: "vocabulary",
+    title: "twenty-seven minutes to nine p.m. — akşam dokuza yirmi yedi var",
+    keywords: ["twenty-seven minutes to nine p.m.", "akşam dokuza yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:33.",
+      "🇹🇷 Saat 20:33."
+    ],
+    examples: [],
+    related_word_ids: [3233]
+  },
+  {
+    id: "vocab-saat-3234",
+    category: "vocabulary",
+    title: "twenty-six minutes to nine p.m. — akşam dokuza yirmi altı var",
+    keywords: ["twenty-six minutes to nine p.m.", "akşam dokuza yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:34.",
+      "🇹🇷 Saat 20:34."
+    ],
+    examples: [],
+    related_word_ids: [3234]
+  },
+  {
+    id: "vocab-saat-3235",
+    category: "vocabulary",
+    title: "twenty-five to nine p.m. — akşam dokuza yirmi beş var",
+    keywords: ["twenty-five to nine p.m.", "akşam dokuza yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:35.",
+      "🇹🇷 Saat 20:35."
+    ],
+    examples: [],
+    related_word_ids: [3235]
+  },
+  {
+    id: "vocab-saat-3236",
+    category: "vocabulary",
+    title: "twenty-four minutes to nine p.m. — akşam dokuza yirmi dört var",
+    keywords: ["twenty-four minutes to nine p.m.", "akşam dokuza yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:36.",
+      "🇹🇷 Saat 20:36."
+    ],
+    examples: [],
+    related_word_ids: [3236]
+  },
+  {
+    id: "vocab-saat-3237",
+    category: "vocabulary",
+    title: "twenty-three minutes to nine p.m. — akşam dokuza yirmi üç var",
+    keywords: ["twenty-three minutes to nine p.m.", "akşam dokuza yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:37.",
+      "🇹🇷 Saat 20:37."
+    ],
+    examples: [],
+    related_word_ids: [3237]
+  },
+  {
+    id: "vocab-saat-3238",
+    category: "vocabulary",
+    title: "twenty-two minutes to nine p.m. — akşam dokuza yirmi iki var",
+    keywords: ["twenty-two minutes to nine p.m.", "akşam dokuza yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:38.",
+      "🇹🇷 Saat 20:38."
+    ],
+    examples: [],
+    related_word_ids: [3238]
+  },
+  {
+    id: "vocab-saat-3239",
+    category: "vocabulary",
+    title: "twenty-one minutes to nine p.m. — akşam dokuza yirmi bir var",
+    keywords: ["twenty-one minutes to nine p.m.", "akşam dokuza yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:39.",
+      "🇹🇷 Saat 20:39."
+    ],
+    examples: [],
+    related_word_ids: [3239]
+  },
+  {
+    id: "vocab-saat-3240",
+    category: "vocabulary",
+    title: "twenty to nine p.m. — akşam dokuza yirmi var",
+    keywords: ["twenty to nine p.m.", "akşam dokuza yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:40.",
+      "🇹🇷 Saat 20:40."
+    ],
+    examples: [],
+    related_word_ids: [3240]
+  },
+  {
+    id: "vocab-saat-3241",
+    category: "vocabulary",
+    title: "nineteen minutes to nine p.m. — akşam dokuza on dokuz var",
+    keywords: ["nineteen minutes to nine p.m.", "akşam dokuza on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:41.",
+      "🇹🇷 Saat 20:41."
+    ],
+    examples: [],
+    related_word_ids: [3241]
+  },
+  {
+    id: "vocab-saat-3242",
+    category: "vocabulary",
+    title: "eighteen minutes to nine p.m. — akşam dokuza on sekiz var",
+    keywords: ["eighteen minutes to nine p.m.", "akşam dokuza on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:42.",
+      "🇹🇷 Saat 20:42."
+    ],
+    examples: [],
+    related_word_ids: [3242]
+  },
+  {
+    id: "vocab-saat-3243",
+    category: "vocabulary",
+    title: "seventeen minutes to nine p.m. — akşam dokuza on yedi var",
+    keywords: ["seventeen minutes to nine p.m.", "akşam dokuza on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:43.",
+      "🇹🇷 Saat 20:43."
+    ],
+    examples: [],
+    related_word_ids: [3243]
+  },
+  {
+    id: "vocab-saat-3244",
+    category: "vocabulary",
+    title: "sixteen minutes to nine p.m. — akşam dokuza on altı var",
+    keywords: ["sixteen minutes to nine p.m.", "akşam dokuza on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:44.",
+      "🇹🇷 Saat 20:44."
+    ],
+    examples: [],
+    related_word_ids: [3244]
+  },
+  {
+    id: "vocab-saat-3245",
+    category: "vocabulary",
+    title: "a quarter to nine p.m. — akşam dokuza çeyrek var",
+    keywords: ["a quarter to nine p.m.", "akşam dokuza çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:45.",
+      "🇹🇷 Saat 20:45."
+    ],
+    examples: [],
+    related_word_ids: [3245]
+  },
+  {
+    id: "vocab-saat-3246",
+    category: "vocabulary",
+    title: "fourteen minutes to nine p.m. — akşam dokuza on dört var",
+    keywords: ["fourteen minutes to nine p.m.", "akşam dokuza on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:46.",
+      "🇹🇷 Saat 20:46."
+    ],
+    examples: [],
+    related_word_ids: [3246]
+  },
+  {
+    id: "vocab-saat-3247",
+    category: "vocabulary",
+    title: "thirteen minutes to nine p.m. — akşam dokuza on üç var",
+    keywords: ["thirteen minutes to nine p.m.", "akşam dokuza on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:47.",
+      "🇹🇷 Saat 20:47."
+    ],
+    examples: [],
+    related_word_ids: [3247]
+  },
+  {
+    id: "vocab-saat-3248",
+    category: "vocabulary",
+    title: "twelve minutes to nine p.m. — akşam dokuza on iki var",
+    keywords: ["twelve minutes to nine p.m.", "akşam dokuza on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:48.",
+      "🇹🇷 Saat 20:48."
+    ],
+    examples: [],
+    related_word_ids: [3248]
+  },
+  {
+    id: "vocab-saat-3249",
+    category: "vocabulary",
+    title: "eleven minutes to nine p.m. — akşam dokuza on bir var",
+    keywords: ["eleven minutes to nine p.m.", "akşam dokuza on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:49.",
+      "🇹🇷 Saat 20:49."
+    ],
+    examples: [],
+    related_word_ids: [3249]
+  },
+  {
+    id: "vocab-saat-3250",
+    category: "vocabulary",
+    title: "ten to nine p.m. — akşam dokuza on var",
+    keywords: ["ten to nine p.m.", "akşam dokuza on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:50.",
+      "🇹🇷 Saat 20:50."
+    ],
+    examples: [],
+    related_word_ids: [3250]
+  },
+  {
+    id: "vocab-saat-3251",
+    category: "vocabulary",
+    title: "nine minutes to nine p.m. — akşam dokuza dokuz var",
+    keywords: ["nine minutes to nine p.m.", "akşam dokuza dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:51.",
+      "🇹🇷 Saat 20:51."
+    ],
+    examples: [],
+    related_word_ids: [3251]
+  },
+  {
+    id: "vocab-saat-3252",
+    category: "vocabulary",
+    title: "eight minutes to nine p.m. — akşam dokuza sekiz var",
+    keywords: ["eight minutes to nine p.m.", "akşam dokuza sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:52.",
+      "🇹🇷 Saat 20:52."
+    ],
+    examples: [],
+    related_word_ids: [3252]
+  },
+  {
+    id: "vocab-saat-3253",
+    category: "vocabulary",
+    title: "seven minutes to nine p.m. — akşam dokuza yedi var",
+    keywords: ["seven minutes to nine p.m.", "akşam dokuza yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:53.",
+      "🇹🇷 Saat 20:53."
+    ],
+    examples: [],
+    related_word_ids: [3253]
+  },
+  {
+    id: "vocab-saat-3254",
+    category: "vocabulary",
+    title: "six minutes to nine p.m. — akşam dokuza altı var",
+    keywords: ["six minutes to nine p.m.", "akşam dokuza altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:54.",
+      "🇹🇷 Saat 20:54."
+    ],
+    examples: [],
+    related_word_ids: [3254]
+  },
+  {
+    id: "vocab-saat-3255",
+    category: "vocabulary",
+    title: "five to nine p.m. — akşam dokuza beş var",
+    keywords: ["five to nine p.m.", "akşam dokuza beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:55.",
+      "🇹🇷 Saat 20:55."
+    ],
+    examples: [],
+    related_word_ids: [3255]
+  },
+  {
+    id: "vocab-saat-3256",
+    category: "vocabulary",
+    title: "four minutes to nine p.m. — akşam dokuza dört var",
+    keywords: ["four minutes to nine p.m.", "akşam dokuza dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:56.",
+      "🇹🇷 Saat 20:56."
+    ],
+    examples: [],
+    related_word_ids: [3256]
+  },
+  {
+    id: "vocab-saat-3257",
+    category: "vocabulary",
+    title: "three minutes to nine p.m. — akşam dokuza üç var",
+    keywords: ["three minutes to nine p.m.", "akşam dokuza üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:57.",
+      "🇹🇷 Saat 20:57."
+    ],
+    examples: [],
+    related_word_ids: [3257]
+  },
+  {
+    id: "vocab-saat-3258",
+    category: "vocabulary",
+    title: "two minutes to nine p.m. — akşam dokuza iki var",
+    keywords: ["two minutes to nine p.m.", "akşam dokuza iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:58.",
+      "🇹🇷 Saat 20:58."
+    ],
+    examples: [],
+    related_word_ids: [3258]
+  },
+  {
+    id: "vocab-saat-3259",
+    category: "vocabulary",
+    title: "one minute to nine p.m. — akşam dokuza bir var",
+    keywords: ["one minute to nine p.m.", "akşam dokuza bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 20:59.",
+      "🇹🇷 Saat 20:59."
+    ],
+    examples: [],
+    related_word_ids: [3259]
+  },
+  {
+    id: "vocab-saat-3260",
+    category: "vocabulary",
+    title: "nine o'clock p.m. — gece dokuz",
+    keywords: ["nine o'clock p.m.", "gece dokuz", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:00.",
+      "🇹🇷 Saat 21:00."
+    ],
+    examples: [],
+    related_word_ids: [3260]
+  },
+  {
+    id: "vocab-saat-3261",
+    category: "vocabulary",
+    title: "one minute past nine p.m. — gece dokuzu bir geçiyor",
+    keywords: ["one minute past nine p.m.", "gece dokuzu bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:01.",
+      "🇹🇷 Saat 21:01."
+    ],
+    examples: [],
+    related_word_ids: [3261]
+  },
+  {
+    id: "vocab-saat-3262",
+    category: "vocabulary",
+    title: "two minutes past nine p.m. — gece dokuzu iki geçiyor",
+    keywords: ["two minutes past nine p.m.", "gece dokuzu iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:02.",
+      "🇹🇷 Saat 21:02."
+    ],
+    examples: [],
+    related_word_ids: [3262]
+  },
+  {
+    id: "vocab-saat-3263",
+    category: "vocabulary",
+    title: "three minutes past nine p.m. — gece dokuzu üç geçiyor",
+    keywords: ["three minutes past nine p.m.", "gece dokuzu üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:03.",
+      "🇹🇷 Saat 21:03."
+    ],
+    examples: [],
+    related_word_ids: [3263]
+  },
+  {
+    id: "vocab-saat-3264",
+    category: "vocabulary",
+    title: "four minutes past nine p.m. — gece dokuzu dört geçiyor",
+    keywords: ["four minutes past nine p.m.", "gece dokuzu dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:04.",
+      "🇹🇷 Saat 21:04."
+    ],
+    examples: [],
+    related_word_ids: [3264]
+  },
+  {
+    id: "vocab-saat-3265",
+    category: "vocabulary",
+    title: "five past nine p.m. — gece dokuzu beş geçiyor",
+    keywords: ["five past nine p.m.", "gece dokuzu beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:05.",
+      "🇹🇷 Saat 21:05."
+    ],
+    examples: [],
+    related_word_ids: [3265]
+  },
+  {
+    id: "vocab-saat-3266",
+    category: "vocabulary",
+    title: "six minutes past nine p.m. — gece dokuzu altı geçiyor",
+    keywords: ["six minutes past nine p.m.", "gece dokuzu altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:06.",
+      "🇹🇷 Saat 21:06."
+    ],
+    examples: [],
+    related_word_ids: [3266]
+  },
+  {
+    id: "vocab-saat-3267",
+    category: "vocabulary",
+    title: "seven minutes past nine p.m. — gece dokuzu yedi geçiyor",
+    keywords: ["seven minutes past nine p.m.", "gece dokuzu yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:07.",
+      "🇹🇷 Saat 21:07."
+    ],
+    examples: [],
+    related_word_ids: [3267]
+  },
+  {
+    id: "vocab-saat-3268",
+    category: "vocabulary",
+    title: "eight minutes past nine p.m. — gece dokuzu sekiz geçiyor",
+    keywords: ["eight minutes past nine p.m.", "gece dokuzu sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:08.",
+      "🇹🇷 Saat 21:08."
+    ],
+    examples: [],
+    related_word_ids: [3268]
+  },
+  {
+    id: "vocab-saat-3269",
+    category: "vocabulary",
+    title: "nine minutes past nine p.m. — gece dokuzu dokuz geçiyor",
+    keywords: ["nine minutes past nine p.m.", "gece dokuzu dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:09.",
+      "🇹🇷 Saat 21:09."
+    ],
+    examples: [],
+    related_word_ids: [3269]
+  },
+  {
+    id: "vocab-saat-3270",
+    category: "vocabulary",
+    title: "ten past nine p.m. — gece dokuzu on geçiyor",
+    keywords: ["ten past nine p.m.", "gece dokuzu on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:10.",
+      "🇹🇷 Saat 21:10."
+    ],
+    examples: [],
+    related_word_ids: [3270]
+  },
+  {
+    id: "vocab-saat-3271",
+    category: "vocabulary",
+    title: "eleven minutes past nine p.m. — gece dokuzu on bir geçiyor",
+    keywords: ["eleven minutes past nine p.m.", "gece dokuzu on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:11.",
+      "🇹🇷 Saat 21:11."
+    ],
+    examples: [],
+    related_word_ids: [3271]
+  },
+  {
+    id: "vocab-saat-3272",
+    category: "vocabulary",
+    title: "twelve minutes past nine p.m. — gece dokuzu on iki geçiyor",
+    keywords: ["twelve minutes past nine p.m.", "gece dokuzu on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:12.",
+      "🇹🇷 Saat 21:12."
+    ],
+    examples: [],
+    related_word_ids: [3272]
+  },
+  {
+    id: "vocab-saat-3273",
+    category: "vocabulary",
+    title: "thirteen minutes past nine p.m. — gece dokuzu on üç geçiyor",
+    keywords: ["thirteen minutes past nine p.m.", "gece dokuzu on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:13.",
+      "🇹🇷 Saat 21:13."
+    ],
+    examples: [],
+    related_word_ids: [3273]
+  },
+  {
+    id: "vocab-saat-3274",
+    category: "vocabulary",
+    title: "fourteen minutes past nine p.m. — gece dokuzu on dört geçiyor",
+    keywords: ["fourteen minutes past nine p.m.", "gece dokuzu on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:14.",
+      "🇹🇷 Saat 21:14."
+    ],
+    examples: [],
+    related_word_ids: [3274]
+  },
+  {
+    id: "vocab-saat-3275",
+    category: "vocabulary",
+    title: "a quarter past nine p.m. — gece dokuzu çeyrek geçiyor",
+    keywords: ["a quarter past nine p.m.", "gece dokuzu çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:15.",
+      "🇹🇷 Saat 21:15."
+    ],
+    examples: [],
+    related_word_ids: [3275]
+  },
+  {
+    id: "vocab-saat-3276",
+    category: "vocabulary",
+    title: "sixteen minutes past nine p.m. — gece dokuzu on altı geçiyor",
+    keywords: ["sixteen minutes past nine p.m.", "gece dokuzu on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:16.",
+      "🇹🇷 Saat 21:16."
+    ],
+    examples: [],
+    related_word_ids: [3276]
+  },
+  {
+    id: "vocab-saat-3277",
+    category: "vocabulary",
+    title: "seventeen minutes past nine p.m. — gece dokuzu on yedi geçiyor",
+    keywords: ["seventeen minutes past nine p.m.", "gece dokuzu on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:17.",
+      "🇹🇷 Saat 21:17."
+    ],
+    examples: [],
+    related_word_ids: [3277]
+  },
+  {
+    id: "vocab-saat-3278",
+    category: "vocabulary",
+    title: "eighteen minutes past nine p.m. — gece dokuzu on sekiz geçiyor",
+    keywords: ["eighteen minutes past nine p.m.", "gece dokuzu on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:18.",
+      "🇹🇷 Saat 21:18."
+    ],
+    examples: [],
+    related_word_ids: [3278]
+  },
+  {
+    id: "vocab-saat-3279",
+    category: "vocabulary",
+    title: "nineteen minutes past nine p.m. — gece dokuzu on dokuz geçiyor",
+    keywords: ["nineteen minutes past nine p.m.", "gece dokuzu on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:19.",
+      "🇹🇷 Saat 21:19."
+    ],
+    examples: [],
+    related_word_ids: [3279]
+  },
+  {
+    id: "vocab-saat-3280",
+    category: "vocabulary",
+    title: "twenty past nine p.m. — gece dokuzu yirmi geçiyor",
+    keywords: ["twenty past nine p.m.", "gece dokuzu yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:20.",
+      "🇹🇷 Saat 21:20."
+    ],
+    examples: [],
+    related_word_ids: [3280]
+  },
+  {
+    id: "vocab-saat-3281",
+    category: "vocabulary",
+    title: "twenty-one minutes past nine p.m. — gece dokuzu yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past nine p.m.", "gece dokuzu yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:21.",
+      "🇹🇷 Saat 21:21."
+    ],
+    examples: [],
+    related_word_ids: [3281]
+  },
+  {
+    id: "vocab-saat-3282",
+    category: "vocabulary",
+    title: "twenty-two minutes past nine p.m. — gece dokuzu yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past nine p.m.", "gece dokuzu yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:22.",
+      "🇹🇷 Saat 21:22."
+    ],
+    examples: [],
+    related_word_ids: [3282]
+  },
+  {
+    id: "vocab-saat-3283",
+    category: "vocabulary",
+    title: "twenty-three minutes past nine p.m. — gece dokuzu yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past nine p.m.", "gece dokuzu yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:23.",
+      "🇹🇷 Saat 21:23."
+    ],
+    examples: [],
+    related_word_ids: [3283]
+  },
+  {
+    id: "vocab-saat-3284",
+    category: "vocabulary",
+    title: "twenty-four minutes past nine p.m. — gece dokuzu yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past nine p.m.", "gece dokuzu yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:24.",
+      "🇹🇷 Saat 21:24."
+    ],
+    examples: [],
+    related_word_ids: [3284]
+  },
+  {
+    id: "vocab-saat-3285",
+    category: "vocabulary",
+    title: "twenty-five past nine p.m. — gece dokuzu yirmi beş geçiyor",
+    keywords: ["twenty-five past nine p.m.", "gece dokuzu yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:25.",
+      "🇹🇷 Saat 21:25."
+    ],
+    examples: [],
+    related_word_ids: [3285]
+  },
+  {
+    id: "vocab-saat-3286",
+    category: "vocabulary",
+    title: "twenty-six minutes past nine p.m. — gece dokuzu yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past nine p.m.", "gece dokuzu yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:26.",
+      "🇹🇷 Saat 21:26."
+    ],
+    examples: [],
+    related_word_ids: [3286]
+  },
+  {
+    id: "vocab-saat-3287",
+    category: "vocabulary",
+    title: "twenty-seven minutes past nine p.m. — gece dokuzu yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past nine p.m.", "gece dokuzu yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:27.",
+      "🇹🇷 Saat 21:27."
+    ],
+    examples: [],
+    related_word_ids: [3287]
+  },
+  {
+    id: "vocab-saat-3288",
+    category: "vocabulary",
+    title: "twenty-eight minutes past nine p.m. — gece dokuzu yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past nine p.m.", "gece dokuzu yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:28.",
+      "🇹🇷 Saat 21:28."
+    ],
+    examples: [],
+    related_word_ids: [3288]
+  },
+  {
+    id: "vocab-saat-3289",
+    category: "vocabulary",
+    title: "twenty-nine minutes past nine p.m. — gece dokuzu yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past nine p.m.", "gece dokuzu yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:29.",
+      "🇹🇷 Saat 21:29."
+    ],
+    examples: [],
+    related_word_ids: [3289]
+  },
+  {
+    id: "vocab-saat-3290",
+    category: "vocabulary",
+    title: "half past nine p.m. — gece dokuz buçuk",
+    keywords: ["half past nine p.m.", "gece dokuz buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:30.",
+      "🇹🇷 Saat 21:30."
+    ],
+    examples: [],
+    related_word_ids: [3290]
+  },
+  {
+    id: "vocab-saat-3291",
+    category: "vocabulary",
+    title: "twenty-nine minutes to ten p.m. — gece ona yirmi dokuz var",
+    keywords: ["twenty-nine minutes to ten p.m.", "gece ona yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:31.",
+      "🇹🇷 Saat 21:31."
+    ],
+    examples: [],
+    related_word_ids: [3291]
+  },
+  {
+    id: "vocab-saat-3292",
+    category: "vocabulary",
+    title: "twenty-eight minutes to ten p.m. — gece ona yirmi sekiz var",
+    keywords: ["twenty-eight minutes to ten p.m.", "gece ona yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:32.",
+      "🇹🇷 Saat 21:32."
+    ],
+    examples: [],
+    related_word_ids: [3292]
+  },
+  {
+    id: "vocab-saat-3293",
+    category: "vocabulary",
+    title: "twenty-seven minutes to ten p.m. — gece ona yirmi yedi var",
+    keywords: ["twenty-seven minutes to ten p.m.", "gece ona yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:33.",
+      "🇹🇷 Saat 21:33."
+    ],
+    examples: [],
+    related_word_ids: [3293]
+  },
+  {
+    id: "vocab-saat-3294",
+    category: "vocabulary",
+    title: "twenty-six minutes to ten p.m. — gece ona yirmi altı var",
+    keywords: ["twenty-six minutes to ten p.m.", "gece ona yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:34.",
+      "🇹🇷 Saat 21:34."
+    ],
+    examples: [],
+    related_word_ids: [3294]
+  },
+  {
+    id: "vocab-saat-3295",
+    category: "vocabulary",
+    title: "twenty-five to ten p.m. — gece ona yirmi beş var",
+    keywords: ["twenty-five to ten p.m.", "gece ona yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:35.",
+      "🇹🇷 Saat 21:35."
+    ],
+    examples: [],
+    related_word_ids: [3295]
+  },
+  {
+    id: "vocab-saat-3296",
+    category: "vocabulary",
+    title: "twenty-four minutes to ten p.m. — gece ona yirmi dört var",
+    keywords: ["twenty-four minutes to ten p.m.", "gece ona yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:36.",
+      "🇹🇷 Saat 21:36."
+    ],
+    examples: [],
+    related_word_ids: [3296]
+  },
+  {
+    id: "vocab-saat-3297",
+    category: "vocabulary",
+    title: "twenty-three minutes to ten p.m. — gece ona yirmi üç var",
+    keywords: ["twenty-three minutes to ten p.m.", "gece ona yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:37.",
+      "🇹🇷 Saat 21:37."
+    ],
+    examples: [],
+    related_word_ids: [3297]
+  },
+  {
+    id: "vocab-saat-3298",
+    category: "vocabulary",
+    title: "twenty-two minutes to ten p.m. — gece ona yirmi iki var",
+    keywords: ["twenty-two minutes to ten p.m.", "gece ona yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:38.",
+      "🇹🇷 Saat 21:38."
+    ],
+    examples: [],
+    related_word_ids: [3298]
+  },
+  {
+    id: "vocab-saat-3299",
+    category: "vocabulary",
+    title: "twenty-one minutes to ten p.m. — gece ona yirmi bir var",
+    keywords: ["twenty-one minutes to ten p.m.", "gece ona yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:39.",
+      "🇹🇷 Saat 21:39."
+    ],
+    examples: [],
+    related_word_ids: [3299]
+  },
+  {
+    id: "vocab-saat-3300",
+    category: "vocabulary",
+    title: "twenty to ten p.m. — gece ona yirmi var",
+    keywords: ["twenty to ten p.m.", "gece ona yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:40.",
+      "🇹🇷 Saat 21:40."
+    ],
+    examples: [],
+    related_word_ids: [3300]
+  },
+  {
+    id: "vocab-saat-3301",
+    category: "vocabulary",
+    title: "nineteen minutes to ten p.m. — gece ona on dokuz var",
+    keywords: ["nineteen minutes to ten p.m.", "gece ona on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:41.",
+      "🇹🇷 Saat 21:41."
+    ],
+    examples: [],
+    related_word_ids: [3301]
+  },
+  {
+    id: "vocab-saat-3302",
+    category: "vocabulary",
+    title: "eighteen minutes to ten p.m. — gece ona on sekiz var",
+    keywords: ["eighteen minutes to ten p.m.", "gece ona on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:42.",
+      "🇹🇷 Saat 21:42."
+    ],
+    examples: [],
+    related_word_ids: [3302]
+  },
+  {
+    id: "vocab-saat-3303",
+    category: "vocabulary",
+    title: "seventeen minutes to ten p.m. — gece ona on yedi var",
+    keywords: ["seventeen minutes to ten p.m.", "gece ona on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:43.",
+      "🇹🇷 Saat 21:43."
+    ],
+    examples: [],
+    related_word_ids: [3303]
+  },
+  {
+    id: "vocab-saat-3304",
+    category: "vocabulary",
+    title: "sixteen minutes to ten p.m. — gece ona on altı var",
+    keywords: ["sixteen minutes to ten p.m.", "gece ona on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:44.",
+      "🇹🇷 Saat 21:44."
+    ],
+    examples: [],
+    related_word_ids: [3304]
+  },
+  {
+    id: "vocab-saat-3305",
+    category: "vocabulary",
+    title: "a quarter to ten p.m. — gece ona çeyrek var",
+    keywords: ["a quarter to ten p.m.", "gece ona çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:45.",
+      "🇹🇷 Saat 21:45."
+    ],
+    examples: [],
+    related_word_ids: [3305]
+  },
+  {
+    id: "vocab-saat-3306",
+    category: "vocabulary",
+    title: "fourteen minutes to ten p.m. — gece ona on dört var",
+    keywords: ["fourteen minutes to ten p.m.", "gece ona on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:46.",
+      "🇹🇷 Saat 21:46."
+    ],
+    examples: [],
+    related_word_ids: [3306]
+  },
+  {
+    id: "vocab-saat-3307",
+    category: "vocabulary",
+    title: "thirteen minutes to ten p.m. — gece ona on üç var",
+    keywords: ["thirteen minutes to ten p.m.", "gece ona on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:47.",
+      "🇹🇷 Saat 21:47."
+    ],
+    examples: [],
+    related_word_ids: [3307]
+  },
+  {
+    id: "vocab-saat-3308",
+    category: "vocabulary",
+    title: "twelve minutes to ten p.m. — gece ona on iki var",
+    keywords: ["twelve minutes to ten p.m.", "gece ona on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:48.",
+      "🇹🇷 Saat 21:48."
+    ],
+    examples: [],
+    related_word_ids: [3308]
+  },
+  {
+    id: "vocab-saat-3309",
+    category: "vocabulary",
+    title: "eleven minutes to ten p.m. — gece ona on bir var",
+    keywords: ["eleven minutes to ten p.m.", "gece ona on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:49.",
+      "🇹🇷 Saat 21:49."
+    ],
+    examples: [],
+    related_word_ids: [3309]
+  },
+  {
+    id: "vocab-saat-3310",
+    category: "vocabulary",
+    title: "ten to ten p.m. — gece ona on var",
+    keywords: ["ten to ten p.m.", "gece ona on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:50.",
+      "🇹🇷 Saat 21:50."
+    ],
+    examples: [],
+    related_word_ids: [3310]
+  },
+  {
+    id: "vocab-saat-3311",
+    category: "vocabulary",
+    title: "nine minutes to ten p.m. — gece ona dokuz var",
+    keywords: ["nine minutes to ten p.m.", "gece ona dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:51.",
+      "🇹🇷 Saat 21:51."
+    ],
+    examples: [],
+    related_word_ids: [3311]
+  },
+  {
+    id: "vocab-saat-3312",
+    category: "vocabulary",
+    title: "eight minutes to ten p.m. — gece ona sekiz var",
+    keywords: ["eight minutes to ten p.m.", "gece ona sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:52.",
+      "🇹🇷 Saat 21:52."
+    ],
+    examples: [],
+    related_word_ids: [3312]
+  },
+  {
+    id: "vocab-saat-3313",
+    category: "vocabulary",
+    title: "seven minutes to ten p.m. — gece ona yedi var",
+    keywords: ["seven minutes to ten p.m.", "gece ona yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:53.",
+      "🇹🇷 Saat 21:53."
+    ],
+    examples: [],
+    related_word_ids: [3313]
+  },
+  {
+    id: "vocab-saat-3314",
+    category: "vocabulary",
+    title: "six minutes to ten p.m. — gece ona altı var",
+    keywords: ["six minutes to ten p.m.", "gece ona altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:54.",
+      "🇹🇷 Saat 21:54."
+    ],
+    examples: [],
+    related_word_ids: [3314]
+  },
+  {
+    id: "vocab-saat-3315",
+    category: "vocabulary",
+    title: "five to ten p.m. — gece ona beş var",
+    keywords: ["five to ten p.m.", "gece ona beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:55.",
+      "🇹🇷 Saat 21:55."
+    ],
+    examples: [],
+    related_word_ids: [3315]
+  },
+  {
+    id: "vocab-saat-3316",
+    category: "vocabulary",
+    title: "four minutes to ten p.m. — gece ona dört var",
+    keywords: ["four minutes to ten p.m.", "gece ona dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:56.",
+      "🇹🇷 Saat 21:56."
+    ],
+    examples: [],
+    related_word_ids: [3316]
+  },
+  {
+    id: "vocab-saat-3317",
+    category: "vocabulary",
+    title: "three minutes to ten p.m. — gece ona üç var",
+    keywords: ["three minutes to ten p.m.", "gece ona üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:57.",
+      "🇹🇷 Saat 21:57."
+    ],
+    examples: [],
+    related_word_ids: [3317]
+  },
+  {
+    id: "vocab-saat-3318",
+    category: "vocabulary",
+    title: "two minutes to ten p.m. — gece ona iki var",
+    keywords: ["two minutes to ten p.m.", "gece ona iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:58.",
+      "🇹🇷 Saat 21:58."
+    ],
+    examples: [],
+    related_word_ids: [3318]
+  },
+  {
+    id: "vocab-saat-3319",
+    category: "vocabulary",
+    title: "one minute to ten p.m. — gece ona bir var",
+    keywords: ["one minute to ten p.m.", "gece ona bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 21:59.",
+      "🇹🇷 Saat 21:59."
+    ],
+    examples: [],
+    related_word_ids: [3319]
+  },
+  {
+    id: "vocab-saat-3320",
+    category: "vocabulary",
+    title: "ten o'clock p.m. — gece on",
+    keywords: ["ten o'clock p.m.", "gece on", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:00.",
+      "🇹🇷 Saat 22:00."
+    ],
+    examples: [],
+    related_word_ids: [3320]
+  },
+  {
+    id: "vocab-saat-3321",
+    category: "vocabulary",
+    title: "one minute past ten p.m. — gece onu bir geçiyor",
+    keywords: ["one minute past ten p.m.", "gece onu bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:01.",
+      "🇹🇷 Saat 22:01."
+    ],
+    examples: [],
+    related_word_ids: [3321]
+  },
+  {
+    id: "vocab-saat-3322",
+    category: "vocabulary",
+    title: "two minutes past ten p.m. — gece onu iki geçiyor",
+    keywords: ["two minutes past ten p.m.", "gece onu iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:02.",
+      "🇹🇷 Saat 22:02."
+    ],
+    examples: [],
+    related_word_ids: [3322]
+  },
+  {
+    id: "vocab-saat-3323",
+    category: "vocabulary",
+    title: "three minutes past ten p.m. — gece onu üç geçiyor",
+    keywords: ["three minutes past ten p.m.", "gece onu üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:03.",
+      "🇹🇷 Saat 22:03."
+    ],
+    examples: [],
+    related_word_ids: [3323]
+  },
+  {
+    id: "vocab-saat-3324",
+    category: "vocabulary",
+    title: "four minutes past ten p.m. — gece onu dört geçiyor",
+    keywords: ["four minutes past ten p.m.", "gece onu dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:04.",
+      "🇹🇷 Saat 22:04."
+    ],
+    examples: [],
+    related_word_ids: [3324]
+  },
+  {
+    id: "vocab-saat-3325",
+    category: "vocabulary",
+    title: "five past ten p.m. — gece onu beş geçiyor",
+    keywords: ["five past ten p.m.", "gece onu beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:05.",
+      "🇹🇷 Saat 22:05."
+    ],
+    examples: [],
+    related_word_ids: [3325]
+  },
+  {
+    id: "vocab-saat-3326",
+    category: "vocabulary",
+    title: "six minutes past ten p.m. — gece onu altı geçiyor",
+    keywords: ["six minutes past ten p.m.", "gece onu altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:06.",
+      "🇹🇷 Saat 22:06."
+    ],
+    examples: [],
+    related_word_ids: [3326]
+  },
+  {
+    id: "vocab-saat-3327",
+    category: "vocabulary",
+    title: "seven minutes past ten p.m. — gece onu yedi geçiyor",
+    keywords: ["seven minutes past ten p.m.", "gece onu yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:07.",
+      "🇹🇷 Saat 22:07."
+    ],
+    examples: [],
+    related_word_ids: [3327]
+  },
+  {
+    id: "vocab-saat-3328",
+    category: "vocabulary",
+    title: "eight minutes past ten p.m. — gece onu sekiz geçiyor",
+    keywords: ["eight minutes past ten p.m.", "gece onu sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:08.",
+      "🇹🇷 Saat 22:08."
+    ],
+    examples: [],
+    related_word_ids: [3328]
+  },
+  {
+    id: "vocab-saat-3329",
+    category: "vocabulary",
+    title: "nine minutes past ten p.m. — gece onu dokuz geçiyor",
+    keywords: ["nine minutes past ten p.m.", "gece onu dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:09.",
+      "🇹🇷 Saat 22:09."
+    ],
+    examples: [],
+    related_word_ids: [3329]
+  },
+  {
+    id: "vocab-saat-3330",
+    category: "vocabulary",
+    title: "ten past ten p.m. — gece onu on geçiyor",
+    keywords: ["ten past ten p.m.", "gece onu on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:10.",
+      "🇹🇷 Saat 22:10."
+    ],
+    examples: [],
+    related_word_ids: [3330]
+  },
+  {
+    id: "vocab-saat-3331",
+    category: "vocabulary",
+    title: "eleven minutes past ten p.m. — gece onu on bir geçiyor",
+    keywords: ["eleven minutes past ten p.m.", "gece onu on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:11.",
+      "🇹🇷 Saat 22:11."
+    ],
+    examples: [],
+    related_word_ids: [3331]
+  },
+  {
+    id: "vocab-saat-3332",
+    category: "vocabulary",
+    title: "twelve minutes past ten p.m. — gece onu on iki geçiyor",
+    keywords: ["twelve minutes past ten p.m.", "gece onu on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:12.",
+      "🇹🇷 Saat 22:12."
+    ],
+    examples: [],
+    related_word_ids: [3332]
+  },
+  {
+    id: "vocab-saat-3333",
+    category: "vocabulary",
+    title: "thirteen minutes past ten p.m. — gece onu on üç geçiyor",
+    keywords: ["thirteen minutes past ten p.m.", "gece onu on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:13.",
+      "🇹🇷 Saat 22:13."
+    ],
+    examples: [],
+    related_word_ids: [3333]
+  },
+  {
+    id: "vocab-saat-3334",
+    category: "vocabulary",
+    title: "fourteen minutes past ten p.m. — gece onu on dört geçiyor",
+    keywords: ["fourteen minutes past ten p.m.", "gece onu on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:14.",
+      "🇹🇷 Saat 22:14."
+    ],
+    examples: [],
+    related_word_ids: [3334]
+  },
+  {
+    id: "vocab-saat-3335",
+    category: "vocabulary",
+    title: "a quarter past ten p.m. — gece onu çeyrek geçiyor",
+    keywords: ["a quarter past ten p.m.", "gece onu çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:15.",
+      "🇹🇷 Saat 22:15."
+    ],
+    examples: [],
+    related_word_ids: [3335]
+  },
+  {
+    id: "vocab-saat-3336",
+    category: "vocabulary",
+    title: "sixteen minutes past ten p.m. — gece onu on altı geçiyor",
+    keywords: ["sixteen minutes past ten p.m.", "gece onu on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:16.",
+      "🇹🇷 Saat 22:16."
+    ],
+    examples: [],
+    related_word_ids: [3336]
+  },
+  {
+    id: "vocab-saat-3337",
+    category: "vocabulary",
+    title: "seventeen minutes past ten p.m. — gece onu on yedi geçiyor",
+    keywords: ["seventeen minutes past ten p.m.", "gece onu on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:17.",
+      "🇹🇷 Saat 22:17."
+    ],
+    examples: [],
+    related_word_ids: [3337]
+  },
+  {
+    id: "vocab-saat-3338",
+    category: "vocabulary",
+    title: "eighteen minutes past ten p.m. — gece onu on sekiz geçiyor",
+    keywords: ["eighteen minutes past ten p.m.", "gece onu on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:18.",
+      "🇹🇷 Saat 22:18."
+    ],
+    examples: [],
+    related_word_ids: [3338]
+  },
+  {
+    id: "vocab-saat-3339",
+    category: "vocabulary",
+    title: "nineteen minutes past ten p.m. — gece onu on dokuz geçiyor",
+    keywords: ["nineteen minutes past ten p.m.", "gece onu on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:19.",
+      "🇹🇷 Saat 22:19."
+    ],
+    examples: [],
+    related_word_ids: [3339]
+  },
+  {
+    id: "vocab-saat-3340",
+    category: "vocabulary",
+    title: "twenty past ten p.m. — gece onu yirmi geçiyor",
+    keywords: ["twenty past ten p.m.", "gece onu yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:20.",
+      "🇹🇷 Saat 22:20."
+    ],
+    examples: [],
+    related_word_ids: [3340]
+  },
+  {
+    id: "vocab-saat-3341",
+    category: "vocabulary",
+    title: "twenty-one minutes past ten p.m. — gece onu yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past ten p.m.", "gece onu yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:21.",
+      "🇹🇷 Saat 22:21."
+    ],
+    examples: [],
+    related_word_ids: [3341]
+  },
+  {
+    id: "vocab-saat-3342",
+    category: "vocabulary",
+    title: "twenty-two minutes past ten p.m. — gece onu yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past ten p.m.", "gece onu yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:22.",
+      "🇹🇷 Saat 22:22."
+    ],
+    examples: [],
+    related_word_ids: [3342]
+  },
+  {
+    id: "vocab-saat-3343",
+    category: "vocabulary",
+    title: "twenty-three minutes past ten p.m. — gece onu yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past ten p.m.", "gece onu yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:23.",
+      "🇹🇷 Saat 22:23."
+    ],
+    examples: [],
+    related_word_ids: [3343]
+  },
+  {
+    id: "vocab-saat-3344",
+    category: "vocabulary",
+    title: "twenty-four minutes past ten p.m. — gece onu yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past ten p.m.", "gece onu yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:24.",
+      "🇹🇷 Saat 22:24."
+    ],
+    examples: [],
+    related_word_ids: [3344]
+  },
+  {
+    id: "vocab-saat-3345",
+    category: "vocabulary",
+    title: "twenty-five past ten p.m. — gece onu yirmi beş geçiyor",
+    keywords: ["twenty-five past ten p.m.", "gece onu yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:25.",
+      "🇹🇷 Saat 22:25."
+    ],
+    examples: [],
+    related_word_ids: [3345]
+  },
+  {
+    id: "vocab-saat-3346",
+    category: "vocabulary",
+    title: "twenty-six minutes past ten p.m. — gece onu yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past ten p.m.", "gece onu yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:26.",
+      "🇹🇷 Saat 22:26."
+    ],
+    examples: [],
+    related_word_ids: [3346]
+  },
+  {
+    id: "vocab-saat-3347",
+    category: "vocabulary",
+    title: "twenty-seven minutes past ten p.m. — gece onu yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past ten p.m.", "gece onu yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:27.",
+      "🇹🇷 Saat 22:27."
+    ],
+    examples: [],
+    related_word_ids: [3347]
+  },
+  {
+    id: "vocab-saat-3348",
+    category: "vocabulary",
+    title: "twenty-eight minutes past ten p.m. — gece onu yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past ten p.m.", "gece onu yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:28.",
+      "🇹🇷 Saat 22:28."
+    ],
+    examples: [],
+    related_word_ids: [3348]
+  },
+  {
+    id: "vocab-saat-3349",
+    category: "vocabulary",
+    title: "twenty-nine minutes past ten p.m. — gece onu yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past ten p.m.", "gece onu yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:29.",
+      "🇹🇷 Saat 22:29."
+    ],
+    examples: [],
+    related_word_ids: [3349]
+  },
+  {
+    id: "vocab-saat-3350",
+    category: "vocabulary",
+    title: "half past ten p.m. — gece on buçuk",
+    keywords: ["half past ten p.m.", "gece on buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:30.",
+      "🇹🇷 Saat 22:30."
+    ],
+    examples: [],
+    related_word_ids: [3350]
+  },
+  {
+    id: "vocab-saat-3351",
+    category: "vocabulary",
+    title: "twenty-nine minutes to eleven p.m. — gece on bire yirmi dokuz var",
+    keywords: ["twenty-nine minutes to eleven p.m.", "gece on bire yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:31.",
+      "🇹🇷 Saat 22:31."
+    ],
+    examples: [],
+    related_word_ids: [3351]
+  },
+  {
+    id: "vocab-saat-3352",
+    category: "vocabulary",
+    title: "twenty-eight minutes to eleven p.m. — gece on bire yirmi sekiz var",
+    keywords: ["twenty-eight minutes to eleven p.m.", "gece on bire yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:32.",
+      "🇹🇷 Saat 22:32."
+    ],
+    examples: [],
+    related_word_ids: [3352]
+  },
+  {
+    id: "vocab-saat-3353",
+    category: "vocabulary",
+    title: "twenty-seven minutes to eleven p.m. — gece on bire yirmi yedi var",
+    keywords: ["twenty-seven minutes to eleven p.m.", "gece on bire yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:33.",
+      "🇹🇷 Saat 22:33."
+    ],
+    examples: [],
+    related_word_ids: [3353]
+  },
+  {
+    id: "vocab-saat-3354",
+    category: "vocabulary",
+    title: "twenty-six minutes to eleven p.m. — gece on bire yirmi altı var",
+    keywords: ["twenty-six minutes to eleven p.m.", "gece on bire yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:34.",
+      "🇹🇷 Saat 22:34."
+    ],
+    examples: [],
+    related_word_ids: [3354]
+  },
+  {
+    id: "vocab-saat-3355",
+    category: "vocabulary",
+    title: "twenty-five to eleven p.m. — gece on bire yirmi beş var",
+    keywords: ["twenty-five to eleven p.m.", "gece on bire yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:35.",
+      "🇹🇷 Saat 22:35."
+    ],
+    examples: [],
+    related_word_ids: [3355]
+  },
+  {
+    id: "vocab-saat-3356",
+    category: "vocabulary",
+    title: "twenty-four minutes to eleven p.m. — gece on bire yirmi dört var",
+    keywords: ["twenty-four minutes to eleven p.m.", "gece on bire yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:36.",
+      "🇹🇷 Saat 22:36."
+    ],
+    examples: [],
+    related_word_ids: [3356]
+  },
+  {
+    id: "vocab-saat-3357",
+    category: "vocabulary",
+    title: "twenty-three minutes to eleven p.m. — gece on bire yirmi üç var",
+    keywords: ["twenty-three minutes to eleven p.m.", "gece on bire yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:37.",
+      "🇹🇷 Saat 22:37."
+    ],
+    examples: [],
+    related_word_ids: [3357]
+  },
+  {
+    id: "vocab-saat-3358",
+    category: "vocabulary",
+    title: "twenty-two minutes to eleven p.m. — gece on bire yirmi iki var",
+    keywords: ["twenty-two minutes to eleven p.m.", "gece on bire yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:38.",
+      "🇹🇷 Saat 22:38."
+    ],
+    examples: [],
+    related_word_ids: [3358]
+  },
+  {
+    id: "vocab-saat-3359",
+    category: "vocabulary",
+    title: "twenty-one minutes to eleven p.m. — gece on bire yirmi bir var",
+    keywords: ["twenty-one minutes to eleven p.m.", "gece on bire yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:39.",
+      "🇹🇷 Saat 22:39."
+    ],
+    examples: [],
+    related_word_ids: [3359]
+  },
+  {
+    id: "vocab-saat-3360",
+    category: "vocabulary",
+    title: "twenty to eleven p.m. — gece on bire yirmi var",
+    keywords: ["twenty to eleven p.m.", "gece on bire yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:40.",
+      "🇹🇷 Saat 22:40."
+    ],
+    examples: [],
+    related_word_ids: [3360]
+  },
+  {
+    id: "vocab-saat-3361",
+    category: "vocabulary",
+    title: "nineteen minutes to eleven p.m. — gece on bire on dokuz var",
+    keywords: ["nineteen minutes to eleven p.m.", "gece on bire on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:41.",
+      "🇹🇷 Saat 22:41."
+    ],
+    examples: [],
+    related_word_ids: [3361]
+  },
+  {
+    id: "vocab-saat-3362",
+    category: "vocabulary",
+    title: "eighteen minutes to eleven p.m. — gece on bire on sekiz var",
+    keywords: ["eighteen minutes to eleven p.m.", "gece on bire on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:42.",
+      "🇹🇷 Saat 22:42."
+    ],
+    examples: [],
+    related_word_ids: [3362]
+  },
+  {
+    id: "vocab-saat-3363",
+    category: "vocabulary",
+    title: "seventeen minutes to eleven p.m. — gece on bire on yedi var",
+    keywords: ["seventeen minutes to eleven p.m.", "gece on bire on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:43.",
+      "🇹🇷 Saat 22:43."
+    ],
+    examples: [],
+    related_word_ids: [3363]
+  },
+  {
+    id: "vocab-saat-3364",
+    category: "vocabulary",
+    title: "sixteen minutes to eleven p.m. — gece on bire on altı var",
+    keywords: ["sixteen minutes to eleven p.m.", "gece on bire on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:44.",
+      "🇹🇷 Saat 22:44."
+    ],
+    examples: [],
+    related_word_ids: [3364]
+  },
+  {
+    id: "vocab-saat-3365",
+    category: "vocabulary",
+    title: "a quarter to eleven p.m. — gece on bire çeyrek var",
+    keywords: ["a quarter to eleven p.m.", "gece on bire çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:45.",
+      "🇹🇷 Saat 22:45."
+    ],
+    examples: [],
+    related_word_ids: [3365]
+  },
+  {
+    id: "vocab-saat-3366",
+    category: "vocabulary",
+    title: "fourteen minutes to eleven p.m. — gece on bire on dört var",
+    keywords: ["fourteen minutes to eleven p.m.", "gece on bire on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:46.",
+      "🇹🇷 Saat 22:46."
+    ],
+    examples: [],
+    related_word_ids: [3366]
+  },
+  {
+    id: "vocab-saat-3367",
+    category: "vocabulary",
+    title: "thirteen minutes to eleven p.m. — gece on bire on üç var",
+    keywords: ["thirteen minutes to eleven p.m.", "gece on bire on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:47.",
+      "🇹🇷 Saat 22:47."
+    ],
+    examples: [],
+    related_word_ids: [3367]
+  },
+  {
+    id: "vocab-saat-3368",
+    category: "vocabulary",
+    title: "twelve minutes to eleven p.m. — gece on bire on iki var",
+    keywords: ["twelve minutes to eleven p.m.", "gece on bire on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:48.",
+      "🇹🇷 Saat 22:48."
+    ],
+    examples: [],
+    related_word_ids: [3368]
+  },
+  {
+    id: "vocab-saat-3369",
+    category: "vocabulary",
+    title: "eleven minutes to eleven p.m. — gece on bire on bir var",
+    keywords: ["eleven minutes to eleven p.m.", "gece on bire on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:49.",
+      "🇹🇷 Saat 22:49."
+    ],
+    examples: [],
+    related_word_ids: [3369]
+  },
+  {
+    id: "vocab-saat-3370",
+    category: "vocabulary",
+    title: "ten to eleven p.m. — gece on bire on var",
+    keywords: ["ten to eleven p.m.", "gece on bire on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:50.",
+      "🇹🇷 Saat 22:50."
+    ],
+    examples: [],
+    related_word_ids: [3370]
+  },
+  {
+    id: "vocab-saat-3371",
+    category: "vocabulary",
+    title: "nine minutes to eleven p.m. — gece on bire dokuz var",
+    keywords: ["nine minutes to eleven p.m.", "gece on bire dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:51.",
+      "🇹🇷 Saat 22:51."
+    ],
+    examples: [],
+    related_word_ids: [3371]
+  },
+  {
+    id: "vocab-saat-3372",
+    category: "vocabulary",
+    title: "eight minutes to eleven p.m. — gece on bire sekiz var",
+    keywords: ["eight minutes to eleven p.m.", "gece on bire sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:52.",
+      "🇹🇷 Saat 22:52."
+    ],
+    examples: [],
+    related_word_ids: [3372]
+  },
+  {
+    id: "vocab-saat-3373",
+    category: "vocabulary",
+    title: "seven minutes to eleven p.m. — gece on bire yedi var",
+    keywords: ["seven minutes to eleven p.m.", "gece on bire yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:53.",
+      "🇹🇷 Saat 22:53."
+    ],
+    examples: [],
+    related_word_ids: [3373]
+  },
+  {
+    id: "vocab-saat-3374",
+    category: "vocabulary",
+    title: "six minutes to eleven p.m. — gece on bire altı var",
+    keywords: ["six minutes to eleven p.m.", "gece on bire altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:54.",
+      "🇹🇷 Saat 22:54."
+    ],
+    examples: [],
+    related_word_ids: [3374]
+  },
+  {
+    id: "vocab-saat-3375",
+    category: "vocabulary",
+    title: "five to eleven p.m. — gece on bire beş var",
+    keywords: ["five to eleven p.m.", "gece on bire beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:55.",
+      "🇹🇷 Saat 22:55."
+    ],
+    examples: [],
+    related_word_ids: [3375]
+  },
+  {
+    id: "vocab-saat-3376",
+    category: "vocabulary",
+    title: "four minutes to eleven p.m. — gece on bire dört var",
+    keywords: ["four minutes to eleven p.m.", "gece on bire dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:56.",
+      "🇹🇷 Saat 22:56."
+    ],
+    examples: [],
+    related_word_ids: [3376]
+  },
+  {
+    id: "vocab-saat-3377",
+    category: "vocabulary",
+    title: "three minutes to eleven p.m. — gece on bire üç var",
+    keywords: ["three minutes to eleven p.m.", "gece on bire üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:57.",
+      "🇹🇷 Saat 22:57."
+    ],
+    examples: [],
+    related_word_ids: [3377]
+  },
+  {
+    id: "vocab-saat-3378",
+    category: "vocabulary",
+    title: "two minutes to eleven p.m. — gece on bire iki var",
+    keywords: ["two minutes to eleven p.m.", "gece on bire iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:58.",
+      "🇹🇷 Saat 22:58."
+    ],
+    examples: [],
+    related_word_ids: [3378]
+  },
+  {
+    id: "vocab-saat-3379",
+    category: "vocabulary",
+    title: "one minute to eleven p.m. — gece on bire bir var",
+    keywords: ["one minute to eleven p.m.", "gece on bire bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 22:59.",
+      "🇹🇷 Saat 22:59."
+    ],
+    examples: [],
+    related_word_ids: [3379]
+  },
+  {
+    id: "vocab-saat-3380",
+    category: "vocabulary",
+    title: "eleven o'clock p.m. — gece on bir",
+    keywords: ["eleven o'clock p.m.", "gece on bir", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:00.",
+      "🇹🇷 Saat 23:00."
+    ],
+    examples: [],
+    related_word_ids: [3380]
+  },
+  {
+    id: "vocab-saat-3381",
+    category: "vocabulary",
+    title: "one minute past eleven p.m. — gece on biri bir geçiyor",
+    keywords: ["one minute past eleven p.m.", "gece on biri bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:01.",
+      "🇹🇷 Saat 23:01."
+    ],
+    examples: [],
+    related_word_ids: [3381]
+  },
+  {
+    id: "vocab-saat-3382",
+    category: "vocabulary",
+    title: "two minutes past eleven p.m. — gece on biri iki geçiyor",
+    keywords: ["two minutes past eleven p.m.", "gece on biri iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:02.",
+      "🇹🇷 Saat 23:02."
+    ],
+    examples: [],
+    related_word_ids: [3382]
+  },
+  {
+    id: "vocab-saat-3383",
+    category: "vocabulary",
+    title: "three minutes past eleven p.m. — gece on biri üç geçiyor",
+    keywords: ["three minutes past eleven p.m.", "gece on biri üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:03.",
+      "🇹🇷 Saat 23:03."
+    ],
+    examples: [],
+    related_word_ids: [3383]
+  },
+  {
+    id: "vocab-saat-3384",
+    category: "vocabulary",
+    title: "four minutes past eleven p.m. — gece on biri dört geçiyor",
+    keywords: ["four minutes past eleven p.m.", "gece on biri dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:04.",
+      "🇹🇷 Saat 23:04."
+    ],
+    examples: [],
+    related_word_ids: [3384]
+  },
+  {
+    id: "vocab-saat-3385",
+    category: "vocabulary",
+    title: "five past eleven p.m. — gece on biri beş geçiyor",
+    keywords: ["five past eleven p.m.", "gece on biri beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:05.",
+      "🇹🇷 Saat 23:05."
+    ],
+    examples: [],
+    related_word_ids: [3385]
+  },
+  {
+    id: "vocab-saat-3386",
+    category: "vocabulary",
+    title: "six minutes past eleven p.m. — gece on biri altı geçiyor",
+    keywords: ["six minutes past eleven p.m.", "gece on biri altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:06.",
+      "🇹🇷 Saat 23:06."
+    ],
+    examples: [],
+    related_word_ids: [3386]
+  },
+  {
+    id: "vocab-saat-3387",
+    category: "vocabulary",
+    title: "seven minutes past eleven p.m. — gece on biri yedi geçiyor",
+    keywords: ["seven minutes past eleven p.m.", "gece on biri yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:07.",
+      "🇹🇷 Saat 23:07."
+    ],
+    examples: [],
+    related_word_ids: [3387]
+  },
+  {
+    id: "vocab-saat-3388",
+    category: "vocabulary",
+    title: "eight minutes past eleven p.m. — gece on biri sekiz geçiyor",
+    keywords: ["eight minutes past eleven p.m.", "gece on biri sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:08.",
+      "🇹🇷 Saat 23:08."
+    ],
+    examples: [],
+    related_word_ids: [3388]
+  },
+  {
+    id: "vocab-saat-3389",
+    category: "vocabulary",
+    title: "nine minutes past eleven p.m. — gece on biri dokuz geçiyor",
+    keywords: ["nine minutes past eleven p.m.", "gece on biri dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:09.",
+      "🇹🇷 Saat 23:09."
+    ],
+    examples: [],
+    related_word_ids: [3389]
+  },
+  {
+    id: "vocab-saat-3390",
+    category: "vocabulary",
+    title: "ten past eleven p.m. — gece on biri on geçiyor",
+    keywords: ["ten past eleven p.m.", "gece on biri on geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:10.",
+      "🇹🇷 Saat 23:10."
+    ],
+    examples: [],
+    related_word_ids: [3390]
+  },
+  {
+    id: "vocab-saat-3391",
+    category: "vocabulary",
+    title: "eleven minutes past eleven p.m. — gece on biri on bir geçiyor",
+    keywords: ["eleven minutes past eleven p.m.", "gece on biri on bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:11.",
+      "🇹🇷 Saat 23:11."
+    ],
+    examples: [],
+    related_word_ids: [3391]
+  },
+  {
+    id: "vocab-saat-3392",
+    category: "vocabulary",
+    title: "twelve minutes past eleven p.m. — gece on biri on iki geçiyor",
+    keywords: ["twelve minutes past eleven p.m.", "gece on biri on iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:12.",
+      "🇹🇷 Saat 23:12."
+    ],
+    examples: [],
+    related_word_ids: [3392]
+  },
+  {
+    id: "vocab-saat-3393",
+    category: "vocabulary",
+    title: "thirteen minutes past eleven p.m. — gece on biri on üç geçiyor",
+    keywords: ["thirteen minutes past eleven p.m.", "gece on biri on üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:13.",
+      "🇹🇷 Saat 23:13."
+    ],
+    examples: [],
+    related_word_ids: [3393]
+  },
+  {
+    id: "vocab-saat-3394",
+    category: "vocabulary",
+    title: "fourteen minutes past eleven p.m. — gece on biri on dört geçiyor",
+    keywords: ["fourteen minutes past eleven p.m.", "gece on biri on dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:14.",
+      "🇹🇷 Saat 23:14."
+    ],
+    examples: [],
+    related_word_ids: [3394]
+  },
+  {
+    id: "vocab-saat-3395",
+    category: "vocabulary",
+    title: "a quarter past eleven p.m. — gece on biri çeyrek geçiyor",
+    keywords: ["a quarter past eleven p.m.", "gece on biri çeyrek geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:15.",
+      "🇹🇷 Saat 23:15."
+    ],
+    examples: [],
+    related_word_ids: [3395]
+  },
+  {
+    id: "vocab-saat-3396",
+    category: "vocabulary",
+    title: "sixteen minutes past eleven p.m. — gece on biri on altı geçiyor",
+    keywords: ["sixteen minutes past eleven p.m.", "gece on biri on altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:16.",
+      "🇹🇷 Saat 23:16."
+    ],
+    examples: [],
+    related_word_ids: [3396]
+  },
+  {
+    id: "vocab-saat-3397",
+    category: "vocabulary",
+    title: "seventeen minutes past eleven p.m. — gece on biri on yedi geçiyor",
+    keywords: ["seventeen minutes past eleven p.m.", "gece on biri on yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:17.",
+      "🇹🇷 Saat 23:17."
+    ],
+    examples: [],
+    related_word_ids: [3397]
+  },
+  {
+    id: "vocab-saat-3398",
+    category: "vocabulary",
+    title: "eighteen minutes past eleven p.m. — gece on biri on sekiz geçiyor",
+    keywords: ["eighteen minutes past eleven p.m.", "gece on biri on sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:18.",
+      "🇹🇷 Saat 23:18."
+    ],
+    examples: [],
+    related_word_ids: [3398]
+  },
+  {
+    id: "vocab-saat-3399",
+    category: "vocabulary",
+    title: "nineteen minutes past eleven p.m. — gece on biri on dokuz geçiyor",
+    keywords: ["nineteen minutes past eleven p.m.", "gece on biri on dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:19.",
+      "🇹🇷 Saat 23:19."
+    ],
+    examples: [],
+    related_word_ids: [3399]
+  },
+  {
+    id: "vocab-saat-3400",
+    category: "vocabulary",
+    title: "twenty past eleven p.m. — gece on biri yirmi geçiyor",
+    keywords: ["twenty past eleven p.m.", "gece on biri yirmi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:20.",
+      "🇹🇷 Saat 23:20."
+    ],
+    examples: [],
+    related_word_ids: [3400]
+  },
+  {
+    id: "vocab-saat-3401",
+    category: "vocabulary",
+    title: "twenty-one minutes past eleven p.m. — gece on biri yirmi bir geçiyor",
+    keywords: ["twenty-one minutes past eleven p.m.", "gece on biri yirmi bir geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:21.",
+      "🇹🇷 Saat 23:21."
+    ],
+    examples: [],
+    related_word_ids: [3401]
+  },
+  {
+    id: "vocab-saat-3402",
+    category: "vocabulary",
+    title: "twenty-two minutes past eleven p.m. — gece on biri yirmi iki geçiyor",
+    keywords: ["twenty-two minutes past eleven p.m.", "gece on biri yirmi iki geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:22.",
+      "🇹🇷 Saat 23:22."
+    ],
+    examples: [],
+    related_word_ids: [3402]
+  },
+  {
+    id: "vocab-saat-3403",
+    category: "vocabulary",
+    title: "twenty-three minutes past eleven p.m. — gece on biri yirmi üç geçiyor",
+    keywords: ["twenty-three minutes past eleven p.m.", "gece on biri yirmi üç geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:23.",
+      "🇹🇷 Saat 23:23."
+    ],
+    examples: [],
+    related_word_ids: [3403]
+  },
+  {
+    id: "vocab-saat-3404",
+    category: "vocabulary",
+    title: "twenty-four minutes past eleven p.m. — gece on biri yirmi dört geçiyor",
+    keywords: ["twenty-four minutes past eleven p.m.", "gece on biri yirmi dört geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:24.",
+      "🇹🇷 Saat 23:24."
+    ],
+    examples: [],
+    related_word_ids: [3404]
+  },
+  {
+    id: "vocab-saat-3405",
+    category: "vocabulary",
+    title: "twenty-five past eleven p.m. — gece on biri yirmi beş geçiyor",
+    keywords: ["twenty-five past eleven p.m.", "gece on biri yirmi beş geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:25.",
+      "🇹🇷 Saat 23:25."
+    ],
+    examples: [],
+    related_word_ids: [3405]
+  },
+  {
+    id: "vocab-saat-3406",
+    category: "vocabulary",
+    title: "twenty-six minutes past eleven p.m. — gece on biri yirmi altı geçiyor",
+    keywords: ["twenty-six minutes past eleven p.m.", "gece on biri yirmi altı geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:26.",
+      "🇹🇷 Saat 23:26."
+    ],
+    examples: [],
+    related_word_ids: [3406]
+  },
+  {
+    id: "vocab-saat-3407",
+    category: "vocabulary",
+    title: "twenty-seven minutes past eleven p.m. — gece on biri yirmi yedi geçiyor",
+    keywords: ["twenty-seven minutes past eleven p.m.", "gece on biri yirmi yedi geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:27.",
+      "🇹🇷 Saat 23:27."
+    ],
+    examples: [],
+    related_word_ids: [3407]
+  },
+  {
+    id: "vocab-saat-3408",
+    category: "vocabulary",
+    title: "twenty-eight minutes past eleven p.m. — gece on biri yirmi sekiz geçiyor",
+    keywords: ["twenty-eight minutes past eleven p.m.", "gece on biri yirmi sekiz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:28.",
+      "🇹🇷 Saat 23:28."
+    ],
+    examples: [],
+    related_word_ids: [3408]
+  },
+  {
+    id: "vocab-saat-3409",
+    category: "vocabulary",
+    title: "twenty-nine minutes past eleven p.m. — gece on biri yirmi dokuz geçiyor",
+    keywords: ["twenty-nine minutes past eleven p.m.", "gece on biri yirmi dokuz geçiyor", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:29.",
+      "🇹🇷 Saat 23:29."
+    ],
+    examples: [],
+    related_word_ids: [3409]
+  },
+  {
+    id: "vocab-saat-3410",
+    category: "vocabulary",
+    title: "half past eleven p.m. — gece on bir buçuk",
+    keywords: ["half past eleven p.m.", "gece on bir buçuk", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:30.",
+      "🇹🇷 Saat 23:30."
+    ],
+    examples: [],
+    related_word_ids: [3410]
+  },
+  {
+    id: "vocab-saat-3411",
+    category: "vocabulary",
+    title: "twenty-nine minutes to twelve p.m. — gece on ikiye yirmi dokuz var",
+    keywords: ["twenty-nine minutes to twelve p.m.", "gece on ikiye yirmi dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:31.",
+      "🇹🇷 Saat 23:31."
+    ],
+    examples: [],
+    related_word_ids: [3411]
+  },
+  {
+    id: "vocab-saat-3412",
+    category: "vocabulary",
+    title: "twenty-eight minutes to twelve p.m. — gece on ikiye yirmi sekiz var",
+    keywords: ["twenty-eight minutes to twelve p.m.", "gece on ikiye yirmi sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:32.",
+      "🇹🇷 Saat 23:32."
+    ],
+    examples: [],
+    related_word_ids: [3412]
+  },
+  {
+    id: "vocab-saat-3413",
+    category: "vocabulary",
+    title: "twenty-seven minutes to twelve p.m. — gece on ikiye yirmi yedi var",
+    keywords: ["twenty-seven minutes to twelve p.m.", "gece on ikiye yirmi yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:33.",
+      "🇹🇷 Saat 23:33."
+    ],
+    examples: [],
+    related_word_ids: [3413]
+  },
+  {
+    id: "vocab-saat-3414",
+    category: "vocabulary",
+    title: "twenty-six minutes to twelve p.m. — gece on ikiye yirmi altı var",
+    keywords: ["twenty-six minutes to twelve p.m.", "gece on ikiye yirmi altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:34.",
+      "🇹🇷 Saat 23:34."
+    ],
+    examples: [],
+    related_word_ids: [3414]
+  },
+  {
+    id: "vocab-saat-3415",
+    category: "vocabulary",
+    title: "twenty-five to twelve p.m. — gece on ikiye yirmi beş var",
+    keywords: ["twenty-five to twelve p.m.", "gece on ikiye yirmi beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:35.",
+      "🇹🇷 Saat 23:35."
+    ],
+    examples: [],
+    related_word_ids: [3415]
+  },
+  {
+    id: "vocab-saat-3416",
+    category: "vocabulary",
+    title: "twenty-four minutes to twelve p.m. — gece on ikiye yirmi dört var",
+    keywords: ["twenty-four minutes to twelve p.m.", "gece on ikiye yirmi dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:36.",
+      "🇹🇷 Saat 23:36."
+    ],
+    examples: [],
+    related_word_ids: [3416]
+  },
+  {
+    id: "vocab-saat-3417",
+    category: "vocabulary",
+    title: "twenty-three minutes to twelve p.m. — gece on ikiye yirmi üç var",
+    keywords: ["twenty-three minutes to twelve p.m.", "gece on ikiye yirmi üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:37.",
+      "🇹🇷 Saat 23:37."
+    ],
+    examples: [],
+    related_word_ids: [3417]
+  },
+  {
+    id: "vocab-saat-3418",
+    category: "vocabulary",
+    title: "twenty-two minutes to twelve p.m. — gece on ikiye yirmi iki var",
+    keywords: ["twenty-two minutes to twelve p.m.", "gece on ikiye yirmi iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:38.",
+      "🇹🇷 Saat 23:38."
+    ],
+    examples: [],
+    related_word_ids: [3418]
+  },
+  {
+    id: "vocab-saat-3419",
+    category: "vocabulary",
+    title: "twenty-one minutes to twelve p.m. — gece on ikiye yirmi bir var",
+    keywords: ["twenty-one minutes to twelve p.m.", "gece on ikiye yirmi bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:39.",
+      "🇹🇷 Saat 23:39."
+    ],
+    examples: [],
+    related_word_ids: [3419]
+  },
+  {
+    id: "vocab-saat-3420",
+    category: "vocabulary",
+    title: "twenty to twelve p.m. — gece on ikiye yirmi var",
+    keywords: ["twenty to twelve p.m.", "gece on ikiye yirmi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:40.",
+      "🇹🇷 Saat 23:40."
+    ],
+    examples: [],
+    related_word_ids: [3420]
+  },
+  {
+    id: "vocab-saat-3421",
+    category: "vocabulary",
+    title: "nineteen minutes to twelve p.m. — gece on ikiye on dokuz var",
+    keywords: ["nineteen minutes to twelve p.m.", "gece on ikiye on dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:41.",
+      "🇹🇷 Saat 23:41."
+    ],
+    examples: [],
+    related_word_ids: [3421]
+  },
+  {
+    id: "vocab-saat-3422",
+    category: "vocabulary",
+    title: "eighteen minutes to twelve p.m. — gece on ikiye on sekiz var",
+    keywords: ["eighteen minutes to twelve p.m.", "gece on ikiye on sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:42.",
+      "🇹🇷 Saat 23:42."
+    ],
+    examples: [],
+    related_word_ids: [3422]
+  },
+  {
+    id: "vocab-saat-3423",
+    category: "vocabulary",
+    title: "seventeen minutes to twelve p.m. — gece on ikiye on yedi var",
+    keywords: ["seventeen minutes to twelve p.m.", "gece on ikiye on yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:43.",
+      "🇹🇷 Saat 23:43."
+    ],
+    examples: [],
+    related_word_ids: [3423]
+  },
+  {
+    id: "vocab-saat-3424",
+    category: "vocabulary",
+    title: "sixteen minutes to twelve p.m. — gece on ikiye on altı var",
+    keywords: ["sixteen minutes to twelve p.m.", "gece on ikiye on altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:44.",
+      "🇹🇷 Saat 23:44."
+    ],
+    examples: [],
+    related_word_ids: [3424]
+  },
+  {
+    id: "vocab-saat-3425",
+    category: "vocabulary",
+    title: "a quarter to twelve p.m. — gece on ikiye çeyrek var",
+    keywords: ["a quarter to twelve p.m.", "gece on ikiye çeyrek var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:45.",
+      "🇹🇷 Saat 23:45."
+    ],
+    examples: [],
+    related_word_ids: [3425]
+  },
+  {
+    id: "vocab-saat-3426",
+    category: "vocabulary",
+    title: "fourteen minutes to twelve p.m. — gece on ikiye on dört var",
+    keywords: ["fourteen minutes to twelve p.m.", "gece on ikiye on dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:46.",
+      "🇹🇷 Saat 23:46."
+    ],
+    examples: [],
+    related_word_ids: [3426]
+  },
+  {
+    id: "vocab-saat-3427",
+    category: "vocabulary",
+    title: "thirteen minutes to twelve p.m. — gece on ikiye on üç var",
+    keywords: ["thirteen minutes to twelve p.m.", "gece on ikiye on üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:47.",
+      "🇹🇷 Saat 23:47."
+    ],
+    examples: [],
+    related_word_ids: [3427]
+  },
+  {
+    id: "vocab-saat-3428",
+    category: "vocabulary",
+    title: "twelve minutes to twelve p.m. — gece on ikiye on iki var",
+    keywords: ["twelve minutes to twelve p.m.", "gece on ikiye on iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:48.",
+      "🇹🇷 Saat 23:48."
+    ],
+    examples: [],
+    related_word_ids: [3428]
+  },
+  {
+    id: "vocab-saat-3429",
+    category: "vocabulary",
+    title: "eleven minutes to twelve p.m. — gece on ikiye on bir var",
+    keywords: ["eleven minutes to twelve p.m.", "gece on ikiye on bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:49.",
+      "🇹🇷 Saat 23:49."
+    ],
+    examples: [],
+    related_word_ids: [3429]
+  },
+  {
+    id: "vocab-saat-3430",
+    category: "vocabulary",
+    title: "ten to twelve p.m. — gece on ikiye on var",
+    keywords: ["ten to twelve p.m.", "gece on ikiye on var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:50.",
+      "🇹🇷 Saat 23:50."
+    ],
+    examples: [],
+    related_word_ids: [3430]
+  },
+  {
+    id: "vocab-saat-3431",
+    category: "vocabulary",
+    title: "nine minutes to twelve p.m. — gece on ikiye dokuz var",
+    keywords: ["nine minutes to twelve p.m.", "gece on ikiye dokuz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:51.",
+      "🇹🇷 Saat 23:51."
+    ],
+    examples: [],
+    related_word_ids: [3431]
+  },
+  {
+    id: "vocab-saat-3432",
+    category: "vocabulary",
+    title: "eight minutes to twelve p.m. — gece on ikiye sekiz var",
+    keywords: ["eight minutes to twelve p.m.", "gece on ikiye sekiz var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:52.",
+      "🇹🇷 Saat 23:52."
+    ],
+    examples: [],
+    related_word_ids: [3432]
+  },
+  {
+    id: "vocab-saat-3433",
+    category: "vocabulary",
+    title: "seven minutes to twelve p.m. — gece on ikiye yedi var",
+    keywords: ["seven minutes to twelve p.m.", "gece on ikiye yedi var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:53.",
+      "🇹🇷 Saat 23:53."
+    ],
+    examples: [],
+    related_word_ids: [3433]
+  },
+  {
+    id: "vocab-saat-3434",
+    category: "vocabulary",
+    title: "six minutes to twelve p.m. — gece on ikiye altı var",
+    keywords: ["six minutes to twelve p.m.", "gece on ikiye altı var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:54.",
+      "🇹🇷 Saat 23:54."
+    ],
+    examples: [],
+    related_word_ids: [3434]
+  },
+  {
+    id: "vocab-saat-3435",
+    category: "vocabulary",
+    title: "five to twelve p.m. — gece on ikiye beş var",
+    keywords: ["five to twelve p.m.", "gece on ikiye beş var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:55.",
+      "🇹🇷 Saat 23:55."
+    ],
+    examples: [],
+    related_word_ids: [3435]
+  },
+  {
+    id: "vocab-saat-3436",
+    category: "vocabulary",
+    title: "four minutes to twelve p.m. — gece on ikiye dört var",
+    keywords: ["four minutes to twelve p.m.", "gece on ikiye dört var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:56.",
+      "🇹🇷 Saat 23:56."
+    ],
+    examples: [],
+    related_word_ids: [3436]
+  },
+  {
+    id: "vocab-saat-3437",
+    category: "vocabulary",
+    title: "three minutes to twelve p.m. — gece on ikiye üç var",
+    keywords: ["three minutes to twelve p.m.", "gece on ikiye üç var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:57.",
+      "🇹🇷 Saat 23:57."
+    ],
+    examples: [],
+    related_word_ids: [3437]
+  },
+  {
+    id: "vocab-saat-3438",
+    category: "vocabulary",
+    title: "two minutes to twelve p.m. — gece on ikiye iki var",
+    keywords: ["two minutes to twelve p.m.", "gece on ikiye iki var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:58.",
+      "🇹🇷 Saat 23:58."
+    ],
+    examples: [],
+    related_word_ids: [3438]
+  },
+  {
+    id: "vocab-saat-3439",
+    category: "vocabulary",
+    title: "one minute to twelve p.m. — gece on ikiye bir var",
+    keywords: ["one minute to twelve p.m.", "gece on ikiye bir var", "saat", "time", "zaman"],
+    content: "Bu kavram A2 Saatler listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 It is 23:59.",
+      "🇹🇷 Saat 23:59."
+    ],
+    examples: [],
+    related_word_ids: [3439]
+  },
 ];

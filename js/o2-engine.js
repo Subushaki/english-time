@@ -182,6 +182,8 @@ const O2Engine = {
       case 'idiom': return '💬 Deyim';
       case 'vocabulary': return '📖 Kelime';
       case 'tip': return '💡 İpucu';
+      case 'time-am': return '☀️ a.m.';
+      case 'time-pm': return '🌙 p.m.';
       default: return '📄 Bilgi';
     }
   },
@@ -193,14 +195,25 @@ const O2Engine = {
       case 'idiom': return '#ec4899';
       case 'vocabulary': return '#3b82f6';
       case 'tip': return '#10b981';
+      case 'time-am': return '#f59e0b'; // amber
+      case 'time-pm': return '#6366f1'; // indigo
       default: return '#9898b8';
     }
   },
 
   // ===== RENDER RESULT CARD (HTML) =====
   renderCard(entry) {
-    const catLabel = this.getCategoryLabel(entry.category);
-    const catColor = this.getCategoryColor(entry.category);
+    let cat = entry.category;
+    if (entry.id && entry.id.startsWith("vocab-saat-")) {
+      if (entry.title.includes("a.m.")) {
+        cat = "time-am";
+      } else if (entry.title.includes("p.m.")) {
+        cat = "time-pm";
+      }
+    }
+
+    const catLabel = this.getCategoryLabel(cat);
+    const catColor = this.getCategoryColor(cat);
 
     let detailsHtml = '';
     if (entry.details && entry.details.length > 0) {
