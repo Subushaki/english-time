@@ -411,15 +411,20 @@
   });
 
   // Tab arka plana alındığında bağlantıyı kes, geri gelince yeniden bağlan
+  let reconnectTimeout = null;
   document.addEventListener('visibilitychange', () => {
     const sb = getSupabase();
     if (!sb || !currentUser) return;
 
     if (document.hidden) {
+      clearTimeout(reconnectTimeout);
       sb.removeAllChannels();
       realtimeChannel = null;
     } else {
-      subscribeRealtime();
+      clearTimeout(reconnectTimeout);
+      reconnectTimeout = setTimeout(() => {
+        subscribeRealtime();
+      }, 300);
     }
   });
 

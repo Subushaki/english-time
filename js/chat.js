@@ -718,19 +718,24 @@
   });
 
   // Tab arka plana alındığında bağlantıyı kes, geri gelince yeniden bağlan
+  let reconnectTimeout = null;
   document.addEventListener('visibilitychange', () => {
     const sb = getSupabase();
     if (!sb || !currentUser) return;
 
     if (document.hidden) {
       // Tab pasif → tüm channel'ları kapat
+      clearTimeout(reconnectTimeout);
       sb.removeAllChannels();
       realtimeChannel = null;
     } else {
-      // Tab aktif → tekrar bağlan
-      if (ageGroup) {
-        subscribeRealtime();
-      }
+      // Tab aktif → debounce ile tekrar bağlan (hızlı sekme değişiminde spam önlenir)
+      clearTimeout(reconnectTimeout);
+      reconnectTimeout = setTimeout(() => {
+        if (ageGroup) {
+          subscribeRealtime();
+        }
+      }, 300);
     }
   });
 
