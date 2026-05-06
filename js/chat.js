@@ -178,6 +178,12 @@
   function subscribeRealtime() {
     const sb = getSupabase();
 
+    // Agresif temizlik: önce eski channel'ı kapat
+    if (realtimeChannel) {
+      sb.removeChannel(realtimeChannel);
+      realtimeChannel = null;
+    }
+
     realtimeChannel = sb
       .channel('chat-' + ageGroup)
       .on('postgres_changes', {
@@ -574,12 +580,10 @@
   window.switchRoom = async function(newGroup) {
     if (newGroup === ageGroup) return;
 
-    // Unsubscribe old channel
-    if (realtimeChannel) {
-      const sb = getSupabase();
-      sb.removeChannel(realtimeChannel);
-      realtimeChannel = null;
-    }
+    // AGRESİF TEMİZLİK: tüm channel'ları kapat
+    const sb = getSupabase();
+    sb.removeAllChannels();
+    realtimeChannel = null;
 
     ageGroup = newGroup;
     lastMessageUserId = null;
@@ -699,10 +703,34 @@
   });
 
   // ===== CLEANUP =====
+  // Sayfa kapanırken tüm bağlantıları kes
   window.addEventListener('beforeunload', () => {
-    if (realtimeChannel) {
-      const sb = getSupabase();
-      sb.removeChannel(realtimeChannel);
+    const sb = getSupabase();
+    if (sb) sb.removeAllChannels();
+    realtimeChannel = null;
+  });
+
+  // Mobil uyumluluk: pagehide (iOS Safari için kritik)
+  window.addEventListener('pagehide', () => {
+    const sb = getSupabase();
+    if (sb) sb.removeAllChannels();
+    realtimeChannel = null;
+  });
+
+  // Tab arka plana alındığında bağlantıyı kes, geri gelince yeniden bağlan
+  document.addEventListener('visibilitychange', () => {
+    const sb = getSupabase();
+    if (!sb || !currentUser) return;
+
+    if (document.hidden) {
+      // Tab pasif → tüm channel'ları kapat
+      sb.removeAllChannels();
+      realtimeChannel = null;
+    } else {
+      // Tab aktif → tekrar bağlan
+      if (ageGroup) {
+        subscribeRealtime();
+      }
     }
   });
 

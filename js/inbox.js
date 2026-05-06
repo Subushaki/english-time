@@ -229,7 +229,7 @@
 
     // Mesajları çek
     const { data: msgs } = await sb.from('direct_messages')
-      .select('*')
+      .select('id, sender_id, receiver_id, content, created_at')
       .or(`and(sender_id.eq.${currentUser.id},receiver_id.eq.${userId}),and(sender_id.eq.${userId},receiver_id.eq.${currentUser.id})`)
       .order('created_at', { ascending: true })
       .limit(100);
@@ -337,7 +337,13 @@
   // ===== REALTIME =====
   function subscribeRealtime() {
     const sb = getSupabase();
-    
+
+    // Agresif temizlik: önce eski channel'ı kapat
+    if (realtimeChannel) {
+      sb.removeChannel(realtimeChannel);
+      realtimeChannel = null;
+    }
+
     realtimeChannel = sb.channel('direct_messages_channel')
       .on('postgres_changes', {
         event: 'INSERT',
@@ -390,10 +396,30 @@
   });
 
   // ===== CLEANUP =====
+  // Sayfa kapanırken tüm bağlantıları kes
   window.addEventListener('beforeunload', () => {
-    if (realtimeChannel) {
-      const sb = getSupabase();
-      sb.removeChannel(realtimeChannel);
+    const sb = getSupabase();
+    if (sb) sb.removeAllChannels();
+    realtimeChannel = null;
+  });
+
+  // Mobil uyumluluk: pagehide (iOS Safari için kritik)
+  window.addEventListener('pagehide', () => {
+    const sb = getSupabase();
+    if (sb) sb.removeAllChannels();
+    realtimeChannel = null;
+  });
+
+  // Tab arka plana alındığında bağlantıyı kes, geri gelince yeniden bağlan
+  document.addEventListener('visibilitychange', () => {
+    const sb = getSupabase();
+    if (!sb || !currentUser) return;
+
+    if (document.hidden) {
+      sb.removeAllChannels();
+      realtimeChannel = null;
+    } else {
+      subscribeRealtime();
     }
   });
 
