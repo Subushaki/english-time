@@ -304,7 +304,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 80px);
+  height: calc(100dvh - 80px);
   min-height: 500px;
 }
 
@@ -818,7 +818,7 @@
     grid-template-columns: 1fr;
   }
   .chat-wrapper {
-    height: calc(100vh - 60px);
+    height: calc(100dvh - 75px);
   }
   .chat-header {
     padding: 12px 14px;

@@ -137,18 +137,7 @@
       <div id="privacy-toggle-status" style="text-align: center; margin-top: 10px; font-size: 0.82rem; color: var(--text-muted);"></div>
     </div>
 
-    <!-- Global Chat Section -->
-    <div class="settings-card" style="margin-bottom: 16px; border: 1px solid rgba(59, 130, 246, 0.25); background: rgba(59, 130, 246, 0.03);" id="chat-section-card">
-      <div class="settings-header">
-        <h2>💬 Global Sohbet</h2>
-        <p>Toplulukla bağlantıya geç, yaş grubuna göre sohbet odalarına katıl.</p>
-      </div>
-      <div id="chat-section-content">
-        <a href="chat-apply.html" class="settings-btn" style="justify-content: center; text-decoration: none; color: var(--text-primary); background: rgba(59, 130, 246, 0.1);" id="chat-join-btn">
-          <span class="settings-btn-icon">📝</span> Sohbete Katılmak İçin Başvur
-        </a>
-      </div>
-    </div>
+
 
     <!-- Admin Panel / Kral Dairesi (Admins Only) -->
     <div class="settings-card" id="admin-panel-card" style="display: none; border: 2px solid var(--accent-yellow); background: rgba(251, 191, 36, 0.05); margin-bottom: 16px;">
@@ -366,15 +355,6 @@
       // Reveal Admin Panel if authorized
       if (user.is_admin) {
         document.getElementById('admin-panel-card').style.display = 'block';
-      }
-
-      // Update chat section based on approval status
-      if (user.chat_approved) {
-        document.getElementById('chat-section-content').innerHTML = `
-          <a href="chat.html" class="settings-btn" style="justify-content: center; text-decoration: none; color: white; background: linear-gradient(135deg, #3b82f6, #6366f1);">
-            <span class="settings-btn-icon">💬</span> Sohbete Git
-          </a>
-        `;
       }
     });
 

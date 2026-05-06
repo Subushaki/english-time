@@ -133,10 +133,14 @@ async function updateUserBar() {
     let navItems = mobileNotif;
     navItems += '<a href="inbox.html" class="burger-nav-item"><span class="burger-nav-icon">📥</span> Gelen Kutusu</a>';
 
+    const chatUrl = user.chat_approved ? 'chat.html' : 'chat-apply.html';
+    const isChat = window.location.pathname.includes('chat.html') || window.location.pathname.includes('chat-apply.html');
+
     if (!isIndex) navItems += '<a href="index.html" class="burger-nav-item"><span class="burger-nav-icon">🏠</span> Ana Sayfa</a>';
     if (!isDashboard) navItems += '<a href="dashboard.html" class="burger-nav-item"><span class="burger-nav-icon">📊</span> Panelim</a>';
     if (!isLeaderboard) navItems += '<a href="leaderboard.html" class="burger-nav-item"><span class="burger-nav-icon">🥇</span> Skor Tablosu</a>';
     if (!isO2) navItems += '<a href="o2.html" class="burger-nav-item"><span class="burger-nav-icon">🔍</span> O₂ Oxygen</a>';
+    if (!isChat) navItems += `<a href="${chatUrl}" class="burger-nav-item"><span class="burger-nav-icon">💬</span> Global Sohbet</a>`;
     if (!isProfile) navItems += '<a href="profile.html?id=' + user.id + '" class="burger-nav-item"><span class="burger-nav-icon">👤</span> Profilim</a>';
     if (!isSettings) navItems += '<a href="settings.html" class="burger-nav-item"><span class="burger-nav-icon">⚙️</span> Ayarlar</a>';
 
@@ -151,6 +155,7 @@ async function updateUserBar() {
     const panelBtn = isDashboard ? '' : '<a href="dashboard.html" class="user-bar-btn desktop-nav"><span class="settings-btn-icon">📊</span> Panelim</a>';
     const lbBtn = isLeaderboard ? '' : '<a href="leaderboard.html" class="user-bar-btn desktop-nav"><span class="settings-btn-icon">🥇</span> Skor</a>';
     const o2Btn = isO2 ? '' : '<a href="o2.html" class="user-bar-btn desktop-nav" style="border-color: rgba(251,191,36,0.2); color: #fbbf24;"><span class="settings-btn-icon">🔍</span> O₂</a>';
+    const chatBtn = isChat ? '' : `<a href="${chatUrl}" class="user-bar-btn desktop-nav" style="border-color: rgba(59, 130, 246, 0.3); color: #60a5fa; font-weight: bold;"><span class="settings-btn-icon">💬</span> Sohbet</a>`;
     const profileBtn = isProfile ? '' : '<a href="profile.html?id=' + user.id + '" class="user-bar-btn desktop-nav"><span class="settings-btn-icon">👤</span> Profilim</a>';
     const settingsBtn = isSettings ? '' : '<a href="settings.html" class="user-bar-btn desktop-nav"><span class="settings-btn-icon">⚙️</span> Ayarlar</a>';
 
@@ -179,6 +184,7 @@ async function updateUserBar() {
       ${panelBtn}
       ${lbBtn}
       ${o2Btn}
+      ${chatBtn}
       <span class="nav-divider desktop-nav"></span>
       ${profileBtn}
       ${settingsBtn}
@@ -388,7 +394,7 @@ window.openNotifications = async function () {
     modal.addEventListener('click', closeNotifications);
   }
 
-  modal.classList.add('open');
+modal.classList.add('open');
   document.body.style.overflow = 'hidden';
 
   const content = document.getElementById('notifications-content');
@@ -405,9 +411,45 @@ window.openNotifications = async function () {
 
     if (error) throw error;
 
+    let adminHtml = '';
+    if (user.is_admin) {
+      try {
+        const { count: appCount } = await sb.from('chat_applications').select('*', { count: 'exact', head: true }).eq('status', 'pending');
+        const { count: repCount } = await sb.from('chat_reports').select('*', { count: 'exact', head: true }).eq('status', 'pending');
+        
+        if (appCount > 0) {
+          adminHtml += `
+            <div style="padding: 20px; border-bottom: 1px solid var(--glass-border); background: rgba(16, 185, 129, 0.05); display: flex; flex-direction: column; gap: 8px;">
+              <div style="font-weight: 600; color: var(--text-primary); display:flex; justify-content:space-between; align-items: flex-start; gap: 10px;">
+                <span>🛡️ Yeni Sohbet Başvurusu</span>
+                <span style="color:var(--accent-green); font-size:0.7rem; padding:3px 8px; border-radius:12px; background:rgba(16,185,129,0.15); font-weight:700; flex-shrink:0;">${appCount} ADET</span>
+              </div>
+              <div style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.4;">İncelenmeyi bekleyen ${appCount} adet global sohbet başvurusu var.</div>
+              <a href="admin-chat.html" style="color: var(--accent-green); font-size: 0.85rem; font-weight: 600; text-decoration: none; margin-top: 5px; cursor: pointer;">İncele →</a>
+            </div>`;
+        }
+        if (repCount > 0) {
+          adminHtml += `
+            <div style="padding: 20px; border-bottom: 1px solid var(--glass-border); background: rgba(239, 68, 68, 0.05); display: flex; flex-direction: column; gap: 8px;">
+              <div style="font-weight: 600; color: var(--text-primary); display:flex; justify-content:space-between; align-items: flex-start; gap: 10px;">
+                <span>🚩 Sohbet Şikayeti</span>
+                <span style="color:var(--accent-red); font-size:0.7rem; padding:3px 8px; border-radius:12px; background:rgba(239,68,68,0.15); font-weight:700; flex-shrink:0;">${repCount} ADET</span>
+              </div>
+              <div style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.4;">İncelenmeyi bekleyen ${repCount} adet sohbet şikayeti bulunuyor.</div>
+              <a href="admin-chat.html" style="color: var(--accent-red); font-size: 0.85rem; font-weight: 600; text-decoration: none; margin-top: 5px; cursor: pointer;">İncele →</a>
+            </div>`;
+        }
+      } catch (e) { /* ignore */ }
+    }
+
     if (!data || data.length === 0) {
-      content.innerHTML = '<div style="text-align:center; color: var(--text-muted); padding: 30px;">Henüz bildiriminiz yok.</div>';
-      return;
+      if (adminHtml === '') {
+        content.innerHTML = '<div style="text-align:center; color: var(--text-muted); padding: 30px;">Henüz bildiriminiz yok.</div>';
+        return;
+      } else {
+        content.innerHTML = adminHtml;
+        return;
+      }
     }
 
     window.currentNotifications = data; // Store globally for details
@@ -415,7 +457,7 @@ window.openNotifications = async function () {
     let html = '';
     data.forEach(n => {
       // Strip HTML tags for preview and replace multiple spaces
-      const rawText = n.message.replace(/<[^>]+>/g, ' ').replace(/\\s+/g, ' ').trim();
+      const rawText = n.message.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
       const preview = rawText.substring(0, 60) + (rawText.length > 60 ? '...' : '');
 
       html += `
@@ -428,14 +470,12 @@ window.openNotifications = async function () {
             </div>
           </div>
           <div style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.4;">${escapeHtmlAuth(preview)}</div>
-          <div style="display:flex; justify-content:space-between; align-items:center; margin-top: 5px;">
-            <div style="font-size: 0.8rem; color: var(--text-muted);">${new Date(n.created_at).toLocaleString('tr-TR')}</div>
-            <button onclick="openNotificationDetail(${n.id})" style="background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); color: var(--text-primary); padding: 5px 12px; border-radius: 6px; font-size: 0.8rem; cursor: pointer; transition: all 0.2s;">Detaylar →</button>
-          </div>
+          <button onclick="showNotificationDetail(${n.id})" style="background:transparent; border:none; color:var(--accent-blue); font-size:0.85rem; padding:0; cursor:pointer; font-weight:600; text-align:left; margin-top:5px;">Devamını Oku →</button>
         </div>
       `;
     });
-    content.innerHTML = html;
+
+    content.innerHTML = adminHtml + html;
 
     // Mark as read
     const unreadIds = data.filter(n => !n.is_read).map(n => n.id);
