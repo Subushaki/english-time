@@ -45,13 +45,14 @@
   }
 
   // ===== GET AVATAR HTML =====
-  function getAvatarHtml(profile) {
+  function getAvatarHtml(profile, userId) {
+    const clickAttr = userId ? ` onclick="window.location.href='profile.html?id=${userId}'" style="cursor:pointer;"` : '';
     if (profile.avatar && profile.avatar !== 'null' && typeof getAvatarImgTag === 'function') {
       const bgStyle = profile.avatar_bg ? 'background:' + profile.avatar_bg + ';' : '';
-      return '<div class="msg-avatar" style="' + bgStyle + '">' + getAvatarImgTag(profile.avatar, 'text', profile.username) + '</div>';
+      return '<div class="msg-avatar" style="' + bgStyle + '"' + clickAttr + '>' + getAvatarImgTag(profile.avatar, 'text', profile.username) + '</div>';
     }
     const initial = (profile.username || '?').charAt(0).toUpperCase();
-    return '<div class="msg-avatar">' + initial + '</div>';
+    return '<div class="msg-avatar"' + clickAttr + '>' + initial + '</div>';
   }
 
   // ===== CONSECUTIVE CHECK =====
@@ -88,10 +89,10 @@
     }
 
     el.innerHTML = `
-      ${getAvatarHtml(profile)}
+      ${getAvatarHtml(profile, msg.user_id)}
       <div class="msg-body">
         <div class="msg-author-line">
-          <span class="msg-author"${nameStyle}>${escapeHtml(profile.username)}</span>
+          <span class="msg-author"${nameStyle} onclick="window.location.href='profile.html?id=${msg.user_id}'" style="cursor:pointer;">${escapeHtml(profile.username)}</span>
           <span class="msg-time">${dateStr} ${timeStr}</span>
         </div>
         ${replyHtml}
