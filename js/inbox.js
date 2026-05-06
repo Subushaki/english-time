@@ -102,6 +102,7 @@
         }
       }
 
+      const conversations = {};
       if (!messages || messages.length === 0) {
         listEl.innerHTML = '<div style="padding:20px; text-align:center; color:var(--text-muted);">Henüz mesajınız yok.</div>';
       } else {

@@ -589,6 +589,17 @@
     lastMessageUserId = null;
     lastMessageTime = null;
 
+    // Admin Bypass: Adminler odaya yazabilmek için RLS'i aşmalı.
+    // Odayı değiştirdiklerinde veritabanındaki yaş gruplarını da güncelliyoruz.
+    if (currentUser && currentUser.is_admin) {
+      try {
+        const sb = getSupabase();
+        await sb.from('profiles').update({ chat_age_group: newGroup }).eq('id', currentUser.id);
+        currentUser.chat_age_group = newGroup;
+        localStorage.setItem('english_time_user', JSON.stringify(currentUser));
+      } catch(e) {}
+    }
+
     // Update UI
     const groupInfo = AGE_GROUPS[ageGroup];
     document.getElementById('room-icon').textContent = groupInfo.icon;
