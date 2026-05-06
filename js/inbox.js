@@ -104,55 +104,52 @@
 
       if (!messages || messages.length === 0) {
         listEl.innerHTML = '<div style="padding:20px; text-align:center; color:var(--text-muted);">Henüz mesajınız yok.</div>';
-        return;
+      } else {
+        // Benzersiz kullanıcıları ve onlarla olan son mesajları bul
+        messages.forEach(msg => {
+          const otherUserId = msg.sender_id === currentUser.id ? msg.receiver_id : msg.sender_id;
+          const otherProfile = msg.sender_id === currentUser.id ? msg.receiver : msg.sender;
+          
+          if (!conversations[otherUserId]) {
+            userProfiles[otherUserId] = otherProfile;
+            conversations[otherUserId] = {
+              userId: otherUserId,
+              profile: otherProfile,
+              lastMsg: msg,
+              unreadCount: 0
+            };
+          }
+          
+          // Eğer mesaj bana geldiyse ve okunmadıysa sayıyı artır
+          if (msg.receiver_id === currentUser.id && !msg.is_read) {
+            conversations[otherUserId].unreadCount++;
+          }
+        });
+
+        let html = '';
+        Object.values(conversations).forEach(conv => {
+          const preview = (conv.lastMsg.sender_id === currentUser.id ? 'Sen: ' : '') + conv.lastMsg.content;
+          const timeStr = new Date(conv.lastMsg.created_at).toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' });
+          const unreadBadge = conv.unreadCount > 0 ? `<div class="inbox-unread-badge">${conv.unreadCount}</div>` : '';
+          const name = conv.profile ? conv.profile.username : 'Bilinmeyen Kullanıcı';
+
+          html += `
+            <div class="inbox-item" id="inbox-item-${conv.userId}" onclick="openChat('${conv.userId}')">
+              ${getAvatarHtml(conv.profile)}
+              <div class="inbox-item-info">
+                <div class="inbox-item-name">${escapeHtml(name)}</div>
+                <div class="inbox-item-preview">${escapeHtml(preview)}</div>
+              </div>
+              <div class="inbox-item-meta">
+                <div class="inbox-item-time">${timeStr}</div>
+                ${unreadBadge}
+              </div>
+            </div>
+          `;
+        });
+
+        listEl.innerHTML = html;
       }
-
-      // Benzersiz kullanıcıları ve onlarla olan son mesajları bul
-      const conversations = {};
-      
-      messages.forEach(msg => {
-        const otherUserId = msg.sender_id === currentUser.id ? msg.receiver_id : msg.sender_id;
-        const otherProfile = msg.sender_id === currentUser.id ? msg.receiver : msg.sender;
-        
-        if (!conversations[otherUserId]) {
-          userProfiles[otherUserId] = otherProfile;
-          conversations[otherUserId] = {
-            userId: otherUserId,
-            profile: otherProfile,
-            lastMsg: msg,
-            unreadCount: 0
-          };
-        }
-        
-        // Eğer mesaj bana geldiyse ve okunmadıysa sayıyı artır
-        if (msg.receiver_id === currentUser.id && !msg.is_read) {
-          conversations[otherUserId].unreadCount++;
-        }
-      });
-
-      let html = '';
-      Object.values(conversations).forEach(conv => {
-        const preview = (conv.lastMsg.sender_id === currentUser.id ? 'Sen: ' : '') + conv.lastMsg.content;
-        const timeStr = new Date(conv.lastMsg.created_at).toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' });
-        const unreadBadge = conv.unreadCount > 0 ? `<div class="inbox-unread-badge">${conv.unreadCount}</div>` : '';
-        const name = conv.profile ? conv.profile.username : 'Bilinmeyen Kullanıcı';
-
-        html += `
-          <div class="inbox-item" id="inbox-item-${conv.userId}" onclick="openChat('${conv.userId}')">
-            ${getAvatarHtml(conv.profile)}
-            <div class="inbox-item-info">
-              <div class="inbox-item-name">${escapeHtml(name)}</div>
-              <div class="inbox-item-preview">${escapeHtml(preview)}</div>
-            </div>
-            <div class="inbox-item-meta">
-              <div class="inbox-item-time">${timeStr}</div>
-              ${unreadBadge}
-            </div>
-          </div>
-        `;
-      });
-
-      listEl.innerHTML = html;
 
       // URL param check for direct messaging
       const params = new URLSearchParams(window.location.search);
