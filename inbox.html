@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="English Time - Gelen Kutusu">
+  <title>English Time | Gelen Kutusu</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/inbox.css">
+  <link rel="preconnect" href="https://oumhweoxhzziufhasxch.supabase.co" crossorigin>
+  <script src="js/optimize.js"></script>
+  <script src="js/theme.js"></script>
+  <link rel="stylesheet" href="css/theme-light.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📚</text></svg>">
+</head>
+<body>
+  <div class="bg-effects"><div class="orb orb-1"></div><div class="orb orb-2"></div></div>
+  <div class="stars"></div>
+
+  <div class="container">
+    <div class="user-bar" id="user-bar"></div>
+
+    <div class="inbox-wrapper">
+      <!-- Sol Panel: Konuşmalar Listesi -->
+      <div class="inbox-sidebar" id="inbox-sidebar">
+        <div class="inbox-sidebar-header">
+          <h3>Mesajlar</h3>
+        </div>
+        <div class="inbox-list" id="inbox-list">
+          <div style="text-align:center; color:var(--text-muted); padding:20px;">Yükleniyor...</div>
+        </div>
+      </div>
+
+      <!-- Sağ Panel: Sohbet Penceresi -->
+      <div class="inbox-chat" id="inbox-chat">
+        <div class="inbox-chat-empty" id="inbox-empty-state">
+          <div class="inbox-empty-icon">💬</div>
+          <h3>Mesajlaşmaya Başlayın</h3>
+          <p>Sol taraftan bir sohbet seçin veya yönetime mesaj gönderin.</p>
+        </div>
+
+        <div class="inbox-chat-active" id="inbox-active-state" style="display: none;">
+          <div class="inbox-chat-header">
+            <button class="inbox-back-btn" onclick="closeChatMobile()">🔙</button>
+            <div class="inbox-chat-avatar" id="active-chat-avatar">?</div>
+            <div class="inbox-chat-info">
+              <div class="inbox-chat-name" id="active-chat-name">Yönetim</div>
+              <div class="inbox-chat-status">Çevrimiçi</div>
+            </div>
+          </div>
+          
+          <div class="inbox-messages" id="inbox-messages">
+            <!-- Mesajlar JS ile yüklenecek -->
+          </div>
+
+          <div class="inbox-input-area">
+            <textarea class="inbox-input" id="inbox-input" placeholder="Mesajınızı yazın..." rows="1" maxlength="1000"></textarea>
+            <button class="inbox-send-btn" id="inbox-send-btn" onclick="sendDirectMessage()" disabled>➤</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/avatars.js"></script>
+  <script src="js/profanity.js"></script>
+  <script src="js/inbox.js"></script>
+</body>
+</html>

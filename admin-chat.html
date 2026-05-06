@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kral Dairesi | Sohbet Yönetimi</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/admin.css">
+  <link rel="stylesheet" href="css/chat.css">
+  <link rel="preconnect" href="https://oumhweoxhzziufhasxch.supabase.co" crossorigin>
+  <script src="js/optimize.js"></script>
+  <script src="js/theme.js"></script>
+  <link rel="stylesheet" href="css/theme-light.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📚</text></svg>">
+  <style>
+    /* Sub-tab system */
+    .chat-admin-tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+    .chat-admin-tab {
+      padding: 10px 18px;
+      border-radius: var(--radius-md);
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--glass-border);
+      color: var(--text-secondary);
+      font-family: inherit;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .chat-admin-tab:hover { background: rgba(255,255,255,0.08); }
+    .chat-admin-tab.active {
+      background: rgba(59, 130, 246, 0.12);
+      border-color: var(--accent-blue);
+      color: var(--accent-blue);
+    }
+
+    /* Application card */
+    .app-card {
+      background: var(--bg-card);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+    .app-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--glass-border);
+    }
+    .app-card-user {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .app-card-avatar {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--gradient-primary);
+      font-weight: 800;
+      color: white;
+      overflow: hidden;
+    }
+    .app-card-avatar img { width: 100%; height: 100%; object-fit: cover; }
+    .app-card-info { display: flex; flex-direction: column; gap: 2px; }
+    .app-card-details {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+    .app-detail {
+      padding: 10px 14px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-sm);
+    }
+    .app-detail-label {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .app-detail-value {
+      font-weight: 700;
+      color: var(--text-primary);
+      font-size: 0.95rem;
+    }
+    .app-motivation {
+      padding: 14px;
+      background: rgba(0,0,0,0.2);
+      border-radius: var(--radius-sm);
+      border-left: 3px solid var(--accent-purple);
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      line-height: 1.6;
+      margin-bottom: 16px;
+      max-height: 200px;
+      overflow-y: auto;
+    }
+    .app-actions {
+      display: flex;
+      gap: 10px;
+    }
+    .app-action-btn {
+      flex: 1;
+      padding: 10px 16px;
+      border: none;
+      border-radius: var(--radius-sm);
+      font-family: inherit;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-size: 0.9rem;
+    }
+    .app-approve {
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--accent-green);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+    .app-approve:hover { background: rgba(16, 185, 129, 0.25); }
+    .app-reject {
+      background: rgba(239, 68, 68, 0.1);
+      color: var(--accent-red);
+      border: 1px solid rgba(239, 68, 68, 0.2);
+    }
+    .app-reject:hover { background: rgba(239, 68, 68, 0.2); }
+
+    /* Report card in admin */
+    .admin-report-card {
+      background: var(--bg-card);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+    .admin-report-msg {
+      padding: 12px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--glass-border);
+      border-left: 3px solid var(--accent-orange);
+      border-radius: 6px;
+      margin: 12px 0;
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+    .admin-report-meta {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin: 12px 0;
+    }
+
+    @media (max-width: 600px) {
+      .app-card-details { grid-template-columns: 1fr; }
+      .admin-report-meta { grid-template-columns: 1fr; }
+      .chat-admin-tabs { gap: 6px; }
+      .chat-admin-tab { padding: 8px 12px; font-size: 0.82rem; }
+      .admin-sidebar { width: 270px; left: -290px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-effects"><div class="orb orb-1"></div><div class="orb orb-2"></div></div>
+  <div class="stars"></div>
+
+  <!-- Hamburger Toggle -->
+  <button class="admin-sidebar-toggle" id="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+
+  <!-- Sidebar Overlay -->
+  <div class="admin-sidebar-overlay" id="sidebar-overlay" onclick="toggleSidebar()"></div>
+
+  <!-- Sidebar -->
+  <div class="admin-sidebar" id="admin-sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">Ana Yönetim</div>
+      <a href="admin-analytics.html" class="sidebar-link">📊 Genel Analizler</a>
+      <a href="admin-analytics.html" class="sidebar-link">👥 Kullanıcı Listesi</a>
+      <a href="admin-analytics.html" class="sidebar-link">🚀 Güncellemeler</a>
+      <a href="admin-reports.html" class="sidebar-link">🚩 Hata Raporları</a>
+      <a href="admin-activity.html" class="sidebar-link">👀 Aktivite Logları</a>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">💬 Global Sohbet</div>
+      <a href="#" class="sidebar-link active" onclick="switchChatView('applications'); return false;">📋 Başvurular <span class="sidebar-badge" id="sb-app-count">0</span></a>
+      <div class="sidebar-sub">
+        <div style="padding: 6px 10px; font-size: 0.78rem; color: var(--text-muted); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-top: 8px;">Yaş Grupları</div>
+        <a href="#" class="sidebar-link" onclick="switchChatView('reports', 'young'); return false;">🟢 Genç (0-17) <span class="sidebar-badge" id="sb-young-count">0</span></a>
+        <a href="#" class="sidebar-link" onclick="switchChatView('reports', 'adult'); return false;">🔵 Yetişkin (18-32) <span class="sidebar-badge" id="sb-adult-count">0</span></a>
+        <a href="#" class="sidebar-link" onclick="switchChatView('reports', 'mature'); return false;">🟣 Olgun (33+) <span class="sidebar-badge" id="sb-mature-count">0</span></a>
+      </div>
+    </div>
+    <div class="sidebar-section">
+      <a href="settings.html" class="sidebar-link">⚙️ Ayarlara Dön</a>
+    </div>
+  </div>
+
+  <div class="container admin-container" style="padding-top: 70px;">
+    <div class="admin-header">
+      <h1>👑 Sohbet Yönetimi</h1>
+      <p>Başvuruları onayla, raporları incele, iletilen mesajları görüntüle.</p>
+    </div>
+
+    <!-- Sub-tabs -->
+    <div class="chat-admin-tabs" id="chat-admin-tabs">
+      <button class="chat-admin-tab active" onclick="switchChatView('applications')">📋 Başvurular</button>
+      <button class="chat-admin-tab" onclick="switchChatView('reports')">🚩 Mesaj Raporları</button>
+      <button class="chat-admin-tab" onclick="switchChatView('forwards')">📨 İletilen Mesajlar</button>
+    </div>
+
+    <!-- Age group filter (shown for reports/forwards) -->
+    <div id="age-filter" style="display: none; margin-bottom: 20px;">
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <button class="chat-admin-tab active" onclick="filterAgeGroup('all')">🌐 Tümü</button>
+        <button class="chat-admin-tab" onclick="filterAgeGroup('young')">🟢 Genç</button>
+        <button class="chat-admin-tab" onclick="filterAgeGroup('adult')">🔵 Yetişkin</button>
+        <button class="chat-admin-tab" onclick="filterAgeGroup('mature')">🟣 Olgun</button>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div id="admin-chat-content" style="max-width: 800px;">
+      <div style="text-align: center; color: var(--text-muted); padding: 40px;">Yükleniyor...</div>
+    </div>
+
+    <div style="margin-top: 40px; text-align: center;">
+      <a href="settings.html" class="btn-secondary" style="display: inline-flex; justify-content: center;">← Ayarlara Dön</a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/avatars.js"></script>
+  <script src="js/admin-chat.js"></script>
+</body>
+</html>

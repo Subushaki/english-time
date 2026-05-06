@@ -19,7 +19,32 @@
   <div class="bg-effects"><div class="orb orb-1"></div><div class="orb orb-2"></div></div>
   <div class="stars"></div>
 
-  <div class="container admin-container">
+  <!-- Hamburger Toggle -->
+  <button class="admin-sidebar-toggle" id="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+
+  <!-- Sidebar Overlay -->
+  <div class="admin-sidebar-overlay" id="sidebar-overlay" onclick="toggleSidebar()"></div>
+
+  <!-- Sidebar -->
+  <div class="admin-sidebar" id="admin-sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">Ana Yönetim</div>
+      <a href="#" class="sidebar-link admin-tab active" onclick="switchTab('general'); toggleSidebar(); return false;">📊 Genel Analizler</a>
+      <a href="#" class="sidebar-link admin-tab" onclick="switchTab('users'); toggleSidebar(); return false;">👥 Kullanıcı Listesi</a>
+      <a href="#" class="sidebar-link admin-tab" onclick="switchTab('updates'); toggleSidebar(); return false;">🚀 Sistem Güncellemeleri</a>
+      <a href="admin-reports.html" class="sidebar-link">🚩 Hata Raporları</a>
+      <a href="admin-activity.html" class="sidebar-link">👀 Aktivite Logları</a>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">💬 Global Sohbet</div>
+      <a href="admin-chat.html" class="sidebar-link">📋 Başvurular ve Yönetim</a>
+    </div>
+    <div class="sidebar-section">
+      <a href="settings.html" class="sidebar-link">⚙️ Ayarlara Dön</a>
+    </div>
+  </div>
+
+  <div class="container admin-container" style="padding-top: 70px !important;">
     <div class="admin-header">
       <h1>👑 Kral Konsolu</h1>
       <p>Sistem verileri, kullanıcı analizleri ve gerçek zamanlı izleme merkezi.</p>
@@ -50,13 +75,7 @@
       <button class="export-btn" onclick="exportDataToCSV()">📥 Ekrandaki Dataları İndir (.CSV)</button>
     </div>
 
-    <!-- Tabs -->
-    <div class="admin-tabs">
-      <div class="admin-tab active" onclick="switchTab('general')">📊 Genel Analizler</div>
-      <div class="admin-tab" onclick="switchTab('users')">👥 Kullanıcı Listesi ve Takip</div>
-      <div class="admin-tab" onclick="switchTab('updates')">🚀 Sistem Güncellemeleri</div>
-      <a href="admin-reports.html" class="admin-tab" style="text-decoration:none; color:inherit;">🚩 Hata Raporları</a>
-    </div>
+    <!-- (Tabs taşındı) -->
 
     <!-- TAB: GENERAL -->
     <div id="tab-general" class="tab-content active">

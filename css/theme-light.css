@@ -116,3 +116,63 @@ html[data-theme="light"] .settings-btn.btn-danger:hover {
   background: rgba(239, 68, 68, 0.15) !important;
   color: #b91c1c !important;
 }
+
+/* ===== SOHBET / CHAT TEMA OVERRIDES ===== */
+/* Chat modal arka planı daha belirgin olsun */
+html[data-theme="light"] .chat-modal,
+html[data-theme="light"] .chat-status-screen {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* rgba(255,255,255) olan sabit renkleri siyah şeffaf yapalım */
+html[data-theme="light"] .chat-modal-quote,
+html[data-theme="light"] .report-reason-item,
+html[data-theme="light"] .msg-dropdown,
+html[data-theme="light"] .msg-dropdown-item:hover,
+html[data-theme="light"] .room-selector-btn,
+html[data-theme="light"] .room-selector-btn:hover,
+html[data-theme="light"] .chat-msg:hover,
+html[data-theme="light"] .msg-action-btn:hover {
+  background: rgba(0, 0, 0, 0.04);
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+html[data-theme="light"] .report-reason-item:hover {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+html[data-theme="light"] .report-reason-item.selected {
+  background: rgba(239, 68, 68, 0.1);
+  border-color: #ef4444;
+}
+
+html[data-theme="light"] .chat-messages {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+html[data-theme="light"] .msg-dropdown {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+html[data-theme="light"] .msg-actions {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+html[data-theme="light"] .chat-header,
+html[data-theme="light"] .chat-input-area {
+  background: #ffffff;
+}
+
+html[data-theme="light"] .room-selector {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+html[data-theme="light"] .reply-preview {
+  background: rgba(59, 130, 246, 0.1);
+}

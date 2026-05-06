@@ -110,21 +110,38 @@
   </div>
   <div class="stars"></div>
 
-  <div class="container admin-container">
+  <!-- Hamburger Toggle -->
+  <button class="admin-sidebar-toggle" id="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+
+  <!-- Sidebar Overlay -->
+  <div class="admin-sidebar-overlay" id="sidebar-overlay" onclick="toggleSidebar()"></div>
+
+  <!-- Sidebar -->
+  <div class="admin-sidebar" id="admin-sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">Ana Yönetim</div>
+      <a href="admin-analytics.html" class="sidebar-link">📊 Genel Analizler</a>
+      <a href="admin-analytics.html" class="sidebar-link">👥 Kullanıcı Listesi</a>
+      <a href="admin-analytics.html" class="sidebar-link">🚀 Güncellemeler</a>
+      <a href="#" class="sidebar-link active" onclick="return false;">🚩 Hata Raporları</a>
+      <a href="admin-activity.html" class="sidebar-link">👀 Aktivite Logları</a>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">💬 Global Sohbet</div>
+      <a href="admin-chat.html" class="sidebar-link">📋 Başvurular ve Yönetim</a>
+    </div>
+    <div class="sidebar-section">
+      <a href="settings.html" class="sidebar-link">⚙️ Ayarlara Dön</a>
+    </div>
+  </div>
+
+  <div class="container admin-container" style="padding-top: 70px !important;">
     <div class="admin-header">
       <h1>👑 Hata Raporları</h1>
       <p>Kullanıcılardan gelen hatalı kelime bildirimlerini yönetin.</p>
     </div>
 
-    <!-- Tabs -->
-    <div class="admin-tabs">
-      <a href="admin-analytics.html" class="admin-tab" style="text-decoration:none; color:inherit;">📊 Genel
-        Analizler</a>
-      <a href="admin-analytics.html" class="admin-tab" style="text-decoration:none; color:inherit;">👥 Kullanıcı
-        Listesi</a>
-      <a href="admin-analytics.html" class="admin-tab" style="text-decoration:none; color:inherit;">🚀 Güncellemeler</a>
-      <div class="admin-tab active">🚩 Hata Raporları</div>
-    </div>
+    <!-- (Tabs taşındı) -->
 
     <!-- Reports Content -->
     <div id="reports-container" style="max-width: 800px; margin: 0 auto;">
@@ -151,6 +168,16 @@
       }
       return user;
     }
+
+    let adminUser = null;
+
+    // ===== SIDEBAR TOGGLE =====
+    window.toggleSidebar = function() {
+      const sidebar = document.getElementById('admin-sidebar');
+      const overlay = document.getElementById('sidebar-overlay');
+      if (sidebar) sidebar.classList.toggle('open');
+      if (overlay) overlay.classList.toggle('open');
+    };
 
     document.addEventListener('DOMContentLoaded', async () => {
       const admin = await checkAdmin();

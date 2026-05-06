@@ -222,7 +222,12 @@
 
       // Modify Actions if it's someone else's profile
       if (!isOwnProfile) {
-        document.querySelector('.profile-actions').innerHTML = '<a href="leaderboard.html" class="btn-secondary" style="justify-content: center;">← Skor Tablosuna Dön</a>';
+        let dmBtn = '';
+        if (currentUser && currentUser.is_admin) {
+          dmBtn = `<a href="inbox.html?user=${targetUserId}" class="btn-primary" style="justify-content: center; background: linear-gradient(135deg, #10b981, #059669); margin-bottom: 12px; width: 100%;">✉️ Özel Mesaj Gönder (Admin)</a>`;
+        }
+        document.querySelector('.profile-actions').style.flexDirection = 'column';
+        document.querySelector('.profile-actions').innerHTML = dmBtn + '<a href="leaderboard.html" class="btn-secondary" style="justify-content: center; width: 100%;">← Skor Tablosuna Dön</a>';
       }
 
       // Check Privacy

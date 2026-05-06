@@ -131,6 +131,7 @@ async function updateUserBar() {
     // Build nav items list (only pages user is NOT currently on)
     const mobileNotif = `<a href="#" class="burger-nav-item" onclick="openNotifications(); return false;"><span class="burger-nav-icon">🔔</span> Bildirimler ${unreadCount > 0 ? `<span style="background:var(--accent-red); color:white; font-size:0.75rem; padding:2px 8px; border-radius:10px; font-weight:700; margin-left:auto;">${unreadCount} Yeni</span>` : ''}</a>`;
     let navItems = mobileNotif;
+    navItems += '<a href="inbox.html" class="burger-nav-item"><span class="burger-nav-icon">📥</span> Gelen Kutusu</a>';
 
     if (!isIndex) navItems += '<a href="index.html" class="burger-nav-item"><span class="burger-nav-icon">🏠</span> Ana Sayfa</a>';
     if (!isDashboard) navItems += '<a href="dashboard.html" class="burger-nav-item"><span class="burger-nav-icon">📊</span> Panelim</a>';
@@ -155,6 +156,7 @@ async function updateUserBar() {
 
     const themeBtn = `<button class="user-bar-btn desktop-nav" onclick="toggleTheme()" id="theme-toggle-desktop" title="Temayı Değiştir">${themeIcon}</button>`;
     const notifBtn = `<button class="user-bar-btn desktop-nav" onclick="openNotifications()" title="Bildirimler" style="position:relative; font-size:1.1rem; padding: 6px 12px;">🔔${unreadCount > 0 ? `<span style="position:absolute; top:2px; right:2px; background:var(--accent-red); color:white; font-size:0.65rem; padding:2px 5px; border-radius:10px; font-weight:700; line-height:1;">${unreadCount}</span>` : ''}</button>`;
+    const inboxBtn = `<a href="inbox.html" class="user-bar-btn desktop-nav" title="Gelen Kutusu" style="font-size:1.1rem; padding: 6px 12px;">📥</a>`;
 
     let displayName = user.username || 'Bilinmeyen Kullanıcı';
     let styleStr = user.name_style ? `font-family: ${user.name_style};` : '';
@@ -172,6 +174,7 @@ async function updateUserBar() {
          👋 <span style="${styleStr}">${escapeHtmlAuth(displayName)}</span>
       </div>
       ${notifBtn}
+      ${inboxBtn}
       ${homeBtn}
       ${panelBtn}
       ${lbBtn}
@@ -302,6 +305,10 @@ window.promptChangeUsername = async function () {
   user.username = trimmedUsername;
   localStorage.setItem(SESSION_KEY, JSON.stringify(user));
 
+  if (typeof logActivity === 'function') {
+    logActivity('username_changed', { oldUsername: user.username, newUsername: trimmedUsername });
+  }
+
   alert("Kullanıcı adınız başarıyla güncellendi.");
   window.location.reload(); // Üst bardaki metnin güncellenmesi için sayfayı yenile
 };
@@ -318,6 +325,10 @@ window.confirmResetData = async function () {
     await sb.from('study_words').delete().eq('user_id', user.id);
     await sb.from('quiz_sessions').delete().eq('user_id', user.id);
 
+    if (typeof logActivity === 'function') {
+      logActivity('data_reset', {});
+    }
+
     alert('Verileriniz başarıyla sıfırlandı.');
     window.location.reload();
   }
@@ -333,6 +344,11 @@ window.confirmDeleteAccount = async function () {
     await sb.from('word_results').delete().eq('user_id', user.id);
     await sb.from('study_words').delete().eq('user_id', user.id);
     await sb.from('quiz_sessions').delete().eq('user_id', user.id);
+    
+    if (typeof logActivity === 'function') {
+      logActivity('account_deleted', {});
+    }
+
     // Profili son olarak sil
     await sb.from('profiles').delete().eq('id', user.id);
 

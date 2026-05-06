@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Paneli | Aktivite Logları</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/admin.css">
+  <style>
+    /* Admin Base Layout */
+    body { background: var(--bg-color); color: var(--text-primary); margin: 0; min-height: 100vh; display: flex; flex-direction: column; }
+    /* Content Area */
+    .admin-content { flex: 1; display: flex; flex-direction: column; gap: 20px; }
+    .admin-header { display: flex; justify-content: space-between; align-items: center; background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); padding: 20px; border-radius: var(--radius-md); }
+    .admin-header-title { font-size: 1.5rem; font-weight: 700; color: var(--text-primary); }
+    .admin-header-actions { display: flex; gap: 10px; }
+    
+    /* Log Table */
+    .log-panel { background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); border-radius: var(--radius-md); padding: 20px; overflow-x: auto; }
+    .log-table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem; }
+    .log-table th { padding: 12px; border-bottom: 2px solid var(--glass-border); color: var(--text-muted); font-weight: 600; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; }
+    .log-table td { padding: 12px; border-bottom: 1px solid rgba(255,255,255,0.05); color: var(--text-secondary); }
+    .log-table tbody tr:hover { background: rgba(255,255,255,0.02); }
+    
+    .user-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.05); padding: 4px 10px; border-radius: 20px; cursor: pointer; transition: background 0.2s; border: 1px solid transparent; }
+    .user-badge:hover { background: rgba(255,255,255,0.1); border-color: var(--glass-border); }
+    .user-avatar { width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: bold; background: var(--accent-blue); color: white; overflow: hidden; }
+    .user-avatar img { width: 100%; height: 100%; object-fit: cover; }
+    
+    .action-badge { padding: 4px 8px; border-radius: var(--radius-sm); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; }
+    .action-quiz { background: rgba(59, 130, 246, 0.2); color: #60a5fa; }
+    .action-avatar { background: rgba(168, 85, 247, 0.2); color: #c084fc; }
+    .action-reset { background: rgba(239, 68, 68, 0.2); color: #f87171; }
+    .action-other { background: rgba(156, 163, 175, 0.2); color: #9ca3af; }
+
+    .details-cell { font-family: monospace; font-size: 0.8rem; background: rgba(0,0,0,0.3); padding: 6px; border-radius: 4px; color: var(--accent-green); white-space: pre-wrap; word-break: break-all; }
+
+    .pagination { display: flex; justify-content: space-between; align-items: center; margin-top: 20px; }
+    
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+      .admin-header { flex-direction: column; align-items: flex-start; gap: 15px; }
+    }
+  </style>
+  <script src="js/optimize.js"></script>
+</head>
+<body>
+
+  <!-- Background -->
+  <div class="bg-effects">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+  </div>
+  <div class="stars"></div>
+
+  <!-- Hamburger Toggle -->
+  <button class="admin-sidebar-toggle" id="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+
+  <!-- Sidebar Overlay -->
+  <div class="admin-sidebar-overlay" id="sidebar-overlay" onclick="toggleSidebar()"></div>
+
+  <!-- Sidebar -->
+  <div class="admin-sidebar" id="admin-sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">Ana Yönetim</div>
+      <a href="admin-analytics.html" class="sidebar-link">📊 Genel Analizler</a>
+      <a href="admin-analytics.html" class="sidebar-link">👥 Kullanıcı Listesi</a>
+      <a href="admin-analytics.html" class="sidebar-link">🚀 Güncellemeler</a>
+      <a href="admin-reports.html" class="sidebar-link">🚩 Hata Raporları</a>
+      <a href="#" class="sidebar-link active" onclick="return false;">👀 Aktivite Logları</a>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">💬 Global Sohbet</div>
+      <a href="admin-chat.html" class="sidebar-link">📋 Başvurular ve Yönetim</a>
+    </div>
+    <div class="sidebar-section">
+      <a href="settings.html" class="sidebar-link">⚙️ Ayarlara Dön</a>
+    </div>
+  </div>
+
+  <div class="container admin-container" style="padding-top: 70px !important;">
+
+    <!-- Content -->
+    <div class="admin-content">
+      <div class="admin-header">
+        <div class="admin-header-title">👀 Kullanıcı Aktiviteleri</div>
+        <div class="admin-header-actions">
+          <button class="btn-secondary" onclick="loadLogs(true)">🔄 Yenile</button>
+        </div>
+      </div>
+
+      <div class="log-panel">
+        <table class="log-table">
+          <thead>
+            <tr>
+              <th>Tarih</th>
+              <th>Kullanıcı</th>
+              <th>Eylem</th>
+              <th>Detaylar</th>
+              <th>Sayfa</th>
+            </tr>
+          </thead>
+          <tbody id="log-table-body">
+            <tr><td colspan="5" style="text-align: center;">Yükleniyor...</td></tr>
+          </tbody>
+        </table>
+        
+        <div class="pagination">
+          <button class="btn-secondary" id="btn-prev" onclick="changePage(-1)" disabled>← Önceki</button>
+          <span id="page-info" style="color: var(--text-muted); font-size: 0.9rem;">Sayfa 1</span>
+          <button class="btn-secondary" id="btn-next" onclick="changePage(1)">Sonraki →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js"></script>
+  <script src="js/auth.js"></script>
+  <script>
+    // ===== SIDEBAR TOGGLE =====
+    window.toggleSidebar = function() {
+      const sidebar = document.getElementById('admin-sidebar');
+      const overlay = document.getElementById('sidebar-overlay');
+      if (sidebar) sidebar.classList.toggle('open');
+      if (overlay) overlay.classList.toggle('open');
+    };
+  </script>
+  <script src="js/avatars.js"></script>
+  <script src="js/admin-activity.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="English Time - Global Sohbet">
+  <title>English Time | Global Sohbet</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/chat.css">
+  <link rel="preconnect" href="https://oumhweoxhzziufhasxch.supabase.co" crossorigin>
+  <script src="js/optimize.js"></script>
+  <script src="js/theme.js"></script>
+  <link rel="stylesheet" href="css/theme-light.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📚</text></svg>">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📚</text></svg>">
+</head>
+<body>
+  <div class="bg-effects"><div class="orb orb-1"></div><div class="orb orb-2"></div></div>
+  <div class="stars"></div>
+
+  <div class="container">
+    <div class="user-bar" id="user-bar"></div>
+
+    <!-- Not Approved Screen -->
+    <div id="chat-not-approved" style="display: none;">
+      <div class="chat-status-screen">
+        <div class="chat-status-icon">🔒</div>
+        <div class="chat-status-title">Sohbet Erişimi Gerekli</div>
+        <div class="chat-status-desc">Global sohbete katılmak için önce başvuru yapmanız gerekiyor.</div>
+        <a href="chat-apply.html" class="apply-btn apply-btn-primary" style="margin-top: 16px; text-decoration: none; display: inline-block; max-width: 240px;">📝 Başvuru Yap</a>
+      </div>
+    </div>
+
+    <!-- Chat Room -->
+    <div id="chat-room" style="display: none;">
+      <div class="chat-wrapper">
+        <!-- Header -->
+        <div class="chat-header">
+          <div class="chat-header-left">
+            <div class="chat-room-icon" id="room-icon">🟢</div>
+            <div>
+              <div class="chat-room-name" id="room-name">Global Sohbet</div>
+              <div class="chat-room-online" id="room-online">Bağlanıyor...</div>
+            </div>
+          </div>
+          <a href="settings.html" style="color: var(--text-muted); text-decoration: none; font-size: 0.85rem;">⚙️</a>
+        </div>
+
+        <!-- Room Selector -->
+        <div class="room-selector" id="room-selector">
+          <!-- Dynamically populated by JS -->
+        </div>
+
+        <!-- Messages -->
+        <div class="chat-messages" id="chat-messages">
+          <div style="text-align: center; color: var(--text-muted); padding: 40px;">Mesajlar yükleniyor...</div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="chat-input-area">
+          <div class="chat-input-wrap">
+            <div class="reply-preview" id="reply-preview">
+              <span>↩️</span>
+              <span class="reply-preview-text" id="reply-preview-text">—</span>
+              <button class="reply-preview-close" onclick="cancelReply()">✕</button>
+            </div>
+            <textarea class="chat-input" id="chat-input" placeholder="Mesajınızı yazın..." rows="1" maxlength="2000"></textarea>
+          </div>
+          <button class="chat-send-btn" id="chat-send-btn" onclick="sendMessage()" disabled>➤</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Report Modal -->
+  <div class="chat-modal-overlay" id="report-modal-overlay">
+    <div class="chat-modal">
+      <div class="chat-modal-header">
+        <div class="chat-modal-title">🚩 Mesajı Bildir</div>
+        <button class="chat-modal-close" onclick="closeReportModal()">✕</button>
+      </div>
+      <div class="chat-modal-quote" id="report-quote">—</div>
+      <div class="report-reasons">
+        <label class="report-reason-item" onclick="selectReason(this, 'spam')">
+          <input type="radio" name="report-reason" value="spam"> Spam / Reklam
+        </label>
+        <label class="report-reason-item" onclick="selectReason(this, 'harassment')">
+          <input type="radio" name="report-reason" value="harassment"> Hakaret / Taciz
+        </label>
+        <label class="report-reason-item" onclick="selectReason(this, 'inappropriate')">
+          <input type="radio" name="report-reason" value="inappropriate"> Uygunsuz İçerik
+        </label>
+        <label class="report-reason-item" onclick="selectReason(this, 'other')">
+          <input type="radio" name="report-reason" value="other"> Diğer
+        </label>
+      </div>
+      <textarea class="apply-textarea" id="report-details" placeholder="Ek bilgi (isteğe bağlı)..." maxlength="500" style="min-height: 80px;"></textarea>
+      <div class="apply-actions" style="margin-top: 16px;">
+        <button class="apply-btn apply-btn-secondary" onclick="closeReportModal()">İptal</button>
+        <button class="apply-btn apply-btn-primary" id="report-submit-btn" onclick="submitReport()" style="background: linear-gradient(135deg, #ef4444, #dc2626);">🚩 Raporu Gönder</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Forward to Admin Modal -->
+  <div class="chat-modal-overlay" id="forward-modal-overlay">
+    <div class="chat-modal">
+      <div class="chat-modal-header">
+        <div class="chat-modal-title">📨 Admin'e İlet</div>
+        <button class="chat-modal-close" onclick="closeForwardModal()">✕</button>
+      </div>
+      <div class="chat-modal-quote" id="forward-quote">—</div>
+      <label style="display: block; margin-bottom: 6px; font-size: 0.85rem; color: var(--text-muted); font-weight: 600;">Notunuz</label>
+      <textarea class="apply-textarea" id="forward-note" placeholder="Bu mesajı neden iletmek istiyorsunuz?" maxlength="1000" style="min-height: 80px;"></textarea>
+      <div class="apply-actions" style="margin-top: 16px;">
+        <button class="apply-btn apply-btn-secondary" onclick="closeForwardModal()">İptal</button>
+        <button class="apply-btn apply-btn-primary" id="forward-submit-btn" onclick="submitForward()">📨 Admin'e Gönder</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/avatars.js"></script>
+  <script src="js/profanity.js"></script>
+  <script src="js/chat.js"></script>
+</body>
+</html>
