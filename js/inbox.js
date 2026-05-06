@@ -219,7 +219,7 @@
     // Set Header
     const avatarWrapper = document.getElementById('active-chat-avatar');
     if (avatarWrapper) {
-      avatarWrapper.outerHTML = getAvatarHtml(profile, true).replace('class="msg-avatar"', 'class="msg-avatar" id="active-chat-avatar"');
+      avatarWrapper.outerHTML = getAvatarHtml(profile, true).replace('class="inbox-chat-avatar"', 'class="inbox-chat-avatar" id="active-chat-avatar"');
     }
     const nameEl = document.getElementById('active-chat-name');
     if (nameEl) nameEl.textContent = profile.username || 'Yönetim';
