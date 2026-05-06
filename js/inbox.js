@@ -88,7 +88,7 @@
       // Admin: Tüm mesajlaştığı kullanıcıları görebilir
       // Supabase'den bu kullanıcının dahil olduğu son 500 mesajı çekiyoruz
       const { data: messages, error } = await sb.from('direct_messages')
-        .select('*, sender:profiles!sender_id(username, avatar, avatar_bg), receiver:profiles!receiver_id(username, avatar, avatar_bg)')
+        .select('*, sender:profiles!sender_id(username, avatar, avatar_bg, last_seen), receiver:profiles!receiver_id(username, avatar, avatar_bg, last_seen)')
         .or(`sender_id.eq.${currentUser.id},receiver_id.eq.${currentUser.id}`)
         .order('created_at', { ascending: false })
         .limit(500);
@@ -110,6 +110,11 @@
         messages.forEach(msg => {
           const otherUserId = msg.sender_id === currentUser.id ? msg.receiver_id : msg.sender_id;
           const otherProfile = msg.sender_id === currentUser.id ? msg.receiver : msg.sender;
+          
+          // Eğer last_seen verisi yoksa veya boşsa, en azından son mesaj attığı zamanı baz alalım
+          if (otherProfile && !otherProfile.last_seen) {
+            otherProfile.last_seen = msg.created_at;
+          }
           
           if (!conversations[otherUserId]) {
             userProfiles[otherUserId] = otherProfile;
@@ -212,8 +217,46 @@
     }
 
     // Set Header
-    document.getElementById('active-chat-avatar').outerHTML = getAvatarHtml(profile, true);
-    document.getElementById('active-chat-name').textContent = profile.username || 'Yönetim';
+    const avatarWrapper = document.getElementById('active-chat-avatar');
+    if (avatarWrapper) {
+      avatarWrapper.outerHTML = getAvatarHtml(profile, true).replace('class="msg-avatar"', 'class="msg-avatar" id="active-chat-avatar"');
+    }
+    const nameEl = document.getElementById('active-chat-name');
+    if (nameEl) nameEl.textContent = profile.username || 'Yönetim';
+    
+    // Status update logic
+    const statusEl = document.querySelector('.inbox-chat-status');
+    if (statusEl) {
+      if (userId === 1) { // Admin hardcoded status if it was ID 1, but we use string UUIDs normally.
+        statusEl.textContent = 'Çevrimiçi';
+        statusEl.style.color = 'var(--accent-green)';
+      } else {
+        const lastSeen = profile.last_seen;
+        if (!lastSeen) {
+          statusEl.textContent = 'Bilinmiyor';
+          statusEl.style.color = 'var(--text-muted)';
+        } else {
+          const diffMs = Date.now() - new Date(lastSeen).getTime();
+          const diffMins = Math.floor(diffMs / 60000);
+          
+          if (diffMins < 10) {
+            statusEl.textContent = 'Çevrimiçi';
+            statusEl.style.color = 'var(--accent-green)';
+          } else if (diffMins < 60) {
+            statusEl.textContent = `${diffMins} dk önce aktifti`;
+            statusEl.style.color = 'var(--text-muted)';
+          } else if (diffMins < 1440) {
+            const diffHours = Math.floor(diffMins / 60);
+            statusEl.textContent = `${diffHours} saat önce aktifti`;
+            statusEl.style.color = 'var(--text-muted)';
+          } else {
+            const diffDays = Math.floor(diffMins / 1440);
+            statusEl.textContent = `${diffDays} gün önce aktifti`;
+            statusEl.style.color = 'var(--text-muted)';
+          }
+        }
+      }
+    }
 
     // Load Messages
     const msgContainer = document.getElementById('inbox-messages');

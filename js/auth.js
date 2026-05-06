@@ -35,6 +35,19 @@ async function getCurrentUser() {
     const sb = getSupabase();
     if (!sb) return user; // offline fallback
     const { data } = await sb.from('profiles').select('*').eq('id', user.id).single();
+    
+    // Background presence update (throttle to once per 5 minutes)
+    if (data && data.id) {
+      const lastSeenKey = 'english_time_last_seen_' + data.id;
+      const lastUpdate = localStorage.getItem(lastSeenKey);
+      if (!lastUpdate || Date.now() - parseInt(lastUpdate) > 5 * 60 * 1000) {
+        sb.from('profiles').update({ last_seen: new Date().toISOString() }).eq('id', data.id)
+          .then(({error}) => {
+            if (!error) localStorage.setItem(lastSeenKey, Date.now().toString());
+          });
+      }
+    }
+
     return data || null;
   } catch (e) {
     return null;
