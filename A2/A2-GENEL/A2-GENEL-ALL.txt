@@ -1,342 +1,342 @@
-ENGLISH TIME - A2 GENEL BİRLEŞİK LİSTE (225 Kelime)
+ENGLISH TIME - A2 GENEL BİRLEŞİK LİSTE (337 Kelime)
 ====================================================================================================
 
-No   | English                                 | Türkçe                                  | English Hint                                                | Türkçe İpucu
------|-----------------------------------------|-----------------------------------------|-------------------------------------------------------------|-------------------------------------------------------
-1    | Anniversaries                           | Yıl dönümleri                           | Special dates we remember every year.                       | Her yıl hatırladığımız özel tarihler.
-2    | Architecture                            | Mimari                                  | The art of planning and making buildings.                   | Bina planlama ve inşa etme sanatı.
-3    | Beach                                   | Plaj / Kumsal                           | A sandy place next to the sea.                              | Deniz kenarındaki kumlu yer.
-4    | Beautiful                               | Güzel                                   | Very nice to look at.                                       | Bakması çok hoş olan.
-5    | Believe                                 | İnanmak                                 | To think that something is true.                            | Bir şeyin doğru olduğunu düşünmek.
-6    | Border                                  | Sınır                                   | The line between two countries.                             | İki ülke arasındaki çizgi.
-7    | Both                                    | İkisi de / Her ikisi                    | The two things together.                                    | İki şeyin birden olması.
-8    | Bowl                                    | Kase                                    | A deep, round dish for food like soup.                      | Çorba gibi yiyecekler için derin, yuvarlak kap.
-9    | Cheap                                   | Ucuz                                    | Not costing a lot of money.                                 | Çok para gerektirmeyen.
-10   | Cliffs                                  | Uçurumlar / Kayalıklar                  | High, steep rocks next to the sea.                          | Deniz kenarındaki yüksek, dik kayalar.
-11   | Climate                                 | İklim                                   | The normal weather in a place.                              | Bir yerdeki normal hava durumu.
-12   | Coast                                   | Sahil / Kıyı                            | The land next to the sea.                                   | Denizin yanındaki kara parçası.
-13   | Continent                               | Kıta                                    | One of the very large land areas on Earth.                  | Dünyadaki çok büyük kara parçalarından biri.
-14   | Cook Lunch                              | Öğle Yemeği Pişirmek                    | To prepare the middle-of-the-day meal.                      | Gün ortası yemeğini hazırlamak.
-15   | Customers                               | Müşteriler                              | People who buy things in a shop.                            | Bir dükkandan bir şeyler satın alan insanlar.
-16   | Delicious                               | Lezzetli                                | Tasting really good.                                        | Tadı gerçekten çok güzel olan.
-17   | Discuss                                 | Tartışmak / Görüşmek                    | To talk about something with someone.                       | Biriyle bir konu hakkında konuşmak.
-18   | Domestic                                | Yerli / Evcil                           | About the home or the inside of a country.                  | Evle veya bir ülkenin içiyle ilgili.
-19   | Dozens                                  | Düzinelerce                             | Groups of twelve things, or just many things.               | On ikili gruplar veya çok sayıda olan şeyler.
-20   | Driest                                  | En kurak                                | Having the least rain or water.                             | En az yağmuru veya suyu olan.
-21   | Dystopic                                | Distopik                                | About a very bad future world.                              | Gelecekteki çok kötü bir dünya ile ilgili.
-22   | East                                    | Doğu                                    | The direction where the sun comes up.                       | Güneşin doğduğu yön.
-23   | Excitement                              | Heyecan                                 | A feeling of being very happy and active.                   | Çok mutlu ve aktif hissetme durumu.
-24   | Extensive                               | Kapsamlı / Geniş çaplı                  | Very large and having many details.                         | Çok büyük ve birçok detayı olan.
-25   | Extremes                                | Uç noktalar / Aşırılıklar               | The highest and lowest levels of something.                 | Bir şeyin en yüksek ve en düşük seviyeleri.
-26   | Features                                | Özellikler                              | Important or interesting parts of something.                | Bir şeyin önemli veya ilginç kısımları.
-27   | Fjords                                  | Fiyortlar                               | Long, narrow areas of sea between high rocks.               | Yüksek kayalar arasındaki uzun, dar deniz alanları.
-28   | Forest                                  | Orman                                   | A large place with many trees.                              | Çok sayıda ağacın olduğu büyük yer.
-29   | Form                                    | Biçim / Şekillendirmek                  | To make the shape of something.                             | Bir şeyin şeklini oluşturmak.
-30   | Gaze                                    | Gözünü dikip bakmak / Bakış             | To look at something for a long time.                       | Bir şeye uzun süre bakmak.
-31   | Geysers                                 | Gayzerler                               | Holes in the ground that shoot hot water.                   | Yerden sıcak su fırlatan delikler.
-32   | Glad                                    | Memnun                                  | Happy and pleased.                                          | Mutlu ve hoşnut olan.
-33   | Gold                                    | Altın                                   | A yellow, expensive metal.                                  | Sarı, pahalı bir metal.
-34   | Gravy                                   | Et suyu sosu                            | A brown sauce made from meat juices.                        | Et suyundan yapılan kahverengi sos.
-35   | Guide                                   | Rehber / Rehberlik etmek                | To show people the way.                                     | İnsanlara yolu göstermek.
-36   | Herb                                    | Bitki / Baharat otu                     | A plant used to give food more flavor.                      | Yemeğe tat vermek için kullanılan bitki.
-37   | High                                    | Yüksek                                  | Tall or far up.                                             | Uzun veya çok yukarıda olan.
-38   | Hill                                    | Tepe                                    | A small mountain.                                           | Küçük bir dağ.
-39   | Hospitality                             | Misafirperverlik                        | Being friendly and welcoming to guests.                     | Misafirlere karşı dost canlısı ve sıcakkanlı olmak.
-40   | Idea                                    | Fikir                                   | A thought or a plan.                                        | Bir düşünce veya plan.
-41   | Impressive                              | Etkileyici                              | Making you say 'wow' because it is so good.                 | Çok iyi olduğu için sana 'vay canına' dedirten.
-42   | Include                                 | İçermek / Dahil etmek                   | To have something as a part.                                | Bir şeyi kendi içinde parça olarak bulundurmak.
-43   | Incredible                              | İnanılmaz                               | Hard to believe because it is so great.                     | Çok harika olduğu için inanması zor olan.
-44   | Internship                              | Staj                                    | A short job to learn how to work.                           | Nasıl çalışılacağını öğrenmek için kısa süreli iş.
-45   | Island                                  | Ada                                     | Land with water all around it.                              | Etrafı tamamen suyla çevrili kara parçası.
-46   | Jewelry                                 | Mücevher / Takı                         | Rings and necklaces you wear to look nice.                  | Güzel görünmek için taktığın yüzükler ve kolyeler.
-47   | Lake                                    | Göl                                     | A large body of water with land around it.                  | Etrafında kara olan büyük su birikintisi.
-48   | Landscape                               | Manzara / Peyzaj                        | All the things you see when you look across an area.        | Bir alana baktığında gördüğün her şey.
-49   | Long                                    | Uzun                                    | Not short.                                                  | Kısa olmayan.
-50   | Magnificent                             | Muhteşem / Görkemli                     | Extremely beautiful or great.                               | Son derece güzel veya harika.
-51   | Manager                                 | Yönetici / Müdür                        | The boss of a shop or an office.                            | Bir dükkanın veya ofisin yöneticisi/patronu.
-52   | Mash                                    | Püre / Ezmek                            | To crush food until it is soft.                             | Yiyecekleri yumuşayana kadar ezmek.
-53   | Mountains                               | Dağlar                                  | Very high and big hills.                                    | Çok yüksek ve büyük tepeler.
-54   | Narrow                                  | Dar                                     | Not wide.                                                   | Geniş olmayan.
-55   | Neighbor                                | Komşu                                   | A person who lives near you.                                | Senin yakınında/yanında yaşayan kişi.
-56   | North                                   | Kuzey                                   | The direction at the top of a map.                          | Haritanın en üst tarafındaki yön.
-57   | Opportunity                             | Fırsat                                  | A chance to do something good.                              | İyi bir şey yapmak için bir şans.
-58   | Peak                                    | Zirve / Doruk                           | The top part of a mountain.                                 | Bir dağın en üst kısmı.
-59   | Prepare                                 | Hazırlamak                              | To get something ready.                                     | Bir şeyi hazır hale getirmek.
-60   | Rise                                    | Yükselmek / Artış                       | To go up.                                                   | Yukarı doğru çıkmak.
-61   | Sensational                             | Sansasyonel / Çarpıcı                   | Very exciting or surprising.                                | Çok heyecan verici veya şaşırtıcı.
-62   | Shape                                   | Şekil                                   | The outer form of something.                                | Bir şeyin dış görünüşü veya formu.
-63   | Shares                                  | Paylaşır / Paylar                       | Gives a part of something to others.                        | Bir şeyin bir kısmını başkalarına verir.
-64   | Short                                   | Kısa                                    | Not long or not tall.                                       | Uzun veya boylu olmayan.
-65   | Silver                                  | Gümüş                                   | A grey and white, expensive metal.                          | Gri ve beyaz renkli, pahalı bir metal.
-66   | Slang                                   | Argo                                    | Informal words used by people.                              | İnsanların kullandığı resmi olmayan günlük kelimeler.
-67   | Sophisticated                           | Sofistike / Çok yönlü                   | Knowing a lot about culture and style.                      | Kültür ve stil hakkında çok şey bilen.
-68   | South                                   | Güney                                   | The direction at the bottom of a map.                       | Haritanın en alt tarafındaki yön.
-69   | Special                                 | Özel                                    | Different from what is normal; important.                   | Normalden farklı olan; önemli.
-70   | Suggest                                 | Önermek                                 | To give an idea for someone to think about.                 | Birinin düşünmesi için ona bir fikir vermek.
-71   | Surrounding                             | Çevreleyen / Civar                      | Being everywhere around something.                          | Bir şeyin her tarafında olan.
-72   | Take-Away                               | Al-götür (Paket servis)                 | Food you buy at a restaurant and eat at home.               | Restorandan satın alıp evde yediğin yemek.
-73   | Think                                   | Düşünmek                                | To use your brain to have an idea.                          | Bir fikre sahip olmak için beynini kullanmak.
-74   | Topic                                   | Konu / Başlık                           | The subject you are talking or writing about.               | Hakkında konuştuğun veya yazdığın şey.
-75   | Tourist Guide                           | Turist Rehberi                          | A person who shows interesting places to visitors.          | Ziyaretçilere ilginç yerleri gösteren kişi.
-76   | Trail                                   | Patika / İz                             | A path in the countryside.                                  | Kırsal alandaki doğal yol.
-77   | Valley                                  | Vadi                                    | The low land between mountains.                             | Dağların arasındaki alçak arazi.
-78   | Vast                                    | Uçsuz bucaksız / Çok geniş              | Very, very large.                                           | Çok ama çok büyük.
-79   | Very Beautiful                          | Çok Güzel                               | Looking extremely nice.                                     | Son derece hoş/güzel görünen.
-80   | Vinegar                                 | Sirke                                   | A sour liquid used with food.                               | Yiyeceklerle birlikte kullanılan ekşi sıvı.
-81   | Volcanoes                               | Volkanlar / Yanardağlar                 | Mountains that can blow hot fire and rocks.                 | Sıcak ateş ve taşlar püskürtebilen dağlar.
-82   | Waterfalls                              | Şelaleler                               | Places where water falls down from a high rock.             | Suyun yüksek bir kayadan aşağı düştüğü yerler.
-83   | Wave                                    | Dalga                                   | Water moving up and down in the sea.                        | Denizde aşağı yukarı hareket eden su.
-84   | West                                    | Batı                                    | The direction where the sun goes down.                      | Güneşin battığı yön.
-85   | Western                                 | Batılı / Batıya ait                     | From the west part of the world.                            | Dünyanın batı kısmından olan.
-86   | Wide                                    | Geniş                                   | Large from one side to the other.                           | Bir taraftan diğer tarafa büyük/açık olan.
-87   | Wonderful                               | Harika / Mükemmel                       | Making you feel very happy, great.                          | Seni çok mutlu hissettiren, harika.
-88   | Woods                                   | Ormanlık alan / Koruluk                 | A small forest with many trees.                             | Çok sayıda ağacın olduğu küçük orman.
-89   | Yelling                                 | Bağırma / Haykırma                      | Shouting very loudly.                                       | Çok yüksek sesle bağırmak.
-90   | Beaches                                 | Plajlar / Kumsallar                     | Sandy places next to the sea.                               | Deniz kenarındaki kumlu yerler.
-91   | Borders                                 | Sınırlar                                | Lines between countries.                                    | Ülkeler arasındaki çizgiler.
-92   | Bowls                                   | Kaseler                                 | Deep, round dishes for food.                                | Yemek için derin, yuvarlak kaplar.
-93   | Climates                                | İklimler                                | The normal weather in different places.                     | Farklı yerlerdeki normal hava durumları.
-94   | Coasts                                  | Sahiller / Kıyılar                      | Lands next to the sea.                                      | Deniz kenarındaki kara parçaları.
-95   | Continents                              | Kıtalar                                 | The large land areas on Earth.                              | Dünyadaki büyük kara parçaları.
-96   | Forests                                 | Ormanlar                                | Large places with many trees.                               | Çok ağacın olduğu büyük yerler.
-97   | Forms                                   | Biçimler / Şekiller                     | Different shapes of things.                                 | Şeylerin farklı şekilleri.
-98   | Gazes                                   | Bakışlar                                | Long looks at something.                                    | Bir şeye atılan uzun bakışlar.
-99   | Guides                                  | Rehberler                               | People who show you places.                                 | Sana yerleri gösteren kişiler.
-100  | Herbs                                   | Bitkiler / Baharat otları               | Plants used to give food more flavor.                       | Yemeğe tat vermek için kullanılan bitkiler.
-101  | Hills                                   | Tepeler                                 | Small mountains.                                            | Küçük dağlar.
-102  | Ideas                                   | Fikirler                                | Thoughts or plans.                                          | Düşünceler veya planlar.
-103  | Internships                             | Stajlar                                 | Short jobs to learn how to work.                            | Nasıl çalışılacağını öğrenmek için kısa işler.
-104  | Islands                                 | Adalar                                  | Lands with water all around them.                           | Etrafları tamamen suyla çevrili karalar.
-105  | Lakes                                   | Göller                                  | Large areas of water with land around them.                 | Etraflarında kara olan büyük su alanları.
-106  | Landscapes                              | Manzaralar / Peyzajlar                  | The looks of the lands.                                     | Geniş arazilerin görünümleri.
-107  | Managers                                | Yöneticiler / Müdürler                  | Bosses of shops or offices.                                 | Dükkanların veya ofislerin patronları.
-108  | Neighbors                               | Komşular                                | People who live near you.                                   | Yakınında yaşayan insanlar.
-109  | Opportunities                           | Fırsatlar                               | Chances to do something good.                               | İyi şeyler yapmak için eline geçen şanslar.
-110  | Peaks                                   | Zirveler / Doruklar                     | The top parts of mountains.                                 | Dağların en üst kısımları.
-111  | Shapes                                  | Şekiller                                | The outer forms of things.                                  | Nesnelerin dış formları.
-112  | Topics                                  | Konular / Başlıklar                     | Subjects you talk or write about.                           | Hakkında konuştuğun veya yazdığın şeyler.
-113  | Tourist Guides                          | Turist Rehberleri                       | People who show places to visitors.                         | Ziyaretçilere ilginç yerleri gösteren kişiler.
-114  | Trails                                  | Patikalar / İzler                       | Paths in the countryside.                                   | Kırsal alanlardaki doğal yollar.
-115  | Valleys                                 | Vadiler                                 | Low lands between mountains.                                | Dağların arasındaki alçak araziler.
-116  | Waves                                   | Dalgalar                                | Moving waters in the sea.                                   | Denizdeki hareketli sular.
-117  | Anniversary                             | Yıl dönümü                              | A special date we remember every year.                      | Her yıl hatırladığımız özel gün.
-118  | Cliff                                   | Uçurum / Kayalık                        | A high, steep rock next to the sea.                         | Deniz kenarındaki yüksek, dik kaya.
-119  | Customer                                | Müşteri                                 | A person who buys things in a shop.                         | Bir dükkandan bir şeyler satın alan kişi.
-120  | Dozen                                   | Düzine                                  | A group of twelve things.                                   | On iki şeyden oluşan grup.
-121  | Extreme                                 | Uç nokta / Aşırılık                     | The highest or lowest level of something.                   | Bir şeyin en yüksek veya en düşük seviyesi.
-122  | Feature                                 | Özellik                                 | An important part of something.                             | Bir şeyin önemli bir kısmı.
-123  | Fjord                                   | Fiyort                                  | A long, narrow area of sea between high rocks.              | Yüksek kayalar arasındaki uzun, dar deniz alanı.
-124  | Geyser                                  | Gayzer                                  | A hole in the ground that shoots hot water.                 | Yerden sıcak su fırlatan delik.
-125  | Mountain                                | Dağ                                     | A very high and big hill.                                   | Çok yüksek ve büyük tepe.
-126  | Share                                   | Paylaşmak / Pay                         | To give a part of something to someone.                     | Birine bir şeyin bir parçasını vermek.
-127  | Volcano                                 | Volkan / Yanardağ                       | A mountain that can blow hot fire and rocks.                | Sıcak ateş ve taş fırlatan dağ.
-128  | Waterfall                               | Şelale                                  | A place where water falls down from high up.                | Suyun yüksekten aşağı düştüğü yer.
-129  | Wood                                    | Ormanlık alan / Tahta                   | The material that comes from trees.                         | Ağaçlardan gelen malzeme (veya küçük orman).
-130  | Architect                               | Mimar                                   | A person who draws plans for buildings.                     | Binalar için plan çizen kişi.
-131  | Quiet                                   | Sessiz / Sakin                          | Making very little noise.                                   | Çok az ses çıkaran.
-132  | Peaceful                                | Huzurlu                                 | Calm, quiet and without problems.                           | Sakin, sessiz ve sorunsuz.
-133  | Country                                 | Ülke                                    | A nation with its own land and rules.                       | Kendi toprağı ve kuralları olan ulus.
-134  | Countries                               | Ülkeler                                 | Nations with their own lands and rules.                     | Kendi toprakları ve kuralları olan uluslar.
-135  | Holiday                                 | Tatil                                   | A day when you don't work or go to school.                  | Çalışmadığın veya okula gitmediğin bir gün.
-136  | Holidays                                | Tatiller                                | Days when you don't work or go to school.                   | Çalışmadığın veya okula gitmediğin günler.
-137  | Elderly                                 | Yaşlı / İhtiyar                         | Older people.                                               | Yaşça daha büyük olan kişiler.
-138  | Reason                                  | Sebep / Neden                           | Why something happens.                                      | Bir şeyin neden olduğu, sebebi.
-139  | Reasons                                 | Sebepler / Nedenler                     | Why things happen.                                          | Olayların neden olduğu, sebepleri.
-140  | Addictive                               | Bağımlılık yapan                        | Making you want to do it more and more.                     | Sana onu daha da çok yapma isteği veren.
-141  | Worse                                   | Daha kötü                               | More bad than something else.                               | Başka bir şeyden daha fena olan.
-142  | Whether                                 | Olup olmadığı / İster...                | Used to talk about two choices.                             | İki seçenek hakkında konuşurken kullanılır.
-143  | Exhausted                               | Çok yorgun / Tükenmiş                   | Very, very tired.                                           | Çok ama çok yorgun hissetme.
-144  | Tinsel                                  | Süs şeridi / Simli süs                  | Shiny string used for decoration on a tree.                 | Ağaç vb. süslemek için kullanılan parlak ipler.
-145  | Scary Face                              | Korkutucu yüz                           | A look that makes you feel afraid.                          | Seni korkutan bir ifade, görünüm.
-146  | Scary Faces                             | Korkutucu yüzler                        | Looks that make you feel afraid.                            | Seni korkutan ifadeler.
-147  | Scary                                   | Korkunç / Korkutucu                     | Making you feel afraid.                                     | Seni korkutan, ürküten.
-148  | Carve                                   | Oymak / Keserek şekil vermek            | To cut into wood or a pumpkin to make a shape.              | Şekil vermek için tahtayı veya balkabağını kesmek.
-149  | Pumpkin                                 | Balkabağı                               | A large, round, orange vegetable.                           | Büyük, yuvarlak, turuncu bir sebze.
-150  | Pumpkins                                | Balkabakları                            | Large, round, orange vegetables.                            | Büyük, yuvarlak, turuncu sebzeler.
-151  | Child                                   | Çocuk                                   | A young boy or girl.                                        | Genç bir erkek veya kız.
-152  | Children                                | Çocuklar                                | Young boys and girls.                                       | Genç erkekler ve kızlar.
-153  | Halloween                               | Cadılar Bayramı                         | A spooky holiday in October.                                | Ekim ayında kutlanan ürkütücü tatil.
-154  | Candle                                  | Mum                                     | A stick of wax that gives light.                            | Yanarak ışık veren balmumu çubuğu.
-155  | Candles                                 | Mumlar                                  | Sticks of wax that give light.                              | Yanarak ışık veren balmumu çubukları.
-156  | Inside                                  | İçinde / İçeri                          | In a room or a building.                                    | Bir odanın veya binanın içinde olma durumu.
-157  | Celebrate                               | Kutlamak                                | To have a party for a special day.                          | Özel bir gün için parti yapmak veya eğlenmek.
-158  | Piece                                   | Parça / Tane                            | A part of something.                                        | Bir şeyin bir kısmı.
-159  | Pieces                                  | Parçalar / Taneler                      | Parts of something.                                         | Bir şeyin kısımları.
-160  | Tremendous                              | Muazzam / Kocaman                       | Very big or very great.                                     | Çok büyük veya çok harika.
-161  | Religious                               | Dini                                    | About God or beliefs.                                       | Tanrı veya inançlarla ilgili.
-162  | Street                                  | Sokak                                   | A road in a city or town.                                   | Şehir veya kasabadaki binaların arasındaki yol.
-163  | Streets                                 | Sokaklar                                | Roads in a city or town.                                    | Şehir veya kasabadaki yollar.
-164  | Endlessly                               | Sonsuzca / Durmaksızın                  | Never stopping.                                             | Hiç durmadan devam etme durumu.
-165  | Need                                    | İhtiyaç / İhtiyaç duymak                | Something you must have.                                    | Kesinlikle sahip olman gereken şey.
-166  | Needs                                   | İhtiyaçlar                              | Things you must have.                                       | Kesinlikle sahip olman gereken şeyler.
-167  | Firstly                                 | İlk olarak / Öncelikle                  | The first thing to say or do.                               | Söylenecek veya yapılacak ilk şey.
-168  | Relaxed                                 | Rahatlamış                              | Feeling calm and not stressed.                              | Sakin ve stressiz hissetmek.
-169  | Companionship                           | Arkadaşlık / Yoldaşlık                  | The good feeling of being with someone.                     | Biriyle birlikte olmanın verdiği iyi his.
-170  | Harmony                                 | Uyum / Ahenk                            | People or things living together happily.                   | Birlikte mutlu yaşayan insanlar veya şeyler.
-171  | Peace                                   | Barış / Huzur                           | No war or no fighting.                                      | Savaş veya kavga olmaması.
-172  | Maximize                                | En üst düzeye çıkarmak                  | To make something as big as possible.                       | Bir şeyi olabildiğince büyük veya çok yapmak.
-173  | Totally                                 | Tamamen / Bütünüyle                     | Completely, 100 percent.                                    | Yüzde yüz, eksiksiz olarak.
-174  | Clarify                                 | Açıklığa kavuşturmak                    | To make something easy to understand.                       | Bir şeyi anlaşılması kolay hale getirmek.
-175  | Justify                                 | Haklı çıkarmak / Gerekçelendirmek       | To give a good reason for something.                        | Bir şey için iyi bir neden veya mazeret sunmak.
-176  | Competition                             | Yarışma / Rekabet                       | A game to see who is the best.                              | Kimin en iyi olduğunu görmek için yapılan oyun.
-177  | Competitions                            | Yarışmalar                              | Games to see who is the best.                               | Kimin en iyi olduğunu görmek için yapılan oyunlar.
-178  | Friendship                              | Arkadaşlık / Dostluk                    | The relationship between friends.                           | Arkadaşlar arasındaki ilişki bağı.
-179  | Friendships                             | Arkadaşlıklar / Dostluklar              | The relationships between friends.                          | Arkadaşlar arasındaki ilişki bağları.
-180  | Dimension                               | Boyut / Ebat                            | The size of something, like length or width.                | Bir şeyin uzunluk veya genişlik gibi ölçüsü.
-181  | Dimensions                              | Boyutlar / Ebatlar                      | The sizes of something.                                     | Bir şeyin ölçüleri.
-182  | Adjective                               | Sıfat                                   | A word that describes a noun (like 'big' or 'red').         | Bir ismi tanımlayan kelime ('büyük' vb.).
-183  | Adjectives                              | Sıfatlar                                | Words that describe nouns.                                  | İsimleri tanımlayan kelimeler.
-184  | Careful                                 | Dikkatli                                | Thinking about what you do so you don't make a mistake.     | Hata yapmamak için ne yaptığına odaklanan.
-185  | Slow                                    | Yavaş                                   | Not fast.                                                   | Hızlı hareket etmeyen.
-186  | Fast                                    | Hızlı                                   | Moving very quickly.                                        | Çok çabuk hareket eden.
-187  | Carnival                                | Karnaval                                | A big public party with music and dancing in the streets.   | Sokaklarda müzik ve dans olan büyük halk partisi.
-188  | Carnivals                               | Karnavallar                             | Big public parties in the streets.                          | Sokaklardaki büyük halk partileri.
-189  | Custom                                  | Gelenek / Görenek                       | A traditional way of acting in a society.                   | Bir toplumdaki geleneksel davranış biçimi.
-190  | Customs                                 | Gelenekler / Görenekler                 | Traditional ways of acting in a society.                    | Bir toplumdaki geleneksel davranış biçimleri.
-191  | Dance                                   | Dans / Dans etmek                       | Moving your body to music.                                  | Vücudunu müziğe göre hareket ettirmek.
-192  | Dances                                  | Danslar                                 | Different styles of moving to music.                        | Müziğe göre hareket etmenin farklı stilleri.
-193  | Myself                                  | Kendim                                  | Used by the person speaking to talk about themself.         | Konuşan kişinin kendinden bahsetmesi.
-194  | Yourself                                | Kendin                                  | Used to talk about the person you are speaking to.          | Konuştuğun tekil kişi hakkında kullanılır.
-195  | Himself                                 | Kendisi (Erkek)                         | Used to talk about a man or boy.                            | Bir adam veya erkek çocuğu hakkında konuşulur.
-196  | Herself                                 | Kendisi (Kadın)                         | Used to talk about a woman or girl.                         | Bir kadın veya kız çocuğu hakkında konuşulur.
-197  | Itself                                  | Kendisi (Hayvan/Eşya)                   | Used to talk about a thing or animal.                       | Bir nesne veya hayvan hakkında konuşulur.
-198  | Ourselves                               | Kendimiz                                | Used by a group to talk about their own group.              | Bir grubun (biz) kendinden bahsetmesi.
-199  | Yourselves                              | Kendiniz                                | Used to talk about a group of people you are speaking to.   | Konuştuğunuz bir grup insandan (siz) bahseder.
-200  | Themselves                              | Kendileri                               | Used to talk about other people (they).                     | Başka insanlardan (onlar) bahsederken kullanılır.
-201  | Participate                             | Katılmak / İştirak etmek                | To join in an activity or event.                            | Bir etkinliğe veya olaya dahil olmak.
-202  | Occasion                                | Fırsat / Özel durum                     | A special event or time.                                    | Özel bir etkinlik veya zaman.
-203  | Occasions                               | Fırsatlar / Özel durumlar               | Special events or times.                                    | Özel etkinlikler veya zamanlar.
-204  | Culture                                 | Kültür                                  | The art, beliefs, and ways of a group of people.            | Bir grup insanın sanatı, inançları ve yaşam tarzı.
-205  | Cultures                                | Kültürler                               | Different ways of life around the world.                    | Dünyadaki farklı yaşam tarzları.
-206  | Preparation                             | Hazırlık                                | Getting ready for something.                                | Bir şey için hazır olma işlemi.
-207  | Preparations                            | Hazırlıklar                             | Things you do to get ready.                                 | Hazır olmak için yaptığın şeyler.
-208  | Miss                                    | Özlemek / Kaçırmak                      | To feel sad because someone is not there, or to not catch.  | Biri olmadığı için üzülmek veya bir şeyi yakalayamamak.
-209  | Throw                                   | Fırlatmak / Atmak                       | To send something through the air with your hand.           | Bir şeyi elinle havaya doğru yollamak.
-210  | Admiration                              | Hayranlık                               | A feeling of respecting or liking someone very much.        | Birine çok saygı duyma veya onu çok beğenme hissi.
-211  | Wrestling                               | Güreş                                   | A sport where two people try to throw each other to the ground.| İki kişinin birbirini yere atmaya çalıştığı bir spor.
-212  | Entertain                               | Eğlendirmek                             | To make people have fun.                                    | İnsanların eğlenmesini sağlamak.
-213  | Time                                    | Zaman / Defa                            | Minutes, hours, days, or occasions.                         | Dakikalar, saatler, günler veya durumlar.
-214  | Times                                   | Zamanlar / Defalar                      | Occasions or history periods.                               | Durumlar, kere, defa veya geçmişteki dönemler.
-215  | Expression                              | İfade                                   | Words used to show a feeling or idea.                       | Bir hissi veya fikri göstermek için kullanılan söz.
-216  | Expressions                             | İfadeler                                | Many words used to show feelings or ideas.                  | Hisleri veya fikirleri gösteren sözler.
-217  | Month                                   | Ay                                      | One of the 12 parts of a year.                              | Bir yılın 12 bölümünden biri.
-218  | Months                                  | Aylar                                   | The 12 parts of a year.                                     | Bir yılın 12 bölümleri.
-219  | Before                                  | Önce / Öncesinde                        | Earlier than a time.                                        | Belirli bir zamandan daha erken.
-220  | After                                   | Sonra / Sonrasında                      | Later than a time.                                          | Belirli bir zamandan daha geç.
-221  | Now                                     | Şimdi / Şu an                           | At this very moment.                                        | Tam olarak içinde bulunduğumuz an.
-222  | While                                   | İken / Sırasında                        | At the same time as something else.                         | Başka bir şeyle aynı anda olduğu vakit.
-223  | Every Year                              | Her yıl / Her sene                      | Happening all years.                                        | Bütün yıllarda olan şey.
-224  | Year                                    | Yıl / Sene                              | 365 days.                                                   | 365 gün süren zaman.
-225  | Years                                   | Yıllar / Seneler                        | Many groups of 365 days.                                    | 365 günden oluşan grupların çoğu.
-226,Hopelessly,Umutsuzca,Without any hope.,Hiç umut olmadan.
-227,Appointment,Randevu,A time you agree to meet someone.,Biriyle buluşmak için anlaştığın zaman.
-228,Appointments,Randevular,Times you agree to meet people.,İnsanlarla buluşmak için anlaştığın zamanlar.
-229,Client,Müşteri / Müvekkil,A person who pays for a service.,Bir hizmet için ödeme yapan kişi.
-230,Clients,Müşteriler / Müvekkiller,People who pay for services.,Hizmetler için ödeme yapan kişiler.
-231,Colleague,İş arkadaşı,A person you work with.,Birlikte çalıştığın kişi.
-232,Colleagues,İş arkadaşları,People you work with.,Birlikte çalıştığın kişiler.
-233,Terrace,Teras,A flat area outside a building.,Bir binanın dışındaki düz alan.
-234,Terraces,Teraslar,Flat areas outside buildings.,Binaların dışındaki düz alanlar.
-235,Exchange,Takas / Değişim,Giving something to get something else.,Başka bir şey almak için bir şey vermek.
-236,Gossip,Dedikodu,Talking about other people's private lives.,Başka insanların özel hayatları hakkında konuşmak.
-237,Curious,Meraklı,Wanting to know or learn something.,Bir şeyi bilmek veya öğrenmek istemek.
-238,Jealous,Kıskanç,Feeling angry or sad because you want what someone else has.,Başkasının sahip olduğu şeyi istediğin için üzgün hissetmek.
-239,Jealousy,Kıskançlık,The feeling of being jealous.,Kıskanç olma hissi.
-240,Life,Hayat / Yaşam,The time a person is alive.,Bir insanın hayatta olduğu zaman.
-241,Lives,Hayatlar / Yaşamlar,The times people are alive.,İnsanların hayatta olduğu zamanlar.
-242,Live,Yaşamak / Canlı,To be alive or have a home somewhere.,Hayatta olmak veya bir yerde evi olmak.
-243,Shine,Parlamak,To give out bright light.,Parlak ışık yaymak.
-244,Mostly,Çoğunlukla,Almost all or most of the time.,Neredeyse hepsi veya zamanın çoğu.
-245,Cruelty,Zulüm / Acımasızlık,Doing bad things to hurt others.,Başkalarını incitmek için kötü şeyler yapmak.
-246,Violence,Şiddet,Action that hurts people or things.,İnsanlara veya eşyalara zarar veren eylem.
-247,Co-founder,Kurucu ortak,A person who starts a business with someone else.,Başka biriyle iş kuran kişi.
-248,Co-founders,Kurucu ortaklar,People who start a business together.,Birlikte iş kuran kişiler.
-249,Canvas,Tuval / Kanvas,A strong cloth used for painting.,Resim yapmak için kullanılan güçlü kumaş.
-250,Canvases,Tuvaller,Strong cloths used for painting.,Resim yapmak için kullanılan güçlü kumaşlar.
-251,Sculpture,Heykel,"Art made from stone, wood, or metal.","Taş, ahşap veya metalden yapılan sanat."
-252,Sculptures,Heykeller,"Art pieces made from stone, wood, or metal.","Taş, ahşap veya metalden yapılan sanat eserleri."
-253,Collage,Kolaj,Art made by putting pictures and paper together.,Resim ve kağıtları bir araya getirerek yapılan sanat.
-254,Collages,Kolajlar,Art pieces made by putting pictures and paper together.,Resim ve kağıtları bir araya getirerek yapılan sanat eserleri.
-255,Engraving,Oyma / Gravür,A picture made by cutting lines into metal or wood.,Metal veya ahşaba çizgiler kesilerek yapılan resim.
-256,Engravings,Oymalar / Gravürler,Pictures made by cutting lines into metal or wood.,Metal veya ahşaba çizgiler kesilerek yapılan resimler.
-257,Inhumanity,İnsanlık dışı olma / Vahşet,Very cruel acting without feeling sorry.,Üzülmeden yapılan çok acımasız davranış.
-258,Brutality,Gaddarlık / Vahşet,Cruel and violent behavior.,Acımasız ve şiddet içeren davranış.
-259,Talented,Yetenekli,Having a natural ability to do something well.,Bir şeyi iyi yapmak için doğal bir yeteneğe sahip olmak.
-260,Mainly,Esasen / Çoğunlukla,More than anything else.,Başka her şeyden daha fazla.
-261,Draw,Çizmek,To make a picture with a pen or pencil.,Kalemle resim yapmak.
-262,Drew,Çizdi,Past tense of draw.,Çizmek fiilinin geçmiş zamanı.
-263,Make,Yapmak,To create or produce something.,Bir şey yaratmak veya üretmek.
-264,Made,Yaptı / Yapılmış,Past tense of make.,Yapmak fiilinin geçmiş zamanı.
-265,Well-known,Tanınmış / Ünlü,Known by many people.,Birçok insan tarafından bilinen.
-266,Extremely,Son derece / Aşırı,"Very, very much.","Çok, çok fazla."
-267,Express,İfade etmek,To show your feelings or thoughts.,Hislerini veya düşüncelerini göstermek.
-268,Expressed,İfade etti,Past tense of express.,İfade etmek fiilinin geçmiş zamanı.
-269,Earthquake,Deprem,"A sudden, violent shaking of the ground.","Yerin ani, şiddetli bir şekilde sallanması."
-270,Earthquakes,Depremler,"Sudden, violent shakings of the ground.","Yerin ani, şiddetli sallantıları."
-271,Avalanche,Çığ,A large amount of snow falling down a mountain.,Dağdan aşağı düşen büyük miktarda kar.
-272,Avalanches,Çığlar,Large amounts of snow falling down a mountain.,Dağdan aşağı düşen büyük miktarda karlar.
-273,Industry,Endüstri / Sanayi,The making of goods in factories.,Fabrikalarda mal yapımı.
-274,Industries,Endüstriler / Sanayiler,Different types of businesses making goods.,Mal yapan farklı iş türleri.
-275,Release,Serbest bırakmak / Yayınlamak,To let something go or make it ready for people.,Bir şeyi bırakmak veya insanlar için hazır hale getirmek.
-276,Leading,Lider / Önde gelen,Most important or best.,En önemli veya en iyi olan.
-277,Audience,Seyirci / Dinleyici,People who watch or listen to a show.,Bir gösteriyi izleyen veya dinleyen insanlar.
-278,Audiences,Seyirciler / Dinleyiciler,Groups of people who watch or listen to a show.,Bir gösteriyi izleyen veya dinleyen insan grupları.
-279,Drum,Davul,A musical instrument you hit to make a sound.,Ses çıkarmak için vurduğun müzik aleti.
-280,Drums,Davullar,Musical instruments you hit to make sounds.,Ses çıkarmak için vurduğun müzik aletleri.
-281,Beatles,Beatles (Müzik Grubu),A very famous English rock band.,Çok ünlü bir İngiliz rock grubu.
-282,Authority,Yetkili / Otorite,The power to make rules or decisions.,Kural veya karar verme gücü.
-283,Authorities,Yetkililer,People who have the power to make decisions.,Karar verme gücüne sahip olan insanlar.
-284,Consider,Dikkate almak / Düşünmek,To think about something carefully.,Bir şey hakkında dikkatlice düşünmek.
-285,Exceed,Aşmak / Geçmek,To be more than a number or limit.,Bir sayıdan veya sınırdan fazla olmak.
-286,Exceeding,Aşan / Geçen,Being more than a limit.,Bir sınırı aşma durumu.
-287,Combination,Birleşim / Kombinasyon,Two or more things joined together.,İki veya daha fazla şeyin birleşmesi.
-288,Combinations,Birleşimler,Different groups of things joined together.,Birlikte katılmış farklı şey grupları.
-289,Dark,Karanlık / Koyu,Having very little light.,Çok az ışığı olan.
-290,Hysterical,Histerik / Çok komik,Extremely funny or losing control of feelings.,Aşırı komik veya hislerin kontrolünü kaybetme.
-291,Band,Müzik grubu,A group of people who play music together.,Birlikte müzik çalan bir grup insan.
-292,Bands,Müzik grupları,Groups of people who play music together.,Birlikte müzik çalan insan grupları.
-293,Famous,Ünlü / Meşhur,Known by a lot of people.,Birçok insan tarafından bilinen.
-294,Church,Kilise,A building for Christian religious events.,Hristiyan dini etkinlikleri için bir bina.
-295,Churches,Kiliseler,Buildings for Christian religious events.,Hristiyan dini etkinlikleri için binalar.
-296,Masterpiece,Başyapıt / Şaheser,A very great piece of art.,Çok harika bir sanat eseri.
-297,Masterpieces,Başyapıtlar / Şaheserler,Very great pieces of art.,Çok harika sanat eserleri.
-298,Fashion,Moda,A popular style of clothes.,Popüler bir giyim tarzı.
-299,Building,Bina / Yapı,"A place with a roof and walls, like a house.",Ev gibi çatısı ve duvarları olan bir yer.
-300,Buildings,Binalar,Places with roofs and walls.,Çatıları ve duvarları olan yerler.
-301,Museum,Müze,A building where you look at old or interesting things.,Eski veya ilginç şeylere baktığın bina.
-302,Museums,Müzeler,Buildings where you look at old or interesting things.,Eski veya ilginç şeylere baktığın binalar.
-303,Gallery,Galeri,A room or building for showing art.,Sanatı göstermek için bir oda veya bina.
-304,Galleries,Galeriler,Rooms or buildings for showing art.,Sanatı göstermek için odalar veya binalar.
-305,Therefore,Bu nedenle / Dolayısıyla,For that reason.,O sebepten dolayı.
-306,Contribute,Katkıda bulunmak,"To give money, help, or an idea.","Para, yardım veya bir fikir vermek."
-307,Contributing,Katkıda bulunan,"Giving money, help, or an idea.","Para, yardım veya bir fikir verme durumu."
-308,Safe,Güvenli,Not in danger.,Tehlikede olmayan.
-309,Expensive,Pahalı,Costing a lot of money.,Çok paraya mal olan.
-310,Fantastic,Harika / Şahane,Very good or beautiful.,Çok iyi veya güzel.
-311,However,Ancak / Yine de,But.,"Fakat, lakin."
-312,Honour,Onur / Şeref,Great respect for someone.,Birine duyulan büyük saygı.
-313,Privilege,Ayrıcalık,A special right or advantage for a person.,Bir kişi için özel hak veya avantaj.
-314,Privileges,Ayrıcalıklar,Special rights or advantages.,Özel haklar veya avantajlar.
-315,Interview,Röportaj / Mülakat,A meeting where someone asks you questions.,Birinin sana sorular sorduğu toplantı.
-316,Interviews,Röportajlar / Mülakatlar,Meetings where people ask questions.,İnsanların sorular sorduğu toplantılar.
-317,Admire,Hayran olmak / Beğenmek,To respect and like someone or something.,Birine veya bir şeye saygı duymak ve beğenmek.
-318,Invaluable,Paha biçilemez,Extremely useful or important.,Son derece yararlı veya önemli.
-319,Significant,Önemli / Anlamlı,Important and easy to see.,Önemli ve görülmesi kolay olan.
-320,Carriage,At arabası / Vagon,A vehicle pulled by horses.,Atlar tarafından çekilen bir araç.
-321,Carriages,At arabaları / Vagonlar,Vehicles pulled by horses.,Atlar tarafından çekilen araçlar.
-322,Keep,Tutmak / Saklamak,To have and not give back.,Sahip olmak ve geri vermemek.
-323,Happy,Mutlu,Feeling good and smiling.,İyi hissetmek ve gülümsemek.
-324,Happier,Daha mutlu,Feeling more good than before.,Eskisinden daha iyi hissetmek.
-325,Elegant,Zarif / Şık,Beautiful and graceful.,Güzel ve zarif olan.
-326,National,Ulusal / Milli,About a whole country.,Bütün bir ülke hakkında olan.
-327,Anthem,Marş,A special song for a country or group.,Bir ülke veya grup için özel bir şarkı.
-328,Anthems,Marşlar,Special songs for countries or groups.,Ülkeler veya gruplar için özel şarkılar.
-329,Isolated,İzole / Yalıtılmış,Far away from other things or people.,Başka şeylerden veya insanlardan çok uzakta olan.
-330,Precious,Değerli / Kıymetli,Very expensive or important to you.,Senin için çok pahalı veya önemli olan.
-331,Ample,Bol / Yeterince,More than enough.,Yeterinden daha fazla olan.
-332,Souvenir,Hediyelik eşya / Hatıra,A thing you buy to remember a place.,Bir yeri hatırlamak için satın aldığın şey.
-333,Souvenirs,Hediyelik eşyalar / Hatıralar,Things you buy to remember places.,Yerleri hatırlamak için satın aldığın şeyler.
-334,Mosque,Cami,A building for Islamic religious events.,İslami dini etkinlikler için bir bina.
-335,Mosques,Camiler,Buildings for Islamic religious events.,İslami dini etkinlikler için binalar.
-336,Empire,İmparatorluk,A large group of countries ruled by one person.,Bir kişi tarafından yönetilen büyük bir ülke grubu.
-337,Empires,İmparatorluklar,Large groups of countries ruled by one person.,Bir kişi tarafından yönetilen büyük ülke grupları.
+No    | English                                  | Türkçe                                   | English Hint                                                    | Türkçe İpucu
+-----|------------------------------------------|------------------------------------------|-----------------------------------------------------------------|-------------------------------------------------------
+1     | Anniversaries                            | Yıl dönümleri                            | Special dates we remember every year.                           | Her yıl hatırladığımız özel tarihler.
+2     | Architecture                             | Mimari                                   | The art of planning and making buildings.                       | Bina planlama ve inşa etme sanatı.
+3     | Beach                                    | Plaj / Kumsal                            | A sandy place next to the sea.                                  | Deniz kenarındaki kumlu yer.
+4     | Beautiful                                | Güzel                                    | Very nice to look at.                                           | Bakması çok hoş olan.
+5     | Believe                                  | İnanmak                                  | To think that something is true.                                | Bir şeyin doğru olduğunu düşünmek.
+6     | Border                                   | Sınır                                    | The line between two countries.                                 | İki ülke arasındaki çizgi.
+7     | Both                                     | İkisi de / Her ikisi                     | The two things together.                                        | İki şeyin birden olması.
+8     | Bowl                                     | Kase                                     | A deep, round dish for food like soup.                          | Çorba gibi yiyecekler için derin, yuvarlak kap.
+9     | Cheap                                    | Ucuz                                     | Not costing a lot of money.                                     | Çok para gerektirmeyen.
+10    | Cliffs                                   | Uçurumlar / Kayalıklar                   | High, steep rocks next to the sea.                              | Deniz kenarındaki yüksek, dik kayalar.
+11    | Climate                                  | İklim                                    | The normal weather in a place.                                  | Bir yerdeki normal hava durumu.
+12    | Coast                                    | Sahil / Kıyı                             | The land next to the sea.                                       | Denizin yanındaki kara parçası.
+13    | Continent                                | Kıta                                     | One of the very large land areas on Earth.                      | Dünyadaki çok büyük kara parçalarından biri.
+14    | Cook Lunch                               | Öğle Yemeği Pişirmek                     | To prepare the middle-of-the-day meal.                          | Gün ortası yemeğini hazırlamak.
+15    | Customers                                | Müşteriler                               | People who buy things in a shop.                                | Bir dükkandan bir şeyler satın alan insanlar.
+16    | Delicious                                | Lezzetli                                 | Tasting really good.                                            | Tadı gerçekten çok güzel olan.
+17    | Discuss                                  | Tartışmak / Görüşmek                     | To talk about something with someone.                           | Biriyle bir konu hakkında konuşmak.
+18    | Domestic                                 | Yerli / Evcil                            | About the home or the inside of a country.                      | Evle veya bir ülkenin içiyle ilgili.
+19    | Dozens                                   | Düzinelerce                              | Groups of twelve things, or just many things.                   | On ikili gruplar veya çok sayıda olan şeyler.
+20    | Driest                                   | En kurak                                 | Having the least rain or water.                                 | En az yağmuru veya suyu olan.
+21    | Dystopic                                 | Distopik                                 | About a very bad future world.                                  | Gelecekteki çok kötü bir dünya ile ilgili.
+22    | East                                     | Doğu                                     | The direction where the sun comes up.                           | Güneşin doğduğu yön.
+23    | Excitement                               | Heyecan                                  | A feeling of being very happy and active.                       | Çok mutlu ve aktif hissetme durumu.
+24    | Extensive                                | Kapsamlı / Geniş çaplı                   | Very large and having many details.                             | Çok büyük ve birçok detayı olan.
+25    | Extremes                                 | Uç noktalar / Aşırılıklar                | The highest and lowest levels of something.                     | Bir şeyin en yüksek ve en düşük seviyeleri.
+26    | Features                                 | Özellikler                               | Important or interesting parts of something.                    | Bir şeyin önemli veya ilginç kısımları.
+27    | Fjords                                   | Fiyortlar                                | Long, narrow areas of sea between high rocks.                   | Yüksek kayalar arasındaki uzun, dar deniz alanları.
+28    | Forest                                   | Orman                                    | A large place with many trees.                                  | Çok sayıda ağacın olduğu büyük yer.
+29    | Form                                     | Biçim / Şekillendirmek                   | To make the shape of something.                                 | Bir şeyin şeklini oluşturmak.
+30    | Gaze                                     | Gözünü dikip bakmak / Bakış              | To look at something for a long time.                           | Bir şeye uzun süre bakmak.
+31    | Geysers                                  | Gayzerler                                | Holes in the ground that shoot hot water.                       | Yerden sıcak su fırlatan delikler.
+32    | Glad                                     | Memnun                                   | Happy and pleased.                                              | Mutlu ve hoşnut olan.
+33    | Gold                                     | Altın                                    | A yellow, expensive metal.                                      | Sarı, pahalı bir metal.
+34    | Gravy                                    | Et suyu sosu                             | A brown sauce made from meat juices.                            | Et suyundan yapılan kahverengi sos.
+35    | Guide                                    | Rehber / Rehberlik etmek                 | To show people the way.                                         | İnsanlara yolu göstermek.
+36    | Herb                                     | Bitki / Baharat otu                      | A plant used to give food more flavor.                          | Yemeğe tat vermek için kullanılan bitki.
+37    | High                                     | Yüksek                                   | Tall or far up.                                                 | Uzun veya çok yukarıda olan.
+38    | Hill                                     | Tepe                                     | A small mountain.                                               | Küçük bir dağ.
+39    | Hospitality                              | Misafirperverlik                         | Being friendly and welcoming to guests.                         | Misafirlere karşı dost canlısı ve sıcakkanlı olmak.
+40    | Idea                                     | Fikir                                    | A thought or a plan.                                            | Bir düşünce veya plan.
+41    | Impressive                               | Etkileyici                               | Making you say 'wow' because it is so good.                     | Çok iyi olduğu için sana 'vay canına' dedirten.
+42    | Include                                  | İçermek / Dahil etmek                    | To have something as a part.                                    | Bir şeyi kendi içinde parça olarak bulundurmak.
+43    | Incredible                               | İnanılmaz                                | Hard to believe because it is so great.                         | Çok harika olduğu için inanması zor olan.
+44    | Internship                               | Staj                                     | A short job to learn how to work.                               | Nasıl çalışılacağını öğrenmek için kısa süreli iş.
+45    | Island                                   | Ada                                      | Land with water all around it.                                  | Etrafı tamamen suyla çevrili kara parçası.
+46    | Jewelry                                  | Mücevher / Takı                          | Rings and necklaces you wear to look nice.                      | Güzel görünmek için taktığın yüzükler ve kolyeler.
+47    | Lake                                     | Göl                                      | A large body of water with land around it.                      | Etrafında kara olan büyük su birikintisi.
+48    | Landscape                                | Manzara / Peyzaj                         | All the things you see when you look across an area.            | Bir alana baktığında gördüğün her şey.
+49    | Long                                     | Uzun                                     | Not short.                                                      | Kısa olmayan.
+50    | Magnificent                              | Muhteşem / Görkemli                      | Extremely beautiful or great.                                   | Son derece güzel veya harika.
+51    | Manager                                  | Yönetici / Müdür                         | The boss of a shop or an office.                                | Bir dükkanın veya ofisin yöneticisi/patronu.
+52    | Mash                                     | Püre / Ezmek                             | To crush food until it is soft.                                 | Yiyecekleri yumuşayana kadar ezmek.
+53    | Mountains                                | Dağlar                                   | Very high and big hills.                                        | Çok yüksek ve büyük tepeler.
+54    | Narrow                                   | Dar                                      | Not wide.                                                       | Geniş olmayan.
+55    | Neighbor                                 | Komşu                                    | A person who lives near you.                                    | Senin yakınında/yanında yaşayan kişi.
+56    | North                                    | Kuzey                                    | The direction at the top of a map.                              | Haritanın en üst tarafındaki yön.
+57    | Opportunity                              | Fırsat                                   | A chance to do something good.                                  | İyi bir şey yapmak için bir şans.
+58    | Peak                                     | Zirve / Doruk                            | The top part of a mountain.                                     | Bir dağın en üst kısmı.
+59    | Prepare                                  | Hazırlamak                               | To get something ready.                                         | Bir şeyi hazır hale getirmek.
+60    | Rise                                     | Yükselmek / Artış                        | To go up.                                                       | Yukarı doğru çıkmak.
+61    | Sensational                              | Sansasyonel / Çarpıcı                    | Very exciting or surprising.                                    | Çok heyecan verici veya şaşırtıcı.
+62    | Shape                                    | Şekil                                    | The outer form of something.                                    | Bir şeyin dış görünüşü veya formu.
+63    | Shares                                   | Paylaşır / Paylar                        | Gives a part of something to others.                            | Bir şeyin bir kısmını başkalarına verir.
+64    | Short                                    | Kısa                                     | Not long or not tall.                                           | Uzun veya boylu olmayan.
+65    | Silver                                   | Gümüş                                    | A grey and white, expensive metal.                              | Gri ve beyaz renkli, pahalı bir metal.
+66    | Slang                                    | Argo                                     | Informal words used by people.                                  | İnsanların kullandığı resmi olmayan günlük kelimeler.
+67    | Sophisticated                            | Sofistike / Çok yönlü                    | Knowing a lot about culture and style.                          | Kültür ve stil hakkında çok şey bilen.
+68    | South                                    | Güney                                    | The direction at the bottom of a map.                           | Haritanın en alt tarafındaki yön.
+69    | Special                                  | Özel                                     | Different from what is normal; important.                       | Normalden farklı olan; önemli.
+70    | Suggest                                  | Önermek                                  | To give an idea for someone to think about.                     | Birinin düşünmesi için ona bir fikir vermek.
+71    | Surrounding                              | Çevreleyen / Civar                       | Being everywhere around something.                              | Bir şeyin her tarafında olan.
+72    | Take-Away                                | Al-götür (Paket servis)                  | Food you buy at a restaurant and eat at home.                   | Restorandan satın alıp evde yediğin yemek.
+73    | Think                                    | Düşünmek                                 | To use your brain to have an idea.                              | Bir fikre sahip olmak için beynini kullanmak.
+74    | Topic                                    | Konu / Başlık                            | The subject you are talking or writing about.                   | Hakkında konuştuğun veya yazdığın şey.
+75    | Tourist Guide                            | Turist Rehberi                           | A person who shows interesting places to visitors.              | Ziyaretçilere ilginç yerleri gösteren kişi.
+76    | Trail                                    | Patika / İz                              | A path in the countryside.                                      | Kırsal alandaki doğal yol.
+77    | Valley                                   | Vadi                                     | The low land between mountains.                                 | Dağların arasındaki alçak arazi.
+78    | Vast                                     | Uçsuz bucaksız / Çok geniş               | Very, very large.                                               | Çok ama çok büyük.
+79    | Very Beautiful                           | Çok Güzel                                | Looking extremely nice.                                         | Son derece hoş/güzel görünen.
+80    | Vinegar                                  | Sirke                                    | A sour liquid used with food.                                   | Yiyeceklerle birlikte kullanılan ekşi sıvı.
+81    | Volcanoes                                | Volkanlar / Yanardağlar                  | Mountains that can blow hot fire and rocks.                     | Sıcak ateş ve taşlar püskürtebilen dağlar.
+82    | Waterfalls                               | Şelaleler                                | Places where water falls down from a high rock.                 | Suyun yüksek bir kayadan aşağı düştüğü yerler.
+83    | Wave                                     | Dalga                                    | Water moving up and down in the sea.                            | Denizde aşağı yukarı hareket eden su.
+84    | West                                     | Batı                                     | The direction where the sun goes down.                          | Güneşin battığı yön.
+85    | Western                                  | Batılı / Batıya ait                      | From the west part of the world.                                | Dünyanın batı kısmından olan.
+86    | Wide                                     | Geniş                                    | Large from one side to the other.                               | Bir taraftan diğer tarafa büyük/açık olan.
+87    | Wonderful                                | Harika / Mükemmel                        | Making you feel very happy, great.                              | Seni çok mutlu hissettiren, harika.
+88    | Woods                                    | Ormanlık alan / Koruluk                  | A small forest with many trees.                                 | Çok sayıda ağacın olduğu küçük orman.
+89    | Yelling                                  | Bağırma / Haykırma                       | Shouting very loudly.                                           | Çok yüksek sesle bağırmak.
+90    | Beaches                                  | Plajlar / Kumsallar                      | Sandy places next to the sea.                                   | Deniz kenarındaki kumlu yerler.
+91    | Borders                                  | Sınırlar                                 | Lines between countries.                                        | Ülkeler arasındaki çizgiler.
+92    | Bowls                                    | Kaseler                                  | Deep, round dishes for food.                                    | Yemek için derin, yuvarlak kaplar.
+93    | Climates                                 | İklimler                                 | The normal weather in different places.                         | Farklı yerlerdeki normal hava durumları.
+94    | Coasts                                   | Sahiller / Kıyılar                       | Lands next to the sea.                                          | Deniz kenarındaki kara parçaları.
+95    | Continents                               | Kıtalar                                  | The large land areas on Earth.                                  | Dünyadaki büyük kara parçaları.
+96    | Forests                                  | Ormanlar                                 | Large places with many trees.                                   | Çok ağacın olduğu büyük yerler.
+97    | Forms                                    | Biçimler / Şekiller                      | Different shapes of things.                                     | Şeylerin farklı şekilleri.
+98    | Gazes                                    | Bakışlar                                 | Long looks at something.                                        | Bir şeye atılan uzun bakışlar.
+99    | Guides                                   | Rehberler                                | People who show you places.                                     | Sana yerleri gösteren kişiler.
+100   | Herbs                                    | Bitkiler / Baharat otları                | Plants used to give food more flavor.                           | Yemeğe tat vermek için kullanılan bitkiler.
+101   | Hills                                    | Tepeler                                  | Small mountains.                                                | Küçük dağlar.
+102   | Ideas                                    | Fikirler                                 | Thoughts or plans.                                              | Düşünceler veya planlar.
+103   | Internships                              | Stajlar                                  | Short jobs to learn how to work.                                | Nasıl çalışılacağını öğrenmek için kısa işler.
+104   | Islands                                  | Adalar                                   | Lands with water all around them.                               | Etrafları tamamen suyla çevrili karalar.
+105   | Lakes                                    | Göller                                   | Large areas of water with land around them.                     | Etraflarında kara olan büyük su alanları.
+106   | Landscapes                               | Manzaralar / Peyzajlar                   | The looks of the lands.                                         | Geniş arazilerin görünümleri.
+107   | Managers                                 | Yöneticiler / Müdürler                   | Bosses of shops or offices.                                     | Dükkanların veya ofislerin patronları.
+108   | Neighbors                                | Komşular                                 | People who live near you.                                       | Yakınında yaşayan insanlar.
+109   | Opportunities                            | Fırsatlar                                | Chances to do something good.                                   | İyi şeyler yapmak için eline geçen şanslar.
+110   | Peaks                                    | Zirveler / Doruklar                      | The top parts of mountains.                                     | Dağların en üst kısımları.
+111   | Shapes                                   | Şekiller                                 | The outer forms of things.                                      | Nesnelerin dış formları.
+112   | Topics                                   | Konular / Başlıklar                      | Subjects you talk or write about.                               | Hakkında konuştuğun veya yazdığın şeyler.
+113   | Tourist Guides                           | Turist Rehberleri                        | People who show places to visitors.                             | Ziyaretçilere ilginç yerleri gösteren kişiler.
+114   | Trails                                   | Patikalar / İzler                        | Paths in the countryside.                                       | Kırsal alanlardaki doğal yollar.
+115   | Valleys                                  | Vadiler                                  | Low lands between mountains.                                    | Dağların arasındaki alçak araziler.
+116   | Waves                                    | Dalgalar                                 | Moving waters in the sea.                                       | Denizdeki hareketli sular.
+117   | Anniversary                              | Yıl dönümü                               | A special date we remember every year.                          | Her yıl hatırladığımız özel gün.
+118   | Cliff                                    | Uçurum / Kayalık                         | A high, steep rock next to the sea.                             | Deniz kenarındaki yüksek, dik kaya.
+119   | Customer                                 | Müşteri                                  | A person who buys things in a shop.                             | Bir dükkandan bir şeyler satın alan kişi.
+120   | Dozen                                    | Düzine                                   | A group of twelve things.                                       | On iki şeyden oluşan grup.
+121   | Extreme                                  | Uç nokta / Aşırılık                      | The highest or lowest level of something.                       | Bir şeyin en yüksek veya en düşük seviyesi.
+122   | Feature                                  | Özellik                                  | An important part of something.                                 | Bir şeyin önemli bir kısmı.
+123   | Fjord                                    | Fiyort                                   | A long, narrow area of sea between high rocks.                  | Yüksek kayalar arasındaki uzun, dar deniz alanı.
+124   | Geyser                                   | Gayzer                                   | A hole in the ground that shoots hot water.                     | Yerden sıcak su fırlatan delik.
+125   | Mountain                                 | Dağ                                      | A very high and big hill.                                       | Çok yüksek ve büyük tepe.
+126   | Share                                    | Paylaşmak / Pay                          | To give a part of something to someone.                         | Birine bir şeyin bir parçasını vermek.
+127   | Volcano                                  | Volkan / Yanardağ                        | A mountain that can blow hot fire and rocks.                    | Sıcak ateş ve taş fırlatan dağ.
+128   | Waterfall                                | Şelale                                   | A place where water falls down from high up.                    | Suyun yüksekten aşağı düştüğü yer.
+129   | Wood                                     | Ormanlık alan / Tahta                    | The material that comes from trees.                             | Ağaçlardan gelen malzeme (veya küçük orman).
+130   | Architect                                | Mimar                                    | A person who draws plans for buildings.                         | Binalar için plan çizen kişi.
+131   | Quiet                                    | Sessiz / Sakin                           | Making very little noise.                                       | Çok az ses çıkaran.
+132   | Peaceful                                 | Huzurlu                                  | Calm, quiet and without problems.                               | Sakin, sessiz ve sorunsuz.
+133   | Country                                  | Ülke                                     | A nation with its own land and rules.                           | Kendi toprağı ve kuralları olan ulus.
+134   | Countries                                | Ülkeler                                  | Nations with their own lands and rules.                         | Kendi toprakları ve kuralları olan uluslar.
+135   | Holiday                                  | Tatil                                    | A day when you don't work or go to school.                      | Çalışmadığın veya okula gitmediğin bir gün.
+136   | Holidays                                 | Tatiller                                 | Days when you don't work or go to school.                       | Çalışmadığın veya okula gitmediğin günler.
+137   | Elderly                                  | Yaşlı / İhtiyar                          | Older people.                                                   | Yaşça daha büyük olan kişiler.
+138   | Reason                                   | Sebep / Neden                            | Why something happens.                                          | Bir şeyin neden olduğu, sebebi.
+139   | Reasons                                  | Sebepler / Nedenler                      | Why things happen.                                              | Olayların neden olduğu, sebepleri.
+140   | Addictive                                | Bağımlılık yapan                         | Making you want to do it more and more.                         | Sana onu daha da çok yapma isteği veren.
+141   | Worse                                    | Daha kötü                                | More bad than something else.                                   | Başka bir şeyden daha fena olan.
+142   | Whether                                  | Olup olmadığı / İster...                 | Used to talk about two choices.                                 | İki seçenek hakkında konuşurken kullanılır.
+143   | Exhausted                                | Çok yorgun / Tükenmiş                    | Very, very tired.                                               | Çok ama çok yorgun hissetme.
+144   | Tinsel                                   | Süs şeridi / Simli süs                   | Shiny string used for decoration on a tree.                     | Ağaç vb. süslemek için kullanılan parlak ipler.
+145   | Scary Face                               | Korkutucu yüz                            | A look that makes you feel afraid.                              | Seni korkutan bir ifade, görünüm.
+146   | Scary Faces                              | Korkutucu yüzler                         | Looks that make you feel afraid.                                | Seni korkutan ifadeler.
+147   | Scary                                    | Korkunç / Korkutucu                      | Making you feel afraid.                                         | Seni korkutan, ürküten.
+148   | Carve                                    | Oymak / Keserek şekil vermek             | To cut into wood or a pumpkin to make a shape.                  | Şekil vermek için tahtayı veya balkabağını kesmek.
+149   | Pumpkin                                  | Balkabağı                                | A large, round, orange vegetable.                               | Büyük, yuvarlak, turuncu bir sebze.
+150   | Pumpkins                                 | Balkabakları                             | Large, round, orange vegetables.                                | Büyük, yuvarlak, turuncu sebzeler.
+151   | Child                                    | Çocuk                                    | A young boy or girl.                                            | Genç bir erkek veya kız.
+152   | Children                                 | Çocuklar                                 | Young boys and girls.                                           | Genç erkekler ve kızlar.
+153   | Halloween                                | Cadılar Bayramı                          | A spooky holiday in October.                                    | Ekim ayında kutlanan ürkütücü tatil.
+154   | Candle                                   | Mum                                      | A stick of wax that gives light.                                | Yanarak ışık veren balmumu çubuğu.
+155   | Candles                                  | Mumlar                                   | Sticks of wax that give light.                                  | Yanarak ışık veren balmumu çubukları.
+156   | Inside                                   | İçinde / İçeri                           | In a room or a building.                                        | Bir odanın veya binanın içinde olma durumu.
+157   | Celebrate                                | Kutlamak                                 | To have a party for a special day.                              | Özel bir gün için parti yapmak veya eğlenmek.
+158   | Piece                                    | Parça / Tane                             | A part of something.                                            | Bir şeyin bir kısmı.
+159   | Pieces                                   | Parçalar / Taneler                       | Parts of something.                                             | Bir şeyin kısımları.
+160   | Tremendous                               | Muazzam / Kocaman                        | Very big or very great.                                         | Çok büyük veya çok harika.
+161   | Religious                                | Dini                                     | About God or beliefs.                                           | Tanrı veya inançlarla ilgili.
+162   | Street                                   | Sokak                                    | A road in a city or town.                                       | Şehir veya kasabadaki binaların arasındaki yol.
+163   | Streets                                  | Sokaklar                                 | Roads in a city or town.                                        | Şehir veya kasabadaki yollar.
+164   | Endlessly                                | Sonsuzca / Durmaksızın                   | Never stopping.                                                 | Hiç durmadan devam etme durumu.
+165   | Need                                     | İhtiyaç / İhtiyaç duymak                 | Something you must have.                                        | Kesinlikle sahip olman gereken şey.
+166   | Needs                                    | İhtiyaçlar                               | Things you must have.                                           | Kesinlikle sahip olman gereken şeyler.
+167   | Firstly                                  | İlk olarak / Öncelikle                   | The first thing to say or do.                                   | Söylenecek veya yapılacak ilk şey.
+168   | Relaxed                                  | Rahatlamış                               | Feeling calm and not stressed.                                  | Sakin ve stressiz hissetmek.
+169   | Companionship                            | Arkadaşlık / Yoldaşlık                   | The good feeling of being with someone.                         | Biriyle birlikte olmanın verdiği iyi his.
+170   | Harmony                                  | Uyum / Ahenk                             | People or things living together happily.                       | Birlikte mutlu yaşayan insanlar veya şeyler.
+171   | Peace                                    | Barış / Huzur                            | No war or no fighting.                                          | Savaş veya kavga olmaması.
+172   | Maximize                                 | En üst düzeye çıkarmak                   | To make something as big as possible.                           | Bir şeyi olabildiğince büyük veya çok yapmak.
+173   | Totally                                  | Tamamen / Bütünüyle                      | Completely, 100 percent.                                        | Yüzde yüz, eksiksiz olarak.
+174   | Clarify                                  | Açıklığa kavuşturmak                     | To make something easy to understand.                           | Bir şeyi anlaşılması kolay hale getirmek.
+175   | Justify                                  | Haklı çıkarmak / Gerekçelendirmek        | To give a good reason for something.                            | Bir şey için iyi bir neden veya mazeret sunmak.
+176   | Competition                              | Yarışma / Rekabet                        | A game to see who is the best.                                  | Kimin en iyi olduğunu görmek için yapılan oyun.
+177   | Competitions                             | Yarışmalar                               | Games to see who is the best.                                   | Kimin en iyi olduğunu görmek için yapılan oyunlar.
+178   | Friendship                               | Arkadaşlık / Dostluk                     | The relationship between friends.                               | Arkadaşlar arasındaki ilişki bağı.
+179   | Friendships                              | Arkadaşlıklar / Dostluklar               | The relationships between friends.                              | Arkadaşlar arasındaki ilişki bağları.
+180   | Dimension                                | Boyut / Ebat                             | The size of something, like length or width.                    | Bir şeyin uzunluk veya genişlik gibi ölçüsü.
+181   | Dimensions                               | Boyutlar / Ebatlar                       | The sizes of something.                                         | Bir şeyin ölçüleri.
+182   | Adjective                                | Sıfat                                    | A word that describes a noun (like 'big' or 'red').             | Bir ismi tanımlayan kelime ('büyük' vb.).
+183   | Adjectives                               | Sıfatlar                                 | Words that describe nouns.                                      | İsimleri tanımlayan kelimeler.
+184   | Careful                                  | Dikkatli                                 | Thinking about what you do so you don't make a mistake.         | Hata yapmamak için ne yaptığına odaklanan.
+185   | Slow                                     | Yavaş                                    | Not fast.                                                       | Hızlı hareket etmeyen.
+186   | Fast                                     | Hızlı                                    | Moving very quickly.                                            | Çok çabuk hareket eden.
+187   | Carnival                                 | Karnaval                                 | A big public party with music and dancing in the streets.       | Sokaklarda müzik ve dans olan büyük halk partisi.
+188   | Carnivals                                | Karnavallar                              | Big public parties in the streets.                              | Sokaklardaki büyük halk partileri.
+189   | Custom                                   | Gelenek / Görenek                        | A traditional way of acting in a society.                       | Bir toplumdaki geleneksel davranış biçimi.
+190   | Customs                                  | Gelenekler / Görenekler                  | Traditional ways of acting in a society.                        | Bir toplumdaki geleneksel davranış biçimleri.
+191   | Dance                                    | Dans / Dans etmek                        | Moving your body to music.                                      | Vücudunu müziğe göre hareket ettirmek.
+192   | Dances                                   | Danslar                                  | Different styles of moving to music.                            | Müziğe göre hareket etmenin farklı stilleri.
+193   | Myself                                   | Kendim                                   | Used by the person speaking to talk about themself.             | Konuşan kişinin kendinden bahsetmesi.
+194   | Yourself                                 | Kendin                                   | Used to talk about the person you are speaking to.              | Konuştuğun tekil kişi hakkında kullanılır.
+195   | Himself                                  | Kendisi (Erkek)                          | Used to talk about a man or boy.                                | Bir adam veya erkek çocuğu hakkında konuşulur.
+196   | Herself                                  | Kendisi (Kadın)                          | Used to talk about a woman or girl.                             | Bir kadın veya kız çocuğu hakkında konuşulur.
+197   | Itself                                   | Kendisi (Hayvan/Eşya)                    | Used to talk about a thing or animal.                           | Bir nesne veya hayvan hakkında konuşulur.
+198   | Ourselves                                | Kendimiz                                 | Used by a group to talk about their own group.                  | Bir grubun (biz) kendinden bahsetmesi.
+199   | Yourselves                               | Kendiniz                                 | Used to talk about a group of people you are speaking to.       | Konuştuğunuz bir grup insandan (siz) bahseder.
+200   | Themselves                               | Kendileri                                | Used to talk about other people (they).                         | Başka insanlardan (onlar) bahsederken kullanılır.
+201   | Participate                              | Katılmak / İştirak etmek                 | To join in an activity or event.                                | Bir etkinliğe veya olaya dahil olmak.
+202   | Occasion                                 | Fırsat / Özel durum                      | A special event or time.                                        | Özel bir etkinlik veya zaman.
+203   | Occasions                                | Fırsatlar / Özel durumlar                | Special events or times.                                        | Özel etkinlikler veya zamanlar.
+204   | Culture                                  | Kültür                                   | The art, beliefs, and ways of a group of people.                | Bir grup insanın sanatı, inançları ve yaşam tarzı.
+205   | Cultures                                 | Kültürler                                | Different ways of life around the world.                        | Dünyadaki farklı yaşam tarzları.
+206   | Preparation                              | Hazırlık                                 | Getting ready for something.                                    | Bir şey için hazır olma işlemi.
+207   | Preparations                             | Hazırlıklar                              | Things you do to get ready.                                     | Hazır olmak için yaptığın şeyler.
+208   | Miss                                     | Özlemek / Kaçırmak                       | To feel sad because someone is not there, or to not catch.      | Biri olmadığı için üzülmek veya bir şeyi yakalayamamak.
+209   | Throw                                    | Fırlatmak / Atmak                        | To send something through the air with your hand.               | Bir şeyi elinle havaya doğru yollamak.
+210   | Admiration                               | Hayranlık                                | A feeling of respecting or liking someone very much.            | Birine çok saygı duyma veya onu çok beğenme hissi.
+211   | Wrestling                                | Güreş                                    | A sport where two people try to throw each other to the ground. | İki kişinin birbirini yere atmaya çalıştığı bir spor.
+212   | Entertain                                | Eğlendirmek                              | To make people have fun.                                        | İnsanların eğlenmesini sağlamak.
+213   | Time                                     | Zaman / Defa                             | Minutes, hours, days, or occasions.                             | Dakikalar, saatler, günler veya durumlar.
+214   | Times                                    | Zamanlar / Defalar                       | Occasions or history periods.                                   | Durumlar, kere, defa veya geçmişteki dönemler.
+215   | Expression                               | İfade                                    | Words used to show a feeling or idea.                           | Bir hissi veya fikri göstermek için kullanılan söz.
+216   | Expressions                              | İfadeler                                 | Many words used to show feelings or ideas.                      | Hisleri veya fikirleri gösteren sözler.
+217   | Month                                    | Ay                                       | One of the 12 parts of a year.                                  | Bir yılın 12 bölümünden biri.
+218   | Months                                   | Aylar                                    | The 12 parts of a year.                                         | Bir yılın 12 bölümleri.
+219   | Before                                   | Önce / Öncesinde                         | Earlier than a time.                                            | Belirli bir zamandan daha erken.
+220   | After                                    | Sonra / Sonrasında                       | Later than a time.                                              | Belirli bir zamandan daha geç.
+221   | Now                                      | Şimdi / Şu an                            | At this very moment.                                            | Tam olarak içinde bulunduğumuz an.
+222   | While                                    | İken / Sırasında                         | At the same time as something else.                             | Başka bir şeyle aynı anda olduğu vakit.
+223   | Every Year                               | Her yıl / Her sene                       | Happening all years.                                            | Bütün yıllarda olan şey.
+224   | Year                                     | Yıl / Sene                               | 365 days.                                                       | 365 gün süren zaman.
+225   | Years                                    | Yıllar / Seneler                         | Many groups of 365 days.                                        | 365 günden oluşan grupların çoğu.
+226   | Hopelessly                               | Umutsuzca                                | Without any hope.                                               | Hiç umut olmadan.
+227   | Appointment                              | Randevu                                  | A time you agree to meet someone.                               | Biriyle buluşmak için anlaştığın zaman.
+228   | Appointments                             | Randevular                               | Times you agree to meet people.                                 | İnsanlarla buluşmak için anlaştığın zamanlar.
+229   | Client                                   | Müşteri / Müvekkil                       | A person who pays for a service.                                | Bir hizmet için ödeme yapan kişi.
+230   | Clients                                  | Müşteriler / Müvekkiller                 | People who pay for services.                                    | Hizmetler için ödeme yapan kişiler.
+231   | Colleague                                | İş arkadaşı                              | A person you work with.                                         | Birlikte çalıştığın kişi.
+232   | Colleagues                               | İş arkadaşları                           | People you work with.                                           | Birlikte çalıştığın kişiler.
+233   | Terrace                                  | Teras                                    | A flat area outside a building.                                 | Bir binanın dışındaki düz alan.
+234   | Terraces                                 | Teraslar                                 | Flat areas outside buildings.                                   | Binaların dışındaki düz alanlar.
+235   | Exchange                                 | Takas / Değişim                          | Giving something to get something else.                         | Başka bir şey almak için bir şey vermek.
+236   | Gossip                                   | Dedikodu                                 | Talking about other people's private lives.                     | Başka insanların özel hayatları hakkında konuşmak.
+237   | Curious                                  | Meraklı                                  | Wanting to know or learn something.                             | Bir şeyi bilmek veya öğrenmek istemek.
+238   | Jealous                                  | Kıskanç                                  | Feeling angry or sad because you want what someone else has.    | Başkasının sahip olduğu şeyi istediğin için üzgün hissetmek.
+239   | Jealousy                                 | Kıskançlık                               | The feeling of being jealous.                                   | Kıskanç olma hissi.
+240   | Life                                     | Hayat / Yaşam                            | The time a person is alive.                                     | Bir insanın hayatta olduğu zaman.
+241   | Lives                                    | Hayatlar / Yaşamlar                      | The times people are alive.                                     | İnsanların hayatta olduğu zamanlar.
+242   | Live                                     | Yaşamak / Canlı                          | To be alive or have a home somewhere.                           | Hayatta olmak veya bir yerde evi olmak.
+243   | Shine                                    | Parlamak                                 | To give out bright light.                                       | Parlak ışık yaymak.
+244   | Mostly                                   | Çoğunlukla                               | Almost all or most of the time.                                 | Neredeyse hepsi veya zamanın çoğu.
+245   | Cruelty                                  | Zulüm / Acımasızlık                      | Doing bad things to hurt others.                                | Başkalarını incitmek için kötü şeyler yapmak.
+246   | Violence                                 | Şiddet                                   | Action that hurts people or things.                             | İnsanlara veya eşyalara zarar veren eylem.
+247   | Co-founder                               | Kurucu ortak                             | A person who starts a business with someone else.               | Başka biriyle iş kuran kişi.
+248   | Co-founders                              | Kurucu ortaklar                          | People who start a business together.                           | Birlikte iş kuran kişiler.
+249   | Canvas                                   | Tuval / Kanvas                           | A strong cloth used for painting.                               | Resim yapmak için kullanılan güçlü kumaş.
+250   | Canvases                                 | Tuvaller                                 | Strong cloths used for painting.                                | Resim yapmak için kullanılan güçlü kumaşlar.
+251   | Sculpture                                | Heykel                                   | Art made from stone, wood, or metal.                            | Taş, ahşap veya metalden yapılan sanat.
+252   | Sculptures                               | Heykeller                                | Art pieces made from stone, wood, or metal.                     | Taş, ahşap veya metalden yapılan sanat eserleri.
+253   | Collage                                  | Kolaj                                    | Art made by putting pictures and paper together.                | Resim ve kağıtları bir araya getirerek yapılan sanat.
+254   | Collages                                 | Kolajlar                                 | Art pieces made by putting pictures and paper together.         | Resim ve kağıtları bir araya getirerek yapılan sanat eserleri.
+255   | Engraving                                | Oyma / Gravür                            | A picture made by cutting lines into metal or wood.             | Metal veya ahşaba çizgiler kesilerek yapılan resim.
+256   | Engravings                               | Oymalar / Gravürler                      | Pictures made by cutting lines into metal or wood.              | Metal veya ahşaba çizgiler kesilerek yapılan resimler.
+257   | Inhumanity                               | İnsanlık dışı olma / Vahşet              | Very cruel acting without feeling sorry.                        | Üzülmeden yapılan çok acımasız davranış.
+258   | Brutality                                | Gaddarlık / Vahşet                       | Cruel and violent behavior.                                     | Acımasız ve şiddet içeren davranış.
+259   | Talented                                 | Yetenekli                                | Having a natural ability to do something well.                  | Bir şeyi iyi yapmak için doğal bir yeteneğe sahip olmak.
+260   | Mainly                                   | Esasen / Çoğunlukla                      | More than anything else.                                        | Başka her şeyden daha fazla.
+261   | Draw                                     | Çizmek                                   | To make a picture with a pen or pencil.                         | Kalemle resim yapmak.
+262   | Drew                                     | Çizdi                                    | Past tense of draw.                                             | Çizmek fiilinin geçmiş zamanı.
+263   | Make                                     | Yapmak                                   | To create or produce something.                                 | Bir şey yaratmak veya üretmek.
+264   | Made                                     | Yaptı / Yapılmış                         | Past tense of make.                                             | Yapmak fiilinin geçmiş zamanı.
+265   | Well-known                               | Tanınmış / Ünlü                          | Known by many people.                                           | Birçok insan tarafından bilinen.
+266   | Extremely                                | Son derece / Aşırı                       | Very, very much.                                                | Çok, çok fazla.
+267   | Express                                  | İfade etmek                              | To show your feelings or thoughts.                              | Hislerini veya düşüncelerini göstermek.
+268   | Expressed                                | İfade etti                               | Past tense of express.                                          | İfade etmek fiilinin geçmiş zamanı.
+269   | Earthquake                               | Deprem                                   | A sudden, violent shaking of the ground.                        | Yerin ani, şiddetli bir şekilde sallanması.
+270   | Earthquakes                              | Depremler                                | Sudden, violent shakings of the ground.                         | Yerin ani, şiddetli sallantıları.
+271   | Avalanche                                | Çığ                                      | A large amount of snow falling down a mountain.                 | Dağdan aşağı düşen büyük miktarda kar.
+272   | Avalanches                               | Çığlar                                   | Large amounts of snow falling down a mountain.                  | Dağdan aşağı düşen büyük miktarda karlar.
+273   | Industry                                 | Endüstri / Sanayi                        | The making of goods in factories.                               | Fabrikalarda mal yapımı.
+274   | Industries                               | Endüstriler / Sanayiler                  | Different types of businesses making goods.                     | Mal yapan farklı iş türleri.
+275   | Release                                  | Serbest bırakmak / Yayınlamak            | To let something go or make it ready for people.                | Bir şeyi bırakmak veya insanlar için hazır hale getirmek.
+276   | Leading                                  | Lider / Önde gelen                       | Most important or best.                                         | En önemli veya en iyi olan.
+277   | Audience                                 | Seyirci / Dinleyici                      | People who watch or listen to a show.                           | Bir gösteriyi izleyen veya dinleyen insanlar.
+278   | Audiences                                | Seyirciler / Dinleyiciler                | Groups of people who watch or listen to a show.                 | Bir gösteriyi izleyen veya dinleyen insan grupları.
+279   | Drum                                     | Davul                                    | A musical instrument you hit to make a sound.                   | Ses çıkarmak için vurduğun müzik aleti.
+280   | Drums                                    | Davullar                                 | Musical instruments you hit to make sounds.                     | Ses çıkarmak için vurduğun müzik aletleri.
+281   | Beatles                                  | Beatles (Müzik Grubu)                    | A very famous English rock band.                                | Çok ünlü bir İngiliz rock grubu.
+282   | Authority                                | Yetkili / Otorite                        | The power to make rules or decisions.                           | Kural veya karar verme gücü.
+283   | Authorities                              | Yetkililer                               | People who have the power to make decisions.                    | Karar verme gücüne sahip olan insanlar.
+284   | Consider                                 | Dikkate almak / Düşünmek                 | To think about something carefully.                             | Bir şey hakkında dikkatlice düşünmek.
+285   | Exceed                                   | Aşmak / Geçmek                           | To be more than a number or limit.                              | Bir sayıdan veya sınırdan fazla olmak.
+286   | Exceeding                                | Aşan / Geçen                             | Being more than a limit.                                        | Bir sınırı aşma durumu.
+287   | Combination                              | Birleşim / Kombinasyon                   | Two or more things joined together.                             | İki veya daha fazla şeyin birleşmesi.
+288   | Combinations                             | Birleşimler                              | Different groups of things joined together.                     | Birlikte katılmış farklı şey grupları.
+289   | Dark                                     | Karanlık / Koyu                          | Having very little light.                                       | Çok az ışığı olan.
+290   | Hysterical                               | Histerik / Çok komik                     | Extremely funny or losing control of feelings.                  | Aşırı komik veya hislerin kontrolünü kaybetme.
+291   | Band                                     | Müzik grubu                              | A group of people who play music together.                      | Birlikte müzik çalan bir grup insan.
+292   | Bands                                    | Müzik grupları                           | Groups of people who play music together.                       | Birlikte müzik çalan insan grupları.
+293   | Famous                                   | Ünlü / Meşhur                            | Known by a lot of people.                                       | Birçok insan tarafından bilinen.
+294   | Church                                   | Kilise                                   | A building for Christian religious events.                      | Hristiyan dini etkinlikleri için bir bina.
+295   | Churches                                 | Kiliseler                                | Buildings for Christian religious events.                       | Hristiyan dini etkinlikleri için binalar.
+296   | Masterpiece                              | Başyapıt / Şaheser                       | A very great piece of art.                                      | Çok harika bir sanat eseri.
+297   | Masterpieces                             | Başyapıtlar / Şaheserler                 | Very great pieces of art.                                       | Çok harika sanat eserleri.
+298   | Fashion                                  | Moda                                     | A popular style of clothes.                                     | Popüler bir giyim tarzı.
+299   | Building                                 | Bina / Yapı                              | A place with a roof and walls, like a house.                    | Ev gibi çatısı ve duvarları olan bir yer.
+300   | Buildings                                | Binalar                                  | Places with roofs and walls.                                    | Çatıları ve duvarları olan yerler.
+301   | Museum                                   | Müze                                     | A building where you look at old or interesting things.         | Eski veya ilginç şeylere baktığın bina.
+302   | Museums                                  | Müzeler                                  | Buildings where you look at old or interesting things.          | Eski veya ilginç şeylere baktığın binalar.
+303   | Gallery                                  | Galeri                                   | A room or building for showing art.                             | Sanatı göstermek için bir oda veya bina.
+304   | Galleries                                | Galeriler                                | Rooms or buildings for showing art.                             | Sanatı göstermek için odalar veya binalar.
+305   | Therefore                                | Bu nedenle / Dolayısıyla                 | For that reason.                                                | O sebepten dolayı.
+306   | Contribute                               | Katkıda bulunmak                         | To give money, help, or an idea.                                | Para, yardım veya bir fikir vermek.
+307   | Contributing                             | Katkıda bulunan                          | Giving money, help, or an idea.                                 | Para, yardım veya bir fikir verme durumu.
+308   | Safe                                     | Güvenli                                  | Not in danger.                                                  | Tehlikede olmayan.
+309   | Expensive                                | Pahalı                                   | Costing a lot of money.                                         | Çok paraya mal olan.
+310   | Fantastic                                | Harika / Şahane                          | Very good or beautiful.                                         | Çok iyi veya güzel.
+311   | However                                  | Ancak / Yine de                          | But.                                                            | Fakat, lakin.
+312   | Honour                                   | Onur / Şeref                             | Great respect for someone.                                      | Birine duyulan büyük saygı.
+313   | Privilege                                | Ayrıcalık                                | A special right or advantage for a person.                      | Bir kişi için özel hak veya avantaj.
+314   | Privileges                               | Ayrıcalıklar                             | Special rights or advantages.                                   | Özel haklar veya avantajlar.
+315   | Interview                                | Röportaj / Mülakat                       | A meeting where someone asks you questions.                     | Birinin sana sorular sorduğu toplantı.
+316   | Interviews                               | Röportajlar / Mülakatlar                 | Meetings where people ask questions.                            | İnsanların sorular sorduğu toplantılar.
+317   | Admire                                   | Hayran olmak / Beğenmek                  | To respect and like someone or something.                       | Birine veya bir şeye saygı duymak ve beğenmek.
+318   | Invaluable                               | Paha biçilemez                           | Extremely useful or important.                                  | Son derece yararlı veya önemli.
+319   | Significant                              | Önemli / Anlamlı                         | Important and easy to see.                                      | Önemli ve görülmesi kolay olan.
+320   | Carriage                                 | At arabası / Vagon                       | A vehicle pulled by horses.                                     | Atlar tarafından çekilen bir araç.
+321   | Carriages                                | At arabaları / Vagonlar                  | Vehicles pulled by horses.                                      | Atlar tarafından çekilen araçlar.
+322   | Keep                                     | Tutmak / Saklamak                        | To have and not give back.                                      | Sahip olmak ve geri vermemek.
+323   | Happy                                    | Mutlu                                    | Feeling good and smiling.                                       | İyi hissetmek ve gülümsemek.
+324   | Happier                                  | Daha mutlu                               | Feeling more good than before.                                  | Eskisinden daha iyi hissetmek.
+325   | Elegant                                  | Zarif / Şık                              | Beautiful and graceful.                                         | Güzel ve zarif olan.
+326   | National                                 | Ulusal / Milli                           | About a whole country.                                          | Bütün bir ülke hakkında olan.
+327   | Anthem                                   | Marş                                     | A special song for a country or group.                          | Bir ülke veya grup için özel bir şarkı.
+328   | Anthems                                  | Marşlar                                  | Special songs for countries or groups.                          | Ülkeler veya gruplar için özel şarkılar.
+329   | Isolated                                 | İzole / Yalıtılmış                       | Far away from other things or people.                           | Başka şeylerden veya insanlardan çok uzakta olan.
+330   | Precious                                 | Değerli / Kıymetli                       | Very expensive or important to you.                             | Senin için çok pahalı veya önemli olan.
+331   | Ample                                    | Bol / Yeterince                          | More than enough.                                               | Yeterinden daha fazla olan.
+332   | Souvenir                                 | Hediyelik eşya / Hatıra                  | A thing you buy to remember a place.                            | Bir yeri hatırlamak için satın aldığın şey.
+333   | Souvenirs                                | Hediyelik eşyalar / Hatıralar            | Things you buy to remember places.                              | Yerleri hatırlamak için satın aldığın şeyler.
+334   | Mosque                                   | Cami                                     | A building for Islamic religious events.                        | İslami dini etkinlikler için bir bina.
+335   | Mosques                                  | Camiler                                  | Buildings for Islamic religious events.                         | İslami dini etkinlikler için binalar.
+336   | Empire                                   | İmparatorluk                             | A large group of countries ruled by one person.                 | Bir kişi tarafından yönetilen büyük bir ülke grubu.
+337   | Empires                                  | İmparatorluklar                          | Large groups of countries ruled by one person.                  | Bir kişi tarafından yönetilen büyük ülke grupları.
