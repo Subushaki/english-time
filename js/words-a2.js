@@ -804,7 +804,7 @@ const WORDS_A2_GRAMMAR = [
   { id: 5050, en: "The passengers must show ....... boarding passes at the gate before boarding.", tr: "their" }
 ];
 
-const WORDS_A2_GENEL = [
+const DUPLICATE_WORDS_A2_GENEL = [
   { id: 1001, en: "Anniversaries", tr: "Yıl dönümleri", hintEn: "Special dates we remember every year.", hintTr: "Her yıl hatırladığımız özel tarihler." },
   { id: 1002, en: "Architecture", tr: "Mimari", hintEn: "The art of planning and making buildings.", hintTr: "Bina planlama ve inşa etme sanatı." },
   { id: 1003, en: "Beach", tr: "Plaj / Kumsal", hintEn: "A sandy place next to the sea.", hintTr: "Deniz kenarındaki kumlu yer." },
