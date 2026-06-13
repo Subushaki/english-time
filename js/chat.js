@@ -2,17 +2,9 @@
 (function() {
   'use strict';
 
-  const AGE_GROUPS = {
-    young:  { label: 'Genç (0-17)', icon: '🟢', color: '#10b981' },
-    adult:  { label: 'Yetişkin (18-32)', icon: '🔵', color: '#3b82f6' },
-    mature: { label: 'Olgun (33+)', icon: '🟣', color: '#8b5cf6' },
-    global: { label: 'Genel Sohbet', icon: '🌐', color: '#f59e0b' }
-  };
-
   const CONSECUTIVE_TIMEOUT = 5 * 60 * 1000; // 5 dakika
 
   let currentUser = null;
-  let ageGroup = null;
   let replyToMessage = null;
   let reportTargetMsg = null;
   let forwardTargetMsg = null;
@@ -21,20 +13,6 @@
   let msgUserMap = {};
   let lastMessageUserId = null;
   let lastMessageTime = null;
-
-  // ===== AGE CALCULATION =====
-  function calculateAge(year, month) {
-    const now = new Date();
-    let age = now.getFullYear() - year;
-    if ((now.getMonth() + 1) < month) age--;
-    return Math.max(0, age);
-  }
-
-  function getAgeGroup(age) {
-    if (age <= 17) return 'young';
-    if (age <= 32) return 'adult';
-    return 'mature';
-  }
 
   // ===== ESCAPE HTML =====
   function escapeHtml(str) {
@@ -117,17 +95,29 @@
     return el;
   }
 
+  // ===== CLEANUP OLD MESSAGES (24 SAAT) =====
+  async function cleanupOldMessages() {
+    try {
+      const sb = getSupabase();
+      const cutoff = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
+      await sb.from('chat_messages').delete().lt('created_at', cutoff);
+    } catch (e) {
+      // Silent — cleanup should never break the app
+    }
+  }
+
   // ===== LOAD MESSAGES =====
   async function loadMessages() {
     const container = document.getElementById('chat-messages');
     const sb = getSupabase();
 
     try {
-      // Load last 100 messages
+      // Load last 100 messages (only from last 24h)
+      const cutoff = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
       const { data, error } = await sb.from('chat_messages')
         .select('*, profiles(username, avatar, avatar_bg, name_style)')
-        .eq('age_group', ageGroup)
         .eq('is_deleted', false)
+        .gte('created_at', cutoff)
         .order('created_at', { ascending: true })
         .limit(100);
 
@@ -171,7 +161,7 @@
       container.scrollTop = container.scrollHeight;
 
     } catch (e) {
-      container.innerHTML = '<div style="text-align:center; color:var(--accent-red); padding: 40px;">Mesajlar yüklenirken hata oluştu. Tablolar oluşturulmuş olmalıdır.</div>';
+      container.innerHTML = '<div style="text-align:center; color:var(--accent-red); padding: 40px;">Mesajlar yüklenirken hata oluştu.</div>';
     }
   }
 
@@ -186,12 +176,11 @@
     }
 
     realtimeChannel = sb
-      .channel('chat-' + ageGroup)
+      .channel('chat-global')
       .on('postgres_changes', {
         event: 'INSERT',
         schema: 'public',
-        table: 'chat_messages',
-        filter: 'age_group=eq.' + ageGroup
+        table: 'chat_messages'
       }, async (payload) => {
         const msg = payload.new;
 
@@ -239,8 +228,7 @@
       .on('postgres_changes', {
         event: 'UPDATE',
         schema: 'public',
-        table: 'chat_messages',
-        filter: 'age_group=eq.' + ageGroup
+        table: 'chat_messages'
       }, (payload) => {
         const msg = payload.new;
         if (msg.is_deleted) {
@@ -310,7 +298,7 @@
 
       const insertData = {
         user_id: currentUser.id,
-        age_group: ageGroup,
+        age_group: 'global',
         content: finalContent,
         reply_to: replyToMessage ? replyToMessage.id : null
       };
@@ -322,7 +310,7 @@
       if (systemMsg) {
          await sb.from('chat_messages').insert({
              user_id: currentUser.id, 
-             age_group: ageGroup,
+             age_group: 'global',
              content: systemMsg
          });
       }
@@ -417,14 +405,8 @@
 
     try {
       const sb = getSupabase();
-      
-      // We do a soft delete so it disappears but leaves a trace if needed,
-      // or we can hard delete if desired. For now, soft delete via is_deleted=true
       const { error } = await sb.from('chat_messages').update({ is_deleted: true }).eq('id', msgId);
-      
       if (error) throw error;
-      
-      // The realtime UPDATE listener will catch this and remove the message from the UI
     } catch (e) {
       alert('Mesaj silinemedi: ' + e.message);
     }
@@ -551,10 +533,8 @@
 
   // ===== HELPER: get user_id from rendered message =====
   function getMsgUserId(msgId) {
-    // Check the data attribute first
     const el = document.querySelector('[data-msg-id="' + msgId + '"]');
     if (el) return el.getAttribute('data-user-id');
-    // Fallback to map
     return msgUserMap[msgId] || null;
   }
 
@@ -577,44 +557,6 @@
     });
   }
 
-  // ===== SWITCH ROOM =====
-  window.switchRoom = async function(newGroup) {
-    if (newGroup === ageGroup) return;
-
-    // AGRESİF TEMİZLİK: tüm channel'ları kapat
-    const sb = getSupabase();
-    sb.removeAllChannels();
-    realtimeChannel = null;
-
-    ageGroup = newGroup;
-    lastMessageUserId = null;
-    lastMessageTime = null;
-
-    // Admin Bypass: Adminler odaya yazabilmek için RLS'i aşmalı.
-    // Odayı değiştirdiklerinde veritabanındaki yaş gruplarını da güncelliyoruz.
-    if (currentUser && currentUser.is_admin) {
-      try {
-        const sb = getSupabase();
-        await sb.from('profiles').update({ chat_age_group: newGroup }).eq('id', currentUser.id);
-        currentUser.chat_age_group = newGroup;
-        localStorage.setItem('english_time_user', JSON.stringify(currentUser));
-      } catch(e) {}
-    }
-
-    // Update UI
-    const groupInfo = AGE_GROUPS[ageGroup];
-    document.getElementById('room-icon').textContent = groupInfo.icon;
-    document.getElementById('room-name').textContent = 'Global Sohbet — ' + groupInfo.label;
-
-    // Update room selector active state
-    document.querySelectorAll('.room-selector-btn').forEach(b => {
-      b.classList.toggle('active', b.getAttribute('data-room') === newGroup);
-    });
-
-    await loadMessages();
-    subscribeRealtime();
-  };
-
   // ===== INIT =====
   document.addEventListener('DOMContentLoaded', async () => {
     const user = await getCurrentUser();
@@ -624,90 +566,16 @@
     }
     currentUser = user;
 
-    // Admin bypass — admins always have chat access
-    if (user.is_admin && !user.chat_approved) {
-      try {
-        const sb = getSupabase();
-        await sb.from('profiles').update({ chat_approved: true }).eq('id', user.id);
-        user.chat_approved = true;
-        localStorage.setItem('english_time_user', JSON.stringify(user));
-      } catch(e) { /* silent */ }
-    }
-
-    // Check chat approval
-    if (!user.chat_approved) {
-      document.getElementById('chat-not-approved').style.display = 'block';
-      return;
-    }
-
-    // Check URL param for room
-    const params = new URLSearchParams(window.location.search);
-    const requestedRoom = params.get('room');
-
-    // Calculate age group (auto-migration)
-    if (user.birth_year && user.birth_month) {
-      const age = calculateAge(user.birth_year, user.birth_month);
-      const newGroup = getAgeGroup(age);
-
-      // Update if group changed
-      if (newGroup !== user.chat_age_group) {
-        try {
-          const sb = getSupabase();
-          await sb.from('profiles').update({ chat_age_group: newGroup }).eq('id', user.id);
-          user.chat_age_group = newGroup;
-          localStorage.setItem('english_time_user', JSON.stringify(user));
-        } catch(e) { /* silent */ }
-      }
-
-      ageGroup = requestedRoom || newGroup;
-    } else {
-      ageGroup = requestedRoom || user.chat_age_group || 'adult';
-    }
-
-    // Global room warning (first time only)
-    if (ageGroup === 'global' && !sessionStorage.getItem('global_chat_warned')) {
-      const accepted = confirm(
-        '🌐 Genel Sohbet Uyarısı\n\n' +
-        'Bu oda tüm yaş gruplarını içerir. ' +
-        'Farklı yaşlardan insanlarla sohbet edeceksiniz.\n\n' +
-        'Devam etmek istiyor musunuz?'
-      );
-      if (!accepted) {
-        ageGroup = user.chat_age_group || 'adult';
-      } else {
-        sessionStorage.setItem('global_chat_warned', '1');
-      }
-    }
-
     // Set room info
-    const groupInfo = AGE_GROUPS[ageGroup];
-    document.getElementById('room-icon').textContent = groupInfo.icon;
-    document.getElementById('room-name').textContent = 'Global Sohbet — ' + groupInfo.label;
+    document.getElementById('room-icon').textContent = '💬';
+    document.getElementById('room-name').textContent = 'Global Sohbet';
     document.getElementById('room-online').textContent = 'Bağlandı ✓';
 
-    // Setup room selector
-    const selectorEl = document.getElementById('room-selector');
-    if (selectorEl) {
-      const userGroup = user.chat_age_group || 'adult';
-      let buttons = '';
-      // Show user's own group + global
-      const groupInfo2 = AGE_GROUPS[userGroup];
-      buttons += '<button class="room-selector-btn' + (ageGroup === userGroup ? ' active' : '') + '" data-room="' + userGroup + '" onclick="switchRoom(\'' + userGroup + '\')">' + groupInfo2.icon + ' ' + groupInfo2.label + '</button>';
-      buttons += '<button class="room-selector-btn' + (ageGroup === 'global' ? ' active' : '') + '" data-room="global" onclick="switchRoom(\'global\')">🌐 Genel</button>';
-
-      // Admin sees all rooms
-      if (user.is_admin) {
-        buttons = '';
-        Object.keys(AGE_GROUPS).forEach(key => {
-          const gi = AGE_GROUPS[key];
-          buttons += '<button class="room-selector-btn' + (ageGroup === key ? ' active' : '') + '" data-room="' + key + '" onclick="switchRoom(\'' + key + '\')">' + gi.icon + ' ' + gi.label + '</button>';
-        });
-      }
-      selectorEl.innerHTML = buttons;
-    }
-
-    // Show chat
+    // Show chat directly — no approval needed
     document.getElementById('chat-room').style.display = 'block';
+
+    // Cleanup old messages (24h) — runs once per session
+    cleanupOldMessages();
 
     setupInput();
     await loadMessages();
@@ -744,9 +612,7 @@
       // Tab aktif → debounce ile tekrar bağlan (hızlı sekme değişiminde spam önlenir)
       clearTimeout(reconnectTimeout);
       reconnectTimeout = setTimeout(() => {
-        if (ageGroup) {
-          subscribeRealtime();
-        }
+        subscribeRealtime();
       }, 300);
     }
   });

@@ -146,8 +146,8 @@ async function updateUserBar() {
     let navItems = mobileNotif;
     navItems += '<a href="inbox.html" class="burger-nav-item"><span class="burger-nav-icon">📥</span> Gelen Kutusu</a>';
 
-    const chatUrl = user.chat_approved ? 'chat.html' : 'chat-apply.html';
-    const isChat = window.location.pathname.includes('chat.html') || window.location.pathname.includes('chat-apply.html');
+    const chatUrl = 'chat.html';
+    const isChat = window.location.pathname.includes('chat.html');
 
     if (!isIndex) navItems += '<a href="index.html" class="burger-nav-item"><span class="burger-nav-icon">🏠</span> Ana Sayfa</a>';
     if (!isDashboard) navItems += '<a href="dashboard.html" class="burger-nav-item"><span class="burger-nav-icon">📊</span> Panelim</a>';
@@ -427,20 +427,8 @@ modal.classList.add('open');
     let adminHtml = '';
     if (user.is_admin) {
       try {
-        const { count: appCount } = await sb.from('chat_applications').select('*', { count: 'exact', head: true }).eq('status', 'pending');
         const { count: repCount } = await sb.from('chat_reports').select('*', { count: 'exact', head: true }).eq('status', 'pending');
         
-        if (appCount > 0) {
-          adminHtml += `
-            <div style="padding: 20px; border-bottom: 1px solid var(--glass-border); background: rgba(16, 185, 129, 0.05); display: flex; flex-direction: column; gap: 8px;">
-              <div style="font-weight: 600; color: var(--text-primary); display:flex; justify-content:space-between; align-items: flex-start; gap: 10px;">
-                <span>🛡️ Yeni Sohbet Başvurusu</span>
-                <span style="color:var(--accent-green); font-size:0.7rem; padding:3px 8px; border-radius:12px; background:rgba(16,185,129,0.15); font-weight:700; flex-shrink:0;">${appCount} ADET</span>
-              </div>
-              <div style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.4;">İncelenmeyi bekleyen ${appCount} adet global sohbet başvurusu var.</div>
-              <a href="admin-chat.html" style="color: var(--accent-green); font-size: 0.85rem; font-weight: 600; text-decoration: none; margin-top: 5px; cursor: pointer;">İncele →</a>
-            </div>`;
-        }
         if (repCount > 0) {
           adminHtml += `
             <div style="padding: 20px; border-bottom: 1px solid var(--glass-border); background: rgba(239, 68, 68, 0.05); display: flex; flex-direction: column; gap: 8px;">

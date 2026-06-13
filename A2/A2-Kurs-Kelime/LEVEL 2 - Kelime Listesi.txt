@@ -126,7 +126,7 @@ No   | English                              | Türkçe
 121  | Wash Your Hair                       | Saçlarını Yıkamak
 122  | Have a Shave                         | Tıraş Olmak
 123  | Put On Make Up                       | Makyaj Yapmak
-124  | Take Off Make Up                     | Makyajı Çıkarmak / Silmek
+124  | Take Off Make Up                     | Makyajı Çıkarmak / Makyajı Silmek
 125  | Tissue                               | Mendil
 126  | Put On Perfume                       | Parfüm Sıkmak
 127  | Wear Perfume                         | Parfüm Sıkmak

@@ -122,7 +122,7 @@ const WORDS_A2 = [
   { id: 121, en: "Wash Your Hair", tr: "Saçlarını Yıkamak", hintEn: "To clean the hair on your head.", hintTr: "Başındaki saçları temizlemek." },
   { id: 122, en: "Have a Shave", tr: "Tıraş Olmak", hintEn: "To cut hair from the face.", hintTr: "Yüzdeki kılları kesmek." },
   { id: 123, en: "Put On Make Up", tr: "Makyaj Yapmak", hintEn: "To use color on your face to look nice.", hintTr: "Güzel görünmek için yüze renk sürmek." },
-  { id: 124, en: "Take Off Make Up", tr: "Makyajı Çıkarmak / Silmek", hintEn: "To clean color from your face.", hintTr: "Yüzündeki boyayı temizlemek." },
+  { id: 124, en: "Take Off Make Up", tr: "Makyajı Çıkarmak / Makyajı Silmek", hintEn: "To clean color from your face.", hintTr: "Yüzündeki boyayı temizlemek." },
   { id: 125, en: "Tissue", tr: "Mendil", hintEn: "Soft paper to clean your nose or face.", hintTr: "Burnunu veya yüzünü temizlemek için yumuşak kağıt." },
   { id: 126, en: "Put On Perfume", tr: "Parfüm Sıkmak", hintEn: "To put sweet-smelling liquid on yourself.", hintTr: "Üzerine güzel kokulu sıvı sıkmak." },
   { id: 127, en: "Wear Perfume", tr: "Parfüm Sıkmak", hintEn: "To have a nice smell on your body.", hintTr: "Vücudunda güzel bir koku olması." },

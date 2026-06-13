@@ -196,13 +196,8 @@
     </div>
     <div class="sidebar-section">
       <div class="sidebar-section-title">💬 Global Sohbet</div>
-      <a href="#" class="sidebar-link active" onclick="switchChatView('applications'); return false;">📋 Başvurular <span class="sidebar-badge" id="sb-app-count">0</span></a>
-      <div class="sidebar-sub">
-        <div style="padding: 6px 10px; font-size: 0.78rem; color: var(--text-muted); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-top: 8px;">Yaş Grupları</div>
-        <a href="#" class="sidebar-link" onclick="switchChatView('reports', 'young'); return false;">🟢 Genç (0-17) <span class="sidebar-badge" id="sb-young-count">0</span></a>
-        <a href="#" class="sidebar-link" onclick="switchChatView('reports', 'adult'); return false;">🔵 Yetişkin (18-32) <span class="sidebar-badge" id="sb-adult-count">0</span></a>
-        <a href="#" class="sidebar-link" onclick="switchChatView('reports', 'mature'); return false;">🟣 Olgun (33+) <span class="sidebar-badge" id="sb-mature-count">0</span></a>
-      </div>
+      <a href="#" class="sidebar-link active" onclick="switchChatView('reports'); return false;">🚩 Mesaj Raporları</a>
+      <a href="#" class="sidebar-link" onclick="switchChatView('forwards'); return false;">📨 İletilen Mesajlar</a>
     </div>
     <div class="sidebar-section">
       <a href="settings.html" class="sidebar-link">⚙️ Ayarlara Dön</a>
@@ -217,19 +212,8 @@
 
     <!-- Sub-tabs -->
     <div class="chat-admin-tabs" id="chat-admin-tabs">
-      <button class="chat-admin-tab active" onclick="switchChatView('applications')">📋 Başvurular</button>
-      <button class="chat-admin-tab" onclick="switchChatView('reports')">🚩 Mesaj Raporları</button>
+      <button class="chat-admin-tab active" onclick="switchChatView('reports')">🚩 Mesaj Raporları</button>
       <button class="chat-admin-tab" onclick="switchChatView('forwards')">📨 İletilen Mesajlar</button>
-    </div>
-
-    <!-- Age group filter (shown for reports/forwards) -->
-    <div id="age-filter" style="display: none; margin-bottom: 20px;">
-      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
-        <button class="chat-admin-tab active" onclick="filterAgeGroup('all')">🌐 Tümü</button>
-        <button class="chat-admin-tab" onclick="filterAgeGroup('young')">🟢 Genç</button>
-        <button class="chat-admin-tab" onclick="filterAgeGroup('adult')">🔵 Yetişkin</button>
-        <button class="chat-admin-tab" onclick="filterAgeGroup('mature')">🟣 Olgun</button>
-      </div>
     </div>
 
     <!-- Content -->

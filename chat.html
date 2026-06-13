@@ -22,34 +22,19 @@
   <div class="container">
     <div class="user-bar" id="user-bar"></div>
 
-    <!-- Not Approved Screen -->
-    <div id="chat-not-approved" style="display: none;">
-      <div class="chat-status-screen">
-        <div class="chat-status-icon">🔒</div>
-        <div class="chat-status-title">Sohbet Erişimi Gerekli</div>
-        <div class="chat-status-desc">Global sohbete katılmak için önce başvuru yapmanız gerekiyor.</div>
-        <a href="chat-apply.html" class="apply-btn apply-btn-primary" style="margin-top: 16px; text-decoration: none; display: inline-block; max-width: 240px;">📝 Başvuru Yap</a>
-      </div>
-    </div>
-
     <!-- Chat Room -->
     <div id="chat-room" style="display: none;">
       <div class="chat-wrapper">
         <!-- Header -->
         <div class="chat-header">
           <div class="chat-header-left">
-            <div class="chat-room-icon" id="room-icon">🟢</div>
+            <div class="chat-room-icon" id="room-icon">💬</div>
             <div>
               <div class="chat-room-name" id="room-name">Global Sohbet</div>
               <div class="chat-room-online" id="room-online">Bağlanıyor...</div>
             </div>
           </div>
           <a href="settings.html" style="color: var(--text-muted); text-decoration: none; font-size: 0.85rem;">⚙️</a>
-        </div>
-
-        <!-- Room Selector -->
-        <div class="room-selector" id="room-selector">
-          <!-- Dynamically populated by JS -->
         </div>
 
         <!-- Messages -->
