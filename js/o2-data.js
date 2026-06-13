@@ -8434,8 +8434,8 @@ const O2_DATABASE = [
   {
     id: "vocab-genel-1162",
     category: "vocabulary",
-    title: "Street — Sokak",
-    keywords: ["street", "sokak", "kelime", "vocabulary", "ipucu", "genel"],
+    title: "Street — Sokak / Cadde",
+    keywords: ["street", "sokak", "cadde", "kelime", "vocabulary", "ipucu", "genel"],
     content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
     details: [
       "🇬🇧 A road in a city or town.",
@@ -8447,8 +8447,8 @@ const O2_DATABASE = [
   {
     id: "vocab-genel-1163",
     category: "vocabulary",
-    title: "Streets — Sokaklar",
-    keywords: ["streets", "sokaklar", "kelime", "vocabulary", "ipucu", "genel"],
+    title: "Streets — Sokaklar / Caddeler",
+    keywords: ["streets", "sokaklar", "caddeler", "kelime", "vocabulary", "ipucu", "genel"],
     content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
     details: [
       "🇬🇧 Roads in a city or town.",
