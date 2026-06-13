@@ -371,6 +371,23 @@
         if (this.value.trim()) sendDirectMessage();
       }
     });
+
+    // Mobile keyboard fix: scroll messages to bottom when keyboard opens
+    input.addEventListener('focus', function() {
+      setTimeout(() => {
+        const container = document.getElementById('inbox-messages');
+        if (container) container.scrollTop = container.scrollHeight;
+      }, 350);
+    });
+
+    if (window.visualViewport) {
+      window.visualViewport.addEventListener('resize', () => {
+        const container = document.getElementById('inbox-messages');
+        if (container && document.activeElement === input) {
+          setTimeout(() => { container.scrollTop = container.scrollHeight; }, 100);
+        }
+      });
+    }
   }
 
   // ===== MOBILE CLOSE CHAT =====

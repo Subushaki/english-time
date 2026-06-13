@@ -555,6 +555,24 @@
         if (this.value.trim()) sendMessage();
       }
     });
+
+    // Mobile keyboard fix: scroll to bottom when input gets focus
+    input.addEventListener('focus', function() {
+      setTimeout(() => {
+        const container = document.getElementById('chat-messages');
+        if (container) container.scrollTop = container.scrollHeight;
+      }, 350);
+    });
+
+    // Visualviewport resize (keyboard open/close) → re-scroll
+    if (window.visualViewport) {
+      window.visualViewport.addEventListener('resize', () => {
+        const container = document.getElementById('chat-messages');
+        if (container && document.activeElement === input) {
+          setTimeout(() => { container.scrollTop = container.scrollHeight; }, 100);
+        }
+      });
+    }
   }
 
   // ===== INIT =====

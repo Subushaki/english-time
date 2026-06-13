@@ -228,3 +228,115 @@ No   | English                                 | Türkçe                       
 223  | Every Year                              | Her yıl / Her sene                      | Happening all years.                                        | Bütün yıllarda olan şey.
 224  | Year                                    | Yıl / Sene                              | 365 days.                                                   | 365 gün süren zaman.
 225  | Years                                   | Yıllar / Seneler                        | Many groups of 365 days.                                    | 365 günden oluşan grupların çoğu.
+226,Hopelessly,Umutsuzca,Without any hope.,Hiç umut olmadan.
+227,Appointment,Randevu,A time you agree to meet someone.,Biriyle buluşmak için anlaştığın zaman.
+228,Appointments,Randevular,Times you agree to meet people.,İnsanlarla buluşmak için anlaştığın zamanlar.
+229,Client,Müşteri / Müvekkil,A person who pays for a service.,Bir hizmet için ödeme yapan kişi.
+230,Clients,Müşteriler / Müvekkiller,People who pay for services.,Hizmetler için ödeme yapan kişiler.
+231,Colleague,İş arkadaşı,A person you work with.,Birlikte çalıştığın kişi.
+232,Colleagues,İş arkadaşları,People you work with.,Birlikte çalıştığın kişiler.
+233,Terrace,Teras,A flat area outside a building.,Bir binanın dışındaki düz alan.
+234,Terraces,Teraslar,Flat areas outside buildings.,Binaların dışındaki düz alanlar.
+235,Exchange,Takas / Değişim,Giving something to get something else.,Başka bir şey almak için bir şey vermek.
+236,Gossip,Dedikodu,Talking about other people's private lives.,Başka insanların özel hayatları hakkında konuşmak.
+237,Curious,Meraklı,Wanting to know or learn something.,Bir şeyi bilmek veya öğrenmek istemek.
+238,Jealous,Kıskanç,Feeling angry or sad because you want what someone else has.,Başkasının sahip olduğu şeyi istediğin için üzgün hissetmek.
+239,Jealousy,Kıskançlık,The feeling of being jealous.,Kıskanç olma hissi.
+240,Life,Hayat / Yaşam,The time a person is alive.,Bir insanın hayatta olduğu zaman.
+241,Lives,Hayatlar / Yaşamlar,The times people are alive.,İnsanların hayatta olduğu zamanlar.
+242,Live,Yaşamak / Canlı,To be alive or have a home somewhere.,Hayatta olmak veya bir yerde evi olmak.
+243,Shine,Parlamak,To give out bright light.,Parlak ışık yaymak.
+244,Mostly,Çoğunlukla,Almost all or most of the time.,Neredeyse hepsi veya zamanın çoğu.
+245,Cruelty,Zulüm / Acımasızlık,Doing bad things to hurt others.,Başkalarını incitmek için kötü şeyler yapmak.
+246,Violence,Şiddet,Action that hurts people or things.,İnsanlara veya eşyalara zarar veren eylem.
+247,Co-founder,Kurucu ortak,A person who starts a business with someone else.,Başka biriyle iş kuran kişi.
+248,Co-founders,Kurucu ortaklar,People who start a business together.,Birlikte iş kuran kişiler.
+249,Canvas,Tuval / Kanvas,A strong cloth used for painting.,Resim yapmak için kullanılan güçlü kumaş.
+250,Canvases,Tuvaller,Strong cloths used for painting.,Resim yapmak için kullanılan güçlü kumaşlar.
+251,Sculpture,Heykel,"Art made from stone, wood, or metal.","Taş, ahşap veya metalden yapılan sanat."
+252,Sculptures,Heykeller,"Art pieces made from stone, wood, or metal.","Taş, ahşap veya metalden yapılan sanat eserleri."
+253,Collage,Kolaj,Art made by putting pictures and paper together.,Resim ve kağıtları bir araya getirerek yapılan sanat.
+254,Collages,Kolajlar,Art pieces made by putting pictures and paper together.,Resim ve kağıtları bir araya getirerek yapılan sanat eserleri.
+255,Engraving,Oyma / Gravür,A picture made by cutting lines into metal or wood.,Metal veya ahşaba çizgiler kesilerek yapılan resim.
+256,Engravings,Oymalar / Gravürler,Pictures made by cutting lines into metal or wood.,Metal veya ahşaba çizgiler kesilerek yapılan resimler.
+257,Inhumanity,İnsanlık dışı olma / Vahşet,Very cruel acting without feeling sorry.,Üzülmeden yapılan çok acımasız davranış.
+258,Brutality,Gaddarlık / Vahşet,Cruel and violent behavior.,Acımasız ve şiddet içeren davranış.
+259,Talented,Yetenekli,Having a natural ability to do something well.,Bir şeyi iyi yapmak için doğal bir yeteneğe sahip olmak.
+260,Mainly,Esasen / Çoğunlukla,More than anything else.,Başka her şeyden daha fazla.
+261,Draw,Çizmek,To make a picture with a pen or pencil.,Kalemle resim yapmak.
+262,Drew,Çizdi,Past tense of draw.,Çizmek fiilinin geçmiş zamanı.
+263,Make,Yapmak,To create or produce something.,Bir şey yaratmak veya üretmek.
+264,Made,Yaptı / Yapılmış,Past tense of make.,Yapmak fiilinin geçmiş zamanı.
+265,Well-known,Tanınmış / Ünlü,Known by many people.,Birçok insan tarafından bilinen.
+266,Extremely,Son derece / Aşırı,"Very, very much.","Çok, çok fazla."
+267,Express,İfade etmek,To show your feelings or thoughts.,Hislerini veya düşüncelerini göstermek.
+268,Expressed,İfade etti,Past tense of express.,İfade etmek fiilinin geçmiş zamanı.
+269,Earthquake,Deprem,"A sudden, violent shaking of the ground.","Yerin ani, şiddetli bir şekilde sallanması."
+270,Earthquakes,Depremler,"Sudden, violent shakings of the ground.","Yerin ani, şiddetli sallantıları."
+271,Avalanche,Çığ,A large amount of snow falling down a mountain.,Dağdan aşağı düşen büyük miktarda kar.
+272,Avalanches,Çığlar,Large amounts of snow falling down a mountain.,Dağdan aşağı düşen büyük miktarda karlar.
+273,Industry,Endüstri / Sanayi,The making of goods in factories.,Fabrikalarda mal yapımı.
+274,Industries,Endüstriler / Sanayiler,Different types of businesses making goods.,Mal yapan farklı iş türleri.
+275,Release,Serbest bırakmak / Yayınlamak,To let something go or make it ready for people.,Bir şeyi bırakmak veya insanlar için hazır hale getirmek.
+276,Leading,Lider / Önde gelen,Most important or best.,En önemli veya en iyi olan.
+277,Audience,Seyirci / Dinleyici,People who watch or listen to a show.,Bir gösteriyi izleyen veya dinleyen insanlar.
+278,Audiences,Seyirciler / Dinleyiciler,Groups of people who watch or listen to a show.,Bir gösteriyi izleyen veya dinleyen insan grupları.
+279,Drum,Davul,A musical instrument you hit to make a sound.,Ses çıkarmak için vurduğun müzik aleti.
+280,Drums,Davullar,Musical instruments you hit to make sounds.,Ses çıkarmak için vurduğun müzik aletleri.
+281,Beatles,Beatles (Müzik Grubu),A very famous English rock band.,Çok ünlü bir İngiliz rock grubu.
+282,Authority,Yetkili / Otorite,The power to make rules or decisions.,Kural veya karar verme gücü.
+283,Authorities,Yetkililer,People who have the power to make decisions.,Karar verme gücüne sahip olan insanlar.
+284,Consider,Dikkate almak / Düşünmek,To think about something carefully.,Bir şey hakkında dikkatlice düşünmek.
+285,Exceed,Aşmak / Geçmek,To be more than a number or limit.,Bir sayıdan veya sınırdan fazla olmak.
+286,Exceeding,Aşan / Geçen,Being more than a limit.,Bir sınırı aşma durumu.
+287,Combination,Birleşim / Kombinasyon,Two or more things joined together.,İki veya daha fazla şeyin birleşmesi.
+288,Combinations,Birleşimler,Different groups of things joined together.,Birlikte katılmış farklı şey grupları.
+289,Dark,Karanlık / Koyu,Having very little light.,Çok az ışığı olan.
+290,Hysterical,Histerik / Çok komik,Extremely funny or losing control of feelings.,Aşırı komik veya hislerin kontrolünü kaybetme.
+291,Band,Müzik grubu,A group of people who play music together.,Birlikte müzik çalan bir grup insan.
+292,Bands,Müzik grupları,Groups of people who play music together.,Birlikte müzik çalan insan grupları.
+293,Famous,Ünlü / Meşhur,Known by a lot of people.,Birçok insan tarafından bilinen.
+294,Church,Kilise,A building for Christian religious events.,Hristiyan dini etkinlikleri için bir bina.
+295,Churches,Kiliseler,Buildings for Christian religious events.,Hristiyan dini etkinlikleri için binalar.
+296,Masterpiece,Başyapıt / Şaheser,A very great piece of art.,Çok harika bir sanat eseri.
+297,Masterpieces,Başyapıtlar / Şaheserler,Very great pieces of art.,Çok harika sanat eserleri.
+298,Fashion,Moda,A popular style of clothes.,Popüler bir giyim tarzı.
+299,Building,Bina / Yapı,"A place with a roof and walls, like a house.",Ev gibi çatısı ve duvarları olan bir yer.
+300,Buildings,Binalar,Places with roofs and walls.,Çatıları ve duvarları olan yerler.
+301,Museum,Müze,A building where you look at old or interesting things.,Eski veya ilginç şeylere baktığın bina.
+302,Museums,Müzeler,Buildings where you look at old or interesting things.,Eski veya ilginç şeylere baktığın binalar.
+303,Gallery,Galeri,A room or building for showing art.,Sanatı göstermek için bir oda veya bina.
+304,Galleries,Galeriler,Rooms or buildings for showing art.,Sanatı göstermek için odalar veya binalar.
+305,Therefore,Bu nedenle / Dolayısıyla,For that reason.,O sebepten dolayı.
+306,Contribute,Katkıda bulunmak,"To give money, help, or an idea.","Para, yardım veya bir fikir vermek."
+307,Contributing,Katkıda bulunan,"Giving money, help, or an idea.","Para, yardım veya bir fikir verme durumu."
+308,Safe,Güvenli,Not in danger.,Tehlikede olmayan.
+309,Expensive,Pahalı,Costing a lot of money.,Çok paraya mal olan.
+310,Fantastic,Harika / Şahane,Very good or beautiful.,Çok iyi veya güzel.
+311,However,Ancak / Yine de,But.,"Fakat, lakin."
+312,Honour,Onur / Şeref,Great respect for someone.,Birine duyulan büyük saygı.
+313,Privilege,Ayrıcalık,A special right or advantage for a person.,Bir kişi için özel hak veya avantaj.
+314,Privileges,Ayrıcalıklar,Special rights or advantages.,Özel haklar veya avantajlar.
+315,Interview,Röportaj / Mülakat,A meeting where someone asks you questions.,Birinin sana sorular sorduğu toplantı.
+316,Interviews,Röportajlar / Mülakatlar,Meetings where people ask questions.,İnsanların sorular sorduğu toplantılar.
+317,Admire,Hayran olmak / Beğenmek,To respect and like someone or something.,Birine veya bir şeye saygı duymak ve beğenmek.
+318,Invaluable,Paha biçilemez,Extremely useful or important.,Son derece yararlı veya önemli.
+319,Significant,Önemli / Anlamlı,Important and easy to see.,Önemli ve görülmesi kolay olan.
+320,Carriage,At arabası / Vagon,A vehicle pulled by horses.,Atlar tarafından çekilen bir araç.
+321,Carriages,At arabaları / Vagonlar,Vehicles pulled by horses.,Atlar tarafından çekilen araçlar.
+322,Keep,Tutmak / Saklamak,To have and not give back.,Sahip olmak ve geri vermemek.
+323,Happy,Mutlu,Feeling good and smiling.,İyi hissetmek ve gülümsemek.
+324,Happier,Daha mutlu,Feeling more good than before.,Eskisinden daha iyi hissetmek.
+325,Elegant,Zarif / Şık,Beautiful and graceful.,Güzel ve zarif olan.
+326,National,Ulusal / Milli,About a whole country.,Bütün bir ülke hakkında olan.
+327,Anthem,Marş,A special song for a country or group.,Bir ülke veya grup için özel bir şarkı.
+328,Anthems,Marşlar,Special songs for countries or groups.,Ülkeler veya gruplar için özel şarkılar.
+329,Isolated,İzole / Yalıtılmış,Far away from other things or people.,Başka şeylerden veya insanlardan çok uzakta olan.
+330,Precious,Değerli / Kıymetli,Very expensive or important to you.,Senin için çok pahalı veya önemli olan.
+331,Ample,Bol / Yeterince,More than enough.,Yeterinden daha fazla olan.
+332,Souvenir,Hediyelik eşya / Hatıra,A thing you buy to remember a place.,Bir yeri hatırlamak için satın aldığın şey.
+333,Souvenirs,Hediyelik eşyalar / Hatıralar,Things you buy to remember places.,Yerleri hatırlamak için satın aldığın şeyler.
+334,Mosque,Cami,A building for Islamic religious events.,İslami dini etkinlikler için bir bina.
+335,Mosques,Camiler,Buildings for Islamic religious events.,İslami dini etkinlikler için binalar.
+336,Empire,İmparatorluk,A large group of countries ruled by one person.,Bir kişi tarafından yönetilen büyük bir ülke grubu.
+337,Empires,İmparatorluklar,Large groups of countries ruled by one person.,Bir kişi tarafından yönetilen büyük ülke grupları.

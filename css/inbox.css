@@ -355,6 +355,8 @@ html[data-theme="light"] .inbox-input {
 @media (max-width: 768px) {
   .inbox-wrapper {
     position: relative;
+    height: calc(100dvh - 80px);
+    min-height: 0;
   }
   .inbox-sidebar {
     width: 100%;
@@ -370,11 +372,72 @@ html[data-theme="light"] .inbox-input {
     transform: translateX(100%);
     transition: transform 0.3s ease;
     z-index: 10;
+    display: flex;
+    flex-direction: column;
   }
   .inbox-chat.mobile-open {
     transform: translateX(0);
   }
   .inbox-back-btn {
     display: block;
+  }
+
+  /* Chat header */
+  .inbox-chat-header {
+    padding: 12px 14px;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+  .inbox-chat-avatar {
+    width: 36px;
+    height: 36px;
+  }
+  .inbox-chat-name {
+    font-size: 0.95rem;
+  }
+
+  /* Messages: smooth scrolling, keyboard-safe */
+  .inbox-messages {
+    flex: 1;
+    padding: 14px 10px;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+    min-height: 0;
+  }
+
+  /* Message bubbles */
+  .dm-msg {
+    max-width: 85%;
+  }
+  .dm-bubble {
+    padding: 10px 14px;
+    font-size: 0.9rem;
+  }
+
+  /* Input area: keyboard-safe */
+  .inbox-input-area {
+    padding: 10px 10px;
+    gap: 8px;
+    flex-shrink: 0;
+    padding-bottom: calc(10px + env(safe-area-inset-bottom, 0px));
+  }
+  .inbox-input {
+    padding: 10px 12px;
+    font-size: 0.9rem;
+  }
+  .inbox-send-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  /* Sidebar items */
+  .inbox-item {
+    padding: 14px 16px;
+    gap: 10px;
+  }
+  .inbox-item-avatar {
+    width: 40px;
+    height: 40px;
   }
 }
