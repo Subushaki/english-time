@@ -158,12 +158,14 @@ related_word_ids:
 id: gram-past-simple
 title: Past Simple Tense (Geçmiş Zaman)
 keywords: past simple, geçmiş zaman, did, -ed, yesterday, ago, last, tense, düzensiz fiil, irregular
-content: Geçmişte tamamlanmış eylemler için kullanılır. Düzenli fiillere -ed eklenir, düzensiz fiillerin 2. hali kullanılır.
+content: Geçmişte tamamlanmış eylemler için kullanılır. Terimlere boğulmadan 3 adımlık basit bir mantıkla çözülebilir.
 details:
-- Olumlu: Özne + fiil+ed (düzenli) veya fiil 2. hal (düzensiz)
-- Olumsuz: Özne + didn't + fiilin yalın hali
-- Soru: Did + özne + fiilin yalın hali?
-- Zaman belirteçleri: yesterday, last week/month/year, ago, in 2020
+
+A) Temel Mantık (Basitçe): Geçmişte bitmiş, belirli bir zamanda olan olaylar için kullanılır. (Zaman kelimeleri: yesterday, last week/month/year, ago, in 2020, when I was a child...)
+
+B) 3 Form (Sadece 3!): Olumlu -> Fiilin 2. hali. | Olumsuz -> didn't + fiil 1. hali. | Soru -> Did + özne + fiil 1. hali?
+
+C) 🔴 Karmaşa Noktası: "did" gelince fiil ASLA değişmez! "did" zaten geçmişi taşıyor. "Did he went?" veya "I didn't played" YANLIŞTIR. Doğrusu: "Did he go?" ve "I didn't play." Anahtar: did varsa, fiil her zaman 1. hali!
 examples:
 related_word_ids:
 
@@ -511,10 +513,15 @@ related_word_ids:
 id: gram-question-tags
 title: Question Tags (Eklenti Soruları)
 keywords: question tags, isn't it, don't you, değil mi, onaylama, tag questions
-content: Konuşma dilinde karşımızdakinden onay almak için cümlenin sonuna eklenen kısa sorulardır. Türkçedeki "değil mi?" ifadesini karşılar.
+content: Konuşma dilinde karşımızdakinden onay almak için cümlenin sonuna eklenen kısa sorulardır. Türkçedeki "değil mi?" ifadesini karşılar ve karmaşık kurallar yerine 4 basit adımla bulunabilir.
 details:
-- Zıtlık Kuralı: Ana cümle OLUMLU ise eklenti sorusu OLUMSUZ (You are a student, aren't you?), ana cümle OLUMSUZ ise eklenti sorusu OLUMLU olur.
-- Soru Yapısı: Soru kısmında sadece ana cümlenin yardımcı fiili (am/is/are, do/does, did, will vb.) ve kişi zamiri (I, you, he...) kullanılır. Kesinlikle özel isim kullanılmaz.
-- İstisnalar: "I am" ile başlayan cümlelerin sorusu "aren't I?" olur. "Let's" ile başlayanların eklentisi "shall we?", emir cümlelerinin ise "will you?" olur.
+
+Adım 1: Cümlede "miş/mış" (geçmiş) var mı? Fiilde "-ed" varsa (played) veya değişik şekilde geçmişse (went, ate) tag'de "didn't" kullan. (He finished... -> didn't he?)
+
+Adım 2: Cümlede "emir kipi" gibi olumsuz şeyler var mı? (don't, doesn't, isn't, can't...) Varsa tag'de olumlu yap. (doesn't -> does, aren't -> are)
+
+Adım 3: Cümlede "hal" fiili var mı? (am, is, are, was, were). Varsa aynısının zıttını kullan (is -> isn't). 🔴 TEK İSTİSNA: Cümlede "I am" varsa tag her zaman "aren't I?" olur (ezberle!).
+
+Adım 4: Hiçbiri yoksa? (Normal cümle: I play, She likes). He/She/It (tekil) için tag'de "doesn't", I/You/We/They (çoğul) için "don't" kullan. (She likes tea... -> doesn't she?)
 examples:
 related_word_ids:
