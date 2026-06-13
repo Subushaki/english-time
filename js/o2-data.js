@@ -378,6 +378,272 @@ const O2_DATABASE = [
     related_word_ids: [323]
   },
 
+  {
+    id: "gram-present-perfect",
+    category: "grammar",
+    title: "Present Perfect Tense (Yakın Geçmiş Zaman)",
+    keywords: ["present perfect", "have", "has", "v3", "since", "for", "just", "already", "yet", "tense", "zaman"],
+    content: "Geçmişte olmuş ama etkisi veya sonucu şu an devam eden eylemler için kullanılır. Olayın ne zaman olduğu değil, kendisi veya sonucu önemlidir; kesin bir zaman (dün, geçen yıl) verilmez.",
+    details: [
+      "Olumlu: I/You/We/They + have + V3 | He/She/It + has + V3",
+      "Olumsuz: have not (haven't) + V3 | has not (hasn't) + V3",
+      "Soru: Have/Has + özne + V3?",
+      "Anahtar Kelimeler: just (henüz), already (zaten), yet (henüz - olumsuz ve sorularda), since (-den beri), for (-dır/-dir)."
+    ],
+    examples: [],
+    related_word_ids: []
+  },
+  {
+    id: "gram-past-continuous",
+    category: "grammar",
+    title: "Past Continuous Tense (Geçmişte Devam Eden Zaman)",
+    keywords: ["past continuous", "was", "were", "-ing", "while", "when", "as", "tense", "geçmiş zaman"],
+    content: "Geçmişte belirli bir noktada devam etmekte olan eylemleri anlatır. Genellikle \"when\" (dığında) ve \"while\" (iken) bağlaçlarıyla birlikte kullanılır.",
+    details: [
+      "Olumlu: I/He/She/It + was + fiil+ing | We/You/They + were + fiil+ing",
+      "Olumsuz: was not (wasn't) / were not (weren't) + fiil+ing",
+      "Soru: Was/Were + özne + fiil+ing?",
+      "Kullanım: Genelde aniden olan kısa bir olay (Past Simple), devam eden uzun bir olayı (Past Continuous) böler."
+    ],
+    examples: [],
+    related_word_ids: []
+  },
+  {
+    id: "gram-countable-uncountable",
+    category: "grammar",
+    title: "Countable & Uncountable Nouns (Sayılabilen ve Sayılamayan İsimler)",
+    keywords: ["countable", "uncountable", "sayılabilen", "sayılamayan", "nouns", "isimler", "a", "an", "s takısı"],
+    content: "İngilizcede isimler sayılabilen (elma, kitap) ve sayılamayan (su, para, bilgi) olarak ikiye ayrılır. Sayılamayan isimler hiçbir zaman çoğul eki (-s) almazlar.",
+    details: [
+      "Countable (Sayılabilen): Tekil veya çoğul olabilirler. Rakamla sayılabilirler (1 apple, 2 cars). Tekil hallerinde başlarına \"a/an\" alırlar.",
+      "Uncountable (Sayılamayan): Her zaman tekil kabul edilirler (water, money, information). Rakamla sayılamazlar ve \"-s\" takısı almazlar.",
+      "Dikkat: \"Money\" (para), \"Hair\" (saç) ve \"News\" (haber) kelimeleri İngilizcede sayılamaz kabul edilir."
+    ],
+    examples: [],
+    related_word_ids: []
+  },
+  {
+    id: "gram-quantifiers-some-any",
+    category: "grammar",
+    title: "Quantifiers (Miktar Belirteçleri: Some, Any, Much, Many, A lot of)",
+    keywords: ["quantifiers", "miktar", "some", "any", "much", "many", "a lot of", "sayılabilen", "sayılamayan"],
+    content: "İsimlerin miktarını belirtmek için kullanılır. İsmin sayılabilen veya sayılamayan olmasına göre seçilen kelime değişir.",
+    details: [
+      "Some: Biraz / Birkaç. Olumlu cümlelerde kullanılır (hem sayılabilen hem sayılamayan). Sadece teklif/rica sorularında soru cümlesinde yer alabilir.",
+      "Any: Hiç. Sadece olumsuz cümlelerde ve normal sorularda kullanılır.",
+      "Much: Çok. SAYILAMAYAN isimlerle (genelde soru ve olumsuz cümlelerde) kullanılır.",
+      "Many: Çok. SAYILABİLEN isimlerle kullanılır.",
+      "A lot of: Çok. Hem sayılabilen hem sayılamayan isimlerle, genellikle olumlu cümlelerde kullanılır."
+    ],
+    examples: [],
+    related_word_ids: []
+  },
+  {
+    id: "gram-demonstratives",
+    category: "grammar",
+    title: "Demonstratives (İşaret Zamirleri: This, That, These, Those)",
+    keywords: ["demonstratives", "this", "that", "these", "those", "işaret", "bu", "şu", "bunlar", "şunlar"],
+    content: "Nesnelerin yerini (yakın/uzak) ve miktarını (tekil/çoğul) işaret etmek için kullanılırlar.",
+    details: [
+      "This (Bu): Konuşana YAKIN ve TEKİL olan nesneler için.",
+      "That (Şu/O): Konuşana UZAK ve TEKİL olan nesneler için.",
+      "These (Bunlar): Konuşana YAKIN ve ÇOĞUL olan nesneler için.",
+      "Those (Şunlar/Onlar): Konuşana UZAK ve ÇOĞUL olan nesneler için."
+    ],
+    examples: [],
+    related_word_ids: []
+  },
+  {
+    id: "gram-conditionals-type-0-1",
+    category: "grammar",
+    title: "Conditionals (Koşul Cümleleri: Type 0 ve Type 1)",
+    keywords: ["conditionals", "if clauses", "koşul", "type 0", "type 1", "if", "eğer"],
+    content: "\"Eğer böyle olursa, şöyle olur\" anlamı taşıyan şart cümleleridir. Type 0 doğa kanunları ve genel gerçekleri, Type 1 ise gelecekteki olası durumları anlatır.",
+    details: [
+      "Type 0 Kuralı: If + Present Simple, Present Simple. (Gerçekler için)",
+      "Type 1 Kuralı: If + Present Simple, Will / Can / May + V1. (Gelecek ihtimalleri için)",
+      "Not: \"If\" cümlesi cümlenin başında veya ortasında olabilir. Eğer baştaysa, iki cümleciğin arasına mutlaka virgül konur."
+    ],
+    examples: [],
+    related_word_ids: []
+  },
+  {
+    id: "gram-passive-voice",
+    category: "grammar",
+    title: "Passive Voice (Edilgen Çatı)",
+    keywords: ["passive voice", "edilgen", "by", "be", "v3", "past participle"],
+    content: "Eylemi KİMİN yaptığının değil, EYLEMİN KENDİSİNİN (ne olduğunun) önemli olduğu durumlarda veya yapan kişi bilinmiyorsa kullanılır.",
+    details: [
+      "Temel Formül: \"To be\" fiili (zamanın gerektirdiği çekimde) + V3 (Fiilin 3. hali).",
+      "Present Simple Passive: am/is/are + V3 (Örn: Arabalar burada üretilir.)",
+      "Past Simple Passive: was/were + V3 (Örn: Cüzdanım çalındı.)",
+      "İşi yapanı belirtmek istersek cümlenin sonuna \"by + kişi/nesne\" (tarafından) ekleriz."
+    ],
+    examples: [],
+    related_word_ids: []
+  },
+  {
+    id: "gram-used-to-would",
+    category: "grammar",
+    title: "Used to vs. Would (Geçmiş Alışkanlıklar)",
+    keywords: ["used to", "would", "geçmiş", "alışkanlık", "eskiden"],
+    content: "Geçmişte düzenli olarak yaptığımız ama artık yapmadığımız alışkanlıkları ve durumları anlatmak için kullanılırlar.",
+    details: [
+      "Used to: Hem geçmişteki eylemler hem de geçmişteki \"durumlar\" (sahip olmak, sevmek, orada olmak vb.) için kullanılır.",
+      "Would: Sadece geçmişteki tekrar eden \"eylemler\" için kullanılır, \"durum\" bildiren fiillerle (be, have, like, know) kesinlikle kullanılmaz.",
+      "Olumsuz Yapı: didn't use to + V1 (use kelimesinden 'd' düşer).",
+      "Soru Yapısı: Did + özne + use to + V1?"
+    ],
+    examples: [],
+    related_word_ids: []
+  },
+  {
+    id: "gram-gerunds-infinitives",
+    category: "grammar",
+    title: "Gerunds & Infinitives (Fiilimsiler: -ing vs. to)",
+    keywords: ["gerunds", "infinitives", "fiilimsi", "-ing", "to", "fiil", "isim-fiil"],
+    content: "Bir fiilin cümle içinde isim görevinde (özne veya nesne olarak) kullanılabilmesi için aldığı eklerdir. İngilizcede bazı fiillerden sonra \"-ing\", bazılarından sonra \"to\" gelir.",
+    details: [
+      "Gerund (Fiil + ing): Edatlardan (in, on, at, about) sonra ve belirli fiillerden (enjoy, avoid, mind, finish) sonra mutlaka kullanılır.",
+      "Infinitive (to + Fiil): Amaç bildirirken (için anlamında) ve belirli fiillerden (want, decide, hope, need) sonra kullanılır.",
+      "İstisna: Bazı fiiller (stop, remember, forget) her ikisini de alabilir ama cümledeki anlamı tamamen değiştirirler."
+    ],
+    examples: [],
+    related_word_ids: []
+  },
+  {
+    id: "gram-adjectives-adverbs",
+    category: "grammar",
+    title: "Adjectives vs. Adverbs (Sıfatlar ve Zarflar)",
+    keywords: ["adjectives", "adverbs", "sıfat", "zarf", "-ly", "niteleme"],
+    content: "Sıfatlar İSİMLERİ niteler (Nasıl bir araba?), zarflar ise FİİLLERİ niteler (Nasıl sürüyor?). Zarflar genellikle sıfatın sonuna \"-ly\" eki getirilerek oluşturulur.",
+    details: [
+      "Adjective (Sıfat): İsmin önüne gelir veya \"to be\" (am/is/are) fiilinden sonra kullanılır.",
+      "Adverb (Zarf): Genelde fiilden (eylemden) hemen sonra gelir ve eylemin nasıl yapıldığını açıklar.",
+      "Düzensizler: \"Good\" (Sıfat) -> \"Well\" (Zarf) olarak değişir. \"Fast, hard, late\" kelimeleri hem sıfat hem zarf olarak aynıdır (asla -ly almazlar)."
+    ],
+    examples: [],
+    related_word_ids: []
+  },
+  {
+    id: "gram-past-perfect",
+    category: "grammar",
+    title: "Past Perfect Tense (Miş'li Geçmiş Zaman)",
+    keywords: ["past perfect", "had", "v3", "before", "after", "by the time", "geçmişin geçmişi"],
+    content: "Geçmişte yaşanmış iki olaydan, hangisinin daha önce gerçekleştiğini vurgulamak için kullanılır. İngilizcede \"geçmişin geçmişi\" olarak da bilinir.",
+    details: [
+      "Yapı: Özne + had + V3. (Tüm kişi zamirleri için 'had' kullanılır).",
+      "Olumsuz: had not (hadn't) + V3.",
+      "Soru: Had + özne + V3?",
+      "Kullanım: Daha önce olan olay Past Perfect (had V3) ile, ona kıyasla daha yakın geçmişte (sonra) olan olay Past Simple (V2) ile anlatılır.",
+      "Anahtar Kelimeler: after (sonra), before (önce), by the time (-dığı zamana kadar), until (-e kadar), because."
+    ],
+    examples: [],
+    related_word_ids: []
+  },
+  {
+    id: "gram-future-continuous-perfect",
+    category: "grammar",
+    title: "Future Continuous & Perfect (Gelecek Zamanın İleri Halleri)",
+    keywords: ["future continuous", "future perfect", "will be doing", "will have done", "by", "gelecekte"],
+    content: "Gelecekte belirli bir anda devam ediyor olacak (Continuous) veya gelecekte belirli bir zamana kadar çoktan bitmiş olacak (Perfect) eylemleri ifade eder.",
+    details: [
+      "Future Continuous (will be + V-ing): \"Yarın bu saatlerde uçuyor olacağım\" gibi, gelecekte o an sürecek eylemler için.",
+      "Future Perfect (will have + V3): \"Sen gelene kadar ben işi bitirmiş olacağım\" gibi, gelecekte tamamlanmış olacak eylemler için.",
+      "Anahtar Kelime: Future Perfect yapısında \"by\" (by tomorrow, by 2030 - yarına kadar, 2030'a kadar) edatı çok sık kullanılır."
+    ],
+    examples: [],
+    related_word_ids: []
+  },
+  {
+    id: "gram-few-little",
+    category: "grammar",
+    title: "A few / A little vs. Few / Little (Azlık Belirteçleri)",
+    keywords: ["a few", "few", "a little", "little", "quantifiers", "az", "yeterli", "yetersiz", "miktar"],
+    content: "Her ikisi de \"az\" anlamına gelse de, başlarındaki \"a\" harfi cümlenin anlamını tamamen değiştirir. \"a\" harfi olanlar olumlu (yeterli), olmayanlar olumsuz (yetersiz) anlam taşır.",
+    details: [
+      "Sayılabilen isimlerle: Few ve A few kullanılır (Örn: apples, cars).",
+      "Sayılamayan isimlerle: Little ve A little kullanılır (Örn: water, time).",
+      "A few / A little: \"Az ama yeterli\" anlamı katar. (Biraz var, işimi görür).",
+      "Few / Little: \"Neredeyse hiç yok, yok denecek kadar az\" anlamı katar. Olumsuz bir durumu ifade eder."
+    ],
+    examples: [],
+    related_word_ids: []
+  },
+  {
+    id: "gram-conditionals-type-2-3",
+    category: "grammar",
+    title: "Conditionals (Koşul Cümleleri: Type 2 ve Type 3)",
+    keywords: ["conditionals", "if clauses", "type 2", "type 3", "would", "had v3", "hayali durumlar", "pişmanlık"],
+    content: "Gerçek dışı ve hayali durumları (Type 2) ya da geçmişte kalmış, değiştirilemez olaylar için duyulan pişmanlıkları (Type 3) ifade etmek için kullanılır.",
+    details: [
+      "Type 2 Kuralı: If + Past Simple, would/could + V1. (Şu anki hayali durumlar. Örn: Param olsaydı, o arabayı alırdım - ama param yok).",
+      "Type 2 İstisnası: \"To be\" fiili Type 2'de tüm özneler (I/He/She/It dahil) için \"were\" olarak kullanılır (If I were you - Senin yerinde olsaydım).",
+      "Type 3 Kuralı: If + Past Perfect (had V3), would have + V3. (Geçmişe dair pişmanlıklar. Örn: Çalışsaydın, sınavı geçerdin - ama çalışmadın ve kaldın)."
+    ],
+    examples: [],
+    related_word_ids: []
+  },
+  {
+    id: "gram-relative-clauses",
+    category: "grammar",
+    title: "Relative Clauses (Sıfat Cümlecikleri)",
+    keywords: ["relative clauses", "who", "which", "that", "whose", "where", "sıfat", "tanımlama"],
+    content: "İki ayrı cümleyi birleştirmek ve bir ismi daha detaylı tanımlamak (hangi adam? hangi araba?) için kullanılır. Türkçedeki \"-an, -en, -dığı\" eklerinin görevini görür.",
+    details: [
+      "Who: İnsanları tanımlarken kullanılır (The man who called me... - Beni arayan adam).",
+      "Which: Hayvanları ve cansız nesneleri tanımlarken kullanılır.",
+      "That: Hem insanlar hem de nesneler için (Who ve Which yerine) kullanılabilir (Ancak her virgüllü yapıda kullanılamaz).",
+      "Whose: Sahiplik bildirir (...-nın). Kendisinden sonra mutlaka kime ait olduğu belirtilen isim gelir (The girl whose car was stolen... - Arabası çalınan kız).",
+      "Where: Yer ve mekanları tanımlarken kullanılır."
+    ],
+    examples: [],
+    related_word_ids: []
+  },
+  {
+    id: "gram-reported-speech",
+    category: "grammar",
+    title: "Reported Speech (Dolaylı Anlatım)",
+    keywords: ["reported speech", "indirect speech", "aktarma", "said", "told", "dolaylı anlatım"],
+    content: "Başkasının söylediği bir sözü, üçüncü bir kişiye aktarırken kullanılan yapıdır. Sözü aktarırken genellikle bir derece \"geçmiş zamana\" (tense shift) gidilir.",
+    details: [
+      "Zaman Kayması (Tense Shift): Tırnak içindeki orijinal söz aktarılırken, zaman bir adım geriye gider. (Am/is/are -> was/were, Present Simple -> Past Simple).",
+      "Fiil Kullanımı: \"say\" (demek) tek başına kullanılabilir (He said that...), \"tell\" (söylemek) ise kime söylendiğini belirtmek zorundadır (He told me that...).",
+      "Zaman Zarfları: Zaman ifadeleri de aktarılırken değişir (today -> that day, tomorrow -> the next day, now -> then).",
+      "Modallar: \"Will\" -> \"Would\" olur. \"Can\" -> \"Could\" olur."
+    ],
+    examples: [],
+    related_word_ids: []
+  },
+  {
+    id: "gram-too-enough",
+    category: "grammar",
+    title: "Too and Enough (Aşırılık ve Yeterlilik)",
+    keywords: ["too", "enough", "aşırı", "yeterli", "sıfat", "zarf"],
+    content: "Bir şeyin gereğinden fazla (too) veya tam gerektiği kadar (enough) olduğunu belirtmek için kullanılırlar. Cümledeki konumları birbirine zıttır.",
+    details: [
+      "Too (Aşırı): Sıfatlardan ve zarflardan ÖNCE gelir. Cümleye yapısal olarak değil ama anlamsal olarak olumsuzluk katar. (too cold - çıkılamayacak kadar soğuk).",
+      "Enough (Yeterli): Sıfatlardan ve zarflardan SONRA gelir (tall enough - yeterince uzun). İsimlerden ise ÖNCE gelir (enough money - yeterli para).",
+      "Kullanım: Genellikle arkalarından \"to + V1\" (yapmak için) mastar yapısı gelir (Too tired to walk - Yürüyemeyecek kadar yorgun)."
+    ],
+    examples: [],
+    related_word_ids: []
+  },
+  {
+    id: "gram-question-tags",
+    category: "grammar",
+    title: "Question Tags (Eklenti Soruları)",
+    keywords: ["question tags", "isn't it", "don't you", "değil mi", "onaylama", "tag questions"],
+    content: "Konuşma dilinde karşımızdakinden onay almak için cümlenin sonuna eklenen kısa sorulardır. Türkçedeki \"değil mi?\" ifadesini karşılar.",
+    details: [
+      "Zıtlık Kuralı: Ana cümle OLUMLU ise eklenti sorusu OLUMSUZ (You are a student, aren't you?), ana cümle OLUMSUZ ise eklenti sorusu OLUMLU olur.",
+      "Soru Yapısı: Soru kısmında sadece ana cümlenin yardımcı fiili (am/is/are, do/does, did, will vb.) ve kişi zamiri (I, you, he...) kullanılır. Kesinlikle özel isim kullanılmaz.",
+      "İstisnalar: \"I am\" ile başlayan cümlelerin sorusu \"aren't I?\" olur. \"Let's\" ile başlayanların eklentisi \"shall we?\", emir cümlelerinin ise \"will you?\" olur."
+    ],
+    examples: [],
+    related_word_ids: []
+  },
+
   // ============================================================
   // BÖLÜM: İPUÇLARI (Tips)
   // ============================================================

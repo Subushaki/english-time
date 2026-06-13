@@ -1,0 +1,520 @@
+=== GRAMMAR TOPIC ===
+id: gram-subject-pronouns
+title: Subject Pronouns (Kişi Zamirleri)
+keywords: subject pronouns, kişi zamirleri, he, she, it, they, we, I, you, zamir, pronoun
+content: Cümlede işi yapan kişinin/nesnenin adını söylemek yerine kullanılırlar. Özne pozisyonunda dururlar.
+details:
+- I — Ben
+- You — Sen / Siz
+- He — O (Erkekler için)
+- She — O (Kadınlar için)
+- It — O (Cansız varlıklar, hayvanlar, şehirler, şirketler)
+- We — Biz
+- They — Onlar (Çoğul kişiler, nesneler veya yerler)
+examples:
+related_word_ids: 5002, 5009, 5015, 5023, 5028, 5033, 5039, 5045
+
+=== GRAMMAR TOPIC ===
+id: gram-possessive-pronouns
+title: Possessive Pronouns (İyelik Zamirleri)
+keywords: possessive pronouns, iyelik zamirleri, mine, yours, his, hers, ours, theirs, benimki, seninki
+content: Kendisinden sonra İSİM ALMAYAN, Türkçedeki "-ki" (benimki, seninki) ekini karşılayan kelimelerdir. Sahiplik belirtirler ve tek başına kullanılırlar.
+details:
+- Mine — Benimki
+- Yours — Seninki / Sizinki
+- His — Onunki (Erkek)
+- Hers — Onunki (Kadın)
+- Ours — Bizimki
+- Theirs — Onlarınki
+examples:
+related_word_ids: 5001, 5005, 5008, 5014, 5016, 5020, 5034, 5038, 5043, 5048
+
+=== GRAMMAR TOPIC ===
+id: gram-possessive-adjectives
+title: Possessive Adjectives (İyelik Sıfatları)
+keywords: possessive adjectives, iyelik sıfatları, my, your, his, her, its, our, their, sahiplik
+content: Kendisinden sonra mutlaka İSİM ALIR. Kimin neyi olduğunu belirtmek için kullanılır. Possessive Pronouns ile karıştırmayın — bunlar isimden önce gelir.
+details:
+- My — Benim (my book)
+- Your — Senin / Sizin (your phone)
+- His — Onun - Erkek (his car)
+- Her — Onun - Kadın (her bag)
+- Its — Onun - Cansız/Hayvan (its tail)
+- Our — Bizim (our house)
+- Their — Onların (their hands)
+examples:
+related_word_ids: 5004, 5011, 5019, 5021, 5027, 5031, 5036, 5041, 5046, 5050
+
+=== GRAMMAR TOPIC ===
+id: gram-reflexive-pronouns
+title: Reflexive Pronouns (Dönüşlü Zamirler)
+keywords: reflexive pronouns, dönüşlü zamirler, myself, yourself, himself, herself, itself, ourselves, yourselves, themselves, kendim, kendisi
+content: Eylemi yapan ile eylemden etkilenen kişi AYNI olduğunda kullanılır (kendim, kendin, kendisi). "by + reflexive" yapısı "tek başına" anlamına gelir.
+details:
+- Myself — Kendim (I)
+- Yourself — Kendin (You - Tekil)
+- Himself — Kendisi (He)
+- Herself — Kendisi (She)
+- Itself — Kendisi (It)
+- Ourselves — Kendimiz (We)
+- Yourselves — Kendiniz (You - Çoğul, birden fazla kişiye seslenirken)
+- Themselves — Kendileri (They)
+examples:
+related_word_ids: 5003, 5007, 5010, 5013, 5017, 5022, 5026, 5032, 5037, 5042, 5047
+
+=== GRAMMAR TOPIC ===
+id: gram-object-pronouns
+title: Object Pronouns (Nesne Zamirleri)
+keywords: object pronouns, nesne zamirleri, me, you, him, her, it, us, them, bana, ona
+content: Fiilden veya edattan sonra gelen zamirlerdir. Eylemi yapan değil, eylemden etkilenen kişiyi belirtirler.
+details:
+- Me — Bana / Beni
+- You — Sana / Seni
+- Him — Ona / Onu (Erkek)
+- Her — Ona / Onu (Kadın)
+- It — Ona / Onu (Cansız/Hayvan)
+- Us — Bize / Bizi
+- Them — Onlara / Onları
+examples:
+related_word_ids: 5006, 5012, 5018, 5025, 5030, 5035, 5040, 5044, 5049
+
+=== GRAMMAR TOPIC ===
+id: gram-its-vs-its
+title: It's vs. Its (Sık Karıştırılan İkili)
+keywords: it's, its, karıştırılan, apostrophe, kesme işareti, it is, sahiplik
+content: İngilizcede en sık yapılan hatalardan biri. It's = It is/It has kısaltması. Its = sahiplik (onun). Kesme işareti fark yaratır!
+details:
+- It's = "It is" veya "It has" kısaltmasıdır. "O ...dır" anlamına gelir.
+- Its = Sahiplik bildirir, "onun" demektir. Kesme işareti YOKTUR.
+- İpucu: Boşluğa "it is" koyduğunda cümle anlamlı oluyorsa it's kullanılır.
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-there-vs-their
+title: There vs. Their (Sık Karıştırılan İkili)
+keywords: there, their, they're, orada, onların, karıştırılan
+content: There = Orada / Vardır. Their = Onların (sahiplik). They're = They are kısaltması. Üçü de aynı okunur ama anlamları tamamen farklıdır!
+details:
+- There = Orada. Ayrıca "is/are" ile birleşip "vardır" anlamı katar.
+- Their = Onların. Sahiplik bildirir, kendinden sonra isim alır.
+- They're = "They are" kısaltması. "Onlar ...dır" anlamına gelir.
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-possessive-apostrophe
+title: Possessive Apostrophe ('s Sahiplik Kesme İşareti)
+keywords: apostrophe, kesme işareti, 's, sahiplik, possessive, -nın, -nin, genitif
+content: Kelimelere "-nın, -nin" (sahiplik) anlamı katar. Tekil ve çoğul isimlerdeki kullanımı farklıdır.
+details:
+- Kural 1: Tekil kelimelere veya isme 's eklenir.
+- Kural 2: Çoğul olup sonu "s" ile biten kelimelere sadece kesme işareti (') konur.
+- Tuzak: Sadece çoğul olan (sahiplik içermeyen) kelimelere kesme işareti konmaz!
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-conjunctions
+title: Conjunctions (Bağlaçlar)
+keywords: conjunctions, bağlaçlar, so, because, but, however, and, çünkü, ama, ve, bu yüzden
+content: Cümleleri birbirine bağlamak için kullanılan kelimelerdir. Her birinin farklı bir mantıksal ilişkisi vardır.
+details:
+- So — Bu yüzden, dolayısıyla. (Sebep → Sonuç bağlar)
+- Because — Çünkü. (Neden belirtir)
+- But — Ama, fakat. (Zıtlık belirtir)
+- However — Ancak. (Zıtlık, genellikle cümle başı veya noktadan sonra)
+- And — Ve. (Benzer fikirleri veya art arda eylemleri bağlar)
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-present-simple
+title: Present Simple Tense (Geniş Zaman)
+keywords: present simple, geniş zaman, do, does, every, always, never, sometimes, usually, tense, zaman
+content: Tekrar eden alışkanlıklar, genel gerçekler ve rutin eylemler için kullanılır. Üçüncü tekil şahısta (he/she/it) fiile -s/-es eklenir.
+details:
+- Olumlu: I/You/We/They + fiil | He/She/It + fiil+s
+- Olumsuz: I/You/We/They + don't + fiil | He/She/It + doesn't + fiil
+- Soru: Do + I/you/we/they + fiil? | Does + he/she/it + fiil?
+- Zaman belirteçleri: always, usually, often, sometimes, rarely, never, every day/week/month
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-present-continuous
+title: Present Continuous Tense (Şimdiki Zaman)
+keywords: present continuous, şimdiki zaman, am, is, are, -ing, right now, at the moment, tense
+content: Konuşma anında devam eden eylemler veya yakın gelecekteki planlar için kullanılır. am/is/are + fiil+ing yapısıyla kurulur.
+details:
+- Olumlu: I am + fiil+ing | He/She/It is + fiil+ing | We/You/They are + fiil+ing
+- Olumsuz: am/is/are + not + fiil+ing
+- Soru: Am/Is/Are + özne + fiil+ing?
+- Zaman belirteçleri: now, right now, at the moment, currently, today
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-past-simple
+title: Past Simple Tense (Geçmiş Zaman)
+keywords: past simple, geçmiş zaman, did, -ed, yesterday, ago, last, tense, düzensiz fiil, irregular
+content: Geçmişte tamamlanmış eylemler için kullanılır. Düzenli fiillere -ed eklenir, düzensiz fiillerin 2. hali kullanılır.
+details:
+- Olumlu: Özne + fiil+ed (düzenli) veya fiil 2. hal (düzensiz)
+- Olumsuz: Özne + didn't + fiilin yalın hali
+- Soru: Did + özne + fiilin yalın hali?
+- Zaman belirteçleri: yesterday, last week/month/year, ago, in 2020
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-future-will-going
+title: Future Tense — Will vs. Going to
+keywords: future, gelecek zaman, will, going to, tomorrow, next, plan, prediction, tahmin
+content: İkisi de gelecekten bahseder ama kullanım farkı vardır. Will = anlık kararlar ve tahminler. Going to = planlar ve kesin niyetler.
+details:
+- Will — Anlık kararlar, kesin olmayan tahminler, vaatler
+- Going to — Önceden planlanmış niyetler, kanıta dayalı tahminler
+- Will yapısı: Özne + will + fiil yalın hali
+- Going to yapısı: Özne + am/is/are + going to + fiil yalın hali
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-articles
+title: Articles (a / an / the Kullanımı)
+keywords: articles, a, an, the, tanımlık, belirsiz, article
+content: a/an = belirsiz (herhangi bir). the = belirli (bilinen, daha önce bahsedilen). Sessiz harfle başlayan kelimeler "a", sesli harfle başlayanlar "an" alır.
+details:
+- a — Sessiz harfle başlayan tekil, belirsiz isimlerden önce: a book, a car
+- an — Sesli harfle başlayan tekil, belirsiz isimlerden önce: an apple, an engineer
+- the — Belirli, bilinen veya daha önce bahsedilen isimlerden önce: the sun, the book (we talked about)
+- İstisna: Ülke adları, şehirler ve diller genelde article almaz: Turkey, Istanbul, English
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-prepositions-time
+title: Prepositions of Time (Zaman Edatları: in, on, at)
+keywords: prepositions, edatlar, in, on, at, zaman, time, ay, gün, saat
+content: in = aylar, yıllar, mevsimler, günün bölümleri. on = günler, tarihler. at = saatler, belirli anlar.
+details:
+- in — Ay, yıl, mevsim, günün bölümü: in January, in 2024, in summer, in the morning
+- on — Gün, tarih: on Monday, on 15th April, on my birthday
+- at — Saat, belirli an: at 5 o'clock, at night, at the weekend, at noon
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-prepositions-place
+title: Prepositions of Place (Yer Edatları: in, on, at)
+keywords: prepositions, edatlar, in, on, at, yer, place, konum, nerede
+content: in = kapalı alan, şehir, ülke içinde. on = yüzey üzerinde. at = belirli bir noktada.
+details:
+- in — Kapalı alan, şehir, ülke: in the room, in Istanbul, in Turkey
+- on — Yüzey: on the table, on the wall, on the second floor
+- at — Belirli nokta: at the bus stop, at school, at home, at the door
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-modal-verbs
+title: Modal Verbs (Yardımcı Fiiller)
+keywords: modal verbs, yardımcı fiiller, can, could, should, must, may, might, yapabilir, yapmalı
+content: Yetenek, izin, zorunluluk, olasılık gibi anlamları ifade eden yardımcı fiillerdir. Modaller'den sonra fiil yalın hali gelir (-s, -ed, -ing almaz).
+details:
+- Can — Yapabilir (yetenek/izin): I can swim.
+- Could — Yapabilirdi / Yapabilir mi (geçmiş yetenek / kibarca istek)
+- Should — Yapmalı (tavsiye): You should study more.
+- Must — Yapmalı (zorunluluk): You must wear a helmet.
+- May — Yapabilir (izin / olasılık): May I come in?
+- Might — Yapabilir (düşük olasılık): It might rain tomorrow.
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-comparatives-superlatives
+title: Comparatives & Superlatives (Karşılaştırma & Üstünlük)
+keywords: comparative, superlative, karşılaştırma, üstünlük, -er, -est, more, most, than, daha, en
+content: Kısa sıfatlar (1-2 hece): -er/-est eklenir. Uzun sıfatlar (3+ hece): more/most kullanılır. Düzensiz örnekler: good→better→best, bad→worse→worst.
+details:
+- Comparative (Karşılaştırma): sıfat+er + than / more + sıfat + than
+- Superlative (Üstünlük): the + sıfat+est / the most + sıfat
+- Kısa: tall → taller → tallest
+- Uzun: beautiful → more beautiful → most beautiful
+- Düzensiz: good → better → best | bad → worse → worst | far → farther → farthest
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-describing-adjectives
+title: Describing Places — Sıfatlar (Yerleri Tanımlama)
+keywords: modern, historical, ancient, exciting, famous, natural, sıfat, adjective, yer, tanımlama, describing
+content: Yerleri ve mekanları tanımlamak için kullanılan temel sıfatlar ve aralarındaki farklar.
+details:
+- Modern — Modern, çağdaş. Yeni tasarımlı binalar için.
+- Historical — Tarihi. Tarihte yeri olan, eski dönemlerden kalma önemli yapılar için.
+- Ancient — Antik, çok eski. Binlerce yıl öncesinden kalma harabeler veya piramitler gibi.
+- Exciting — Heyecan verici. Rafting, lunapark gibi aksiyon içeren durumlar veya yerler.
+- Famous — Ünlü, meşhur. Herkes tarafından bilinen yerler.
+- Natural — Doğal. Şelale, nehir, orman gibi insan eli değmemiş yerler.
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-do-you-like-vs-would
+title: Do you like vs. Would you like (Teklif ve Tercihler)
+keywords: do you like, would you like, teklif, tercih, offer, preference, sever misin, ister misin
+content: "Do you like" genel tercih sorar, "Would you like" o an için kibarca teklif eder. Çok sık karıştırılır!
+details:
+- Do you like...? — Genel olarak sevip sevmediğini sormak için
+- Would you like...? — O an için kibarca bir şey teklif etmek, davet etmek veya ikram etmek için
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-restaurant-english
+title: Restaurant English (Restoran İfadeleri)
+keywords: restaurant, restoran, order, sipariş, menu, bill, hesap, waiter, garson, would you like, starter, main course
+content: Restoranda kullanılan temel İngilizce kalıplar ve yemek ile ilgili kelimeler.
+details:
+- Hello. Can I help you? — Merhaba. Yardımcı olabilir miyim?
+- Would you like to have a starter? — Başlangıç yemeği ister misiniz?
+- What would you like for the main course? — Ana yemek olarak ne alırdınız?
+- Would you like anything to drink? — İçecek bir şey ister misiniz?
+- I'd like to have... — ... almak / yemek / içmek istiyorum.
+- Can I bring you anything else? — Başka bir şey getirebilir miyim?
+- I'd like to have the bill, please. — Hesabı alabilir miyim, lütfen.
+- Here you are. — Buyurun (parayı/eşyayı uzatırken).
+- You're welcome. — Rica ederim.
+examples:
+related_word_ids: 323
+
+=== GRAMMAR TOPIC ===
+id: gram-present-perfect
+title: Present Perfect Tense (Yakın Geçmiş Zaman)
+keywords: present perfect, have, has, v3, since, for, just, already, yet, tense, zaman
+content: Geçmişte olmuş ama etkisi veya sonucu şu an devam eden eylemler için kullanılır. Olayın ne zaman olduğu değil, kendisi veya sonucu önemlidir; kesin bir zaman (dün, geçen yıl) verilmez.
+details:
+- Olumlu: I/You/We/They + have + V3 | He/She/It + has + V3
+- Olumsuz: have not (haven't) + V3 | has not (hasn't) + V3
+- Soru: Have/Has + özne + V3?
+- Anahtar Kelimeler: just (henüz), already (zaten), yet (henüz - olumsuz ve sorularda), since (-den beri), for (-dır/-dir).
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-past-continuous
+title: Past Continuous Tense (Geçmişte Devam Eden Zaman)
+keywords: past continuous, was, were, -ing, while, when, as, tense, geçmiş zaman
+content: Geçmişte belirli bir noktada devam etmekte olan eylemleri anlatır. Genellikle "when" (dığında) ve "while" (iken) bağlaçlarıyla birlikte kullanılır.
+details:
+- Olumlu: I/He/She/It + was + fiil+ing | We/You/They + were + fiil+ing
+- Olumsuz: was not (wasn't) / were not (weren't) + fiil+ing
+- Soru: Was/Were + özne + fiil+ing?
+- Kullanım: Genelde aniden olan kısa bir olay (Past Simple), devam eden uzun bir olayı (Past Continuous) böler.
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-countable-uncountable
+title: Countable & Uncountable Nouns (Sayılabilen ve Sayılamayan İsimler)
+keywords: countable, uncountable, sayılabilen, sayılamayan, nouns, isimler, a, an, s takısı
+content: İngilizcede isimler sayılabilen (elma, kitap) ve sayılamayan (su, para, bilgi) olarak ikiye ayrılır. Sayılamayan isimler hiçbir zaman çoğul eki (-s) almazlar.
+details:
+- Countable (Sayılabilen): Tekil veya çoğul olabilirler. Rakamla sayılabilirler (1 apple, 2 cars). Tekil hallerinde başlarına "a/an" alırlar.
+- Uncountable (Sayılamayan): Her zaman tekil kabul edilirler (water, money, information). Rakamla sayılamazlar and "-s" takısı almazlar.
+- Dikkat: "Money" (para), "Hair" (saç) ve "News" (haber) kelimeleri İngilizcede sayılamaz kabul edilir.
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-quantifiers-some-any
+title: Quantifiers (Miktar Belirteçleri: Some, Any, Much, Many, A lot of)
+keywords: quantifiers, miktar, some, any, much, many, a lot of, sayılabilen, sayılamayan
+content: İsimlerin miktarını belirtmek için kullanılır. İsmin sayılabilen veya sayılamayan olmasına göre seçilen kelime değişir.
+details:
+- Some: Biraz / Birkaç. Olumlu cümlelerde kullanılır (hem sayılabilen hem sayılamayan). Sadece teklif/rica sorularında soru cümlesinde yer alabilir.
+- Any: Hiç. Sadece olumsuz cümlelerde ve normal sorularda kullanılır.
+- Much: Çok. SAYILAMAYAN isimlerle (genelde soru ve olumsuz cümlelerde) kullanılır.
+- Many: Çok. SAYILABİLEN isimlerle kullanılır.
+- A lot of: Çok. Hem sayılabilen hem sayılamayan isimlerle, genellikle olumlu cümlelerde kullanılır.
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-demonstratives
+title: Demonstratives (İşaret Zamirleri: This, That, These, Those)
+keywords: demonstratives, this, that, these, those, işaret, bu, şu, bunlar, şunlar
+content: Nesnelerin yerini (yakın/uzak) ve miktarını (tekil/çoğul) işaret etmek için kullanılırlar.
+details:
+- This (Bu): Konuşana YAKIN ve TEKİL olan nesneler için.
+- That (Şu/O): Konuşana UZAK ve TEKİL olan nesneler için.
+- These (Bunlar): Konuşana YAKIN ve ÇOĞUL olan nesneler için.
+- Those (Şunlar/Onlar): Konuşana UZAK ve ÇOĞUL olan nesneler için.
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-conditionals-type-0-1
+title: Conditionals (Koşul Cümleleri: Type 0 ve Type 1)
+keywords: conditionals, if clauses, koşul, type 0, type 1, if, eğer
+content: "Eğer böyle olursa, şöyle olur" anlamı taşıyan şart cümleleridir. Type 0 doğa kanunları ve genel gerçekleri, Type 1 ise gelecekteki olası durumları anlatır.
+details:
+- Type 0 Kuralı: If + Present Simple, Present Simple. (Gerçekler için)
+- Type 1 Kuralı: If + Present Simple, Will / Can / May + V1. (Gelecek ihtimalleri için)
+- Not: "If" cümlesi cümlenin başında veya ortasında olabilir. Eğer baştaysa, iki cümleciğin arasına mutlaka virgül konur.
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-passive-voice
+title: Passive Voice (Edilgen Çatı)
+keywords: passive voice, edilgen, by, be, v3, past participle
+content: Eylemi KİMİN yaptığının değil, EYLEMİN KENDİSİNİN (ne olduğunun) önemli olduğu durumlarda veya yapan kişi bilinmiyorsa kullanılır.
+details:
+- Temel Formül: "To be" fiili (zamanın gerektirdiği çekimde) + V3 (Fiilin 3. hali).
+- Present Simple Passive: am/is/are + V3 (Örn: Arabalar burada üretilir.)
+- Past Simple Passive: was/were + V3 (Örn: Cüzdanım çalındı.)
+- İşi yapanı belirtmek istersek cümlenin sonuna "by + kişi/nesne" (tarafından) ekleriz.
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-used-to-would
+title: Used to vs. Would (Geçmiş Alışkanlıklar)
+keywords: used to, would, geçmiş, alışkanlık, eskiden
+content: Geçmişte düzenli olarak yaptığımız ama artık yapmadığımız alışkanlıkları ve durumları anlatmak için kullanılırlar.
+details:
+- Used to: Hem geçmişteki eylemler hem de geçmişteki "durumlar" (sahip olmak, sevmek, orada olmak vb.) için kullanılır.
+- Would: Sadece geçmişteki tekrar eden "eylemler" için kullanılır, "durum" bildiren fiillerle (be, have, like, know) kesinlikle kullanılmaz.
+- Olumsuz Yapı: didn't use to + V1 (use kelimesinden 'd' düşer).
+- Soru Yapısı: Did + özne + use to + V1?
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-gerunds-infinitives
+title: Gerunds & Infinitives (Fiilimsiler: -ing vs. to)
+keywords: gerunds, infinitives, fiilimsi, -ing, to, fiil, isim-fiil
+content: Bir fiilin cümle içinde isim görevinde (özne veya nesne olarak) kullanılabilmesi için aldığı eklerdir. İngilizcede bazı fiillerden sonra "-ing", bazılarından sonra "to" gelir.
+details:
+- Gerund (Fiil + ing): Edatlardan (in, on, at, about) sonra ve belirli fiillerden (enjoy, avoid, mind, finish) sonra mutlaka kullanılır.
+- Infinitive (to + Fiil): Amaç bildirirken (için anlamında) ve belirli fiillerden (want, decide, hope, need) sonra kullanılır.
+- İstisna: Bazı fiiller (stop, remember, forget) her ikisini de alabilir ama cümledeki anlamı tamamen değiştirirler.
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-adjectives-adverbs
+title: Adjectives vs. Adverbs (Sıfatlar ve Zarflar)
+keywords: adjectives, adverbs, sıfat, zarf, -ly, niteleme
+content: Sıfatlar İSİMLERİ niteler (Nasıl bir araba?), zarflar ise FİİLLERİ niteler (Nasıl sürüyor?). Zarflar genellikle sıfatın sonuna "-ly" eki getirilerek oluşturulur.
+details:
+- Adjective (Sıfat): İsmin önüne gelir veya "to be" (am/is/are) fiilinden sonra kullanılır.
+- Adverb (Zarf): Genelde fiilden (eylemden) hemen sonra gelir ve eylemin nasıl yapıldığını açıklar.
+- Düzensizler: "Good" (Sıfat) -> "Well" (Zarf) olarak değişir. "Fast, hard, late" kelimeleri hem sıfat hem zarf olarak aynıdır (asla -ly almazlar).
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-past-perfect
+title: Past Perfect Tense (Miş'li Geçmiş Zaman)
+keywords: past perfect, had, v3, before, after, by the time, geçmişin geçmişi
+content: Geçmişte yaşanmış iki olaydan, hangisinin daha önce gerçekleştiğini vurgulamak için kullanılır. İngilizcede "geçmişin geçmişi" olarak da bilinir.
+details:
+- Yapı: Özne + had + V3. (Tüm kişi zamirleri için 'had' kullanılır).
+- Olumsuz: had not (hadn't) + V3.
+- Soru: Had + özne + V3?
+- Kullanım: Daha önce olan olay Past Perfect (had V3) ile, ona kıyasla daha yakın geçmişte (sonra) olan olay Past Simple (V2) ile anlatılır.
+- Anahtar Kelimeler: after (sonra), before (önce), by the time (-dığı zamana kadar), until (-e kadar), because.
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-future-continuous-perfect
+title: Future Continuous & Perfect (Gelecek Zamanın İleri Halleri)
+keywords: future continuous, future perfect, will be doing, will have done, by, gelecekte
+content: Gelecekte belirli bir anda devam ediyor olacak (Continuous) veya gelecekte belirli bir zamana kadar çoktan bitmiş olacak (Perfect) eylemleri ifade eder.
+details:
+- Future Continuous (will be + V-ing): "Yarın bu saatlerde uçuyor olacağım" gibi, gelecekte o an sürecek eylemler için.
+- Future Perfect (will have + V3): "Sen gelene kadar ben işi bitirmiş olacağım" gibi, gelecekte tamamlanmış olacak eylemler için.
+- Anahtar Kelime: Future Perfect yapısında "by" (by tomorrow, by 2030 - yarına kadar, 2030'a kadar) edatı çok sık kullanılır.
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-few-little
+title: A few / A little vs. Few / Little (Azlık Belirteçleri)
+keywords: a few, few, a little, little, quantifiers, az, yeterli, yetersiz, miktar
+content: Her ikisi de "az" anlamına gelse de, başlarındaki "a" harfi cümlenin anlamını tamamen değiştirir. "a" harfi olanlar olumlu (yeterli), olmayanlar olumsuz (yetersiz) anlam taşır.
+details:
+- Sayılabilen isimlerle: Few ve A few kullanılır (Örn: apples, cars).
+- Sayılamayan isimlerle: Little ve A little kullanılır (Örn: water, time).
+- A few / A little: "Az ama yeterli" anlamı katar. (Biraz var, işimi görür).
+- Few / Little: "Neredeyse hiç yok, yok denecek kadar az" anlamı katar. Olumsuz bir durumu ifade eder.
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-conditionals-type-2-3
+title: Conditionals (Koşul Cümleleri: Type 2 ve Type 3)
+keywords: conditionals, if clauses, type 2, type 3, would, had v3, hayali durumlar, pişmanlık
+content: Gerçek dışı ve hayali durumları (Type 2) ya da geçmişte kalmış, değiştirilemez olaylar için duyulan pişmanlıkları (Type 3) ifade etmek için kullanılır.
+details:
+- Type 2 Kuralı: If + Past Simple, would/could + V1. (Şu anki hayali durumlar. Örn: Param olsaydı, o arabayı alırdım - ama param yok).
+- Type 2 İstisnası: "To be" fiili Type 2'de tüm özneler (I/He/She/It dahil) için "were" olarak kullanılır (If I were you - Senin yerinde olsaydım).
+- Type 3 Kuralı: If + Past Perfect (had V3), would have + V3. (Geçmişe dair pişmanlıklar. Örn: Çalışsaydın, sınavı geçerdin - ama çalışmadın ve kaldın).
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-relative-clauses
+title: Relative Clauses (Sıfat Cümlecikleri)
+keywords: relative clauses, who, which, that, whose, where, sıfat, tanımlama
+content: İki ayrı cümleyi birleştirmek ve bir ismi daha detaylı tanımlamak (hangi adam? hangi araba?) için kullanılır. Türkçedeki "-an, -en, -dığı" eklerinin görevini görür.
+details:
+- Who: İnsanları tanımlarken kullanılır (The man who called me... - Beni arayan adam).
+- Which: Hayvanları ve cansız nesneleri tanımlarken kullanılır.
+- That: Hem insanlar hem de nesneler için (Who ve Which yerine) kullanılabilir (Ancak her virgüllü yapıda kullanılamaz).
+- Whose: Sahiplik bildirir (...-nın). Kendisinden sonra mutlaka kime ait olduğu belirtilen isim gelir (The girl whose car was stolen... - Arabası çalınan kız).
+- Where: Yer ve mekanları tanımlarken kullanılır.
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-reported-speech
+title: Reported Speech (Dolaylı Anlatım)
+keywords: reported speech, indirect speech, aktarma, said, told, dolaylı anlatım
+content: Başkasının söylediği bir sözü, üçüncü bir kişiye aktarırken kullanılan yapıdır. Sözü aktarırken genellikle bir derece "geçmiş zamana" (tense shift) gidilir.
+details:
+- Zaman Kayması (Tense Shift): Tırnak içindeki orijinal söz aktarılırken, zaman bir adım geriye gider. (Am/is/are -> was/were, Present Simple -> Past Simple).
+- Fiil Kullanımı: "say" (demek) tek başına kullanılabilir (He said that...), "tell" (söylemek) ise kime söylendiğini belirtmek zorundadır (He told me that...).
+- Zaman Zarfları: Zaman ifadeleri de aktarılırken değişir (today -> that day, tomorrow -> the next day, now -> then).
+- Modallar: "Will" -> "Would" olur. "Can" -> "Could" olur.
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-too-enough
+title: Too and Enough (Aşırılık ve Yeterlilik)
+keywords: too, enough, aşırı, yeterli, sıfat, zarf
+content: Bir şeyin gereğinden fazla (too) veya tam gerektiği kadar (enough) olduğunu belirtmek için kullanılırlar. Cümledeki konumları birbirine zıttır.
+details:
+- Too (Aşırı): Sıfatlardan ve zarflardan ÖNCE gelir. Cümleye yapısal olarak değil ama anlamsal olarak olumsuzluk katar. (too cold - çıkılamayacak kadar soğuk).
+- Enough (Yeterli): Sıfatlardan ve zarflardan SONRA gelir (tall enough - yeterince uzun). İsimlerden ise ÖNCE gelir (enough money - yeterli para).
+- Kullanım: Genellikle arkalarından "to + V1" (yapmak için) mastar yapısı gelir (Too tired to walk - Yürüyemeyecek kadar yorgun).
+examples:
+related_word_ids:
+
+=== GRAMMAR TOPIC ===
+id: gram-question-tags
+title: Question Tags (Eklenti Soruları)
+keywords: question tags, isn't it, don't you, değil mi, onaylama, tag questions
+content: Konuşma dilinde karşımızdakinden onay almak için cümlenin sonuna eklenen kısa sorulardır. Türkçedeki "değil mi?" ifadesini karşılar.
+details:
+- Zıtlık Kuralı: Ana cümle OLUMLU ise eklenti sorusu OLUMSUZ (You are a student, aren't you?), ana cümle OLUMSUZ ise eklenti sorusu OLUMLU olur.
+- Soru Yapısı: Soru kısmında sadece ana cümlenin yardımcı fiili (am/is/are, do/does, did, will vb.) ve kişi zamiri (I, you, he...) kullanılır. Kesinlikle özel isim kullanılmaz.
+- İstisnalar: "I am" ile başlayan cümlelerin sorusu "aren't I?" olur. "Let's" ile başlayanların eklentisi "shall we?", emir cümlelerinin ise "will you?" olur.
+examples:
+related_word_ids:
