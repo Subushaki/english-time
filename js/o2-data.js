@@ -10719,6 +10719,1814 @@ const O2_DATABASE = [
     examples: [],
     related_word_ids: [1337]
   },
+  {
+    id: "vocab-genel-1338",
+    category: "vocabulary",
+    title: "Local — Yerli / Bölgesel",
+    keywords: ["local", "yerli / bölgesel", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Belonging to a particular area or neighborhood.",
+      "🇹🇷 Belirli bir bölgeye veya mahalleye ait olan."
+    ],
+    examples: [],
+    related_word_ids: [1338]
+  },
+  {
+    id: "vocab-genel-1339",
+    category: "vocabulary",
+    title: "Locals — Yerliler",
+    keywords: ["locals", "yerliler", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 People who live in a particular area.",
+      "🇹🇷 Belirli bir bölgede yaşayan insanlar."
+    ],
+    examples: [],
+    related_word_ids: [1339]
+  },
+  {
+    id: "vocab-genel-1340",
+    category: "vocabulary",
+    title: "Chef — Aşçı / Şef",
+    keywords: ["chef", "aşçı / şef", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A professional cook.",
+      "🇹🇷 Profesyonel bir aşçı."
+    ],
+    examples: [],
+    related_word_ids: [1340]
+  },
+  {
+    id: "vocab-genel-1341",
+    category: "vocabulary",
+    title: "Chefs — Aşçılar / Şefler",
+    keywords: ["chefs", "aşçılar / şefler", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Professional cooks.",
+      "🇹🇷 Profesyonel aşçılar."
+    ],
+    examples: [],
+    related_word_ids: [1341]
+  },
+  {
+    id: "vocab-genel-1342",
+    category: "vocabulary",
+    title: "Combine — Birleştirmek / Karıştırmak",
+    keywords: ["combine", "birleştirmek / karıştırmak", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 To put two or more things together.",
+      "🇹🇷 İki veya daha fazla şeyi bir araya getirmek."
+    ],
+    examples: [],
+    related_word_ids: [1342]
+  },
+  {
+    id: "vocab-genel-1343",
+    category: "vocabulary",
+    title: "Ingredient — İçerik / Malzeme",
+    keywords: ["ingredient", "i̇çerik / malzeme", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 One of the things used to make a food or dish.",
+      "🇹🇷 Bir yiyecek veya yemek yapmak için kullanılan şeylerden biri."
+    ],
+    examples: [],
+    related_word_ids: [1343]
+  },
+  {
+    id: "vocab-genel-1344",
+    category: "vocabulary",
+    title: "Ingredients — İçerikler / Malzemeler",
+    keywords: ["ingredients", "i̇çerikler / malzemeler", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 The things used to make a food or dish.",
+      "🇹🇷 Bir yiyecek veya yemek yapmak için kullanılan şeyler."
+    ],
+    examples: [],
+    related_word_ids: [1344]
+  },
+  {
+    id: "vocab-genel-1345",
+    category: "vocabulary",
+    title: "Contemporary — Çağdaş / Modern",
+    keywords: ["contemporary", "çağdaş / modern", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Belonging to the present time.",
+      "🇹🇷 Şimdiki zamana ait olan."
+    ],
+    examples: [],
+    related_word_ids: [1345]
+  },
+  {
+    id: "vocab-genel-1346",
+    category: "vocabulary",
+    title: "Technique — Teknik / Yöntem",
+    keywords: ["technique", "teknik / yöntem", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A special way of doing something.",
+      "🇹🇷 Bir şeyi yapmanın özel bir yolu."
+    ],
+    examples: [],
+    related_word_ids: [1346]
+  },
+  {
+    id: "vocab-genel-1347",
+    category: "vocabulary",
+    title: "Techniques — Teknikler / Yöntemler",
+    keywords: ["techniques", "teknikler / yöntemler", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Special ways of doing things.",
+      "🇹🇷 Bir şeyleri yapmanın özel yolları."
+    ],
+    examples: [],
+    related_word_ids: [1347]
+  },
+  {
+    id: "vocab-genel-1348",
+    category: "vocabulary",
+    title: "Fundamental — Temel / Esas",
+    keywords: ["fundamental", "temel / esas", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Basic and very important.",
+      "🇹🇷 Temel ve çok önemli olan."
+    ],
+    examples: [],
+    related_word_ids: [1348]
+  },
+  {
+    id: "vocab-genel-1349",
+    category: "vocabulary",
+    title: "Fundamentals — Temeller / Esaslar",
+    keywords: ["fundamentals", "temeller / esaslar", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 The basic and most important parts of something.",
+      "🇹🇷 Bir şeyin temel ve en önemli kısımları."
+    ],
+    examples: [],
+    related_word_ids: [1349]
+  },
+  {
+    id: "vocab-genel-1350",
+    category: "vocabulary",
+    title: "Cuisine — Mutfak (Kültürü)",
+    keywords: ["cuisine", "mutfak (kültürü)", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A style of cooking.",
+      "🇹🇷 Bir yemek pişirme tarzı."
+    ],
+    examples: [],
+    related_word_ids: [1350]
+  },
+  {
+    id: "vocab-genel-1351",
+    category: "vocabulary",
+    title: "Cuisines — Mutfaklar (Kültürleri)",
+    keywords: ["cuisines", "mutfaklar (kültürleri)", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Different styles of cooking.",
+      "🇹🇷 Farklı yemek pişirme tarzları."
+    ],
+    examples: [],
+    related_word_ids: [1351]
+  },
+  {
+    id: "vocab-genel-1352",
+    category: "vocabulary",
+    title: "Field-to-table — Tarladan sofraya",
+    keywords: ["field-to-table", "tarladan sofraya", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Food brought directly from a farm to be eaten.",
+      "🇹🇷 Doğrudan çiftlikten getirilip yenen yiyecek."
+    ],
+    examples: [],
+    related_word_ids: [1352]
+  },
+  {
+    id: "vocab-genel-1353",
+    category: "vocabulary",
+    title: "Traditional — Geleneksel",
+    keywords: ["traditional", "geleneksel", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Following older methods and ideas.",
+      "🇹🇷 Eski yöntemleri ve fikirleri takip eden."
+    ],
+    examples: [],
+    related_word_ids: [1353]
+  },
+  {
+    id: "vocab-genel-1354",
+    category: "vocabulary",
+    title: "Unique — Eşsiz / Benzersiz",
+    keywords: ["unique", "eşsiz / benzersiz", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Being the only one of its kind.",
+      "🇹🇷 Türünün tek örneği olan."
+    ],
+    examples: [],
+    related_word_ids: [1354]
+  },
+  {
+    id: "vocab-genel-1355",
+    category: "vocabulary",
+    title: "Purchase — Satın almak / Alım",
+    keywords: ["purchase", "satın almak / alım", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 To buy something.",
+      "🇹🇷 Bir şey satın almak."
+    ],
+    examples: [],
+    related_word_ids: [1355]
+  },
+  {
+    id: "vocab-genel-1356",
+    category: "vocabulary",
+    title: "Purchases — Satın alımlar / Alışverişler",
+    keywords: ["purchases", "satın alımlar / alışverişler", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Things that you have bought.",
+      "🇹🇷 Satın aldığın şeyler."
+    ],
+    examples: [],
+    related_word_ids: [1356]
+  },
+  {
+    id: "vocab-genel-1357",
+    category: "vocabulary",
+    title: "Unmissable — Kaçırılmaması gereken",
+    keywords: ["unmissable", "kaçırılmaması gereken", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 So good that you must see or do it.",
+      "🇹🇷 O kadar iyi ki görmen veya yapman gereken."
+    ],
+    examples: [],
+    related_word_ids: [1357]
+  },
+  {
+    id: "vocab-genel-1358",
+    category: "vocabulary",
+    title: "Accommodation — Konaklama (Yeri)",
+    keywords: ["accommodation", "konaklama (yeri)", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A place to live, work, or stay in.",
+      "🇹🇷 Yaşamak, çalışmak veya kalmak için bir yer."
+    ],
+    examples: [],
+    related_word_ids: [1358]
+  },
+  {
+    id: "vocab-genel-1359",
+    category: "vocabulary",
+    title: "Accommodations — Konaklama yerleri",
+    keywords: ["accommodations", "konaklama yerleri", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Places to live, work, or stay in.",
+      "🇹🇷 Yaşamak, çalışmak veya kalmak için yerler."
+    ],
+    examples: [],
+    related_word_ids: [1359]
+  },
+  {
+    id: "vocab-genel-1360",
+    category: "vocabulary",
+    title: "Tuition — Okul taksiti / Öğretim ücreti",
+    keywords: ["tuition", "okul taksiti / öğretim ücreti", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Money paid to go to a school.",
+      "🇹🇷 Bir okula gitmek için ödenen para."
+    ],
+    examples: [],
+    related_word_ids: [1360]
+  },
+  {
+    id: "vocab-genel-1361",
+    category: "vocabulary",
+    title: "Evidence — Kanıt / Delil",
+    keywords: ["evidence", "kanıt / delil", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Facts or signs that show something is true.",
+      "🇹🇷 Bir şeyin doğru olduğunu gösteren gerçekler veya işaretler."
+    ],
+    examples: [],
+    related_word_ids: [1361]
+  },
+  {
+    id: "vocab-genel-1362",
+    category: "vocabulary",
+    title: "Prediction — Tahmin / Öngörü",
+    keywords: ["prediction", "tahmin / öngörü", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A guess about what will happen in the future.",
+      "🇹🇷 Gelecekte ne olacağına dair bir tahmin."
+    ],
+    examples: [],
+    related_word_ids: [1362]
+  },
+  {
+    id: "vocab-genel-1363",
+    category: "vocabulary",
+    title: "Predictions — Tahminler / Öngörüler",
+    keywords: ["predictions", "tahminler / öngörüler", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Guesses about what will happen in the future.",
+      "🇹🇷 Gelecekte ne olacağına dair tahminler."
+    ],
+    examples: [],
+    related_word_ids: [1363]
+  },
+  {
+    id: "vocab-genel-1364",
+    category: "vocabulary",
+    title: "Intention — Niyet / Amaç",
+    keywords: ["intention", "niyet / amaç", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Something that you want and plan to do.",
+      "🇹🇷 Yapmak istediğin ve planladığın şey."
+    ],
+    examples: [],
+    related_word_ids: [1364]
+  },
+  {
+    id: "vocab-genel-1365",
+    category: "vocabulary",
+    title: "Intentions — Niyetler / Amaçlar",
+    keywords: ["intentions", "niyetler / amaçlar", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Things that you want and plan to do.",
+      "🇹🇷 Yapmak istediğin ve planladığın şeyler."
+    ],
+    examples: [],
+    related_word_ids: [1365]
+  },
+  {
+    id: "vocab-genel-1366",
+    category: "vocabulary",
+    title: "Look out! — Dikkat et!",
+    keywords: ["look out!", "dikkat et!", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Said to warn someone of danger.",
+      "🇹🇷 Birini tehlikeye karşı uyarmak için söylenir."
+    ],
+    examples: [],
+    related_word_ids: [1366]
+  },
+  {
+    id: "vocab-genel-1367",
+    category: "vocabulary",
+    title: "Decision — Karar",
+    keywords: ["decision", "karar", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A choice that you make.",
+      "🇹🇷 Yaptığın bir seçim."
+    ],
+    examples: [],
+    related_word_ids: [1367]
+  },
+  {
+    id: "vocab-genel-1368",
+    category: "vocabulary",
+    title: "Decisions — Kararlar",
+    keywords: ["decisions", "kararlar", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Choices that you make.",
+      "🇹🇷 Yaptığın seçimler."
+    ],
+    examples: [],
+    related_word_ids: [1368]
+  },
+  {
+    id: "vocab-genel-1369",
+    category: "vocabulary",
+    title: "Weak — Zayıf / Güçsüz",
+    keywords: ["weak", "zayıf / güçsüz", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Not physically strong.",
+      "🇹🇷 Fiziksel olarak güçlü olmayan."
+    ],
+    examples: [],
+    related_word_ids: [1369]
+  },
+  {
+    id: "vocab-genel-1370",
+    category: "vocabulary",
+    title: "Instant — Anlık / Hazır",
+    keywords: ["instant", "anlık / hazır", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Happening immediately.",
+      "🇹🇷 Hemen gerçekleşen."
+    ],
+    examples: [],
+    related_word_ids: [1370]
+  },
+  {
+    id: "vocab-genel-1371",
+    category: "vocabulary",
+    title: "Instants — Anlar / Lahzalar",
+    keywords: ["instants", "anlar / lahzalar", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Very short periods of time.",
+      "🇹🇷 Çok kısa zaman dilimleri."
+    ],
+    examples: [],
+    related_word_ids: [1371]
+  },
+  {
+    id: "vocab-genel-1372",
+    category: "vocabulary",
+    title: "Suppose — Varsaymak / Sanmak",
+    keywords: ["suppose", "varsaymak / sanmak", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 To think that something is likely to be true.",
+      "🇹🇷 Bir şeyin doğru olmasının muhtemel olduğunu düşünmek."
+    ],
+    examples: [],
+    related_word_ids: [1372]
+  },
+  {
+    id: "vocab-genel-1373",
+    category: "vocabulary",
+    title: "Virtual reality — Sanal gerçeklik",
+    keywords: ["virtual reality", "sanal gerçeklik", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A world created by computers that looks and feels real.",
+      "🇹🇷 Bilgisayarlar tarafından yaratılan, gerçek gibi görünen dünya."
+    ],
+    examples: [],
+    related_word_ids: [1373]
+  },
+  {
+    id: "vocab-genel-1374",
+    category: "vocabulary",
+    title: "Planet — Gezegen",
+    keywords: ["planet", "gezegen", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A large, round object in space that moves around a sun.",
+      "🇹🇷 Uzayda bir güneşin etrafında dönen büyük, yuvarlak nesne."
+    ],
+    examples: [],
+    related_word_ids: [1374]
+  },
+  {
+    id: "vocab-genel-1375",
+    category: "vocabulary",
+    title: "Planets — Gezegenler",
+    keywords: ["planets", "gezegenler", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Large, round objects in space that move around a sun.",
+      "🇹🇷 Uzayda bir güneşin etrafında dönen büyük, yuvarlak nesneler."
+    ],
+    examples: [],
+    related_word_ids: [1375]
+  },
+  {
+    id: "vocab-genel-1376",
+    category: "vocabulary",
+    title: "Crowded — Kalabalık",
+    keywords: ["crowded", "kalabalık", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Full of people.",
+      "🇹🇷 İnsanlarla dolu."
+    ],
+    examples: [],
+    related_word_ids: [1376]
+  },
+  {
+    id: "vocab-genel-1377",
+    category: "vocabulary",
+    title: "Optimistic — İyimser",
+    keywords: ["optimistic", "i̇yimser", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Hoping or believing that good things will happen.",
+      "🇹🇷 İyi şeylerin olacağını uman veya buna inanan."
+    ],
+    examples: [],
+    related_word_ids: [1377]
+  },
+  {
+    id: "vocab-genel-1378",
+    category: "vocabulary",
+    title: "Pessimist — Kötümser (Kişi)",
+    keywords: ["pessimist", "kötümser (kişi)", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A person who always expects bad things to happen.",
+      "🇹🇷 Her zaman kötü şeylerin olmasını bekleyen kişi."
+    ],
+    examples: [],
+    related_word_ids: [1378]
+  },
+  {
+    id: "vocab-genel-1379",
+    category: "vocabulary",
+    title: "Pessimists — Kötümserler",
+    keywords: ["pessimists", "kötümserler", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 People who always expect bad things to happen.",
+      "🇹🇷 Her zaman kötü şeylerin olmasını bekleyen kişiler."
+    ],
+    examples: [],
+    related_word_ids: [1379]
+  },
+  {
+    id: "vocab-genel-1380",
+    category: "vocabulary",
+    title: "Introduction — Tanıtım / Giriş",
+    keywords: ["introduction", "tanıtım / giriş", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 The first part of a book or speech.",
+      "🇹🇷 Bir kitabın veya konuşmanın ilk kısmı."
+    ],
+    examples: [],
+    related_word_ids: [1380]
+  },
+  {
+    id: "vocab-genel-1381",
+    category: "vocabulary",
+    title: "Introductions — Tanıtımlar / Girişler",
+    keywords: ["introductions", "tanıtımlar / girişler", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 The first parts of books or speeches.",
+      "🇹🇷 Kitapların veya konuşmaların ilk kısımları."
+    ],
+    examples: [],
+    related_word_ids: [1381]
+  },
+  {
+    id: "vocab-genel-1382",
+    category: "vocabulary",
+    title: "Warm-up — Isınma",
+    keywords: ["warm-up", "isınma", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Exercises done before a sport or activity.",
+      "🇹🇷 Bir spor veya aktiviteden önce yapılan egzersizler."
+    ],
+    examples: [],
+    related_word_ids: [1382]
+  },
+  {
+    id: "vocab-genel-1383",
+    category: "vocabulary",
+    title: "Warm-ups — Isınmalar",
+    keywords: ["warm-ups", "isınmalar", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Sets of exercises done before sports.",
+      "🇹🇷 Sporlardan önce yapılan egzersiz setleri."
+    ],
+    examples: [],
+    related_word_ids: [1383]
+  },
+  {
+    id: "vocab-genel-1384",
+    category: "vocabulary",
+    title: "Charger — Şarj aleti",
+    keywords: ["charger", "şarj aleti", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A piece of equipment used to put electricity into a battery.",
+      "🇹🇷 Bataryaya elektrik yüklemek için kullanılan alet."
+    ],
+    examples: [],
+    related_word_ids: [1384]
+  },
+  {
+    id: "vocab-genel-1385",
+    category: "vocabulary",
+    title: "Chargers — Şarj aletleri",
+    keywords: ["chargers", "şarj aletleri", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Pieces of equipment used to put electricity into batteries.",
+      "🇹🇷 Bataryalara elektrik yüklemek için kullanılan aletler."
+    ],
+    examples: [],
+    related_word_ids: [1385]
+  },
+  {
+    id: "vocab-genel-1386",
+    category: "vocabulary",
+    title: "Battery — Pil / Batarya",
+    keywords: ["battery", "pil / batarya", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 An object that provides electricity for things like radios.",
+      "🇹🇷 Radyo gibi şeylere elektrik sağlayan nesne."
+    ],
+    examples: [],
+    related_word_ids: [1386]
+  },
+  {
+    id: "vocab-genel-1387",
+    category: "vocabulary",
+    title: "Batteries — Piller / Bataryalar",
+    keywords: ["batteries", "piller / bataryalar", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Objects that provide electricity.",
+      "🇹🇷 Elektrik sağlayan nesneler."
+    ],
+    examples: [],
+    related_word_ids: [1387]
+  },
+  {
+    id: "vocab-genel-1388",
+    category: "vocabulary",
+    title: "Several — Birkaç / Çeşitli",
+    keywords: ["several", "birkaç / çeşitli", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 More than two but not many.",
+      "🇹🇷 İkiden fazla ama çok değil."
+    ],
+    examples: [],
+    related_word_ids: [1388]
+  },
+  {
+    id: "vocab-genel-1389",
+    category: "vocabulary",
+    title: "Advice — Tavsiye / Öğüt",
+    keywords: ["advice", "tavsiye / öğüt", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Ideas given to someone about what they should do.",
+      "🇹🇷 Birine ne yapması gerektiği hakkında verilen fikirler."
+    ],
+    examples: [],
+    related_word_ids: [1389]
+  },
+  {
+    id: "vocab-genel-1390",
+    category: "vocabulary",
+    title: "Fruit — Meyve",
+    keywords: ["fruit", "meyve", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 The sweet part of a plant or tree that contains seeds.",
+      "🇹🇷 Bitkinin veya ağacın tohum içeren tatlı kısmı."
+    ],
+    examples: [],
+    related_word_ids: [1390]
+  },
+  {
+    id: "vocab-genel-1391",
+    category: "vocabulary",
+    title: "Fruits — Meyveler",
+    keywords: ["fruits", "meyveler", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Sweet parts of plants or trees.",
+      "🇹🇷 Bitkilerin veya ağaçların tatlı kısımları."
+    ],
+    examples: [],
+    related_word_ids: [1391]
+  },
+  {
+    id: "vocab-genel-1392",
+    category: "vocabulary",
+    title: "Water — Su",
+    keywords: ["water", "su", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 The clear liquid that falls from the sky as rain.",
+      "🇹🇷 Gökten yağmur olarak düşen berrak sıvı."
+    ],
+    examples: [],
+    related_word_ids: [1392]
+  },
+  {
+    id: "vocab-genel-1393",
+    category: "vocabulary",
+    title: "Tea — Çay",
+    keywords: ["tea", "çay", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A hot drink made by pouring boiling water onto dried leaves.",
+      "🇹🇷 Kurutulmuş yaprakların üzerine kaynar su dökülerek yapılan içecek."
+    ],
+    examples: [],
+    related_word_ids: [1393]
+  },
+  {
+    id: "vocab-genel-1394",
+    category: "vocabulary",
+    title: "Bread — Ekmek",
+    keywords: ["bread", "ekmek", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A basic food made from flour, water, and yeast baked together.",
+      "🇹🇷 Un, su ve mayanın birlikte pişirilmesiyle yapılan temel yiyecek."
+    ],
+    examples: [],
+    related_word_ids: [1394]
+  },
+  {
+    id: "vocab-genel-1395",
+    category: "vocabulary",
+    title: "Fish — Balık / Balıklar",
+    keywords: ["fish", "balık / balıklar", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 An animal that lives in water and swims.",
+      "🇹🇷 Suda yaşayan ve yüzen hayvan."
+    ],
+    examples: [],
+    related_word_ids: [1395]
+  },
+  {
+    id: "vocab-genel-1396",
+    category: "vocabulary",
+    title: "Pea — Bezelye",
+    keywords: ["pea", "bezelye", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A round, green seed eaten as a vegetable.",
+      "🇹🇷 Sebze olarak yenen yuvarlak, yeşil tohum."
+    ],
+    examples: [],
+    related_word_ids: [1396]
+  },
+  {
+    id: "vocab-genel-1397",
+    category: "vocabulary",
+    title: "Peas — Bezelyeler",
+    keywords: ["peas", "bezelyeler", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Round, green seeds eaten as vegetables.",
+      "🇹🇷 Sebze olarak yenen yuvarlak, yeşil tohumlar."
+    ],
+    examples: [],
+    related_word_ids: [1397]
+  },
+  {
+    id: "vocab-genel-1398",
+    category: "vocabulary",
+    title: "Soup — Çorba",
+    keywords: ["soup", "çorba", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A hot, liquid food made from meat or vegetables.",
+      "🇹🇷 Et veya sebzelerden yapılan sıcak, sıvı yiyecek."
+    ],
+    examples: [],
+    related_word_ids: [1398]
+  },
+  {
+    id: "vocab-genel-1399",
+    category: "vocabulary",
+    title: "Soups — Çorbalar",
+    keywords: ["soups", "çorbalar", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Hot, liquid foods made from meat or vegetables.",
+      "🇹🇷 Et veya sebzelerden yapılan sıcak, sıvı yiyecekler."
+    ],
+    examples: [],
+    related_word_ids: [1399]
+  },
+  {
+    id: "vocab-genel-1400",
+    category: "vocabulary",
+    title: "Soda — Gazoz / Maden suyu",
+    keywords: ["soda", "gazoz / maden suyu", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A sweet drink with bubbles.",
+      "🇹🇷 Baloncuklu (gazlı) tatlı içecek."
+    ],
+    examples: [],
+    related_word_ids: [1400]
+  },
+  {
+    id: "vocab-genel-1401",
+    category: "vocabulary",
+    title: "Sodas — Gazozlar / Maden suları",
+    keywords: ["sodas", "gazozlar / maden suları", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Sweet drinks with bubbles.",
+      "🇹🇷 Baloncuklu (gazlı) tatlı içecekler."
+    ],
+    examples: [],
+    related_word_ids: [1401]
+  },
+  {
+    id: "vocab-genel-1402",
+    category: "vocabulary",
+    title: "Honey — Bal",
+    keywords: ["honey", "bal", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A sweet, sticky, yellow food made by bees.",
+      "🇹🇷 Arılar tarafından yapılan tatlı, yapışkan, sarı yiyecek."
+    ],
+    examples: [],
+    related_word_ids: [1402]
+  },
+  {
+    id: "vocab-genel-1403",
+    category: "vocabulary",
+    title: "Sense — Duyu / His",
+    keywords: ["sense", "duyu / his", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 One of the five powers (sight, hearing, etc.) of the body.",
+      "🇹🇷 Vücudun beş gücünden (görme, duyma vb.) biri."
+    ],
+    examples: [],
+    related_word_ids: [1403]
+  },
+  {
+    id: "vocab-genel-1404",
+    category: "vocabulary",
+    title: "Senses — Duyular / Hisler",
+    keywords: ["senses", "duyular / hisler", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 The powers of the body to see, hear, smell, taste, and feel.",
+      "🇹🇷 Vücudun görme, duyma, koklama, tatma ve hissetme güçleri."
+    ],
+    examples: [],
+    related_word_ids: [1404]
+  },
+  {
+    id: "vocab-genel-1405",
+    category: "vocabulary",
+    title: "Information — Bilgi",
+    keywords: ["information", "bilgi", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Facts or details about a person, company, or event.",
+      "🇹🇷 Bir kişi, şirket veya olay hakkındaki gerçekler veya detaylar."
+    ],
+    examples: [],
+    related_word_ids: [1405]
+  },
+  {
+    id: "vocab-genel-1406",
+    category: "vocabulary",
+    title: "Pepper — Karabiber / Biber",
+    keywords: ["pepper", "karabiber / biber", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A powder or vegetable used to give food a spicy flavor.",
+      "🇹🇷 Yemeğe baharatlı bir tat vermek için kullanılan toz veya sebze."
+    ],
+    examples: [],
+    related_word_ids: [1406]
+  },
+  {
+    id: "vocab-genel-1407",
+    category: "vocabulary",
+    title: "Peppers — Biberler",
+    keywords: ["peppers", "biberler", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Vegetables used to give food flavor.",
+      "🇹🇷 Yemeğe tat vermek için kullanılan sebzeler."
+    ],
+    examples: [],
+    related_word_ids: [1407]
+  },
+  {
+    id: "vocab-genel-1408",
+    category: "vocabulary",
+    title: "Spice — Baharat",
+    keywords: ["spice", "baharat", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A substance made from a plant, used to give flavor to food.",
+      "🇹🇷 Yemeğe tat vermek için kullanılan, bitkiden yapılan madde."
+    ],
+    examples: [],
+    related_word_ids: [1408]
+  },
+  {
+    id: "vocab-genel-1409",
+    category: "vocabulary",
+    title: "Spices — Baharatlar",
+    keywords: ["spices", "baharatlar", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Substances made from plants, used to give flavor to food.",
+      "🇹🇷 Yemeğe tat vermek için kullanılan, bitkilerden yapılan maddeler."
+    ],
+    examples: [],
+    related_word_ids: [1409]
+  },
+  {
+    id: "vocab-genel-1410",
+    category: "vocabulary",
+    title: "Music — Müzik",
+    keywords: ["music", "müzik", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Sounds that are sung or played on instruments.",
+      "🇹🇷 Söylenen veya enstrümanlarla çalınan sesler."
+    ],
+    examples: [],
+    related_word_ids: [1410]
+  },
+  {
+    id: "vocab-genel-1411",
+    category: "vocabulary",
+    title: "Soap — Sabun",
+    keywords: ["soap", "sabun", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A substance used for washing the body or other things.",
+      "🇹🇷 Vücudu veya başka şeyleri yıkamak için kullanılan madde."
+    ],
+    examples: [],
+    related_word_ids: [1411]
+  },
+  {
+    id: "vocab-genel-1412",
+    category: "vocabulary",
+    title: "Soaps — Sabunlar",
+    keywords: ["soaps", "sabunlar", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Substances used for washing.",
+      "🇹🇷 Yıkamak için kullanılan maddeler."
+    ],
+    examples: [],
+    related_word_ids: [1412]
+  },
+  {
+    id: "vocab-genel-1413",
+    category: "vocabulary",
+    title: "Meat — Et",
+    keywords: ["meat", "et", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 The flesh of an animal used as food.",
+      "🇹🇷 Yiyecek olarak kullanılan hayvan eti."
+    ],
+    examples: [],
+    related_word_ids: [1413]
+  },
+  {
+    id: "vocab-genel-1414",
+    category: "vocabulary",
+    title: "Bean — Fasulye",
+    keywords: ["bean", "fasulye", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A seed of various climbing plants, eaten as a vegetable.",
+      "🇹🇷 Sebze olarak yenen çeşitli tırmanıcı bitkilerin tohumu."
+    ],
+    examples: [],
+    related_word_ids: [1414]
+  },
+  {
+    id: "vocab-genel-1415",
+    category: "vocabulary",
+    title: "Beans — Fasulyeler",
+    keywords: ["beans", "fasulyeler", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Seeds of climbing plants eaten as vegetables.",
+      "🇹🇷 Sebze olarak yenen tırmanıcı bitkilerin tohumları."
+    ],
+    examples: [],
+    related_word_ids: [1415]
+  },
+  {
+    id: "vocab-genel-1416",
+    category: "vocabulary",
+    title: "Wisdom — Bilgelik / Akıl",
+    keywords: ["wisdom", "bilgelik / akıl", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 The ability to use your knowledge to make good decisions.",
+      "🇹🇷 İyi kararlar vermek için bilgini kullanma yeteneği."
+    ],
+    examples: [],
+    related_word_ids: [1416]
+  },
+  {
+    id: "vocab-genel-1417",
+    category: "vocabulary",
+    title: "Jam — Reçel",
+    keywords: ["jam", "reçel", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A sweet food made from fruit and sugar.",
+      "🇹🇷 Meyve ve şekerden yapılan tatlı yiyecek."
+    ],
+    examples: [],
+    related_word_ids: [1417]
+  },
+  {
+    id: "vocab-genel-1418",
+    category: "vocabulary",
+    title: "Jams — Reçeller",
+    keywords: ["jams", "reçeller", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Sweet foods made from fruit and sugar.",
+      "🇹🇷 Meyve ve şekerden yapılan tatlı yiyecekler."
+    ],
+    examples: [],
+    related_word_ids: [1418]
+  },
+  {
+    id: "vocab-genel-1419",
+    category: "vocabulary",
+    title: "Juice — Meyve suyu",
+    keywords: ["juice", "meyve suyu", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 The liquid that comes from fruit or vegetables.",
+      "🇹🇷 Meyve veya sebzelerden elde edilen sıvı."
+    ],
+    examples: [],
+    related_word_ids: [1419]
+  },
+  {
+    id: "vocab-genel-1420",
+    category: "vocabulary",
+    title: "Juices — Meyve suları",
+    keywords: ["juices", "meyve suları", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Liquids that come from fruit or vegetables.",
+      "🇹🇷 Meyve veya sebzelerden elde edilen sıvılar."
+    ],
+    examples: [],
+    related_word_ids: [1420]
+  },
+  {
+    id: "vocab-genel-1421",
+    category: "vocabulary",
+    title: "Either — İkisinden biri / Ya (o ya bu)",
+    keywords: ["either", "i̇kisinden biri / ya (o ya bu)", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 One or the other of two people or things.",
+      "🇹🇷 İki kişi veya şeyden biri veya diğeri."
+    ],
+    examples: [],
+    related_word_ids: [1421]
+  },
+  {
+    id: "vocab-genel-1422",
+    category: "vocabulary",
+    title: "Neither — İkisi de değil / Ne (o ne bu)",
+    keywords: ["neither", "i̇kisi de değil / ne (o ne bu)", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Not one and not the other of two things.",
+      "🇹🇷 İki şeyden biri de değil, diğeri de değil."
+    ],
+    examples: [],
+    related_word_ids: [1422]
+  },
+  {
+    id: "vocab-genel-1423",
+    category: "vocabulary",
+    title: "Picnic — Piknik",
+    keywords: ["picnic", "piknik", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A meal eaten outside, often in a park or forest.",
+      "🇹🇷 Genellikle parkta veya ormanda dışarıda yenen yemek."
+    ],
+    examples: [],
+    related_word_ids: [1423]
+  },
+  {
+    id: "vocab-genel-1424",
+    category: "vocabulary",
+    title: "Picnics — Piknikler",
+    keywords: ["picnics", "piknikler", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Meals eaten outside.",
+      "🇹🇷 Dışarıda yenen yemekler."
+    ],
+    examples: [],
+    related_word_ids: [1424]
+  },
+  {
+    id: "vocab-genel-1425",
+    category: "vocabulary",
+    title: "Egg — Yumurta",
+    keywords: ["egg", "yumurta", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 An oval object produced by a female bird, eaten as food.",
+      "🇹🇷 Dişi bir kuş tarafından üretilen, yiyecek olarak yenen oval nesne."
+    ],
+    examples: [],
+    related_word_ids: [1425]
+  },
+  {
+    id: "vocab-genel-1426",
+    category: "vocabulary",
+    title: "Eggs — Yumurtalar",
+    keywords: ["eggs", "yumurtalar", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Oval objects produced by female birds, eaten as food.",
+      "🇹🇷 Dişi kuşlar tarafından üretilen yiyecek olarak yenen nesneler."
+    ],
+    examples: [],
+    related_word_ids: [1426]
+  },
+  {
+    id: "vocab-genel-1427",
+    category: "vocabulary",
+    title: "Bag — Çanta / Torba",
+    keywords: ["bag", "çanta / torba", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A soft container made out of paper or cloth.",
+      "🇹🇷 Kağıt veya kumaştan yapılmış yumuşak kap."
+    ],
+    examples: [],
+    related_word_ids: [1427]
+  },
+  {
+    id: "vocab-genel-1428",
+    category: "vocabulary",
+    title: "Bags — Çantalar / Torbalar",
+    keywords: ["bags", "çantalar / torbalar", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Soft containers made out of paper or cloth.",
+      "🇹🇷 Kağıt veya kumaştan yapılmış yumuşak kaplar."
+    ],
+    examples: [],
+    related_word_ids: [1428]
+  },
+  {
+    id: "vocab-genel-1429",
+    category: "vocabulary",
+    title: "Sugar — Şeker",
+    keywords: ["sugar", "şeker", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A sweet, white or brown powder used to make food sweet.",
+      "🇹🇷 Yiyecekleri tatlandırmak için kullanılan tatlı toz."
+    ],
+    examples: [],
+    related_word_ids: [1429]
+  },
+  {
+    id: "vocab-genel-1430",
+    category: "vocabulary",
+    title: "Hardly — Neredeyse hiç / Zar zor",
+    keywords: ["hardly", "neredeyse hiç / zar zor", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Almost not, or only a very small amount.",
+      "🇹🇷 Neredeyse hiç veya sadece çok küçük bir miktar."
+    ],
+    examples: [],
+    related_word_ids: [1430]
+  },
+  {
+    id: "vocab-genel-1431",
+    category: "vocabulary",
+    title: "Almost — Neredeyse / Hemen hemen",
+    keywords: ["almost", "neredeyse / hemen hemen", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Nearly, but not completely.",
+      "🇹🇷 Neredeyse, ama tamamen değil."
+    ],
+    examples: [],
+    related_word_ids: [1431]
+  },
+  {
+    id: "vocab-genel-1432",
+    category: "vocabulary",
+    title: "Only — Sadece / Yalnızca",
+    keywords: ["only", "sadece / yalnızca", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Nothing or no one else.",
+      "🇹🇷 Başka hiçbir şey veya hiç kimse."
+    ],
+    examples: [],
+    related_word_ids: [1432]
+  },
+  {
+    id: "vocab-genel-1433",
+    category: "vocabulary",
+    title: "Mistake — Hata / Yanlış",
+    keywords: ["mistake", "hata / yanlış", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 An action or decision that is wrong.",
+      "🇹🇷 Yanlış olan bir eylem veya karar."
+    ],
+    examples: [],
+    related_word_ids: [1433]
+  },
+  {
+    id: "vocab-genel-1434",
+    category: "vocabulary",
+    title: "Mistakes — Hatalar / Yanlışlar",
+    keywords: ["mistakes", "hatalar / yanlışlar", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Actions or decisions that are wrong.",
+      "🇹🇷 Yanlış olan eylemler veya kararlar."
+    ],
+    examples: [],
+    related_word_ids: [1434]
+  },
+  {
+    id: "vocab-genel-1435",
+    category: "vocabulary",
+    title: "Hard disc — Sabit disk",
+    keywords: ["hard disc", "sabit disk", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A part of a computer that stores information.",
+      "🇹🇷 Bilgisayarın bilgi depolayan kısmı."
+    ],
+    examples: [],
+    related_word_ids: [1435]
+  },
+  {
+    id: "vocab-genel-1436",
+    category: "vocabulary",
+    title: "Hard discs — Sabit diskler",
+    keywords: ["hard discs", "sabit diskler", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Parts of computers that store information.",
+      "🇹🇷 Bilgisayarların bilgi depolayan kısımları."
+    ],
+    examples: [],
+    related_word_ids: [1436]
+  },
+  {
+    id: "vocab-genel-1437",
+    category: "vocabulary",
+    title: "Decide — Karar vermek",
+    keywords: ["decide", "karar vermek", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 To choose something after thinking about it.",
+      "🇹🇷 Düşündükten sonra bir şeyi seçmek."
+    ],
+    examples: [],
+    related_word_ids: [1437]
+  },
+  {
+    id: "vocab-genel-1438",
+    category: "vocabulary",
+    title: "Quantifier — Miktar belirteci",
+    keywords: ["quantifier", "miktar belirteci", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A word or phrase that tells how much or how many.",
+      "🇹🇷 Ne kadar veya kaç tane olduğunu söyleyen kelime."
+    ],
+    examples: [],
+    related_word_ids: [1438]
+  },
+  {
+    id: "vocab-genel-1439",
+    category: "vocabulary",
+    title: "Quantifiers — Miktar belirteçleri",
+    keywords: ["quantifiers", "miktar belirteçleri", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Words or phrases that tell how much or how many.",
+      "🇹🇷 Ne kadar veya kaç tane olduğunu söyleyen kelimeler."
+    ],
+    examples: [],
+    related_word_ids: [1439]
+  },
+  {
+    id: "vocab-genel-1440",
+    category: "vocabulary",
+    title: "Marathon — Maraton",
+    keywords: ["marathon", "maraton", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A very long running race.",
+      "🇹🇷 Çok uzun bir koşu yarışı."
+    ],
+    examples: [],
+    related_word_ids: [1440]
+  },
+  {
+    id: "vocab-genel-1441",
+    category: "vocabulary",
+    title: "Marathons — Maratonlar",
+    keywords: ["marathons", "maratonlar", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Very long running races.",
+      "🇹🇷 Çok uzun koşu yarışları."
+    ],
+    examples: [],
+    related_word_ids: [1441]
+  },
+  {
+    id: "vocab-genel-1442",
+    category: "vocabulary",
+    title: "Installation — Kurulum / Tesisat",
+    keywords: ["installation", "kurulum / tesisat", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 The act of putting something into place so you can use it.",
+      "🇹🇷 Bir şeyi kullanabilmen için yerine yerleştirme eylemi."
+    ],
+    examples: [],
+    related_word_ids: [1442]
+  },
+  {
+    id: "vocab-genel-1443",
+    category: "vocabulary",
+    title: "Installations — Kurulumlar / Tesisatlar",
+    keywords: ["installations", "kurulumlar / tesisatlar", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Systems or things put in a place for use.",
+      "🇹🇷 Kullanım için bir yere yerleştirilen sistemler veya şeyler."
+    ],
+    examples: [],
+    related_word_ids: [1443]
+  },
+  {
+    id: "vocab-genel-1444",
+    category: "vocabulary",
+    title: "Pretty — Hoş / Oldukça",
+    keywords: ["pretty", "hoş / oldukça", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Nice to look at, or quite (much).",
+      "🇹🇷 Bakması hoş veya oldukça (fazla)."
+    ],
+    examples: [],
+    related_word_ids: [1444]
+  },
+  {
+    id: "vocab-genel-1445",
+    category: "vocabulary",
+    title: "Strong — Güçlü / Kuvvetli",
+    keywords: ["strong", "güçlü / kuvvetli", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Having a lot of physical power.",
+      "🇹🇷 Fiziksel olarak çok fazla güce sahip olan."
+    ],
+    examples: [],
+    related_word_ids: [1445]
+  },
+  {
+    id: "vocab-genel-1446",
+    category: "vocabulary",
+    title: "Treat — İkram / Davranmak",
+    keywords: ["treat", "i̇kram / davranmak", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Something special that you give someone, or how you act.",
+      "🇹🇷 Birine verdiğin özel bir şey veya ona karşı davranış şeklin."
+    ],
+    examples: [],
+    related_word_ids: [1446]
+  },
+  {
+    id: "vocab-genel-1447",
+    category: "vocabulary",
+    title: "Treats — İkramlar",
+    keywords: ["treats", "i̇kramlar", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Special things that you give to someone.",
+      "🇹🇷 Birine verdiğin özel şeyler."
+    ],
+    examples: [],
+    related_word_ids: [1447]
+  },
+  {
+    id: "vocab-genel-1448",
+    category: "vocabulary",
+    title: "Choice — Seçenek / Seçim",
+    keywords: ["choice", "seçenek / seçim", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 An act of choosing between two or more possibilities.",
+      "🇹🇷 İki veya daha fazla olasılık arasından seçim yapma eylemi."
+    ],
+    examples: [],
+    related_word_ids: [1448]
+  },
+  {
+    id: "vocab-genel-1449",
+    category: "vocabulary",
+    title: "Choices — Seçenekler / Seçimler",
+    keywords: ["choices", "seçenekler / seçimler", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Acts of choosing between possibilities.",
+      "🇹🇷 Olasılıklar arasından seçim yapma eylemleri."
+    ],
+    examples: [],
+    related_word_ids: [1449]
+  },
+  {
+    id: "vocab-genel-1450",
+    category: "vocabulary",
+    title: "Opposite — Zıt / Karşısında",
+    keywords: ["opposite", "zıt / karşısında", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Completely different, or on the other side.",
+      "🇹🇷 Tamamen farklı veya diğer tarafta olan."
+    ],
+    examples: [],
+    related_word_ids: [1450]
+  },
+  {
+    id: "vocab-genel-1451",
+    category: "vocabulary",
+    title: "In front of — Önünde",
+    keywords: ["in front of", "önünde", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Further forward than someone or something.",
+      "🇹🇷 Birinden veya bir şeyden daha ileride/önde."
+    ],
+    examples: [],
+    related_word_ids: [1451]
+  },
+  {
+    id: "vocab-genel-1452",
+    category: "vocabulary",
+    title: "Next to — Bitişiğinde / Yanında",
+    keywords: ["next to", "bitişiğinde / yanında", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Beside someone or something.",
+      "🇹🇷 Birinin veya bir şeyin yanı."
+    ],
+    examples: [],
+    related_word_ids: [1452]
+  },
+  {
+    id: "vocab-genel-1453",
+    category: "vocabulary",
+    title: "On — Üzerinde",
+    keywords: ["on", "üzerinde", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Touching a surface.",
+      "🇹🇷 Bir yüzeye temas eden/üzerinde."
+    ],
+    examples: [],
+    related_word_ids: [1453]
+  },
+  {
+    id: "vocab-genel-1454",
+    category: "vocabulary",
+    title: "Beside — Yanında",
+    keywords: ["beside", "yanında", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Next to or very close to something.",
+      "🇹🇷 Bir şeyin bitişiğinde veya çok yakınında."
+    ],
+    examples: [],
+    related_word_ids: [1454]
+  },
+  {
+    id: "vocab-genel-1455",
+    category: "vocabulary",
+    title: "Up — Yukarı",
+    keywords: ["up", "yukarı", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Toward a higher position.",
+      "🇹🇷 Daha yüksek bir konuma doğru."
+    ],
+    examples: [],
+    related_word_ids: [1455]
+  },
+  {
+    id: "vocab-genel-1456",
+    category: "vocabulary",
+    title: "From ... to — ...'den ...'e",
+    keywords: ["from ... to", "...'den ...'e", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Used to show the start and end of something.",
+      "🇹🇷 Bir şeyin başlangıcını ve sonunu göstermek için kullanılır."
+    ],
+    examples: [],
+    related_word_ids: [1456]
+  },
+  {
+    id: "vocab-genel-1457",
+    category: "vocabulary",
+    title: "Forward — İleriye",
+    keywords: ["forward", "i̇leriye", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Toward the direction that is in front of you.",
+      "🇹🇷 Önündeki yöne doğru."
+    ],
+    examples: [],
+    related_word_ids: [1457]
+  },
+  {
+    id: "vocab-genel-1458",
+    category: "vocabulary",
+    title: "Backward — Geriye",
+    keywords: ["backward", "geriye", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Toward the direction that is behind you.",
+      "🇹🇷 Arkandaki yöne doğru."
+    ],
+    examples: [],
+    related_word_ids: [1458]
+  },
+  {
+    id: "vocab-genel-1459",
+    category: "vocabulary",
+    title: "Down — Aşağı",
+    keywords: ["down", "aşağı", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Toward a lower position.",
+      "🇹🇷 Daha düşük bir konuma doğru."
+    ],
+    examples: [],
+    related_word_ids: [1459]
+  },
+  {
+    id: "vocab-genel-1460",
+    category: "vocabulary",
+    title: "Imperative — Emir / Zorunluluk",
+    keywords: ["imperative", "emir / zorunluluk", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Extremely important or urgent, or a command.",
+      "🇹🇷 Son derece önemli veya acil, ya da bir emir."
+    ],
+    examples: [],
+    related_word_ids: [1460]
+  },
+  {
+    id: "vocab-genel-1461",
+    category: "vocabulary",
+    title: "Imperatives — Emirler / Zorunluluklar",
+    keywords: ["imperatives", "emirler / zorunluluklar", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Commands or extremely important things.",
+      "🇹🇷 Emirler veya son derece önemli olan şeyler."
+    ],
+    examples: [],
+    related_word_ids: [1461]
+  },
+  {
+    id: "vocab-genel-1462",
+    category: "vocabulary",
+    title: "Instruction — Talimat / Yönerge",
+    keywords: ["instruction", "talimat / yönerge", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Information about how to do or use something.",
+      "🇹🇷 Bir şeyin nasıl yapılacağı veya kullanılacağı hakkında bilgi."
+    ],
+    examples: [],
+    related_word_ids: [1462]
+  },
+  {
+    id: "vocab-genel-1463",
+    category: "vocabulary",
+    title: "Instructions — Talimatlar / Yönergeler",
+    keywords: ["instructions", "talimatlar / yönergeler", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Detailed information about how to do or use something.",
+      "🇹🇷 Bir şeyin nasıl kullanılacağı hakkında detaylı bilgiler."
+    ],
+    examples: [],
+    related_word_ids: [1463]
+  },
+  {
+    id: "vocab-genel-1464",
+    category: "vocabulary",
+    title: "Quite — Oldukça / Epey",
+    keywords: ["quite", "oldukça / epey", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A little or a lot but not completely.",
+      "🇹🇷 Biraz veya çok ama tamamen değil."
+    ],
+    examples: [],
+    related_word_ids: [1464]
+  },
+  {
+    id: "vocab-genel-1465",
+    category: "vocabulary",
+    title: "Polite — Kibar / Nazik",
+    keywords: ["polite", "kibar / nazik", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Behaving in a way that is socially correct and shows respect.",
+      "🇹🇷 Sosyal olarak doğru olan ve saygı gösteren bir şekilde davranmak."
+    ],
+    examples: [],
+    related_word_ids: [1465]
+  },
+  {
+    id: "vocab-genel-1466",
+    category: "vocabulary",
+    title: "Knee — Diz",
+    keywords: ["knee", "diz", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 The middle joint of the leg.",
+      "🇹🇷 Bacağın orta eklemi."
+    ],
+    examples: [],
+    related_word_ids: [1466]
+  },
+  {
+    id: "vocab-genel-1467",
+    category: "vocabulary",
+    title: "Knees — Dizler",
+    keywords: ["knees", "dizler", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 The middle joints of the legs.",
+      "🇹🇷 Bacakların orta eklemleri."
+    ],
+    examples: [],
+    related_word_ids: [1467]
+  },
+  {
+    id: "vocab-genel-1468",
+    category: "vocabulary",
+    title: "Arm — Kol",
+    keywords: ["arm", "kol", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 The long part of the body between the shoulder and the hand.",
+      "🇹🇷 Vücudun omuz ve el arasındaki uzun kısmı."
+    ],
+    examples: [],
+    related_word_ids: [1468]
+  },
+  {
+    id: "vocab-genel-1469",
+    category: "vocabulary",
+    title: "Arms — Kollar",
+    keywords: ["arms", "kollar", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 The long parts of the body between the shoulders and the hands.",
+      "🇹🇷 Vücudun omuzlar ve eller arasındaki uzun kısımları."
+    ],
+    examples: [],
+    related_word_ids: [1469]
+  },
+  {
+    id: "vocab-genel-1470",
+    category: "vocabulary",
+    title: "Repeat — Tekrar etmek",
+    keywords: ["repeat", "tekrar etmek", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 To say or do something again.",
+      "🇹🇷 Bir şeyi tekrar söylemek veya yapmak."
+    ],
+    examples: [],
+    related_word_ids: [1470]
+  },
+  {
+    id: "vocab-genel-1471",
+    category: "vocabulary",
+    title: "Above — Üzerinde / Yukarısında",
+    keywords: ["above", "üzerinde / yukarısında", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 In a higher position than something else.",
+      "🇹🇷 Başka bir şeyden daha yüksek bir konumda."
+    ],
+    examples: [],
+    related_word_ids: [1471]
+  },
+  {
+    id: "vocab-genel-1472",
+    category: "vocabulary",
+    title: "Variety — Çeşitlilik / Çeşit",
+    keywords: ["variety", "çeşitlilik / çeşit", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A lot of different things of the same type.",
+      "🇹🇷 Aynı türden birçok farklı şey."
+    ],
+    examples: [],
+    related_word_ids: [1472]
+  },
+  {
+    id: "vocab-genel-1473",
+    category: "vocabulary",
+    title: "Varieties — Çeşitler",
+    keywords: ["varieties", "çeşitler", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Different types of things.",
+      "🇹🇷 Şeylerin farklı türleri."
+    ],
+    examples: [],
+    related_word_ids: [1473]
+  },
+  {
+    id: "vocab-genel-1474",
+    category: "vocabulary",
+    title: "Prompt decision — Hızlı karar",
+    keywords: ["prompt decision", "hızlı karar", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 A choice made quickly without delay.",
+      "🇹🇷 Gecikmeden hızlıca yapılan seçim."
+    ],
+    examples: [],
+    related_word_ids: [1474]
+  },
+  {
+    id: "vocab-genel-1475",
+    category: "vocabulary",
+    title: "Prompt decisions — Hızlı kararlar",
+    keywords: ["prompt decisions", "hızlı kararlar", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Choices made quickly without delay.",
+      "🇹🇷 Gecikmeden hızlıca yapılan seçimler."
+    ],
+    examples: [],
+    related_word_ids: [1475]
+  },
+  {
+    id: "vocab-genel-1476",
+    category: "vocabulary",
+    title: "Determined — Kararlı / Azimli",
+    keywords: ["determined", "kararlı / azimli", "kelime", "vocabulary", "ipucu", "genel"],
+    content: "Bu kelime A2 Genel kelime listesinde yer almaktadır.",
+    details: [
+      "🇬🇧 Wanting to do something very much.",
+      "🇹🇷 Bir şeyi yapmayı çok istemek ve pes etmemek."
+    ],
+    examples: [],
+    related_word_ids: [1476]
+  },
+
 
 
   // A2 SAATLER OTO-EKLENEN KAVRAMLAR

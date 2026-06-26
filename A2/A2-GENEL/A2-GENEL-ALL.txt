@@ -1,4 +1,4 @@
-ENGLISH TIME - A2 GENEL BİRLEŞİK LİSTE (337 Kelime)
+ENGLISH TIME - A2 GENEL BİRLEŞİK LİSTE (476 Kelime)
 ====================================================================================================
 
 No    | English                                  | Türkçe                                   | English Hint                                                    | Türkçe İpucu
@@ -164,8 +164,8 @@ No    | English                                  | Türkçe                     
 159   | Pieces                                   | Parçalar / Taneler                       | Parts of something.                                             | Bir şeyin kısımları.
 160   | Tremendous                               | Muazzam / Kocaman                        | Very big or very great.                                         | Çok büyük veya çok harika.
 161   | Religious                                | Dini                                     | About God or beliefs.                                           | Tanrı veya inançlarla ilgili.
-162   | Street                                   | Sokak                                    | A road in a city or town.                                       | Şehir veya kasabadaki binaların arasındaki yol.
-163   | Streets                                  | Sokaklar                                 | Roads in a city or town.                                        | Şehir veya kasabadaki yollar.
+162   | Street                                   | Sokak / Cadde                            | A road in a city or town.                                       | Şehir veya kasabadaki binaların arasındaki yol.
+163   | Streets                                  | Sokaklar / Caddeler                      | Roads in a city or town.                                        | Şehir veya kasabadaki yollar.
 164   | Endlessly                                | Sonsuzca / Durmaksızın                   | Never stopping.                                                 | Hiç durmadan devam etme durumu.
 165   | Need                                     | İhtiyaç / İhtiyaç duymak                 | Something you must have.                                        | Kesinlikle sahip olman gereken şey.
 166   | Needs                                    | İhtiyaçlar                               | Things you must have.                                           | Kesinlikle sahip olman gereken şeyler.
@@ -340,3 +340,142 @@ No    | English                                  | Türkçe                     
 335   | Mosques                                  | Camiler                                  | Buildings for Islamic religious events.                         | İslami dini etkinlikler için binalar.
 336   | Empire                                   | İmparatorluk                             | A large group of countries ruled by one person.                 | Bir kişi tarafından yönetilen büyük bir ülke grubu.
 337   | Empires                                  | İmparatorluklar                          | Large groups of countries ruled by one person.                  | Bir kişi tarafından yönetilen büyük ülke grupları.
+338   | Local                                    | Yerli / Bölgesel                         | Belonging to a particular area or neighborhood.                 | Belirli bir bölgeye veya mahalleye ait olan.
+339   | Locals                                   | Yerliler                                 | People who live in a particular area.                           | Belirli bir bölgede yaşayan insanlar.
+340   | Chef                                     | Aşçı / Şef                               | A professional cook.                                            | Profesyonel bir aşçı.
+341   | Chefs                                    | Aşçılar / Şefler                         | Professional cooks.                                             | Profesyonel aşçılar.
+342   | Combine                                  | Birleştirmek / Karıştırmak               | To put two or more things together.                             | İki veya daha fazla şeyi bir araya getirmek.
+343   | Ingredient                               | İçerik / Malzeme                         | One of the things used to make a food or dish.                  | Bir yiyecek veya yemek yapmak için kullanılan şeylerden biri.
+344   | Ingredients                              | İçerikler / Malzemeler                   | The things used to make a food or dish.                         | Bir yiyecek veya yemek yapmak için kullanılan şeyler.
+345   | Contemporary                             | Çağdaş / Modern                          | Belonging to the present time.                                  | Şimdiki zamana ait olan.
+346   | Technique                                | Teknik / Yöntem                          | A special way of doing something.                               | Bir şeyi yapmanın özel bir yolu.
+347   | Techniques                               | Teknikler / Yöntemler                    | Special ways of doing things.                                   | Bir şeyleri yapmanın özel yolları.
+348   | Fundamental                              | Temel / Esas                             | Basic and very important.                                       | Temel ve çok önemli olan.
+349   | Fundamentals                             | Temeller / Esaslar                       | The basic and most important parts of something.                | Bir şeyin temel ve en önemli kısımları.
+350   | Cuisine                                  | Mutfak (Kültürü)                         | A style of cooking.                                             | Bir yemek pişirme tarzı.
+351   | Cuisines                                 | Mutfaklar (Kültürleri)                   | Different styles of cooking.                                    | Farklı yemek pişirme tarzları.
+352   | Field-to-table                           | Tarladan sofraya                         | Food brought directly from a farm to be eaten.                  | Doğrudan çiftlikten getirilip yenen yiyecek.
+353   | Traditional                              | Geleneksel                               | Following older methods and ideas.                              | Eski yöntemleri ve fikirleri takip eden.
+354   | Unique                                   | Eşsiz / Benzersiz                        | Being the only one of its kind.                                 | Türünün tek örneği olan.
+355   | Purchase                                 | Satın almak / Alım                       | To buy something.                                               | Bir şey satın almak.
+356   | Purchases                                | Satın alımlar / Alışverişler             | Things that you have bought.                                    | Satın aldığın şeyler.
+357   | Unmissable                               | Kaçırılmaması gereken                    | So good that you must see or do it.                             | O kadar iyi ki görmen veya yapman gereken.
+358   | Accommodation                            | Konaklama (Yeri)                         | A place to live, work, or stay in.                              | Yaşamak, çalışmak veya kalmak için bir yer.
+359   | Accommodations                           | Konaklama yerleri                        | Places to live, work, or stay in.                               | Yaşamak, çalışmak veya kalmak için yerler.
+360   | Tuition                                  | Okul taksiti / Öğretim ücreti            | Money paid to go to a school.                                   | Bir okula gitmek için ödenen para.
+361   | Evidence                                 | Kanıt / Delil                            | Facts or signs that show something is true.                     | Bir şeyin doğru olduğunu gösteren gerçekler veya işaretler.
+362   | Prediction                               | Tahmin / Öngörü                          | A guess about what will happen in the future.                   | Gelecekte ne olacağına dair bir tahmin.
+363   | Predictions                              | Tahminler / Öngörüler                    | Guesses about what will happen in the future.                   | Gelecekte ne olacağına dair tahminler.
+364   | Intention                                | Niyet / Amaç                             | Something that you want and plan to do.                         | Yapmak istediğin ve planladığın şey.
+365   | Intentions                               | Niyetler / Amaçlar                       | Things that you want and plan to do.                            | Yapmak istediğin ve planladığın şeyler.
+366   | Look out!                                | Dikkat et!                               | Said to warn someone of danger.                                 | Birini tehlikeye karşı uyarmak için söylenir.
+367   | Decision                                 | Karar                                    | A choice that you make.                                         | Yaptığın bir seçim.
+368   | Decisions                                | Kararlar                                 | Choices that you make.                                          | Yaptığın seçimler.
+369   | Weak                                     | Zayıf / Güçsüz                           | Not physically strong.                                          | Fiziksel olarak güçlü olmayan.
+370   | Instant                                  | Anlık / Hazır                            | Happening immediately.                                          | Hemen gerçekleşen.
+371   | Instants                                 | Anlar / Lahzalar                         | Very short periods of time.                                     | Çok kısa zaman dilimleri.
+372   | Suppose                                  | Varsaymak / Sanmak                       | To think that something is likely to be true.                   | Bir şeyin doğru olmasının muhtemel olduğunu düşünmek.
+373   | Virtual reality                          | Sanal gerçeklik                          | A world created by computers that looks and feels real.         | Bilgisayarlar tarafından yaratılan, gerçek gibi görünen dünya.
+374   | Planet                                   | Gezegen                                  | A large, round object in space that moves around a sun.         | Uzayda bir güneşin etrafında dönen büyük, yuvarlak nesne.
+375   | Planets                                  | Gezegenler                               | Large, round objects in space that move around a sun.           | Uzayda bir güneşin etrafında dönen büyük, yuvarlak nesneler.
+376   | Crowded                                  | Kalabalık                                | Full of people.                                                 | İnsanlarla dolu.
+377   | Optimistic                               | İyimser                                  | Hoping or believing that good things will happen.               | İyi şeylerin olacağını uman veya buna inanan.
+378   | Pessimist                                | Kötümser (Kişi)                          | A person who always expects bad things to happen.               | Her zaman kötü şeylerin olmasını bekleyen kişi.
+379   | Pessimists                               | Kötümserler                              | People who always expect bad things to happen.                  | Her zaman kötü şeylerin olmasını bekleyen kişiler.
+380   | Introduction                             | Tanıtım / Giriş                          | The first part of a book or speech.                             | Bir kitabın veya konuşmanın ilk kısmı.
+381   | Introductions                            | Tanıtımlar / Girişler                    | The first parts of books or speeches.                           | Kitapların veya konuşmaların ilk kısımları.
+382   | Warm-up                                  | Isınma                                   | Exercises done before a sport or activity.                      | Bir spor veya aktiviteden önce yapılan egzersizler.
+383   | Warm-ups                                 | Isınmalar                                | Sets of exercises done before sports.                           | Sporlardan önce yapılan egzersiz setleri.
+384   | Charger                                  | Şarj aleti                               | A piece of equipment used to put electricity into a battery.    | Bataryaya elektrik yüklemek için kullanılan alet.
+385   | Chargers                                 | Şarj aletleri                            | Pieces of equipment used to put electricity into batteries.     | Bataryalara elektrik yüklemek için kullanılan aletler.
+386   | Battery                                  | Pil / Batarya                            | An object that provides electricity for things like radios.     | Radyo gibi şeylere elektrik sağlayan nesne.
+387   | Batteries                                | Piller / Bataryalar                      | Objects that provide electricity.                               | Elektrik sağlayan nesneler.
+388   | Several                                  | Birkaç / Çeşitli                         | More than two but not many.                                     | İkiden fazla ama çok değil.
+389   | Advice                                   | Tavsiye / Öğüt                           | Ideas given to someone about what they should do.               | Birine ne yapması gerektiği hakkında verilen fikirler.
+390   | Fruit                                    | Meyve                                    | The sweet part of a plant or tree that contains seeds.          | Bitkinin veya ağacın tohum içeren tatlı kısmı.
+391   | Fruits                                   | Meyveler                                 | Sweet parts of plants or trees.                                 | Bitkilerin veya ağaçların tatlı kısımları.
+392   | Water                                    | Su                                       | The clear liquid that falls from the sky as rain.               | Gökten yağmur olarak düşen berrak sıvı.
+393   | Tea                                      | Çay                                      | A hot drink made by pouring boiling water onto dried leaves.    | Kurutulmuş yaprakların üzerine kaynar su dökülerek yapılan içecek.
+394   | Bread                                    | Ekmek                                    | A basic food made from flour, water, and yeast baked together.  | Un, su ve mayanın birlikte pişirilmesiyle yapılan temel yiyecek.
+395   | Fish                                     | Balık / Balıklar                         | An animal that lives in water and swims.                        | Suda yaşayan ve yüzen hayvan.
+396   | Pea                                      | Bezelye                                  | A round, green seed eaten as a vegetable.                       | Sebze olarak yenen yuvarlak, yeşil tohum.
+397   | Peas                                     | Bezelyeler                               | Round, green seeds eaten as vegetables.                         | Sebze olarak yenen yuvarlak, yeşil tohumlar.
+398   | Soup                                     | Çorba                                    | A hot, liquid food made from meat or vegetables.                | Et veya sebzelerden yapılan sıcak, sıvı yiyecek.
+399   | Soups                                    | Çorbalar                                 | Hot, liquid foods made from meat or vegetables.                 | Et veya sebzelerden yapılan sıcak, sıvı yiyecekler.
+400   | Soda                                     | Gazoz / Maden suyu                       | A sweet drink with bubbles.                                     | Baloncuklu (gazlı) tatlı içecek.
+401   | Sodas                                    | Gazozlar / Maden suları                  | Sweet drinks with bubbles.                                      | Baloncuklu (gazlı) tatlı içecekler.
+402   | Honey                                    | Bal                                      | A sweet, sticky, yellow food made by bees.                      | Arılar tarafından yapılan tatlı, yapışkan, sarı yiyecek.
+403   | Sense                                    | Duyu / His                               | One of the five powers (sight, hearing, etc.) of the body.      | Vücudun beş gücünden (görme, duyma vb.) biri.
+404   | Senses                                   | Duyular / Hisler                         | The powers of the body to see, hear, smell, taste, and feel.    | Vücudun görme, duyma, koklama, tatma ve hissetme güçleri.
+405   | Information                              | Bilgi                                    | Facts or details about a person, company, or event.             | Bir kişi, şirket veya olay hakkındaki gerçekler veya detaylar.
+406   | Pepper                                   | Karabiber / Biber                        | A powder or vegetable used to give food a spicy flavor.         | Yemeğe baharatlı bir tat vermek için kullanılan toz veya sebze.
+407   | Peppers                                  | Biberler                                 | Vegetables used to give food flavor.                            | Yemeğe tat vermek için kullanılan sebzeler.
+408   | Spice                                    | Baharat                                  | A substance made from a plant, used to give flavor to food.     | Yemeğe tat vermek için kullanılan, bitkiden yapılan madde.
+409   | Spices                                   | Baharatlar                               | Substances made from plants, used to give flavor to food.       | Yemeğe tat vermek için kullanılan, bitkilerden yapılan maddeler.
+410   | Music                                    | Müzik                                    | Sounds that are sung or played on instruments.                  | Söylenen veya enstrümanlarla çalınan sesler.
+411   | Soap                                     | Sabun                                    | A substance used for washing the body or other things.          | Vücudu veya başka şeyleri yıkamak için kullanılan madde.
+412   | Soaps                                    | Sabunlar                                 | Substances used for washing.                                    | Yıkamak için kullanılan maddeler.
+413   | Meat                                     | Et                                       | The flesh of an animal used as food.                            | Yiyecek olarak kullanılan hayvan eti.
+414   | Bean                                     | Fasulye                                  | A seed of various climbing plants, eaten as a vegetable.        | Sebze olarak yenen çeşitli tırmanıcı bitkilerin tohumu.
+415   | Beans                                    | Fasulyeler                               | Seeds of climbing plants eaten as vegetables.                   | Sebze olarak yenen tırmanıcı bitkilerin tohumları.
+416   | Wisdom                                   | Bilgelik / Akıl                          | The ability to use your knowledge to make good decisions.       | İyi kararlar vermek için bilgini kullanma yeteneği.
+417   | Jam                                      | Reçel                                    | A sweet food made from fruit and sugar.                         | Meyve ve şekerden yapılan tatlı yiyecek.
+418   | Jams                                     | Reçeller                                 | Sweet foods made from fruit and sugar.                          | Meyve ve şekerden yapılan tatlı yiyecekler.
+419   | Juice                                    | Meyve suyu                               | The liquid that comes from fruit or vegetables.                 | Meyve veya sebzelerden elde edilen sıvı.
+420   | Juices                                   | Meyve suları                             | Liquids that come from fruit or vegetables.                     | Meyve veya sebzelerden elde edilen sıvılar.
+421   | Either                                   | İkisinden biri / Ya (o ya bu)            | One or the other of two people or things.                       | İki kişi veya şeyden biri veya diğeri.
+422   | Neither                                  | İkisi de değil / Ne (o ne bu)            | Not one and not the other of two things.                        | İki şeyden biri de değil, diğeri de değil.
+423   | Picnic                                   | Piknik                                   | A meal eaten outside, often in a park or forest.                | Genellikle parkta veya ormanda dışarıda yenen yemek.
+424   | Picnics                                  | Piknikler                                | Meals eaten outside.                                            | Dışarıda yenen yemekler.
+425   | Egg                                      | Yumurta                                  | An oval object produced by a female bird, eaten as food.        | Dişi bir kuş tarafından üretilen, yiyecek olarak yenen oval nesne.
+426   | Eggs                                     | Yumurtalar                               | Oval objects produced by female birds, eaten as food.           | Dişi kuşlar tarafından üretilen yiyecek olarak yenen nesneler.
+427   | Bag                                      | Çanta / Torba                            | A soft container made out of paper or cloth.                    | Kağıt veya kumaştan yapılmış yumuşak kap.
+428   | Bags                                     | Çantalar / Torbalar                      | Soft containers made out of paper or cloth.                     | Kağıt veya kumaştan yapılmış yumuşak kaplar.
+429   | Sugar                                    | Şeker                                    | A sweet, white or brown powder used to make food sweet.         | Yiyecekleri tatlandırmak için kullanılan tatlı toz.
+430   | Hardly                                   | Neredeyse hiç / Zar zor                  | Almost not, or only a very small amount.                        | Neredeyse hiç veya sadece çok küçük bir miktar.
+431   | Almost                                   | Neredeyse / Hemen hemen                  | Nearly, but not completely.                                     | Neredeyse, ama tamamen değil.
+432   | Only                                     | Sadece / Yalnızca                        | Nothing or no one else.                                         | Başka hiçbir şey veya hiç kimse.
+433   | Mistake                                  | Hata / Yanlış                            | An action or decision that is wrong.                            | Yanlış olan bir eylem veya karar.
+434   | Mistakes                                 | Hatalar / Yanlışlar                      | Actions or decisions that are wrong.                            | Yanlış olan eylemler veya kararlar.
+435   | Hard disc                                | Sabit disk                               | A part of a computer that stores information.                   | Bilgisayarın bilgi depolayan kısmı.
+436   | Hard discs                               | Sabit diskler                            | Parts of computers that store information.                      | Bilgisayarların bilgi depolayan kısımları.
+437   | Decide                                   | Karar vermek                             | To choose something after thinking about it.                    | Düşündükten sonra bir şeyi seçmek.
+438   | Quantifier                               | Miktar belirteci                         | A word or phrase that tells how much or how many.               | Ne kadar veya kaç tane olduğunu söyleyen kelime.
+439   | Quantifiers                              | Miktar belirteçleri                      | Words or phrases that tell how much or how many.                | Ne kadar veya kaç tane olduğunu söyleyen kelimeler.
+440   | Marathon                                 | Maraton                                  | A very long running race.                                       | Çok uzun bir koşu yarışı.
+441   | Marathons                                | Maratonlar                               | Very long running races.                                        | Çok uzun koşu yarışları.
+442   | Installation                             | Kurulum / Tesisat                        | The act of putting something into place so you can use it.      | Bir şeyi kullanabilmen için yerine yerleştirme eylemi.
+443   | Installations                            | Kurulumlar / Tesisatlar                  | Systems or things put in a place for use.                       | Kullanım için bir yere yerleştirilen sistemler veya şeyler.
+444   | Pretty                                   | Hoş / Oldukça                            | Nice to look at, or quite (much).                               | Bakması hoş veya oldukça (fazla).
+445   | Strong                                   | Güçlü / Kuvvetli                         | Having a lot of physical power.                                 | Fiziksel olarak çok fazla güce sahip olan.
+446   | Treat                                    | İkram / Davranmak                        | Something special that you give someone, or how you act.        | Birine verdiğin özel bir şey veya ona karşı davranış şeklin.
+447   | Treats                                   | İkramlar                                 | Special things that you give to someone.                        | Birine verdiğin özel şeyler.
+448   | Choice                                   | Seçenek / Seçim                          | An act of choosing between two or more possibilities.           | İki veya daha fazla olasılık arasından seçim yapma eylemi.
+449   | Choices                                  | Seçenekler / Seçimler                    | Acts of choosing between possibilities.                         | Olasılıklar arasından seçim yapma eylemleri.
+450   | Opposite                                 | Zıt / Karşısında                         | Completely different, or on the other side.                     | Tamamen farklı veya diğer tarafta olan.
+451   | In front of                              | Önünde                                   | Further forward than someone or something.                      | Birinden veya bir şeyden daha ileride/önde.
+452   | Next to                                  | Bitişiğinde / Yanında                    | Beside someone or something.                                    | Birinin veya bir şeyin yanı.
+453   | On                                       | Üzerinde                                 | Touching a surface.                                             | Bir yüzeye temas eden/üzerinde.
+454   | Beside                                   | Yanında                                  | Next to or very close to something.                             | Bir şeyin bitişiğinde veya çok yakınında.
+455   | Up                                       | Yukarı                                   | Toward a higher position.                                       | Daha yüksek bir konuma doğru.
+456   | From ... to                              | ...'den ...'e                            | Used to show the start and end of something.                    | Bir şeyin başlangıcını ve sonunu göstermek için kullanılır.
+457   | Forward                                  | İleriye                                  | Toward the direction that is in front of you.                   | Önündeki yöne doğru.
+458   | Backward                                 | Geriye                                   | Toward the direction that is behind you.                        | Arkandaki yöne doğru.
+459   | Down                                     | Aşağı                                    | Toward a lower position.                                        | Daha düşük bir konuma doğru.
+460   | Imperative                               | Emir / Zorunluluk                        | Extremely important or urgent, or a command.                    | Son derece önemli veya acil, ya da bir emir.
+461   | Imperatives                              | Emirler / Zorunluluklar                  | Commands or extremely important things.                         | Emirler veya son derece önemli olan şeyler.
+462   | Instruction                              | Talimat / Yönerge                        | Information about how to do or use something.                   | Bir şeyin nasıl yapılacağı veya kullanılacağı hakkında bilgi.
+463   | Instructions                             | Talimatlar / Yönergeler                  | Detailed information about how to do or use something.          | Bir şeyin nasıl kullanılacağı hakkında detaylı bilgiler.
+464   | Quite                                    | Oldukça / Epey                           | A little or a lot but not completely.                           | Biraz veya çok ama tamamen değil.
+465   | Polite                                   | Kibar / Nazik                            | Behaving in a way that is socially correct and shows respect.   | Sosyal olarak doğru olan ve saygı gösteren bir şekilde davranmak.
+466   | Knee                                     | Diz                                      | The middle joint of the leg.                                    | Bacağın orta eklemi.
+467   | Knees                                    | Dizler                                   | The middle joints of the legs.                                  | Bacakların orta eklemleri.
+468   | Arm                                      | Kol                                      | The long part of the body between the shoulder and the hand.    | Vücudun omuz ve el arasındaki uzun kısmı.
+469   | Arms                                     | Kollar                                   | The long parts of the body between the shoulders and the hands. | Vücudun omuzlar ve eller arasındaki uzun kısımları.
+470   | Repeat                                   | Tekrar etmek                             | To say or do something again.                                   | Bir şeyi tekrar söylemek veya yapmak.
+471   | Above                                    | Üzerinde / Yukarısında                   | In a higher position than something else.                       | Başka bir şeyden daha yüksek bir konumda.
+472   | Variety                                  | Çeşitlilik / Çeşit                       | A lot of different things of the same type.                     | Aynı türden birçok farklı şey.
+473   | Varieties                                | Çeşitler                                 | Different types of things.                                      | Şeylerin farklı türleri.
+474   | Prompt decision                          | Hızlı karar                              | A choice made quickly without delay.                            | Gecikmeden hızlıca yapılan seçim.
+475   | Prompt decisions                         | Hızlı kararlar                           | Choices made quickly without delay.                             | Gecikmeden hızlıca yapılan seçimler.
+476   | Determined                               | Kararlı / Azimli                         | Wanting to do something very much.                              | Bir şeyi yapmayı çok istemek ve pes etmemek.
