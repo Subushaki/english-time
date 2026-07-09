@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#1e1b4b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#09090b;stop-opacity:1" />
+    </radialGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1" />
+      <stop offset="50%" style="stop-color:#a855f7" />
+      <stop offset="100%" style="stop-color:#ec4899" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Card -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" stroke="#1f2937" stroke-width="4"/>
+
+  <!-- Ambient Glow behind the logo -->
+  <circle cx="256" cy="256" r="160" fill="url(#accentGrad)" opacity="0.15" filter="url(#glow)"/>
+
+  <!-- Outer Ring (Clock Outline) -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="url(#accentGrad)" stroke-width="12" stroke-dasharray="8 6" opacity="0.6"/>
+
+  <!-- Group with Glow -->
+  <g filter="url(#glow)">
+    <!-- Open Book Vector -->
+    <path d="M256,390 C216,340 144,340 96,340 L96,160 C144,160 216,160 256,210 C296,160 368,160 416,160 L416,340 C368,340 296,340 256,390 Z" 
+          fill="none" stroke="url(#accentGrad)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Book Center Line -->
+    <line x1="256" y1="210" x2="256" y2="390" stroke="url(#accentGrad)" stroke-width="20" stroke-linecap="round"/>
+
+    <!-- Clock Hands (overlay on the book) -->
+    <!-- Center pivot -->
+    <circle cx="256" cy="270" r="12" fill="#ffffff" />
+    <!-- Minute hand (pointing up-right) -->
+    <line x1="256" y1="270" x2="310" y2="230" stroke="#ffffff" stroke-width="8" stroke-linecap="round" />
+    <!-- Hour hand (pointing down-right) -->
+    <line x1="256" y1="270" x2="290" y2="290" stroke="#ffffff" stroke-width="10" stroke-linecap="round" />
+  </g>
+
+  <!-- Glowing Corner Accents -->
+  <circle cx="96" cy="96" r="8" fill="#6366f1" opacity="0.8"/>
+  <circle cx="416" cy="96" r="8" fill="#ec4899" opacity="0.8"/>
+  <circle cx="96" cy="416" r="8" fill="#ec4899" opacity="0.8"/>
+  <circle cx="416" cy="416" r="8" fill="#6366f1" opacity="0.8"/>
+</svg>

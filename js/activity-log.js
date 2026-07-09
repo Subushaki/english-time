@@ -13,14 +13,23 @@
       if (!user || !user.id) return;
 
       const sb = typeof getSupabase === 'function' ? getSupabase() : null;
-      if (!sb) return;
-
-      await sb.from('user_activity_log').insert({
+      const logData = {
         user_id: user.id,
         action: action,
         details: typeof details === 'object' ? JSON.stringify(details) : (details || null),
         page: window.location.pathname.split('/').pop() || 'unknown'
-      });
+      };
+
+      if (!navigator.onLine) {
+        if (typeof OfflineSync !== 'undefined') {
+          OfflineSync.enqueue('user_activity_log', 'insert', logData);
+        }
+        return;
+      }
+
+      if (!sb) return;
+
+      await sb.from('user_activity_log').insert(logData);
     } catch (e) {
       // Silent — activity logging should never break the app
     }

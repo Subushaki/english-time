@@ -31,6 +31,20 @@ async function getCurrentUser() {
     const stored = localStorage.getItem(SESSION_KEY);
     if (!stored) return null;
     const user = JSON.parse(stored);
+
+    // If offline, bypass DB check and return the stored user immediately
+    if (!navigator.onLine) {
+      const lastSeenKey = 'english_time_last_seen_' + user.id;
+      const lastUpdate = localStorage.getItem(lastSeenKey);
+      if (!lastUpdate || Date.now() - parseInt(lastUpdate) > 5 * 60 * 1000) {
+        if (typeof OfflineSync !== 'undefined') {
+          OfflineSync.enqueue('profiles', 'update', { last_seen: new Date().toISOString() }, { id: user.id });
+          localStorage.setItem(lastSeenKey, Date.now().toString());
+        }
+      }
+      return user;
+    }
+
     // Verify user still exists in DB
     const sb = getSupabase();
     if (!sb) return user; // offline fallback

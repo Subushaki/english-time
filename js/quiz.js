@@ -333,18 +333,24 @@
 
         // Önceki oturumu tamamla (kullanıcı devam etmek istemedi)
         if (pendingPreviousSession && pendingPreviousSession.sessionId) {
-          try {
-            const prev = pendingPreviousSession;
-            await sb.from('quiz_sessions').update({
-              status: 'completed',
-              first_try_count: prev.stats.firstTry,
-              retry_count: prev.stats.retry,
-              hard_count: prev.stats.hard,
-              unknown_count: prev.stats.unknown,
-              completed_at: new Date().toISOString()
-            }).eq('id', prev.sessionId);
-            sessionStorage.removeItem('cachedWordResults_' + user.id);
-          } catch (ex) { /* silent */ }
+          const prev = pendingPreviousSession;
+          const prevUpdateData = {
+            status: 'completed',
+            first_try_count: prev.stats.firstTry,
+            retry_count: prev.stats.retry,
+            hard_count: prev.stats.hard,
+            unknown_count: prev.stats.unknown,
+            completed_at: new Date().toISOString()
+          };
+
+          if (!navigator.onLine) {
+            OfflineSync.enqueue('quiz_sessions', 'update', prevUpdateData, { id: prev.sessionId });
+          } else {
+            try {
+              await sb.from('quiz_sessions').update(prevUpdateData).eq('id', prev.sessionId);
+              sessionStorage.removeItem('cachedWordResults_' + user.id);
+            } catch (ex) { /* silent */ }
+          }
           pendingPreviousSession = null;
         }
 
@@ -352,12 +358,24 @@
         if (sessionId) return;
 
         const params = new URLSearchParams(window.location.search);
-        const { data } = await sb.from('quiz_sessions').insert({
+        const sessionData = {
           user_id: user.id,
           level: params.get('level') || 'a2',
           mode: params.get('mode') || 'en-tr',
           status: 'in_progress'
-        }).select().single();
+        };
+
+        if (!navigator.onLine) {
+          // Generate a temp session ID and enqueue the insertion
+          const tempSessionId = 'local-session-' + Date.now() + '-' + Math.floor(Math.random() * 100000);
+          sessionData.id = tempSessionId;
+          OfflineSync.enqueue('quiz_sessions', 'insert', sessionData);
+          sessionId = tempSessionId;
+          console.log('[Offline] Initialized local quiz session:', sessionId);
+          return;
+        }
+
+        const { data } = await sb.from('quiz_sessions').insert(sessionData).select().single();
         if (data) sessionId = data.id;
       }
     } catch (e) { /* silent */ }
@@ -365,14 +383,40 @@
 
   async function saveWordResult(wordId, result) {
     if (!loggedInUser || !sessionId) return;
+    
+    const wordResultData = {
+      user_id: loggedInUser.id,
+      session_id: sessionId,
+      word_id: wordId,
+      result: result
+    };
+
+    if (!navigator.onLine) {
+      OfflineSync.enqueue('word_results', 'insert', wordResultData);
+      
+      if (result === 'first_try') {
+        OfflineSync.enqueue('study_words', 'update', {
+          starred: false,
+          mastered: true
+        }, { user_id: loggedInUser.id, word_id: wordId });
+      }
+      
+      if (result === 'unknown') {
+        OfflineSync.enqueue('study_words', 'upsert', {
+          user_id: loggedInUser.id,
+          word_id: wordId,
+          times_failed: 1,
+          last_failed_at: new Date().toISOString(),
+          mastered: false,
+          starred: true
+        }, null, { onConflict: 'user_id,word_id' });
+      }
+      return;
+    }
+
     try {
       const sb = getSupabase();
-      await sb.from('word_results').insert({
-        user_id: loggedInUser.id,
-        session_id: sessionId,
-        word_id: wordId,
-        result: result
-      });
+      await sb.from('word_results').insert(wordResultData);
 
       // İlk seferde doğru → yıldızı kaldır, mastered yap
       if (result === 'first_try') {
@@ -399,38 +443,56 @@
   // Auto-star word on any wrong answer
   async function starWord(wordId) {
     if (!loggedInUser) return;
+
+    const studyWordData = {
+      user_id: loggedInUser.id,
+      word_id: wordId,
+      starred: true,
+      last_failed_at: new Date().toISOString(),
+      mastered: false
+    };
+
+    if (!navigator.onLine) {
+      OfflineSync.enqueue('study_words', 'upsert', studyWordData, null, { onConflict: 'user_id,word_id' });
+      return;
+    }
+
     try {
       const sb = getSupabase();
-      await sb.from('study_words').upsert({
-        user_id: loggedInUser.id,
-        word_id: wordId,
-        starred: true,
-        last_failed_at: new Date().toISOString(),
-        mastered: false
-      }, { onConflict: 'user_id,word_id' });
+      await sb.from('study_words').upsert(studyWordData, { onConflict: 'user_id,word_id' });
     } catch (e) { /* silent */ }
   }
 
   // Toggle star (for results screen)
   window.toggleStar = async function (wordId, btn) {
     if (!loggedInUser) return;
-    const sb = getSupabase();
     const isStarred = btn.classList.contains('starred');
 
     if (isStarred) {
       // Unstar
-      await sb.from('study_words').update({ starred: false })
-        .eq('user_id', loggedInUser.id).eq('word_id', wordId);
+      if (!navigator.onLine) {
+        OfflineSync.enqueue('study_words', 'update', { starred: false }, { user_id: loggedInUser.id, word_id: wordId });
+      } else {
+        const sb = getSupabase();
+        await sb.from('study_words').update({ starred: false })
+          .eq('user_id', loggedInUser.id).eq('word_id', wordId);
+      }
       btn.classList.remove('starred');
       btn.textContent = '☆';
     } else {
       // Star
-      await sb.from('study_words').upsert({
+      const studyWordData = {
         user_id: loggedInUser.id,
         word_id: wordId,
         starred: true,
         mastered: false
-      }, { onConflict: 'user_id,word_id' });
+      };
+      if (!navigator.onLine) {
+        OfflineSync.enqueue('study_words', 'upsert', studyWordData, null, { onConflict: 'user_id,word_id' });
+      } else {
+        const sb = getSupabase();
+        await sb.from('study_words').upsert(studyWordData, { onConflict: 'user_id,word_id' });
+      }
       btn.classList.add('starred');
       btn.textContent = '★';
     }
@@ -438,19 +500,27 @@
 
   async function saveSessionComplete() {
     if (!loggedInUser || !sessionId) return;
+    
+    // Clear session cache to force re-fetch when online
+    sessionStorage.removeItem('cachedWordResults_' + loggedInUser.id);
+
+    const sessionUpdateData = {
+      status: 'completed',
+      first_try_count: stats.firstTry,
+      retry_count: stats.retry,
+      hard_count: stats.hard,
+      unknown_count: stats.unknown,
+      completed_at: new Date().toISOString()
+    };
+
+    if (!navigator.onLine) {
+      OfflineSync.enqueue('quiz_sessions', 'update', sessionUpdateData, { id: sessionId });
+      return;
+    }
+
     try {
-      // CLEAR CACHE TO RE-SYNC WITH DB
-      sessionStorage.removeItem('cachedWordResults_' + loggedInUser.id);
-      
       const sb = getSupabase();
-      await sb.from('quiz_sessions').update({
-        status: 'completed',
-        first_try_count: stats.firstTry,
-        retry_count: stats.retry,
-        hard_count: stats.hard,
-        unknown_count: stats.unknown,
-        completed_at: new Date().toISOString()
-      }).eq('id', sessionId);
+      await sb.from('quiz_sessions').update(sessionUpdateData).eq('id', sessionId);
     } catch (e) { /* silent */ }
   }
 
