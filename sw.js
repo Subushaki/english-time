@@ -80,6 +80,19 @@ self.addEventListener('activate', event => {
   );
 });
 
+// Clean up redirected responses to avoid browser navigation errors
+function cleanResponse(response) {
+  if (!response || !response.redirected) {
+    return response;
+  }
+  // Recreate the response object without the 'redirected' flag
+  return new Response(response.body, {
+    status: response.status,
+    statusText: response.statusText,
+    headers: response.headers
+  });
+}
+
 // Fetch event listener
 self.addEventListener('fetch', event => {
   const url = new URL(event.request.url);
@@ -97,10 +110,12 @@ self.addEventListener('fetch', event => {
       fetch(event.request)
         .then(response => {
           if (response.status === 200) {
-            const responseClone = response.clone();
+            const cleaned = cleanResponse(response);
+            const responseClone = cleaned.clone();
             caches.open(DATA_CACHE_NAME).then(cache => {
               cache.put(event.request, responseClone);
             });
+            return cleaned;
           }
           return response;
         })
@@ -125,8 +140,9 @@ self.addEventListener('fetch', event => {
         // Serve from cache, but fetch in background to refresh cache in case of updates
         fetch(event.request).then(networkResponse => {
           if (networkResponse.status === 200) {
+            const cleanRes = cleanResponse(networkResponse);
             caches.open(CACHE_NAME).then(cache => {
-              cache.put(event.request, networkResponse);
+              cache.put(event.request, cleanRes);
             });
           }
         }).catch(() => { /* Ignore background fetch errors */ });
@@ -151,12 +167,13 @@ self.addEventListener('fetch', event => {
           return response;
         }
 
-        const responseToCache = response.clone();
+        const cleanedResponse = cleanResponse(response);
+        const responseToCache = cleanedResponse.clone();
         caches.open(CACHE_NAME).then(cache => {
           cache.put(event.request, responseToCache);
         });
 
-        return response;
+        return cleanedResponse;
       });
     })
   );
