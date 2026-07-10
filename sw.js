@@ -81,12 +81,13 @@ self.addEventListener('activate', event => {
 });
 
 // Clean up redirected responses to avoid browser navigation errors
-function cleanResponse(response) {
+async function cleanResponse(response) {
   if (!response || !response.redirected) {
     return response;
   }
+  const blob = await response.blob();
   // Recreate the response object without the 'redirected' flag
-  return new Response(response.body, {
+  return new Response(blob, {
     status: response.status,
     statusText: response.statusText,
     headers: response.headers
@@ -108,9 +109,9 @@ self.addEventListener('fetch', event => {
   if (isVocabFile) {
     event.respondWith(
       fetch(event.request)
-        .then(response => {
+        .then(async response => {
           if (response.status === 200) {
-            const cleaned = cleanResponse(response);
+            const cleaned = await cleanResponse(response);
             const responseClone = cleaned.clone();
             caches.open(DATA_CACHE_NAME).then(cache => {
               cache.put(event.request, responseClone);
@@ -138,9 +139,9 @@ self.addEventListener('fetch', event => {
     caches.match(event.request).then(cachedResponse => {
       if (cachedResponse) {
         // Serve from cache, but fetch in background to refresh cache in case of updates
-        fetch(event.request).then(networkResponse => {
+        fetch(event.request).then(async networkResponse => {
           if (networkResponse.status === 200) {
-            const cleanRes = cleanResponse(networkResponse);
+            const cleanRes = await cleanResponse(networkResponse);
             caches.open(CACHE_NAME).then(cache => {
               cache.put(event.request, cleanRes);
             });
@@ -151,7 +152,7 @@ self.addEventListener('fetch', event => {
       }
 
       // If not in cache, fetch from network and dynamically cache
-      return fetch(event.request).then(response => {
+      return fetch(event.request).then(async response => {
         if (!response || response.status !== 200) {
           return response;
         }
@@ -167,7 +168,7 @@ self.addEventListener('fetch', event => {
           return response;
         }
 
-        const cleanedResponse = cleanResponse(response);
+        const cleanedResponse = await cleanResponse(response);
         const responseToCache = cleanedResponse.clone();
         caches.open(CACHE_NAME).then(cache => {
           cache.put(event.request, responseToCache);
