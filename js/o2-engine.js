@@ -1,5 +1,5 @@
 // ===== O2 OXYGEN — ARAMA MOTORU =====
-// Client-side search engine for English Time platform.
+// Client-side search engine for Personel Notebook platform.
 // No external APIs — searches O2_DATABASE defined in o2-data.js.
 
 const O2Engine = {

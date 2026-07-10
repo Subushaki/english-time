@@ -1,5 +1,5 @@
-const CACHE_NAME = 'english-time-shell-v1';
-const DATA_CACHE_NAME = 'english-time-data-v1';
+const CACHE_NAME = 'personel-notebook-shell-v1';
+const DATA_CACHE_NAME = 'personel-notebook-data-v1';
 
 const STATIC_ASSETS = [
   '/',

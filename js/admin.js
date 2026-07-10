@@ -83,7 +83,7 @@ async function loadPatchNotes() {
   container.innerHTML = '<div style="color: var(--text-muted); text-align: center;">Yükleniyor...</div>';
   
   try {
-    const res = await fetch('https://api.github.com/repos/Subushaki/english-time/commits?per_page=100');
+    const res = await fetch('https://api.github.com/repos/Subushaki/personel-notebook/commits?per_page=100');
     const commits = await res.json();
     
     if (!Array.isArray(commits)) throw new Error('API Hatası veya Rate Limit');

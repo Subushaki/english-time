@@ -1,7 +1,7 @@
 {
-  "name": "English Time",
-  "short_name": "English Time",
-  "description": "English Time - İngilizce kelime pratik uygulaması. Seviyelere göre kelime quizi çöz ve öğren.",
+  "name": "Personel Notebook",
+  "short_name": "Personel Notebook",
+  "description": "Personel Notebook - İngilizce kelime pratik uygulaması. Seviyelere göre kelime quizi çöz ve öğren.",
   "start_url": "/index.html",
   "display": "standalone",
   "orientation": "portrait-primary",

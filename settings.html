@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="English Time - Ayarlar">
-  <title>English Time | Ayarlar</title>
+  <meta name="description" content="Personel Notebook - Ayarlar">
+  <title>Personel Notebook | Ayarlar</title>
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/components.css">
   <link rel="stylesheet" href="css/settings.css">
@@ -251,7 +251,7 @@
         statusEl.style.color = checked ? 'var(--accent-green)' : 'var(--text-muted)';
         // Update local session
         settingsUser.leaderboard_visible = checked;
-        localStorage.setItem('english_time_user', JSON.stringify(settingsUser));
+        localStorage.setItem('personel_notebook_user', JSON.stringify(settingsUser));
       }
 
       setTimeout(() => { statusEl.textContent = ''; }, 3000);
@@ -279,7 +279,7 @@
         statusEl.style.color = checked ? 'var(--accent-green)' : 'var(--text-muted)';
         // Update local session
         settingsUser.is_private = checked;
-        localStorage.setItem('english_time_user', JSON.stringify(settingsUser));
+        localStorage.setItem('personel_notebook_user', JSON.stringify(settingsUser));
       }
 
       setTimeout(() => { statusEl.textContent = ''; }, 3000);
@@ -325,7 +325,7 @@
           statusDiv.style.color = 'var(--accent-red)';
         } else {
           settingsUser.name_style = fontName;
-          localStorage.setItem('english_time_user', JSON.stringify(settingsUser));
+          localStorage.setItem('personel_notebook_user', JSON.stringify(settingsUser));
           if (typeof window.renderUserBar === 'function') window.renderUserBar(settingsUser);
           statusDiv.textContent = 'Tarzınız başarıyla güncellendi!';
           setTimeout(() => statusDiv.textContent = '', 2500);

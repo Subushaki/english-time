@@ -7,7 +7,7 @@
 
   window.logActivity = async function(action, details) {
     try {
-      const userRaw = localStorage.getItem('english_time_user');
+      const userRaw = localStorage.getItem('personel_notebook_user');
       if (!userRaw) return;
       const user = JSON.parse(userRaw);
       if (!user || !user.id) return;

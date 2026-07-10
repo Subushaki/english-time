@@ -211,7 +211,7 @@ items.forEach(item => {
 
 // Regenerate header
 const newHeader = [];
-newHeader.push(`ENGLISH TIME - A2 GENEL BİRLEŞİK LİSTE (${items.length} Kelime)`);
+newHeader.push(`Personel Notebook - A2 GENEL BİRLEŞİK LİSTE (${items.length} Kelime)`);
 newHeader.push('='.repeat(100));
 newHeader.push('');
 newHeader.push(

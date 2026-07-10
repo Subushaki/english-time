@@ -1,7 +1,7 @@
 // ===== AUTH HELPER =====
 // Simple auth using profiles table directly (no Supabase Auth)
 
-const SESSION_KEY = 'english_time_user';
+const SESSION_KEY = 'personel_notebook_user';
 
 window.getAvatarImgTag = function(filename, fallbackMode = 'text', username = '?') {
   const safeFile = filename ? filename.replace(/'/g, "\\'").replace(/"/g, "&quot;") : '';
@@ -20,7 +20,7 @@ window.getAvatarImgTag = function(filename, fallbackMode = 'text', username = '?
 // Hash password with SHA-256
 async function hashPassword(password) {
   const encoder = new TextEncoder();
-  const data = encoder.encode(password + '_english_time_salt');
+  const data = encoder.encode(password + '_personel_notebook_salt');
   const hash = await crypto.subtle.digest('SHA-256', data);
   return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, '0')).join('');
 }
@@ -34,7 +34,7 @@ async function getCurrentUser() {
 
     // If offline, bypass DB check and return the stored user immediately
     if (!navigator.onLine) {
-      const lastSeenKey = 'english_time_last_seen_' + user.id;
+      const lastSeenKey = 'personel_notebook_last_seen_' + user.id;
       const lastUpdate = localStorage.getItem(lastSeenKey);
       if (!lastUpdate || Date.now() - parseInt(lastUpdate) > 5 * 60 * 1000) {
         if (typeof OfflineSync !== 'undefined') {
@@ -52,7 +52,7 @@ async function getCurrentUser() {
     
     // Background presence update (throttle to once per 5 minutes)
     if (data && data.id) {
-      const lastSeenKey = 'english_time_last_seen_' + data.id;
+      const lastSeenKey = 'personel_notebook_last_seen_' + data.id;
       const lastUpdate = localStorage.getItem(lastSeenKey);
       if (!lastUpdate || Date.now() - parseInt(lastUpdate) > 5 * 60 * 1000) {
         sb.from('profiles').update({ last_seen: new Date().toISOString() }).eq('id', data.id)
@@ -235,7 +235,7 @@ async function updateUserBar() {
           ${navItems}
         </div>
         <div class="burger-panel-footer">
-          <span class="burger-footer-text">📚 English Time</span>
+          <span class="burger-footer-text">📚 Personel Notebook</span>
         </div>
       </div>
     `;
@@ -266,7 +266,7 @@ async function updateUserBar() {
           <a href="login.html" class="burger-nav-item burger-nav-login"><span class="burger-nav-icon">🔑</span> Giriş Yap / Kayıt Ol</a>
         </div>
         <div class="burger-panel-footer">
-          <span class="burger-footer-text">📚 English Time</span>
+          <span class="burger-footer-text">📚 Personel Notebook</span>
         </div>
       </div>
     `;

@@ -344,7 +344,9 @@
           };
 
           if (!navigator.onLine) {
-            OfflineSync.enqueue('quiz_sessions', 'update', prevUpdateData, { id: prev.sessionId });
+            if (typeof OfflineSync !== 'undefined') {
+              OfflineSync.enqueue('quiz_sessions', 'update', prevUpdateData, { id: prev.sessionId });
+            }
           } else {
             try {
               await sb.from('quiz_sessions').update(prevUpdateData).eq('id', prev.sessionId);
@@ -369,7 +371,9 @@
           // Generate a temp session ID and enqueue the insertion
           const tempSessionId = 'local-session-' + Date.now() + '-' + Math.floor(Math.random() * 100000);
           sessionData.id = tempSessionId;
-          OfflineSync.enqueue('quiz_sessions', 'insert', sessionData);
+          if (typeof OfflineSync !== 'undefined') {
+            OfflineSync.enqueue('quiz_sessions', 'insert', sessionData);
+          }
           sessionId = tempSessionId;
           console.log('[Offline] Initialized local quiz session:', sessionId);
           return;
@@ -392,24 +396,26 @@
     };
 
     if (!navigator.onLine) {
-      OfflineSync.enqueue('word_results', 'insert', wordResultData);
-      
-      if (result === 'first_try') {
-        OfflineSync.enqueue('study_words', 'update', {
-          starred: false,
-          mastered: true
-        }, { user_id: loggedInUser.id, word_id: wordId });
-      }
-      
-      if (result === 'unknown') {
-        OfflineSync.enqueue('study_words', 'upsert', {
-          user_id: loggedInUser.id,
-          word_id: wordId,
-          times_failed: 1,
-          last_failed_at: new Date().toISOString(),
-          mastered: false,
-          starred: true
-        }, null, { onConflict: 'user_id,word_id' });
+      if (typeof OfflineSync !== 'undefined') {
+        OfflineSync.enqueue('word_results', 'insert', wordResultData);
+        
+        if (result === 'first_try') {
+          OfflineSync.enqueue('study_words', 'update', {
+            starred: false,
+            mastered: true
+          }, { user_id: loggedInUser.id, word_id: wordId });
+        }
+        
+        if (result === 'unknown') {
+          OfflineSync.enqueue('study_words', 'upsert', {
+            user_id: loggedInUser.id,
+            word_id: wordId,
+            times_failed: 1,
+            last_failed_at: new Date().toISOString(),
+            mastered: false,
+            starred: true
+          }, null, { onConflict: 'user_id,word_id' });
+        }
       }
       return;
     }
@@ -453,7 +459,9 @@
     };
 
     if (!navigator.onLine) {
-      OfflineSync.enqueue('study_words', 'upsert', studyWordData, null, { onConflict: 'user_id,word_id' });
+      if (typeof OfflineSync !== 'undefined') {
+        OfflineSync.enqueue('study_words', 'upsert', studyWordData, null, { onConflict: 'user_id,word_id' });
+      }
       return;
     }
 
@@ -471,7 +479,9 @@
     if (isStarred) {
       // Unstar
       if (!navigator.onLine) {
-        OfflineSync.enqueue('study_words', 'update', { starred: false }, { user_id: loggedInUser.id, word_id: wordId });
+        if (typeof OfflineSync !== 'undefined') {
+          OfflineSync.enqueue('study_words', 'update', { starred: false }, { user_id: loggedInUser.id, word_id: wordId });
+        }
       } else {
         const sb = getSupabase();
         await sb.from('study_words').update({ starred: false })
@@ -488,7 +498,9 @@
         mastered: false
       };
       if (!navigator.onLine) {
-        OfflineSync.enqueue('study_words', 'upsert', studyWordData, null, { onConflict: 'user_id,word_id' });
+        if (typeof OfflineSync !== 'undefined') {
+          OfflineSync.enqueue('study_words', 'upsert', studyWordData, null, { onConflict: 'user_id,word_id' });
+        }
       } else {
         const sb = getSupabase();
         await sb.from('study_words').upsert(studyWordData, { onConflict: 'user_id,word_id' });
@@ -514,7 +526,9 @@
     };
 
     if (!navigator.onLine) {
-      OfflineSync.enqueue('quiz_sessions', 'update', sessionUpdateData, { id: sessionId });
+      if (typeof OfflineSync !== 'undefined') {
+        OfflineSync.enqueue('quiz_sessions', 'update', sessionUpdateData, { id: sessionId });
+      }
       return;
     }
 

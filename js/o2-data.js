@@ -676,7 +676,7 @@ const O2_DATABASE = [
       "📌 Görsel ilişkilendirme: Kelimeyi bir görüntü ile eşleştirin (zihinsel resim).",
       "📌 Kelime grupları: Benzer konudaki kelimeleri birlikte çalışın (ev eşyaları, meslekler vb.).",
       "📌 Aktif kullanım: Öğrendiğiniz kelimeleri günlük konuşmada veya yazıda kullanmaya çalışın.",
-      "📌 Quiz çözün: English Time quizleri tam bunun için tasarlandı! ⚡"
+      "📌 Quiz çözün: Personel Notebook quizleri tam bunun için tasarlandı! ⚡"
     ],
     examples: [],
     related_word_ids: []

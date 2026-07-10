@@ -69,7 +69,7 @@ function isBot() {
   // 6) Linux OS + giriş yapmamış = büyük ihtimalle Vercel CDN/edge crawlerı
   if (/Linux/i.test(ua) && !/Android/i.test(ua)) {
     try {
-      const stored = localStorage.getItem('english_time_user');
+      const stored = localStorage.getItem('personel_notebook_user');
       if (!stored) return true; // Linux + giriş yok = bot
     } catch(e) { return true; }
   }
@@ -77,7 +77,7 @@ function isBot() {
   return false;
 }
 
-// ===== ENGLISH TIME CUSTOM ANALYTICS TRACKER =====
+// ===== Personel Notebook CUSTOM ANALYTICS TRACKER =====
 let pageVisitId = null;
 let pageStartTime = Date.now();
 let trackingInitiated = false; // Çift kayıt önleme kilidi
@@ -95,7 +95,7 @@ async function trackPageVisit() {
   
   let userId = null;
   try {
-    const stored = localStorage.getItem('english_time_user');
+    const stored = localStorage.getItem('personel_notebook_user');
     if (stored) {
       const u = JSON.parse(stored);
       userId = u.id;
@@ -203,7 +203,7 @@ function initPresenceHeartbeat() {
 
   let userId = null;
   try {
-    const stored = localStorage.getItem('english_time_user');
+    const stored = localStorage.getItem('personel_notebook_user');
     if (stored) userId = JSON.parse(stored).id;
   } catch(e) {}
   if (!userId) return;
